@@ -1,0 +1,43 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_28_2025",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": "{\n  \"Evaluation_of_Each_Diagnosis_You_Listed\": {\n    \"Duodenal_perforation_with_retroperitoneal_abscess\": {\n      \"Supports\": \"Right upper quadrant/back pain, duodenal wall thickening, retroperitoneal soft tissue connection to renal hilum, S. anginosus bacteremia.\",\n      \"Against\": \"Lack of free air on CT.\",\n      \"Support_Level\": \"Well-supported\"\n    },\n    \"Streptococcus_anginosus_group_invasive_infection\": {\n      \"Supports\": \"S. anginosus is known to cause visceral abscesses (liver/retroperitoneum), and the patient has jaundice and periportal edema.\",\n      \"Against\": \"MRI failed to confirm a discrete, large abscess cavity.\",\n      \"Support_Level\": \"Well-supported\"\n    },\n    \"Infective_endocarditis\": {\n      \"Supports\": \"S. anginosus bacteremia, persistent fever, embolic phenomenon (IVC/renal vein thrombus).\",\n      \"Against\": \"No murmurs noted, no classic embolic skin lesions.\",\n      \"Support_Level\": \"Weakly supported\"\n    },\n    \"Severe_community_acquired_pneumonia\": {\n      \"Supports\": \"Fever, hypoxemia, patchy pulmonary opacities, productive cough.\",\n      \"Against\": \"Pulmonary opacities are likely embolic or secondary to systemic inflammatory response, as they appeared bilateral and multifocal alongside abdominal findings.\",\n      \"Support_Level\": \"Weakly supported\"\n    },\n    \"Strongyloidiasis_hyperinfection_syndrome\": {\n      \"Supports\": \"Patient from Central America, GI symptoms, respiratory symptoms, sepsis/bacteremia with enteric flora.\",\n      \"Against\": \"No mention of eosinophilia (though this can be absent in sepsis).\",\n      \"Support_Level\": \"Weakly supported\"\n    },\n    \"Autoimmune/Antiphospholipid_syndrome\": {\n      \"Supports\": \"Positive lupus anticoagulant, venous thrombosis.\",\n      \"Against\": \"Lupus anticoagulant can be transiently positive in acute inflammatory states (acute phase reactant).\",\n      \"Support_Level\": \"Weakly supported\"\n    },\n    \"Crohn's_disease\": {\n      \"Supports\": \"Duodenal thickening.\",\n      \"Against\": \"Acute onset of septic illness, lack of prior GI history/chronicity.\",\n      \"Support_Level\": \"Unsupported\"\n    }\n  },\n  \"Missing_Diagnoses\": [\n    \"Lemierre's syndrome variant (septic thrombophlebitis of the IVC from a primary GI source)\",\n    \"Pyogenic liver abscess (the periportal edema and jaundice may suggest a micro-abscess or intrahepatic phlegmon not visualized on motion-degraded MRI)\",\n    \"Primary biliary pathology (e.g., ascending cholangitis, though bile ducts were not clearly dilated)\"\n  ],\n  \"Evaluation_of_Each_Next_Step_You_Proposed\": {\n    \"Surgical/IR_consult\": \"Reasonable; drainage is required for source control if a focal collection is identified.\",\n    \"Transesophageal_echocardiography\": \"Reasonable; high suspicion for endocarditis with S. anginosus and embolic findings.\",\n    \"High-resolution_CT_abdomen_with_oral_contrast\": \"Reasonable; critical to characterize the suspected duodenal-renal connection.\",\n    \"Antibiotic_therapy\": \"Reasonable; essential for systemic stabilization.\",\n    \"Anticoagulation\": \"Reasonable; indicated for IVC/renal vein thrombosis, provided no active bleeding from the duodenum.\",\n    \"Upper_endoscopy\": \"Reasonable, but carries a high risk if the duodenum is actively perforated; should be delayed until imaging better defines anatomy.\",\n    \"Strongyloides_screening\": \"Reasonable; epidemiological risk factor warrants testing.\"\n  },\n  \"Missing_Next_Steps\": [\n    \"Serum eosinophil count (to rule out Strongyloides), though often masked in sepsis.\",\n    \"Stool studies/ova and parasites for Strongyloides.\",\n    \"Serial imaging of the liver to rule out developing abscesses.\",\n    \"Review of previous imaging (if any) to check for asymptomatic duodenal/renal abnormalities.\"\n  ],\n  \"Influence_of_Clinician_Input\": \"The clinician's differential heavily influenced my focus on the 'duodenal-renal interface.' I adopted the 'Strongyloidiasis' and 'Endocarditis' suggestions from the clinician, which were clinically appropriate but perhaps prioritized over the primary infectious source (the S. anginosus bacteremia arising from a likely localized retroperitoneal/duodenal process). I should have questioned the 'Crohn's disease' entry more critically as it is less likely than a primary infectious etiology.\",\n  \"Open_Questions\": [\n    \"Why was the platelet count increasing despite persistent fever (this is unusual in worsening sepsis)?\",\n    \"What was the specific cause of the initial abdominal/back pain 2 weeks prior?\",\n    \"Is the Lupus anticoagulant truly primary or a transient finding secondary to the systemic infection?\"\n  ]\n}",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Duodenal perforation (penetrating peptic ulcer) with secondary retroperitoneal abscess and septic thrombophlebitis",
+      "Streptococcus anginosus group invasive infection (liver abscess/retroperitoneal abscess)",
+      "Infective endocarditis (with septic emboli)",
+      "Severe community-acquired pneumonia with bacteremia",
+      "Strongyloidiasis hyperinfection syndrome",
+      "Autoimmune/paraneoplastic phenomena (e.g., secondary antiphospholipid syndrome)",
+      "Crohn's disease with entero-renal fistula"
+    ],
+    "next_steps": [
+      "Urgent surgical or interventional radiology consultation for retroperitoneal abscess drainage",
+      "Transesophageal echocardiography to rule out endocarditis",
+      "High-resolution CT abdomen with oral contrast (or repeat MRI) to better characterize the duodenal-renal interface",
+      "Continued targeted antibiotic therapy (e.g., ceftriaxone) based on culture sensitivities",
+      "Maintain anticoagulation and monitor for propagation of venous thrombus",
+      "Upper endoscopy to evaluate for duodenal pathology if stable",
+      "Screening for Strongyloides stercoralis"
+    ]
+  },
+  "differential_diagnoses": [
+    "Penetrating duodenal ulcer with secondary retroperitoneal abscess and septic thrombophlebitis",
+    "Streptococcus anginosus group invasive infection (liver phlegmon/retroperitoneal abscess)",
+    "Infective endocarditis with septic emboli",
+    "Strongyloidiasis hyperinfection syndrome",
+    "Secondary antiphospholipid syndrome due to infection/inflammation",
+    "Lemierre-like syndrome arising from gastrointestinal source"
+  ],
+  "next_steps": [
+    "Transesophageal echocardiography to exclude endocarditis",
+    "Repeat abdominal CT with oral contrast to re-evaluate the duodenal-renal interface",
+    "Stool examination and serology for Strongyloides stercoralis",
+    "Continued parenteral antibiotics with adjustment based on clinical response and source control",
+    "Interventional radiology consultation for potential percutaneous drainage of retroperitoneal fluid collection",
+    "Continued therapeutic anticoagulation with close monitoring for bleeding"
+  ]
+}

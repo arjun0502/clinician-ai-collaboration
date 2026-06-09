@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_22_2024",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Pyoderma gangrenosum (PG) associated with PASH syndrome (pyoderma gangrenosum, acne, and hidradenitis suppurativa)",
+    "Postpartum sepsis with metastatic infection/abscesses",
+    "Crohn's disease with extraintestinal manifestations (metastatic Crohn's)",
+    "Sweet syndrome (acute febrile neutrophilic dermatosis)",
+    "Vasculitis (e.g., polyarteritis nodosa or ANCA-associated vasculitis)",
+    "Beh\u00e7et's disease",
+    "Pyogenic arthritis, pyoderma gangrenosum, and acne (PAPA) syndrome"
+  ],
+  "next_steps": [
+    "Perform a punch biopsy of the advancing edge of an ulcer for histopathology (neutrophilic infiltrate) and tissue culture to rule out infection",
+    "Initiate systemic corticosteroid therapy (e.g., high-dose IV methylprednisolone) as the primary treatment for pyoderma gangrenosum",
+    "Perform a colonoscopy or capsule endoscopy to evaluate for underlying inflammatory bowel disease",
+    "Consult dermatology and rheumatology for management of autoinflammatory spectrum disorders",
+    "Evaluate for specific genetic mutations associated with autoinflammatory syndromes (e.g., PSTPIP1)",
+    "Continue supportive care and reassess the need for broad-spectrum antibiotics given the failure of multiple regimens and likelihood of pathergy-induced lesions"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_19_2025",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Progressive multifocal leukoencephalopathy (PML) - granule cell neuronopathy (GCN)",
+    "Neurolymphomatosis or leptomeningeal recurrence of diffuse large B-cell lymphoma",
+    "Varicella-zoster virus (VZV) rhombencephalitis",
+    "Paraneoplastic cerebellar degeneration",
+    "Autoimmune encephalitis (e.g., anti-GAD65 or anti-Hu)",
+    "Listeria monocytogenes rhombencephalitis",
+    "HHV-6 encephalitis"
+  ],
+  "next_steps": [
+    "Send cerebrospinal fluid for JC virus PCR (specifically testing for granule cell neuronopathy)",
+    "Perform CSF PCR for VZV, HHV-6, EBV, and HSV-1/2",
+    "Order a comprehensive paraneoplastic antibody panel (serum and CSF)",
+    "Perform an urgent brain MRI with dedicated sequences for rhombencephalitis and leptomeningeal disease enhancement",
+    "Consider brain/cerebellar biopsy if infectious workup remains negative and clinical decline persists",
+    "Consult neurology, infectious disease, and oncology specialists to discuss potential diagnostic neurosurgical intervention"
+  ]
+}

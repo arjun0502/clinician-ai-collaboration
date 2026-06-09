@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_24_2025",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Lyme carditis",
+    "Multisystem inflammatory syndrome in adults (MIS-A)",
+    "Myocarditis (viral or immune-mediated)",
+    "Arrhythmogenic cardiomyopathy",
+    "Autoimmune myocarditis (e.g., Sarcoidosis)",
+    "Drug-induced liver injury / Myocarditis (supplement-related)",
+    "Post-acute sequelae of SARS-CoV-2 (PASC) with autonomic dysfunction"
+  ],
+  "next_steps": [
+    "Lyme disease serology and Western blot testing",
+    "Transthoracic echocardiogram to assess wall motion, structure, and ejection fraction",
+    "Cardiac MRI with gadolinium contrast to evaluate for late gadolinium enhancement and inflammation",
+    "Continuous inpatient cardiac telemetry monitoring",
+    "Serum autoimmune panel including ANA, ENA, and anti-myocardial antibodies",
+    "Consider empiric initiation of intravenous ceftriaxone while awaiting Lyme test results",
+    "Comprehensive review and cessation of all herbal supplements"
+  ]
+}

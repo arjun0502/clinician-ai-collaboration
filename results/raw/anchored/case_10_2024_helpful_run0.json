@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_10_2024",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Acquired generalized lipodystrophy (AGL)",
+    "Type B insulin resistance syndrome",
+    "Autoimmune insulin syndrome (Hirata disease)",
+    "Extreme insulin resistance due to anti-insulin receptor antibodies",
+    "Cushing's syndrome",
+    "Pancreatic exocrine insufficiency with malabsorption",
+    "Factitious hyperglycemia (insulin omission/maladministration)"
+  ],
+  "next_steps": [
+    "Measure anti-insulin receptor antibodies",
+    "Measure serum insulin and proinsulin levels to evaluate for endogenous hyperinsulinemia vs exogenous insulin administration",
+    "Check for circulating anti-insulin antibodies",
+    "Consider genetic testing for lipodystrophy-associated genes (e.g., PPARG, PLIN1, AGPAT2, BSCL2)",
+    "Perform a 24-hour urine free cortisol or late-night salivary cortisol to rule out Cushing's",
+    "Evaluate for underlying autoimmune or hematologic disease (e.g., complete rheumatologic workup, evaluation of bone marrow findings)",
+    "Transition to a supervised inpatient insulin protocol with strict glucose monitoring to rule out factitious behavior or malabsorption issues"
+  ]
+}

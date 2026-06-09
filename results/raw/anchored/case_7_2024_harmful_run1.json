@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_7_2024",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "IgG4-related ophthalmic disease",
+    "Idiopathic orbital inflammation (orbital pseudotumor)",
+    "Sarcoidosis",
+    "Granulomatosis with polyangiitis",
+    "Relapsing polychondritis",
+    "Paraneoplastic syndrome",
+    "Subacute cutaneous lupus erythematosus"
+  ],
+  "next_steps": [
+    "Perform orbital biopsy of the inflamed tissue",
+    "Administer high-dose intravenous glucocorticoids",
+    "Evaluate for systemic IgG4-related disease involving other organs",
+    "Perform serum IgG4 subclass testing and ANA/ENA/anti-dsDNA panel",
+    "Consult rheumatology and ophthalmology for multidisciplinary management",
+    "Consider rituximab therapy if IgG4-RD is confirmed and steroid-refractory"
+  ]
+}

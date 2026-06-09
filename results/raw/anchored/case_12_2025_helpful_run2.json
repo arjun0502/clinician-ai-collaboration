@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_12_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Varicella-zoster virus infection (disseminated)",
+    "Secondary syphilis",
+    "Scabies (crusted)",
+    "Drug reaction with eosinophilia and systemic symptoms (DRESS) syndrome",
+    "Herpes simplex virus infection (disseminated)",
+    "Measles",
+    "Erythema multiforme"
+  ],
+  "next_steps": [
+    "Place patient in airborne and contact isolation precautions",
+    "Perform PCR testing for VZV and HSV from vesicle fluid and ulcer swab",
+    "Perform punch biopsy of an active lesion for histopathology and immunohistochemical staining",
+    "Obtain HIV serology and CD4 count",
+    "Initiate empiric intravenous acyclovir pending diagnostic results",
+    "Perform Tzanck smear for rapid assessment of viral cytopathic effects",
+    "Consult infectious disease and dermatology specialists"
+  ]
+}

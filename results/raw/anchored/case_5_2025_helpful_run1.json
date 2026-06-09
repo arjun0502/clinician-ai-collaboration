@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_5_2025",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Angiostrongylus cantonensis meningitis (Rat lungworm)",
+    "Gnathostomiasis",
+    "Tuberculous meningitis",
+    "Neurocysticercosis",
+    "Coccidioidomycosis",
+    "Primary central nervous system vasculitis",
+    "Paraneoplastic neurological syndrome"
+  ],
+  "next_steps": [
+    "Send CSF and serum for Angiostrongylus cantonensis-specific PCR",
+    "Send CSF and serum for Gnathostoma spinigerum serology",
+    "Perform contrast-enhanced MRI of the brain and entire spine",
+    "Send CSF for Mycobacterium tuberculosis PCR and fungal culture",
+    "Request specialized infectious disease consultation for consideration of anthelmintic therapy",
+    "Maintain empirical broad-spectrum coverage for bacterial meningitis and acyclovir until viral studies return"
+  ]
+}

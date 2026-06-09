@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_2_2026",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Disseminated Melioidosis (Burkholderia pseudomallei)",
+    "Infective endocarditis with septic emboli",
+    "Disseminated Nocardiosis",
+    "Disseminated fungal infection (e.g., Histoplasmosis, Blastomycosis)",
+    "Disseminated tuberculosis",
+    "Metastatic malignancy with paraneoplastic or infectious complications",
+    "Granulomatosis with polyangiitis"
+  ],
+  "next_steps": [
+    "Perform ultrasound-guided biopsy of the hepatic mass",
+    "Obtain CT-guided biopsy of pulmonary nodules",
+    "Perform diagnostic vitrectomy or vitreous tap of the right eye for culture and PCR",
+    "Request specialized microbiological culture for Burkholderia pseudomallei",
+    "Perform transesophageal echocardiography to better evaluate for endocarditis",
+    "Obtain expert ophthalmology consultation for surgical management of endophthalmitis",
+    "Continue broad-spectrum antibiotics and antifungal coverage pending culture results"
+  ]
+}

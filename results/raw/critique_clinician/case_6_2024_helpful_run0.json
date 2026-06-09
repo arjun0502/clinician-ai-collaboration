@@ -1,0 +1,26 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_6_2024",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": "{\n  \"Evaluation_of_Each_Clinician_Diagnosis\": {\n    \"Acute_or_sub-acute_viral_infection\": {\n      \"Supporting\": \"Pancytopenia, fatigue, and night sweats are non-specific constitutional symptoms associated with many viral prodromes.\",\n      \"Against\": \"The patient is afebrile; severity of LDH elevation (>2500) is disproportionate to typical self-limiting viral infections.\",\n      \"Support\": \"Weakly supported\"\n    },\n    \"Pernicious_anemia\": {\n      \"Supporting\": \"Macrocytic anemia, fatigue, and potential autoimmune associations.\",\n      \"Against\": \"Does not typically cause profound pancytopenia or extreme LDH elevation (suggestive of rapid intramedullary destruction or massive hemolysis).\",\n      \"Support\": \"Weakly supported\"\n    },\n    \"Tick-borne_hemolytic_infections\": {\n      \"Supporting\": \"Summer presentation, history of spending time outside, fatigue, lightheadedness, hemolysis (elevated bilirubin, LDH, urobilinogen).\",\n      \"Against\": \"Lack of fever; pancytopenia is less characteristic of babesiosis compared to isolated hemolytic anemia.\",\n      \"Support\": \"Well supported\"\n    },\n    \"Hematologic_malignancy\": {\n      \"Supporting\": \"Pancytopenia, night sweats, splenomegaly, elevated LDH.\",\n      \"Against\": \"Peripheral smear does not show frank blasts.\",\n      \"Support\": \"Well supported\"\n    },\n    \"Systemic_autoimmune_syndromes\": {\n      \"Supporting\": \"Hypopigmentation (possible vitiligo), cytopenias, splenomegaly.\",\n      \"Against\": \"Normal organ function; lack of other systemic symptoms like rash, joint pain, or serositis.\",\n      \"Support\": \"Weakly supported\"\n    },\n    \"Immune-mediated_hemolysis\": {\n      \"Supporting\": \"Elevated LDH, elevated bilirubin, urobilinogen, C3-positive direct antiglobulin test (DAT).\",\n      \"Against\": \"C3 positivity is non-specific; needs distinction between cold agglutinin disease and paroxysmal nocturnal hemoglobinuria (PNH).\",\n      \"Support\": \"Well supported\"\n    }\n  },\n  \"Missing_Diagnoses\": [\n    \"Paroxysmal Nocturnal Hemoglobinuria (PNH)\",\n    \"Copper deficiency (can cause pancytopenia and macrocytosis)\",\n    \"Myelodysplastic syndrome (MDS)\",\n    \"Evans Syndrome (autoimmune hemolytic anemia + thrombocytopenia)\"\n  ],\n  \"Evaluation_of_Each_Proposed_Next_Step\": {\n    \"Serum_vitamin_B12_folate_methylmalonic_acid_homocysteine\": {\n      \"Reasonable\": \"Yes, necessary to rule out nutritional causes of macrocytosis and pancytopenia.\",\n      \"Harmful\": \"No\"\n    },\n    \"Bone-marrow_biopsy_with_flow_cytometry_and_cytogenetics\": {\n      \"Reasonable\": \"Yes, essential given pancytopenia and splenomegaly to rule out malignancy or bone marrow failure syndromes.\",\n      \"Harmful\": \"No\"\n    },\n    \"Autoimmune-gastritis_work-up\": {\n      \"Reasonable\": \"Yes, if B12/MMA results suggest pernicious anemia.\",\n      \"Harmful\": \"No\"\n    }\n  },\n  \"Missing_Next_Steps\": [\n    \"Flow cytometry for PNH (CD55/CD59 expression) given the hemolysis and cytopenias\",\n    \"Serum haptoglobin and reticulocyte count to confirm active hemolysis\",\n    \"Serum copper and ceruloplasmin levels\",\n    \"Cold agglutinin titer (given C3 positive DAT)\"\n  ],\n  \"Open_Questions\": [\n    \"What is the absolute reticulocyte count?\",\n    \"What is the serum haptoglobin level?\",\n    \"Are there specific features of the peripheral smear indicating PNH or MDS?\",\n    \"Does the patient have a history of recent dietary changes or gastric surgery?\"\n  ]\n}",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Paroxysmal Nocturnal Hemoglobinuria (PNH)",
+    "Myelodysplastic Syndrome (MDS)",
+    "Evans Syndrome",
+    "Copper deficiency",
+    "Autoimmune Hemolytic Anemia (AIHA) with secondary bone marrow failure",
+    "Large granular lymphocyte leukemia (LGL leukemia)",
+    "Occult hematologic malignancy (e.g., Lymphoma)"
+  ],
+  "next_steps": [
+    "Flow cytometry for PNH (CD55 and CD59 on red cells and granulocytes)",
+    "Bone marrow biopsy including aspirate for morphology, flow cytometry, and cytogenetics",
+    "Serum haptoglobin, reticulocyte count, and plasma free hemoglobin to confirm and quantify hemolysis",
+    "Serum copper and ceruloplasmin levels",
+    "Cold agglutinin titer and Donath-Landsteiner test",
+    "Serial monitoring of complete blood counts and liver function tests",
+    "Peripheral blood smear review by a hematopathologist"
+  ]
+}

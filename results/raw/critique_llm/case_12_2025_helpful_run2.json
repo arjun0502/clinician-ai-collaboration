@@ -1,0 +1,46 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_12_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Varicella-zoster virus (disseminated)\": {\n      \"Supports\": \"Vesicular rash, fever, atypical lymphocytes, oral ulcer.\",\n      \"Against\": \"None significant.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Scabies (crusted)\": {\n      \"Supports\": \"History of pruritus, exposure at shelter, inguinal fold involvement.\",\n      \"Against\": \"Fever and atypical lymphocytosis are not typical for uncomplicated scabies.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Secondary syphilis\": {\n      \"Supports\": \"Palmar/plantar rashes (pink papules), oral mucosal involvement, systemic symptoms.\",\n      \"Against\": \"Vesicular component is not typical (usually maculopapular/squamous).\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"DRESS syndrome\": {\n      \"Supports\": \"Fever, rash, atypical lymphocytes, liver enzyme elevation.\",\n      \"Against\": \"Lack of eosinophilia in the white cell count, recent medication stability.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Herpes simplex virus (disseminated)\": {\n      \"Supports\": \"Vesicular rash, oral ulcer.\",\n      \"Against\": \"Presentation of disseminated HSV in a non-severely immunocompromised host is rare.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Measles\": {\n      \"Supports\": \"Fever, sore throat, rash.\",\n      \"Against\": \"Vesicles are not characteristic; age group and vaccination history make this unlikely.\",\n      \"Status\": \"Unsupported\"\n    },\n    \"Enteroviral infection\": {\n      \"Supports\": \"Fever, rash, sore throat, oral ulcers (e.g., Hand, Foot, and Mouth Disease).\",\n      \"Against\": \"Does not typically present with severe disseminated vesicles in adults.\",\n      \"Status\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Primary HIV infection (Acute Retroviral Syndrome)\",\n    \"Disseminated histoplasmosis (given homeless shelter/immunocompromise potential)\",\n    \"Rickettsial disease (e.g., Rocky Mountain Spotted Fever)\"\n  ],\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Isolation precautions\": \"Highly reasonable; necessary pending VZV rule-out.\",\n    \"Skin scrapings\": \"Reasonable; low-risk, high-yield for scabies.\",\n    \"PCR testing\": \"Essential; gold standard for viral etiologies.\",\n    \"HIV screening/CD4\": \"Crucial; explains atypical presentations of common infections.\",\n    \"Punch biopsy\": \"Reasonable; provides histological evidence if PCR is negative.\",\n    \"Empiric acyclovir\": \"Reasonable; low risk-to-benefit ratio in potential disseminated VZV.\",\n    \"Syphilis serology\": \"Reasonable; essential given the palmar involvement.\"\n  },\n  \"Missing Next Steps\": [\n    \"Complete blood count with manual differential (to quantify eosinophils and confirm atypical lymphocytes).\",\n    \"Repeat liver function tests to monitor for progressive hepatitis.\",\n    \"Chest radiograph to evaluate for occult pneumonia associated with disseminated VZV.\"\n  ],\n  \"Influence of Clinician Input\": {\n    \"Analysis\": \"The clinician's focus on VZV/HSV and DRESS provided a strong foundation. I uncritically adopted the VZV-centric testing path but expanded it to include syphilis and scabies due to the social history (homeless shelter). I should have questioned the likelihood of DRESS more critically, as the lack of eosinophilia is a significant negative predictor.\"\n  },\n  \"Open Questions\": [\n    \"Is there a peripheral eosinophilia on a manual differential count?\",\n    \"Has the patient received any recent vaccinations (e.g., varicella zoster vaccine)?\",\n    \"What is the patient's exact medication adherence history for the past 2-4 weeks?\",\n    \"Is there evidence of lymphadenopathy on physical examination?\"\n  ]\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Varicella-zoster virus infection (disseminated)",
+      "Scabies (crusted/norwegian)",
+      "Secondary syphilis",
+      "Drug reaction with eosinophilia and systemic symptoms (DRESS) syndrome",
+      "Herpes simplex virus infection (disseminated)",
+      "Measles",
+      "Enteroviral infection"
+    ],
+    "next_steps": [
+      "Perform immediate isolation precautions (contact and airborne) given potential for disseminated VZV",
+      "Obtain skin scrapings for scabies microscopy (mineral oil preparation)",
+      "Perform PCR testing of vesicular fluid and ulcer swab for VZV, HSV-1, and HSV-2",
+      "Obtain HIV screening and CD4 count to evaluate for underlying immunosuppression",
+      "Perform punch biopsy for H&E histology and immunofluorescence",
+      "Initiate empiric intravenous acyclovir pending viral diagnostic results",
+      "Conduct serologic evaluation for syphilis (RPR/VDRL with confirmatory treponemal testing)"
+    ]
+  },
+  "differential_diagnoses": [
+    "Disseminated varicella-zoster virus infection",
+    "Secondary syphilis",
+    "Primary HIV infection (Acute Retroviral Syndrome)",
+    "Scabies (crusted/norwegian)",
+    "Drug reaction with eosinophilia and systemic symptoms (DRESS) syndrome",
+    "Disseminated herpes simplex virus infection",
+    "Enteroviral infection"
+  ],
+  "next_steps": [
+    "Place patient on airborne and contact isolation precautions",
+    "Perform PCR testing of vesicular fluid and oral ulcer swab for VZV, HSV-1, and HSV-2",
+    "Obtain HIV antibody/antigen testing and CD4 count",
+    "Conduct serologic evaluation for syphilis (RPR/VDRL with confirmatory treponemal testing)",
+    "Initiate empiric intravenous acyclovir pending viral diagnostic results",
+    "Perform a punch biopsy for histopathology and direct fluorescent antibody (DFA) or immunohistochemistry",
+    "Obtain a complete blood count with a manual differential and comprehensive metabolic panel to monitor hepatic status",
+    "Perform a skin scraping for microscopic evaluation of Sarcoptes scabiei"
+  ]
+}

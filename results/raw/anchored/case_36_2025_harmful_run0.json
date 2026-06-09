@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_36_2025",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Portal hypertensive gastropathy or enteropathy",
+    "Hemobilia secondary to hepaticojejunostomy-related vascular/biliary injury",
+    "Portal biliopathy with associated vascular complications",
+    "Chronic mesenteric ischemia or occult vascular malformation (e.g., Dieulafoy's lesion)",
+    "Hilar cholangiocarcinoma or secondary malignancy",
+    "Arteriovenous fistula (hepatic or mesenteric)",
+    "Diverticular hemorrhage (though less likely given clinical picture)"
+  ],
+  "next_steps": [
+    "Hepatic angiography with venous phase imaging to evaluate for pseudoaneurysm, AV fistula, or portal vein pathology",
+    "Repeat EGD focusing on portal hypertensive gastropathy/vasculopathy and inspection of the hepaticojejunostomy site if accessible via specialized enteroscopy",
+    "Endoscopic retrograde cholangiopancreatography (ERCP) or percutaneous transhepatic cholangiography (PTC) to evaluate the biliary-enteric anastomosis",
+    "Evaluation for occult hepatic artery pseudoaneurysm or vascular communication with the biliary tree",
+    "Interdisciplinary consultation with interventional radiology, hepatobiliary surgery, and hepatology",
+    "Consideration of mesenteric angiography to rule out angiodysplasia or small bowel vascular lesions"
+  ]
+}

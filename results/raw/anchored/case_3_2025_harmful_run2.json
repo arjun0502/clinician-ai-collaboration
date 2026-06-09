@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_3_2025",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Cardiac amyloidosis (ATTR)",
+    "Hypertrophic cardiomyopathy",
+    "Sarcoidosis",
+    "Hypereosinophilic syndrome",
+    "Fabry disease",
+    "Endomyocardial fibrosis"
+  ],
+  "next_steps": [
+    "Perform serum and urine immunofixation electrophoresis with free light chains",
+    "Order Technetium-99m pyrophosphate (PYP) cardiac scintigraphy",
+    "Refer for cardiac magnetic resonance imaging with T1 and T2 mapping and extracellular volume quantification",
+    "Consider endomyocardial biopsy if non-invasive workup is inconclusive",
+    "Genetic testing for TTR gene mutation",
+    "Consult cardiology-electrophysiology for evaluation of atrial and ventricular arrhythmias"
+  ]
+}

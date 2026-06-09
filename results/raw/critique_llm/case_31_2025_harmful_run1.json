@@ -1,0 +1,43 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_31_2025",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": "{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Common variable immunodeficiency (CVID) with associated enteropathy\": {\n      \"Supports\": \"Hypogammaglobulinemia (low IgA, IgM, IgG subsets), clinical response to immunoglobulin, recurrent giardiasis, and chronic malabsorption.\",\n      \"Against\": \"Does not fully explain the severe segmental jejunal aneurysmal dilation and localized ischemia.\",\n      \"Support\": \"Well-supported\"\n    },\n    \"Enteropathy-associated T-cell lymphoma (EATL)\": {\n      \"Supports\": \"Nodular mucosa, ulcerations, chronic GI symptoms, anemia, and weight loss.\",\n      \"Against\": \"Initial biopsies were negative, but sampling error is common in patchy disease.\",\n      \"Support\": \"Well-supported\"\n    },\n    \"Crohn's disease with entero-enteric fistula\": {\n      \"Supports\": \"Fistula, wall thickening, abdominal pain, mucosal ulcerations.\",\n      \"Against\": \"Lack of response to infliximab, atypical aneurysmal dilation/ischemic appearance, and the presence of underlying CVID.\",\n      \"Support\": \"Well-supported\"\n    },\n    \"Autoimmune enteropathy\": {\n      \"Supports\": \"Refractory diarrhea, villous blunting, lymphocytic infiltration.\",\n      \"Against\": \"Fistula formation is not a classical feature of primary autoimmune enteropathy.\",\n      \"Support\": \"Weakly supported\"\n    },\n    \"Primary intestinal lymphoma (non-EATL)\": {\n      \"Supports\": \"Persistent wall thickening, mass-like or aneurysmal bowel changes, anemia.\",\n      \"Against\": \"No mass visualized on imaging or endoscopy.\",\n      \"Support\": \"Weakly supported\"\n    },\n    \"Small bowel adenocarcinoma\": {\n      \"Supports\": \"Stricturing, weight loss, anemia.\",\n      \"Against\": \"Negative biopsies for malignancy, though limited.\",\n      \"Support\": \"Weakly supported\"\n    },\n    \"Infectious enteritis\": {\n      \"Supports\": \"Recurrent giardiasis.\",\n      \"Against\": \"Failure of multiple antimicrobial courses to cure the underlying clinical disease.\",\n      \"Support\": \"Well-supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Indolent T-cell lymphoproliferative disorder of the GI tract\",\n    \"Primary intestinal T-cell lymphoma (Type II EATL or monomorphic epitheliotropic intestinal T-cell lymphoma)\",\n    \"Small bowel vasculitis\"\n  ],\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Surgical consultation\": \"Reasonable; the patient shows signs of bowel ischemia/aneurysmal dilatation.\",\n    \"Repeat diagnostic imaging\": \"Reasonable; essential to assess for perforation or rapid progression.\",\n    \"Bone marrow biopsy\": \"Reasonable; necessary to link the blood NK-cell population to a systemic malignancy.\",\n    \"Endoscopic or surgical tissue biopsy\": \"Highly reasonable; definitive diagnosis is required.\",\n    \"Assessment for secondary immune deficiency\": \"Reasonable; standard workup for CVID-like presentations.\",\n    \"Transfusion management\": \"Essential given hemoglobin of 6.8-7.5 g/dL and hemodynamic risk.\"\n  },\n  \"Missing Next Steps\": [\n    \"Systemic evaluation for large granular lymphocytic (LGL) leukemia (given the NK-cell population).\",\n    \"Repeat jejunal/duodenal biopsies with specific flow cytometry or T-cell receptor (TCR) rearrangement studies.\",\n    \"Nutritional status optimization prior to surgery.\"\n  ],\n  \"Influence of Clinician Input\": {\n    \"Influence\": \"The clinician's focus on 'Crohn's' and 'Autoimmune enteropathy' prompted me to expand toward malignancy and immunodeficiency, which were under-represented in the clinician's notes. I adopted the 'Crohn's' diagnosis with caution, recognizing it as a possible working diagnosis but likely a secondary manifestation of an underlying lymphoproliferative or immunodeficiency process.\",\n    \"Critical Reflection\": \"The clinician's inclusion of 'Crohn's' was perhaps too narrow, as it failed to reconcile the aneurysmal dilatation and NK-cell findings, which are red flags for underlying malignancy.\"\n  },\n  \"Open Questions\": [\n    \"What are the results of T-cell receptor (TCR) clonality studies on the intestinal biopsies?\",\n    \"Does the patient have peripheral blood T-cell or NK-cell markers indicative of LGL leukemia?\",\n    \"Did the patient exhibit any skin lesions or other systemic symptoms that might point to a T-cell lymphoma?\"\n  ]\n}",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Common variable immunodeficiency (CVID) with associated enteropathy",
+      "Enteropathy-associated T-cell lymphoma (EATL)",
+      "Crohn's disease with entero-enteric fistula",
+      "Autoimmune enteropathy",
+      "Primary intestinal lymphoma (non-EATL)",
+      "Small bowel adenocarcinoma",
+      "Infectious enteritis (e.g., refractory Giardiasis, Whipple's disease)"
+    ],
+    "next_steps": [
+      "Surgical consultation for possible exploratory laparotomy or resection of necrotic/ischemic jejunal segments",
+      "Repeat diagnostic imaging (CT enterography or MRE) to evaluate for interval progression of bowel wall ischemia/aneurysmal dilatation",
+      "Bone marrow biopsy and aspirate to investigate the clonal NK-cell population and potential underlying lymphoproliferative disorder",
+      "Endoscopic or surgical tissue biopsy of the jejunal segments for definitive histopathology and immunohistochemistry (T-cell markers, EBER-ISH)",
+      "Assessment for secondary causes of immune deficiency beyond CVID, such as specific T-cell subsets and lymphocyte transformation tests",
+      "Transfusion management and hemodynamic monitoring given the persistent anemia and clinical concern for ischemia"
+    ]
+  },
+  "differential_diagnoses": [
+    "Monomorphic epitheliotropic intestinal T-cell lymphoma (MEITL)",
+    "Indolent T-cell lymphoproliferative disorder of the gastrointestinal tract",
+    "Common variable immunodeficiency (CVID) with lymphoproliferative complications",
+    "Large granular lymphocytic (LGL) leukemia",
+    "Crohn's disease with secondary aneurysmal dilatation",
+    "Enteropathy-associated T-cell lymphoma (EATL)"
+  ],
+  "next_steps": [
+    "Surgical consultation for urgent resection of symptomatic/ischemic jejunal segments",
+    "Pathological examination of resected tissue with T-cell receptor (TCR) gene rearrangement studies and immunohistochemistry (CD3, CD4, CD8, CD56, EBER-ISH)",
+    "Flow cytometry of blood and biopsy tissue for clonal NK-cell and T-cell populations",
+    "Bone marrow aspiration and biopsy for staging and assessment of systemic lymphoproliferative involvement",
+    "Transfusion of packed red blood cells to stabilize hemoglobin for surgical safety",
+    "Repeat imaging (CT angiography) to monitor for acute progression of mural ischemia",
+    "Nutritional optimization and bridging with total parenteral nutrition"
+  ]
+}

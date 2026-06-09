@@ -1,0 +1,27 @@
+{
+  "condition": "anchored",
+  "case_id": "case_1_2026",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Dengue shock syndrome",
+    "Malaria (Plasmodium falciparum)",
+    "Acute viral myocarditis (Chikungunya or other viral etiology)",
+    "Spontaneous bacterial peritonitis with septic shock",
+    "Septic shock due to occult infection (e.g., leptospirosis)",
+    "Cirrhotic cardiomyopathy with acute decompensation",
+    "Hemophagocytic lymphohistiocytosis (HLH)"
+  ],
+  "next_steps": [
+    "Send peripheral blood smear for malaria parasites (thick and thin films)",
+    "Send serum for Dengue NS1 antigen and IgM/IgG antibodies",
+    "Send serum for Chikungunya PCR/serology",
+    "Perform diagnostic paracentesis to evaluate for spontaneous bacterial peritonitis",
+    "Obtain echocardiogram to characterize biventricular dysfunction and rule out tamponade",
+    "Send blood cultures, urine cultures, and testing for leptospirosis",
+    "Maintain aggressive hemodynamic support and organ protection in the ICU",
+    "Consult infectious disease and hepatology services"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_7_2025",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Metastatic malignancy with marrow infiltration (myelophthisis)",
+    "Hemophagocytic lymphohistiocytosis (HLH)",
+    "Occult primary neoplasm (e.g., lung or pancreatic cancer)",
+    "Acute myeloid leukemia or other myeloid neoplasm",
+    "Disseminated intravascular coagulation (secondary to malignancy or pancreatitis)",
+    "Infectious process (e.g., disseminated tuberculosis or fungal infection)"
+  ],
+  "next_steps": [
+    "Bone marrow aspiration and biopsy with flow cytometry and cytogenetics",
+    "Diagnostic thoracentesis or biopsy of lung nodules",
+    "Repeat imaging (CT chest or PET/CT) to re-evaluate lung and liver lesions",
+    "Serum cytokine panel including soluble IL-2 receptor (sCD25) to assess for HLH",
+    "Stool studies and further evaluation for occult gastrointestinal malignancy",
+    "Initiate supportive care with blood products as indicated by symptoms and active bleeding"
+  ]
+}

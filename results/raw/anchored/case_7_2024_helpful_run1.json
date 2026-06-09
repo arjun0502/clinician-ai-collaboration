@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_7_2024",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "IgG4-related ophthalmic disease (IgG4-ROD)",
+    "Idiopathic orbital inflammation (orbital pseudotumor)",
+    "Sarcoidosis",
+    "Granulomatosis with polyangiitis",
+    "Relapsing polychondritis",
+    "Paraneoplastic optic neuritis"
+  ],
+  "next_steps": [
+    "Orbital tissue biopsy for histopathology and immunohistochemical staining for IgG4",
+    "Serum IgG subclass profile (specifically IgG4 level verification)",
+    "Whole-body PET/CT to evaluate for systemic involvement consistent with IgG4-RD",
+    "Consider diagnostic trial of systemic corticosteroids",
+    "Serum ANCA testing (PR3/MPO) and ACE level monitoring",
+    "Comprehensive rheumatology consultation"
+  ]
+}

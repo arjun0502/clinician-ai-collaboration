@@ -1,0 +1,44 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_1_2026",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": "{\n  \"evaluation_of_each_diagnosis\": {\n    \"Dengue shock syndrome\": {\n      \"supporting\": \"Travel to endemic area, acute onset of fever, malaise, petechiae, hypotension/shock, hemoconcentration/fluid extravasation (pleural effusions, ascites, mediastinal edema).\",\n      \"against\": \"Severe biventricular dysfunction is less typical than simple plasma leakage, though myocarditis can occur.\",\n      \"support_level\": \"Well-supported\"\n    },\n    \"Septic shock\": {\n      \"supporting\": \"Hypotension, fever, tachycardia, elevated respiratory rate, potential for bacterial translocation due to chronic liver/portal hypertension.\",\n      \"against\": \"Relatively rapid progression to severe biventricular failure despite fluid resuscitation.\",\n      \"support_level\": \"Well-supported\"\n    },\n    \"Severe malaria\": {\n      \"supporting\": \"Travel to Brazil (though less common than other regions), fever, shock, anemia, thrombocytopenia.\",\n      \"against\": \"Negative rapid antigen test, though sensitivity can vary.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Viral myocarditis\": {\n      \"supporting\": \"ECG findings (ST/PR segment changes), acute biventricular failure, shock out of proportion to fluids.\",\n      \"against\": \"Usually manifests with more specific cardiac symptoms, but often asymptomatic or masked by systemic illness.\",\n      \"support_level\": \"Well-supported\"\n    },\n    \"Leptospirosis\": {\n      \"supporting\": \"Exposure risk in Brazil, fever, myalgia, potential for multiorgan failure/myocarditis.\",\n      \"against\": \"No mention of classic jaundice (Weil's disease), although not strictly required.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Spontaneous bacterial peritonitis\": {\n      \"supporting\": \"Known cirrhosis, ascites, fever, abdominal pain.\",\n      \"against\": \"Doesn't explain the acute onset of systemic, rapid-onset cardiogenic/distributive shock.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Hemophagocytic lymphohistiocytosis\": {\n      \"supporting\": \"Fever, cytopenias, splenomegaly, multiorgan dysfunction.\",\n      \"against\": \"Acute presentation more suggestive of an infectious trigger.\",\n      \"support_level\": \"Weakly supported\"\n    }\n  },\n  \"missing_diagnoses\": [\n    \"Acute Chagas disease (Trypanosoma cruzi): Highly relevant given the Brazilian origin and sudden onset of severe biventricular heart failure.\",\n    \"Rickettsial infection (e.g., Brazilian spotted fever): Possible zoonotic exposure in rural Brazil causing vasculitis and shock.\"\n  ],\n  \"evaluation_of_next_steps\": {\n    \"Dengue NS1/serology\": \"Reasonable; urgent to confirm/rule out.\",\n    \"Repeat blood smears\": \"Reasonable; rapid tests have false negatives.\",\n    \"Arbovirus PCR\": \"Reasonable; covers the relevant differential.\",\n    \"Echocardiogram\": \"Necessary; already partially done, but formal study is required to characterize the cardiomyopathy.\",\n    \"Ferritin/triglycerides/fibrinogen\": \"Reasonable; screening for HLH is prudent in severe systemic inflammatory states.\",\n    \"Diagnostic paracentesis\": \"Reasonable, but must weigh risk vs. benefit given the coagulopathy/thrombocytopenia.\",\n    \"Supportive care\": \"Essential.\"\n  },\n  \"missing_next_steps\": [\n    \"Trypanosoma cruzi PCR and serology: Crucial missed step given the cardiac involvement and epidemiology.\",\n    \"Serum procalcitonin and serial lactate: Better quantification of the severity of sepsis vs. distributive shock.\",\n    \"Assessment for adrenal insufficiency: Patient has refractory shock despite pressors.\"\n  ],\n  \"influence_of_clinician_input\": {\n    \"summary\": \"The clinician's differential focused heavily on septic etiologies (meningococcal, urosepsis, malaria). My response was shaped by this but pivoted to include viral/myocarditis etiologies because the clinical findings of biventricular failure and fluid extravasation suggested a viral-mediated process like Dengue or Chagas more strongly than typical gram-negative sepsis. I may have uncritically accepted the 'sepsis' framework provided by the clinician; the cardiac findings suggest a more targeted search for myocardial pathogens.\"\n  },\n  \"open_questions\": [\n    \"Was the peripheral smear specifically reviewed by a pathologist for T. cruzi amastigotes or trypomastigotes?\",\n    \"What are the serial lactate and procalcitonin trends?\",\n    \"Is there a history of cardiac surveillance (e.g., prior ECGs) to confirm the baseline vs. acute changes?\"\n  ]\n}",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Dengue shock syndrome",
+      "Septic shock (secondary to translocation/bacterial infection)",
+      "Severe malaria (Plasmodium falciparum)",
+      "Viral myocarditis (e.g., Dengue, Chikungunya, or other endemic arboviruses)",
+      "Leptospirosis",
+      "Spontaneous bacterial peritonitis",
+      "Hemophagocytic lymphohistiocytosis"
+    ],
+    "next_steps": [
+      "Dengue NS1 antigen and IgM/IgG serology",
+      "Repeat thick and thin blood smears for malaria",
+      "Send blood and cerebrospinal fluid for arbovirus/viral PCR panels",
+      "Echocardiogram to further evaluate biventricular function and potential myopericarditis",
+      "Serum ferritin, triglycerides, and fibrinogen to evaluate for HLH",
+      "Broaden microbiological cultures and consider diagnostic paracentesis if ascites volume permits",
+      "Continue supportive care for refractory distributive and cardiogenic shock"
+    ]
+  },
+  "differential_diagnoses": [
+    "Acute Chagas disease (Trypanosoma cruzi myocarditis)",
+    "Dengue shock syndrome with severe myocarditis",
+    "Septic shock due to bacterial translocation (cirrhotic patient)",
+    "Rickettsial infection (Brazilian spotted fever)",
+    "Viral myocarditis (e.g., Chikungunya or other enterovirus)",
+    "Hemophagocytic lymphohistiocytosis (HLH)"
+  ],
+  "next_steps": [
+    "Diagnostic paracentesis for cell count, culture, and Gram stain",
+    "Trypanosoma cruzi blood PCR and peripheral blood smear examination for trypomastigotes",
+    "Dengue NS1 antigen and arbovirus PCR panel",
+    "Serum ferritin, triglyceride, and fibrinogen levels for HLH evaluation",
+    "Formal transthoracic echocardiogram to assess for wall motion abnormalities and myocarditis",
+    "Serum procalcitonin, troponin I, and NT-proBNP levels",
+    "Adrenal insufficiency workup (random cortisol and ACTH stimulation test)"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_24_2025",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Lyme carditis\": {\n      \"Supporting facts\": \"Residing in a forested area, history of outdoor activities (hiking/camping), presence of sheep and rabbits (ticks), unexplained high-degree AV block in a young patient.\",\n      \"Inconsistent facts\": \"Prior negative testing (though timing/specificity unclear), current presentation of transaminitis and elevated NT-proBNP.\",\n      \"Support level\": \"Well-supported.\"\n    },\n    \"Myocarditis (post-viral or autoimmune)\": {\n      \"Supporting facts\": \"Recent SARS-CoV-2 reinfection, symptoms of palpitations/chest pain, conduction abnormalities (AV blocks), elevated NT-proBNP.\",\n      \"Inconsistent facts\": \"Normal high-sensitivity troponin T is atypical for acute myocarditis with significant conduction system involvement.\",\n      \"Support level\": \"Well-supported.\"\n    },\n    \"Multisystem inflammatory syndrome in adults (MIS-A)\": {\n      \"Supporting facts\": \"Recent SARS-CoV-2 reinfection, multisystem involvement (cardiac, hepatic, GI symptoms), elevated inflammatory markers (d-dimer, NT-proBNP).\",\n      \"Inconsistent facts\": \"Normal CRP and ESR are atypical for the hyperinflammatory state characteristic of MIS-A.\",\n      \"Support level\": \"Weakly supported.\"\n    },\n    \"Arrhythmogenic right ventricular cardiomyopathy\": {\n      \"Supporting facts\": \"Irregularly irregular rhythm, palpitations, history of athletic activity.\",\n      \"Inconsistent facts\": \"Conduction abnormalities (AV blocks) and recent onset of symptoms are more suggestive of an acquired inflammatory process than a primary genetic cardiomyopathy.\",\n      \"Support level\": \"Unsupported.\"\n    },\n    \"Drug-induced hepatotoxicity with secondary cardiac manifestations\": {\n      \"Supporting facts\": \"Use of herbal supplements (turmeric, liver extract, milk thistle), elevated liver enzymes.\",\n      \"Inconsistent facts\": \"Does not explain the high-degree AV block and conduction disturbances.\",\n      \"Support level\": \"Weakly supported.\"\n    },\n    \"Sarcoidosis\": {\n      \"Supporting facts\": \"Cardiac sarcoidosis can cause heart block, conduction disturbances, and palpitations in young adults.\",\n      \"Inconsistent facts\": \"Normal chest radiograph (no hilar lymphadenopathy).\",\n      \"Support level\": \"Weakly supported.\"\n    },\n    \"Giant cell myocarditis\": {\n      \"Supporting facts\": \"Rapidly progressive cardiac symptoms and severe conduction system abnormalities.\",\n      \"Inconsistent facts\": \"Usually manifests with more severe clinical instability and positive troponin.\",\n      \"Support level\": \"Weakly supported.\"\n    }\n  },\n  \"Missing Diagnoses\": {\n    \"Diagnoses\": [\n      \"Q fever (Coxiella burnetii)\",\n      \"Tularemia\",\n      \"Rheumatic heart disease\"\n    ],\n    \"Reasoning\": \"Patient lives on a farm with sheep/rabbits, creating significant exposure risks for zoonotic infections like Q fever and Tularemia, which can cause cardiac manifestations.\"\n  },\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Lyme serology\": { \"Assessment\": \"Reasonable; essential due to epidemiology.\" },\n    \"Telemetry\": { \"Assessment\": \"Reasonable; essential for monitoring for progression to complete heart block.\" },\n    \"Echocardiogram\": { \"Assessment\": \"Reasonable; critical for structural evaluation.\" },\n    \"Cardiac MRI\": { \"Assessment\": \"Reasonable; the gold standard for non-invasive myocarditis assessment.\" },\n    \"Discontinuation of supplements\": { \"Assessment\": \"Reasonable; necessary to eliminate hepatotoxic confounders.\" },\n    \"Inflammatory markers/autoantibody panel\": { \"Assessment\": \"Reasonable; although CRP/ESR were normal, specific autoimmune panels (ANA, ANCA) remain relevant.\" },\n    \"Empiric ceftriaxone\": { \"Assessment\": \"Potentially harmful if Lyme is not the diagnosis; risks complications from IV therapy and delaying the correct diagnosis if non-infectious.\" }\n  },\n  \"Missing Next Steps\": {\n    \"Steps\": [\n      \"Serologic testing for Coxiella burnetii and Francisella tularensis\",\n      \"Coronary artery imaging (given the Q waves in inferior leads to rule out ischemia)\"\n    ]\n  },\n  \"Influence of Clinician Input\": {\n    \"Analysis\": \"The clinician's assessment correctly focused on the high likelihood of Lyme carditis. I adopted the 'empiric antibiotic' step from the clinician, which is standard in high-suspicion cases of Lyme carditis with heart block, but I should have emphasized the necessity of cardiac imaging (MRI) more strongly to confirm the inflammatory etiology before finalizing therapy.\"\n  },\n  \"Open Questions\": {\n    \"Questions\": [\n      \"Was the patient exposed to tick-endemic areas during the two-year period prior to initial symptoms?\",\n      \"Does the patient have a history of erythema migrans?\",\n      \"What is the specific nature of the hepatic enzyme elevation over the two-year period?\"\n    ]\n  }\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Lyme carditis",
+      "Myocarditis (post-viral or autoimmune)",
+      "Multisystem inflammatory syndrome in adults (MIS-A)",
+      "Arrhythmogenic right ventricular cardiomyopathy",
+      "Drug-induced hepatotoxicity with secondary cardiac manifestations",
+      "Sarcoidosis",
+      "Giant cell myocarditis"
+    ],
+    "next_steps": [
+      "Lyme disease serology (IgM and IgG) and Western blot",
+      "Continuous cardiac telemetry monitoring",
+      "Echocardiogram to assess cardiac structure and function",
+      "Cardiac MRI with gadolinium contrast",
+      "Discontinuation of all herbal supplements and non-essential medications",
+      "Inflammatory markers (ESR, CRP) and autoantibody panel",
+      "Consider empiric ceftriaxone if clinical suspicion for Lyme remains high while awaiting serology"
+    ]
+  },
+  "differential_diagnoses": [
+    "Lyme carditis",
+    "Cardiac sarcoidosis",
+    "Giant cell myocarditis",
+    "Q fever (Coxiella burnetii) endocarditis or myocarditis",
+    "Post-viral inflammatory heart disease (non-MIS-A)",
+    "Arrhythmogenic cardiomyopathy"
+  ],
+  "next_steps": [
+    "Admit to cardiac telemetry for continuous rhythm monitoring",
+    "Cardiac MRI with gadolinium to characterize myocardial tissue (looking for late gadolinium enhancement)",
+    "Lyme disease serology (IgM and IgG) and western blot",
+    "Serologic testing for Coxiella burnetii (Q fever) and Francisella tularensis",
+    "Transthoracic echocardiogram to evaluate for valvular vegetation or structural wall motion abnormalities",
+    "Discontinue all herbal and non-essential supplements",
+    "Empiric intravenous ceftriaxone for potential Lyme carditis if conduction block persists or worsens",
+    "Consultation with cardiology and potentially electrophysiology"
+  ]
+}

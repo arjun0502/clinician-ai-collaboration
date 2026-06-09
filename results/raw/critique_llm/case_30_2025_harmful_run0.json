@@ -1,0 +1,27 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_30_2025",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": "{\n  \"evaluation_of_each_diagnosis\": {\n    \"Nephrotic syndrome (IgA-dominant/membranous)\": {\n      \"supporting_facts\": \"2+ proteinuria, generalized edema, hypoalbuminemia/anarsarca symptoms.\",\n      \"arguing_against\": \"The presence of monoclonal components (IgA-lambda) and light chain elevation suggests a plasma cell dyscrasia rather than primary glomerulopathy.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Systemic AL or AH amyloidosis\": {\n      \"supporting_facts\": \"Heart failure with preserved EF, renal involvement (proteinuria), periorbital edema, monoclonal gammopathy (IgA-lambda).\",\n      \"arguing_against\": \"None.\",\n      \"support_level\": \"Well-supported\"\n    },\n    \"Decompensated HFpEF\": {\n      \"supporting_facts\": \"History of HFpEF, orthopnea, elevated JVP, diuretic response.\",\n      \"arguing_against\": \"Does not explain the proteinuria or the persistent severe anasarca out of proportion to cardiac signs.\",\n      \"support_level\": \"Well-supported (as a comorbid condition)\"\n    },\n    \"Constrictive pericarditis\": {\n      \"supporting_facts\": \"History of cardiac ablation (post-procedure inflammation/fibrosis), elevated JVP, ascites.\",\n      \"arguing_against\": \"Doesn't explain proteinuria.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Cirrhosis with portal hypertension\": {\n      \"supporting_facts\": \"Nodular liver on CT, ascites.\",\n      \"arguing_against\": \"Patent portal veins, lack of splenomegaly, no stigmata of chronic liver disease (no spider angiomas, palmar erythema).\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Infectious etiology\": {\n      \"supporting_facts\": \"Recent travel to South America.\",\n      \"arguing_against\": \"No fever, negative screening for common endemic infections, duration of illness vs. presentation.\",\n      \"support_level\": \"Unsupported\"\n    }\n  },\n  \"missing_diagnoses\": [\n    \"Light-chain deposition disease (LCDD)\",\n    \"IgA vasculitis (Henoch-Sch\u00f6nlein purpura)\",\n    \"Tuberculous peritonitis (given travel history, despite negative IGRA)\"\n  ],\n  \"evaluation_of_each_next_step\": {\n    \"24-hour urine collection\": \"Reasonable; gold standard for quantifying proteinuria.\",\n    \"Renal biopsy\": \"Essential; definitive for diagnosis of amyloidosis or monoclonal immunoglobulin deposition disease.\",\n    \"Echocardiogram with strain\": \"Highly reasonable to assess for 'apical sparing' pattern characteristic of cardiac amyloidosis.\",\n    \"Bone marrow biopsy\": \"Reasonable to characterize the clonal process underlying the M-spike.\",\n    \"Serum albumin/lipid panel\": \"Reasonable; establishes the biochemical severity of nephrotic syndrome.\",\n    \"Cardiac MRI\": \"Reasonable; superior for detecting myocardial delayed enhancement patterns of amyloid.\"\n  },\n  \"missing_next_steps\": [\n    \"Abdominal fat pad biopsy (a non-invasive method to screen for amyloid deposits)\",\n    \"Serum NT-proBNP levels (highly prognostic in cardiac amyloidosis)\",\n    \"Tissue transglutaminase IgA (given elevated IgA levels)\"\n  ],\n  \"influence_of_clinician_input\": {\n    \"extent\": \"Significant; the clinician's differential provided the framework for the patient's acute presentation.\",\n    \"uncritical_adoption\": \"I adopted 'Nephrotic syndrome' as a primary category, which may have led to an under-emphasis on the systemic plasma cell disorder that is likely the unifying diagnosis.\",\n    \"critique\": \"I failed to question the clinician's suggestion of 'Defer kidney biopsy,' which is actually a critical, high-yield diagnostic step in an older patient with unexplained proteinuria and monoclonal gammopathy.\"\n  },\n  \"open_questions\": [\n    \"What is the serum NT-proBNP and troponin level?\",\n    \"Does the patient have a monoclonal protein in the urine (UPEP/IF)?\",\n    \"What is the result of the fat pad biopsy (if performed)?\",\n    \"Has a Congo red stain been performed on any available tissue?\"\n  ]\n}",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Nephrotic syndrome secondary to IgA-dominant nephropathy or membranous nephropathy",
+      "Systemic AL or AH amyloidosis",
+      "Decompensated heart failure with preserved ejection fraction (HFpEF)",
+      "Constrictive pericarditis",
+      "Cirrhosis with portal hypertension (cryptogenic/NASH)",
+      "Infectious etiology (e.g., chronic parasitic infection or subacute bacterial endocarditis)"
+    ],
+    "next_steps": [
+      "Perform 24-hour urine collection for total protein and creatinine clearance",
+      "Perform ultrasound-guided renal biopsy with immunofluorescence and electron microscopy",
+      "Echocardiogram with strain imaging to evaluate for amyloid cardiomyopathy",
+      "Bone marrow biopsy and aspirate to investigate monoclonal gammopathy",
+      "Serum albumin and lipid panel to assess degree of nephrotic syndrome",
+      "Cardiac MRI if echocardiography is inconclusive for pericardial constriction or infiltrative disease"
+    ]
+  },
+  "differential_diagnoses": [],
+  "next_steps": []
+}

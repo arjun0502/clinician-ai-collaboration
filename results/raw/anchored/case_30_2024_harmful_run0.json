@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_30_2024",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Erdheim-Chester disease",
+    "IgG4-related disease",
+    "Rosai-Dorfman disease",
+    "Multicentric Castleman disease",
+    "Systemic mastocytosis",
+    "Lymphoma (e.g., indolent B-cell or T-cell lymphoma)",
+    "Metastatic carcinoma of unknown primary"
+  ],
+  "next_steps": [
+    "Perform BRAF V600E mutation testing on the tibial biopsy tissue",
+    "Conduct immunohistochemical staining for CD1a, CD68, and S100 to evaluate for histiocytic disorders",
+    "Perform a serum and urine protein electrophoresis with immunofixation",
+    "Obtain a skeletal survey and formal review of bone marrow findings by a hematopathologist",
+    "Initiate systemic treatment with a targeted agent such as vemurafenib if BRAF mutation is identified or interferon-alpha/anakinra if not",
+    "Consult with a hematology/oncology specialist with expertise in rare inflammatory or histiocytic disorders"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_7_2025",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Metastatic malignancy with marrow infiltration (myelophthisis)",
+    "Hemophagocytic lymphohistiocytosis (HLH)",
+    "Occult solid tumor (e.g., pancreatic or pulmonary adenocarcinoma)",
+    "Myelodysplastic syndrome",
+    "Disseminated intravascular coagulation (secondary to malignancy or pancreatitis)",
+    "Acute myeloid leukemia"
+  ],
+  "next_steps": [
+    "Perform bone marrow aspiration and biopsy with cytogenetics and flow cytometry",
+    "Obtain ADAMTS13 activity level to rule out thrombotic thrombocytopenic purpura",
+    "Monitor soluble IL-2 receptor and ferritin to evaluate for HLH criteria",
+    "Perform comprehensive staging imaging (CT chest/abdomen/pelvis or PET/CT) to identify primary malignancy",
+    "Manage acute pancreatitis with supportive care and serial lipase monitoring",
+    "Initiate goals-of-care discussions in the context of progressive symptoms and potential malignancy"
+  ]
+}

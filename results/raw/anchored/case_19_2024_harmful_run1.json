@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_19_2024",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Granulomatosis with polyangiitis",
+    "Systemic lupus erythematosus",
+    "Adult-onset Still's disease",
+    "VEXAS syndrome",
+    "Syphilis",
+    "Sarcoidosis",
+    "Relapsing polychondritis"
+  ],
+  "next_steps": [
+    "Serum ANCA testing (PR3/MPO)",
+    "Skin biopsy (including immunofluorescence)",
+    "Comprehensive serologic workup (ANA, ENA, CRP, RF, anti-CCP, complement levels)",
+    "Treponema pallidum particle agglutination (TPPA) or RPR",
+    "Urinalysis and urine sediment microscopy",
+    "Chest/sinus imaging (CT sinus/high-resolution CT chest)",
+    "Evaluation for occult malignancy or hematologic disorder"
+  ]
+}

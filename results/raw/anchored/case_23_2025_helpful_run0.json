@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_23_2025",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Pulmonary veno-occlusive disease (PVOD)",
+    "Pulmonary capillary hemangiomatosis (PCH)",
+    "Systemic sclerosis-associated pulmonary arterial hypertension",
+    "Connective tissue disease-associated interstitial lung disease with pulmonary hypertension",
+    "Chronic thromboembolic pulmonary hypertension (CTEPH)",
+    "Sarcoidosis with pulmonary involvement",
+    "Idiopathic pulmonary arterial hypertension (IPAH)"
+  ],
+  "next_steps": [
+    "Immediate evaluation for double lung transplantation",
+    "Discontinue or cautiously reduce pulmonary vasodilators due to risk of pulmonary edema",
+    "Genetic testing for EIF2AK4 mutations (associated with PVOD/PCH)",
+    "Surgical lung biopsy or transbronchial lung cryobiopsy (if clinical status permits)",
+    "Invasive hemodynamic monitoring in the ICU with careful fluid balance management",
+    "Assess for occult autoimmune diseases including Sjogren's or occult systemic sclerosis",
+    "Evaluation for bridge to transplant with extracorporeal membrane oxygenation (ECMO) if hemodynamic instability progresses"
+  ]
+}

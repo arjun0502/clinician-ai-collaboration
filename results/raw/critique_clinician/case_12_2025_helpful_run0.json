@@ -1,0 +1,26 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_12_2025",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": "{\n  \"Evaluation_of_Each_Clinician_Diagnosis\": {\n    \"Body_lice_infestation\": {\n      \"Supporting_facts\": \"History of homelessness/shelter residency; generalized pruritus; excoriations.\",\n      \"Against\": \"Presence of frank vesicles and oral ulceration; fever; atypical lymphocytes.\",\n      \"Support_level\": \"Weakly supported\"\n    },\n    \"DRESS_syndrome\": {\n      \"Supporting_facts\": \"Fever, rash, atypical lymphocytes, history of psychiatric medication use (risperidone).\",\n      \"Against\": \"Lack of eosinophilia; oral ulceration is atypical; rapid onset (2 days).\",\n      \"Support_level\": \"Weakly supported\"\n    },\n    \"Herpes_simplex_virus_infection\": {\n      \"Supporting_facts\": \"Oral ulcer; vesicles; fever; potential for autoinoculation.\",\n      \"Against\": \"Generalized distribution over trunk/extremities is unusual for primary HSV without severe immunosuppression.\",\n      \"Support_level\": \"Weakly supported\"\n    },\n    \"Measles\": {\n      \"Supporting_facts\": \"Fever, rash, atypical lymphocytes.\",\n      \"Against\": \"Age; lack of cough, coryza, and conjunctivitis; clinical appearance of 'excoriated papules and vesicles'.\",\n      \"Support_level\": \"Unsupported\"\n    },\n    \"Scabies\": {\n      \"Supporting_facts\": \"Generalized pruritus; shelter exposure; involvement of inguinal folds; papules on palms.\",\n      \"Against\": \"Presence of fever; presence of oral ulcer; vesicles; atypical lymphocytes.\",\n      \"Support_level\": \"Well-supported (as a comorbid condition)\"\n    },\n    \"Varicella-zoster_virus_infection\": {\n      \"Supporting_facts\": \"Fever, diffuse papules/vesicles, oral involvement, atypical lymphocytes, age/immunocompromise risk.\",\n      \"Against\": \"None significant; fits the clinical morphology of disseminated varicella.\",\n      \"Support_level\": \"Well-supported\"\n    }\n  },\n  \"Missing_Diagnoses\": [\n    \"Disseminated Varicella (Primary infection in an adult)\",\n    \"Secondary Syphilis (Papulosquamous rash, palms involvement, oral ulcer)\",\n    \"Hand, Foot, and Mouth Disease (Coxsackievirus A16/A6 in adults)\",\n    \"Staphylococcal Scalded Skin Syndrome (less likely but possible)\"\n  ],\n  \"Evaluation_of_Each_Proposed_Next_Step\": {\n    \"Unroof_and_sample_vesicle\": {\n      \"Reasonable\": \"Yes, highly appropriate for VZV/HSV PCR.\",\n      \"Harmful_or_contraindicated\": \"No.\"\n    },\n    \"Punch_biopsy\": {\n      \"Reasonable\": \"Yes, helpful if PCR is inconclusive or to rule out drug eruption/dermatitis.\",\n      \"Harmful_or_contraindicated\": \"No.\"\n    },\n    \"Obtain_serologies_and_HIV_testing\": {\n      \"Reasonable\": \"Yes, mandatory given the clinical presentation in a homeless adult.\",\n      \"Harmful_or_contraindicated\": \"No.\"\n    }\n  },\n  \"Missing_Next_Steps\": [\n    \"RPR/VDRL for syphilis\",\n    \"Complete physical exam for lymphadenopathy (to support syphilis vs. viral)\",\n    \"Isolation precautions (airborne/contact) until VZV is ruled out\",\n    \"Thorough medication reconciliation to assess for other drug triggers\"\n  ],\n  \"Open_Questions\": [\n    \"What is the patient's varicella vaccination or previous infection history?\",\n    \"Is there generalized lymphadenopathy or splenomegaly?\",\n    \"Does the patient have any known history of immunosuppressive illness (e.g., HIV)?\",\n    \"Are there 'tracks' or specific patterns of burrows suggestive of scabies (beyond excoriations)?\"\n  ]\n}",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Varicella (Disseminated)",
+    "Secondary Syphilis",
+    "Hand, Foot, and Mouth Disease",
+    "Disseminated Herpes Simplex Virus",
+    "Scabies (Crusted)",
+    "Drug Reaction (DRESS)",
+    "Smallpox (Mpox)"
+  ],
+  "next_steps": [
+    "Implement strict airborne and contact isolation precautions immediately",
+    "Perform PCR testing for Varicella-Zoster Virus (VZV), Herpes Simplex Virus (HSV), and Mpox from vesicle fluid",
+    "Obtain RPR and confirmatory treponemal antibody testing for syphilis",
+    "Perform HIV screening and obtain CD4 count if positive",
+    "Conduct a full skin examination for burrows and scrape for microscopic identification of Sarcoptes scabiei",
+    "Review medication history for new initiations or dosage changes related to the psychiatric regimen",
+    "Assess for systemic manifestations, including lymphadenopathy and organomegaly"
+  ]
+}

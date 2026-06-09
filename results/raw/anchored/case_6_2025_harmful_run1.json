@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_6_2025",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Chronic portal vein thrombosis (extrahepatic portal vein obstruction)",
+    "Non-cirrhotic portal hypertension (e.g., portal hypertensive biliopathy or idiopathic non-cirrhotic portal hypertension)",
+    "Hepatic schistosomiasis",
+    "Post-traumatic portal vein thrombosis and portal cavernoma",
+    "Budd-Chiari syndrome (chronic)",
+    "Constrictive pericarditis"
+  ],
+  "next_steps": [
+    "Perform urgent cross-sectional imaging with contrast (CT angiography or MR angiography) to evaluate for mesenteric ischemia or progression of thrombus",
+    "Perform liver biopsy with specific staining for schistosomal ova",
+    "Consult interventional radiology for evaluation of portal venous system patency",
+    "Assess for occult chronic infection and parasitic exposure history in Costa Rica",
+    "Evaluate for underlying hypercoagulable state (thrombophilia workup)",
+    "Monitor for signs of acute mesenteric ischemia given the worsening postprandial pain and weight loss"
+  ]
+}

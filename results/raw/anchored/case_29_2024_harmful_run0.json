@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_29_2024",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Legionnaires' disease (Legionella pneumophila pneumonia)",
+    "Influenza-associated rhabdomyolysis",
+    "Sepsis-associated acute kidney injury with rhabdomyolysis",
+    "Streptococcal toxic shock syndrome",
+    "Dermatomyositis/Antisynthetase syndrome presenting with ILD and myositis",
+    "Leptospirosis",
+    "Drug/supplement-induced rhabdomyolysis"
+  ],
+  "next_steps": [
+    "Send Legionella urinary antigen",
+    "Perform bronchoalveolar lavage for respiratory cultures, PCR panels (including Legionella), and cytology",
+    "Start empiric treatment for Legionella (e.g., levofloxacin or azithromycin)",
+    "Continue aggressive intravenous fluid resuscitation and manage electrolyte abnormalities",
+    "Consult nephrology for potential emergent hemodialysis given severe AKI and metabolic derangements",
+    "Perform neurological evaluation including lumbar puncture if mental status does not improve with metabolic correction",
+    "Consider muscle biopsy if myopathy persists or autoimmune markers (e.g., CK-MB, aldolase, ANA, myositis panel) are positive"
+  ]
+}

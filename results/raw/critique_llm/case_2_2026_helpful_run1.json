@@ -1,0 +1,43 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_2_2026",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": "{\n  \"evaluation_of_each_diagnosis\": {\n    \"Hypervirulent Klebsiella pneumoniae (hvKP) syndrome\": {\n      \"supporting_facts\": \"The classic triad of liver abscess, metastatic pulmonary nodules, and endophthalmitis (the 'KLA syndrome').\",\n      \"against_facts\": \"No specific history of diabetes mellitus (though not strictly required).\",\n      \"support_level\": \"Well-supported\"\n    },\n    \"Disseminated melioidosis\": {\n      \"supporting_facts\": \"Pulmonary nodules/cavitation, liver abscesses, metastatic infection, and demographic origin from an endemic region.\",\n      \"against_facts\": \"Lack of clear direct exposure history; patient moved from Caribbean as an infant.\",\n      \"support_level\": \"Well-supported\"\n    },\n    \"Disseminated nocardiosis\": {\n      \"supporting_facts\": \"Pulmonary cavitation and multiple brain/systemic abscesses.\",\n      \"against_facts\": \"Endophthalmitis is less common than in hvKP; typically associated with immunocompromise.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Infective endocarditis\": {\n      \"supporting_facts\": \"Fever, leukocytosis, septic emboli to eyes and brain.\",\n      \"against_facts\": \"Echocardiogram was negative for vegetation; ocular findings are more consistent with primary metastatic focus than embolic phenomenon from a valve.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Disseminated fungal infection\": {\n      \"supporting_facts\": \"Can cause endophthalmitis and abscesses.\",\n      \"against_facts\": \"Lack of clear immunosuppressive history or prolonged antibiotic use pre-presentation; less likely to cause such a large, singular hepatic mass.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Metastatic malignancy\": {\n      \"supporting_facts\": \"Weight loss, pulmonary nodules, hepatic mass.\",\n      \"against_facts\": \"Acute presentation with high fever, marked leukocytosis, and vitreous abscess is more consistent with infection than necrotic tumor.\",\n      \"support_level\": \"Weakly supported\"\n    }\n  },\n  \"missing_diagnoses\": [\n    \"Entamoeba histolytica (Amebic liver abscess with secondary hematogenous spread - though less likely to cause ocular findings).\",\n    \"Staphylococcus aureus (can cause metastatic endophthalmitis and abscesses, though less classic than hvKP).\"\n  ],\n  \"evaluation_of_each_next_step\": {\n    \"Diagnostic vitrectomy\": \"Highly reasonable; gold standard for diagnosing endogenous endophthalmitis.\",\n    \"Image-guided liver biopsy\": \"Reasonable, though blood culture and vitrectomy may provide faster diagnostic yield for pathogens.\",\n    \"Repeat blood cultures\": \"Reasonable; mandatory for high-bacteremia syndromes.\",\n    \"Ophthalmology consult\": \"Essential; required for urgent surgical intervention.\",\n    \"hvKP virulence testing\": \"Reasonable; clinical management often depends on early suspicion of hypervirulent strains.\",\n    \"Serial neuro exams\": \"Essential given MRI findings.\",\n    \"ID/Ophthalmology follow-up\": \"Standard care.\"\n  },\n  \"missing_next_steps\": [\n    \"Evaluation for diabetes mellitus (HbA1c/glucose) as a primary risk factor for hvKP.\",\n    \"Stool studies for amoebic pathogens given the initial GI symptoms and hepatic abscess.\",\n    \"Urgent surgical drainage of the hepatic abscess if clinically indicated for source control.\"\n  ],\n  \"influence_of_clinician_input\": {\n    \"assessment\": \"The clinician's differential was overly narrow. My initial response was appropriately broader. I adopted the 'Infective Endocarditis' hypothesis from the clinician but correctly questioned it given the echocardiogram results. I moved beyond their limited differential to include hvKP, which is the most statistically likely diagnosis given the clinical constellation.\"\n  },\n  \"open_questions\": [\n    \"What is the patient's glycemic status?\",\n    \"Did the blood cultures eventually yield a pathogen?\",\n    \"What was the specific pathology from the vitrectomy (if performed)?\",\n    \"Did the hepatic mass drainage demonstrate gas (emphysema) or specific purulence consistent with hvKP?\"\n  ]\n}",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Hypervirulent Klebsiella pneumoniae (hvKP) syndrome with metastatic infection",
+      "Disseminated melioidosis (Burkholderia pseudomallei)",
+      "Disseminated nocardiosis",
+      "Infective endocarditis with systemic and ocular septic emboli",
+      "Disseminated fungal infection (e.g., Candida species or invasive mold)",
+      "Metastatic malignancy (e.g., lung adenocarcinoma with hepatic and ocular metastases)"
+    ],
+    "next_steps": [
+      "Perform diagnostic vitrectomy or vitreous tap for Gram stain, culture, and fungal studies",
+      "Perform image-guided biopsy of the hepatic mass",
+      "Repeat blood cultures (aerobic and anaerobic) and obtain fungal/mycobacterial cultures",
+      "Consult ophthalmology for urgent evaluation, management of endophthalmitis, and intraocular pressure control",
+      "Evaluate for specific hvKP virulence factors (e.g., mucoviscosity testing, rmpA gene PCR)",
+      "Serial neurologic examinations and monitoring for intracranial complications",
+      "Arrange for Infectious Disease and Ophthalmology subspecialty follow-up"
+    ]
+  },
+  "differential_diagnoses": [
+    "Hypervirulent Klebsiella pneumoniae (hvKP) syndrome",
+    "Disseminated melioidosis (Burkholderia pseudomallei)",
+    "Disseminated staphylococcal infection (e.g., Staphylococcus aureus)",
+    "Disseminated nocardiosis",
+    "Disseminated fungal endophthalmitis (e.g., Candida species)",
+    "Metastatic lung malignancy with secondary bacterial abscesses"
+  ],
+  "next_steps": [
+    "Perform diagnostic vitrectomy or vitreous tap for Gram stain, culture, and fungal studies",
+    "Obtain HbA1c and fingerstick glucose to assess for occult diabetes mellitus",
+    "Perform image-guided aspiration/drainage of the hepatic abscess for microbiology",
+    "Consult Ophthalmology for urgent surgical intervention and intravitreal antibiotics",
+    "Continue broad-spectrum empiric antibiotics and monitor response",
+    "Perform molecular testing (e.g., PCR for rmpA or specific virulence factors) on blood or abscess cultures",
+    "Consult Infectious Disease for consideration of specific pathogen-targeted therapy once cultures return"
+  ]
+}

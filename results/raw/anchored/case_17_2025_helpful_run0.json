@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_17_2025",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Strongyloides stercoralis hyperinfection syndrome",
+    "Disseminated histoplasmosis",
+    "Disseminated nocardiosis",
+    "Cytomegalovirus pneumonitis",
+    "Gram-negative sepsis (e.g., Capnocytophaga canimorsus)",
+    "Pneumocystis jirovecii pneumonia",
+    "Drug-induced pneumonitis"
+  ],
+  "next_steps": [
+    "Microscopic examination of tracheal aspirate and stool for Strongyloides larvae",
+    "Punch biopsy of purpuric skin lesions with tissue culture and histopathology",
+    "Bronchoalveolar lavage with fungal, bacterial, and viral staining and PCR",
+    "Serum (1-3)-beta-D-glucan assay",
+    "Urine and serum Histoplasma antigen testing",
+    "Comprehensive blood cultures and serologic testing",
+    "CT of abdomen and pelvis to evaluate the cause of ileus and suspected bowel pathology"
+  ]
+}

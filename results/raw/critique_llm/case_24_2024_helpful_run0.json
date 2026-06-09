@@ -1,0 +1,43 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_24_2024",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Postpartum obsessive\u2013compulsive disorder\": {\n      \"Supporting facts\": \"Presence of ego-dystonic intrusive thoughts (stabbing infant), avoidance behaviors (staying out of kitchen), and ritualistic reassurance-seeking (checking on infant, internet research).\",\n      \"Against/Inconsistent\": \"None.\",\n      \"Support\": \"Well-supported; this is the primary diagnosis.\"\n    },\n    \"Postpartum major depressive disorder with anxious distress\": {\n      \"Supporting facts\": \"Insomnia, exhaustion, feelings of numbness, hopelessness ('I can't do this'), and suicidal ideation ('I wish I were dead').\",\n      \"Against/Inconsistent\": \"The patient is highly functional in terms of reality testing, which is preserved despite the severity of the anxiety/OCD symptoms.\",\n      \"Support\": \"Well-supported; commonly comorbid with postpartum OCD.\"\n    },\n    \"Postpartum psychosis (prodomal or atypical)\": {\n      \"Supporting facts\": \"Visual hallucinations mentioned (though they are imagery associated with intrusive thoughts/OCD, not true psychotic hallucinations).\",\n      \"Against/Inconsistent\": \"The patient retains insight (ego-dystonic nature), expresses distress over thoughts, and is not delusional. The 'hallucination' is likely a visual manifestation of her obsessive thoughts.\",\n      \"Support\": \"Weakly supported; ruled out by lack of true psychotic features and preserved insight.\"\n    },\n    \"Generalized anxiety disorder\": {\n      \"Supporting facts\": \"History of anxiety, persistent worry about infant safety and motherhood.\",\n      \"Against/Inconsistent\": \"The clinical picture is dominated by OCD-specific symptoms and depressive features rather than generalized worry.\",\n      \"Support\": \"Weakly supported; likely secondary to or comorbid with the primary postpartum MDD/OCD.\"\n    },\n    \"Adjustment disorder with mixed anxiety and depressed mood\": {\n      \"Supporting facts\": \"Onset follows a significant life stressor (childbirth).\",\n      \"Against/Inconsistent\": \"The presence of severe, specific symptoms like ego-dystonic obsessions and suicidality warrants a more specific diagnosis than adjustment disorder.\",\n      \"Support\": \"Unsupported; the severity exceeds criteria for adjustment disorder.\"\n    }\n  },\n  \"Missing Diagnoses\": {\n    \"Diagnoses\": [\n      \"Postpartum Hypertension / Preeclampsia-related neuro-psychiatric sequelae (given the history of gestational hypertension and recent high BP readings).\",\n      \"Postpartum Thyroiditis (common medical cause of postpartum mood/anxiety symptoms).\"\n    ]\n  },\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Comprehensive risk assessment\": {\n      \"Reasonable\": \"Yes, essential for safety planning.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"Cognitive behavioral therapy (ERP)\": {\n      \"Reasonable\": \"Yes, gold standard for OCD.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"Optimization of SSRI\": {\n      \"Reasonable\": \"Yes, current dose/agent may be insufficient.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"Augmentation with atypical antipsychotic\": {\n      \"Reasonable\": \"Yes, for refractory OCD or severe anxiety.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"Close monitoring/Supervised interactions\": {\n      \"Reasonable\": \"Yes, critical given the patient's fear of her own thoughts.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"Psychoeducation\": {\n      \"Reasonable\": \"Yes, essential to reduce shame and increase treatment adherence.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"Blood pressure monitoring\": {\n      \"Reasonable\": \"Yes, necessary to rule out medical contributors to irritability/anxiety.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    }\n  },\n  \"Missing Next Steps\": {\n    \"Steps\": [\n      \"Laboratory testing for thyroid function (TSH/Free T4).\",\n      \"Assessment of breast-feeding status and medication safety (lactation consultation), given the patient stopped abruptly due to pain.\",\n      \"Formal referral to a specialized reproductive psychiatry clinic.\"\n    ]\n  },\n  \"Influence of Clinician Input\": {\n    \"Analysis\": \"The clinician's prompt to start Olanzapine and switch SSRIs likely influenced my suggestion of augmentation and SSRI optimization. While these are standard psychiatric practices, I adopted them without questioning if the underlying medical issues (postpartum hypertension) were sufficiently addressed first. I should have prioritized the medical workup more explicitly.\"\n  },\n  \"Open Questions\": {\n    \"Questions\": [\n      \"What is the current Thyroid Stimulating Hormone (TSH) level?\",\n      \"Does the patient have a history of specific OCD symptoms prior to pregnancy?\",\n      \"Is the reported visual hallucination truly a psychotic symptom, or clearly identified by the patient as a 'thought image'?\"\n    ]\n  }\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Postpartum obsessive-compulsive disorder",
+      "Postpartum major depressive disorder with anxious distress",
+      "Postpartum psychosis (prodomal or atypical)",
+      "Generalized anxiety disorder",
+      "Adjustment disorder with mixed anxiety and depressed mood"
+    ],
+    "next_steps": [
+      "Comprehensive risk assessment for harm to self or others",
+      "Initiation of cognitive behavioral therapy with exposure and response prevention (ERP)",
+      "Optimization of SSRI pharmacotherapy (e.g., increasing dose or switching to a more potent serotonergic agent)",
+      "Evaluation for augmentation of antidepressant therapy with a low-dose atypical antipsychotic",
+      "Close monitoring for safety, including supervised interactions with the infant",
+      "Psychoeducation for the patient and family regarding the nature of intrusive thoughts to reduce stigma and distress",
+      "Continued monitoring of blood pressure and postpartum medical stability"
+    ]
+  },
+  "differential_diagnoses": [
+    "Postpartum obsessive-compulsive disorder",
+    "Postpartum major depressive disorder with anxious distress",
+    "Postpartum thyroiditis",
+    "Generalized anxiety disorder",
+    "Postpartum hypertension with associated neurological or psychological symptoms",
+    "Adjustment disorder with mixed anxiety and depressed mood"
+  ],
+  "next_steps": [
+    "Comprehensive assessment for suicidality and safety planning, including supervised infant care",
+    "Laboratory workup including TSH, Free T4, and repeat renal/liver function tests",
+    "Optimization of antidepressant therapy (e.g., SSRI dose escalation or switch)",
+    "Referral to specialized postpartum or reproductive psychiatry care",
+    "Initiation of cognitive behavioral therapy with exposure and response prevention (ERP)",
+    "Continued monitoring of blood pressure and postpartum medical status",
+    "Psychoeducation for patient and family regarding the ego-dystonic nature of intrusive thoughts",
+    "Lactation consultation to address mastitis or physical discomfort if breast-feeding is still desired"
+  ]
+}

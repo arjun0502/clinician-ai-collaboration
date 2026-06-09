@@ -1,0 +1,46 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_15_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Hantavirus cardiopulmonary syndrome\": {\n      \"supporting_facts\": \"History of camping in rural Argentina (Chascom\u00fas), rapid progression to severe hypoxemia/ARDS, hemoconcentration (hematocrit 56.9%), thrombocytopenia, and leukocytosis.\",\n      \"opposing_facts\": \"Lack of frank cardiogenic shock or profound hypotension, though early compensated stages can mimic this.\",\n      \"support_level\": \"Well-supported\"\n    },\n    \"Leptospirosis with pulmonary involvement\": {\n      \"supporting_facts\": \"Rural exposure, fever, abdominal pain, renal involvement (elevated BUN), thrombocytopenia.\",\n      \"opposing_facts\": \"Lack of jaundice/hepatic dysfunction, though not required; primary pulmonary hemorrhage is the severe form.\",\n      \"support_level\": \"Well-supported\"\n    },\n    \"Severe community-acquired pneumonia (atypical)\": {\n      \"supporting_facts\": \"Fever, cough, ground-glass opacities, hypoxia.\",\n      \"opposing_facts\": \"Rapid progression to severe ARDS disproportionate to clinical findings, poor response to broad-spectrum coverage.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Invasive pulmonary aspergillosis\": {\n      \"supporting_facts\": \"Halo sign on CT, immunocompromised state (though not explicitly confirmed).\",\n      \"opposing_facts\": \"No known history of neutropenia or steroid use; patient appears previously healthy.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Dengue hemorrhagic fever with pulmonary involvement\": {\n      \"supporting_facts\": \"Thrombocytopenia, hemoconcentration, abdominal pain.\",\n      \"opposing_facts\": \"Clinical course is more respiratory-dominant than classic capillary leak syndrome; geographic season (autumn) is less typical.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Systemic vasculitis with diffuse alveolar hemorrhage\": {\n      \"supporting_facts\": \"Hemoptysis/hypoxia, pulmonary infiltrates, renal involvement (BUN).\",\n      \"opposing_facts\": \"Absence of gross hemoptysis, sudden onset following rural travel.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Hantavirus pulmonary syndrome (Andes virus)\": {\n      \"supporting_facts\": \"Andes virus is the primary hantavirus in Argentina capable of human-to-human transmission and severe pulmonary compromise.\",\n      \"opposing_facts\": \"None.\",\n      \"support_level\": \"Well-supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Psittacosis (exposure history to birds/outdoors)\",\n    \"Q Fever (Coxiella burnetii, common in rural environments)\",\n    \"Tularemia (pneumonic form following rural contact)\"\n  ],\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Hantavirus testing\": \"Essential and high priority.\",\n    \"Procalcitonin\": \"Reasonable for guiding antibiotic stewardship.\",\n    \"BAL\": \"Highly reasonable, but must be balanced against the risk of worsening severe hypoxemia.\",\n    \"Mechanical ventilation\": \"Appropriate standard of care for refractory ARDS.\",\n    \"Antibiotic de-escalation\": \"Appropriate once cultures are negative to prevent superinfection.\",\n    \"Blood smear\": \"Important to rule out malaria or abnormal cell lines.\",\n    \"Public health contact\": \"Critical for public health surveillance.\"\n  },\n  \"Missing Next Steps\": [\n    \"Urine analysis (specifically to assess for hematuria/proteinuria to differentiate glomerulonephritis/vasculitis)\",\n    \"Serum LDH and haptoglobin (to evaluate for microangiopathic hemolytic anemia)\",\n    \"Autoimmune panel (ANCA, anti-GBM) to rule out Goodpasture's or ANCA-vasculitis\"\n  ],\n  \"Influence of Clinician Input\": {\n    \"Assessment\": \"The clinician's differential provided a strong anchor; I adopted 'Hantavirus' and 'Pulmonary-renal syndrome' but expanded on them. I potentially adopted the 'Invasive fungal' theory uncritically based on the CT 'halo sign' mention, which may be an over-interpretation of pulmonary edema/hemorrhage mimics.\",\n    \"Critique\": \"I should have questioned the 'halo sign' more, as this can be a radiological mimic of hemorrhage rather than true invasive fungal disease in a non-neutropenic host.\"\n  },\n  \"Open Questions\": [\n    \"Is there detectable proteinuria or hematuria on urinalysis?\",\n    \"What is the LDH level and is there schistocytosis on blood smear?\",\n    \"Has the patient had any exposure to bird droppings or livestock in Chascom\u00fas?\",\n    \"Was there any mention of muscle pain (myalgia) which is highly characteristic of Leptospirosis?\"\n  ]\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Hantavirus cardiopulmonary syndrome",
+      "Leptospirosis with pulmonary involvement",
+      "Severe community-acquired pneumonia (atypical)",
+      "Invasive pulmonary aspergillosis",
+      "Dengue hemorrhagic fever with pulmonary involvement",
+      "Systemic vasculitis with diffuse alveolar hemorrhage",
+      "Hantavirus pulmonary syndrome (Andes virus)"
+    ],
+    "next_steps": [
+      "Send serum for Hantavirus-specific serology (IgM/IgG) and viral RNA (RT-PCR)",
+      "Serum procalcitonin and inflammatory marker assessment",
+      "Consider bronchoalveolar lavage (BAL) for fungal culture, galactomannan, and multiplex respiratory PCR panel",
+      "Continue lung-protective mechanical ventilation strategy",
+      "Discontinue unnecessary broad-spectrum antibiotics if culture results remain negative",
+      "Blood smear for evaluation of hematologic abnormalities",
+      "Contact public health authorities regarding potential Hantavirus exposure (Chascom\u00fas area)"
+    ]
+  },
+  "differential_diagnoses": [
+    "Hantavirus cardiopulmonary syndrome (HCPS)",
+    "Leptospirosis with pulmonary involvement",
+    "Severe community-acquired pneumonia (atypical/zoonotic etiology)",
+    "Diffuse alveolar hemorrhage secondary to systemic vasculitis",
+    "Psittacosis",
+    "Q fever",
+    "Severe dengue with capillary leak syndrome"
+  ],
+  "next_steps": [
+    "Perform Hantavirus-specific serology (IgM/IgG) and RT-PCR",
+    "Urinalysis to assess for hematuria and proteinuria to evaluate for systemic vasculitis/leptospirosis",
+    "Measure LDH, haptoglobin, and review peripheral blood smear for schistocytes to assess for microangiopathic hemolytic anemia",
+    "Perform Bronchoalveolar Lavage (BAL) for viral/bacterial/fungal culture, PCR panels, and cytology to rule out hemorrhage vs. infection",
+    "Evaluate for autoimmune markers including ANCA and anti-GBM antibodies",
+    "Inquire specifically about exposure to animal excreta, bird droppings, or raw milk during the rural visit",
+    "Maintain lung-protective ventilation and consult Infectious Disease and Nephrology specialists",
+    "Notify local public health authorities of suspected Hantavirus case"
+  ]
+}

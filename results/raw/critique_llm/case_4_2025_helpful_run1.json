@@ -1,0 +1,44 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_4_2025",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": "{\n  \"Evaluation_of_Each_Diagnosis\": {\n    \"Sarcoidosis\": {\n      \"Supporting\": \"Bilateral hilar lymphadenopathy, pulmonary nodules, arthralgia (ankles/wrists), fever, and constitutional symptoms are classic for L\u00f6fgren's syndrome/sarcoidosis.\",\n      \"Against\": \"Syncope is concerning for cardiac sarcoidosis, which usually presents with conduction system abnormalities rather than a normal ECG; however, myocardial infiltration remains possible.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Lymphoma\": {\n      \"Supporting\": \"B-symptoms (fever, fatigue, weight loss), mediastinal/hilar adenopathy, and rapid progression.\",\n      \"Against\": \"Arthralgia and skin findings are less typical but can occur as paraneoplastic phenomena.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Bartonellosis\": {\n      \"Supporting\": \"Cat exposure 6 months prior, fever, and adenopathy.\",\n      \"Against\": \"Usually causes regional lymphadenopathy rather than diffuse bilateral hilar/mediastinal nodes; clinical course is more protracted than typical cat-scratch disease.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Tuberculosis\": {\n      \"Supporting\": \"Bilateral hilar adenopathy, constitutional symptoms, and pulmonary nodules.\",\n      \"Against\": \"Patient has no classic risk factors for reactivation, and the presentation of acute arthralgia is more characteristic of sarcoidosis.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Histoplasmosis\": {\n      \"Supporting\": \"Hilar/mediastinal lymphadenopathy and pulmonary nodules can mimic sarcoidosis.\",\n      \"Against\": \"Lack of specific geographic exposure mentioned in the vignette; clinical course is somewhat more aggressive than typical subacute histoplasmosis.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Systemic Lupus Erythematosus\": {\n      \"Supporting\": \"Arthralgia, fever, fatigue, and potential cardiac involvement.\",\n      \"Against\": \"Normal urinalysis (no nephritis) and lack of other classic criteria (butterfly rash, cytopenias, specific autoantibodies).\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Metastatic carcinoma\": {\n      \"Supporting\": \"Pulmonary nodules and adenopathy.\",\n      \"Against\": \"Age and lack of primary tumor findings on CT/initial studies; the time course is somewhat rapid for most common solid tumors.\",\n      \"Status\": \"Unsupported\"\n    }\n  },\n  \"Missing_Diagnoses\": [\n    \"IgG4-related disease (can involve mediastinal nodes, cardiac tissue, and joints)\",\n    \"Cardiac sarcoidosis (as a distinct, high-mortality diagnosis requiring specific surveillance)\",\n    \"Vasculitis (e.g., ANCA-associated vasculitis) given the systemic symptoms and ecchymoses\"\n  ],\n  \"Evaluation_of_Next_Steps\": {\n    \"EBUS-TBNA\": \"Reasonable. Definitive for histology/culture to rule out sarcoidosis vs. lymphoma vs. infection. Not harmful.\",\n    \"ACE/1,25-dihydroxyvitamin D\": \"Reasonable. Standard workup for sarcoidosis.\",\n    \"PET/CT\": \"Reasonable. Identifies biopsy sites and systemic inflammatory burden. Not harmful.\",\n    \"Cardiac MRI\": \"Reasonable. Essential given the syncope; highly sensitive for cardiac sarcoidosis.\",\n    \"Electrophoresis\": \"Reasonable. Helpful for ruling out lymphoproliferative disorders.\",\n    \"Serology\": \"Reasonable. Necessary for ruling out infectious mimics.\"\n  },\n  \"Missing_Next_Steps\": [\n    \"Holter monitor or extended cardiac rhythm monitoring to rule out occult conduction disease/arrhythmia contributing to syncope.\",\n    \"Biopsy of skin (erythematous macules on ankles) to evaluate for sarcoid granulomas or vasculitis.\"\n  ],\n  \"Influence_of_Clinician_Input\": {\n    \"Assessment\": \"The clinician's differential provided a strong framework. I adopted 'Bartonellosis' and 'Sarcoidosis' directly but expanded to include broader infectious and malignant categories (TB, Histoplasmosis, Lymphoma) to ensure safety. I uncritically accepted 'Cardiac MRI' and 'PET/CT' as they are standard high-yield investigations for undifferentiated mediastinal adenopathy with syncope.\"\n  },\n  \"Open_Questions\": [\n    \"Are there specific rhythm abnormalities detected on telemetry during hospitalization?\",\n    \"What are the results of the biopsy of the mediastinal nodes (histology, stains, and cultures)?\",\n    \"Is there any evidence of serum autoantibodies (ANA, ANCA, ACE levels)?\"\n  ]\n}",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Sarcoidosis",
+      "Lymphoma (Hodgkin or Non-Hodgkin)",
+      "Bartonellosis",
+      "Tuberculosis",
+      "Histoplasmosis",
+      "Systemic Lupus Erythematosus",
+      "Metastatic carcinoma"
+    ],
+    "next_steps": [
+      "Endobronchial ultrasound-guided transbronchial needle aspiration (EBUS-TBNA) of mediastinal/hilar lymph nodes",
+      "Serum ACE level and 1,25-dihydroxyvitamin D levels",
+      "18F-FDG PET/CT to identify optimal biopsy sites and assess for cardiac involvement",
+      "Cardiac MRI",
+      "Serum and urine protein electrophoresis",
+      "Serologic testing for Bartonella henselae (IgG and IgM) and QuantiFERON-TB Gold"
+    ]
+  },
+  "differential_diagnoses": [
+    "Sarcoidosis",
+    "Lymphoma (Hodgkin or Non-Hodgkin)",
+    "Cardiac Sarcoidosis",
+    "IgG4-Related Disease",
+    "Histoplasmosis",
+    "Tuberculosis",
+    "ANCA-associated vasculitis"
+  ],
+  "next_steps": [
+    "Endobronchial ultrasound-guided transbronchial needle aspiration (EBUS-TBNA) of mediastinal lymph nodes for histology, flow cytometry, and microbial culture",
+    "Cardiac MRI with gadolinium enhancement to evaluate for myocardial inflammation or infiltration",
+    "Continuous cardiac rhythm monitoring (Holter or telemetry) to assess for conduction disturbances or arrhythmias",
+    "Skin punch biopsy of lower extremity lesions to assess for sarcoid granulomas or vasculitis",
+    "Serum ACE levels, 1,25-dihydroxyvitamin D, and inflammatory markers (ESR, CRP)",
+    "Full autoimmune serology panel (ANA, ANCA, RF, anti-CCP)",
+    "18F-FDG PET/CT for assessment of systemic disease distribution and selection of biopsy sites"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_35_2024",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Clinician Diagnosis\": {\n    \"Meconium aspiration syndrome\": {\n      \"Supporting facts\": \"Meconium-stained amniotic fluid, nonreassuring fetal status, need for resuscitation, requirement for prolonged mechanical ventilation, and patchy opacities.\",\n      \"Against/Inconsistent\": \"Does not explain the persistence of severe unilateral opacities/effusions or the specific imaging evolution of the left lung.\",\n      \"Verdict\": \"Well-supported\"\n    },\n    \"Congenital diaphragmatic hernia\": {\n      \"Supporting facts\": \"Severe respiratory distress, pneumothorax, pulmonary hypertension, and shifting lung opacities.\",\n      \"Against/Inconsistent\": \"Normal fetal anatomy surveys performed serially; absence of bowel loops or mediastinal shift described on radiographs.\",\n      \"Verdict\": \"Weakly supported\"\n    },\n    \"Congenital pulmonary airway malformation\": {\n      \"Supporting facts\": \"Persistent opacity, recurrent pneumothoraces, and respiratory failure.\",\n      \"Against/Inconsistent\": \"Serial fetal ultrasounds were performed and reported as revealing only urinary tract dilatation, not lung lesions.\",\n      \"Verdict\": \"Weakly supported\"\n    },\n    \"Multiple bronchogenic cysts\": {\n      \"Supporting facts\": \"Can cause mass effect and air trapping leading to pneumothorax.\",\n      \"Against/Inconsistent\": \"Not typically associated with the diffuse findings or the infectious presentation described.\",\n      \"Verdict\": \"Weakly supported\"\n    },\n    \"Congenital lobar overinflation\": {\n      \"Supporting facts\": \"Can present with progressive respiratory distress and air trapping.\",\n      \"Against/Inconsistent\": \"Usually presents with localized hyperinflation rather than persistent opacities and effusions.\",\n      \"Verdict\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Pulmonary sequestration\",\n    \"Neonatal pneumonia (likely nosocomial or vertical transmission, given chorioamnionitis and persistent opacities)\",\n    \"Congenital pulmonary lymphangiectasia\",\n    \"Posterior urethral valves (given the documented urinary tract dilatation)\"\n  ],\n  \"Evaluation of Each Proposed Next Step\": {\n    \"Perform bronchoscopy\": \"Reasonable to evaluate for airway compression or anatomic obstruction contributing to persistent atelectasis/opacities.\",\n    \"Perform lung biopsy\": \"Premature; highly invasive and should only be considered if non-invasive imaging fails to reach a diagnosis.\",\n    \"Escalate broad-spectrum antibiotics\": \"Reasonable given persistent fever and worsening pulmonary opacities suggestive of possible secondary infection.\",\n    \"Order serial daily chest radiographs\": \"Reasonable for monitoring progression but unlikely to provide definitive diagnostic clarity alone.\"\n  },\n  \"Missing Next Steps\": [\n    \"CT scan of the chest (with or without contrast) to better characterize the persistent left lower lobe opacity\",\n    \"Renal ultrasound/voiding cystourethrogram to investigate the urinary tract dilatation\",\n    \"Tracheal aspirate cultures for pathogens (including atypical organisms)\",\n    \"Consultation with pediatric urology and pediatric surgery\"\n  ],\n  \"Open Questions\": [\n    \"What is the exact anatomy and function of the dilated right urinary tract?\",\n    \"Does the persistent opacity represent a fluid-filled malformation (e.g., sequestration or CPAM) or necrotizing pneumonia?\",\n    \"Are there any specific pathogens (e.g., fungal or unusual bacterial) isolated from tracheal aspirates since the patient is failing standard therapy?\"\n  ]\n}\n```",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Pulmonary sequestration",
+    "Persistent bacterial pneumonia",
+    "Congenital pulmonary airway malformation (CPAM)",
+    "Meconium aspiration syndrome with secondary complications",
+    "Congenital lobar emphysema",
+    "Pulmonary lymphangiectasia",
+    "Congenital diaphragmatic hernia (missed)"
+  ],
+  "next_steps": [
+    "Computed tomography (CT) of the chest with contrast to characterize the persistent opacity and vascular supply",
+    "Renal ultrasound and voiding cystourethrogram to evaluate the urinary tract dilatation",
+    "Tracheal aspirate for broad-spectrum cultures including fungal and atypical bacterial pathogens",
+    "Pediatric surgery consultation for possible lung resection or diagnostic biopsy",
+    "Pediatric urology consultation for the management of the urinary tract anomaly",
+    "Bronchoscopy to rule out airway compression or structural anomalies"
+  ]
+}

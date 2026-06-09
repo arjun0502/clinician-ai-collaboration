@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_36_2024",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Cannabinoid hyperemesis syndrome",
+    "Gastroparesis",
+    "Superior mesenteric artery syndrome",
+    "Peptic ulcer disease with gastric outlet obstruction",
+    "Intermittent small bowel obstruction",
+    "Crohn's disease",
+    "Abdominal migraine"
+  ],
+  "next_steps": [
+    "EGD (Esophagogastroduodenoscopy) to evaluate for peptic ulcer disease and gastric outlet obstruction",
+    "Gastric emptying study to rule out gastroparesis",
+    "Detailed review of cannabinoid use history and consideration of cessation trial",
+    "Measurement of serum lead levels due to history of pica",
+    "Review of abdominal CT imaging by an expert radiologist to assess for vascular compression syndromes like SMA syndrome",
+    "Initiate bowel rest and consider parenteral nutrition if vomiting persists"
+  ]
+}

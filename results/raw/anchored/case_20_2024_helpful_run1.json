@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_20_2024",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Chronic Granulomatous Disease (CGD)",
+    "Common Variable Immunodeficiency (CVID)",
+    "Hepatosplenic Sarcoidosis",
+    "Whipple's Disease",
+    "Q fever (Chronic)",
+    "Systemic Nontuberculous Mycobacterial Infection",
+    "T-cell Large Granular Lymphocyte Leukemia"
+  ],
+  "next_steps": [
+    "Measurement of serum immunoglobulin levels (IgG, IgA, IgM)",
+    "Dihydrorhodamine (DHR) flow cytometry assay for CGD",
+    "Genetic testing for CYBB or other CGD-related gene mutations",
+    "Detailed evaluation for specific antibody deficiencies (pneumococcal titers)",
+    "Repeat liver biopsy with dedicated tissue for specialized PCR and culture (16S rRNA gene sequencing)",
+    "Specialized infectious disease consultation to discuss repeat imaging-guided biopsy specifically for molecular pathogen identification"
+  ]
+}

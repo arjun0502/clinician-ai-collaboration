@@ -1,0 +1,25 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_12_2025",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Clinician Diagnosis\": {\n    \"Body lice infestation\": {\n      \"Supporting\": \"Residence in a homeless shelter, reported history of lice at the facility.\",\n      \"Against\": \"Usually associated with poor hygiene/clothing; does not typically cause the systemic fever (38.4\u00b0C) or oral ulceration described.\",\n      \"Verdict\": \"Weakly supported\"\n    },\n    \"Drug reaction with eosinophilia and systemic symptoms (DRESS) syndrome\": {\n      \"Supporting\": \"Rash, fever, elevated liver enzymes, atypical lymphocytes.\",\n      \"Against\": \"Usually requires a longer latent period for inciting medications like risperidone (often 2-8 weeks), and systemic features (lymphadenopathy, significant eosinophilia) are not currently prominent.\",\n      \"Verdict\": \"Weakly supported\"\n    },\n    \"Herpes simplex virus infection\": {\n      \"Supporting\": \"Oral ulcer present.\",\n      \"Against\": \"Does not account for the diffuse, generalized papular/vesicular eruption across the chest, abdomen, and palms.\",\n      \"Verdict\": \"Weakly supported\"\n    },\n    \"Measles\": {\n      \"Supporting\": \"Fever, rash, atypical lymphocytes.\",\n      \"Against\": \"Lack of classic prodrome (cough, coryza, conjunctivitis), age of patient, and pattern of vesicles is more suggestive of a primary blistering disorder.\",\n      \"Verdict\": \"Unsupported\"\n    },\n    \"Scabies\": {\n      \"Supporting\": \"Pruritus, characteristic distribution (inguinal, inframammary, hands/palms), shelter exposure history.\",\n      \"Against\": \"Fever is not typical for uncomplicated scabies; the presence of an oral ulcer is atypical.\",\n      \"Verdict\": \"Well-supported\"\n    },\n    \"Varicella-zoster virus infection\": {\n      \"Supporting\": \"Fever, generalized vesicular/papular rash, oral ulceration (enanthem), age-related risks.\",\n      \"Against\": \"None prominent; presentation of primary varicella in an adult can be severe.\",\n      \"Verdict\": \"Well-supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Secondary Syphilis\",\n    \"Hand, Foot, and Mouth Disease (Coxsackievirus)\",\n    \"Disseminated Histoplasmosis\"\n  ],\n  \"Evaluation of Each Proposed Next Step\": {\n    \"Unroof and sample a vesicle for VZV-specific PCR and HSV PCR\": {\n      \"Reasonable\": \"Yes, high yield for vesicular rashes.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"Perform a punch biopsy of an active lesion\": {\n      \"Reasonable\": \"Yes, especially if PCR is inconclusive; histopathology can distinguish between viral causes and inflammatory dermatoses.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"Obtain serologies for VZV IgM/IgG and HIV\": {\n      \"Reasonable\": \"Yes, documentation of immune status and HIV status is critical in an adult presenting with generalized VZV.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    }\n  },\n  \"Missing Next Steps\": [\n    \"Rapid Plasma Reagin (RPR) or Treponema pallidum particle agglutination (TPPA) test to rule out secondary syphilis.\",\n    \"Tzanck smear for rapid preliminary viral identification (though PCR is superior).\",\n    \"Comprehensive physical exam, specifically checking for lymphadenopathy and mucous membrane involvement.\"\n  ],\n  \"Open Questions\": [\n    \"What is the patient's vaccination history for Varicella?\",\n    \"Does the patient have a history of childhood chickenpox?\",\n    \"Are there any other systemic symptoms like recent weight loss or night sweats?\",\n    \"What is the patient's sexual history (to more accurately assess risk for syphilis)?\"\n  ]\n}\n```",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Varicella (primary infection)",
+    "Disseminated herpes simplex virus infection",
+    "Secondary syphilis",
+    "Hand, foot, and mouth disease",
+    "Scabies",
+    "Drug-induced hypersensitivity reaction"
+  ],
+  "next_steps": [
+    "Perform VZV and HSV PCR testing via vesicular swab",
+    "Obtain HIV testing and CD4 count",
+    "Order a rapid plasma reagin (RPR) and treponemal-specific test for syphilis",
+    "Perform a physical exam to evaluate for generalized lymphadenopathy and additional mucosal involvement",
+    "Consider skin biopsy with viral culture and histopathology",
+    "Initiate empiric contact and airborne isolation precautions",
+    "Assess vaccination history and prior varicella-zoster exposure"
+  ]
+}

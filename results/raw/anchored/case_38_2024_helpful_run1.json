@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_38_2024",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Infective endocarditis (Staphylococcus aureus) with septic emboli",
+    "Systemic lupus erythematosus (SLE) with Libman-Sacks endocarditis and secondary antiphospholipid syndrome",
+    "Disseminated intravascular coagulation secondary to occult malignancy or infection",
+    "Primary angiitis of the central nervous system",
+    "Thrombotic thrombocytopenic purpura (TTP)",
+    "Rocky Mountain spotted fever",
+    "Leptospirosis"
+  ],
+  "next_steps": [
+    "Transesophageal echocardiography (TEE) to assess for valvular vegetations",
+    "Antiphospholipid antibody panel (lupus anticoagulant, anticardiolipin antibodies, anti-beta-2 glycoprotein I)",
+    "Consultation with rheumatology and infectious disease specialists",
+    "ADAMTS13 activity level testing",
+    "Repeat blood cultures and specialized serological testing for Rickettsia and Leptospira",
+    "Continued broad-spectrum antimicrobial and hemodynamic support in the ICU"
+  ]
+}

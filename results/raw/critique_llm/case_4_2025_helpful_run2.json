@@ -1,0 +1,45 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_4_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": "{\n  \"evaluation_of_each_diagnosis\": {\n    \"Sarcoidosis\": {\n      \"supporting_facts\": \"Bilateral hilar lymphadenopathy, arthralgia (ankles/wrists), pulmonary nodules, and constitutional symptoms (fever, fatigue) are classic.\",\n      \"against_facts\": \"The rapid progression from normal imaging 4.5 months ago to extensive mediastinal lymphadenopathy and pulmonary nodules is aggressive for typical sarcoidosis.\",\n      \"support_level\": \"Well-supported\"\n    },\n    \"Lymphoma\": {\n      \"supporting_facts\": \"B-symptoms (fever, fatigue), rapid onset of mediastinal/hilar adenopathy, and multiple pulmonary nodules.\",\n      \"against_facts\": \"Lack of peripheral lymphadenopathy or splenomegaly on exam.\",\n      \"support_level\": \"Well-supported\"\n    },\n    \"Tuberculosis\": {\n      \"supporting_facts\": \"Bilateral hilar adenopathy, fever, constitutional symptoms, nodules.\",\n      \"against_facts\": \"Absence of respiratory symptoms (cough, sputum), travel history not high-risk, normal white-cell count.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Bartonellosis\": {\n      \"supporting_facts\": \"Cat scratch exposure (6 months prior), fever, arthralgia, cutaneous ecchymoses/macules.\",\n      \"against_facts\": \"Mediastinal adenopathy of this extent is less common; typically regional lymphadenopathy is seen.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Histoplasmosis\": {\n      \"supporting_facts\": \"Common cause of hilar lymphadenopathy and pulmonary nodules in specific geographies.\",\n      \"against_facts\": \"No clear exposure history (spelunking, etc.) provided; symptoms have a slightly different tempo.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Systemic Lupus Erythematosus\": {\n      \"supporting_facts\": \"Arthritis, fever, constitutional symptoms.\",\n      \"against_facts\": \"Normal urinalysis (no renal involvement), no cytopenias, lack of classic rash.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Vasculitis\": {\n      \"supporting_facts\": \"Systemic symptoms, skin findings (ecchymosis/erythema), arthralgia.\",\n      \"against_facts\": \"Mediastinal lymphadenopathy is not a characteristic feature of most primary systemic vasculitides.\",\n      \"support_level\": \"Weakly supported\"\n    }\n  },\n  \"missing_diagnoses\": [\n    \"IgG4-related disease (can cause mediastinal lymphadenopathy and nodal involvement)\",\n    \"Granulomatous-Lymphocytic Interstitial Lung Disease (GLILD)\",\n    \"Metastatic malignancy (e.g., testicular tumor or occult solid tumor)\"\n  ],\n  \"evaluation_of_each_next_step\": {\n    \"EBUS-guided FNA\": {\n      \"reasonable\": \"Yes, highly recommended for obtaining diagnostic tissue from mediastinal nodes.\",\n      \"harmful_or_contraindicated\": \"No.\"\n    },\n    \"Serum ACE and soluble IL-2 receptor\": {\n      \"reasonable\": \"Yes, helps distinguish between granulomatous (ACE) and lymphoproliferative (sIL-2R) processes.\",\n      \"harmful_or_contraindicated\": \"No.\"\n    },\n    \"18F-FDG PET/CT\": {\n      \"reasonable\": \"Yes, identifies active sites for biopsy and degree of metabolic activity.\",\n      \"harmful_or_contraindicated\": \"No.\"\n    },\n    \"Cardiac MRI\": {\n      \"reasonable\": \"Yes, considering the syncope and history of CAD, ruling out cardiac sarcoidosis is essential.\",\n      \"harmful_or_contraindicated\": \"No.\"\n    },\n    \"Serum and urine protein electrophoresis\": {\n      \"reasonable\": \"Yes, to screen for monoclonal gammopathy associated with malignancy or inflammatory states.\",\n      \"harmful_or_contraindicated\": \"No.\"\n    },\n    \"Excisional biopsy of peripheral lesion\": {\n      \"reasonable\": \"Yes, skin lesions or peripheral nodes are easier to biopsy than mediastinal nodes.\",\n      \"harmful_or_contraindicated\": \"No.\"\n    }\n  },\n  \"missing_next_steps\": [\n    \"Pulmonary function tests (PFTs) with DLCO\",\n    \"Comprehensive autoimmune panel (ANA, anti-dsDNA, ENA, ANCA)\",\n    \"Quantiferon-Gold or T-SPOT for TB\",\n    \"Bartonella henselae serology (given cat scratch history)\"\n  ],\n  \"influence_of_clinician_input\": \"The clinician's assessment provided a strong foundation. I adopted the 'Sarcoidosis' and 'Lymphoma' hypotheses from the clinician but added infectious etiologies and systemic autoimmune workups to broaden the initial scope. The clinician's list was appropriate, but I felt it was necessary to include infectious diagnostics given the constitutional symptoms and the cat scratch history, which were mentioned in the vignette but not addressed in the clinician's brief differential.\",\n  \"open_questions\": [\n    \"What is the result of the blood culture mentioned in the vignette?\",\n    \"Does the patient have any underlying immunodeficiency?\",\n    \"What is the specific nature of the 'erythematous macules' on the ankles (biopsy characterization)?\"\n  ]\n}",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Sarcoidosis",
+      "Lymphoma",
+      "Tuberculosis",
+      "Bartonellosis",
+      "Histoplasmosis",
+      "Systemic Lupus Erythematosus",
+      "Vasculitis"
+    ],
+    "next_steps": [
+      "Endobronchial ultrasound (EBUS)-guided fine-needle aspiration of mediastinal/hilar lymph nodes",
+      "Serum angiotensin-converting enzyme (ACE) and soluble IL-2 receptor levels",
+      "18F-FDG PET/CT scan",
+      "Cardiac MRI",
+      "Serum and urine protein electrophoresis",
+      "Excisional biopsy of peripheral lymph node or skin lesion if present"
+    ]
+  },
+  "differential_diagnoses": [
+    "Sarcoidosis",
+    "Lymphoma",
+    "Bartonellosis",
+    "Histoplasmosis",
+    "Tuberculosis",
+    "IgG4-related disease",
+    "Systemic lupus erythematosus"
+  ],
+  "next_steps": [
+    "Endobronchial ultrasound (EBUS)-guided fine-needle aspiration of mediastinal/hilar lymph nodes",
+    "Serum angiotensin-converting enzyme (ACE) and soluble IL-2 receptor levels",
+    "18F-FDG PET/CT scan",
+    "Cardiac MRI",
+    "Pulmonary function tests with DLCO",
+    "Bartonella henselae serology",
+    "QuantiFERON-TB Gold test",
+    "Comprehensive autoimmune panel (ANA, ANCA, anti-dsDNA)"
+  ]
+}

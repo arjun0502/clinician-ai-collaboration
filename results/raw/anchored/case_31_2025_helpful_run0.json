@@ -1,0 +1,23 @@
+{
+  "condition": "anchored",
+  "case_id": "case_31_2025",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Enteropathy-associated T-cell lymphoma (EATL)",
+    "Common variable immunodeficiency (CVID) with associated enteropathy",
+    "Monoclonal B-cell lymphoproliferative disorder / indolent lymphoma",
+    "Crohn's disease",
+    "Infectious enteritis (recurrent Giardia / opportunistic infection)",
+    "Autoimmune enteropathy"
+  ],
+  "next_steps": [
+    "Surgical resection of the involved jejunal segments for definitive pathology",
+    "Full-thickness biopsy for immunohistochemistry and molecular analysis (T-cell receptor gene rearrangement studies)",
+    "Repeat flow cytometry and bone marrow biopsy to further characterize the abnormal NK-cell population",
+    "Evaluation for occult gastrointestinal blood loss despite negative CT angiography",
+    "Consultation with Hematology/Oncology and Gastroenterology to coordinate surgical planning and systemic therapy evaluation"
+  ]
+}

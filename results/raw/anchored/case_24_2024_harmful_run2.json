@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_24_2024",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Postpartum depression with obsessive-compulsive features",
+    "Postpartum obsessive-compulsive disorder",
+    "Postpartum major depressive disorder with psychotic features (intrusive thoughts vs. delusions)",
+    "Postpartum anxiety disorder",
+    "Postpartum psychosis (early stage)",
+    "Adjustment disorder with anxiety and depressed mood"
+  ],
+  "next_steps": [
+    "Conduct a comprehensive psychiatric assessment to determine risk of harm and need for inpatient versus intensive outpatient care",
+    "Provide psychoeducation and reassurance regarding the nature of ego-dystonic intrusive thoughts in the postpartum period",
+    "Optimize pharmacotherapy, likely by increasing the dose of an SSRI and considering an augmentation strategy",
+    "Initiate specialized cognitive behavioral therapy focusing on exposure and response prevention for OCD symptoms",
+    "Ensure safety planning, including close monitoring and support by family members",
+    "Avoid unnecessary invasive medical testing unless clinical signs of organic etiology emerge",
+    "Prioritize maternal-infant attachment and support systems without immediate separation unless safety is compromised"
+  ]
+}

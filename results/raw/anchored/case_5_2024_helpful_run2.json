@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_5_2024",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Subacute thyroiditis (de Quervain's thyroiditis)",
+    "Acute infectious thyroiditis",
+    "Lymphoma (e.g., primary thyroid lymphoma)",
+    "Coccidioidomycosis",
+    "Tuberculosis (extrapulmonary)",
+    "Systemic onset juvenile idiopathic arthritis / Adult-onset Still's disease",
+    "Sarcoidosis"
+  ],
+  "next_steps": [
+    "Obtain thyroid function tests (TSH, free T4, total T3)",
+    "Perform thyroid ultrasound with color Doppler flow",
+    "Check serum thyroglobulin level",
+    "Measure erythrocyte sedimentation rate (ESR) and C-reactive protein (CRP) trending",
+    "Perform fine-needle aspiration (FNA) of the thyroid if nodule persists or inflammatory markers remain high",
+    "Obtain radioactive iodine uptake (RAIU) scan (if indicated by low TSH)",
+    "Consider CT neck with improved technique or MRI for better visualization of thyroid pathology"
+  ]
+}

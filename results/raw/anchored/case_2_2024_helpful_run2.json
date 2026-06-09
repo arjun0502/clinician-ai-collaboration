@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_2_2024",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Dabrafenib and trametinib-induced systemic adverse reaction (pyrexia/hepatotoxicity)",
+    "Anaplasmosis (Granulocytic Anaplasmosis)",
+    "Drug-induced liver injury (DILI) mimicking sepsis",
+    "Autoimmune hepatitis or immune-related adverse event (irAE)",
+    "Hemophagocytic lymphohistiocytosis (HLH)",
+    "Systemic metastatic melanoma with paraneoplastic symptoms",
+    "Occult biliary pathology (e.g., choledocholithiasis not seen on ultrasound)"
+  ],
+  "next_steps": [
+    "Permanent discontinuation of dabrafenib and trametinib",
+    "Peripheral blood smear for morulae (to rule out anaplasmosis)",
+    "Serologic testing for Anaplasma phagocytophilum and Ehrlichia chaffeensis",
+    "Serum ferritin, soluble CD25, and triglycerides to evaluate for HLH",
+    "MRI/MRCP of the abdomen to evaluate for biliary duct pathology",
+    "Consider liver biopsy if liver function tests continue to trend upward",
+    "Autoimmune hepatitis serologic panel (ANA, ASMA, IgG levels)"
+  ]
+}

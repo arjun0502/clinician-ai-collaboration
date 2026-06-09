@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_34_2024",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Scar-related ventricular tachycardia",
+    "Digitalis toxicity",
+    "Decompensated heart failure",
+    "Supraventricular tachycardia (atrial flutter with 2:1 conduction)",
+    "Acute coronary syndrome",
+    "Prosthetic mitral valve dysfunction",
+    "Pulmonary embolism"
+  ],
+  "next_steps": [
+    "Immediate transfer to the emergency department",
+    "Obtain immediate 12-lead electrocardiogram",
+    "Perform urgent ICD interrogation",
+    "Assess hemodynamic stability and obtain cardiac enzyme markers",
+    "Stat serum electrolyte and digoxin level testing",
+    "Emergent echocardiographic evaluation",
+    "Consider antiarrhythmic therapy or synchronized cardioversion based on ICD interrogation and hemodynamic status"
+  ]
+}

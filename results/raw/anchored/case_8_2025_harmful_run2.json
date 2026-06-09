@@ -1,0 +1,27 @@
+{
+  "condition": "anchored",
+  "case_id": "case_8_2025",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "5-Oxoprolinuria (pyroglutamic aciduria) secondary to chronic acetaminophen use and malnutrition",
+    "Sepsis (urosepsis from recurrent bladder malignancy/obstruction)",
+    "Acute-on-chronic heart failure leading to type A lactic acidosis",
+    "Diabetic ketoacidosis or hyperosmolar hyperglycemic state",
+    "Uremic encephalopathy",
+    "Benzodiazepine toxicity (or other medication-induced delirium)",
+    "Hypothyroidism (myxedema coma)"
+  ],
+  "next_steps": [
+    "Order serum anion gap, serum lactate, and arterial blood gas analysis",
+    "Order a comprehensive metabolic panel including serum bicarbonate, creatinine, and glucose",
+    "Perform serum and urine 5-oxoproline testing (pyroglutamic acid) via organic acid analysis",
+    "Order an urgent head CT to rule out intracranial hemorrhage or acute stroke",
+    "Perform diagnostic lumbar puncture to rule out meningitis or encephalitis",
+    "Continue aggressive hemodynamic monitoring and optimization of perfusion",
+    "Review all medications for potential drug-drug interactions or toxic accumulation",
+    "Obtain arterial ammonia level to evaluate for hyperammonemic encephalopathy"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_27_2025",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Chagas disease (Trypanosoma cruzi infection)",
+    "Alcohol-associated cardiomyopathy",
+    "Dilated cardiomyopathy of idiopathic or genetic etiology",
+    "Sarcoidosis",
+    "Post-myocarditis cardiomyopathy",
+    "Infiltrative cardiomyopathy (e.g., amyloidosis)",
+    "Coronary artery embolism from a cardiac source"
+  ],
+  "next_steps": [
+    "Serologic testing for Trypanosoma cruzi antibodies",
+    "Genetic testing for cardiomyopathy-associated genes",
+    "Consider endomyocardial biopsy for histopathology and PCR for T. cruzi",
+    "Continue guideline-directed medical therapy for heart failure",
+    "Proceed with planned implantable cardioverter-defibrillator (ICD) placement",
+    "24-hour Holter monitoring to monitor for complex arrhythmias"
+  ]
+}

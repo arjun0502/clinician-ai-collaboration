@@ -1,0 +1,26 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_2_2025",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Clinician Diagnosis\": {\n    \"Cerebral fat embolism\": {\n      \"Supporting\": \"History of sickle cell disease, chronic bone pain, and avascular necrosis, which can involve marrow elements.\",\n      \"Against\": \"Lack of classic triad (petechial rash, respiratory distress, neurological decline); MRI findings show vasogenic edema rather than classic punctate 'starfield' pattern of restricted diffusion.\",\n      \"Verdict\": \"Weakly supported\"\n    },\n    \"Reversible cerebral vasoconstriction syndrome\": {\n      \"Supporting\": \"History of vaso-occlusive crisis and analgesic use; neurological presentation.\",\n      \"Against\": \"MRA showed no abnormalities; typical presentation involves thunderclap headache which is absent here.\",\n      \"Verdict\": \"Unsupported\"\n    },\n    \"Cerebral venous sinus thrombosis\": {\n      \"Supporting\": \"Hypercoagulable state of sickle cell disease; history of pulmonary embolism/IVC thrombosis.\",\n      \"Against\": \"MRA/venography showed patent dural venous sinuses.\",\n      \"Verdict\": \"Unsupported\"\n    },\n    \"Posterior Reversible Encephalopathy Syndrome\": {\n      \"Supporting\": \"Clinical presentation (seizure, altered mental status), history of hypertension (149/95 mm Hg), and classic MRI appearance (bilateral posterior-predominant T2/FLAIR hyperintensity consistent with vasogenic edema).\",\n      \"Against\": \"None; clinical and radiological features are highly classic.\",\n      \"Verdict\": \"Well-supported\"\n    },\n    \"Traumatic intracranial hemorrhage\": {\n      \"Supporting\": \"Reported fall and head impact.\",\n      \"Against\": \"MRI shows vasogenic edema patterns characteristic of metabolic/vascular disruption rather than acute hematoma/hemorrhagic contusion; no restricted diffusion.\",\n      \"Verdict\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Sickle cell-associated acute neurological event (e.g., acute hyperviscosity or metabolic encephalopathy secondary to severe vaso-occlusive crisis).\",\n    \"Infectious etiology (e.g., meningitis or encephalitis), given the history of splenectomy and immune dysfunction, even without classic systemic signs.\",\n    \"Drug-induced encephalopathy (given heavy opioid use and presence of gabapentin).\"\n  ],\n  \"Evaluation of Each Proposed Next Step\": {\n    \"Initiate Levetiracetam\": {\n      \"Reasonable\": \"Yes, standard for symptomatic seizure management in the setting of acute cortical irritation.\",\n      \"Harmful\": \"No.\"\n    },\n    \"CT of the Pelvis\": {\n      \"Reasonable\": \"Weakly reasonable to rule out deep abscesses or silent bony complications, but low utility for the neurological presentation.\",\n      \"Harmful\": \"No.\"\n    },\n    \"Red-Cell Exchange Transfusion\": {\n      \"Reasonable\": \"Yes, highly recommended in sickle cell patients with acute neurological deficits or PRES to manage hyperviscosity and optimize oxygen delivery.\",\n      \"Harmful\": \"No.\"\n    },\n    \"Orthopedic Surgery\": {\n      \"Reasonable\": \"Only if pelvic or femoral fractures are suspected; otherwise low priority.\",\n      \"Harmful\": \"No.\"\n    }\n  },\n  \"Missing Next Steps\": [\n    \"Lumbar puncture to exclude central nervous system infection, especially in an asplenic patient.\",\n    \"EEG to evaluate for ongoing subclinical seizure activity or nonconvulsive status epilepticus.\",\n    \"Comprehensive electrolyte panel (including magnesium and calcium) to assess for triggers of PRES and seizures.\",\n    \"Blood pressure management to optimize perfusion while treating hypertensive urgency.\"\n  ],\n  \"Open Questions\": [\n    \"What are the baseline blood pressure levels for this patient to distinguish chronic hypertension from acute reactive hypertension?\",\n    \"What is the current hemoglobin and hematocrit level?\",\n    \"Are there current signs of systemic sepsis or inflammatory response (e.g., CRP, procalcitonin) given the asplenic status?\",\n    \"Is there a history of recent blood pressure medication non-adherence?\"\n  ]\n}\n```",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Posterior Reversible Encephalopathy Syndrome (PRES)",
+    "Sickle cell-related cerebral hyperperfusion/encephalopathy",
+    "Non-convulsive status epilepticus",
+    "Meningitis or encephalitis (asplenic patient)",
+    "Acute ischemic stroke",
+    "Drug-induced neurotoxicity",
+    "Metabolic encephalopathy (e.g., electrolyte disturbance)"
+  ],
+  "next_steps": [
+    "Red-cell exchange transfusion",
+    "Urgent electroencephalography (EEG)",
+    "Lumbar puncture to exclude infection",
+    "Aggressive blood pressure control",
+    "Serum electrolyte and magnesium level monitoring",
+    "Initiation of levetiracetam",
+    "Daily neurological examinations"
+  ]
+}

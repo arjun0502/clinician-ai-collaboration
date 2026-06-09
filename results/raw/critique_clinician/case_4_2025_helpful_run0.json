@@ -1,0 +1,26 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_4_2025",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": "{\n  \"Evaluation of Each Clinician Diagnosis\": {\n    \"Bartonellosis\": {\n      \"Supporting\": \"Cat scratch 6 months ago, intermittent fevers, lymphadenopathy, and systemic symptoms.\",\n      \"Against\": \"Lack of focal lymphadenitis near the scratch site; duration of symptoms (4.5 months) and imaging findings are more classic for granulomatous disease.\",\n      \"Verdict\": \"Weakly supported\"\n    },\n    \"Blastomycosis\": {\n      \"Supporting\": \"Pulmonary nodules, hilar lymphadenopathy, and systemic inflammatory symptoms (fever, arthralgias).\",\n      \"Against\": \"Geographic history (New England/UK) is less classic; usually presents with more significant pulmonary symptoms/infiltrates.\",\n      \"Verdict\": \"Weakly supported\"\n    },\n    \"Diffuse large B-cell lymphoma\": {\n      \"Supporting\": \"Systemic B-symptoms (fever, fatigue, weight loss), lymphadenopathy, and pulmonary nodules.\",\n      \"Against\": \"Patient is relatively young; peripheral lymphadenopathy is absent; rapid, non-progressive course of the arthralgias/skin findings.\",\n      \"Verdict\": \"Weakly supported\"\n    },\n    \"Paraneoplastic inflammatory polyarthritis\": {\n      \"Supporting\": \"Patient has systemic symptoms, arthralgia, and newly identified pulmonary nodules.\",\n      \"Against\": \"Typically follows a progressive malignancy; the clinical picture is more suggestive of an underlying inflammatory/infiltrative process rather than a paraneoplastic manifestation.\",\n      \"Verdict\": \"Weakly supported\"\n    },\n    \"Sarcoidosis (L\u00f6fgren's syndrome)\": {\n      \"Supporting\": \"Bilateral hilar lymphadenopathy, pulmonary nodules, arthralgias, erythema/edema (suggestive of erythema nodosum), and systemic symptoms.\",\n      \"Against\": \"Cardiac involvement (syncope/palpitations) is present, which is a rare but serious manifestation; timing is atypical.\",\n      \"Verdict\": \"Well-supported\"\n    },\n    \"Systemic lupus erythematosus\": {\n      \"Supporting\": \"Arthralgias, ecchymoses, and systemic fatigue.\",\n      \"Against\": \"Negative clinical evidence of nephritis; normal CBC; lack of typical autoimmune markers (though not yet listed); pulmonary findings are more suggestive of sarcoidosis.\",\n      \"Verdict\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Cardiac Sarcoidosis\",\n    \"Tuberculosis\",\n    \"Histoplasmosis\",\n    \"IgG4-related disease\"\n  ],\n  \"Evaluation of Each Proposed Next Step\": {\n    \"Cardiac MRI\": {\n      \"Reasonable\": \"Yes, highly indicated to evaluate for cardiac sarcoidosis, especially given syncope and palpitations.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"18F-FDG PET/CT\": {\n      \"Reasonable\": \"Yes, helps identify biopsy-accessible tissue and detects occult cardiac or systemic involvement.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"Serum ACE level and calcium\": {\n      \"Reasonable\": \"Yes, standard initial workup for suspected sarcoidosis.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    }\n  },\n  \"Missing Next Steps\": [\n    \"Biopsy of pulmonary nodule or mediastinal lymph node (via EBUS-TBNA)\",\n    \"Comprehensive autoimmune panel (ANA, anti-dsDNA, ENA, RF, CCP)\",\n    \"QuantiFERON-TB Gold or T-SPOT.TB\",\n    \"Serum and urine protein electrophoresis (SPEP/UPEP) to rule out lymphoproliferative disorders\"\n  ],\n  \"Open Questions\": [\n    \"Results of the blood cultures obtained in the ED\",\n    \"Full autoimmune serology results\",\n    \"Quantification of serum ACE levels and calcium/vitamin D metabolites\",\n    \"Echocardiogram (despite normal point-of-care ultrasound, a formal study is needed to evaluate for wall motion abnormalities or infiltrative cardiomyopathy)\"\n  ]\n}",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Sarcoidosis",
+    "Cardiac sarcoidosis",
+    "Lymphoma",
+    "Tuberculosis",
+    "Histoplasmosis",
+    "IgG4-related disease",
+    "Systemic lupus erythematosus"
+  ],
+  "next_steps": [
+    "Formal echocardiogram to screen for infiltrative cardiomyopathy and wall motion abnormalities",
+    "Cardiac MRI with gadolinium enhancement to assess for myocardial inflammation and fibrosis",
+    "Endobronchial ultrasound-guided transbronchial needle aspiration (EBUS-TBNA) of mediastinal lymph nodes for histopathology and cultures",
+    "Serum ACE level, calcium, 1,25-dihydroxyvitamin D, and urinalysis for hypercalciuria",
+    "QuantiFERON-TB Gold or T-SPOT.TB testing",
+    "Comprehensive autoimmune panel including ANA, anti-dsDNA, and ENA",
+    "18F-FDG PET/CT to evaluate for systemic distribution of granulomatous disease and to guide biopsy site selection"
+  ]
+}

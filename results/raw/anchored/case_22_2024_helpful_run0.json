@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_22_2024",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Pyoderma gangrenosum",
+    "PASH syndrome (pyoderma gangrenosum, acne, and hidradenitis suppurativa)",
+    "Neutrophilic dermatosis (Sweet syndrome)",
+    "Metastatic Crohn's disease",
+    "Necrotizing fasciitis",
+    "Systemic vasculitis",
+    "Beh\u00e7et's disease"
+  ],
+  "next_steps": [
+    "Perform punch biopsy of the advancing edge of an ulcer for histopathology and tissue culture",
+    "Initiate high-dose systemic glucocorticoid therapy",
+    "Obtain dermatologic and rheumatologic consultations",
+    "Assess for underlying inflammatory bowel disease via colonoscopy or fecal calprotectin testing",
+    "Continue supportive care and monitor for signs of superinfection of the ulcerated lesions",
+    "Consider additional immunosuppressive agents if response to glucocorticoids is insufficient"
+  ]
+}

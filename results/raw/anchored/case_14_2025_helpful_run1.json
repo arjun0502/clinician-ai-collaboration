@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_14_2025",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Embryonal rhabdomyosarcoma",
+    "Lymphoma",
+    "Metastatic carcinoma (e.g., occult primary)",
+    "Granulomatosis with polyangiitis",
+    "Pleomorphic adenoma",
+    "Vascular malformation"
+  ],
+  "next_steps": [
+    "Secure airway given the history of recurrent bleeding and local mass effect",
+    "Perform diagnostic excisional biopsy or deep tissue biopsy under controlled conditions",
+    "Submit tissue for histopathological evaluation with immunohistochemistry (MyoD1, myogenin, desmin, pan-cytokeratin, CD20, CD3, S100)",
+    "Perform molecular testing including FISH for FOXO1 translocation and NGS for rhabdomyosarcoma-associated mutations",
+    "Obtain MRI of the neck with and without contrast for better tissue characterization",
+    "Consult pediatric/head and neck oncology multidisciplinary team"
+  ]
+}

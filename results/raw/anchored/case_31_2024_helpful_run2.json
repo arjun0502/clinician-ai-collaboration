@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_31_2024",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Leptospirosis",
+    "Human granulocytic anaplasmosis",
+    "Babesiosis",
+    "Severe acute respiratory syndrome coronavirus 2 (COVID-19)",
+    "Hantavirus pulmonary syndrome",
+    "Rickettsial infection (Rocky Mountain spotted fever)",
+    "Autoimmune hepatitis with acute presentation"
+  ],
+  "next_steps": [
+    "Perform PCR testing for Leptospira species (blood and urine)",
+    "Perform serologic testing for Leptospirosis (MAT)",
+    "Check peripheral blood smear for intraerythrocytic organisms (Babesia)",
+    "Perform PCR testing for Anaplasma phagocytophilum and Babesia microti",
+    "Obtain ADAMTS13 level to rule out thrombotic thrombocytopenic purpura",
+    "Monitor fluid status, electrolytes, and renal function in an ICU setting",
+    "Consider supportive management including renal replacement therapy if indicated by metabolic status"
+  ]
+}

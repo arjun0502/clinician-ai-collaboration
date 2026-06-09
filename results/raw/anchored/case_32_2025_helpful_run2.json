@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_32_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Primary cardiac diffuse large B-cell lymphoma",
+    "Cardiac angiosarcoma",
+    "Metastatic carcinoma (e.g., lung cancer)",
+    "Cardiac sarcoma (undifferentiated pleomorphic sarcoma)",
+    "Right atrial organized thrombus",
+    "Cardiac sarcoidosis",
+    "Tuberculous pericarditis/myocarditis"
+  ],
+  "next_steps": [
+    "Perform 18F-FDG PET-CT scan to evaluate metabolic activity and systemic involvement",
+    "Perform image-guided biopsy (via EBUS-TBNA of mediastinal lymph nodes or CT-guided biopsy of the cardiac mass)",
+    "Perform pericardiocentesis for cytology, flow cytometry, and mycobacterial/fungal studies",
+    "Initiate urgent histopathological examination of biopsy tissue",
+    "Continue anticoagulation therapy for pulmonary embolism and mass-related thrombosis risk",
+    "Multidisciplinary review by oncology, cardiology, and cardiothoracic surgery teams"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_29_2025",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Pneumocystis jirovecii pneumonia",
+    "Disseminated histoplasmosis",
+    "Miliary tuberculosis",
+    "Cryptococcosis",
+    "Kaposi sarcoma of the lung",
+    "Cytomegalovirus pneumonitis",
+    "Lymphoma"
+  ],
+  "next_steps": [
+    "Perform bronchoalveolar lavage with transbronchial biopsy",
+    "Send BAL fluid for Pneumocystis jirovecii PCR and silver stain",
+    "Send BAL fluid for fungal, mycobacterial, and bacterial cultures",
+    "Serum cryptococcal antigen and histoplasma antigen testing",
+    "Continue broad-spectrum empiric antimicrobial coverage including trimethoprim-sulfamethoxazole",
+    "Provide aggressive hemodynamic support with intravenous fluids and vasopressors",
+    "Delay initiation of antiretroviral therapy to avoid immune reconstitution inflammatory syndrome"
+  ]
+}

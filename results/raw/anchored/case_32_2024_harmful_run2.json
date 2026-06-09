@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_32_2024",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Myasthenia gravis",
+    "Amyotrophic lateral sclerosis (ALS)",
+    "Amyloidosis (systemic, specifically AL or ATTR with cardiac and bulbar involvement)",
+    "Paraneoplastic neurological syndrome",
+    "Chronic inflammatory demyelinating polyradiculoneuropathy (CIDP)",
+    "Metabolic myopathy (e.g., acid maltase deficiency/Pompe disease)",
+    "Lambert-Eaton myasthenic syndrome"
+  ],
+  "next_steps": [
+    "Perform serum acetylcholine receptor antibody (AChR) testing and muscle-specific kinase (MuSK) antibody testing",
+    "Conduct electromyography (EMG) and repetitive nerve stimulation study",
+    "Evaluate for systemic amyloidosis with serum/urine protein electrophoresis with immunofixation and free light chain assay",
+    "Obtain cardiology consultation for cardiac MRI and consideration of endomyocardial biopsy if infiltrative cardiomyopathy is suspected",
+    "Monitor for impending respiratory failure and maintain low threshold for intubation",
+    "Consider edrophonium or neostigmine challenge test if myasthenia gravis is strongly suspected",
+    "Perform lumbar puncture for cerebrospinal fluid analysis (protein level and cytology)"
+  ]
+}

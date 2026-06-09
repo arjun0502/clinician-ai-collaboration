@@ -1,0 +1,45 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_13_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Cryptococcal meningitis\": {\n      \"Supporting\": \"Severe immunosuppression (hairy cell leukemia history, lymphopenia), clinical signs of meningitis (encephalopathy, CSF pleocytosis), and very low CSF glucose.\",\n      \"Against\": \"Neutrophilic predominance in CSF is atypical for cryptococcus (usually lymphocytic).\",\n      \"Support\": \"Well-supported\"\n    },\n    \"Cushing's syndrome\": {\n      \"Supporting\": \"Adrenal nodule, hypokalemia, hyperglycemia, skin thinning, weight loss, and severe immunosuppression leading to opportunistic infection.\",\n      \"Against\": \"No overt mention of buffalo hump or supraclavicular fat pads, though obesity history may mask these.\",\n      \"Support\": \"Well-supported\"\n    },\n    \"Tuberculous meningitis\": {\n      \"Supporting\": \"Chronic course (6 weeks), basal meningitis symptoms, elevated opening pressure, low CSF glucose, lymphocytic/neutrophilic mixed pleocytosis.\",\n      \"Against\": \"No pulmonary symptoms, normal chest CT.\",\n      \"Support\": \"Well-supported\"\n    },\n    \"Listeria monocytogenes meningoencephalitis\": {\n      \"Supporting\": \"Encephalitis/meningitis presentation, profound immunosuppression, CSF pleocytosis with neutrophils.\",\n      \"Against\": \"Listeria usually presents with rhombencephalitis (brainstem signs), whereas the patient had diffuse encephalopathy.\",\n      \"Support\": \"Weakly supported\"\n    },\n    \"Coccidioidomycosis meningitis\": {\n      \"Supporting\": \"Can cause chronic meningitis and CSF findings of low glucose/high protein.\",\n      \"Against\": \"No travel history to endemic regions (e.g., Southwestern US).\",\n      \"Support\": \"Unsupported\"\n    },\n    \"Primary central nervous system lymphoma\": {\n      \"Supporting\": \"History of leukemia, neurological decline, focal brain lesions.\",\n      \"Against\": \"CSF glucose of 2 mg/dL is extremely low; usually seen in infectious or carcinomatous processes, not typically primary CNS lymphoma.\",\n      \"Support\": \"Weakly supported\"\n    },\n    \"Carcinomatous meningitis\": {\n      \"Supporting\": \"Systemic malignancy history, very low CSF glucose, high protein.\",\n      \"Against\": \"Usually associated with positive cytology; no primary tumor identified other than adrenal.\",\n      \"Support\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Adrenocortical carcinoma (ACC) with paraneoplastic syndrome\",\n    \"Strongyloides hyperinfection syndrome (secondary to chronic steroid exposure from Cushing's)\",\n    \"Nocardiosis (CNS involvement in an immunocompromised host)\"\n  ],\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Empiric treatment\": {\n      \"Reasonable\": \"Yes, standard of care for severe meningitis with altered mental status.\",\n      \"Harmful/Contraindicated\": \"None, but must be cautious with steroids initially due to potential for worsening fungal infection if that is the etiology.\"\n    },\n    \"Cryptococcal antigen\": {\n      \"Reasonable\": \"Essential given the severe immunocompromise.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"CSF microbiology (India ink, AFB, cultures)\": {\n      \"Reasonable\": \"Standard diagnostic workup for meningitis.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"Endocrine workup (cortisol/ACTH/electrolytes)\": {\n      \"Reasonable\": \"Crucial to explain the metabolic derangements and the adrenal nodule.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"Neurosurgery consult\": {\n      \"Reasonable\": \"Necessary given the massive intracranial pressure (opening pressure >58 cm H2O).\",\n      \"Harmful/Contraindicated\": \"No.\"\n    }\n  },\n  \"Missing Next Steps\": [\n    \"CSF cytology/flow cytometry for malignant cells\",\n    \"Strongyloides serology/stool examination\",\n    \"Plasma metanephrines (to rule out pheochromocytoma, which can present with adrenal nodule, tachycardia, and weight loss)\",\n    \"Full endocrine panel: DHEA-S, 17-OH progesterone, and midnight salivary cortisol\"\n  ],\n  \"Influence of Clinician Input\": {\n    \"Influence\": \"The clinician\u2019s differential successfully framed the 'Cushing's leading to infection' hypothesis. I adopted the 'Cryptococcal' diagnosis based on the severe immunosuppression, but I relied too heavily on the clinician's mention of adrenal carcinoma, which is a major diagnostic priority that I should have expanded upon regarding its hormonal secretion profile.\",\n    \"Critical Questioning\": \"I should have questioned if the CSF neutrophilic pleocytosis was a reaction to chemical meningitis (due to rapid electrolyte shifts) rather than just infection, and probed further into the 'Nocardia' possibility given the nodular adrenal mass and systemic debility.\"\n  },\n  \"Open Questions\": [\n    \"What is the result of the serum ACTH level (suppressed vs. elevated)?\",\n    \"What are the results of the 24-hour urine for metanephrines and cortisol?\",\n    \"What is the result of the CSF Gram stain and culture (pending)?\",\n    \"Was there any specific exposure to soil or environment suggesting fungal dissemination?\"\n  ]\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Cryptococcal meningitis",
+      "Cushing's syndrome (ectopic or adrenal-driven) leading to opportunistic infection",
+      "Tuberculous meningitis",
+      "Listeria monocytogenes meningoencephalitis",
+      "Coccidioidomycosis meningitis",
+      "Primary central nervous system lymphoma",
+      "Carcinomatous meningitis"
+    ],
+    "next_steps": [
+      "Initiate empiric treatment for fungal and bacterial meningitis (e.g., amphotericin B, flucytosine, and vancomycin/ceftriaxone)",
+      "Perform cryptococcal antigen testing in serum and CSF",
+      "Perform India ink staining and fungal culture of CSF",
+      "Perform acid-fast bacilli staining and culture of CSF",
+      "Obtain 24-hour urine free cortisol and plasma ACTH to confirm hypercortisolism",
+      "Obtain serum electrolytes and endocrine workup for adrenal function",
+      "Consult neurosurgery for evaluation of potential ventriculostomy due to severe intracranial hypertension"
+    ]
+  },
+  "differential_diagnoses": [
+    "Cryptococcal meningitis",
+    "Cushing's syndrome secondary to adrenocortical carcinoma",
+    "Tuberculous meningitis",
+    "Nocardiosis with central nervous system dissemination",
+    "Strongyloides hyperinfection syndrome",
+    "Primary CNS lymphoma",
+    "Listeriosis"
+  ],
+  "next_steps": [
+    "Perform cryptococcal antigen testing in serum and CSF",
+    "Send CSF for India ink staining, fungal/bacterial/AFB cultures, and cytology",
+    "Measure 24-hour urine free cortisol, plasma ACTH, and midnight salivary cortisol",
+    "Measure plasma metanephrines to exclude pheochromocytoma",
+    "Perform Strongyloides serology and stool ova and parasite exam",
+    "Consult neurosurgery for management of increased intracranial pressure",
+    "Initiate empiric treatment with liposomal amphotericin B and flucytosine, plus broad-spectrum antibiotics (vancomycin, ceftriaxone, ampicillin) pending results"
+  ]
+}

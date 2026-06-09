@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_2_2026",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Infective endocarditis with septic emboli (specifically fungal)",
+    "Disseminated Nocardiosis",
+    "Melioidosis",
+    "Disseminated tuberculosis",
+    "Metastatic malignancy with secondary infection",
+    "Aspergillosis"
+  ],
+  "next_steps": [
+    "Transesophageal echocardiogram",
+    "Diagnostic vitrectomy with fluid culture and fungal stains",
+    "CT-guided biopsy of lung nodule or hepatic mass",
+    "Blood cultures (specifically for fungi and fastidious organisms)",
+    "Serum (1,3)-beta-D-glucan and galactomannan testing",
+    "Lumbar puncture for CSF analysis"
+  ]
+}

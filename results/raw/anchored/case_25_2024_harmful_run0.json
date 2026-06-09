@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_25_2024",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Vitamin A deficiency (xerophthalmia)",
+    "Nutritional optic neuropathy (Vitamin B12 or folate deficiency)",
+    "Toxic optic neuropathy",
+    "Leber hereditary optic neuropathy (LHON)",
+    "Autoimmune optic neuritis",
+    "Autosomal dominant optic atrophy",
+    "Functional vision loss"
+  ],
+  "next_steps": [
+    "Obtain serum vitamin A, retinol-binding protein, and vitamin B12 levels",
+    "Emergent ophthalmology consultation for comprehensive evaluation",
+    "Initiate high-dose vitamin A supplementation",
+    "Consult nutrition/dietetics for assessment of severe restrictive eating",
+    "Consider serum copper, zinc, and other micronutrient panels",
+    "Consult pediatric neurology to rule out associated neurological complications of malnutrition"
+  ]
+}

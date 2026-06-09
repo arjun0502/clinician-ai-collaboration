@@ -1,0 +1,26 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_14_2025",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Clinician Diagnosis\": {\n    \"Peritonsillar abscess\": {\n      \"Supporting\": \"Right peritonsillar swelling, uvular deviation, history of sore throat.\",\n      \"Against\": \"Failure of multiple antibiotic courses, persistent sanguineous/dark blood drainage, friable necrotic tissue, lack of fever, failure to resolve after repeated drainage.\",\n      \"Status\": \"Weakly supported (initially considered, but clinically excluded by refractory course and bleeding).\"\n    },\n    \"Granulomatous/inflammatory disease (e.g., GPA, sarcoidosis)\": {\n      \"Supporting\": \"Subacute/chronic course, mucosal ulceration/necrosis.\",\n      \"Against\": \"Lack of systemic involvement (lungs/sinuses/kidneys), unusual presentation as a localized peritonsillar mass with hematoma.\",\n      \"Status\": \"Weakly supported.\"\n    },\n    \"Benign salivary-gland tumor (e.g., pleomorphic adenoma)\": {\n      \"Supporting\": \"Localized mass in the peritonsillar/parapharyngeal region.\",\n      \"Against\": \"Rapid progression, significant friability, and active, persistent hemorrhage are atypical for a typical pleomorphic adenoma.\",\n      \"Status\": \"Weakly supported.\"\n    },\n    \"Lymphoma\": {\n      \"Supporting\": \"Tonsillar/peritonsillar enlargement, subacute presentation.\",\n      \"Against\": \"Tendency for significant hemorrhage is less common compared to vascular or malignant tumors, though possible.\",\n      \"Status\": \"Well supported.\"\n    },\n    \"Embryonal rhabdomyosarcoma\": {\n      \"Supporting\": \"Rapidly growing, infiltrative mass, friability, hemorrhagic nature, young age, site (head and neck/peritonsillar).\",\n      \"Against\": \"None prominent.\",\n      \"Status\": \"Well supported (highly consistent with the clinical behavior).\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Angiosarcoma or other vascular neoplasms (e.g., hemangioma, vascular malformation) due to the persistent, spontaneous, and recurring severe bleeding.\",\n    \"Metastatic disease (e.g., metastatic carcinoma or melanoma).\",\n    \"Extramedullary plasmacytoma.\"\n  ],\n  \"Evaluation of Each Proposed Next Step\": {\n    \"Secure airway and perform excisional biopsy under general anesthesia with hemostatic control\": {\n      \"Reasoning\": \"Essential and high priority given the active bleeding, risk of airway compromise, and need for tissue diagnosis.\",\n      \"Harmful/Contraindicated\": \"No, this is standard of care for a potentially vascular or malignant oropharyngeal mass.\"\n    },\n    \"Perform H&E plus desmin, MyoD1, and myogenin\": {\n      \"Reasoning\": \"Necessary to confirm skeletal muscle differentiation if rhabdomyosarcoma is suspected.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"FISH for FOXO1 to exclude alveolar subtype and NGS panel for RAS-pathway mutations and copy-number changes\": {\n      \"Reasoning\": \"Standard for risk-stratification and subtyping of rhabdomyosarcoma.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    }\n  },\n  \"Missing Next Steps\": [\n    \"Pre-operative cross-sectional imaging with angiography (CTA or MRA) to evaluate for high-flow vascular feeders given the history of persistent, refractory bleeding.\",\n    \"Full systemic staging (CT chest/abdomen/pelvis or PET-CT) to rule out primary malignancy or metastatic disease.\",\n    \"Coagulation profile/workup to ensure there is no underlying hematologic dyscrasia or coagulopathy contributing to bleeding.\"\n  ],\n  \"Open Questions\": [\n    \"What is the underlying vascularity of the lesion seen on enhanced CT (specifically regarding potential arterial feeders)?\",\n    \"Are there any systemic symptoms (weight loss, night sweats) or localized findings in other aerodigestive structures?\",\n    \"What is the patient\u2019s complete blood count and coagulation profile at the current time to rule out bleeding diathesis?\"\n  ]\n}\n```",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Embryonal rhabdomyosarcoma",
+    "Extramedullary plasmacytoma",
+    "Lymphoma (e.g., Diffuse Large B-cell Lymphoma)",
+    "Angiosarcoma",
+    "Metastatic carcinoma (e.g., occult primary)",
+    "Juvenile nasopharyngeal angiofibroma (unlikely given age/sex, but considered due to vascularity)",
+    "Granulomatosis with polyangiitis"
+  ],
+  "next_steps": [
+    "Immediate airway assessment and anesthesia consultation due to high risk of airway compromise",
+    "Contrast-enhanced magnetic resonance angiography (MRA) or CT angiography (CTA) to characterize tumor vascularity",
+    "Full systemic staging with PET-CT to evaluate for metastatic disease and identify potential biopsy sites",
+    "Excisional biopsy under general anesthesia with readiness for intraoperative management of significant hemorrhage",
+    "Immunohistochemical staining including myogenin, MyoD1, desmin, pan-cytokeratin, and CD138",
+    "Comprehensive coagulation panel to rule out underlying bleeding diathesis",
+    "Multidisciplinary review including head and neck surgery, pediatric/adult oncology, and radiation oncology"
+  ]
+}

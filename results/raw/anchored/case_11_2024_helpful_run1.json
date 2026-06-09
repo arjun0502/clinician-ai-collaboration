@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_11_2024",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Rheumatoid vasculitis",
+    "Nonsystemic vasculitic neuropathy",
+    "Polyarteritis nodosa",
+    "ANCA-associated vasculitis (MPA)",
+    "Paraneoplastic neuropathy",
+    "Chronic inflammatory demyelinating polyradiculoneuropathy (CIDP)",
+    "Pyridoxine (Vitamin B6) deficiency-associated neuropathy"
+  ],
+  "next_steps": [
+    "Complete rheumatologic serologies including rheumatoid factor, anti-CCP, ANA, and ANCA",
+    "Measure serum complement levels (C3, C4) and cryoglobulins",
+    "Perform diagnostic sural nerve biopsy and concurrent muscle biopsy for histological evaluation for vasculitis",
+    "Repeat spinal imaging (MRI with contrast, possibly under sedation) to rule out structural pathology",
+    "Assess for underlying malignancy given systemic symptoms and subacute course",
+    "Consider nerve conduction studies/EMG follow-up if clinical status permits"
+  ]
+}

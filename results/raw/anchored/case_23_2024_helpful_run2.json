@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_23_2024",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Cerebral amyloid angiopathy-related inflammation (CAA-ri)",
+    "Paraneoplastic limbic encephalitis (PLE)",
+    "Autoimmune encephalitis (non-paraneoplastic, e.g., anti-LGI1)",
+    "Primary angiitis of the central nervous system (PACNS)",
+    "Neurodegenerative dementia (e.g., Alzheimer\u2019s disease with CAA)",
+    "Metastatic malignancy to the temporal lobes",
+    "Infectious encephalitis (atypical)"
+  ],
+  "next_steps": [
+    "Send CSF for autoimmune encephalitis panel (including anti-LGI1, anti-NMDA, anti-Hu/Yo/Ri)",
+    "Contrast-enhanced CT of the chest, abdomen, and pelvis to screen for occult malignancy",
+    "Initiate pulse-dose intravenous methylprednisolone for suspected inflammatory/autoimmune etiology",
+    "Obtain MRI of the brain with specialized sequences to evaluate for leptomeningeal enhancement or FLAIR-hyperintense lesions",
+    "Consider brain biopsy if clinical status declines despite empirical immunotherapy or if malignancy is strongly suspected",
+    "Maintain antiseizure therapy (Lacosamide or Levetiracetam) due to EEG findings"
+  ]
+}

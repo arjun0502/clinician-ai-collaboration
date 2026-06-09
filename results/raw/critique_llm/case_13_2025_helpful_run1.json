@@ -1,0 +1,26 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_13_2025",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": "{\n  \"Differential Diagnosis\": [\n    \"Cushing's Syndrome (likely ectopic ACTH or adrenal-driven) leading to profound immunosuppression\",\n    \"Fungal meningitis (Cryptococcus neoformans, Candida, or Histoplasma)\",\n    \"Bacterial meningitis (Listeria monocytogenes)\",\n    \"Primary Adrenocortical Carcinoma\",\n    \"Paraneoplastic encephalopathy\"\n  ],\n  \"Proposed Next Steps\": [\n    \"Urgent CSF fungal (Cryptococcal antigen, Beta-D-glucan), bacterial, and TB cultures\",\n    \"Serum ACTH and cortisol levels (to confirm hypercortisolism/ectopic ACTH)\",\n    \"Comprehensive CSF cytology and flow cytometry\",\n    \"MRI brain (with specific safety protocol for VNS)\",\n    \"Serum Cryptococcal antigen\"\n  ],\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Cushing's Syndrome\": {\n      \"Supporting\": \"Thinning skin, bruising, hyperglycemia, hypokalemia, weight loss, adrenal nodule, clinical course of worsening immunosuppression.\",\n      \"Against\": \"None; highly consistent with findings.\",\n      \"Verdict\": \"Well-supported\"\n    },\n    \"Fungal meningitis\": {\n      \"Supporting\": \"Hypoglycorrhachia (glucose 2 mg/dL), elevated protein, pleocytosis, clinical signs of immunosuppression.\",\n      \"Against\": \"CSF neutrophil predominance is more typical of bacterial, though early fungal or Listeria can mimic this.\",\n      \"Verdict\": \"Well-supported\"\n    },\n    \"Bacterial meningitis\": {\n      \"Supporting\": \"Neutrophilic pleocytosis, glucose 2 mg/dL, elevated opening pressure.\",\n      \"Against\": \"Subacute 6-week prodrome is unusual for classic acute bacterial meningitis; however, Listeria is a strong candidate in immunocompromised states.\",\n      \"Verdict\": \"Well-supported\"\n    },\n    \"Adrenocortical carcinoma\": {\n      \"Supporting\": \"Adrenal nodule >1cm with high HU.\",\n      \"Against\": \"Does not explain the meningitis/CSF findings directly unless metastatic or paraneoplastic.\",\n      \"Verdict\": \"Weakly supported (as the primary driver of meningitis)\"\n    },\n    \"Paraneoplastic encephalopathy\": {\n      \"Supporting\": \"Weight loss, anorexia, encephalopathy, malignancy history.\",\n      \"Against\": \"Does not explain the extreme hypoglycorrhachia (2 mg/dL) and elevated opening pressure.\",\n      \"Verdict\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Listeriosis (meningoencephalitis)\",\n    \"Tuberculous meningitis\",\n    \"Strongyloides hyperinfection syndrome (secondary to occult steroid excess)\"\n  ],\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"CSF cultures\": \"Reasonable and mandatory.\",\n    \"Serum ACTH/cortisol\": \"Reasonable to confirm the endocrinopathy driving the susceptibility.\",\n    \"CSF cytology\": \"Essential to rule out carcinomatous meningitis.\",\n    \"MRI brain\": \"Reasonable; VNS manufacturers provide guidelines for MRI safety that may allow for imaging with specific shielding or protocol adjustments.\",\n    \"Serum Cryptococcal antigen\": \"Reasonable given the high association with immunosuppressed states.\"\n  },\n  \"Missing Next Steps\": [\n    \"CSF India ink and Cryptococcal antigen titer\",\n    \"Serum Beta-D-glucan and Galactomannan\",\n    \"Urgent endocrine consultation for management of likely hypercortisolism\",\n    \"Testing for T-cell subset/immunocompromise profile\"\n  ],\n  \"Influence of Clinician Input\": \"The clinician's assessment provided a strong framework for prioritizing the infectious process secondary to likely Cushing's syndrome. I adopted the 'Cryptococcal' and 'Adrenocortical' suggestions but refined them to include the high probability of Listeria given the neutrophilic CSF and profound hypoglycemia, which the clinician's initial list overlooked.\",\n  \"Open Questions\": [\n    \"What is the patient's current serum ACTH and cortisol level?\",\n    \"Did the CSF Gram stain show any organisms?\",\n    \"Was the CSF sent for acid-fast bacilli and fungal PCR?\",\n    \"Is the VNS device compatible with specific MRI sequences?\"\n  ]\n}",
+  "initial_response": {
+    "differential_diagnoses": [],
+    "next_steps": []
+  },
+  "differential_diagnoses": [
+    "Cushing's syndrome secondary to adrenocortical carcinoma (producing ectopic ACTH or excess cortisol)",
+    "Listeria monocytogenes meningoencephalitis",
+    "Cryptococcal meningitis",
+    "Tuberculous meningitis",
+    "Candida meningitis",
+    "Carcinomatous meningitis"
+  ],
+  "next_steps": [
+    "Urgent endocrinology consultation for biochemical confirmation of Cushing's syndrome (midnight cortisol, 24-hour urinary free cortisol, ACTH)",
+    "CSF studies: India ink, cryptococcal antigen, bacterial, fungal, and mycobacterial cultures, and broad-range 16S/18S ribosomal RNA gene sequencing",
+    "Empiric antimicrobial coverage for Listeria (ampicillin plus gentamicin) and fungal meningitis (liposomal amphotericin B plus flucytosine)",
+    "Consultation with neurosurgery regarding MRI compatibility of the vagus-nerve stimulator to enable urgent neuroimaging",
+    "Systemic evaluation for source of hypercortisolism (repeat CT abdomen with protocol for adrenal masses)"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_24_2024",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Postpartum depression with obsessive-compulsive features",
+    "Postpartum obsessive-compulsive disorder",
+    "Postpartum anxiety disorder",
+    "Postpartum major depressive disorder with peripartum onset",
+    "Bipolar disorder with postpartum onset",
+    "Postpartum psychosis"
+  ],
+  "next_steps": [
+    "Perform a comprehensive risk assessment for self-harm and infanticide",
+    "Initiate or optimize evidence-based pharmacotherapy, such as high-dose SSRIs or SNRIs",
+    "Provide psychoeducation to the patient and family regarding the nature of ego-dystonic intrusive thoughts to reduce shame and anxiety",
+    "Ensure close outpatient monitoring with frequent clinical contact",
+    "Consider referral to specialized perinatal psychiatric services or intensive outpatient programs",
+    "Maintain a supportive environment with appropriate family supervision for infant safety",
+    "Avoid unnecessary invasive neurological testing in the absence of focal neurological deficits"
+  ]
+}

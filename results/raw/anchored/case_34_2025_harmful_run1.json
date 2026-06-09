@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_34_2025",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Cerebral Amyloid Angiopathy-related inflammation (CAA-ri)",
+    "Primary Angiitis of the Central Nervous System (PACNS)",
+    "Leptomeningeal metastasis (carcinomatous meningitis)",
+    "IgG4-related ophthalmic or hypertrophic pachymeningitis",
+    "Neuro-Sj\u00f6gren syndrome",
+    "Chronic meningitis (e.g., fungal or tuberculous)",
+    "Susac syndrome"
+  ],
+  "next_steps": [
+    "Brain and meningeal biopsy",
+    "MRI brain with gadolinium and vessel wall imaging",
+    "Repeat lumbar puncture with cytology, flow cytometry, and IgG index/oligoclonal bands",
+    "Test serum and CSF for inflammatory markers including IgG4, ANA, ENA, and anti-amyloid-beta antibodies",
+    "Consider empiric corticosteroid trial if biopsy is pending or inconclusive and clinical status declines",
+    "Consultation with rheumatology and neuro-oncology for specialized testing"
+  ]
+}

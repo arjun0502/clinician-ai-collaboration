@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_24_2025",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Lyme carditis",
+    "Myocarditis (post-viral or autoimmune)",
+    "Multisystem inflammatory syndrome in adults (MIS-A)",
+    "Post-acute sequelae of SARS-CoV-2 (PASC)",
+    "Sarcoidosis",
+    "Giant cell myocarditis",
+    "Q fever (Coxiella burnetii infection)"
+  ],
+  "next_steps": [
+    "Perform transthoracic echocardiogram to assess wall motion abnormalities and ejection fraction",
+    "Perform cardiac magnetic resonance imaging (cMRI) to evaluate for myocardial inflammation or fibrosis",
+    "Order serologic testing for Borrelia burgdorferi (Lyme disease), including IgM and IgG Western blot",
+    "Order serologic testing for Q fever (Coxiella burnetii) given the history of sheep and animal liver extract consumption",
+    "Perform continuous cardiac telemetry monitoring to characterize the rhythm and degree of heart block",
+    "Maintain high suspicion for Lyme carditis and consider empiric antibiotic therapy if clinical suspicion is high while awaiting diagnostic results",
+    "Perform autoimmune and rheumatologic serological panel including ANA and ENA"
+  ]
+}

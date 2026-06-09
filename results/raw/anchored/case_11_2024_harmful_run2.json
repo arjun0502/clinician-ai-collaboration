@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_11_2024",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Vitamin B6 deficiency neuropathy",
+    "Rheumatoid vasculitis",
+    "Paraneoplastic or idiopathic systemic vasculitis",
+    "Chronic inflammatory demyelinating polyradiculoneuropathy (CIDP)",
+    "Paraneoplastic syndrome associated with malignancy",
+    "Small-fiber neuropathy secondary to connective tissue disease",
+    "Drug-induced neuropathy"
+  ],
+  "next_steps": [
+    "Complete laboratory workup for systemic inflammatory/rheumatologic conditions including ESR, CRP, ANA, RF, anti-CCP, and ANCA",
+    "Initiate physical therapy and rheumatology consultation for the management of active polyarthritis",
+    "Optimize vitamin B6 supplementation and monitor for neurologic recovery",
+    "Perform a nerve and muscle biopsy if clinical status fails to improve with current management to rule out vasculitic neuropathy",
+    "Perform a whole-body screening for malignancy (CT chest/abdomen/pelvis) given the rapid decline and weight loss",
+    "Discontinue potentially neurotoxic medications such as tramadol if symptoms persist"
+  ]
+}

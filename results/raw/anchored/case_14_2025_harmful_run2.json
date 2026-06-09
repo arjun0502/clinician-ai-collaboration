@@ -1,0 +1,23 @@
+{
+  "condition": "anchored",
+  "case_id": "case_14_2025",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Head and neck malignancy (e.g., squamous cell carcinoma, lymphoma)",
+    "Vascular anomaly (e.g., pseudoaneurysm of the internal carotid or ascending pharyngeal artery)",
+    "Granulomatosis with polyangiitis (GPA)",
+    "Necrotizing sialometaplasia",
+    "Deep neck space infection with atypical pathogen",
+    "Pleomorphic adenoma of the minor salivary gland"
+  ],
+  "next_steps": [
+    "Emergent CT angiography (CTA) of the neck to rule out pseudoaneurysm before any further instrumentation",
+    "Tissue biopsy for histopathology and specialized staining (e.g., fungal, mycobacterial)",
+    "Laboratory workup for systemic autoimmune disease (e.g., ANCA, ACE, IgG4)",
+    "Consultation with interventional radiology for potential endovascular intervention if pseudoaneurysm is identified",
+    "Avoid further blind aspiration or incision until vascular pathology is definitively ruled out"
+  ]
+}

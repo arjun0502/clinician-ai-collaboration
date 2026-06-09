@@ -1,0 +1,24 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_2_2025",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Clinician Diagnosis\": {\n    \"Cerebral fat embolism\": {\n      \"Supporting facts\": \"History of sickle cell disease with recent pain crisis, chronic bone marrow pathology, and potential bone infarction/necrosis.\",\n      \"Arguments against\": \"MRI findings (cortical/subcortical vasogenic edema in a posterior distribution) are not characteristic of fat embolism syndrome, which typically shows a 'starfield' pattern of small punctate foci of restricted diffusion.\",\n      \"Support level\": \"Weakly supported\"\n    },\n    \"Reversible cerebral vasoconstriction syndrome\": {\n      \"Supporting facts\": \"History of vaso-occlusive crisis and use of analgesic medications (oxycodone).\",\n      \"Arguments against\": \"MRA of the head was normal, effectively ruling out significant vasoconstriction.\",\n      \"Support level\": \"Unsupported\"\n    },\n    \"Cerebral venous sinus thrombosis\": {\n      \"Supporting facts\": \"Sickle cell disease is a hypercoagulable state; patient has a history of venous thromboembolism.\",\n      \"Arguments against\": \"MRA/venography showed patent dural venous sinuses.\",\n      \"Support level\": \"Unsupported\"\n    },\n    \"Posterior Reversible Encephalopathy Syndrome\": {\n      \"Supporting facts\": \"Classic MRI findings (FLAIR hyperintensity in posterior frontal, parietal, occipital, and temporal lobes), history of hypertension (149/95 mm Hg), and history of chronic renal disease/nephropathy.\",\n      \"Arguments against\": \"None; the findings are highly classic.\",\n      \"Support level\": \"Well-supported\"\n    },\n    \"Traumatic intracranial hemorrhage\": {\n      \"Supporting facts\": \"History of a recent fall with head trauma.\",\n      \"Arguments against\": \"MRI did not show typical features of acute subdural or epidural hematoma; MRI susceptibility imaging showed only nonspecific microhemorrhages.\",\n      \"Support level\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Acute sickling/vaso-occlusive crisis of the CNS (Sickle cell neuro-vasculopathy)\",\n    \"Infectious encephalitis or meningitis (given fever is absent, but patient is immunocompromised/post-splenectomy)\",\n    \"Hypertensive emergency/Encephalopathy\"\n  ],\n  \"Evaluation of Each Proposed Next Step\": {\n    \"Initiate Levetiracetam\": {\n      \"Reasonable\": \"Yes, appropriate for secondary seizure prophylaxis following a witnessed convulsive seizure.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"CT of the Pelvis\": {\n      \"Reasonable\": \"Weakly reasonable given the history of avascular necrosis and chronic hip pain, but unlikely to clarify the neurologic event.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"Red-Cell Exchange Transfusion\": {\n      \"Reasonable\": \"Yes, standard of care for acute neurological deterioration in sickle cell disease to decrease hemoglobin S percentage.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"Orthopedic Surgery\": {\n      \"Reasonable\": \"Low priority unless there is evidence of acute hip fracture or septic arthritis; not urgent for the current presentation.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    }\n  },\n  \"Missing Next Steps\": [\n    \"Lumbar puncture to rule out CNS infection/meningitis, particularly in a splenectomized patient.\",\n    \"Comprehensive metabolic panel to assess for renal function decline (BUN/Creatinine) contributing to PRES.\",\n    \"Blood pressure management/optimization protocol.\"\n  ],\n  \"Open Questions\": [\n    \"What is the patient's current hemoglobin S percentage?\",\n    \"What was the patient's blood pressure trend leading up to the seizure (to confirm hypertensive urgency vs. chronic baseline)?\",\n    \"Are there signs of infectious triggers (e.g., blood/urine culture results pending)?\"\n  ]\n}\n```",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Posterior Reversible Encephalopathy Syndrome (PRES)",
+    "Sickle cell\u2013related acute CNS vaso-occlusive crisis",
+    "Hypertensive encephalopathy",
+    "Post-traumatic seizure (symptomatic epilepsy)",
+    "Metabolic encephalopathy (uremic or secondary to sickle cell nephropathy)",
+    "CNS infection (meningitis or encephalitis) in an asplenic patient"
+  ],
+  "next_steps": [
+    "Strict blood pressure control and monitoring",
+    "Urgent red-cell exchange transfusion",
+    "Initiate levetiracetam for seizure prophylaxis",
+    "Perform lumbar puncture to rule out occult infection given asplenic status",
+    "Serial monitoring of metabolic profile, including renal function and electrolytes",
+    "Neurology and hematology consultation"
+  ]
+}

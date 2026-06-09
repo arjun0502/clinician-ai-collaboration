@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_3_2025",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Cardiac amyloidosis",
+    "Hypertrophic cardiomyopathy (phenocopy)",
+    "Sarcoidosis",
+    "Restrictive cardiomyopathy due to another storage disease (e.g., Fabry disease)",
+    "Hypereosinophilic syndrome (Loeffler endocarditis)",
+    "Athlete's heart",
+    "Constrictive pericarditis"
+  ],
+  "next_steps": [
+    "Serum and urine protein electrophoresis with immunofixation",
+    "Serum free light chain assay",
+    "Technetium-99m pyrophosphate (PYP) cardiac scintigraphy",
+    "Cardiac MRI (repeat or review for specific amyloid patterns like diffuse subendocardial LGE and abnormal myocardial nulling)",
+    "Endomyocardial biopsy if non-invasive workup is inconclusive",
+    "Echocardiogram with strain imaging (global longitudinal strain pattern assessment)"
+  ]
+}

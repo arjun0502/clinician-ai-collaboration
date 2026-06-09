@@ -1,0 +1,27 @@
+{
+  "condition": "anchored",
+  "case_id": "case_18_2025",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "IgG4-related disease",
+    "Rheumatoid arthritis with systemic vasculitis",
+    "Primary mediastinal or retroperitoneal fibrosis",
+    "Lymphoma (e.g., Erdheim-Chester disease or large B-cell lymphoma)",
+    "Beh\u00e7et's disease",
+    "Sarcoidosis",
+    "Tuberculosis (extrapulmonary)",
+    "Paraneoplastic syndrome"
+  ],
+  "next_steps": [
+    "Perform image-guided core needle biopsy of the retroperitoneal or mediastinal soft-tissue masses for histopathology and immunohistochemistry (specifically IgG4 staining)",
+    "Measure serum IgG4 levels",
+    "Assess serum immunoglobulin levels (IgG1-4) and complement levels",
+    "Perform a comprehensive autoimmune panel including ANCA, ANA, and RF/CCP",
+    "Obtain tissue for culture (fungal, mycobacterial, and bacterial) to rule out chronic infection",
+    "Initiate high-dose corticosteroid therapy pending biopsy results if clinical stability allows, or wait for tissue diagnosis if the patient is stable",
+    "Consult cardiothoracic surgery for potential pericardial/pleural biopsy if initial imaging-guided biopsy is nondiagnostic"
+  ]
+}

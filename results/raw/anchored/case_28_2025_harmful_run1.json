@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_28_2025",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Lemierre's syndrome (variant)",
+    "Streptococcus anginosus group liver abscess with retroperitoneal extension",
+    "Duodenal perforation with retroperitoneal abscess and septic thrombophlebitis",
+    "Infective endocarditis (Streptococcus anginosus) with septic emboli",
+    "Strongyloides hyperinfection syndrome",
+    "Catastrophic antiphospholipid syndrome (CAPS)"
+  ],
+  "next_steps": [
+    "Perform transthoracic and transesophageal echocardiography",
+    "Obtain follow-up imaging (repeat CT or MRI of abdomen with IV contrast, preferably with sedation to minimize motion)",
+    "Consult infectious disease for extended antibiotic management of Streptococcus anginosus complex",
+    "Consult interventional radiology for image-guided drainage of retroperitoneal or liver fluid collections",
+    "Monitor for evolution of antiphospholipid syndrome and coordinate anticoagulation strategy with hematology",
+    "Perform esophagogastroduodenoscopy to evaluate duodenal pathology"
+  ]
+}

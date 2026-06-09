@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_1_2024",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Echis ocellatus envenomation (Viperid snakebite) with venom-induced consumption coagulopathy",
+    "Placental abruption secondary to coagulopathy",
+    "Acute kidney injury (likely acute tubular necrosis secondary to shock/hypoperfusion and toxin-mediated damage)",
+    "Disseminated intravascular coagulation (DIC)",
+    "HELLP syndrome",
+    "Severe anemia (hemorrhagic and likely hemolytic)"
+  ],
+  "next_steps": [
+    "Remove tourniquet and assess for compartment syndrome",
+    "Administer species-specific antivenom immediately",
+    "Resuscitation with fluid, blood products (fresh frozen plasma, cryoprecipitate, and packed red blood cells)",
+    "Urgent obstetric consultation for management of threatened preterm labor and fetal monitoring",
+    "Transfer to a tertiary care center with capability for hemodialysis and advanced obstetric care",
+    "Serial monitoring of coagulation profile, renal function, and hemoglobin",
+    "Tetanus prophylaxis and consideration of prophylactic antibiotics"
+  ]
+}

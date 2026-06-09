@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_2_2026",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Disseminated Melioidosis (Burkholderia pseudomallei infection)",
+    "Disseminated Nocardiosis",
+    "Metastatic bacterial endophthalmitis with disseminated abscesses",
+    "Disseminated fungal infection (e.g., Blastomycosis or Coccidioidomycosis)",
+    "Miliary Tuberculosis",
+    "Systemic malignancy with paraneoplastic or metastatic involvement",
+    "Disseminated Aspergillosis"
+  ],
+  "next_steps": [
+    "Urgent vitreous tap and biopsy for culture and cytology",
+    "CT-guided biopsy of the hepatic or pulmonary lesions",
+    "Blood cultures (aerobic, anaerobic, and fungal)",
+    "Transesophageal echocardiography to rule out occult endocarditis",
+    "Specialized laboratory testing for B. pseudomallei (e.g., Ashdown agar culture)",
+    "Ophthalmology consultation for drainage/debridement of the right eye",
+    "Discontinuation of empirical antibiotics if cultures are negative, targeting specific pathogen once identified"
+  ]
+}

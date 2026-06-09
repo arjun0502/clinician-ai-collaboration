@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_35_2024",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Congenital lobar overinflation",
+    "Congenital pulmonary airway malformation",
+    "Pulmonary sequestration",
+    "Congenital diaphragmatic hernia",
+    "Meconium aspiration syndrome with air leak complications",
+    "Bronchopulmonary dysplasia",
+    "Post-infectious pneumonia and necrotizing lung disease"
+  ],
+  "next_steps": [
+    "Perform a chest computed tomography (CT) scan with contrast to delineate airway anatomy and vascular supply",
+    "Obtain fiberoptic bronchoscopy to evaluate for endobronchial obstruction or structural anomalies",
+    "Consult pediatric thoracic surgery for potential surgical management of persistent focal lung pathology",
+    "Continue aggressive management of pulmonary hypertension and maintain optimal ventilator support",
+    "Continue microbiological surveillance and optimize antimicrobial therapy based on culture results"
+  ]
+}

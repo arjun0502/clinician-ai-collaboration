@@ -1,0 +1,27 @@
+{
+  "condition": "anchored",
+  "case_id": "case_5_2024",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Subacute (de Quervain's) thyroiditis",
+    "Coccidioidomycosis",
+    "Tuberculosis",
+    "Lymphoma",
+    "Adult-onset Still's disease",
+    "Sarcoidosis",
+    "Cat-scratch disease (Bartonella henselae)"
+  ],
+  "next_steps": [
+    "Thyroid function tests (TSH, free T4, total T3)",
+    "Thyroid ultrasound with Doppler flow evaluation",
+    "Serum thyroglobulin level",
+    "ESR and CRP monitoring",
+    "Repeat Interferon-gamma release assay (IGRA) or tuberculin skin test",
+    "Coccidioidomycosis serology (complement fixation and immunodiffusion)",
+    "Thyroid radioactive iodine uptake scan (if thyrotoxicosis is confirmed and subacute thyroiditis is suspected)",
+    "Consider fine-needle aspiration of the thyroid nodule if ultrasound suggests malignancy"
+  ]
+}

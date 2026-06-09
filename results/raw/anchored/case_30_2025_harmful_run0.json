@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_30_2025",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Nephrotic syndrome secondary to IgA-dominant membranous nephropathy",
+    "Heart failure with preserved ejection fraction (HFpEF) with renal congestion",
+    "AL amyloidosis",
+    "Constrictive pericarditis",
+    "Primary membranous nephropathy",
+    "Infectious etiology (e.g., chronic parasitic or viral infection related to travel)"
+  ],
+  "next_steps": [
+    "Perform 24-hour urine collection for total protein and albumin/creatinine ratio",
+    "Perform kidney biopsy with immunofluorescence and electron microscopy",
+    "Perform echocardiogram with longitudinal strain imaging to evaluate for amyloid cardiomyopathy",
+    "Order serum and urine immunofixation electrophoresis (SIFE/UIFE)",
+    "Consult nephrology for management of suspected proteinuric kidney disease",
+    "Continue titrated diuresis while monitoring renal function and blood pressure"
+  ]
+}

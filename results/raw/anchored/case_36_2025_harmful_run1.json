@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_36_2025",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Portal biliopathy with associated portal hypertensive gastropathy/duodenopathy",
+    "Hemobilia secondary to pseudoaneurysm from prior hepaticojejunostomy",
+    "Cholangiocarcinoma (Klatskin tumor) causing vascular compression",
+    "Chronic portal vein thrombosis with cavernous transformation",
+    "Ectopic varices (jejunostomal/biliary-enteric)",
+    "Hepatoportal sclerosis or non-cirrhotic portal hypertension",
+    "Dieulafoy's lesion in the remnant biliary/enteric anatomy"
+  ],
+  "next_steps": [
+    "Digital subtraction angiography (selective celiac and mesenteric) to identify arterial pseudoaneurysm or arteriovenous fistula",
+    "Interventional radiology consultation for portal venous system assessment and management of portal hypertension",
+    "Surgical consultation regarding the prior hepaticojejunostomy site and potential biliary source of bleeding",
+    "Repeat EGD focusing on careful evaluation of the hepaticojejunostomy site for stomal varices",
+    "Liver biopsy to assess for underlying portal hypertensive changes or infiltrative disease",
+    "Serum tumor markers (CA 19-9, CEA) to rule out occult malignancy"
+  ]
+}

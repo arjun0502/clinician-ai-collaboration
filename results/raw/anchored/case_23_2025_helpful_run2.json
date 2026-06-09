@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_23_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Pulmonary veno-occlusive disease (PVOD)",
+    "Pulmonary capillary hemangiomatosis (PCH)",
+    "Systemic sclerosis-associated pulmonary arterial hypertension",
+    "Hypersensitivity pneumonitis with severe pulmonary vascular involvement",
+    "Sarcoidosis with pulmonary hypertension",
+    "Idiopathic pulmonary arterial hypertension",
+    "Chronic thromboembolic pulmonary hypertension"
+  ],
+  "next_steps": [
+    "Urgent lung transplantation evaluation",
+    "Genetic testing for EIF2AK4 mutations (associated with PVOD/PCH)",
+    "Consider discontinuation of pulmonary vasodilators due to risk of precipitation of pulmonary edema",
+    "Right heart catheterization with fluid challenge (cautious) to further assess hemodynamic response",
+    "Surgical or transbronchial lung biopsy if patient stability permits, though high risk",
+    "Inotropic support as needed for right ventricular failure",
+    "Bridge to transplant planning (ECMO candidacy evaluation)"
+  ]
+}

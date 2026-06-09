@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_24_2025",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Lyme carditis",
+    "Myocarditis (viral or immune-mediated)",
+    "Multisystem inflammatory syndrome in adults (MIS-A)",
+    "Arrhythmogenic right ventricular cardiomyopathy",
+    "Q fever (Coxiella burnetii infection)",
+    "Autoimmune myocarditis (e.g., sarcoidosis)",
+    "Post-acute sequelae of SARS-CoV-2 (PASC) with autonomic dysfunction"
+  ],
+  "next_steps": [
+    "Cardiac magnetic resonance imaging (CMRI) with late gadolinium enhancement",
+    "Echocardiogram to assess wall motion abnormalities and valvular function",
+    "Serologic testing for Lyme disease (Borrelia burgdorferi IgG/IgM and Western blot)",
+    "Serologic testing for Q fever (Phase I and II antibodies)",
+    "Continuous cardiac telemetry and Holter monitoring for arrhythmia characterization",
+    "Comprehensive autoimmune workup including ANA, RF, and complement levels",
+    "Avoid initiation of AV-nodal blocking agents until structural/infectious etiologies are ruled out"
+  ]
+}

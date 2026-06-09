@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_35_2024",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Congenital pulmonary airway malformation (CPAM)",
+    "Congenital lobar emphysema",
+    "Bronchogenic cyst",
+    "Meconium aspiration syndrome with air leak complications",
+    "Congenital diaphragmatic hernia",
+    "Pulmonary sequestration",
+    "Secondary bacterial pneumonia/empyema"
+  ],
+  "next_steps": [
+    "Obtain high-resolution computed tomography (HRCT) of the chest with contrast",
+    "Perform diagnostic bronchoscopy to evaluate for airway obstruction or anatomical anomalies",
+    "Perform thoracentesis or ultrasound-guided aspiration of the pleural effusion for gram stain and culture",
+    "Consult pediatric surgery for potential surgical intervention if imaging reveals a malformed lobe or cyst",
+    "Continue titration of ventilator support and pulmonary hypertension management"
+  ]
+}

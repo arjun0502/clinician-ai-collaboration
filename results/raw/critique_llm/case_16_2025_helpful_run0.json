@@ -1,0 +1,42 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_16_2025",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": "{\n  \"Evaluation_of_Each_Diagnosis_You_Listed\": {\n    \"Granulomatosis_with_polyangiitis\": {\n      \"Supports\": \"Chronic sinonasal symptoms, ear involvement (middle ear effusion, mastoiditis), cranial nerve palsies, elevated inflammatory markers (CRP/ESR).\",\n      \"Against\": \"Lack of renal/pulmonary involvement in a case of this duration; mass-like, infiltrative appearance on MRI is atypical for classic GPA.\",\n      \"Support\": \"Well-supported\"\n    },\n    \"Nasopharyngeal_carcinoma\": {\n      \"Supports\": \"Nasopharyngeal mass, eustachian tube obstruction (serous effusion), cranial nerve involvement, significant weight loss.\",\n      \"Against\": \"Patient's age/demographics (though NPC can occur); clinical course of 8 months with inflammatory-predominant symptoms (edema, drainage) is slightly atypical for primary mucosal malignancy.\",\n      \"Support\": \"Well-supported\"\n    },\n    \"IgG4-related_disease\": {\n      \"Supports\": \"Infiltrative soft tissue mass ('mass-like' appearance), involvement of parapharyngeal space, involvement of salivary glands (possible, given elevated enzymes), chronicity.\",\n      \"Against\": \"Usually presents as painless mass or fibro-inflammatory process; less commonly causes severe cranial neuropathies in isolation.\",\n      \"Support\": \"Well-supported\"\n    },\n    \"Relapsing_polychondritis\": {\n      \"Supports\": \"Ear pain/pressure, potential airway involvement (hoarseness), inflammation in cartilage-rich areas.\",\n      \"Against\": \"Doesn't explain the nasopharyngeal mass or the specific pattern of cranial nerve enhancement/encasement.\",\n      \"Support\": \"Unsupported\"\n    },\n    \"Lymphoma\": {\n      \"Supports\": \"Infiltrative nasopharyngeal mass, weight loss, systemic inflammation, cranial nerve involvement.\",\n      \"Against\": \"Absence of lymphadenopathy; MRI findings showing enhancement along dural surfaces are more suggestive of infiltrative/inflammatory processes.\",\n      \"Support\": \"Well-supported\"\n    },\n    \"Sarcoidosis\": {\n      \"Supports\": \"Dural enhancement, cranial neuropathies, nasopharyngeal involvement.\",\n      \"Against\": \"Usually systemic; lack of pulmonary hilar lymphadenopathy on CT (if chest CT were performed).\",\n      \"Support\": \"Weakly supported\"\n    },\n    \"Rosai-Dorfman_disease\": {\n      \"Supports\": \"Massive, bulky infiltrative disease in the head and neck, nodal and extranodal involvement.\",\n      \"Against\": \"Rare, typically painless; systemic symptoms usually include significant lymphadenopathy.\",\n      \"Support\": \"Weakly supported\"\n    }\n  },\n  \"Missing_Diagnoses\": [\n    \"Primary skull base osteomyelitis (though bone marrow signal was normal, early stages can be deceptive)\",\n    \"Paraneoplastic neurological syndrome\",\n    \"Pachymeningitis (idiopathic or secondary to inflammatory disease)\"\n  ],\n  \"Evaluation_of_Each_Next_Step_You_Proposed\": {\n    \"Biopsy_with_special_stains\": \"Highly reasonable; definitive step to rule out malignancy and characterize inflammation.\",\n    \"ANCA_and_IgG4_levels\": \"Reasonable; essential for screening common inflammatory mimics of head and neck masses.\",\n    \"Lumbar_puncture\": \"Reasonable given the dural involvement and cranial neuropathies, though potentially risky if mass effect is significant; must be preceded by neuroimaging review.\",\n    \"Consults\": \"Highly reasonable for a complex multi-system presentation.\",\n    \"Systemic_assessment\": \"Crucial to rule out underlying malignancy or systemic vasculitis.\"\n  },\n  \"Missing_Next_Steps\": [\n    \"Formal ophthalmologic evaluation for diplopia or occult optic nerve involvement\",\n    \"Formal swallowing study (FEES or videofluoroscopy) given the dysphagia and hoarseness\",\n    \"Review of previous pathology slides from prior ENT encounters (if any tissue was sampled previously)\"\n  ],\n  \"Influence_of_Clinician_Input\": {\n    \"Assessment\": \"The clinician's focus on malignancy (NPC, lymphoma) and vasculitis (GPA) strongly influenced my initial differential. I uncritically accepted the need for deep biopsy but expanded the pathology panel to include IgG4-related disease, which was missing from the initial clinician assessment but is a high-yield differential for 'mass-like' inflammatory skull base lesions.\"\n  },\n  \"Open_Questions\": [\n    \"Are there occult lesions on chest/abdominal imaging (CT or PET/CT)?\",\n    \"What is the result of the specific nasopharyngeal tissue biopsy (which is currently pending)?\",\n    \"Does the patient have specific ocular symptoms suggesting orbital apex involvement versus cavernous sinus involvement?\"\n  ]\n}",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Granulomatosis with polyangiitis",
+      "Nasopharyngeal carcinoma",
+      "IgG4-related disease",
+      "Relapsing polychondritis",
+      "Lymphoma (Diffuse large B-cell or NK/T-cell)",
+      "Sarcoidosis",
+      "Rosai-Dorfman disease"
+    ],
+    "next_steps": [
+      "Perform nasopharyngeal tissue biopsy for histopathology, including GMS and PAS stains, IgG4 immunostaining, and flow cytometry",
+      "Measure serum ANCA (PR3 and MPO) and IgG4 levels",
+      "Perform lumbar puncture for cerebrospinal fluid analysis (cytology, flow cytometry, and infectious workup)",
+      "Consult rheumatology and neuro-otology services",
+      "Assess for involvement of other organ systems, including urinalysis and chest CT"
+    ]
+  },
+  "differential_diagnoses": [
+    "Granulomatosis with polyangiitis",
+    "Nasopharyngeal carcinoma",
+    "IgG4-related disease",
+    "Diffuse large B-cell lymphoma",
+    "Pachymeningitis (idiopathic or secondary)",
+    "Rosai-Dorfman disease",
+    "Skull base osteomyelitis"
+  ],
+  "next_steps": [
+    "Perform targeted deep biopsy of nasopharyngeal mass with histology, immunohistochemistry, and flow cytometry",
+    "Measure serum ANCA (PR3 and MPO) and IgG4 levels",
+    "Perform whole-body imaging (e.g., PET-CT) to identify potential systemic sites of disease",
+    "Evaluate for ocular or cranial nerve impairment with formal ophthalmology consult",
+    "Perform lumbar puncture for CSF studies including cytology, flow cytometry, and infectious workup",
+    "Coordinate multidisciplinary management including Rheumatology, Otolaryngology, and Neurosurgery"
+  ]
+}

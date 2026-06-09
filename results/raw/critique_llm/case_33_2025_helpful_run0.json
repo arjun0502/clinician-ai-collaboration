@@ -1,0 +1,29 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_33_2025",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": "{\n  \"Evaluation_of_Each_Diagnosis_You_Listed\": {\n    \"Thyrotoxicosis_e_g_Graves_subacute_thyroiditis\": {\n      \"Support\": \"Tachycardia, history of hyperthyroidism, neuropsychiatric symptoms (confusion, agitation, paranoia), and tonic-clonic seizures.\",\n      \"Against\": \"No overt physical signs of Graves' (e.g., ophthalmopathy, goiter), though these may be absent in younger or early presentations.\",\n      \"Support_Level\": \"Well-supported\"\n    },\n    \"Alcohol_withdrawal_syndrome\": {\n      \"Support\": \"History of daily alcohol use, tachycardia, agitation, and seizures.\",\n      \"Against\": \"Patient did not manifest tremors, sweating (diaphoresis), or severe autonomic hyperactivity expected in severe alcohol withdrawal; labs showed no electrolytes abnormalities.\",\n      \"Support_Level\": \"Well-supported\"\n    },\n    \"Bipolar_disorder_with_catatonic_or_encephalopathic_features\": {\n      \"Support\": \"History of bipolar I, medication non-compliance, psychiatric decompensation.\",\n      \"Against\": \"Presence of new-onset seizures and persistent tachycardia/confusion makes a purely psychiatric etiology less likely than an underlying organic process.\",\n      \"Support_Level\": \"Weakly supported\"\n    },\n    \"Anti_NMDA_receptor_encephalitis\": {\n      \"Support\": \"Psychiatric onset, confusion, seizures, autonomic instability (tachycardia).\",\n      \"Against\": \"The patient is male (less common), and the clinical picture is heavily influenced by systemic tachycardia and thyroid history.\",\n      \"Support_Level\": \"Weakly supported\"\n    },\n    \"Benzodiazepine_withdrawal\": {\n      \"Support\": \"History of benzodiazepine prescriptions, positive toxicology.\",\n      \"Against\": \"Less likely to cause such profound tachycardia compared to severe alcohol or severe thyroid-related triggers.\",\n      \"Support_Level\": \"Weakly supported\"\n    },\n    \"Acute_intermittent_porphyria\": {\n      \"Support\": \"Psychiatric symptoms, seizures, tachycardia.\",\n      \"Against\": \"No mention of abdominal pain, weakness, or specific triggers; relatively rare compared to thyroid disorders.\",\n      \"Support_Level\": \"Unsupported\"\n    },\n    \"Thyroid_storm\": {\n      \"Support\": \"Extreme tachycardia, psychiatric agitation, recent seizure, history of thyroid disease.\",\n      \"Against\": \"Oral temperature 36.1\u00b0C (no overt hyperpyrexia), which is often present in classic thyroid storm.\",\n      \"Support_Level\": \"Well-supported\"\n    }\n  },\n  \"Missing_Diagnoses\": [\n    \"Hashimoto\u2019s Encephalopathy (Steroid-responsive encephalopathy associated with autoimmune thyroiditis)\",\n    \"Hypercalcemia (secondary to unknown etiology or lithium-related effects)\",\n    \"Phaeochromocytoma (due to profound tachycardia and neuropsychiatric presentation)\"\n  ],\n  \"Evaluation_of_Each_Next_Step_You_Proposed\": {\n    \"Order_thyroid_studies\": \"Highly reasonable and essential.\",\n    \"TRAb_and_thyroid_ultrasound\": \"Reasonable for etiology differentiation.\",\n    \"Supportive_care_and_monitoring\": \"Appropriate.\",\n    \"Consult_endocrinology\": \"Essential.\",\n    \"Burch_Wartofsky_scoring\": \"Appropriate for systematic assessment.\",\n    \"Autoimmune_encephalitis_panel\": \"Reasonable secondary step, not harmful.\"\n  },\n  \"Missing_Next_Steps\": [\n    \"Serum calcium, albumin, and parathyroid hormone levels to rule out hypercalcemia as a cause of confusion/seizure.\",\n    \"Serum TSH-receptor antibody and TPO/Tg antibodies (to assess for Hashimoto\u2019s encephalopathy).\",\n    \"Urine screen for catecholamines/metanephrines to rule out phaeochromocytoma.\",\n    \"Continuous EEG monitoring (cEEG) for non-convulsive status epilepticus given the fluctuating mental status.\"\n  ],\n  \"Influence_of_Clinician_Input\": {\n    \"Analysis\": \"The clinician's assessment was narrow, focusing primarily on thyroid/psychiatric causes. I adopted the thyroid focus but expanded the differential to include paraneoplastic/autoimmune etiologies (NMDA) and metabolic causes (Porphyria) that the clinician ignored. I was correct to prioritize thyroid studies but perhaps too quick to accept the clinician's 'Bipolar relapse' framework.\"\n  },\n  \"Open_Questions\": [\n    \"What are the current TSH, Free T4, and T3 levels?\",\n    \"What is the serum calcium level?\",\n    \"What are the results of urine/plasma metanephrines?\",\n    \"Was there any recent exposure to iodine-containing contrast or medications that could precipitate thyroiditis?\"\n  ]\n}",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Thyrotoxicosis (e.g., Graves' disease, subacute thyroiditis)",
+      "Alcohol withdrawal syndrome",
+      "Bipolar disorder with catatonic or encephalopathic features",
+      "Anti-NMDA receptor encephalitis",
+      "Benzodiazepine withdrawal",
+      "Acute intermittent porphyria",
+      "Thyroid storm"
+    ],
+    "next_steps": [
+      "Order urgent serum TSH, free T4, and total T3 to evaluate for thyrotoxicosis",
+      "Obtain serum TSH receptor antibody (TRAb) levels",
+      "Consider thyroid ultrasound with Doppler flow",
+      "Continue supportive care with careful monitoring for autonomic instability and seizures",
+      "Consult endocrinology for management of suspected thyroid dysfunction",
+      "Monitor vital signs continuously for signs of thyroid storm (Burch-Wartofsky point scale)",
+      "Perform lumbar puncture for autoimmune encephalitis panel if thyroid studies are non-contributory"
+    ]
+  },
+  "differential_diagnoses": [],
+  "next_steps": []
+}

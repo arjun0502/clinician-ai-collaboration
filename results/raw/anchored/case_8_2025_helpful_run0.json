@@ -1,0 +1,27 @@
+{
+  "condition": "anchored",
+  "case_id": "case_8_2025",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Metformin-associated lactic acidosis (MALA)",
+    "Sepsis-induced Type A lactic acidosis",
+    "Euglycemic diabetic ketoacidosis (secondary to SGLT2 inhibitor use)",
+    "Pyroglutamic acidosis (5-oxoprolinemia secondary to chronic acetaminophen/malnutrition)",
+    "Acute-on-chronic heart failure leading to hypoperfusion and Type A lactic acidosis",
+    "Carbon dioxide retention (hypercapnic encephalopathy)",
+    "Salicylate toxicity"
+  ],
+  "next_steps": [
+    "Obtain arterial blood gas with serum lactate and anion gap calculation",
+    "Measure serum \u03b2-hydroxybutyrate level",
+    "Perform serum electrolyte panel including bicarbonate and anion gap determination",
+    "Obtain arterial or venous blood gas with serum pH and pCO2",
+    "Perform blood/urine cultures and search for source of infection given hypotension",
+    "Check serum creatinine and renal function profile to assess clearance of metformin",
+    "Review medication list and discontinue dapagliflozin immediately",
+    "Consult nephrology for consideration of renal replacement therapy if severe acidosis or refractory metabolic failure is present"
+  ]
+}

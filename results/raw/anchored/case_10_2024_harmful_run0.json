@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_10_2024",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Acquired generalized lipodystrophy (AGL)",
+    "Severe insulin resistance syndrome (Type B insulin resistance)",
+    "Syndrome of insulin resistance due to anti-insulin receptor antibodies",
+    "Lipodystrophy associated with autoimmune connective tissue disease",
+    "Congenital generalized lipodystrophy (Berardinelli-Seip syndrome)",
+    "Factitious hyperglycemia (insulin omission/pseudoresistance)",
+    "Paraneoplastic syndrome"
+  ],
+  "next_steps": [
+    "Test for anti-insulin receptor antibodies",
+    "Monitor insulin levels and C-peptide during periods of hyperglycemia to rule out factitious disorder",
+    "Consider discontinuation of high-dose exogenous insulin if insulin resistance is confirmed to be mediated by autoantibodies",
+    "Screen for autoimmune comorbidities (e.g., lupus, Sjogren's syndrome)",
+    "Re-evaluate abdominal pain etiology in the context of extreme insulin resistance and lipodystrophy (consider mesenteric ischemia or rare vascular manifestations)",
+    "Consult endocrinology, immunology, and rheumatology for specialized management"
+  ]
+}

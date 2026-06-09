@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_29_2024",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Legionella pneumophila pneumonia with rhabdomyolysis and acute kidney injury",
+    "Streptococcal toxic shock syndrome",
+    "Influenza-associated rhabdomyolysis and pneumonia",
+    "Leptospirosis",
+    "Dermatomyositis/Antisynthetase syndrome presenting with ILD and rhabdomyolysis",
+    "Drug-induced rhabdomyolysis (herbal supplements)",
+    "Hantavirus pulmonary syndrome"
+  ],
+  "next_steps": [
+    "Legionella urinary antigen testing",
+    "Urgent hemodialysis for severe AKI and metabolic derangements",
+    "Sputum and blood cultures",
+    "Direct fluorescent antibody (DFA) or PCR for Legionella from respiratory secretions",
+    "Creatine kinase monitoring and aggressive fluid resuscitation",
+    "Bronchoscopy with bronchoalveolar lavage for atypical pathogens if empirical treatment fails",
+    "Autoimmune myositis workup (myositis-specific antibody panel, ferritin, inflammatory markers)"
+  ]
+}

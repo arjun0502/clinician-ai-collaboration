@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_15_2024",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "S\u00e9zary syndrome",
+    "Adult T-cell leukemia/lymphoma",
+    "Psoriasiform drug eruption (DRESS syndrome variant)",
+    "Kaposi\u2019s varicelliform eruption (superimposed on erythroderma)",
+    "Paraneoplastic erythroderma",
+    "Chronic lymphocytic leukemia with cutaneous involvement"
+  ],
+  "next_steps": [
+    "Excisional biopsy of enlarged lymph node for histopathology, immunohistochemistry, and flow cytometry",
+    "Peripheral blood flow cytometry for T-cell phenotyping and Sezary cell count",
+    "T-cell receptor (TCR) gene rearrangement studies on skin biopsy and blood",
+    "Repeat skin biopsy for deeper analysis including CD3, CD4, CD8, CD7, and CD26 staining",
+    "HTLV-1 serology",
+    "Biopsy and PET/CT-guided sampling of the pulmonary mass",
+    "Consultation with Hematology-Oncology and Dermatology"
+  ]
+}

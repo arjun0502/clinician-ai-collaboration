@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_9_2024",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Infective endocarditis with systemic embolization",
+    "Aortic mycotic aneurysm",
+    "Aortitis",
+    "Staphylococcus aureus bacteremia with seeding",
+    "Acute aortic syndrome (penetrating atherosclerotic ulcer)",
+    "Pulmonary embolism",
+    "Spondylodiscitis"
+  ],
+  "next_steps": [
+    "Perform transesophageal echocardiography (TEE) immediately to rule out infective endocarditis and aortic valvular/root involvement",
+    "Obtain emergent CT angiography of the chest and abdomen with focus on the thoracic aorta to evaluate for mycotic aneurysm expansion or acute aortic pathology",
+    "Continue targeted antibiotic therapy for methicillin-sensitive Staphylococcus aureus (MSSA) based on sensitivity, ensuring adequate coverage for potential deep-seated infection",
+    "Maintain strict blood pressure control with intravenous agents to manage hypertension and minimize stress on the aortic wall",
+    "Consult infectious disease for management of persistent bacteremia and evaluation of duration of therapy",
+    "Consult cardiothoracic surgery for evaluation of suspected aortic mycotic aneurysm or structural valvular involvement"
+  ]
+}

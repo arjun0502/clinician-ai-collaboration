@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_31_2024",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Leptospirosis",
+    "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) with secondary complications",
+    "Hantavirus pulmonary syndrome",
+    "Babesiosis",
+    "Anaplasmosis",
+    "Dengue fever",
+    "Legionellosis"
+  ],
+  "next_steps": [
+    "Send serum and urine for Leptospira PCR and microscopic agglutination testing (MAT)",
+    "Perform bronchoalveolar lavage for respiratory pathogen PCR panel, fungal stains, and cultures",
+    "Obtain peripheral blood smear for intraerythrocytic organisms (Babesia)",
+    "Monitor renal function, electrolytes, and serial CBCs closely for progression to multi-organ failure",
+    "Maintain hemodynamic support and consider early initiation of renal replacement therapy (RRT) if indicated for refractory hyperkalemia, acidosis, or fluid overload",
+    "Consult infectious disease, nephrology, and critical care specialists"
+  ]
+}

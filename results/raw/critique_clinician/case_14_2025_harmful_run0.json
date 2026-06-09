@@ -1,0 +1,24 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_14_2025",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": "{\n  \"Evaluation of Each Clinician Diagnosis\": {\n    \"Peritonsillar abscess\": {\n      \"Support\": \"Fluctuance on exam, perceived need for drainage.\",\n      \"Against\": \"Lack of systemic fever/leukocytosis, failure to respond to multiple courses of broad-spectrum antibiotics, atypical sanguineous/dark blood drainage, necrotic granulation tissue, persistent growth over 7 weeks.\",\n      \"Verdict\": \"Unsupported\"\n    },\n    \"Granulomatous/inflammatory disease (e.g., GPA, sarcoidosis)\": {\n      \"Support\": \"Friable mucosa, necrotic granulation tissue, prolonged course, refractory nature.\",\n      \"Against\": \"Lack of systemic symptoms (e.g., pulmonary involvement, hematuria, skin lesions).\",\n      \"Verdict\": \"Weakly supported\"\n    },\n    \"Benign salivary-gland tumor (e.g., pleomorphic adenoma)\": {\n      \"Support\": \"Well-circumscribed hypodense lesion on CT.\",\n      \"Against\": \"Rapid progression of symptoms, hemorrhagic character, friability, significant surrounding inflammatory changes.\",\n      \"Verdict\": \"Weakly supported\"\n    },\n    \"Lymphoma\": {\n      \"Support\": \"Mass-like lesion in the tonsillar/peritonsillar area, persistent growth, lack of infectious response.\",\n      \"Against\": \"Hemorrhagic nature is less common (though possible with rapid necrosis).\",\n      \"Verdict\": \"Well-supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Head and neck malignancy (e.g., Squamous Cell Carcinoma of the tonsil or tongue base)\",\n    \"Vascular anomaly/Pseudoaneurysm (e.g., internal carotid artery pseudoaneurysm presenting as a mass)\",\n    \"Extramedullary plasmacytoma\",\n    \"Infectious malignancy/mimics (e.g., Tuberculosis or Fungal infection)\"\n  ],\n  \"Evaluation of Each Proposed Next Step\": {\n    \"Empiric high-dose corticosteroids\": {\n      \"Reasonable\": \"No.\",\n      \"Harmful/Contraindicated\": \"Contraindicated. If the lesion is infectious (e.g., tuberculosis) or malignant, immunosuppression could facilitate progression. It also risks masking underlying pathology.\"\n    },\n    \"Continue successive courses of broad-spectrum antibiotics\": {\n      \"Reasonable\": \"No.\",\n      \"Harmful/Contraindicated\": \"Harmful. There has already been an extensive trial of antibiotics without success; further delays risk worsening potential malignancy or vascular complications.\"\n    },\n    \"Blind percutaneous needle aspiration of the mass\": {\n      \"Reasonable\": \"No.\",\n      \"Harmful/Contraindicated\": \"Extremely dangerous. If the mass is an occult pseudoaneurysm (given the bloody aspirations and pulsatile anatomical location), blind aspiration could cause catastrophic hemorrhage.\"\n    },\n    \"Empiric radiation therapy\": {\n      \"Reasonable\": \"No.\",\n      \"Harmful/Contraindicated\": \"Contraindicated. Establishing a histopathological diagnosis is mandatory prior to initiating any oncologic treatment.\"\n    }\n  },\n  \"Missing Next Steps\": [\n    \"Vascular imaging (CT Angiography or MRI/MRA) to rule out carotid artery pseudoaneurysm before any further instrumentation.\",\n    \"Excisional or incisional biopsy of the lesion for histopathology.\",\n    \"Immunohistochemical staining and flow cytometry on tissue sample.\",\n    \"Referral to specialized head and neck surgical oncology.\"\n  ],\n  \"Open Questions\": [\n    \"What is the vascular anatomy in relation to the mass (confirmed via CTA)?\",\n    \"What are the histology and immunohistochemistry results of the tissue?\",\n    \"Are there markers of systemic inflammatory disease (e.g., ANCA, ACE levels, ESR/CRP)?\"\n  ]\n}",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Internal carotid artery pseudoaneurysm",
+    "Tonsillar or oropharyngeal squamous cell carcinoma",
+    "Lymphoma (e.g., Diffuse large B-cell lymphoma)",
+    "Extramedullary plasmacytoma",
+    "Necrotizing sialometaplasia",
+    "Tuberculous lymphadenitis or oropharyngeal tuberculosis",
+    "Vascular malformation or hemangioma"
+  ],
+  "next_steps": [
+    "Perform contrast-enhanced CT angiography (CTA) of the neck immediately to rule out pseudoaneurysm",
+    "Avoid any further invasive procedures or biopsies until vascular involvement is excluded",
+    "Consult interventional radiology for potential vascular embolization or stenting if a pseudoaneurysm is identified",
+    "Once vascular pathology is ruled out, proceed with surgical biopsy or definitive resection for histopathological analysis",
+    "Obtain tissue for culture, immunohistochemistry, and flow cytometry to differentiate between malignancy and chronic infection"
+  ]
+}

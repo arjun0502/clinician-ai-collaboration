@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_26_2025",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Bartonella henselae infection (Cat Scratch Disease)",
+    "Chronic Recurrent Multifocal Osteomyelitis (CRMO)",
+    "Langerhans cell histiocytosis",
+    "Metastatic malignancy (e.g., Ewing sarcoma, neuroblastoma)",
+    "Leukemia",
+    "Sarcoidosis",
+    "Disseminated mycobacterial infection"
+  ],
+  "next_steps": [
+    "Perform diagnostic biopsy of a bone lesion for histopathology and cultures",
+    "Perform biopsy of a liver lesion",
+    "Send Bartonella henselae serology and PCR",
+    "Obtain bone marrow aspiration and biopsy",
+    "Perform whole-body PET/CT scan to assess total disease burden",
+    "Consult infectious disease, oncology, and rheumatology specialists"
+  ]
+}

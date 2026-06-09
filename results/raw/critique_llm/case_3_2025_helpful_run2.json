@@ -1,0 +1,43 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_3_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Transthyretin Cardiac Amyloidosis (ATTR)\": {\n      \"Supports\": \"Progressive exertional dyspnea, increased wall thickness (18mm), biatrial dilatation, impaired longitudinal function/filling (implied by clinical presentation), and Kussmaul\u2019s sign.\",\n      \"Arguments Against\": \"Age (54) is young for wild-type ATTR; patient lacks specific red-flag systemic features (e.g., carpal tunnel syndrome, though he had orthopaedic surgeries).\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Light-chain (AL) Amyloidosis\": {\n      \"Supports\": \"Rapid progression of cardiac symptoms, biventricular involvement, and small cutaneous angiomas (often seen in amyloid deposition).\",\n      \"Arguments Against\": \"Usually presents with more systemic fragility/weight loss; however, the clinical picture is highly suggestive.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Hypertrophic Cardiomyopathy\": {\n      \"Supports\": \"Symmetric wall thickening (18mm), systolic obliteration, and apical septal late gadolinium enhancement.\",\n      \"Arguments Against\": \"Negative genetic panel; lack of familial phenotype in adult children; progressive worsening after age 50 is more typical of infiltration than primary sarcomeric HCM.\",\n      \"Status\": \"Weakly supported (as the primary diagnosis)\"\n    },\n    \"Sarcoidosis\": {\n      \"Supports\": \"Conduction abnormalities, T-wave inversions, and late gadolinium enhancement.\",\n      \"Arguments Against\": \"Lack of extracardiac involvement (pulmonary/lymphatic); typically presents with wall motion abnormalities beyond uniform hypertrophy.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Fabry Disease\": {\n      \"Supports\": \"Concentric LV hypertrophy, arrhythmias, and history of joint/musculoskeletal pain.\",\n      \"Arguments Against\": \"Absence of renal or classic dermatological/neuropathic findings reported.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Hemochromatosis\": {\n      \"Supports\": \"Heart failure symptoms with normal systolic function.\",\n      \"Arguments Against\": \"Normal liver enzymes; no mention of skin bronzing or diabetes.\",\n      \"Status\": \"Unsupported\"\n    },\n    \"Loeffler Endocarditis\": {\n      \"Supports\": \"Restrictive physiology.\",\n      \"Arguments Against\": \"No eosinophilia reported; absence of classic apical thrombus or endomyocardial thickening.\",\n      \"Status\": \"Unsupported\"\n    }\n  },\n  \"Missing Diagnoses\": {\n    \"Diagnoses\": [\n      \"Light-chain deposition disease\",\n      \"Multisystem inflammatory disease (e.g., IgG4-related disease)\"\n    ]\n  },\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Protein electrophoresis/Immunofixation\": \"Highly reasonable; gold standard for monoclonal proteins.\",\n    \"Serum free light-chain assay\": \"Highly reasonable; mandatory for AL amyloidosis workup.\",\n    \"Technetium-99m PYP\": \"Highly reasonable; definitive for TTR amyloidosis if grading is high.\",\n    \"Endomyocardial biopsy\": \"Reasonable if non-invasive markers are inconclusive; invasive but diagnostic gold standard.\",\n    \"Genetic testing (TTR)\": \"Reasonable; essential to differentiate wild-type from hereditary TTR.\",\n    \"NT-proBNP and troponin\": \"Reasonable; prognostic and provides clinical context for severity.\"\n  },\n  \"Missing Next Steps\": {\n    \"Steps\": [\n      \"Echocardiography with strain analysis (longitudinal strain for apical sparing pattern)\",\n      \"24-hour urine collection for total protein (to screen for Bence-Jones proteinuria)\",\n      \"Tissue biopsy (e.g., abdominal fat pad or salivary gland) prior to invasive endomyocardial biopsy\"\n    ]\n  },\n  \"Influence of Clinician Input\": {\n    \"Analysis\": \"The clinician\u2019s prompt steered me toward infiltrative diseases. I adopted 'AL Amyloidosis' from their list as the primary concern, while expanding on the TTR aspect. I likely accepted the necessity of biopsy too readily, as non-invasive testing (PYP scan) is now often sufficient for ATTR diagnosis.\"\n  },\n  \"Open Questions\": {\n    \"Information Needed\": [\n      \"Results of the serum free light-chain assay\",\n      \"Findings of the Tc-99m PYP scintigraphy\",\n      \"Presence of monoclonal gammopathy (M-spike) on immunofixation\",\n      \"Family history regarding non-cardiac disease (e.g., neuropathy, renal)\"\n    ]\n  }\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Transthyretin Cardiac Amyloidosis (ATTR)",
+      "Light-chain (AL) Amyloidosis",
+      "Hypertrophic Cardiomyopathy",
+      "Sarcoidosis",
+      "Fabry Disease",
+      "Hemochromatosis",
+      "Loeffler Endocarditis"
+    ],
+    "next_steps": [
+      "Serum and urine protein electrophoresis with immunofixation",
+      "Serum free light-chain assay",
+      "Technetium-99m pyrophosphate (PYP) cardiac scintigraphy",
+      "Endomyocardial biopsy with Congo red staining and mass spectrometry",
+      "Genetic testing for TTR gene mutation",
+      "NT-proBNP and troponin T/I monitoring"
+    ]
+  },
+  "differential_diagnoses": [
+    "Light-chain (AL) Amyloidosis",
+    "Transthyretin Cardiac Amyloidosis (ATTR), likely hereditary (hATTR)",
+    "Hypertrophic cardiomyopathy (phenocopy/non-sarcomeric)",
+    "Cardiac sarcoidosis",
+    "Fabry disease",
+    "Light-chain deposition disease"
+  ],
+  "next_steps": [
+    "Serum and urine protein electrophoresis with immunofixation",
+    "Serum free light-chain assay",
+    "Technetium-99m pyrophosphate (PYP) cardiac scintigraphy",
+    "Echocardiography with global longitudinal strain analysis",
+    "Abdominal fat-pad biopsy with Congo-red staining",
+    "Genetic testing for TTR gene mutation",
+    "Cardiac MRI re-review for patterns of subendocardial LGE"
+  ]
+}

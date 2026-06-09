@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_8_2025",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Metformin-associated lactic acidosis (MALA)",
+    "Sepsis-associated (Type A) lactic acidosis",
+    "Euglycemic diabetic ketoacidosis (secondary to SGLT2 inhibitor)",
+    "5-oxoprolinuria (pyroglutamic acidemia secondary to chronic acetaminophen/malnutrition)",
+    "Acute kidney injury with multifactorial metabolic acidosis",
+    "Cardiogenic shock with hypoperfusion",
+    "Salicylate toxicity"
+  ],
+  "next_steps": [
+    "Calculate the anion gap and delta-delta ratio",
+    "Measure arterial blood gases and serum lactate level",
+    "Measure serum beta-hydroxybutyrate and plasma ketones",
+    "Obtain plasma metformin level",
+    "Perform urinary organic acid analysis (specifically checking for pyroglutamic acid/5-oxoproline)",
+    "Discontinue metformin and SGLT2 inhibitors (already likely ceased)",
+    "Monitor renal function closely and consider renal replacement therapy if acidosis is severe or refractory"
+  ]
+}

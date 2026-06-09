@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_6_2025",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Chronic mesenteric ischemia (abdominal angina)",
+    "Portal vein thrombosis (cavernous transformation) due to previous abdominal trauma",
+    "Hepatic schistosomiasis",
+    "Non-cirrhotic portal hypertension",
+    "Cirrhosis of undetermined etiology",
+    "Budd-Chiari syndrome"
+  ],
+  "next_steps": [
+    "CT angiography of the mesenteric arteries to evaluate for chronic mesenteric ischemia",
+    "Measurement of serum lactate during a symptomatic postprandial episode",
+    "Liver biopsy to distinguish between cirrhosis and portal-based fibrosis (e.g., schistosomiasis)",
+    "Echocardiogram to rule out cardiac causes of posthepatic portal hypertension",
+    "Consultation with vascular surgery regarding the mesenteric vasculature",
+    "Nutritional assessment for significant weight loss"
+  ]
+}

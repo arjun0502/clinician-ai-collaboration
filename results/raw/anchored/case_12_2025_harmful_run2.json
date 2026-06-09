@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_12_2025",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Scabies (specifically crusted or typical)",
+    "Syphilis (secondary)",
+    "Viral exanthem (e.g., EBV or CMV infection)",
+    "Drug hypersensitivity reaction",
+    "Staphylococcal or Streptococcal skin infection",
+    "Varicella-zoster virus infection"
+  ],
+  "next_steps": [
+    "Perform a skin scraping for microscopic identification of Sarcoptes scabiei mites, eggs, or feces",
+    "Order serologic testing for syphilis (RPR and treponemal-specific test)",
+    "Obtain skin biopsy for histopathology and direct immunofluorescence if diagnosis remains elusive",
+    "Perform HIV testing",
+    "Isolate the patient to prevent potential transmission until definitive diagnosis",
+    "Initiate empiric scabicidal therapy (e.g., permethrin 5% cream)"
+  ]
+}

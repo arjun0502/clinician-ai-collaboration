@@ -1,0 +1,45 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_31_2025",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Enteropathy-associated T-cell lymphoma (EATL)\": {\n      \"Supporting\": \"History of malabsorption, villous blunting, jejunal ulceration/stricturing, weight loss, and hypogammaglobulinemia.\",\n      \"Against\": \"HLA-DQ2/DQ8 negative status makes classical EATL less likely.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Common variable immunodeficiency (CVID) with associated enteropathy\": {\n      \"Supporting\": \"Hypogammaglobulinemia (low IgA, IgM, IgG subclasses), chronic diarrhea, recurrent infections (Giardia), and nodal involvement.\",\n      \"Against\": \"Malignant presentation (aneurysmal dilatation) is more specific to lymphoma.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Crohn's disease with jejunal involvement\": {\n      \"Supporting\": \"Fistula formation, wall thickening, and prior partial response to infliximab.\",\n      \"Against\": \"The development of aneurysmal dilatation and refractory ulceration despite biologic therapy suggests a process other than standard inflammatory Crohn's.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Monomorphic epitheliotropic intestinal T-cell lymphoma (MEITL)\": {\n      \"Supporting\": \"Jejunal localization, ulceration, and possible clonal NK-cell linkage.\",\n      \"Against\": \"None definitive.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Small bowel adenocarcinoma\": {\n      \"Supporting\": \"Chronic enteropathy and stricturing disease.\",\n      \"Against\": \"Imaging features (aneurysmal dilatation/hypoenhancement) are more suggestive of lymphomatous infiltration than primary carcinoma.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Primary intestinal T-cell lymphoma\": {\n      \"Supporting\": \"General category covering T-cell malignancies.\",\n      \"Against\": \"N/A.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Yersinia enterocolitica infection\": {\n      \"Supporting\": \"Terminal ileitis/jejunal involvement and pseudoappendicitis.\",\n      \"Against\": \"Chronicity over 1 year and lack of response to multiple antimicrobials.\",\n      \"Status\": \"Unsupported\"\n    },\n    \"Autoimmune enteropathy\": {\n      \"Supporting\": \"Chronic refractory diarrhea and malabsorption.\",\n      \"Against\": \"Usually associated with specific antibodies (anti-enterocyte); does not typically cause aneurysmal dilatation/mass-like features.\",\n      \"Status\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": {\n    \"Indolent T-cell lymphoproliferative disorder of the GI tract\": \"Given the chronic course, this is a distinct possibility vs. aggressive lymphoma.\",\n    \"B-cell lymphoma (e.g., MALT lymphoma)\": \"Possible given the hypogammaglobulinemia/CVID background.\"\n  },\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Urgent surgical consultation\": \"Reasonable; the patient has signs of bowel ischemia (hypoenhancement) and obstruction, necessitating resection.\",\n    \"Full-thickness histopathology\": \"Essential; endoscopic biopsies were previously inconclusive (likely superficial).\",\n    \"IHC staining\": \"Reasonable; critical to differentiate T-cell subtypes.\",\n    \"TCR gene rearrangement\": \"Reasonable; needed to confirm clonality in T-cells.\",\n    \"PET/CT\": \"Reasonable; essential for staging.\",\n    \"Bone marrow biopsy\": \"Reasonable; necessary to exclude systemic involvement.\",\n    \"Discontinue infliximab\": \"Highly reasonable; continuing immunosuppression is dangerous if a lymphoma is the underlying pathology.\"\n  },\n  \"Missing Next Steps\": {\n    \"Serum immunoglobulin quantification\": \"Repeat measurement to ensure stability.\",\n    \"EBV viral load\": \"To assess for EBV-associated lymphoproliferation.\"\n  },\n  \"Influence of Clinician Input\": {\n    \"Analysis\": \"The clinician's assessment focused on inflammatory disease (Crohn's) and primary immunodeficiency. I adopted the immunodeficiency component (CVID) but recognized that the worsening structural changes (aneurysmal dilatation) indicated a shift toward a neoplastic process that the clinician's differential failed to emphasize.\"\n  },\n  \"Open Questions\": {\n    \"Questions\": [\n      \"What is the histopathology of the newly developed aneurysmal segments?\",\n      \"Is the NK-cell population in the peripheral blood truly clonal by current gold-standard molecular testing?\",\n      \"Does the patient have a underlying genetic predisposition to T-cell malignancy (e.g., STAT3 mutations)?\"\n    ]\n  }\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Enteropathy-associated T-cell lymphoma (EATL)",
+      "Common variable immunodeficiency (CVID) with associated enteropathy",
+      "Crohn's disease with jejunal involvement",
+      "Monomorphic epitheliotropic intestinal T-cell lymphoma (MEITL)",
+      "Small bowel adenocarcinoma",
+      "Primary intestinal T-cell lymphoma",
+      "Yersinia enterocolitica infection",
+      "Autoimmune enteropathy"
+    ],
+    "next_steps": [
+      "Urgent surgical consultation for exploratory laparotomy and resection of the diseased jejunal segments",
+      "Perform full-thickness histopathological examination of the resected bowel wall and mesenteric lymph nodes",
+      "Conduct immunohistochemical staining (CD3, CD4, CD8, CD56, CD30, TCR-beta, TCR-delta, EBER) on surgical specimens",
+      "Perform T-cell receptor (TCR) gene rearrangement studies on the suspicious jejunal lesions and the expanded peripheral NK-cell population",
+      "Repeat imaging (e.g., PET/CT) to evaluate for systemic lymphoma involvement",
+      "Bone marrow biopsy and aspiration if systemic lymphoma is suspected",
+      "Discontinue infliximab until the etiology of the ischemic/neoplastic bowel lesions is definitively determined"
+    ]
+  },
+  "differential_diagnoses": [
+    "Monomorphic epitheliotropic intestinal T-cell lymphoma (MEITL)",
+    "Enteropathy-associated T-cell lymphoma (EATL)",
+    "Common variable immunodeficiency (CVID) with indolent T-cell lymphoproliferative disorder",
+    "Crohn's disease with secondary stricturing and ischemia",
+    "Small bowel adenocarcinoma",
+    "Autoimmune enteropathy"
+  ],
+  "next_steps": [
+    "Urgent exploratory laparotomy with segmental jejunal resection for diagnosis and management of suspected ischemic segments",
+    "Full-thickness histopathological examination of resected bowel and mesenteric lymph nodes with flow cytometry and T-cell receptor (TCR) clonality studies",
+    "Immunohistochemical panel on surgical specimen (CD3, CD4, CD8, CD56, CD30, TCR-beta, TCR-delta, EBER)",
+    "Discontinuation of infliximab given the risk of occult malignancy and persistent bowel ischemia",
+    "Whole-body PET/CT staging to assess for systemic nodal or extranodal disease",
+    "Repeat peripheral blood flow cytometry to confirm and characterize the clonal NK-cell population",
+    "Comprehensive genetic testing for primary immunodeficiency syndromes (e.g., STAT3, CTLA4, LRBA mutations)"
+  ]
+}

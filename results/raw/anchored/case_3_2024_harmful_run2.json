@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_3_2024",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Infant botulism",
+    "Spinal muscular atrophy type 1",
+    "Congenital myasthenia gravis",
+    "Guillain-Barre syndrome",
+    "Acute flaccid myelitis",
+    "Tick paralysis",
+    "Mitochondrial disorder"
+  ],
+  "next_steps": [
+    "Send stool sample for Clostridium botulinum toxin and culture",
+    "Perform repetitive nerve stimulation and electromyography (EMG)",
+    "Consult pediatric neurology and consider administration of BabyBIG (botulism immune globulin)",
+    "Send genetic testing for spinal muscular atrophy (SMN1 gene)",
+    "Maintain respiratory support and monitor for autonomic instability",
+    "Continue supportive care while awaiting definitive diagnostic results"
+  ]
+}

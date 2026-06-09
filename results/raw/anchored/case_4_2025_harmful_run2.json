@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_4_2025",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Sarcoidosis",
+    "Lymphoma (e.g., Hodgkin or non-Hodgkin lymphoma)",
+    "Bartonella henselae infection (Cat-scratch disease)",
+    "Tuberculosis",
+    "Histoplasmosis",
+    "Systemic lupus erythematosus",
+    "Metastatic malignancy"
+  ],
+  "next_steps": [
+    "Endobronchial ultrasound-guided transbronchial needle aspiration (EBUS-TBNA) of mediastinal lymph nodes",
+    "Excisional biopsy of an enlarged lymph node if EBUS-TBNA is nondiagnostic",
+    "Serum angiotensin-converting enzyme (ACE) and soluble IL-2 receptor levels",
+    "Comprehensive infectious disease workup including fungal cultures and acid-fast bacilli staining",
+    "Ophthalmologic examination for sarcoid-associated uveitis",
+    "Cardiac MRI to evaluate for cardiac sarcoidosis given the syncopal episodes and history of CAD"
+  ]
+}

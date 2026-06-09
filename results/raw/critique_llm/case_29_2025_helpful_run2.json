@@ -1,0 +1,44 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_29_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": "```json\n{\n  \"Evaluation_of_Each_Diagnosis_You_Listed\": {\n    \"Pneumocystis_jirovecii_pneumonia\": {\n      \"supporting_facts\": \"Severe immunosuppression (CD4 25), respiratory failure, hypoxia, history of poor adherence to ART.\",\n      \"arguing_facts\": \"Miliary pattern on imaging is more characteristic of disseminated infection (fungal/mycobacterial) than classic PJP (which typically presents with bilateral ground-glass opacities).\",\n      \"support_level\": \"Well-supported\"\n    },\n    \"Disseminated_histoplasmosis\": {\n      \"supporting_facts\": \"Severe AIDS, miliary pulmonary nodules, fever, diaphoresis, shock.\",\n      \"arguing_facts\": \"Patient has not traveled outside New England (though endemicity exists, it is less common).\",\n      \"support_level\": \"Well-supported\"\n    },\n    \"Disseminated_tuberculosis\": {\n      \"supporting_facts\": \"AIDS, miliary pattern, fever, cough.\",\n      \"arguing_facts\": \"Nonproductive cough and lack of night sweats/weight loss for 2 months are atypical, though common in advanced AIDS.\",\n      \"support_level\": \"Well-supported\"\n    },\n    \"Miliary_cryptococcosis\": {\n      \"supporting_facts\": \"Profound AIDS, fever, pulmonary involvement.\",\n      \"arguing_facts\": \"Often presents with meningitis; pulmonary nodules are less common but possible.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Kaposi_sarcoma\": {\n      \"supporting_facts\": \"AIDS-defining malignancy, pulmonary involvement can present as nodules.\",\n      \"arguing_facts\": \"Usually associated with cutaneous or mucosal lesions, which were absent.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Lymphoma\": {\n      \"supporting_facts\": \"HIV-associated malignancy, constitutional symptoms.\",\n      \"arguing_facts\": \"Acute presentation with rapid clinical decline and respiratory failure fits infectious processes better than typical lymphoma progression.\",\n      \"support_level\": \"Weakly supported\"\n    }\n  },\n  \"Missing_Diagnoses\": [\n    \"Coccidioidomycosis (disseminated)\",\n    \"Strongyloides hyperinfection syndrome (risk factor: immunocompromise)\",\n    \"Cytomegalovirus (CMV) pneumonitis\"\n  ],\n  \"Evaluation_of_Each_Next_Step_You_Proposed\": {\n    \"Bronchoscopy_with_BAL\": {\n      \"reasonableness\": \"Highly reasonable; gold standard for diagnosing PJP and opportunistic infections.\",\n      \"harmful_or_contraindicated\": \"Potentially harmful if the patient is hemodynamically unstable, though necessary given the undifferentiated respiratory failure.\"\n    },\n    \"Serum_cryptococcal_antigen\": {\n      \"reasonableness\": \"Standard of care for severe AIDS.\",\n      \"harmful_or_contraindicated\": \"None.\"\n    },\n    \"Serum_histoplasma_antigen\": {\n      \"reasonableness\": \"Appropriate for disseminated fungal workup.\",\n      \"harmful_or_contraindicated\": \"None.\"\n    },\n    \"Beta-D-glucan\": {\n      \"reasonableness\": \"Useful for PJP/fungal screening.\",\n      \"harmful_or_contraindicated\": \"None.\"\n    },\n    \"Sputum_induction\": {\n      \"reasonableness\": \"Less sensitive than BAL but safer initial step.\",\n      \"harmful_or_contraindicated\": \"None.\"\n    },\n    \"Urgent_management_of_septic_shock\": {\n      \"reasonableness\": \"Essential given the patient's hypotension and tachycardic state.\",\n      \"harmful_or_contraindicated\": \"None.\"\n    },\n    \"Intravenous_pentamidine\": {\n      \"reasonableness\": \"Second-line; risky due to high toxicity profile.\",\n      \"harmful_or_contraindicated\": \"Questionable; should prioritize optimizing TMP-SMX or confirming diagnosis before switching, as pentamidine can cause profound hypotension/dysglycemia.\"\n    }\n  },\n  \"Missing_Next_Steps\": [\n    \"Blood cultures (fungal, mycobacterial, and bacterial)\",\n    \"Lumbar puncture (to rule out CNS involvement of crypto/TB/malignancy)\",\n    \"Serum lactate and procalcitonin (to assess severity of septic shock vs. non-infectious causes)\",\n    \"HIV viral load and resistance testing (to guide long-term ART)\"\n  ],\n  \"Influence_of_Clinician_Input\": {\n    \"extent\": \"Moderate.\",\n    \"uncritical_adoption\": \"I adopted the clinician's infectious disease framework (TB, histoplasmosis) as the primary direction but added broader systematic testing (serology) and diagnostic procedural interventions.\",\n    \"questionable_elements\": \"The clinician's focus on non-infectious causes (sarcoidosis, lung cancer) seemed lower priority than life-threatening opportunistic infections; I correctly prioritized ruling out infectious causes given the CD4 count.\"\n  },\n  \"Open_Questions\": [\n    \"Is there evidence of CNS involvement (headache, meningismus)?\",\n    \"Are there prior screenings for latent TB or prophylactic history?\",\n    \"Could the cocaine use have caused pulmonary toxicity or exacerbate infection-related respiratory failure?\",\n    \"What are the results of the initial blood work (CBC, electrolytes, liver function, renal function)?\"\n  ]\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Pneumocystis jirovecii pneumonia",
+      "Disseminated histoplasmosis",
+      "Disseminated tuberculosis",
+      "Miliary cryptococcosis",
+      "Kaposi sarcoma (pulmonary)",
+      "Lymphoma (HIV-associated)"
+    ],
+    "next_steps": [
+      "Bronchoscopy with bronchoalveolar lavage for cytology, silver stain, and cultures (fungal, mycobacterial, bacterial)",
+      "Serum cryptococcal antigen testing",
+      "Serum histoplasma antigen testing",
+      "Beta-D-glucan assay",
+      "Sputum induction for AFB smear and culture",
+      "Urgent management of septic shock with fluid resuscitation and vasopressors if refractory",
+      "Initiation of intravenous pentamidine if Pneumocystis jirovecii is suspected and TMP-SMX is insufficient or poorly tolerated"
+    ]
+  },
+  "differential_diagnoses": [
+    "Pneumocystis jirovecii pneumonia",
+    "Disseminated histoplasmosis",
+    "Disseminated tuberculosis",
+    "Miliary cryptococcosis",
+    "Cytomegalovirus pneumonitis",
+    "Kaposi sarcoma (pulmonary)",
+    "Non-Hodgkin lymphoma"
+  ],
+  "next_steps": [
+    "Bronchoscopy with bronchoalveolar lavage for comprehensive microbiology (fungal, mycobacterial, bacterial, viral studies)",
+    "Serum histoplasma antigen and cryptococcal antigen testing",
+    "Serum (1,3)-beta-D-glucan assay",
+    "Urgent stabilization of hemodynamics with balanced crystalloid resuscitation and vasopressors as indicated",
+    "Blood cultures (fungal, mycobacterial, and aerobic/anaerobic bacterial)",
+    "Lumbar puncture to rule out CNS involvement given the severity of immunocompromise",
+    "High-resolution CT chest to better characterize the nature of micronodules"
+  ]
+}

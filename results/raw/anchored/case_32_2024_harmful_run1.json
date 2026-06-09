@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_32_2024",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Myasthenia gravis",
+    "Amyotrophic lateral sclerosis",
+    "Amyloidosis (systemic, specifically AL or transthyretin)",
+    "Lambert-Eaton myasthenic syndrome",
+    "Mitochondrial myopathy",
+    "Polymyositis",
+    "Brainstem stroke/lacunar syndrome"
+  ],
+  "next_steps": [
+    "Perform repetitive nerve stimulation and single-fiber electromyography (SFEMG)",
+    "Test for serum acetylcholine receptor (AChR) antibodies and MuSK antibodies",
+    "Evaluate for systemic amyloidosis with serum and urine protein electrophoresis with immunofixation and free light chain assay",
+    "Perform pulmonary function tests (negative inspiratory force and forced vital capacity) to monitor respiratory status",
+    "Consider echocardiogram with strain imaging to evaluate for findings suggestive of cardiac amyloidosis",
+    "Obtain a neurology consultation for comprehensive bulbar and neuromuscular assessment"
+  ]
+}

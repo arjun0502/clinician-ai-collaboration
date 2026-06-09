@@ -1,0 +1,26 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_33_2025",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Clinician Diagnosis\": {\n    \"Bipolar I disorder relapse\": {\n      \"Supporting facts\": \"History of bipolar I disorder, recent medication nonadherence, paranoia, disorganized behavior.\",\n      \"Arguments against\": \"Presence of new-onset seizures, confusion/disorientation, tachycardia, and signs of cognitive decline point toward a medical/organic etiology rather than pure psychiatric relapse.\",\n      \"Support status\": \"Weakly supported\"\n    },\n    \"Complicated alcohol withdrawal\": {\n      \"Supporting facts\": \"Daily alcohol use, tachycardia, confusion, seizure.\",\n      \"Arguments against\": \"Alcohol level is undetectable; benzodiazapines were administered for agitation/withdrawal; standard withdrawal usually presents with tremor/diaphoresis, which are absent here.\",\n      \"Support status\": \"Well supported\"\n    },\n    \"Graves\u2019 disease\": {\n      \"Supporting facts\": \"History of hyperthyroidism, tachycardia, agitation, restlessness.\",\n      \"Arguments against\": \"Absence of ocular findings (proptosis/ophthalmoparesis) or thyroid enlargement/nodules.\",\n      \"Support status\": \"Well supported\"\n    },\n    \"Lithium-induced thyrotoxicosis\": {\n      \"Supporting facts\": \"History of lithium use, signs of hyperthyroidism.\",\n      \"Arguments against\": \"Patient has not been on lithium recently; serum lithium is undetectable.\",\n      \"Support status\": \"Unsupported\"\n    },\n    \"Benzodiazepine withdrawal\": {\n      \"Supporting facts\": \"Use of clonazepam/benzodiazepines, seizure onset.\",\n      \"Arguments against\": \"Toxicology was positive for benzodiazepines, suggesting presence in the system; clinical picture more consistent with an acute systemic trigger.\",\n      \"Support status\": \"Weakly supported\"\n    },\n    \"Subacute painless thyroiditis\": {\n      \"Supporting facts\": \"History of thyroid dysfunction, hyperthyroid symptoms.\",\n      \"Arguments against\": \"No mention of thyroid tenderness, though it is usually painless in this subtype.\",\n      \"Support status\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Anti-NMDA receptor encephalitis (must be considered in young adults with psychiatric symptoms followed by seizures/cognitive decline)\",\n    \"Thyroid storm (clinical severity of tachycardia and seizures necessitates ruling this out immediately)\",\n    \"Metabolic encephalopathy (other causes beyond thyroid)\",\n    \"Neuroleptic Malignant Syndrome (given recent risperidone initiation)\"\n  ],\n  \"Evaluation of Each Proposed Next Step\": {\n    \"Continued and titrated beta-blocker therapy\": {\n      \"Reasoning\": \"Reasonable for symptomatic management of tachycardia/thyrotoxicosis, provided the patient is hemodynamically stable.\",\n      \"Harm/Contraindication\": \"If the patient is in cardiogenic shock or has heart block, this could be harmful, though unlikely here.\"\n    },\n    \"Outpatient Endocrine/Psychiatric Follow-up\": {\n      \"Reasoning\": \"Insufficient. The patient is currently unstable with new-onset seizures and severe psychiatric symptoms requiring inpatient workup.\",\n      \"Harm/Contraindication\": \"Harmful; discharging or deferring to outpatient status is inappropriate given the acute, unexplained seizure.\"\n    },\n    \"Order thyroid function tests (TSH, total T4, free T4)\": {\n      \"Reasoning\": \"Essential and high priority.\",\n      \"Harm/Contraindication\": \"No contraindications.\"\n    }\n  },\n  \"Missing Next Steps\": [\n    \"Thyroid-stimulating immunoglobulin (TSI) and TSH receptor antibody (TRAb) testing to confirm Graves' disease\",\n    \"CSF analysis for autoimmune encephalitis panel (Anti-NMDA)\",\n    \"Serum ammonia and lactate levels to rule out metabolic causes\",\n    \"Continuous EEG monitoring given the recent seizure and altered mental status\"\n  ],\n  \"Open Questions\": [\n    \"What are the specific TSH, free T4, and T3 levels?\",\n    \"What is the result of a thyroid ultrasound?\",\n    \"Are there any specific antibodies (e.g., TPO, TSI, Anti-NMDA) present?\",\n    \"Does the patient have a history of specific recent illnesses that could trigger thyroiditis?\"\n  ]\n}\n```",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Thyroid storm",
+    "Anti-NMDA receptor encephalitis",
+    "Complicated alcohol withdrawal",
+    "Neuroleptic malignant syndrome",
+    "Bipolar disorder with catatonic features",
+    "Acute viral encephalitis",
+    "Toxic metabolic encephalopathy"
+  ],
+  "next_steps": [
+    "Immediate measurement of TSH, free T4, free T3, and total T3",
+    "Continuous EEG monitoring for subclinical seizure activity",
+    "CSF analysis for autoimmune encephalitis panel and paraneoplastic antibodies",
+    "Serum ammonia, electrolytes, and extended metabolic panel",
+    "Thyroid ultrasound and TRAb/TSI testing",
+    "Consider trial of intravenous thiamine and management for potential autonomic instability",
+    "Monitor for symptoms of autonomic dysregulation and hyperthermia (NMS signs)"
+  ]
+}

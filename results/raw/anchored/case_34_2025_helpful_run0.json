@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_34_2025",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Primary diffuse leptomeningeal melanomatosis",
+    "Leptomeningeal metastasis (melanoma)",
+    "Neurocutaneous melanosis",
+    "Cerebral amyloid angiopathy-related inflammation",
+    "IgG4-related hypertrophic pachymeningitis",
+    "Primary angiitis of the central nervous system",
+    "Neurosarcoidosis"
+  ],
+  "next_steps": [
+    "Brain and leptomeningeal biopsy of the affected cortical regions",
+    "Whole-body PET-CT or dermatological evaluation to search for occult primary melanoma",
+    "Immunohistochemical staining of biopsy tissue (MITF, Melan-A, HMB-45)",
+    "Genetic testing for GNAQ/GNA11 mutations",
+    "MRI brain with contrast and high-resolution vessel wall imaging",
+    "Repeat CSF analysis for cytology, protein, and autoimmune markers"
+  ]
+}

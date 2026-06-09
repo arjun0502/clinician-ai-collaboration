@@ -1,0 +1,45 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_32_2024",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Myasthenia gravis\": {\n      \"Supports\": \"Fluctuating bulbar symptoms (dysarthria, dysphagia), ptosis, proximal muscle weakness, respiratory muscle involvement, and nocturnal dyspnea.\",\n      \"ArgumentsAgainst\": \"Patient's age is less typical (though possible), and generalized weakness/fatigue is often more prominent than specific localized deficits.\",\n      \"Verdict\": \"Well-supported\"\n    },\n    \"Amyotrophic lateral sclerosis\": {\n      \"Supports\": \"Bulbar symptoms (dysarthria, dysphagia, garbled voice), generalized weakness, limb weakness, and falls.\",\n      \"ArgumentsAgainst\": \"Presence of sensory/fatigue symptoms (though nonspecific), and potential responsiveness to treatments (though partial).\",\n      \"Verdict\": \"Well-supported\"\n    },\n    \"Chronic inflammatory demyelinating polyradiculoneuropathy\": {\n      \"Supports\": \"Proximal muscle weakness, sensory symptoms (falls), and systemic nature.\",\n      \"ArgumentsAgainst\": \"Bulbar involvement is less common as an early presentation compared to motor/sensory peripheral findings.\",\n      \"Verdict\": \"Weakly supported\"\n    },\n    \"Lambert-Eaton myasthenic syndrome\": {\n      \"Supports\": \"Proximal muscle weakness, fatigue, respiratory symptoms, and underlying occult malignancy potential.\",\n      \"ArgumentsAgainst\": \"Ocular symptoms (ptosis) are less common than in Myasthenia Gravis; bulbar symptoms are typically mild.\",\n      \"Verdict\": \"Weakly supported\"\n    },\n    \"Mitochondrial myopathy\": {\n      \"Supports\": \"Multisystem involvement (cardiac, respiratory, bulbar, weakness, fatigue).\",\n      \"ArgumentsAgainst\": \"Usually presents earlier in life, though late-onset cases occur.\",\n      \"Verdict\": \"Weakly supported\"\n    },\n    \"Systemic amyloidosis\": {\n      \"Supports\": \"Cardiac history (HFpEF-like presentation, low voltage EKG), autonomic/sensory issues, and late-onset multisystem dysfunction.\",\n      \"ArgumentsAgainst\": \"Does not typically account for the acute fluctuating bulbar/neurological symptoms unless there is associated neuropathy.\",\n      \"Verdict\": \"Well-supported (as a co-morbidity or cause of heart/lung findings)\"\n    },\n    \"Paraneoplastic neurological syndrome\": {\n      \"Supports\": \"Subacute onset of bulbar/respiratory/neurological dysfunction in an older patient.\",\n      \"ArgumentsAgainst\": \"CT imaging has been largely negative for mass lesions so far.\",\n      \"Verdict\": \"Well-supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Acid Maltase Deficiency (Late-onset Pompe disease)\",\n    \"Botulism\",\n    \"Polymyositis / Dermatomyositis\"\n  ],\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Perform acetylcholine receptor antibody testing\": \"Reasonable and standard for ruling out MG.\",\n    \"Perform electrodiagnostic testing (repetitive nerve stimulation and needle electromyography)\": \"Essential for differentiating NMJ disorders from primary myopathy/neuropathy.\",\n    \"Perform chest CT with contrast to screen for thymoma\": \"Reasonable, though prior imaging noted.\",\n    \"Consider bedside edrophonium test\": \"Contraindicated/Risky: High risk of arrhythmia given the patient's existing cardiac history and current respiratory instability.\",\n    \"Obtain lumbar puncture\": \"Reasonable to rule out inflammatory/paraneoplastic processes (e.g., protein elevation).\",\n    \"Consult neurology\": \"Essential.\",\n    \"Continue non-invasive ventilation\": \"Appropriate and life-saving.\"\n  },\n  \"Missing Next Steps\": [\n    \"Test for muscle-specific kinase (MuSK) antibodies (if AChR is negative)\",\n    \"Check serum creatine kinase (CK) levels (specifically re-checking if not definitive)\",\n    \"Check acid alpha-glucosidase levels (Pompe disease screen)\",\n    \"Serum protein electrophoresis (SPEP/UPEP) with immunofixation for amyloidosis/paraproteinemia\"\n  ],\n  \"Influence of Clinician Input\": {\n    \"General\": \"The clinician's differential provided a strong bias toward neuromuscular and autoimmune processes, which informed the diagnostic testing strategy.\",\n    \"Critique\": \"I uncritically accepted the clinician's framing of a primary neurological syndrome, potentially overlooking metabolic/storage diseases like Pompe disease, which can mimic these findings.\"\n  },\n  \"Open Questions\": [\n    \"Are there specific diurnal fluctuations in strength that were not clearly documented?\",\n    \"What is the exact cardiac phenotype? (e.g., diastolic vs. systolic dysfunction via formal right heart cath or cardiac MRI to look for infiltrative patterns)\",\n    \"Is there a history of family members with similar early-onset respiratory or muscle weakness?\"\n  ]\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Myasthenia gravis",
+      "Amyotrophic lateral sclerosis",
+      "Chronic inflammatory demyelinating polyradiculoneuropathy",
+      "Lambert-Eaton myasthenic syndrome",
+      "Mitochondrial myopathy",
+      "Systemic amyloidosis",
+      "Paraneoplastic neurological syndrome"
+    ],
+    "next_steps": [
+      "Perform acetylcholine receptor antibody testing",
+      "Perform electrodiagnostic testing (repetitive nerve stimulation and needle electromyography)",
+      "Perform chest CT with contrast to screen for thymoma",
+      "Consider bedside edrophonium test (if safe/appropriate) or therapeutic trial of pyridostigmine",
+      "Obtain lumbar puncture for cerebrospinal fluid protein/cytology",
+      "Consult neurology for formal evaluation of bulbar and respiratory function",
+      "Continue non-invasive ventilation support"
+    ]
+  },
+  "differential_diagnoses": [
+    "Late-onset Pompe disease (Acid maltase deficiency)",
+    "Myasthenia gravis",
+    "Amyotrophic lateral sclerosis",
+    "Systemic amyloidosis with neuromuscular involvement",
+    "Lambert-Eaton myasthenic syndrome",
+    "Mitochondrial myopathy",
+    "Paraneoplastic neurological syndrome"
+  ],
+  "next_steps": [
+    "Measure serum acid alpha-glucosidase activity (dried blood spot or enzyme assay)",
+    "Perform electrodiagnostic testing (Repetitive nerve stimulation and needle EMG)",
+    "Obtain serum creatine kinase level",
+    "Check acetylcholine receptor and MuSK antibody titers",
+    "Perform cardiac MRI with T1 mapping and late gadolinium enhancement to evaluate for infiltrative cardiomyopathy",
+    "Conduct formal swallow study and bedside speech-language pathology evaluation",
+    "Continue supportive respiratory management with non-invasive ventilation"
+  ]
+}

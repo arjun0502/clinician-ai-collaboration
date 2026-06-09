@@ -1,0 +1,45 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_33_2025",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": "{\n  \"evaluation_of_each_diagnosis\": {\n    \"Thyrotoxicosis (e.g., painless thyroiditis or recurrence of Graves' disease)\": {\n      \"supporting_facts\": \"Tachycardia (116\u2013129 bpm), history of hyperthyroidism, agitation, restlessness, seizure, and recent psychiatric decompensation.\",\n      \"arguing_against\": \"None; symptoms are highly classic for 'apathetic' or psychiatric-predominant thyrotoxicosis.\",\n      \"status\": \"Well-supported\"\n    },\n    \"Delirium secondary to metabolic or endocrine abnormality\": {\n      \"supporting_facts\": \"Acute onset of confusion, cognitive fluctuations, and attention deficits.\",\n      \"arguing_against\": \"General labs (electrolytes, renal, liver) are otherwise normal.\",\n      \"status\": \"Well-supported\"\n    },\n    \"Anti-NMDA receptor encephalitis\": {\n      \"supporting_facts\": \"Young man, psychiatric prodrome, confusion, seizures, and movement/behavioral changes.\",\n      \"arguing_against\": \"Lack of autonomic instability (no fever or severe BP fluctuations) and rapid response to lorazepam/sedation (though this is variable).\",\n      \"status\": \"Weakly supported\"\n    },\n    \"Alcohol withdrawal syndrome\": {\n      \"supporting_facts\": \"History of daily alcohol use, tachycardia, and seizure.\",\n      \"arguing_against\": \"Patient received benzodiazepines, but agitation persisted; symptoms began 2 months ago (too early for withdrawal).\",\n      \"status\": \"Weakly supported\"\n    },\n    \"New-onset epilepsy\": {\n      \"supporting_facts\": \"Witnessed tonic-clonic seizure.\",\n      \"arguing_against\": \"No epileptiform discharges on EEG; imaging is normal; seizure is more likely symptomatic (metabolic/toxic).\",\n      \"status\": \"Weakly supported\"\n    },\n    \"Serotonin syndrome\": {\n      \"supporting_facts\": \"Tachycardia and agitation.\",\n      \"arguing_against\": \"No mention of current serotonergic agents; lack of neuromuscular findings (tremor, clonus, rigidity).\",\n      \"status\": \"Unsupported\"\n    },\n    \"Central nervous system infection (viral encephalitis)\": {\n      \"supporting_facts\": \"Confusion, seizures, and acute change in mental status.\",\n      \"arguing_against\": \"Normal CSF cell count, protein, and glucose; normal MRI.\",\n      \"status\": \"Weakly supported\"\n    }\n  },\n  \"missing_diagnoses\": [\n    \"Hashimoto\u2019s Encephalopathy (Steroid-responsive encephalopathy associated with autoimmune thyroiditis - SREAT)\",\n    \"Factitious Thyrotoxicosis (ingestion of exogenous thyroid hormone)\"\n  ],\n  \"evaluation_of_each_next_step\": {\n    \"Obtain emergent thyroid function tests\": \"Reasonable; essential for confirming the leading hypothesis.\",\n    \"Perform continuous bedside cardiac monitoring\": \"Reasonable; high risk of arrhythmias due to tachycardia/thyrotoxicosis.\",\n    \"Send CSF for autoimmune encephalitis panel\": \"Reasonable; important to rule out NMDA, though low yield if thyroid tests are positive.\",\n    \"Monitor for hemodynamic instability and signs of thyroid storm\": \"Reasonable; crucial for patient safety.\",\n    \"Consider formal neuropsychological testing\": \"Reasonable, but premature; clinical stability is the priority.\",\n    \"Consult Endocrinology and Neurology teams\": \"Reasonable and standard of care.\"\n  },\n  \"missing_next_steps\": [\n    \"Check serum anti-thyroid peroxidase (TPO) antibodies (to investigate Hashimoto's Encephalopathy)\",\n    \"Screen for illicit substance use beyond the initial tox screen (e.g., synthetic cannabinoids or designer drugs which may not appear on standard panels)\",\n    \"Review collateral information regarding recent medication access (possible exogenous thyroid hormone)\",\n    \"Perform a physical examination specifically looking for goiter or ophthalmopathy again\"\n  ],\n  \"influence_of_clinician_input\": {\n    \"analysis\": \"The clinician's assessment heavily prioritized thyroid pathology, which correctly identified the most likely culprit. I adopted the 'thyrotoxicosis' focus uncritically, which is clinically appropriate given the patient's history. However, I perhaps over-indexed on rare neurological causes (NMDA encephalitis) compared to common thyroid-related neuro-psychiatric sequelae like Hashimoto's Encephalopathy, which is highly relevant in a patient with a known thyroid history.\"\n  },\n  \"open_questions\": [\n    \"What are the TSH, free T4, and total T3 levels?\",\n    \"Are TSH-receptor antibodies or TPO antibodies elevated?\",\n    \"Was there access to exogenous thyroid medication given the patient's psychiatric history?\",\n    \"Is there a family history of autoimmune thyroid disease?\"\n  ]\n}",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Thyrotoxicosis (e.g., painless thyroiditis or recurrence of Graves' disease)",
+      "Delirium secondary to metabolic or endocrine abnormality",
+      "Anti-NMDA receptor encephalitis",
+      "Alcohol withdrawal syndrome",
+      "New-onset epilepsy",
+      "Serotonin syndrome",
+      "Central nervous system infection (viral encephalitis)"
+    ],
+    "next_steps": [
+      "Obtain emergent thyroid function tests (TSH, free T4, total T3, TPO antibodies, TSH-receptor antibodies)",
+      "Perform continuous bedside cardiac monitoring",
+      "Send CSF for autoimmune encephalitis panel (including NMDA receptor antibodies)",
+      "Monitor for hemodynamic instability and signs of thyroid storm (Burch-Wartofsky Point Scale)",
+      "Consider formal neuropsychological testing once stable",
+      "Consult Endocrinology and Neurology teams"
+    ]
+  },
+  "differential_diagnoses": [
+    "Thyrotoxic crisis (thyroid storm) secondary to Graves' disease",
+    "Hashimoto's encephalopathy (SREAT)",
+    "Painless (silent) thyroiditis",
+    "Exogenous thyrotoxicosis",
+    "Delirium secondary to metabolic or endocrine dysfunction",
+    "Autoimmune encephalitis (e.g., anti-NMDA receptor)",
+    "Alcohol withdrawal syndrome"
+  ],
+  "next_steps": [
+    "Obtain emergent thyroid function tests (TSH, free T4, total T3)",
+    "Calculate Burch-Wartofsky Point Scale score and initiate supportive treatment for potential thyroid storm",
+    "Test serum for anti-thyroid peroxidase (TPO) antibodies and TSH-receptor antibodies",
+    "Continuous cardiac telemetry and hemodynamic monitoring",
+    "Review collateral history for possible access to exogenous thyroid hormones",
+    "Consult Endocrinology for urgent management of thyrotoxicosis",
+    "Send CSF for autoimmune encephalitis panel and paraneoplastic evaluation",
+    "Consult Neurology and Psychiatry for multidisciplinary management"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_30_2025",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Nephrotic syndrome secondary to amyloidosis (AL)",
+    "Nephrotic syndrome secondary to IgA nephropathy",
+    "Heart failure with preserved ejection fraction (HFpEF)",
+    "Systemic light chain (AL) amyloidosis",
+    "Constrictive pericarditis",
+    "Chronic liver disease with portal hypertension"
+  ],
+  "next_steps": [
+    "Perform 24-hour urine collection for total protein quantification and creatinine clearance",
+    "Perform abdominal fat pad aspiration for Congo red staining to evaluate for amyloidosis",
+    "Perform a kidney biopsy to determine the etiology of proteinuria",
+    "Perform echocardiography with strain imaging to evaluate for amyloid cardiomyopathy",
+    "Quantify serum B-type natriuretic peptide (BNP) or NT-proBNP",
+    "Avoid empiric immunosuppression until histological diagnosis is established"
+  ]
+}

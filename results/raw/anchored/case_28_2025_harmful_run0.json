@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_28_2025",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Streptococcus anginosus group liver abscess/cholangitis with secondary septic thrombophlebitis",
+    "Duodenal perforation with retroperitoneal abscess and secondary venous thrombosis",
+    "Lemierre\u2019s syndrome-like clinical presentation of streptococcal sepsis",
+    "Infective endocarditis with septic pulmonary emboli",
+    "Catastrophic antiphospholipid syndrome",
+    "Strongyloidiasis hyperinfection syndrome with bacterial translocation",
+    "Primary sclerosing cholangitis with secondary infection"
+  ],
+  "next_steps": [
+    "Perform transesophageal echocardiography to rule out endocarditis",
+    "Obtain follow-up imaging (e.g., dedicated CT or MRI) to evaluate the duodenal-renal soft tissue connection",
+    "Consult interventional radiology for image-guided drainage of potential retroperitoneal or liver abscesses",
+    "Evaluate for underlying immunodeficiency or malignancy given the constellation of symptoms",
+    "Monitor inflammatory markers and repeat blood cultures to assess response to current antibiotic regimen",
+    "Maintain anticoagulation and monitor for bleeding risk given thrombocytopenia and potential duodenal ulceration"
+  ]
+}

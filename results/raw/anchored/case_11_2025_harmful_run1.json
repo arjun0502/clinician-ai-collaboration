@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_11_2025",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Primary pleural lymphoma (e.g., DLBCL or MALT lymphoma)",
+    "Tuberculous pleurisy",
+    "Metastatic carcinoma (e.g., lung or breast cancer)",
+    "Chronic lymphocytic leukemia/Small lymphocytic lymphoma",
+    "Systemic lupus erythematosus pleuritis",
+    "Sarcoidosis",
+    "IgG4-related disease"
+  ],
+  "next_steps": [
+    "Flow cytometry of pleural fluid for immunophenotyping",
+    "Pleural fluid cytology and cell block analysis",
+    "CT scan of the chest, abdomen, and pelvis with contrast",
+    "Pleural biopsy (via thoracoscopy or image-guided approach)",
+    "Serum protein electrophoresis with immunofixation and free light chain assay",
+    "Measurement of pleural fluid markers (ADA, LDH, pH, CEA)",
+    "QuantiFERON-TB Gold or T-SPOT.TB test"
+  ]
+}

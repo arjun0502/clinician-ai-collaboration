@@ -1,0 +1,24 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_2_2026",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Clinician Diagnosis\": {\n    \"Endocarditis with septic emboli\": {\n      \"Supporting facts\": \"Fever, leukocytosis, multifocal pulmonary nodules/masses, and cerebral embolic-appearing lesions.\",\n      \"Against facts\": \"Transthoracic echocardiography was negative for vegetations, and the patient lacks traditional risk factors; however, the clinical picture remains highly suggestive of systemic embolization.\",\n      \"Support level\": \"Well-supported\"\n    },\n    \"Disseminated fungal infection\": {\n      \"Supporting facts\": \"Multifocal cavitating lung lesions, hepatic mass, and severe endophthalmitis (suggestive of Aspergillus, Candida, or endemic mycoses).\",\n      \"Against facts\": \"None; this fits the subacute presentation and the severity of tissue destruction.\",\n      \"Support level\": \"Well-supported\"\n    },\n    \"Mycobacterial infection\": {\n      \"Supporting facts\": \"Weight loss, productive cough, and cavitary lung nodules.\",\n      \"Against facts\": \"The rapidity of eye involvement and severity of leukocytosis are less typical for standard TB but possible with disseminated disease.\",\n      \"Support level\": \"Weakly supported\"\n    },\n    \"Infective Endocarditis\": {\n      \"Supporting facts\": \"Redundant with first diagnosis; systemic inflammatory response and embolic phenomena.\",\n      \"Against facts\": \"Same as above.\",\n      \"Support level\": \"Well-supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Hypervirulent Klebsiella pneumoniae (K. pneumoniae liver abscess syndrome) - fits the triad of liver abscess, metastatic pulmonary nodules, and metastatic endophthalmitis.\",\n    \"Metastatic malignancy (e.g., lung adenocarcinoma or lymphoma) with superimposed opportunistic infection.\",\n    \"Nocardiosis (pulmonary-cutaneous-CNS-ocular dissemination).\"\n  ],\n  \"Evaluation of Each Proposed Next Step\": {\n    \"Percutaneous lung biopsy\": {\n      \"Assessment\": \"Reasonable to obtain diagnostic tissue, though potentially risky if there is a coagulopathy or high infection risk.\",\n      \"Contraindications\": \"None absolute, but must balance with the need for immediate antimicrobial coverage.\"\n    },\n    \"Avoid bronchoscopy\": {\n      \"Assessment\": \"Potentially unreasonable; bronchoalveolar lavage (BAL) is often the highest-yield procedure for infectious etiologies in patients with pulmonary nodules.\",\n      \"Contraindications\": \"None explicitly, unless hemodynamically unstable.\"\n    },\n    \"Defer echocardiography\": {\n      \"Assessment\": \"Harmful/Inappropriate. Transesophageal echocardiography (TEE) is mandatory to rule out infective endocarditis more sensitively than the transthoracic approach.\",\n      \"Contraindications\": \"Contraindicated to defer; TEE is a standard of care for septic embolic presentations.\"\n    },\n    \"Start corticosteroids\": {\n      \"Assessment\": \"Highly dangerous. Until a definitive infectious diagnosis is made, immunosuppression could be catastrophic.\",\n      \"Contraindications\": \"Contraindicated unless a non-infectious inflammatory process is confirmed.\"\n    }\n  },\n  \"Missing Next Steps\": [\n    \"Transesophageal echocardiogram (TEE).\",\n    \"Diagnostic or therapeutic vitrectomy/aqueous tap for culture and PCR (especially for Klebsiella or fungi).\",\n    \"Comprehensive workup for hypervirulent K. pneumoniae (culture of liver aspirate).\",\n    \"Serum (1,3)-beta-D-glucan and galactomannan tests.\"\n  ],\n  \"Open Questions\": [\n    \"Are there blood culture results pending from the previous hospital?\",\n    \"What is the patient's HIV status?\",\n    \"What are the specific features of the hepatic mass (e.g., gas-forming?) on imaging?\"\n  ]\n}\n```",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Hypervirulent Klebsiella pneumoniae (metastatic infection syndrome)",
+    "Disseminated fungal infection (e.g., Aspergillus or Candida spp.)",
+    "Nocardiosis",
+    "Infective endocarditis with septic embolization",
+    "Metastatic malignancy with secondary infection",
+    "Disseminated tuberculosis"
+  ],
+  "next_steps": [
+    "Perform transesophageal echocardiography (TEE) to rule out endocarditis",
+    "Urgent ophthalmologic consultation for diagnostic vitrectomy or aqueous tap with culture and PCR",
+    "Perform CT-guided drainage or fine-needle aspiration of the hepatic mass",
+    "Send serum (1,3)-beta-D-glucan, galactomannan, and QuantiFERON-TB Gold",
+    "Obtain HIV testing and HbA1c to assess for underlying immunosuppression",
+    "Maintain broad-spectrum antibiotics (covering Klebsiella and Pseudomonas) and liposomal amphotericin B until definitive cultures return"
+  ]
+}

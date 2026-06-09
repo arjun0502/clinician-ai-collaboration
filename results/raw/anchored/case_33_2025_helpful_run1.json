@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_33_2025",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Thyrotoxicosis (likely Graves' disease or painless thyroiditis)",
+    "Anti-NMDA receptor encephalitis",
+    "Alcohol withdrawal syndrome",
+    "Benzodiazepine withdrawal",
+    "Bipolar disorder with catatonic features",
+    "Neuroleptic malignant syndrome",
+    "Metabolic encephalopathy (e.g., electrolyte abnormality or occult organ failure)"
+  ],
+  "next_steps": [
+    "Order thyroid function tests (TSH, free T4, total T3)",
+    "Order thyroid stimulating immunoglobulin (TSI) and TSH receptor antibodies (TRAb)",
+    "Send cerebrospinal fluid for autoimmune encephalitis panel (including NMDA receptor antibodies)",
+    "Consider 24-hour video EEG monitoring to rule out non-convulsive status epilepticus",
+    "Monitor thyroid hormone levels closely and consider judicious use of beta-blockers for autonomic stabilization",
+    "Consult endocrinology for management of thyrotoxicosis"
+  ]
+}

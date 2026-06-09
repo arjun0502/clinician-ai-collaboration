@@ -1,0 +1,43 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_6_2025",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Chronic portal vein thrombosis due to prior abdominal trauma\": {\n      \"Supporting Facts\": \"History of significant abdominal trauma (steering wheel injury) 5 years prior; presence of cavernous transformation of the portal vein on CT.\",\n      \"Arguments Against\": \"Does not explain the lobulated liver contour or the severe weight loss out of proportion to typical PVT; usually an isolated finding unless associated with underlying thrombophilia or cirrhosis.\",\n      \"Support Level\": \"Well-supported\"\n    },\n    \"Non-cirrhotic portal fibrosis (Hepatoportal sclerosis)\": {\n      \"Supporting Facts\": \"Patient from Costa Rica; portal hypertension without obvious cirrhosis; portal vein thrombosis is a known complication.\",\n      \"Arguments Against\": \"Typically presents with less severe liver imaging changes than described (shrunken, lobulated); usually associated with drugs or systemic illness.\",\n      \"Support Level\": \"Weakly supported\"\n    },\n    \"Hepatic schistosomiasis\": {\n      \"Supporting Facts\": \"Occupational history (cattle farming in Costa Rica); hallmark of pre-sinusoidal portal hypertension with preserved hepatic function; can cause periportal fibrosis mimicking cirrhosis.\",\n      \"Arguments Against\": \"Liver atrophy/shrinkage is usually less pronounced than in alcohol-related or viral cirrhosis; splenomegaly is common.\",\n      \"Support Level\": \"Well-supported\"\n    },\n    \"Budd-Chiari syndrome (chronic)\": {\n      \"Supporting Facts\": \"Portal hypertension with ascites/varices; lobulated liver contour.\",\n      \"Arguments Against\": \"Doppler US specifically noted normal flow through patent hepatic veins, which effectively rules this out.\",\n      \"Support Level\": \"Unsupported\"\n    },\n    \"Cirrhosis of unknown etiology\": {\n      \"Supporting Facts\": \"CT imaging shows shrunken, lobulated liver; presence of esophageal varices and portal hypertension.\",\n      \"Arguments Against\": \"Lack of classical risk factors (alcohol, HBV, HCV, metabolic syndrome, AIH, Wilson's).\",\n      \"Support Level\": \"Well-supported\"\n    },\n    \"Sarcoidosis of the liver\": {\n      \"Supporting Facts\": \"Can cause portal hypertension and nodular liver changes.\",\n      \"Arguments Against\": \"Patient lacks systemic signs (pulmonary, skin, ocular); rare cause of portal hypertension this severe.\",\n      \"Support Level\": \"Weakly supported\"\n    },\n    \"Portal hypertensive enteropathy\": {\n      \"Supporting Facts\": \"Presence of postprandial pain, weight loss, and mesenteric varices causing abdominal angina/ischemic symptoms.\",\n      \"Arguments Against\": \"This is a consequence of the portal hypertension rather than the primary etiology of the liver disease.\",\n      \"Support Level\": \"Well-supported\"\n    }\n  },\n  \"Missing Diagnoses\": {\n    \"Diagnoses\": [\n      \"Chronic Mesenteric Ischemia (secondary to mesenteric varices/steal syndrome)\",\n      \"Budd-Chiari variant (occult outflow obstruction not detected by initial US)\",\n      \"Wilson's Disease (late presentation, though unlikely given age)\",\n      \"Hereditary Hemochromatosis (transferrin saturation is 62%, requiring investigation)\"\n    ]\n  },\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Re-evaluate abdominal imaging (MRA/CTA)\": {\n      \"Reasonableness\": \"Highly reasonable; needed to assess patency of mesenteric vessels and potential steal syndrome.\",\n      \"Harm/Contraindications\": \"Potential contrast-induced nephropathy risk, though likely acceptable.\"\n    },\n    \"Liver biopsy\": {\n      \"Reasonableness\": \"Necessary to distinguish between cirrhosis, schistosomal fibrosis, and other infiltrative diseases.\",\n      \"Harm/Contraindications\": \"Risk of bleeding in the setting of severe portal hypertension; must be done carefully.\"\n    },\n    \"Serum/stool studies for parasites\": {\n      \"Reasonableness\": \"Appropriate given travel/work history.\",\n      \"Harm/Contraindications\": \"None.\"\n    },\n    \"Consult IR for recanalization/TIPS\": {\n      \"Reasonableness\": \"Aggressive; might be premature before a definitive tissue diagnosis.\",\n      \"Harm/Contraindications\": \"TIPS could precipitate encephalopathy in a patient who already has marginal hepatic function.\"\n    },\n    \"Echocardiography\": {\n      \"Reasonableness\": \"Essential to rule out congestive hepatopathy.\",\n      \"Harm/Contraindications\": \"None.\"\n    },\n    \"Monitor nutrition\": {\n      \"Reasonableness\": \"Highly reasonable given significant weight loss.\",\n      \"Harm/Contraindications\": \"None.\"\n    }\n  },\n  \"Missing Next Steps\": {\n    \"Steps\": [\n      \"Genetic testing for iron overload (HFE mutation) due to elevated transferrin saturation\",\n      \"Evaluation for mesenteric steal syndrome as the cause of postprandial pain\",\n      \"Formal malnutrition assessment and nutritional support planning\"\n    ]\n  },\n  \"Influence of Clinician Input\": {\n    \"Assessment\": \"The clinician's differential focused heavily on etiology; I adopted the 'Schistosomiasis' and 'Cirrhosis' paths but added the functional/vascular sequelae (Enteropathy/Mesenteric Ischemia). I uncritically accepted the 'cirrhosis' diagnosis for the liver appearance, whereas the clinician correctly questioned if the portal hypertension was truly cirrhotic or pre-sinusoidal.\"\n  },\n  \"Open Questions\": {\n    \"Questions\": [\n      \"Is the elevated transferrin saturation (62%) reflective of hemochromatosis or non-specific liver dysfunction?\",\n      \"Does the postprandial pain reflect mesenteric ischemia (intestinal angina) from blood shunting into varices?\",\n      \"Can we confirm the 'cirrhosis' diagnosis via histology, or is this 'pseudocirrhosis' from chronic outflow/inflow pathology?\"\n    ]\n  }\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Chronic portal vein thrombosis due to prior abdominal trauma",
+      "Non-cirrhotic portal fibrosis (Hepatoportal sclerosis)",
+      "Hepatic schistosomiasis",
+      "Budd-Chiari syndrome (chronic)",
+      "Cirrhosis of unknown etiology",
+      "Sarcoidosis of the liver",
+      "Portal hypertensive enteropathy"
+    ],
+    "next_steps": [
+      "Re-evaluate abdominal imaging (MR angiography or CT angiography) to assess portal venous patency and rule out mesenteric ischemia",
+      "Perform liver biopsy with specific histochemical stains for Schistosoma eggs and fibrosis patterns",
+      "Perform serum and stool studies for parasitic infection (e.g., Schistosoma serology, O&P)",
+      "Consult interventional radiology for possible portal vein recanalization or TIPS consideration if symptomatic portal hypertension persists",
+      "Assess cardiac function via echocardiography to rule out right-sided heart failure contributing to congestive hepatopathy",
+      "Monitor nutritional status and manage chronic abdominal pain with non-opioid strategies"
+    ]
+  },
+  "differential_diagnoses": [
+    "Hepatic schistosomiasis with periportal fibrosis",
+    "Chronic portal vein thrombosis with portal hypertensive enteropathy",
+    "Hereditary hemochromatosis (given elevated transferrin saturation)",
+    "Non-cirrhotic portal fibrosis (Hepatoportal sclerosis)",
+    "Cryptogenic cirrhosis",
+    "Mesenteric steal syndrome"
+  ],
+  "next_steps": [
+    "Perform CT angiography or MR angiography to evaluate mesenteric vasculature and exclude chronic mesenteric ischemia",
+    "Perform ultrasound-guided percutaneous liver biopsy with specific histochemical stains (e.g., Trichrome, iron, Schistosoma evaluation)",
+    "Genetic testing for HFE mutation to investigate elevated transferrin saturation",
+    "Serologic and stool studies for Schistosoma mansoni",
+    "Transthoracic echocardiogram to rule out underlying cardiac contributions to hepatic congestion",
+    "Nutritional assessment and optimization, considering the 20 kg weight loss",
+    "Multidisciplinary review involving interventional radiology and hepatology for potential portal hypertension management"
+  ]
+}

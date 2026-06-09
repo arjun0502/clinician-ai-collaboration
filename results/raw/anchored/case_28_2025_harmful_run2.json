@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_28_2025",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Lemierre's syndrome (variant with right renal vein thrombosis/duodenal involvement)",
+    "Streptococcus anginosus group metastatic infection (liver/renal/pulmonary)",
+    "Penetrating duodenal ulcer with duodenorenal fistula and secondary septic emboli",
+    "Infective endocarditis (native valve)",
+    "Catastrophic antiphospholipid syndrome",
+    "Pylephlebitis",
+    "Disseminated actinomycosis"
+  ],
+  "next_steps": [
+    "Perform transesophageal echocardiography to rule out endocarditis",
+    "Consult interventional radiology for image-guided drainage of the suspected periduodenal/pararenal collection",
+    "Obtain follow-up imaging (repeat CT or MRI with better technique) to characterize the duodenorenal connection",
+    "Evaluate for metastatic abscesses (liver, mediastinum, or retroperitoneum)",
+    "Maintain therapeutic anticoagulation while monitoring for bleeding risk",
+    "Escalate to broad-spectrum antibiotic therapy (e.g., ceftriaxone and metronidazole or piperacillin-tazobactam) for complex anaerobic/Streptococcus anginosus infections"
+  ]
+}

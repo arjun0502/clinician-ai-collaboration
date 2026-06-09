@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_28_2025",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Penetrating duodenal ulcer causing retroperitoneal abscess and duodeno-renal fistula",
+    "Streptococcus anginosus group liver abscess with portal/renal vein thrombophlebitis",
+    "Lemierre's syndrome variant (septic thrombophlebitis)",
+    "Severe Strongyloidiasis (hyperinfection syndrome) with secondary bacterial sepsis",
+    "Infective endocarditis with septic pulmonary and renal emboli",
+    "Duodenal malignancy with localized perforation and secondary infection"
+  ],
+  "next_steps": [
+    "Perform urgent upper endoscopy (EGD) to evaluate duodenal wall thickening and possible ulcer/fistula",
+    "Repeat blood cultures to monitor for clearance of Streptococcus anginosus",
+    "Continue broad-spectrum antibiotics (Ceftriaxone or similar, possibly adding Metronidazole) based on S. anginosus susceptibility",
+    "Maintain therapeutic anticoagulation for inferior vena cava and renal vein thrombosis",
+    "Consider echocardiography to rule out vegetation associated with persistent bacteremia",
+    "Order stool studies for Strongyloides stercoralis larvae (O&P and serology)"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_19_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Powassan virus encephalitis",
+    "JC virus granule cell neuronopathy (GCN)",
+    "Neurolymphomatosis or leptomeningeal involvement of DLBCL",
+    "Varicella-zoster virus (VZV) encephalitis",
+    "Paraneoplastic cerebellar degeneration",
+    "Listeria monocytogenes rhombencephalitis",
+    "HHV-6 encephalitis"
+  ],
+  "next_steps": [
+    "CSF testing for Powassan virus (PCR and IgM), JC virus (PCR), VZV (PCR), and HHV-6 (PCR)",
+    "CSF paraneoplastic antibody panel",
+    "CSF cytology and flow cytometry repeat with broad lymphoid marker panel",
+    "Brain biopsy (stereotactic) if non-invasive testing remains unrevealing and clinical decline continues",
+    "Full-body PET/CT to evaluate for systemic relapse of lymphoma"
+  ]
+}

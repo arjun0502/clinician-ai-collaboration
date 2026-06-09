@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_30_2025",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Nephrotic syndrome (secondary to IgA-associated glomerulopathy or amyloidosis)",
+    "Amyloidosis (AL or secondary)",
+    "Heart failure with preserved ejection fraction (HFpEF)",
+    "Constrictive pericarditis",
+    "Cirrhosis with portal hypertension",
+    "Systemic vasculitis"
+  ],
+  "next_steps": [
+    "Perform a 24-hour urine collection for total protein and creatinine clearance",
+    "Perform a renal biopsy for light microscopy, immunofluorescence, and electron microscopy",
+    "Perform a serum and urine immunofixation electrophoresis",
+    "Obtain an echocardiogram with specific assessment for diastolic function, pericardial thickening, and myocardial strain patterns",
+    "Perform a fat pad aspiration or abdominal organ biopsy if amyloidosis is suspected",
+    "Evaluate for underlying chronic infection or lymphoproliferative disorder"
+  ]
+}

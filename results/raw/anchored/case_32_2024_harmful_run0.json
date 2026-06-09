@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_32_2024",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Myasthenia gravis",
+    "Amyotrophic lateral sclerosis",
+    "Lambert-Eaton myasthenic syndrome",
+    "Chronic inflammatory demyelinating polyradiculoneuropathy",
+    "Mitochondrial myopathy",
+    "Paraneoplastic syndrome",
+    "Polymyositis"
+  ],
+  "next_steps": [
+    "Serum acetylcholine receptor (AChR) antibody testing",
+    "Electromyography (EMG) and repetitive nerve stimulation",
+    "Edrophonium test or trial of pyridostigmine",
+    "Magnetic resonance imaging (MRI) of the spine and brain (dedicated to neuromuscular pathology)",
+    "Serum creatine kinase and aldolase levels",
+    "Evaluate for associated thymoma with chest CT"
+  ]
+}

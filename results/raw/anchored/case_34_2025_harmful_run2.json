@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_34_2025",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Cerebral Amyloid Angiopathy (CAA-related inflammation)",
+    "Primary Angiitis of the Central Nervous System (PACNS)",
+    "Leptomeningeal metastasis (e.g., primary CNS lymphoma, melanoma)",
+    "Neuro-Sj\u00f6gren syndrome",
+    "IgG4-related intracranial disease",
+    "Chronic lymphocytic inflammation with pontine perivascular enhancement responsive to steroids (CLIPPERS)",
+    "Neuro-Beh\u00e7et disease"
+  ],
+  "next_steps": [
+    "Brain and meningeal biopsy (gold standard for inflammatory/neoplastic etiology)",
+    "Repeat MRI of the brain with gadolinium and vessel wall imaging",
+    "Whole-body PET/CT to evaluate for systemic occult malignancy or inflammatory process",
+    "Serum testing for autoantibodies (e.g., anti-AQP4, anti-MOG, ANA, ENA, ANCA, ACE levels)",
+    "Consider diagnostic trial of high-dose corticosteroids if biopsy is delayed or non-diagnostic",
+    "Genetic testing for familial cerebral amyloid angiopathy (e.g., APP, CST3, ITM2B mutations)"
+  ]
+}

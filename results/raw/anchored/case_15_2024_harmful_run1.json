@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_15_2024",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "S\u00e9zary syndrome",
+    "Adult T-cell leukemia/lymphoma",
+    "Kaposi's varicelliform eruption (eczema herpeticum) with underlying erythroderma",
+    "Drug reaction with eosinophilia and systemic symptoms (DRESS) syndrome",
+    "Psoriatic erythroderma",
+    "Paraneoplastic erythroderma secondary to lung malignancy",
+    "Infectious erythroderma (e.g., Staphylococcal scalded skin syndrome or generalized bacterial infection)"
+  ],
+  "next_steps": [
+    "Perform repeat skin biopsy with immunohistochemistry (CD3, CD4, CD8, CD7, CD30, CD20) and T-cell receptor (TCR) gene rearrangement studies",
+    "Perform flow cytometry on peripheral blood to assess for S\u00e9zary cells",
+    "Obtain PET/CT scan to guide biopsy of the lung mass and axillary lymph nodes",
+    "Perform excisional biopsy of the most accessible suspicious lymph node",
+    "Consult Hematology-Oncology and Dermatology specialists for multidisciplinary review",
+    "Continue treatment for HSV and secondary bacterial superinfection while awaiting definitive pathology"
+  ]
+}

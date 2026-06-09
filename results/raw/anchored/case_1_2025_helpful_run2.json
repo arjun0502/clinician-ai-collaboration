@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_1_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Minimal change disease",
+    "Focal segmental glomerulosclerosis",
+    "Membranous nephropathy",
+    "Postpartum preeclampsia",
+    "Lupus nephritis",
+    "Renal vein thrombosis",
+    "IgA nephropathy"
+  ],
+  "next_steps": [
+    "Perform a percutaneous ultrasound-guided kidney biopsy for histological evaluation",
+    "Order serum protein electrophoresis and immunofixation to rule out paraproteinemia",
+    "Order autoimmune serologies including ANA, dsDNA, complement levels (C3, C4), and anti-PLA2R antibodies",
+    "Initiate 24-hour urine collection for total protein quantification",
+    "Initiate supportive therapy with ACE inhibitor or ARB for proteinuria and blood pressure control",
+    "Initiate venous thromboembolism prophylaxis given the nephrotic-range proteinuria and hypercoagulable state"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_2_2026",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Hypervirulent Klebsiella pneumoniae (hvKP) syndrome with metastatic infection",
+    "Disseminated Nocardiosis",
+    "Disseminated fungal infection (e.g., Histoplasmosis or Blastomycosis)",
+    "Disseminated malignancy (e.g., metastatic adenocarcinoma with paraneoplastic or septic sequelae)",
+    "Infective endocarditis with septic embolization",
+    "Melioidosis"
+  ],
+  "next_steps": [
+    "Perform immediate diagnostic vitrectomy and aqueous humor aspiration for culture and PCR",
+    "Obtain transesophageal echocardiography to rule out occult endocarditis",
+    "Blood and sputum cultures for aerobic, anaerobic, fungal, and mycobacterial organisms",
+    "Perform fine-needle aspiration or biopsy of the liver mass",
+    "Infectious disease and ophthalmology consultation for surgical evaluation of the right eye",
+    "Aggressive antimicrobial coverage with susceptibility testing, specifically for hvKP-related strains"
+  ]
+}

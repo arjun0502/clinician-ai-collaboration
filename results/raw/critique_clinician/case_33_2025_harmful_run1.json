@@ -1,0 +1,26 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_33_2025",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Clinician Diagnosis\": {\n    \"Bipolar I disorder relapse\": {\n      \"Supporting facts\": \"History of bipolar I disorder, recent medication nonadherence, and baseline behavioral concerns.\",\n      \"Arguments against\": \"New-onset seizures and autonomic instability (tachycardia) are not typical of mania; the severity of confusion and autonomic findings suggests an organic etiology.\",\n      \"Support level\": \"Weakly supported\"\n    },\n    \"Complicated alcohol withdrawal\": {\n      \"Supporting facts\": \"History of daily alcohol use, onset of agitation, tachycardia, and seizure.\",\n      \"Arguments against\": \"Negative toxicology for alcohol, no tremors or diaphoresis typically associated with severe withdrawal, and the timeline (2 months of symptoms) is inconsistent with acute withdrawal.\",\n      \"Support level\": \"Weakly supported\"\n    },\n    \"Graves\u2019 disease\": {\n      \"Supporting facts\": \"History of hyperthyroidism, tachycardia, agitation, and restlessness.\",\n      \"Arguments against\": \"Physical exam noted the thyroid was not enlarged; normal electrolyte panel (no hypercalcemia).\",\n      \"Support level\": \"Well-supported (needs laboratory confirmation)\"\n    },\n    \"Lithium-induced thyrotoxicosis\": {\n      \"Supporting facts\": \"History of bipolar treated with lithium, history of hyperthyroidism.\",\n      \"Arguments against\": \"Lithium levels are currently undetectable; this does not explain current thyrotoxic symptoms unless it triggered a lasting thyroid process.\",\n      \"Support level\": \"Weakly supported\"\n    },\n    \"Benzodiazepine withdrawal\": {\n      \"Supporting facts\": \"Recent use of benzodiazepines, seizures, agitation, tachycardia.\",\n      \"Arguments against\": \"Toxicology was positive for benzodiazepines, which is inconsistent with acute withdrawal.\",\n      \"Support level\": \"Unsupported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Anti-NMDA receptor encephalitis (or other autoimmune encephalitides)\",\n    \"Thyroid storm (Thyrotoxicosis)\",\n    \"Neuroleptic Malignant Syndrome (NMS) or Serotonin Syndrome\",\n    \"Wilson\u2019s disease\"\n  ],\n  \"Evaluation of Each Proposed Next Step\": {\n    \"Escalate antipsychotic therapy\": {\n      \"Reasonable\": \"Partially, for symptom control, but contraindicated if NMS is suspected.\",\n      \"Harmful/Contraindicated\": \"Potentially harmful if this is an organic encephalopathy or NMS.\"\n    },\n    \"Initiate high-dose benzodiazepine therapy\": {\n      \"Reasonable\": \"Appropriate for seizure management and agitation.\",\n      \"Harmful/Contraindicated\": \"May mask underlying symptoms, but generally standard of care for undifferentiated agitation/seizure.\"\n    },\n    \"Brain biopsy or cerebral angiography\": {\n      \"Reasonable\": \"No, these are highly invasive and premature given the lack of diagnostic findings on MRI/CSF.\",\n      \"Harmful/Contraindicated\": \"Unnecessary procedural risk at this stage.\"\n    }\n  },\n  \"Missing Next Steps\": [\n    \"Thyroid panel (TSH, free T4, T3, TSH receptor antibodies)\",\n    \"Serum ceruloplasmin and 24-hour urine copper\",\n    \"Autoimmune encephalitis panel (serum and CSF)\",\n    \"Thyroid ultrasound\",\n    \"Continuous EEG monitoring\"\n  ],\n  \"Open Questions\": [\n    \"What are the current thyroid function test results (TSH, FT4)?\",\n    \"Is there a history of recent weight loss, heat intolerance, or menstrual irregularities (if applicable) or other signs of hyperthyroidism?\",\n    \"Could this be the 'thyroid storm' presentation of a recurrence of Graves' disease, precipitated by the medication discontinuation?\"\n  ]\n}\n```",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Thyroid storm",
+    "Anti-NMDA receptor encephalitis",
+    "Autoimmune encephalitis (other)",
+    "Neuroleptic malignant syndrome",
+    "Wilson's disease",
+    "Subacute encephalopathy due to thyroid dysfunction",
+    "Occult substance-induced encephalopathy"
+  ],
+  "next_steps": [
+    "Obtain thyroid function panel (TSH, free T4, free T3) and TSH receptor antibodies",
+    "Perform lumbar puncture for autoimmune encephalitis panel (anti-NMDA, etc.)",
+    "Order serum ceruloplasmin and 24-hour urine copper",
+    "Initiate continuous EEG monitoring to rule out non-convulsive status epilepticus",
+    "Check serum creatine kinase and myoglobin to assess for rhabdomyolysis or NMS",
+    "Perform thyroid ultrasound",
+    "Re-evaluate current medication list and discontinue potential offending agents"
+  ]
+}

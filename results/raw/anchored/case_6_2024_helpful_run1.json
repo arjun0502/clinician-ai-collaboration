@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_6_2024",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Pernicious anemia",
+    "Paroxysmal nocturnal hemoglobinuria",
+    "Hemophagocytic lymphohistiocytosis",
+    "Myelodysplastic syndrome",
+    "Autoimmune hemolytic anemia (Cold agglutinin disease)",
+    "Acute leukemia",
+    "Vitamin B12 deficiency"
+  ],
+  "next_steps": [
+    "Serum vitamin B12, methylmalonic acid, and homocysteine levels",
+    "Serum haptoglobin, LDH, and reticulocyte count",
+    "Flow cytometry of peripheral blood for PNH clone (CD55, CD59)",
+    "Bone marrow aspiration and biopsy with cytogenetics and flow cytometry",
+    "Serum ferritin, soluble IL-2 receptor, and triglycerides to evaluate for HLH",
+    "Anti-intrinsic factor and anti-parietal cell antibodies",
+    "Cold agglutinin titer and cryoglobulin testing"
+  ]
+}

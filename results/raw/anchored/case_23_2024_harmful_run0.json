@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_23_2024",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Limbic encephalitis (paraneoplastic)",
+    "Autoimmune encephalitis (e.g., anti-LGI1 or anti-GABA-B)",
+    "Cerebral amyloid angiopathy-related inflammation (CAA-ri)",
+    "Creutzfeldt-Jakob disease",
+    "Primary angiitis of the central nervous system (PACNS)",
+    "Neurosyphilis",
+    "Viral encephalitis (non-HSV)"
+  ],
+  "next_steps": [
+    "Send CSF for autoimmune encephalitis panel including LGI1, CASPR2, and GABA-B receptor antibodies",
+    "Send serum for paraneoplastic antibody panel",
+    "Perform whole-body PET/CT scan to screen for occult malignancy",
+    "Obtain MRI of the brain with specialized sequences for gadolinium enhancement or vessel wall imaging",
+    "Consider empiric treatment with high-dose intravenous corticosteroids after ruling out active infection",
+    "Complete formal cognitive testing and neuropsychological evaluation"
+  ]
+}

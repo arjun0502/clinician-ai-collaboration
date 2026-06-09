@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_25_2025",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Severe symptomatic aortic stenosis",
+    "Iron deficiency anemia (occult gastrointestinal blood loss)",
+    "Heart failure with preserved ejection fraction (HFpEF)",
+    "Coronary artery disease",
+    "Chronotropic incompetence",
+    "Pulmonary hypertension"
+  ],
+  "next_steps": [
+    "Complete blood count with ferritin and iron studies",
+    "Transthoracic echocardiography to assess current valve gradients and LV function",
+    "B-type natriuretic peptide (BNP) testing",
+    "Cardiac catheterization for coronary anatomy evaluation",
+    "Fecal immunochemical test or colonoscopy for anemia workup",
+    "Referral for Transcatheter Aortic Valve Replacement (TAVR) evaluation"
+  ]
+}

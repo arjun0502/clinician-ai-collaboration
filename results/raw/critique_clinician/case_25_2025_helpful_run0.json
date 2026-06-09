@@ -1,0 +1,26 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_25_2025",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": "{\n  \"Evaluation of Each Clinician Diagnosis\": {\n    \"Coronary ischemia\": {\n      \"Supporting facts\": \"Age, diabetes, CKD, and known calcified coronary disease increase pretest probability.\",\n      \"Arguments against\": \"Lack of typical angina, palpitations, or ECG changes.\",\n      \"Assessment\": \"Weakly supported\"\n    },\n    \"Anemia\": {\n      \"Supporting facts\": \"Dyspnea is a primary symptom; advanced age and use of aspirin increase risk of occult GI bleeding.\",\n      \"Arguments against\": \"No pallor on exam.\",\n      \"Assessment\": \"Well-supported\"\n    },\n    \"Aortic stenosis\": {\n      \"Supporting facts\": \"Known history, progression of valve area to 0.9 cm2 (severe) 15 months ago, and grade 4/6 systolic murmur.\",\n      \"Arguments against\": \"None; the progression to symptomatic severe aortic stenosis is the most likely diagnosis.\",\n      \"Assessment\": \"Well-supported\"\n    },\n    \"Atrial arrhythmia\": {\n      \"Supporting facts\": \"History of AF/Aflutter; on beta-blockers/anticoagulation.\",\n      \"Arguments against\": \"ECG shows sinus rhythm.\",\n      \"Assessment\": \"Weakly supported\"\n    },\n    \"Sick sinus syndrome with chronotropic incompetence\": {\n      \"Supporting facts\": \"Age; heart rate 61 bpm despite exertion (dyspnea).\",\n      \"Arguments against\": \"None.\",\n      \"Assessment\": \"Weakly supported\"\n    },\n    \"Heart failure\": {\n      \"Supporting facts\": \"Dyspnea, known severe AS.\",\n      \"Arguments against\": \"No peripheral edema, jugular venous distention, or orthopnea.\",\n      \"Assessment\": \"Well-supported\"\n    },\n    \"Interstitial Lung Disease\": {\n      \"Supporting facts\": \"Long history of GPA; pleuroparenchymal scarring on imaging.\",\n      \"Arguments against\": \"Lungs are clear on auscultation; chronic stable findings on imaging.\",\n      \"Assessment\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Severe symptomatic aortic stenosis (High-gradient vs. Low-flow, low-gradient)\",\n    \"Occult gastrointestinal malignancy (given age and lack of recent screening)\",\n    \"Hyperthyroidism (due to excessive levothyroxine dose or thyroiditis fluctuation)\",\n    \"Pulmonary embolism\"\n  ],\n  \"Evaluation of Each Proposed Next Step\": {\n    \"Transfused 1 unit of packed red blood cells\": {\n      \"Is reasonable\": \"Not reasonable without confirmed anemia (Hgb not provided in vignette).\",\n      \"Is harmful/contraindicated\": \"Potentially harmful if cause of anemia is not identified; risks fluid overload in a patient with potential heart failure.\"\n    },\n    \"Repeat transthoracic echocardiography\": {\n      \"Is reasonable\": \"Highly reasonable to assess for progression to severe AS and hemodynamics.\",\n      \"Is harmful/contraindicated\": \"No.\"\n    },\n    \"Obtain a complete blood count\": {\n      \"Is reasonable\": \"Essential first step.\",\n      \"Is harmful/contraindicated\": \"No.\"\n    },\n    \"Checked iron and ferritin, and reticulocyte indices\": {\n      \"Is reasonable\": \"Appropriate for evaluating the etiology of potential anemia.\",\n      \"Is harmful/contraindicated\": \"No.\"\n    }\n  },\n  \"Missing Next Steps\": [\n    \"B-type natriuretic peptide (BNP) measurement\",\n    \"Cardiac catheterization for hemodynamic assessment or coronary evaluation if TAVR is considered\",\n    \"Fecal immunochemical test (FIT) or referral for repeat colonoscopy\",\n    \"Thyroid-stimulating hormone (TSH) level\",\n    \"Exercise stress testing or 6-minute walk test to correlate symptoms with physiologic impairment\"\n  ],\n  \"Open Questions\": [\n    \"What is the current hemoglobin level?\",\n    \"What are the current TSH levels?\",\n    \"Does the patient have exertional desaturation?\",\n    \"What are the results of the BNP measurement?\"\n  ]\n}",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Severe symptomatic aortic stenosis",
+    "Anemia (secondary to occult gastrointestinal blood loss)",
+    "Heart failure with preserved ejection fraction (HFpEF)",
+    "Sick sinus syndrome (chronotropic incompetence)",
+    "Coronary artery disease",
+    "Thyroid dysfunction (i.e., levothyroxine-induced hyperthyroidism)",
+    "Pulmonary embolism"
+  ],
+  "next_steps": [
+    "Obtain complete blood count (CBC) to assess for anemia",
+    "Repeat transthoracic echocardiogram to evaluate current aortic valve hemodynamics and cardiac function",
+    "Check serum B-type natriuretic peptide (BNP) or NT-proBNP levels",
+    "Check thyroid-stimulating hormone (TSH) level",
+    "Obtain iron studies, ferritin, and reticulocyte count to evaluate potential anemia",
+    "Perform fecal immunochemical test (FIT) or evaluate for GI blood loss if anemia is confirmed",
+    "Consider 6-minute walk test to assess functional capacity and correlate with symptoms"
+  ]
+}

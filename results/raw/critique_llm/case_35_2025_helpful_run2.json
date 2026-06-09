@@ -1,0 +1,46 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_35_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Henoch-Sch\u00f6nlein purpura (IgA vasculitis)\": {\n      \"Supporting Facts\": \"Palpable purpura on lower extremities/buttocks, age of patient, edema of hands/feet.\",\n      \"Arguments Against\": \"Lack of abdominal pain or joint involvement (though initial), non-blanching nature is typical but timing is aggressive.\",\n      \"Support Level\": \"Well-supported\"\n    },\n    \"Kawasaki disease\": {\n      \"Supporting Facts\": \"Fever > 5 days (total), injected conjunctivae, oropharyngeal changes (palatal macules), cervical lymphadenopathy, edema of hands/feet.\",\n      \"Arguments Against\": \"Rash morphology (purpuric/non-blanching) is atypical for classic KD; usually macular or morbilliform.\",\n      \"Support Level\": \"Well-supported\"\n    },\n    \"Rocky Mountain spotted fever\": {\n      \"Supporting Facts\": \"Summer season, outdoor activities, fever, rash starting on extremities/feet, non-blanching petechial nature.\",\n      \"Arguments Against\": \"Classic progression is usually wrists/ankles to trunk (though here it spread to arms); lacks severe thrombocytopenia or systemic shock noted on labs (though initial labs were normal).\",\n      \"Support Level\": \"Well-supported\"\n    },\n    \"Meningococcemia\": {\n      \"Supporting Facts\": \"Acute onset of non-blanching purpuric rash, fever, high clinical acuity.\",\n      \"Arguments Against\": \"Patient has remained relatively stable over 3 days of symptom progression; lack of fulminant shock.\",\n      \"Support Level\": \"Weakly supported (but high urgency)\"\n    },\n    \"Multisystem inflammatory syndrome in children (MIS-C)\": {\n      \"Supporting Facts\": \"Fever, rash, conjunctivitis, mucous membrane involvement, systemic inflammation.\",\n      \"Arguments Against\": \"Lack of clear temporal link to COVID-19 or classic gastrointestinal/cardiac collapse initially.\",\n      \"Support Level\": \"Weakly supported\"\n    },\n    \"Viral exanthem\": {\n      \"Supporting Facts\": \"Common in pediatric age group, fever, conjunctivitis, lymphadenopathy.\",\n      \"Arguments Against\": \"Non-blanching purpuric nature suggests vasculitis or coagulopathy rather than simple viral exanthem.\",\n      \"Support Level\": \"Weakly supported\"\n    },\n    \"Leukocytoclastic vasculitis (LCV)\": {\n      \"Supporting Facts\": \"Fits the histology of the lesions described.\",\n      \"Arguments Against\": \"Too broad; LCV is a finding, not a primary etiology.\",\n      \"Support Level\": \"Unsupported (as a primary diagnosis)\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Parvovirus B19 (can present with purpuric gloves-and-socks syndrome)\",\n    \"Acute Hemorrhagic Edema of Infancy (AHEI) - though patient is 5, making it less likely than IgA vasculitis\"\n  ],\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Urinalysis\": \"Highly reasonable; essential to screen for renal involvement in IgA vasculitis.\",\n    \"CBC/CRP/ESR\": \"Essential for assessing severity of inflammation and screening for hematologic malignancy or infection.\",\n    \"Echocardiogram\": \"Necessary to rule out cardiac sequelae associated with KD or MIS-C.\",\n    \"Skin biopsy\": \"Very high yield to distinguish between vasculitis, rickettsial infection, or other dermatologic pathology.\",\n    \"Blood cultures/Antibiotics\": \"Necessary given the risk of meningococcemia and RMSF; not harmful given the clinical appearance.\",\n    \"Consultations\": \"Appropriate for multidisciplinary management.\"\n  },\n  \"Missing Next Steps\": [\n    \"Serum creatinine and BUN (though previous labs were normal, re-evaluation is necessary).\",\n    \"Serologic testing for Rickettsia rickettsii (given New England outdoor history).\",\n    \"Strep A rapid test/culture (scarlet fever can mimic these symptoms).\"\n  ],\n  \"Influence of Clinician Input\": {\n    \"Analysis\": \"The clinician's assessment provided a strong framework that mirrored standard diagnostic protocols for pediatric fever/rash. I adopted the 'Echocardiogram' and 'Biopsy' suggestions almost entirely because they are standard of care for these presentations. I was likely influenced to include MIS-C and Kawasaki due to the inclusion of those in the provided context.\"\n  },\n  \"Open Questions\": [\n    \"What are the current inflammatory markers (CRP/ESR)?\",\n    \"Is there documented proteinuria or hematuria on current urinalysis?\",\n    \"Does the patient have thrombocytopenia or leukocytosis?\",\n    \"What is the specific morphology of the ear rash (is it targetoid)?\"\n  ]\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Henoch-Sch\u00f6nlein purpura (IgA vasculitis)",
+      "Kawasaki disease",
+      "Rocky Mountain spotted fever",
+      "Meningococcemia",
+      "Multisystem inflammatory syndrome in children (MIS-C)",
+      "Viral exanthem (e.g., enteroviral or adenovirus infection)",
+      "Leukocytoclastic vasculitis secondary to other etiology"
+    ],
+    "next_steps": [
+      "Urinalysis to assess for hematuria or proteinuria",
+      "Complete blood count with differential and inflammatory markers (CRP, ESR)",
+      "Echocardiogram to evaluate for coronary artery abnormalities",
+      "Skin biopsy for histology and direct immunofluorescence (DIF)",
+      "Blood cultures and empiric intravenous antibiotics",
+      "Dermatology and Rheumatology consultations"
+    ]
+  },
+  "differential_diagnoses": [
+    "IgA vasculitis",
+    "Kawasaki disease",
+    "Rocky Mountain spotted fever",
+    "Meningococcemia",
+    "Acute hemorrhagic edema of infancy (AHEI)",
+    "Multisystem inflammatory syndrome in children (MIS-C)",
+    "Parvovirus B19 infection"
+  ],
+  "next_steps": [
+    "Complete blood count with differential and platelet count",
+    "Comprehensive metabolic panel including serum creatinine, BUN, and liver enzymes",
+    "Inflammatory markers (CRP and ESR)",
+    "Urinalysis to evaluate for hematuria and proteinuria",
+    "Blood cultures and empiric intravenous antibiotics",
+    "Echocardiogram",
+    "Skin biopsy for H&E and direct immunofluorescence (DIF)",
+    "Serologic testing for Rickettsia rickettsii",
+    "Dermatology and Rheumatology consultations"
+  ]
+}

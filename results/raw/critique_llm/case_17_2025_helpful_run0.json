@@ -1,0 +1,46 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_17_2025",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Strongyloides stercoralis hyperinfection syndrome\": {\n      \"Supports\": \"Recent corticosteroid use, transplant immunosuppression, abdominal distention/ileus, purpuric rash, respiratory failure.\",\n      \"Against\": \"None.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Disseminated histoplasmosis\": {\n      \"Supports\": \"Transplant immunosuppression, interstitial lung opacities, lymphadenopathy, fever, multisystem involvement.\",\n      \"Against\": \"Patient lives in New England (though 18 months in the South years ago makes remote exposure possible).\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Cytomegalovirus pneumonitis\": {\n      \"Supports\": \"High-risk transplant patient on immunosuppression.\",\n      \"Against\": \"CMV DNA viral load was reported as undetectable.\",\n      \"Status\": \"Unsupported (due to negative testing)\"\n    },\n    \"Pneumocystis jirovecii pneumonia\": {\n      \"Supports\": \"Transplant patient on prednisone, symptoms of cough and hypoxemia.\",\n      \"Against\": \"Pneumocystis antigen was not detected in tracheal aspirate.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Capnocytophaga canimorsus sepsis\": {\n      \"Supports\": \"History of cat scratch, splenectomy-like immunodeficient state (transplant recipient), purpuric rash (purpura fulminans).\",\n      \"Against\": \"None.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Tuberculosis (disseminated)\": {\n      \"Supports\": \"Transplant patient, lymphadenopathy, interstitial opacities.\",\n      \"Against\": \"No known exposures or travel to high-incidence regions.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Drug-induced pneumonitis\": {\n      \"Supports\": \"History of tacrolimus/mycophenolate use.\",\n      \"Against\": \"Acute/fulminant course with systemic shock and purpuric rash is less consistent with typical drug pneumonitis.\",\n      \"Status\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Blastomycosis (often presents with pulmonary opacities and lymphadenopathy in transplant recipients)\",\n    \"Bartonella henselae (Cat Scratch Disease - disseminated)\",\n    \"Fungal infection related to cat contact (though less likely than bacterial)\"\n  ],\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Microscopic examination of stool/tracheal aspirate for Strongyloides\": {\n      \"Reasonable\": \"Highly reasonable, definitive diagnostic test.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"Skin biopsy of purpuric lesions\": {\n      \"Reasonable\": \"Crucial for ruling out vasculitis vs. infectious emboli.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"Serum Strongyloides serology\": {\n      \"Reasonable\": \"Helpful, though sensitivity is reduced in immunocompromised states.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"Bronchoalveolar lavage with cultures\": {\n      \"Reasonable\": \"Standard of care for undifferentiated respiratory failure in transplant patients.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"Empiric initiation of ivermectin\": {\n      \"Reasonable\": \"Highly recommended given high mortality and strong clinical suspicion.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"Urine Histoplasma antigen testing\": {\n      \"Reasonable\": \"Reasonable screening given clinical syndrome.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"Review of tacrolimus trough levels\": {\n      \"Reasonable\": \"Standard to assess for drug toxicity or under-immunosuppression.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    }\n  },\n  \"Missing Next Steps\": [\n    \"Blood cultures for slow-growing/fastidious organisms (specifically Capnocytophaga), which require extended incubation\",\n    \"Peripheral blood smear to evaluate for schistocytes or other markers of microangiopathic process\",\n    \"Abdominal imaging (CT with contrast) to further evaluate the ileus and rule out intra-abdominal abscess or graft-related complications\"\n  ],\n  \"Influence of Clinician Input\": {\n    \"Analysis\": \"The clinician's assessment heavily influenced the inclusion of Capnocytophaga, which I adopted. I incorporated Strongyloides and disseminated infection as higher priorities due to the clinical picture of a transplant recipient with severe shock, ileus, and purpura. I likely under-emphasized the 'cat scratch' connection in my initial differential by categorizing it only as Capnocytophaga, when it could represent a broader spectrum of cat-associated zoonoses.\"\n  },\n  \"Open Questions\": [\n    \"What were the results of the initial blood cultures? (Specifically, did the laboratory hold them for 'fastidious organisms'?)\",\n    \"Did the patient have an eosinophilia during his earlier post-transplant visits?\",\n    \"Were there any specific skin biopsy findings yet, and what was the result of the methylene blue therapy?\"\n  ]\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Strongyloides stercoralis hyperinfection syndrome",
+      "Disseminated histoplasmosis",
+      "Cytomegalovirus pneumonitis",
+      "Pneumocystis jirovecii pneumonia",
+      "Capnocytophaga canimorsus sepsis",
+      "Tuberculosis (disseminated)",
+      "Drug-induced pneumonitis"
+    ],
+    "next_steps": [
+      "Microscopic examination of stool and tracheal aspirate for Strongyloides larvae",
+      "Skin biopsy of purpuric lesions for histology and tissue culture",
+      "Serum Strongyloides serology",
+      "Bronchoalveolar lavage with fungal and mycobacterial cultures",
+      "Empiric initiation of ivermectin",
+      "Urine Histoplasma antigen testing",
+      "Review of tacrolimus trough levels"
+    ]
+  },
+  "differential_diagnoses": [
+    "Strongyloides stercoralis hyperinfection syndrome",
+    "Capnocytophaga canimorsus sepsis",
+    "Disseminated Bartonella henselae infection",
+    "Pneumocystis jirovecii pneumonia",
+    "Disseminated histoplasmosis",
+    "Cytomegalovirus pneumonitis",
+    "Drug-induced pneumonitis"
+  ],
+  "next_steps": [
+    "Perform bronchoalveolar lavage with fungal, mycobacterial, and bacterial cultures, including specialized stains for Strongyloides larvae",
+    "Perform punch biopsy of purpuric skin lesions for histopathology and tissue cultures",
+    "Initiate empiric ivermectin for potential Strongyloides hyperinfection",
+    "Extend incubation time for blood cultures to optimize detection of fastidious organisms like Capnocytophaga",
+    "Check serum Strongyloides IgG serology",
+    "Perform stool examination for ova and parasites",
+    "Send serum and urine for fungal antigen testing (Histoplasma, Blastomyces, Aspergillus, Cryptococcus)",
+    "Review serial peripheral blood counts for eosinophilia and perform a peripheral smear to rule out microangiopathic hemolysis"
+  ]
+}

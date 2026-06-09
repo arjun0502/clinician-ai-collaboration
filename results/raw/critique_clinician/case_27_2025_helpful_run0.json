@@ -1,0 +1,24 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_27_2025",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Clinician Diagnosis\": {\n    \"Chagas\u2019 disease\": {\n      \"Supporting facts\": \"Patient from Central America; apical aneurysm; apical dyskinesis; midwall and transmural fibrosis on CMR; embolic stroke; conduction abnormalities (intraventricular conduction delay).\",\n      \"Arguments against\": \"None.\",\n      \"Support level\": \"Well-supported\"\n    },\n    \"Remote myocarditis\": {\n      \"Supporting facts\": \"Pattern of late gadolinium enhancement (LGE) can mimic inflammatory processes.\",\n      \"Arguments against\": \"The specific pattern of apical involvement with an aneurysm is classic for Chagas rather than nonspecific viral myocarditis.\",\n      \"Support level\": \"Weakly supported\"\n    },\n    \"Takotsubo cardiomyopathy\": {\n      \"Supporting facts\": \"Apical ballooning/dysfunction.\",\n      \"Arguments against\": \"Chronicity (5.5 months), presence of significant fibrosis on CMR, and the embolic event are atypical for transient stress cardiomyopathy.\",\n      \"Support level\": \"Unsupported\"\n    },\n    \"Familial/genetic dilated cardiomyopathy\": {\n      \"Supporting facts\": \"Reduced EF, left ventricular remodeling.\",\n      \"Arguments against\": \"The specific localization of the aneurysm to the apex is highly characteristic of Chagas, which has a specific geographic etiology.\",\n      \"Support level\": \"Weakly supported\"\n    },\n    \"Coronary embolism\": {\n      \"Supporting facts\": \"History of stroke, apical dysfunction, spontaneous echo contrast (potential thrombus formation).\",\n      \"Arguments against\": \"This is a mechanism of the stroke, not the primary etiology of the underlying cardiomyopathy.\",\n      \"Support level\": \"Weakly supported\"\n    },\n    \"Ischemic Cardiomyopathy\": {\n      \"Supporting facts\": \"Apical thinning and dysfunction.\",\n      \"Arguments against\": \"Normal coronary CT angiography makes obstructive epicardial coronary artery disease unlikely.\",\n      \"Support level\": \"Unsupported\"\n    },\n    \"Alcohol-Associated Dilated Cardiomyopathy\": {\n      \"Supporting facts\": \"History of heavy alcohol consumption.\",\n      \"Arguments against\": \"Typically manifests as global, not focal apical, dysfunction; lack of apical aneurysm formation typically associated with alcohol-induced damage.\",\n      \"Support level\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Cardiac sarcoidosis (less likely given apical distribution but possible)\",\n    \"Left ventricular noncompaction (often confused with apical pathology)\"\n  ],\n  \"Evaluation of Each Proposed Next Step\": {\n    \"Referral for Implantable Cardioverter-Defibrillator (ICD) Evaluation\": \"Reasonable; indicated for secondary prevention of SCD given reduced EF and nonsustained VT.\",\n    \"Continued Anticoagulation Therapy\": \"Reasonable; essential due to the apical aneurysm and history of embolic stroke.\",\n    \"Cardiac Magnetic Resonance Imaging\": \"Reasonable; already performed and provided high-value diagnostic data.\",\n    \"Genetic Testing for Dilated Cardiomyopathy and Left Ventricular Noncompaction\": \"Reasonable, though Chagas testing is a higher priority.\"\n  },\n  \"Missing Next Steps\": [\n    \"Serologic testing for Trypanosoma cruzi (crucial)\",\n    \"Holter monitoring to further assess arrhythmia burden\",\n    \"Family screening for Chagas disease if positive\"\n  ],\n  \"Open Questions\": [\n    \"What is the result of the T. cruzi serology?\",\n    \"Are there specific ECG changes (e.g., right bundle branch block + left anterior fascicular block) typically seen in Chagas?\",\n    \"Is there evidence of gastrointestinal Chagas (e.g., megacolon or megaesophagus)?\"\n  ]\n}\n```",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Chagas cardiomyopathy",
+    "Dilated cardiomyopathy of unknown etiology",
+    "Cardiac sarcoidosis",
+    "Arrhythmogenic cardiomyopathy",
+    "Alcohol-associated cardiomyopathy",
+    "Remote viral myocarditis"
+  ],
+  "next_steps": [
+    "Perform serologic testing for Trypanosoma cruzi IgG",
+    "Obtain ambulatory ECG (Holter monitor) to quantify ventricular arrhythmia burden",
+    "Perform genetic testing for cardiomyopathy panels (specifically looking for genes associated with LVNC or conduction system disease)",
+    "Consult with infectious disease specialist regarding Chagas management",
+    "Proceed with ICD implantation for secondary prevention",
+    "Screen patient's family for potential T. cruzi exposure if serology is positive"
+  ]
+}

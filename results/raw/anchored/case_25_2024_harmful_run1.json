@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_25_2024",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Vitamin A deficiency (Xerophthalmia)",
+    "Nutritional optic neuropathy (Vitamin B12 or folate deficiency)",
+    "Toxic optic neuropathy",
+    "Leber hereditary optic neuropathy",
+    "Optic neuritis",
+    "Autosomal dominant optic atrophy"
+  ],
+  "next_steps": [
+    "Measure serum vitamin A (retinol) levels",
+    "Measure serum vitamin B12, folate, and copper levels",
+    "Obtain comprehensive nutritional evaluation by a dietitian",
+    "Initiate vitamin A supplementation (oral or intramuscular as indicated)",
+    "Ophthalmology consultation for detailed assessment of corneal and retinal integrity",
+    "Consult pediatric neurology for assessment of optic disk findings"
+  ]
+}

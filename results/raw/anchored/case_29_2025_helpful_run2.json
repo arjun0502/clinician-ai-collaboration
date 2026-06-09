@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_29_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Pneumocystis jirovecii pneumonia",
+    "Disseminated histoplasmosis",
+    "Disseminated tuberculosis",
+    "Disseminated cryptococcosis",
+    "Kaposi sarcoma (pulmonary involvement)",
+    "Cytomegalovirus pneumonitis",
+    "Nontuberculous mycobacterial infection"
+  ],
+  "next_steps": [
+    "Bronchoscopy with bronchoalveolar lavage (BAL) for microbiology, fungal staining, AFB smear/culture, and PCP PCR",
+    "Serum cryptococcal antigen and histoplasma antigen testing",
+    "Blood cultures and mycobacterial blood cultures",
+    "Initiation of intravenous corticosteroids as an adjunct if Pneumocystis jirovecii pneumonia is strongly suspected",
+    "High-resolution chest CT",
+    "Lumbar puncture if mental status change persists or if cryptococcal antigen is positive",
+    "Optimize hemodynamics with fluids and consider vasopressors if refractory shock persists"
+  ]
+}

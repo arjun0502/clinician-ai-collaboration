@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_29_2025",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Pneumocystis jirovecii pneumonia",
+    "Disseminated histoplasmosis",
+    "Disseminated Mycobacterium tuberculosis",
+    "Cryptococcosis",
+    "Cytomegalovirus pneumonitis",
+    "Miliary pattern of metastatic malignancy",
+    "Kaposi sarcoma of the lung"
+  ],
+  "next_steps": [
+    "Perform bronchoscopy with bronchoalveolar lavage (BAL) for fungal, mycobacterial, and viral stains and cultures",
+    "Serum (1,3)-beta-D-glucan assay",
+    "Serum cryptococcal antigen and histoplasma antigen testing",
+    "Initiate empiric high-dose trimethoprim-sulfamethoxazole and corticosteroids for suspected Pneumocystis",
+    "Urgent HIV resistance testing and coordination for antiretroviral therapy initiation once stabilized",
+    "Computed tomography (CT) of the chest with contrast to better define pulmonary micronodules",
+    "Serial monitoring of blood pressure and oxygenation in an intensive care setting"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_36_2025",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Portal hypertensive gastropathy or jejunal varices due to portal vein stenosis",
+    "Hemobilia secondary to pseudoaneurysm from prior biliary surgery",
+    "Portal biliopathy with associated ectopic varices",
+    "Chronic portal vein thrombosis with cavernous transformation",
+    "Cholangiocarcinoma",
+    "Arteriovenous fistula (hepatic)",
+    "Dieulafoy's lesion (missed on previous endoscopy)"
+  ],
+  "next_steps": [
+    "Interventional radiology consultation for diagnostic mesenteric and portal venography",
+    "Selective hepatic artery angiography to rule out hepatic artery pseudoaneurysm or arteriovenous fistula",
+    "Balloon-assisted enteroscopy to visualize the biliary-enteric anastomosis site",
+    "Liver biopsy to assess for underlying hepatic vascular or parenchymal changes",
+    "Consultation with hepatobiliary surgery regarding the hepaticojejunostomy status"
+  ]
+}

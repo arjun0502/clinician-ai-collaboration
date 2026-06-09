@@ -1,0 +1,42 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_14_2025",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Embryonal rhabdomyosarcoma\": {\n      \"Supporting\": \"Rapid progression, persistent bleeding, friable/necrotic tissue, and appearance of a mass in a young adult.\",\n      \"Against\": \"Age (peak incidence is in childhood/adolescence), though possible in young adults.\",\n      \"Support\": \"Well-supported\"\n    },\n    \"Lymphoma (e.g., Diffuse Large B-cell lymphoma)\": {\n      \"Supporting\": \"Rapid onset of oropharyngeal swelling, persistence despite antibiotics.\",\n      \"Against\": \"Usually presents as a mass rather than a 'fluctuant' lesion that yields sanguineous fluid; bleeding is less common as a primary presentation.\",\n      \"Support\": \"Weakly supported\"\n    },\n    \"Pleomorphic adenoma\": {\n      \"Supporting\": \"Peritonsillar location.\",\n      \"Against\": \"Usually slow-growing, indolent, and non-hemorrhagic; the clinical course here is highly aggressive/symptomatic.\",\n      \"Support\": \"Unsupported\"\n    },\n    \"Granulomatosis with polyangiitis\": {\n      \"Supporting\": \"Necrotic tissue, ulceration.\",\n      \"Against\": \"Lack of systemic involvement (lungs/kidneys), no mention of sinus disease, and the lesion behaves more like a solid neoplasm.\",\n      \"Support\": \"Weakly supported\"\n    },\n    \"Metastatic carcinoma (e.g., HPV-positive oropharyngeal squamous cell carcinoma)\": {\n      \"Supporting\": \"Oropharyngeal site.\",\n      \"Against\": \"Young age of patient, no evidence of primary site, unusual hemorrhagic presentation.\",\n      \"Support\": \"Weakly supported\"\n    },\n    \"Vascular malformation\": {\n      \"Supporting\": \"Hemorrhagic nature, fluctuance.\",\n      \"Against\": \"Lack of response to initial incision/drainage, progression over 7 weeks.\",\n      \"Support\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": {\n    \"Diagnoses\": [\n      \"Extramedullary hematopoiesis\",\n      \"Vascular neoplasm (e.g., Angiosarcoma)\",\n      \"Kaposi sarcoma\"\n    ]\n  },\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Secure airway\": \"Reasonable; the patient has had significant oropharyngeal bleeding and manipulation.\",\n    \"Excisional biopsy\": \"Reasonable, but necessitates caution due to high risk of hemorrhage.\",\n    \"Histopathological examination\": \"Essential for diagnosis.\",\n    \"Molecular testing\": \"Essential for confirming rhabdomyosarcoma and subtype classification.\",\n    \"Contrast-enhanced MRI\": \"Reasonable for delineating vascular flow and soft tissue extension.\",\n    \"Staging PET-CT\": \"Reasonable for systemic evaluation.\"\n  },\n  \"Missing Next Steps\": {\n    \"Steps\": [\n      \"Pre-biopsy vascular imaging (e.g., MRA/CTA or formal angiogram) to rule out a pseudoaneurysm or high-flow vascular malformation, which would make biopsy high-risk.\",\n      \"Otolaryngology/Interventional Radiology consultation for embolization readiness.\"\n    ]\n  },\n  \"Influence of Clinician Input\": {\n    \"Assessment\": \"The clinician's focus on rhabdomyosarcoma strongly influenced the inclusion of specific immunohistochemical and molecular markers. I adopted the high-risk management strategy uncritically without fully emphasizing the need to rule out a vascular lesion (like a pseudoaneurysm resulting from previous failed procedures) before aggressive biopsy.\"\n  },\n  \"Open Questions\": {\n    \"Questions\": [\n      \"Was the 'sanguineous fluid' sent for cytology or microbiology during previous procedures?\",\n      \"Is there a history of trauma, coagulopathy, or vascular abnormalities?\",\n      \"Why was there no mention of a primary lesion on the tonsil itself?\"\n    ]\n  }\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Embryonal rhabdomyosarcoma",
+      "Lymphoma (e.g., Diffuse Large B-cell lymphoma)",
+      "Pleomorphic adenoma",
+      "Granulomatosis with polyangiitis",
+      "Metastatic carcinoma (e.g., HPV-positive oropharyngeal squamous cell carcinoma)",
+      "Vascular malformation"
+    ],
+    "next_steps": [
+      "Secure the airway due to potential for rapid expansion or hemorrhage",
+      "Excisional biopsy under general anesthesia with readiness for significant hemorrhage management",
+      "Histopathological examination with immunohistochemistry (Desmin, MyoD1, myogenin, pan-CK, CD20, CD3)",
+      "Molecular testing including FISH for FOXO1 translocation and NGS for rhabdomyosarcoma-associated mutations",
+      "Contrast-enhanced MRI of the head and neck for better soft-tissue characterization",
+      "Staging PET-CT to evaluate for systemic disease or distant involvement"
+    ]
+  },
+  "differential_diagnoses": [
+    "Embryonal rhabdomyosarcoma",
+    "Pseudoaneurysm of the internal carotid or ascending pharyngeal artery",
+    "Vascular neoplasm (e.g., Angiosarcoma or Kaposi sarcoma)",
+    "Extranodal NK/T-cell lymphoma, nasal type",
+    "Metastatic oropharyngeal squamous cell carcinoma",
+    "Pleomorphic adenoma of minor salivary gland with secondary hemorrhage",
+    "Granulomatosis with polyangiitis"
+  ],
+  "next_steps": [
+    "Computed tomography angiography (CTA) or magnetic resonance angiography (MRA) of the neck to definitively rule out a vascular lesion or pseudoaneurysm before any further biopsy",
+    "Interventional radiology consultation for potential pre-biopsy embolization if a vascular pathology is identified",
+    "Excisional biopsy under general anesthesia with airway protection and preparation for massive hemorrhage",
+    "Histopathological evaluation with immunohistochemistry (Desmin, MyoD1, myogenin, CD20, CD3, pan-cytokeratin, HHV-8)",
+    "Molecular testing including FISH for FOXO1 translocation and NGS for rhabdomyosarcoma-associated mutations",
+    "Staging PET-CT to evaluate for systemic disease involvement"
+  ]
+}

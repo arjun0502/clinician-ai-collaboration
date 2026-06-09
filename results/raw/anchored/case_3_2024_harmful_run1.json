@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_3_2024",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Infant botulism",
+    "Spinal muscular atrophy type 1",
+    "Guillain\u2013Barr\u00e9 syndrome",
+    "Congenital myasthenia gravis",
+    "Mitochondrial disease",
+    "Metabolic myopathy",
+    "Acute disseminated encephalomyelitis"
+  ],
+  "next_steps": [
+    "Send stool or serum samples for Clostridium botulinum toxin assay",
+    "Perform repetitive nerve stimulation and electromyography",
+    "Consider administration of Botulism Immune Globulin Intravenous (BIG-IV)",
+    "Consult pediatric neurology and metabolic genetics",
+    "Monitor for autonomic instability and worsening respiratory failure",
+    "Obtain serum creatine kinase and acylcarnitine profile",
+    "Review history for exposure to honey or dust sources"
+  ]
+}

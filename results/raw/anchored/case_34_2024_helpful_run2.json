@@ -1,0 +1,27 @@
+{
+  "condition": "anchored",
+  "case_id": "case_34_2024",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Scar-related reentrant ventricular tachycardia",
+    "Digitalis toxicity",
+    "Atrial flutter with 2:1 AV conduction",
+    "Amiodarone-induced thyrotoxicosis",
+    "Decompensated heart failure",
+    "Acute coronary syndrome",
+    "Prosthetic mitral valve thrombosis or dysfunction",
+    "Pulmonary embolism"
+  ],
+  "next_steps": [
+    "Immediate transfer to the emergency department for cardiac monitoring and resuscitation",
+    "Perform 12-lead electrocardiogram (ECG) to confirm rhythm",
+    "Urgent ICD interrogation to assess for VT/VF and stored electrograms",
+    "Obtain point-of-care cardiac ultrasound to evaluate ventricular function and prosthetic valve status",
+    "Stat laboratory evaluation including serum electrolytes, cardiac troponin, digoxin level, thyroid-stimulating hormone (TSH), and complete blood count",
+    "Administer intravenous fluids if hemodynamically unstable, pending clinical assessment of volume status",
+    "Prepare for emergent electrical cardioversion if patient remains symptomatic and hemodynamically compromised"
+  ]
+}

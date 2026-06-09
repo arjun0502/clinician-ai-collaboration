@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_31_2025",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Common variable immunodeficiency (CVID)-associated enteropathy",
+    "Enteropathy-associated T-cell lymphoma (EATL)",
+    "Crohn's disease with entero-enteric/enterocolonic fistula",
+    "Common variable immunodeficiency (CVID)-associated lymphoid hyperplasia",
+    "Infectious enteritis (chronic Giardiasis) in the setting of hypogammaglobulinemia",
+    "Autoimmune enteropathy"
+  ],
+  "next_steps": [
+    "Surgical consultation for management of complicated jejunal wall thickening, aneurysmal dilatation, and potential ischemia",
+    "Resection of involved jejunal segments with pathological evaluation (lymphoma vs. inflammatory)",
+    "Repeat immunoglobulin panel and lymphocyte subset analysis to confirm CVID",
+    "Formal hematology consultation to evaluate the clonal NK-cell population",
+    "Consider genetic testing for CVID-related mutations (e.g., CTLA4, LRBA, PIK3CD)",
+    "Stool studies for alternative pathogens given history of hypogammaglobulinemia"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_30_2024",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Erdheim-Chester disease",
+    "IgG4-related disease",
+    "Rosai-Dorfman-Destombes disease",
+    "Multicentric Castleman disease",
+    "Indolent lymphoma with extranodal involvement",
+    "Histiocytic sarcoma",
+    "Langerhans cell histiocytosis"
+  ],
+  "next_steps": [
+    "Expert hematopathology review of all biopsy samples with specific focus on histiocytic/dendritic markers (CD68, CD163, CD1a, S100, CD21, CD23, CD35)",
+    "BRAF V600E mutation testing on bone lesion tissue",
+    "Whole-body imaging with specialized focus on the aorta and cardiac structures to evaluate for periaortic coating or pericardial involvement",
+    "Quantification of serum IgG4 levels and inflammatory markers (CRP, ESR)",
+    "Consideration of PET/CT imaging interpretation for characteristic osteosclerosis of the long bones"
+  ]
+}

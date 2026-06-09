@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_8_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Metformin-associated lactic acidosis (MALA)",
+    "Euglycemic diabetic ketoacidosis (secondary to SGLT2 inhibitor use)",
+    "High anion gap metabolic acidosis due to 5-oxoprolinemia (pyroglutamic acidosis)",
+    "Sepsis-associated type A lactic acidosis",
+    "Type B lactic acidosis due to tissue hypoperfusion or malignancy",
+    "Acute kidney injury with superimposed metabolic acidosis"
+  ],
+  "next_steps": [
+    "Obtain arterial blood gas and calculate serum anion gap and osmolal gap",
+    "Measure plasma lactate and serum beta-hydroxybutyrate levels",
+    "Measure serum metformin level",
+    "Send urine organic acid analysis",
+    "Discontinue dapagliflozin and metformin",
+    "Continue aggressive supportive care with optimization of hemodynamic status"
+  ]
+}

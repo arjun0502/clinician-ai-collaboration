@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_40_2024",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Cerebral venous sinus thrombosis",
+    "Giant cell arteritis",
+    "Spontaneous intracranial hypotension",
+    "Intracranial hemorrhage or mass lesion",
+    "Meningitis or meningoencephalitis",
+    "Posterior reversible encephalopathy syndrome",
+    "Reversible cerebral vasoconstriction syndrome"
+  ],
+  "next_steps": [
+    "Perform magnetic resonance venography and magnetic resonance imaging of the brain with contrast",
+    "Perform lumbar puncture with measurement of opening pressure and cerebrospinal fluid analysis",
+    "Obtain erythrocyte sedimentation rate and C-reactive protein levels",
+    "Immediate ophthalmologic evaluation for papilledema or ischemic optic neuropathy",
+    "Consult neurology for urgent neurovascular assessment",
+    "Reconsider recent medications for potential drug-induced intracranial pressure changes or vascular triggers"
+  ]
+}

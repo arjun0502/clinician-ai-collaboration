@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_32_2025",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Primary cardiac diffuse large B-cell lymphoma",
+    "Cardiac angiosarcoma",
+    "Metastatic carcinoma (e.g., lung cancer)",
+    "Right atrial thrombus (secondary to pacemaker lead)",
+    "Infective endocarditis with large vegetation",
+    "Cardiac sarcoma (undifferentiated pleomorphic)",
+    "Right atrial myxoma"
+  ],
+  "next_steps": [
+    "18F-FDG PET-CT scan to assess metabolic activity and identify extra-cardiac occult sites",
+    "Image-guided percutaneous core needle biopsy of the right atrial mass",
+    "Pericardiocentesis with cytologic and flow cytometric analysis of the pericardial fluid",
+    "Endobronchial ultrasound (EBUS)-guided biopsy of suspicious mediastinal lymph nodes",
+    "Consultation with cardiothoracic surgery for potential surgical excision and definitive histologic diagnosis"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_24_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": "{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Lyme carditis\": {\n      \"Support\": \"Exposure history (forested area, sheep/rabbits), conduction system disease (1st degree and Mobitz I AV block), fatigue, myalgias.\",\n      \"Against\": \"Usually associated with high-degree AV block (Mobitz II or complete heart block), though milder forms exist.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Myocarditis (viral or autoimmune)\": {\n      \"Support\": \"Recent SARS-CoV-2 infection, elevated liver enzymes, elevated NT-proBNP, palpitations, chest pain, conduction disturbances.\",\n      \"Against\": \"Troponin T remains normal, which is atypical for significant acute myocarditis.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Multisystem inflammatory syndrome in adults (MIS-A)\": {\n      \"Support\": \"Post-COVID syndrome, elevated D-dimer (previously), cardiac involvement, gastrointestinal symptoms, fatigue.\",\n      \"Against\": \"Patient is currently afebrile and lacks significant systemic inflammatory markers (CRP normal, ESR normal).\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Cardiac sarcoidosis\": {\n      \"Support\": \"Conduction system disease (AV block), chest pain, palpitations.\",\n      \"Against\": \"Usually presents with more extensive structural cardiac findings or rhythm disturbances; no clear systemic features mentioned.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Autoimmune myocarditis secondary to SARS-CoV-2\": {\n      \"Support\": \"Temporal relationship with reinfection, persistent fatigue, cardiac symptoms.\",\n      \"Against\": \"Normal inflammatory markers (CRP/ESR).\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Arrhythmogenic right ventricular cardiomyopathy\": {\n      \"Support\": \"Palpitations, conduction abnormalities.\",\n      \"Against\": \"Usually younger presentation or specific ECG findings (Epsilon waves); clinical context (post-COVID) points more toward inflammatory etiology.\",\n      \"Status\": \"Unsupported\"\n    },\n    \"Coronary artery vasospasm\": {\n      \"Support\": \"Positional/pleuritic chest pain, normal troponin.\",\n      \"Against\": \"Does not explain conduction system disturbances.\",\n      \"Status\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Toxic hepatitis (due to 'animal liver extract' and turmeric supplements)\",\n    \"Hypersensitivity myocarditis (due to herbal supplements)\",\n    \"Q fever (Coxiella burnetii) given exposure to sheep/rabbits\"\n  ],\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Lyme disease serology\": \"Highly reasonable given epidemiology and presentation.\",\n    \"Cardiac MRI\": \"Essential gold standard for occult myocarditis/sarcoidosis, even with normal troponin.\",\n    \"Echocardiogram\": \"Standard of care to rule out structural/functional heart disease.\",\n    \"24-hour Holter\": \"Reasonable, though the patient is currently hospitalized, so continuous telemetry is superior.\",\n    \"Initiation of intravenous ceftriaxone\": \"Debatable before serology; might be premature if clinical suspicion is moderate.\",\n    \"Telemetry monitoring\": \"Essential for safety given AV block.\",\n    \"Consultation with ID/Cardiology\": \"Essential.\"\n  },\n  \"Missing Next Steps\": [\n    \"Review of hepatotoxic supplements (Animal liver/turmeric) and cessation thereof.\",\n    \"Testing for Q fever (serology/PCR).\",\n    \"Screening for autoimmune markers (ANA, etc.) if infectious workup is negative.\",\n    \"Liver biopsy if enzymes do not normalize after stopping supplements.\"\n  ],\n  \"Influence of Clinician Input\": {\n    \"Assessment\": \"The clinician's focus on Lyme was highly influential. I uncritically adopted the suggestion of empiric ceftriaxone, which might have distracted from other potential etiologies like supplement-induced liver injury or rarer zoonoses.\",\n    \"Critique\": \"I failed to notice that the clinician's differential ignored the patient's 'liver supplement' intake, which likely accounts for the transaminitis, potentially representing a toxic rather than a purely infectious process.\"\n  },\n  \"Open Questions\": [\n    \"What are the specific ingredients in the 'animal liver extract' supplement, and could they cause vitamin A toxicity or iron overload contributing to liver injury?\",\n    \"Does the patient have orthostatic hypotension, given her pulse and pressure findings?\",\n    \"What is the result of the Lyme serology and/or Borrelia PCR?\",\n    \"Did the transaminases trend down after holding the herbal supplements?\"\n  ]\n}",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Lyme carditis",
+      "Myocarditis (viral or autoimmune)",
+      "Multisystem inflammatory syndrome in adults (MIS-A)",
+      "Cardiac sarcoidosis",
+      "Autoimmune myocarditis secondary to SARS-CoV-2",
+      "Arrhythmogenic right ventricular cardiomyopathy",
+      "Coronary artery vasospasm"
+    ],
+    "next_steps": [
+      "Lyme disease serology (ELISA followed by Western Blot)",
+      "Cardiac MRI with gadolinium enhancement to assess for inflammation or fibrosis",
+      "Echocardiogram to evaluate for structural abnormalities or wall motion abnormalities",
+      "24-hour Holter monitoring to characterize conduction disturbances",
+      "Initiation of intravenous ceftriaxone if Lyme serology is suggestive or clinical suspicion remains high",
+      "Telemetry monitoring for high-degree AV block",
+      "Consultation with infectious disease and cardiology"
+    ]
+  },
+  "differential_diagnoses": [],
+  "next_steps": []
+}

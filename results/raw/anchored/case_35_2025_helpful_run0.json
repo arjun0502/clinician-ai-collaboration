@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_35_2025",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Henoch-Sch\u00f6nlein purpura (IgA vasculitis)",
+    "Kawasaki disease",
+    "Rocky Mountain spotted fever",
+    "Meningococcemia",
+    "Multisystem inflammatory syndrome in children (MIS-C)",
+    "Small-vessel vasculitis secondary to infection (e.g., post-streptococcal)",
+    "Parvovirus B19 infection"
+  ],
+  "next_steps": [
+    "Urgent echocardiogram",
+    "Urinalysis to check for hematuria or proteinuria",
+    "Complete blood count with differential and inflammatory markers (CRP, ESR)",
+    "Blood and throat cultures",
+    "Dermatology consultation for consideration of skin biopsy (H&E and DIF)",
+    "Serum chemistries including renal function and albumin",
+    "Empiric antibiotics for suspected meningococcemia pending cultures"
+  ]
+}

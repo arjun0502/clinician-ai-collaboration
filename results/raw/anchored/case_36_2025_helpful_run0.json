@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_36_2025",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Portal hypertensive biliopathy leading to hemobilia",
+    "Ectopic variceal bleeding (jejunal or stomal varices)",
+    "Cholangiocarcinoma (hilar/Klatskin tumor)",
+    "Portal vein thrombosis with secondary portal cavernoma",
+    "Arteriovenous malformation/fistula at the hepaticojejunostomy site",
+    "Ischemic gastropathy or portal hypertensive gastropathy",
+    "Biliary stricture with chronic inflammation/erosion"
+  ],
+  "next_steps": [
+    "Interventional radiology consultation for diagnostic and potentially therapeutic portal venography",
+    "Direct visualization of the biliary tree via percutaneous transhepatic cholangiography (PTC) or endoscopic retrograde cholangiopancreatography (ERCP)",
+    "Balloon-occluded retrograde transvenous obliteration (BRTO) if ectopic varices are identified",
+    "Liver biopsy or brush cytology of the hilar lesion to rule out malignancy",
+    "Repeat EGD focusing on careful evaluation of the jejunostomy anastomosis",
+    "Multidisciplinary team review involving hepatobiliary surgery and interventional radiology"
+  ]
+}

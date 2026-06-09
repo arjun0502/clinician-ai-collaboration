@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_35_2024",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Pleuropulmonary blastoma (type I or II)",
+    "Congenital pulmonary airway malformation (CPAM)",
+    "Intralobar pulmonary sequestration",
+    "Meconium aspiration syndrome",
+    "Persistent pulmonary hypertension of the newborn",
+    "Congenital lobar emphysema",
+    "Bronchogenic cyst"
+  ],
+  "next_steps": [
+    "Contrast-enhanced computed tomography (CT) of the chest to characterize pulmonary lesions",
+    "Genetics consultation for DICER1 syndrome screening",
+    "Magnetic resonance imaging (MRI) of the chest if CT is inconclusive",
+    "Surgical consultation for potential biopsy or resection of persistent opacities",
+    "Review of pathology findings for evidence of pleuropulmonary blastoma"
+  ]
+}

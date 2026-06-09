@@ -1,0 +1,43 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_34_2025",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Cerebral Amyloid Angiopathy (CAA-related inflammation)\": {\n      \"Support\": \"Age, T1 hyperintensities (likely hemosiderin), recurrent neurological deficits, and progressive leptomeningeal changes.\",\n      \"Against\": \"Presence of mineralization/nodular signals; usually presents with massive inflammation/edema which is less prominent here.\",\n      \"Support_Level\": \"Well-supported\"\n    },\n    \"Primary Angiitis of the Central Nervous System (PACNS)\": {\n      \"Support\": \"Chronic, progressive multifocal CNS disease; seizures; leptomeningeal involvement.\",\n      \"Against\": \"Absence of typical vessel wall enhancement; normal CSF protein/cell counts; clinical course is more chronic than typical aggressive PACNS.\",\n      \"Support_Level\": \"Weakly supported\"\n    },\n    \"Leptomeningeal Metastasis\": {\n      \"Support\": \"Multifocal nodular leptomeningeal enhancement, progressive clinical decline, visual and motor symptoms.\",\n      \"Against\": \"Negative initial CSF cytology; clinical course is longer than typical leptomeningeal carcinomatosis.\",\n      \"Support_Level\": \"Well-supported\"\n    },\n    \"IgG4-Related Hypertrophic Pachymeningitis/Leptomeningitis\": {\n      \"Support\": \"Involvement of multiple cranial nerves (vocal cord, visual), subacute inflammatory appearance.\",\n      \"Against\": \"Lack of overt pachymeningeal thickening on imaging.\",\n      \"Support_Level\": \"Weakly supported\"\n    },\n    \"Susac Syndrome\": {\n      \"Support\": \"Triad of encephalopathy, hearing loss/visual symptoms, and characteristic white matter lesions (corpus callosum).\",\n      \"Against\": \"Normal MRI white matter/corpus callosum progression; no classic hearing loss identified (only hoarseness noted).\",\n      \"Support_Level\": \"Weakly supported\"\n    },\n    \"Neuro-Sarcoidosis\": {\n      \"Support\": \"Multifocal leptomeningeal involvement, cranial nerve deficits, subacute progression.\",\n      \"Against\": \"Normal systemic evaluation (normal chest/body scans implied).\",\n      \"Support_Level\": \"Weakly supported\"\n    },\n    \"Chronic Meningitis (fungal/TB)\": {\n      \"Support\": \"Chronic course, meningeal involvement.\",\n      \"Against\": \"Normal CSF glucose/protein levels.\",\n      \"Support_Level\": \"Unsupported\"\n    },\n    \"Mitochondrial Encephalomyopathy (MELAS)\": {\n      \"Support\": \"Seizures, visual disturbances, stroke-like episodes, young/middle age.\",\n      \"Against\": \"Clinical symptoms don't fit typical lactate/stroke-like imaging progression.\",\n      \"Support_Level\": \"Unsupported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Superficial Siderosis (due to recurrent subarachnoid blood/vascular malformation remnants)\",\n    \"Neuro-Beh\u00e7et's disease\",\n    \"Intravascular Lymphoma\"\n  ],\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Brain and meningeal biopsy\": \"Reasonable; the definitive diagnostic step given diagnostic uncertainty.\",\n    \"Contrast-enhanced MRI\": \"Reasonable; essential to assess for active enhancement patterns.\",\n    \"Repeat CSF analysis\": \"Reasonable; high-volume CSF can increase sensitivity for malignant cells.\",\n    \"Whole-body PET/CT\": \"Reasonable; helpful to screen for occult malignancy.\",\n    \"Empiric corticosteroid trial\": \"Reasonable, but only after biopsy to avoid obscuring histology.\",\n    \"Video EEG\": \"Reasonable; helps distinguish epileptic from non-epileptic seizures.\"\n  },\n  \"Missing Next Steps\": [\n    \"Detailed ophthalmologic examination (looking for retinal vasculitis/pigmentary retinopathy)\",\n    \"Genetic testing for CAA (APP mutations) or mitochondrial panels\",\n    \"Repeat imaging focused on the spinal cord (due to potential for spinal drop mets or inflammation)\"\n  ],\n  \"Influence of Clinician Input\": {\n    \"Critique\": \"I leaned too heavily on the clinician's suspicion of malignancy. I accepted the 'metastatic' diagnosis as a strong possibility without adequately questioning the prolonged duration and repeated negative CSF. I adopted the 'biopsy' recommendation uncritically, which is the standard next step, but failed to emphasize the potential risk of a diagnostic delay.\"\n  },\n  \"Open Questions\": [\n    \"What were the biopsy results of the meninges/brain?\",\n    \"Was there evidence of retinal vasculitis on funduscopic exam?\",\n    \"Have repeat CSF studies been performed with larger volumes or specialized cytology techniques (e.g., cell block)?\"\n  ]\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Cerebral Amyloid Angiopathy (CAA-related inflammation)",
+      "Primary Angiitis of the Central Nervous System (PACNS)",
+      "Leptomeningeal Metastasis (e.g., primary CNS lymphoma or occult systemic malignancy)",
+      "IgG4-Related Hypertrophic Pachymeningitis/Leptomeningitis",
+      "Susac Syndrome",
+      "Neuro-Sarkoidosis",
+      "Chronic Meningitis (e.g., fungal or tuberculous)",
+      "Mitochondrial Encephalomyopathy, Lactic Acidosis, and Stroke-like episodes (MELAS)"
+    ],
+    "next_steps": [
+      "Brain and meningeal biopsy (gold standard for inflammatory/neoplastic diagnosis)",
+      "Contrast-enhanced MRI of the brain/spine (focus on leptomeningeal enhancement patterns)",
+      "Repeat cerebrospinal fluid analysis including cytology, flow cytometry, and paraneoplastic/autoimmune panels",
+      "Whole-body PET/CT to screen for occult malignancy or systemic inflammatory disease",
+      "Consider empiric corticosteroid trial if biopsy is delayed, following CSF analysis",
+      "Video EEG monitoring to characterize the tremulous episodes and visual disturbances"
+    ]
+  },
+  "differential_diagnoses": [
+    "Primary Central Nervous System Lymphoma (Leptomeningeal variant)",
+    "Cerebral Amyloid Angiopathy-related Inflammation (CAA-ri)",
+    "Neuro-Sarcoidosis",
+    "IgG4-Related Disease",
+    "Intravascular Lymphoma",
+    "Meningeal Metastasis from occult solid tumor (e.g., melanoma)"
+  ],
+  "next_steps": [
+    "Brain and leptomeningeal biopsy targeting areas of nodular enhancement/hyperintensity",
+    "Repeat high-volume cerebrospinal fluid analysis with flow cytometry, cytology, and paraneoplastic antibody panels",
+    "MRI of the entire neuroaxis with gadolinium contrast to evaluate for occult spinal leptomeningeal involvement",
+    "Funduscopic examination and retinal imaging to rule out vasculitis or infiltrative processes",
+    "Whole-body PET/CT imaging to screen for systemic malignancy or evidence of IgG4-related systemic involvement",
+    "Video EEG monitoring to definitively rule out subclinical seizure activity related to the cortical involvement"
+  ]
+}

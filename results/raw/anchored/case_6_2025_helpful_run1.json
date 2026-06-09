@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_6_2025",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Chronic portal vein thrombosis with portal cavernoma",
+    "Portal biliopathy",
+    "Chronic mesenteric ischemia (abdominal angina)",
+    "Hepatic schistosomiasis",
+    "Noncirrhotic portal hypertension",
+    "Myeloproliferative neoplasm (e.g., JAK2 mutation)",
+    "Paroxysmal nocturnal hemoglobinuria"
+  ],
+  "next_steps": [
+    "Mesenteric angiography or CT angiography to evaluate for mesenteric ischemia",
+    "Complete thrombophilia and hematologic workup (JAK2, PNH testing, Protein C/S/Antithrombin)",
+    "Liver biopsy with specialized staining for Schistosoma eggs",
+    "Assessment of intestinal perfusion status",
+    "Evaluation for surgical or endovascular management of portal vein obstruction"
+  ]
+}

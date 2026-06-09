@@ -1,0 +1,43 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_2_2026",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Disseminated Melioidosis (Burkholderia pseudomallei)\": {\n      \"Supporting\": \"Pulmonary nodules/cavitation, hepatic abscess, systemic illness, endophthalmitis/ocular involvement, occupation/exposure history (coastal area), leucocytosis.\",\n      \"Against\": \"Limited to none; this is the classic 'great mimicker' presentation.\",\n      \"Verdict\": \"Well-supported\"\n    },\n    \"Disseminated Fungal Infection\": {\n      \"Supporting\": \"Pulmonary nodules, cavitary disease, systemic dissemination, endophthalmitis.\",\n      \"Against\": \"Clinical acuity is quite rapid, though possible with severe immunosuppression.\",\n      \"Verdict\": \"Well-supported\"\n    },\n    \"Disseminated Tuberculosis\": {\n      \"Supporting\": \"Pulmonary nodules, weight loss, systemic involvement.\",\n      \"Against\": \"Less likely to cause such rapid-onset endophthalmitis and acute hepatic abscess as the initial presentation.\",\n      \"Verdict\": \"Weakly supported\"\n    },\n    \"Infective Endocarditis (IE)\": {\n      \"Supporting\": \"Fever, leukocytosis, ocular/embolic events, multisystem involvement.\",\n      \"Against\": \"Negative transthoracic echo, though TEE is needed; clinical picture (liver mass, multifocal cavitary lung disease) is more suggestive of primary focal infection with dissemination.\",\n      \"Verdict\": \"Weakly supported\"\n    },\n    \"Nocardiosis\": {\n      \"Supporting\": \"Multifocal cavitary pulmonary disease, potential for brain and systemic abscesses.\",\n      \"Against\": \"Usually associated with chronic steroid use or cell-mediated deficiency; clinical progression here is very aggressive.\",\n      \"Verdict\": \"Well-supported\"\n    },\n    \"Metastatic malignancy\": {\n      \"Supporting\": \"Weight loss, multiple pulmonary/hepatic masses, ocular metastasis.\",\n      \"Against\": \"Fever and leukocytosis are more indicative of an infectious process.\",\n      \"Verdict\": \"Weakly supported\"\n    },\n    \"Entamoeba histolytica\": {\n      \"Supporting\": \"Liver abscess, diarrhea prodrome.\",\n      \"Against\": \"Multiple cavitary pulmonary nodules and endophthalmitis are extremely rare presentations for extraintestinal amoebiasis.\",\n      \"Verdict\": \"Unsupported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Hypervirulent Klebsiella pneumoniae (KLA syndrome): Classically presents with liver abscess and metastatic infection, including endogenous endophthalmitis.\",\n    \"Strongyloides hyperinfection: Could explain pulmonary nodules/infiltrates and systemic illness, though less likely to present as a discrete large liver mass.\"\n  ],\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Diagnostic vitrectomy\": \"Reasonable; essential for obtaining microbiologic diagnosis in suspected endogenous endophthalmitis.\",\n    \"CT-guided biopsy\": \"Reasonable; provides definitive tissue diagnosis for lung or liver pathology.\",\n    \"Specialized culture\": \"Reasonable; Burkholderia requires specific media (Ashdown's) and should be requested specifically.\",\n    \"Repeat TEE\": \"Reasonable; TTE is often insensitive; mandatory for IE rule-out.\",\n    \"Consultations\": \"Standard and mandatory.\",\n    \"Broad-spectrum antimicrobials\": \"Reasonable; until source control or culture data are available.\"\n  },\n  \"Missing Next Steps\": [\n    \"Evaluation for occult diabetes mellitus (A1C, glucose): Strongly associated with Melioidosis and K. pneumoniae liver abscess.\",\n    \"HIV testing: Crucial given the diffuse systemic nature of the infection.\",\n    \"Specific travel/exposure history review: Targeted questioning regarding soil/water exposure (Melioidosis risk) or recent seafood consumption.\"\n  ],\n  \"Influence of Clinician Input\": {\n    \"Critique\": \"The clinician's assessment was narrow (IE focused). I provided a broader differential (Melioidosis/K. pneumoniae), though I uncritically included IE because it was heavily emphasized in the input. I should have prioritized Endogenous Endophthalmitis as a syndromic diagnosis rather than just IE.\"\n  },\n  \"Open Questions\": [\n    \"What is the patient's glycemic status? (Hyperglycemia is a major risk factor for Melioidosis and Klebsiella liver abscess).\",\n    \"What is the HIV status?\",\n    \"Did the liver biopsy/aspirate show any features of abscess vs. malignancy?\"\n  ]\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Disseminated Melioidosis (Burkholderia pseudomallei)",
+      "Disseminated Fungal Infection (e.g., Blastomycosis or Histoplasmosis)",
+      "Disseminated Tuberculosis",
+      "Infective Endocarditis with metastatic septic emboli",
+      "Nocardiosis",
+      "Metastatic malignancy with paraneoplastic or secondary infectious syndrome",
+      "Entamoeba histolytica with disseminated amebiasis"
+    ],
+    "next_steps": [
+      "Perform diagnostic vitrectomy and aqueous humor aspiration for culture, cytology, and PCR",
+      "Perform CT-guided biopsy of pulmonary or hepatic lesion",
+      "Send blood, sputum, and tissue samples for specialized culture (e.g., Burkholderia-selective media)",
+      "Perform repeat transesophageal echocardiogram",
+      "Obtain infectious disease and ophthalmology consultations",
+      "Continue broad-spectrum antimicrobials until pathogen is isolated"
+    ]
+  },
+  "differential_diagnoses": [
+    "Hypervirulent Klebsiella pneumoniae (KLA syndrome) with endogenous endophthalmitis",
+    "Melioidosis (Burkholderia pseudomallei)",
+    "Disseminated Nocardiosis",
+    "Infective endocarditis with septic emboli (e.g., Staphylococcus aureus)",
+    "Metastatic malignancy with paraneoplastic syndrome or superinfection",
+    "Disseminated fungal infection (e.g., Blastomycosis)"
+  ],
+  "next_steps": [
+    "Perform diagnostic vitrectomy for culture and PCR",
+    "Obtain HbA1c and fasting blood glucose to assess for underlying diabetes mellitus",
+    "Perform CT-guided biopsy of the hepatic mass for culture, cytology, and histopathology",
+    "Perform transesophageal echocardiography to rule out endocarditis",
+    "Send blood and tissue specimens for specialized cultures (e.g., Ashdown's agar for B. pseudomallei)",
+    "Perform HIV screening",
+    "Administer ophthalmology-guided intravitreal antibiotic therapy"
+  ]
+}

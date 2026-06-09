@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_5_2025",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Angiostrongylus cantonensis meningitis",
+    "Gnathostomiasis",
+    "Neurocysticercosis",
+    "Tuberculous meningitis",
+    "Coccidioidomycosis",
+    "Paraneoplastic encephalomyelitis",
+    "Eosinophilic granulomatosis with polyangiitis"
+  ],
+  "next_steps": [
+    "Send cerebrospinal fluid for Angiostrongylus cantonensis PCR and serology",
+    "Send cerebrospinal fluid for fungal and mycobacterial cultures",
+    "Perform serum and cerebrospinal fluid serologic testing for Gnathostoma spinigerum",
+    "Obtain MRI of the brain and entire spine with and without gadolinium",
+    "Maintain high-dose corticosteroids while awaiting specific infectious workup",
+    "Consult infectious disease and neurology specialists"
+  ]
+}

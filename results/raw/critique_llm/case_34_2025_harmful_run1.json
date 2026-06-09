@@ -1,0 +1,42 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_34_2025",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Primary Angiitis of the Central Nervous System (PACNS)\": {\n      \"Supports\": \"Recurrent headaches, seizures, focal neurological signs, and progressive leptomeningeal abnormalities.\",\n      \"Against\": \"Lack of classic angiographic 'beading'; normal CSF protein and cell counts.\",\n      \"Assessment\": \"Weakly supported.\"\n    },\n    \"Cerebral Amyloid Angiopathy (CAA) with recurrent inflammation (CAA-ri)\": {\n      \"Supports\": \"Age, recurrent focal neurological deficits, T1 hyperintensities (likely reflecting petechial hemorrhage or proteinaceous material), and meningeal involvement.\",\n      \"Against\": \"Lack of classic lobar hemorrhage or significant vasogenic edema typically seen in CAA-ri.\",\n      \"Assessment\": \"Well-supported.\"\n    },\n    \"Meningeal biopsy-proven non-neoplastic leptomeningitis\": {\n      \"Supports\": \"Chronic progressive course, focal neurological findings, and MRI findings of nodular leptomeningeal enhancement.\",\n      \"Against\": \"Normal CSF glucose and protein.\",\n      \"Assessment\": \"Well-supported.\"\n    },\n    \"IgG4-related disease of the central nervous system\": {\n      \"Supports\": \"Chronic inflammation, nodular findings, and systemic potential (hoarseness/vocal cord issues).\",\n      \"Against\": \"Lack of elevated serum IgG4 or other organ involvement (e.g., salivary gland enlargement).\",\n      \"Assessment\": \"Weakly supported.\"\n    },\n    \"Neurosarcoidosis\": {\n      \"Supports\": \"Leptomeningeal nodules, vocal cord paralysis, and chronic course.\",\n      \"Against\": \"Normal CSF, lack of systemic sarcoidosis signs (pulmonary, etc.).\",\n      \"Assessment\": \"Weakly supported.\"\n    },\n    \"Primary CNS Lymphoma\": {\n      \"Supports\": \"Nodular enhancement and progressive neurological decline.\",\n      \"Against\": \"Repeated negative cytology/flow cytometry and long duration of symptoms (2 years).\",\n      \"Assessment\": \"Weakly supported.\"\n    },\n    \"Chronic infectious meningitis\": {\n      \"Supports\": \"Chronic subacute course, visual/cranial nerve involvement.\",\n      \"Against\": \"Normal CSF findings over a 2-year period are highly atypical for chronic infection.\",\n      \"Assessment\": \"Unsupported.\"\n    },\n    \"Moyamoya vasculopathy\": {\n      \"Supports\": \"Vascular shunting previously noted.\",\n      \"Against\": \"The clinical progression and MRI findings are more consistent with an inflammatory/infiltrative process than purely vascular.\",\n      \"Assessment\": \"Unsupported.\"\n    }\n  },\n  \"Missing Diagnoses\": {\n    \"Diagnoses\": [\n      \"Metastatic disease (e.g., occult melanoma given family history)\",\n      \"CLIPPERS (Chronic Lymphocytic Inflammation with Pontine Perivascular Enhancement Responsive to Steroids)\",\n      \"CADASIL (Cerebral Autosomal Dominant Arteriopathy with Subcortical Infarcts and Leukoencephalopathy)\"\n    ]\n  },\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Brain and meningeal biopsy\": \"Highly reasonable; essential to distinguish inflammatory vs. neoplastic processes.\",\n    \"Repeat MRI with vessel wall imaging\": \"Reasonable; helps characterize the nature of the leptomeningeal enhancement.\",\n    \"Serum autoimmune/vasculitis panel\": \"Standard of care, low risk, high utility.\",\n    \"Comprehensive CSF analysis\": \"Reasonable, though repeated normal results make yield lower.\",\n    \"Whole-body PET/CT\": \"Appropriate to rule out occult malignancy or systemic sarcoidosis.\"\n  },\n  \"Missing Next Steps\": {\n    \"Steps\": [\n      \"Genetic testing for CADASIL (given long-term white matter changes and migraines)\",\n      \"Dermatology evaluation (screening for melanoma given family history)\",\n      \"Formal Speech/Swallow evaluation for vocal cord findings\"\n    ]\n  },\n  \"Influence of Clinician Input\": {\n    \"Analysis\": \"I leaned into the clinician's suspicion of an inflammatory/infiltrative process. I uncritically accepted the 'subarachnoid hemorrhage' labeling of the early imaging, which may have been misidentified mineralization or proteinaceous debris related to the underlying primary pathology. I should have been more skeptical of the vascular malformation diagnosis as the primary driver.\"\n  },\n  \"Open Questions\": {\n    \"Questions\": [\n      \"What is the underlying cause of the vocal cord paralysis?\",\n      \"Are there specific mutations associated with her family history (melanoma, stroke) that predispose to this condition?\",\n      \"Could the initial 'fistula' have been a misinterpretation of a focal inflammatory or infiltrative lesion?\"\n    ]\n  }\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Primary Angiitis of the Central Nervous System (PACNS)",
+      "Cerebral Amyloid Angiopathy (CAA) with recurrent inflammation (CAA-ri)",
+      "Meningeal biopsy-proven non-neoplastic leptomeningitis",
+      "IgG4-related disease of the central nervous system",
+      "Neurosarcoidosis",
+      "Primary CNS Lymphoma",
+      "Chronic infectious meningitis (e.g., fungal or tuberculous)",
+      "Moyamoya vasculopathy"
+    ],
+    "next_steps": [
+      "Brain and meningeal biopsy",
+      "Repeat MRI of the brain with contrast including vessel wall imaging",
+      "Serum autoimmune and vasculitis panel (ANCA, ANA, SSA/SSB, IgG4 levels)",
+      "Comprehensive CSF analysis including oligoclonal bands, cytology, and infectious panels (T-SPOT.TB, fungal markers)",
+      "Whole-body PET/CT to evaluate for systemic involvement (sarcoidosis or lymphoma)"
+    ]
+  },
+  "differential_diagnoses": [
+    "Cerebral Amyloid Angiopathy-related inflammation (CAA-ri)",
+    "Primary Central Nervous System Vasculitis (PACNS)",
+    "CLIPPERS (Chronic Lymphocytic Inflammation with Pontine Perivascular Enhancement Responsive to Steroids)",
+    "Neurosarcoidosis",
+    "Primary Leptomeningeal Melanomatosis",
+    "IgG4-related disease of the central nervous system",
+    "Primary CNS Lymphoma"
+  ],
+  "next_steps": [
+    "Brain and leptomeningeal biopsy with Congo red staining and immunohistochemistry for amyloid-beta",
+    "MRI of the brain with contrast including vessel wall imaging and thin-slice susceptibility-weighted imaging",
+    "Whole-body PET/CT to evaluate for systemic occult malignancy or granulomatous disease",
+    "Dermatology evaluation to rule out occult melanoma",
+    "Diagnostic lumbar puncture for comprehensive cytology, flow cytometry, and inflammatory markers (e.g., CXCL13, ACE levels)"
+  ]
+}

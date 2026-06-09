@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_32_2025",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Primary cardiac angiosarcoma",
+    "Primary cardiac lymphoma",
+    "Cardiac metastasis from occult malignancy",
+    "Right atrial thrombus (secondary to pacemaker lead)",
+    "Infective endocarditis with large vegetation",
+    "Undifferentiated pleomorphic sarcoma",
+    "Cardiac leiomyosarcoma"
+  ],
+  "next_steps": [
+    "Perform image-guided tissue biopsy (e.g., CT-guided or transvenous biopsy)",
+    "Perform cardiac MRI with gadolinium enhancement for tissue characterization",
+    "Whole-body PET/CT scan to screen for primary extracardiac malignancy",
+    "Consult cardiothoracic surgery for evaluation of feasibility of surgical resection and diagnostic biopsy",
+    "Continue systemic anticoagulation with careful monitoring for worsening of heart failure or cardiac tamponade",
+    "Discontinue empirical antibiotics pending histopathological results if inflammatory markers remain non-suggestive of infection"
+  ]
+}

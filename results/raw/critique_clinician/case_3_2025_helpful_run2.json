@@ -1,0 +1,25 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_3_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Clinician Diagnosis\": {\n    \"Athlete's heart\": {\n      \"Supports\": \"Long-term history of high-intensity aerobic exercise; athletic background.\",\n      \"Arguments against\": \"Development of symptoms (dyspnea, chest pressure), restrictive physiology (elevated JVP, Kussmaul\u2019s sign), QRS amplitude decrease (not increase), and the appearance of pathologically thickened walls (18 mm) at age 54.\",\n      \"Status\": \"Unsupported\"\n    },\n    \"Hypertrophic cardiomyopathy\": {\n      \"Supports\": \"Concentric wall thickening (18 mm), mitral valve thickening, and midwall apical LGE on MRI.\",\n      \"Arguments against\": \"Negative genetic panel; lack of familial phenotype; progression of restrictive features (Kussmaul\u2019s sign, elevated JVP) at an older age; lack of appropriate ventricular wall tapering.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"AL Amyloidosis\": {\n      \"Supports\": \"Progressive heart failure, restrictive hemodynamics, low QRS voltage, and physical findings (angiomas may suggest systemic deposition).\",\n      \"Arguments against\": \"None; this remains a high-probability diagnosis given the clinical progression.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Noninfiltrative restrictive cardiomyopathy\": {\n      \"Supports\": \"Dyspnea, restrictive hemodynamics, and echocardiographic findings.\",\n      \"Arguments against\": \"The distinct, progressive nature of the wall thickening and the appearance of LGE are more specific to infiltrative processes.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Sarcoidosis\": {\n      \"Supports\": \"Can cause heart block, wall thickening, and regional LGE patterns.\",\n      \"Arguments against\": \"Absence of extra-cardiac manifestations (pulmonary/hilar adenopathy); patient's clinical presentation (no high-degree block or history of sarcoidosis).\",\n      \"Status\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": {\n    \"Transthyretin Amyloidosis (ATTR)\": \"Highly probable in a 54-year-old male with progressive thickening, restrictive physiology, and no evidence of malignancy, especially if AL is ruled out.\",\n    \"Fabry Disease\": \"Must be considered in mid-aged males with concentric hypertrophy, even in the absence of obvious systemic symptoms, as it can mimic HCM.\"\n  },\n  \"Evaluation of Each Proposed Next Step\": {\n    \"Quantitative serum free light-chain assay & immunofixation\": {\n      \"Reasonable\": \"Yes, essential for ruling out AL amyloidosis.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"Fat-pad (or endomyocardial) biopsy\": {\n      \"Reasonable\": \"Yes, standard for confirming tissue amyloid deposition.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"Bone marrow biopsy\": {\n      \"Reasonable\": \"Yes, necessary if light-chain studies are positive to confirm clonal plasma cell disorder.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    }\n  },\n  \"Missing Next Steps\": {\n    \"Technetium-99m pyrophosphate (PYP) scan\": \"Crucial to differentiate ATTR amyloidosis from AL amyloidosis.\",\n    \"Alpha-galactosidase A activity level\": \"To rule out Fabry disease.\",\n    \"Cardiac PET scan\": \"To evaluate for occult sarcoidosis inflammation if amyloid workup is negative.\"\n  },\n  \"Open Questions\": {\n    \"Questions\": [\n      \"What is the status of the patient's serum and urine protein electrophoresis (SPEP/UPEP)?\",\n      \"Is there a family history of neuropathy or autonomic dysfunction suggesting TTR mutation?\",\n      \"Are there specific cardiac biomarkers (NT-proBNP) available to assess the severity of myocardial stress?\"\n    ]\n  }\n}\n```",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Transthyretin Amyloidosis (ATTR)",
+    "AL Amyloidosis",
+    "Hypertrophic Cardiomyopathy (Phenocopy/Non-genetic)",
+    "Fabry Disease",
+    "Cardiac Sarcoidosis",
+    "Hypereosinophilic Syndrome"
+  ],
+  "next_steps": [
+    "Serum and urine protein electrophoresis (SPEP/UPEP) with immunofixation",
+    "Serum free light-chain assay",
+    "Technetium-99m pyrophosphate (PYP) scintigraphy to evaluate for ATTR amyloidosis",
+    "Alpha-galactosidase A enzyme activity and GLA gene sequencing to rule out Fabry disease",
+    "NT-proBNP and high-sensitivity troponin levels to quantify cardiac stress",
+    "Cardiac biopsy (endomyocardial) with Congo red staining if non-invasive workup is inconclusive",
+    "Assessment for systemic features of amyloidosis (e.g., neuropathy screening)"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_34_2024",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Digitalis toxicity",
+    "Ventricular tachycardia",
+    "Supraventricular tachycardia (e.g., atrial flutter)",
+    "Decompensated heart failure",
+    "Acute coronary syndrome",
+    "Pulmonary embolism",
+    "Amiodarone-associated toxicity"
+  ],
+  "next_steps": [
+    "Immediate 12-lead electrocardiogram",
+    "Continuous cardiac telemetry and vitals monitoring",
+    "Emergency department transfer for hemodynamic stabilization",
+    "Stat serum digoxin level and electrolytes (potassium, magnesium)",
+    "Bedside focused echocardiography",
+    "Check serum troponin and NT-proBNP",
+    "ICD interrogation to evaluate rhythm and stored electrograms"
+  ]
+}

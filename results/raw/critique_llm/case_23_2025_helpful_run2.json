@@ -1,0 +1,42 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_23_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": "```json\n{\n  \"Evaluation_of_Each_Diagnosis_You_Listed\": {\n    \"Pulmonary_veno-occlusive_disease_(PVOD)\": {\n      \"Supports\": \"Severe precapillary PAH, profound hypoxemia, centrilobular ground-glass opacities, septal thickening, clinical deterioration with low-dose prostacyclin.\",\n      \"Against\": \"None.\",\n      \"Status\": \"Well-supported; most likely diagnosis.\"\n    },\n    \"Pulmonary_capillary_hemangiomatosis_(PCH)\": {\n      \"Supports\": \"Similar to PVOD, PCH presents as severe PAH with pulmonary opacities and propensity for pulmonary edema on vasodilation.\",\n      \"Against\": \"None.\",\n      \"Status\": \"Well-supported; histologically overlaps with PVOD.\"\n    },\n    \"Systemic_sclerosis-associated_pulmonary_arterial_hypertension\": {\n      \"Supports\": \"PAH, interstitial opacities.\",\n      \"Against\": \"Negative ANA and specific SSc-related autoantibodies; no clinical features of scleroderma.\",\n      \"Status\": \"Weakly supported.\"\n    },\n    \"Hypersensitivity_pneumonitis_with_severe_secondary_pulmonary_hypertension\": {\n      \"Supports\": \"Centrilobular nodules, history of dyspnea.\",\n      \"Against\": \"PHT severity is disproportionate to lung parenchymal disease; lack of classic environmental triggers; failed response to prior steroids.\",\n      \"Status\": \"Weakly supported; likely an initial misdiagnosis.\"\n    },\n    \"Idiopathic_pulmonary_arterial_hypertension\": {\n      \"Supports\": \"Severe precapillary PAH.\",\n      \"Against\": \"Presence of diffuse centrilobular ground-glass opacities and septal thickening makes pure IPAH unlikely.\",\n      \"Status\": \"Unsupported; excluded by imaging findings.\"\n    },\n    \"Sarcoidosis_with_pulmonary_vascular_involvement\": {\n      \"Supports\": \"Mediastinal lymphadenopathy.\",\n      \"Against\": \"Lack of classic granulomatous features; typical distribution not seen on HRCT.\",\n      \"Status\": \"Weakly supported.\"\n    },\n    \"Chronic_thromboembolic_disease_(non-thrombotic)\": {\n      \"Supports\": \"Severe PHT.\",\n      \"Against\": \"V/Q scan was negative; no perfusion defects.\",\n      \"Status\": \"Unsupported.\"\n    }\n  },\n  \"Missing_Diagnoses\": [\n    \"Pulmonary tumor thrombotic microangiopathy (PTTM) (possible due to vaping/malignancy risk)\",\n    \"Schistosomiasis-associated pulmonary hypertension (despite negative serology, given travel history to West Africa)\",\n    \"Complex congenital heart disease with pulmonary vascular remodeling (though less likely given normal TEE)\"\n  ],\n  \"Evaluation_of_Each_Next_Step_You_Proposed\": {\n    \"Urgent_lung_transplant_evaluation\": {\n      \"Reasonable\": \"Yes, mandatory given her terminal hemodynamic status.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"Genetic_testing_for_EIF2AK4_mutations\": {\n      \"Reasonable\": \"Yes, highly specific for hereditary PVOD/PCH.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"Immediate_weaning_of_intravenous_epoprostenol\": {\n      \"Reasonable\": \"Yes, critical. Patients with PVOD/PCH often develop flash pulmonary edema with prostacyclins due to inability to accommodate increased pulmonary blood flow.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"Right_heart_catheterization_with_fluid_challenge\": {\n      \"Reasonable\": \"Yes, to ensure PCWP is accurate, as occult left heart disease must be definitively ruled out before transplant.\",\n      \"Harmful/Contraindicated\": \"Potentially risky due to fragile hemodynamics; requires extreme caution.\"\n    },\n    \"Transbronchial_or_surgical_lung_biopsy\": {\n      \"Reasonable\": \"No, it is highly contraindicated due to extreme risk of bleeding and hemodynamic collapse.\",\n      \"Harmful/Contraindicated\": \"Yes, extremely hazardous.\"\n    },\n    \"Evaluation_for_bridge_to_transplant_with_ECMO\": {\n      \"Reasonable\": \"Yes, essential given the patient's deterioration.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    }\n  },\n  \"Missing_Next_Steps\": [\n    \"Full hematologic and malignancy workup (including bone marrow biopsy or PET scan if stable enough) to rule out malignancy-associated vascular involvement.\",\n    \"Careful reassessment of the clinical history (e.g., specific vaping products or exposures) as potential triggers for chemical/toxic pneumonitis or PTTM.\",\n    \"Formal multidisciplinary review for high-urgency transplant listing.\"\n  ],\n  \"Influence_of_Clinician_Input\": {\n    \"Analysis\": \"The clinician's differential provided a standard framework but failed to highlight the clinical 'red flag' of prostacyclin-induced pulmonary edema, which points directly toward PVOD/PCH. I adopted the 'transplant evaluation' and 'ECMO' ideas as they are standard-of-care for refractory PAH but added the necessary caution regarding lung biopsy and vasodilation that was missing from the provided input.\"\n  },\n  \"Open_Questions\": [\n    \"Genetic testing results (EIF2AK4).\",\n    \"Detailed review of the vaping history (what substance was vaped?).\",\n    \"Repeat PCWP under strictly controlled conditions to exclude post-capillary obstruction definitively.\"\n  ]\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Pulmonary veno-occlusive disease (PVOD)",
+      "Pulmonary capillary hemangiomatosis (PCH)",
+      "Systemic sclerosis-associated pulmonary arterial hypertension",
+      "Hypersensitivity pneumonitis with severe secondary pulmonary hypertension",
+      "Idiopathic pulmonary arterial hypertension",
+      "Sarcoidosis with pulmonary vascular involvement",
+      "Chronic thromboembolic disease (non-thrombotic)"
+    ],
+    "next_steps": [
+      "Urgent lung transplant evaluation",
+      "Genetic testing for EIF2AK4 mutations (associated with heritable PVOD/PCH)",
+      "Immediate weaning of intravenous epoprostenol due to risk of pulmonary edema",
+      "Right heart catheterization with fluid challenge (cautious) to re-evaluate pulmonary capillary wedge pressure",
+      "Transbronchial or surgical lung biopsy (only if risk-benefit is acceptable)",
+      "Evaluation for bridge to transplant with extracorporeal membrane oxygenation (ECMO) if hemodynamic instability progresses"
+    ]
+  },
+  "differential_diagnoses": [
+    "Pulmonary veno-occlusive disease (PVOD)",
+    "Pulmonary capillary hemangiomatosis (PCH)",
+    "Pulmonary tumor thrombotic microangiopathy (PTTM)",
+    "Systemic sclerosis-associated pulmonary arterial hypertension",
+    "Hypersensitivity pneumonitis",
+    "Sarcoidosis with pulmonary vascular involvement"
+  ],
+  "next_steps": [
+    "Urgent multidisciplinary lung transplant evaluation",
+    "Immediate weaning or cessation of intravenous epoprostenol to prevent further pulmonary edema",
+    "Genetic testing for EIF2AK4 mutations",
+    "Cerebral imaging and comprehensive malignancy workup to evaluate for underlying metastatic disease or PTTM",
+    "Evaluation for veno-venous or veno-arterial ECMO as a bridge to transplantation",
+    "Careful reassessment of vaping history and toxicological exposures"
+  ]
+}

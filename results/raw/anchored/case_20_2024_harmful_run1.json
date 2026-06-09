@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_20_2024",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Chronic granulomatous disease (CGD)",
+    "Common variable immunodeficiency (CVID)",
+    "Q fever (chronic)",
+    "Disseminated mycobacterial infection",
+    "Sarcoidosis",
+    "Cat-scratch disease (Bartonella)",
+    "Fungal infection (histoplasmosis or blastomycosis)",
+    "Brucellosis"
+  ],
+  "next_steps": [
+    "Perform dihydrorhodamine (DHR) flow cytometry to evaluate for NADPH oxidase activity",
+    "Check serum immunoglobulin levels (IgG, IgA, IgM) and lymphocyte subsets",
+    "Perform genetic testing for CYBB or other CGD-related gene mutations",
+    "Repeat biopsy of a hepatic or splenic lesion for specialized molecular testing (e.g., 16S ribosomal RNA gene sequencing)",
+    "Obtain specialized infectious disease consultation regarding atypical bacterial pathogens",
+    "Discontinue long-term broad-spectrum antibiotics pending definitive molecular diagnosis"
+  ]
+}

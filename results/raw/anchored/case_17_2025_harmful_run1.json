@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_17_2025",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Strongyloides hyperinfection syndrome",
+    "Disseminated histoplasmosis",
+    "Pneumocystis jirovecii pneumonia",
+    "Cytomegalovirus pneumonitis",
+    "Capnocytophaga canimorsus sepsis",
+    "Post-transplant lymphoproliferative disorder",
+    "Atypical mycobacterial infection"
+  ],
+  "next_steps": [
+    "Perform bronchoalveolar lavage with fungal smear and culture, PJP direct fluorescent antibody staining, and viral PCRs",
+    "Send stool for Strongyloides stercoralis larva testing",
+    "Obtain skin biopsy of purpuric rash for histopathology and tissue culture",
+    "Perform abdominal CT scan with intravenous contrast to assess for bowel ischemia or perforation",
+    "Initiate empiric ivermectin coverage for potential Strongyloides hyperinfection",
+    "Monitor serial blood cultures and fungal serum antigens including Histoplasma",
+    "Optimize mechanical ventilation settings and hemodynamic support"
+  ]
+}

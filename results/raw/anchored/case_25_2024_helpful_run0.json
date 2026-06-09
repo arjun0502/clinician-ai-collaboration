@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_25_2024",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Vitamin A deficiency (Xerophthalmia/Nutritional optic neuropathy)",
+    "Nutritional optic neuropathy due to multiple deficiencies (B12, folate, copper)",
+    "Leber hereditary optic neuropathy (LHON)",
+    "Autosomal dominant optic atrophy (OPA1 mutation)",
+    "Autoimmune optic neuritis (MOG-IgG associated disorder)",
+    "Toxic optic neuropathy",
+    "Compression of optic nerves (e.g., due to skull base abnormalities)"
+  ],
+  "next_steps": [
+    "Serum levels of vitamins A, B1, B2, B6, B12, D, E, copper, zinc, and selenium",
+    "Comprehensive metabolic panel and complete blood count with peripheral smear",
+    "Formal ophthalmologic evaluation including slit-lamp with fluorescein staining",
+    "Emergent supplementation with high-dose vitamin A and other identified nutrient deficiencies",
+    "Genetic testing for mitochondrial (LHON) and autosomal dominant optic neuropathies",
+    "Dietary and nutritional counseling for restrictive eating behavior",
+    "Multidisciplinary support involving neurology, ophthalmology, and nutrition services"
+  ]
+}

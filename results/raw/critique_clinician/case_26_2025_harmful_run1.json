@@ -1,0 +1,25 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_26_2025",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Clinician Diagnosis\": {\n    \"Langerhans\u2019-cell histiocytosis\": {\n      \"Supporting facts\": \"Multifocal lytic/bone-marrow replacing lesions; liver and splenic involvement.\",\n      \"Arguments against\": \"Lesions are typically lytic; the clinical course (acute onset with systemic symptoms like nausea/vomiting) is less classic for LCH.\",\n      \"Support level\": \"Well-supported\"\n    },\n    \"Acute Hematogenous Osteomyelitis\": {\n      \"Supporting facts\": \"History of recurrent MRSA infections; multifocal bone findings.\",\n      \"Arguments against\": \"Lack of fever, normal inflammatory markers (inferred from lack of mention), absence of subperiosteal/intraosseous collections on MRI, and persistence of symptoms despite imaging.\",\n      \"Support level\": \"Weakly supported\"\n    },\n    \"Leukemia (e.g., Acute Lymphoblastic Leukemia)\": {\n      \"Supporting facts\": \"Multifocal bone marrow replacing lesions (sternum, humerus) and systemic involvement of liver/spleen.\",\n      \"Arguments against\": \"Normal hematologic parameters (no mention of anemia, thrombocytopenia, or neutropenia in the clinical summary).\",\n      \"Support level\": \"Well-supported\"\n    },\n    \"Sarcoidosis\": {\n      \"Supporting facts\": \"Multifocal granulomatous involvement of bone and viscera (liver/spleen).\",\n      \"Arguments against\": \"Extremely rare in an 11-year-old; lack of pulmonary hilar lymphadenopathy.\",\n      \"Support level\": \"Unsupported\"\n    },\n    \"Chronic nonbacterial osteomyelitis\": {\n      \"Supporting facts\": \"Multifocal bone lesions in a pediatric patient; waxing and waning course.\",\n      \"Arguments against\": \"Does not typically cause discrete, enhancing focal hepatic and splenic lesions.\",\n      \"Support level\": \"Weakly supported\"\n    },\n    \"Primary Bone Cancer (Osteosarcoma or Ewing\u2019s Sarcoma)\": {\n      \"Supporting facts\": \"Skeletal lesions in an 11-year-old.\",\n      \"Arguments against\": \"Multiple, multifocal, widely distributed lesions (liver, spleen, sternum, humerus) are much more consistent with metastasis or systemic disease than multifocal primary bone sarcomas.\",\n      \"Support level\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Bartonella henselae infection (Cat-scratch disease): High suspicion given the new kitten and multifocal hepatic/splenic/bone marrow involvement.\",\n    \"Metastatic Neuroblastoma: Often presents with multifocal bone and liver/visceral lesions in children.\",\n    \"Brucellosis: Known to cause multifocal osteomyelitis and liver/spleen granulomas.\"\n  ],\n  \"Evaluation of Each Proposed Next Step\": {\n    \"Start immunosuppressive therapy\": \"Harmful/Contraindicated: Contraindicated until infection and malignancy are definitively ruled out, as it could exacerbate an occult infection.\",\n    \"Initiate empiric broad-spectrum IV antibiotics\": \"Reasonable: Given the history of MRSA, but should be secondary to obtaining tissue/culture samples.\",\n    \"Bone biopsy\": \"Reasonable: Necessary for definitive histopathologic diagnosis.\",\n    \"Order oncologic staging (PET-CT, repeated CT scans)\": \"Reasonable: Useful to define the full extent of disease.\"\n  },\n  \"Missing Next Steps\": [\n    \"Serologic testing for Bartonella henselae (IgM/IgG).\",\n    \"Complete blood count (CBC) with peripheral blood smear and LDH levels to screen for malignancy.\",\n    \"Bone marrow aspiration and biopsy.\",\n    \"Liver biopsy (given the accessibility of the lesions seen on imaging).\"\n  ],\n  \"Open Questions\": [\n    \"What were the complete blood count (CBC) and inflammatory marker (ESR/CRP) results?\",\n    \"What is the histopathologic appearance of the bone or liver lesion?\",\n    \"Are there Bartonella henselae titers available?\"\n  ]\n}\n```",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Bartonella henselae infection (Disseminated Cat-Scratch Disease)",
+    "Langerhans-cell histiocytosis (Multifocal)",
+    "Leukemia (e.g., Acute Lymphoblastic Leukemia or AML)",
+    "Metastatic Neuroblastoma",
+    "Brucellosis",
+    "Chronic nonbacterial osteomyelitis (CNO/CRMO)",
+    "Tuberculosis (Disseminated/Pott disease with visceral involvement)"
+  ],
+  "next_steps": [
+    "Perform serologic testing for Bartonella henselae (IgG and IgM).",
+    "Obtain complete blood count (CBC) with peripheral smear, ESR, CRP, and LDH levels.",
+    "Perform a biopsy of an accessible bone or liver lesion for culture (bacterial, fungal, mycobacterial) and histopathology.",
+    "Order bone marrow aspiration and biopsy to evaluate for hematologic malignancy.",
+    "Perform a cardiac echocardiogram to evaluate for endocarditis associated with Bartonella.",
+    "Initiate consultation with infectious disease and pediatric oncology services."
+  ]
+}

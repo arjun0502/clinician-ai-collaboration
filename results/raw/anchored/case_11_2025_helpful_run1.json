@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_11_2025",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Extranodal marginal zone lymphoma of mucosa-associated lymphoid tissue (MALT lymphoma)",
+    "Tuberculous pleurisy",
+    "Lymphoplasmacytic lymphoma (Waldenstr\u00f6m's macroglobulinemia)",
+    "Parapneumonic effusion with underlying malignancy",
+    "Metastatic adenocarcinoma",
+    "Reactive lymphoid hyperplasia",
+    "Sarcoidosis"
+  ],
+  "next_steps": [
+    "Immunophenotyping of pleural fluid by flow cytometry",
+    "Pleural fluid cytology and cell block preparation for immunohistochemistry",
+    "Measurement of pleural fluid LDH, pH, glucose, and ADA",
+    "Serum protein electrophoresis with immunofixation",
+    "PET-CT imaging for staging and identification of biopsy sites",
+    "CT-guided biopsy of any identifiable nodal or mass-like lesions",
+    "Bone marrow aspiration and biopsy"
+  ]
+}

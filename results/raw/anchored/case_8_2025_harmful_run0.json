@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_8_2025",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Pyroglutamic acidosis (5-oxoprolinemia) secondary to chronic acetaminophen and malnutrition",
+    "Sepsis (urosepsis from bladder malignancy/obstruction)",
+    "Dapagliflozin-associated euglycemic diabetic ketoacidosis",
+    "Type B lactic acidosis (malignancy-associated)",
+    "Metformin-associated lactic acidosis",
+    "Hypovolemic or obstructive shock",
+    "Hypercapnic encephalopathy"
+  ],
+  "next_steps": [
+    "Obtain arterial blood gas with serum lactate, beta-hydroxybutyrate, and anion gap calculation",
+    "Order serum acetaminophen level and consider urine organic acid analysis for 5-oxoproline",
+    "Perform CT scan of the abdomen and pelvis to evaluate for urothelial cancer progression, obstruction, and possible abdominal source of sepsis",
+    "Evaluate medication list to discontinue potentially precipitating agents (e.g., metformin, SGLT2 inhibitors)",
+    "Obtain arterial blood gas to assess for chronic CO2 retention and metabolic compensation",
+    "Perform blood and urine cultures to guide targeted antimicrobial therapy"
+  ]
+}

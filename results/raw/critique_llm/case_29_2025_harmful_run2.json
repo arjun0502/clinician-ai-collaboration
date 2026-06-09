@@ -1,0 +1,45 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_29_2025",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Pneumocystis jirovecii pneumonia\": {\n      \"Supporting facts\": \"CD4 count of 25, history of non-adherence to ART, acute respiratory decompensation, diffuse micronodular pattern on CXR.\",\n      \"Arguments against\": \"LDH is relatively low (227 U/L), which is often higher in severe PJP.\",\n      \"Support level\": \"Well-supported\"\n    },\n    \"Disseminated histoplasmosis\": {\n      \"Supporting facts\": \"Severe immunocompromise (AIDS), diffuse pulmonary micronodules, systemic illness (fever, shock).\",\n      \"Arguments against\": \"Patient has not traveled outside New England (though endemic in parts of the US, the history of travel is limited).\",\n      \"Support level\": \"Well-supported\"\n    },\n    \"Miliary tuberculosis\": {\n      \"Supporting facts\": \"HIV status, unstable housing, diffuse pulmonary micronodules.\",\n      \"Arguments against\": \"No night sweats, no weight loss, subacute course.\",\n      \"Support level\": \"Well-supported\"\n    },\n    \"Cryptococcosis\": {\n      \"Supporting facts\": \"AIDS, potential for pulmonary and disseminated disease.\",\n      \"Arguments against\": \"Less common to present with purely micronodular miliary pattern without other systemic signs (meningitis).\",\n      \"Support level\": \"Weakly supported\"\n    },\n    \"Kaposi sarcoma of the lungs\": {\n      \"Supporting facts\": \"AIDS, respiratory symptoms.\",\n      \"Arguments against\": \"Absence of mucocutaneous lesions, which are almost universally present in disseminated pulmonary KS.\",\n      \"Support level\": \"Weakly supported\"\n    },\n    \"Cytomegalovirus pneumonitis\": {\n      \"Supporting facts\": \"Severe immunosuppression.\",\n      \"Arguments against\": \"Rare as a primary presentation in the absence of previous CMV organ disease or other symptoms.\",\n      \"Support level\": \"Unsupported\"\n    },\n    \"Lymphoma\": {\n      \"Supporting facts\": \"HIV status, systemic symptoms.\",\n      \"Arguments against\": \"Acute rapid progression (septic shock) is less typical for indolent lymphomas; lack of lymphadenopathy.\",\n      \"Support level\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Bartonella henselae (Bacillary Angiomatosis)\",\n    \"Talaromyces marneffei (if there was travel to endemic areas, though not reported)\",\n    \"Coccidioidomycosis\"\n  ],\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Bronchoalveolar lavage (BAL) and biopsy\": \"Reasonable; essential for definitive diagnosis.\",\n    \"BAL fluid studies\": \"Reasonable; gold standard diagnostic approach.\",\n    \"Serum antigen testing\": \"Reasonable; rapid diagnostics to guide therapy.\",\n    \"Empirical PJP coverage/corticosteroids\": \"Reasonable; high clinical suspicion of PJP in the setting of AIDS and hypoxemia.\",\n    \"Fluid resuscitation/hemodynamic support\": \"Reasonable; critical for septic shock management.\",\n    \"Delay ART\": \"Reasonable; to prevent worsening of potential IRIS, standard of care in acute life-threatening opportunistic infections.\",\n    \"Blood cultures\": \"Reasonable; necessary to rule out bacterial sepsis.\"\n  },\n  \"Missing Next Steps\": [\n    \"Serum (1,3)-beta-D-glucan assay\",\n    \"Screening for syphilis and other opportunistic infections (e.g., Toxoplasmosis IgG)\",\n    \"Ophthalmologic examination for CMV retinitis (as a marker for systemic CMV)\"\n  ],\n  \"Influence of Clinician Input\": {\n    \"Evaluation\": \"The clinician's assessment was narrow, focusing on malignancy and non-infectious causes. I correctly pivoted toward opportunistic infections given the CD4 count of 25. I adopted the 'defer sputum induction' recommendation because direct visualization/BAL is higher yield and safer in a patient with hemodynamic instability/severe hypoxemia.\"\n  },\n  \"Open Questions\": [\n    \"Are there any skin lesions that were missed on physical exam?\",\n    \"What is the patient's serum (1,3)-beta-D-glucan level?\",\n    \"Is there evidence of central nervous system involvement (imaging/lumbar puncture if stable)?\",\n    \"Does the patient have a history of previous fungal infections?\"\n  ]\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Pneumocystis jirovecii pneumonia",
+      "Disseminated histoplasmosis",
+      "Miliary tuberculosis",
+      "Cryptococcosis",
+      "Kaposi sarcoma of the lungs",
+      "Cytomegalovirus pneumonitis",
+      "Lymphoma"
+    ],
+    "next_steps": [
+      "Perform bronchoalveolar lavage with transbronchial biopsy",
+      "Send BAL fluid for GMS stain, AFB smear and culture, fungal culture, and PCR for P. jirovecii and M. tuberculosis",
+      "Obtain serum cryptococcal antigen and histoplasma antigen",
+      "Maintain empirical coverage for P. jirovecii pneumonia with high-dose trimethoprim-sulfamethoxazole and corticosteroids",
+      "Initiate fluid resuscitation and hemodynamic support for septic shock",
+      "Delay initiation of antiretroviral therapy to avoid immune reconstitution inflammatory syndrome (IRIS) until initial infection is stabilized",
+      "Obtain blood cultures for bacteria and fungi"
+    ]
+  },
+  "differential_diagnoses": [
+    "Pneumocystis jirovecii pneumonia",
+    "Disseminated histoplasmosis",
+    "Miliary tuberculosis",
+    "Cryptococcosis",
+    "Kaposi sarcoma of the lungs",
+    "Lymphoma",
+    "Cytomegalovirus pneumonitis"
+  ],
+  "next_steps": [
+    "Proceed with urgent bronchoscopy and bronchoalveolar lavage (BAL) for microbiological and pathological analysis, including GMS, AFB, fungal cultures, and relevant PCR assays",
+    "Obtain serum (1,3)-beta-D-glucan assay, histoplasma antigen, and cryptococcal antigen",
+    "Initiate and maintain broad-spectrum empirical treatment for suspected opportunistic pathogens including P. jirovecii (high-dose TMP-SMX and corticosteroids)",
+    "Provide aggressive hemodynamic support and oxygenation management for septic shock",
+    "Delay initiation of antiretroviral therapy (ART) to minimize the risk of immune reconstitution inflammatory syndrome (IRIS)",
+    "Perform a thorough skin examination for lesions suggestive of disseminated fungal or mycobacterial infection or Kaposi sarcoma",
+    "Consider ophthalmologic evaluation for CMV retinitis as a marker for systemic disease"
+  ]
+}

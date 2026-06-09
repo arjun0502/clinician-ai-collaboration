@@ -1,0 +1,24 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_3_2025",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Clinician Diagnosis\": {\n    \"Athlete's heart\": {\n      \"Support\": \"Lifelong history of vigorous aerobic exercise.\",\n      \"Against\": \"Presence of progressive symptomatic heart failure, new pathologic Q-waves, T-wave inversions, Kussmaul\u2019s sign, elevated jugular venous pressure, and significant structural abnormalities (midwall LGE, symmetric wall thickening, atrial dilation).\",\n      \"Assessment\": \"Unsupported\"\n    },\n    \"Hypertrophic cardiomyopathy\": {\n      \"Support\": \"Symmetric ventricular thickening and mild mitral regurgitation.\",\n      \"Against\": \"Negative genetic panel; lack of familial evidence on screening; progressive restrictive physiology (biatrial enlargement, elevated JVP, Kussmaul's sign) that is atypical for classic HCM; development of findings at age 54 is atypical.\",\n      \"Assessment\": \"Weakly supported\"\n    },\n    \"Noninfiltrative restrictive cardiomyopathy\": {\n      \"Support\": \"Clinical presentation of exertional dyspnea, exercise intolerance, and signs of right heart failure (elevated JVP, Kussmaul\u2019s sign).\",\n      \"Against\": \"Does not explain the specific phenotypic features like the angiomas, hoarseness, or the rapid progression from normal to 18mm wall thickness.\",\n      \"Assessment\": \"Well-supported (as a clinical state, though etiology remains elusive)\"\n    },\n    \"Sarcoidosis\": {\n      \"Support\": \"T-wave inversions, conduction abnormalities, and LGE are consistent with cardiac sarcoid.\",\n      \"Against\": \"No evidence of pulmonary involvement on CXR/spirometry; rapid progression of severe wall thickening is more characteristic of storage diseases than granulomatous inflammation.\",\n      \"Assessment\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": {\n    \"Cardiac Amyloidosis (specifically Transthyretin/ATTR)\": \"Highly suspicious due to 'athlete's heart' phenotype in a middle-aged male, symmetric wall thickening, restrictive physiology, discordance between QRS voltage and wall thickness (low voltage), and multisystem involvement clues (hoarseness/vocal cord amyloid, skin angiomas, history of rotator cuff surgery/carpal tunnel syndrome association).\",\n    \"Fabry Disease\": \"Supported by the midwall/basal LGE pattern, symmetric hypertrophy, and exercise intolerance in a middle-aged male.\"\n  },\n  \"Evaluation of Each Proposed Next Step\": {\n    \"Repeat Transthoracic Echocardiogram in 1 Month\": \"Unreasonable; the patient is symptomatic and clearly worsening; diagnostic delay is inappropriate.\",\n    \"Order a Whole-Body PET-CT\": \"Reasonable if suspecting sarcoidosis, but lower yield for amyloidosis or storage diseases.\",\n    \"Empirically Start High-Dose Steroids\": \"Harmful; contraindicated without a confirmed diagnosis (e.g., biopsy-proven sarcoidosis), as they would be ineffective for amyloidosis and potentially harmful in other infiltrative processes.\",\n    \"Schedule an Endomyocardial Biopsy\": \"Reasonable, but should be preceded by non-invasive testing (e.g., PYP scan for ATTR amyloidosis) which is significantly safer and higher yield for the most likely diagnosis.\"\n  },\n  \"Missing Next Steps\": {\n    \"Technetium-99m pyrophosphate (PYP) scan\": \"Essential to evaluate for ATTR cardiac amyloidosis.\",\n    \"Serum and urine protein electrophoresis with immunofixation (SPEP/UPEP/IFE) and free light chains\": \"Required to rule out AL amyloidosis (a hematologic emergency).\",\n    \"Cardiac MRI mapping\": \"Specifically T1/T2 mapping and extracellular volume (ECV) quantification to characterize the myocardial tissue.\"\n  },\n  \"Open Questions\": {\n    \"Questions\": [\n      \"What were the results of the serum and urine protein electrophoresis?\",\n      \"Was the patient screened for carpal tunnel syndrome (a common precursor to ATTR)?\",\n      \"Have skin biopsies of the angiomas been performed to look for systemic deposition?\"\n    ]\n  }\n}\n```",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Transthyretin Cardiac Amyloidosis (ATTR)",
+    "Fabry Disease",
+    "Light-chain (AL) Amyloidosis",
+    "Cardiac Sarcoidosis",
+    "Hypertrophic Cardiomyopathy (phenocopy)",
+    "Hemochromatosis"
+  ],
+  "next_steps": [
+    "Serum and urine protein electrophoresis with immunofixation and serum free light chain assay",
+    "Technetium-99m pyrophosphate (PYP) scintigraphy",
+    "Echocardiographic strain imaging (specifically apical sparing pattern)",
+    "Genetic testing for TTR mutation (hereditary ATTR) and GLA gene (Fabry disease)",
+    "Cardiac MRI with T1 and T2 mapping and extracellular volume (ECV) quantification",
+    "Dermatologic biopsy of truncal angiomas"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_17_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Strongyloides stercoralis hyperinfection syndrome",
+    "Capnocytophaga canimorsus sepsis",
+    "Disseminated histoplasmosis",
+    "Pneumocystis jirovecii pneumonia",
+    "Cytomegalovirus pneumonitis",
+    "Nocardiosis",
+    "Tuberculosis"
+  ],
+  "next_steps": [
+    "Microscopic examination of stool and tracheal aspirate for Strongyloides larvae",
+    "Skin biopsy of the purpuric lesions for histopathology and tissue culture",
+    "Bronchoalveolar lavage with fungal and bacterial cultures, silver stain, and PCR",
+    "Empiric treatment for Strongyloides with ivermectin",
+    "Serum testing for Strongyloides IgG antibodies",
+    "Evaluation for occult gastrointestinal perforation given the persistent ileus and abdominal distention"
+  ]
+}

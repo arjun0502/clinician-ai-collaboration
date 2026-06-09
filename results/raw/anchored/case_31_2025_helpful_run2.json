@@ -1,0 +1,27 @@
+{
+  "condition": "anchored",
+  "case_id": "case_31_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Enteropathy-associated T-cell lymphoma (EATL)",
+    "Common variable immunodeficiency (CVID) with associated enteropathy",
+    "Crohn's disease with jejuno-colonic fistula",
+    "Primary intestinal T-cell lymphoma",
+    "Autoimmune enteropathy",
+    "Whipple's disease (refractory/atypical)",
+    "Small intestinal adenocarcinoma",
+    "Infectious enteritis due to hypogammaglobulinemia"
+  ],
+  "next_steps": [
+    "Surgical consultation for management of jejunal aneurysmal dilation and suspected perforation risk",
+    "Double-balloon enteroscopy with deep biopsy of the suspicious jejunal segments",
+    "Immunophenotyping of intestinal biopsy specimens (CD3, CD8, CD4, CD56, TIA-1, granzyme B, EBER)",
+    "T-cell receptor (TCR) gene rearrangement studies on intestinal tissue",
+    "CT-guided biopsy or exploratory laparotomy if endoscopic access is insufficient for definitive diagnosis",
+    "Repeat serum immunoglobulin quantification and lymphocyte subset analysis",
+    "Bone marrow biopsy and aspirate to evaluate for systemic involvement of lymphoid malignancy"
+  ]
+}

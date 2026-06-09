@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_26_2025",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Chronic recurrent multifocal osteomyelitis (CRMO)",
+    "Bartonella henselae infection (Cat-scratch disease)",
+    "Langerhans cell histiocytosis",
+    "Metastatic malignancy (e.g., Ewing sarcoma, neuroblastoma)",
+    "Leukemia",
+    "Disseminated fungal infection",
+    "Sarcoidosis"
+  ],
+  "next_steps": [
+    "Bone biopsy of the humeral lesion for histopathology and microbial culture",
+    "Bartonella henselae serology (IgG and IgM) and PCR testing",
+    "Serum inflammatory markers (ESR, CRP)",
+    "Quantiferon Gold or T-SPOT.TB test",
+    "Blood cultures and autoimmune/inflammatory workup",
+    "Discuss with pediatric infectious disease and pediatric oncology specialists"
+  ]
+}

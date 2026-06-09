@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_29_2024",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Legionella pneumophila pneumonia with rhabdomyolysis",
+    "Influenza-associated pneumonia and rhabdomyolysis",
+    "Streptococcal pneumonia with associated rhabdomyolysis",
+    "Myocarditis or systemic inflammatory response with multi-organ failure",
+    "Toxin-induced rhabdomyolysis (herbal supplements)",
+    "Acute interstitial nephritis and myositis",
+    "Immune-mediated necrotizing myopathy"
+  ],
+  "next_steps": [
+    "Legionella urinary antigen testing",
+    "Urgent hemodialysis for severe acute kidney injury, hyperkalemia, and acidosis",
+    "Continuous renal replacement therapy initiation",
+    "Broad-spectrum antimicrobial coverage adjustment (fluoroquinolone for Legionella)",
+    "Serial monitoring of creatinine kinase and cardiac enzymes",
+    "Influenza PCR and respiratory viral panel",
+    "Infectious disease and nephrology consultation"
+  ]
+}

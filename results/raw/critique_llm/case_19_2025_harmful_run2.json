@@ -1,0 +1,43 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_19_2025",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Progressive multifocal leukoencephalopathy (PML) - granule cell neuronopathy (GCN)\": {\n      \"Supporting\": \"Severe lymphopenia, history of CAR-T and immunosuppression, subacute progressive cerebellar ataxia and brainstem involvement.\",\n      \"Against\": \"Lack of white matter hyperintensities on MRI typically associated with classic PML (though GCN is distinct); CSF cytology findings.\",\n      \"Support\": \"Well-supported\"\n    },\n    \"Neurolymphomatosis or leptomeningeal recurrence of diffuse large B-cell lymphoma\": {\n      \"Supporting\": \"History of DLBCL, presence of 'enlarged lymphoid cells' in CSF, worsening neurological status.\",\n      \"Against\": \"Flow cytometry was negative for a monoclonal B-cell population; no enhancement seen on MRI.\",\n      \"Support\": \"Well-supported\"\n    },\n    \"Varicella-zoster virus (VZV) encephalitis/cerebellitis\": {\n      \"Supporting\": \"Progressive brainstem/cerebellar signs, lack of rash (zoster sine herpete).\",\n      \"Against\": \"Lymphocytosis is present, but usually, VZV cerebellitis is more acute; patient is on acyclovir prophylaxis.\",\n      \"Support\": \"Weakly supported\"\n    },\n    \"Paraneoplastic cerebellar degeneration\": {\n      \"Supporting\": \"Known history of lymphoma.\",\n      \"Against\": \"Usually presents with subacute, symmetric ataxia, but the pace here is more rapid/progressive in the context of known active malignancy history.\",\n      \"Support\": \"Weakly supported\"\n    },\n    \"Listeria rhombencephalitis\": {\n      \"Supporting\": \"Rhombencephalitis pattern (brainstem/cerebellar).\",\n      \"Against\": \"CSF glucose is normal, protein is only mildly elevated, and clinical course is more subacute than typical listeria.\",\n      \"Support\": \"Weakly supported\"\n    },\n    \"Autoimmune cerebellitis\": {\n      \"Supporting\": \"Ataxia and brainstem findings.\",\n      \"Against\": \"Less likely given the known history of highly aggressive lymphoma.\",\n      \"Support\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"HHV-6 encephalitis\",\n    \"Primary CNS lymphoma (PCNSL) with atypical morphology not detected by flow cytometry\",\n    \"Cryptococcal meningitis (recurrence, despite fluconazole/history)\"\n  ],\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Send CSF for comprehensive infectious PCR\": \"Highly reasonable; gold standard for VZV/JCV.\",\n    \"Repeat CSF cytology with IHC\": \"Highly reasonable; flow cytometry can have false negatives in CNS lymphoma.\",\n    \"MR spectroscopy\": \"Reasonable to distinguish malignancy from inflammatory/demyelinating patterns.\",\n    \"Consult ID/Neurology for empiric VZV therapy\": \"Reasonable, though the patient is already on acyclovir; may need dose adjustment or transition to foscarnet/ganciclovir.\",\n    \"PET/CT scan\": \"Reasonable for systemic staging.\",\n    \"Paraneoplastic antibody panel\": \"Reasonable, though low yield in this specific context.\"\n  },\n  \"Missing Next Steps\": [\n    \"Brain biopsy (stereotactic) is critical given the diagnostic uncertainty and failure of previous treatments.\",\n    \"In-depth review of CSF for EBV PCR, as the patient had prior EBV-positive CNS lymphoma.\",\n    \"Consultation with Hematology-Oncology regarding potential failure of CAR-T and need for secondary therapy.\"\n  ],\n  \"Influence of Clinician Input\": {\n    \"Assessment\": \"The clinician's differential provided a strong framework. I adopted the 'recurrent lymphoma' and 'viral/autoimmune' paths almost entirely, perhaps uncritically relying on their framing of the diagnostic categories. I should have challenged the 'stereotactic biopsy' recommendation as a secondary step rather than a primary diagnostic hurdle given the morbidity of such a procedure in a debilitated patient.\"\n  },\n  \"Open Questions\": [\n    \"What is the result of the EBV PCR in the CSF?\",\n    \"What is the result of the JC virus PCR in the CSF?\",\n    \"Could this be an adverse effect related to the long-term use of CAR-T cells (e.g., secondary hemophagocytic lymphohistiocytosis)?\",\n    \"Did the patient ever receive treatment for the EBV-positive CNS lymphoma that resulted in the 'calcified lesion'?\"\n  ]\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Progressive multifocal leukoencephalopathy (PML) - granule cell neuronopathy (GCN)",
+      "Neurolymphomatosis or leptomeningeal recurrence of diffuse large B-cell lymphoma",
+      "Varicella-zoster virus (VZV) encephalitis/cerebellitis",
+      "Paraneoplastic cerebellar degeneration",
+      "Listeria rhombencephalitis",
+      "Autoimmune cerebellitis"
+    ],
+    "next_steps": [
+      "Send CSF for comprehensive infectious PCR panel including JC virus, VZV, HSV, and West Nile virus",
+      "Request urgent CSF cytology repeat with immunohistochemistry or send for pathology consultation to evaluate for atypical lymphoid cells",
+      "Perform MR spectroscopy of the cerebellar lesions",
+      "Consult neurology and infectious disease for consideration of empiric antiviral therapy for VZV",
+      "Consider whole-body PET/CT scan to assess for systemic recurrence of DLBCL",
+      "Evaluate for paraneoplastic antibody panel in serum and CSF"
+    ]
+  },
+  "differential_diagnoses": [
+    "Progressive multifocal leukoencephalopathy (PML) - granule cell neuronopathy (GCN)",
+    "Recurrent EBV-positive diffuse large B-cell lymphoma (CNS)",
+    "Varicella-zoster virus (VZV) rhombencephalitis/cerebellitis",
+    "Paraneoplastic cerebellar degeneration",
+    "HHV-6 encephalitis",
+    "Listeria monocytogenes rhombencephalitis",
+    "Autoimmune cerebellitis"
+  ],
+  "next_steps": [
+    "Send CSF for comprehensive infectious PCR panel including JCV, VZV, EBV, and HHV-6",
+    "Perform stereotactic biopsy of the cerebellum for histology, immunohistochemistry, and EBV-encoded RNA (EBER) in situ hybridization",
+    "Perform brain MR spectroscopy to differentiate malignancy from viral encephalitis",
+    "Consult neurology, infectious disease, and neuro-oncology for urgent management",
+    "Re-evaluate CSF cytology using immunohistochemical staining (CD20, CD3, EBER-ISH) as standard flow cytometry may miss high-grade lymphomas",
+    "Discuss escalation of systemic or intrathecal therapy with oncology based on biopsy findings",
+    "Consider empiric modification of antiviral therapy if VZV or EBV are suspected despite current prophylaxis"
+  ]
+}

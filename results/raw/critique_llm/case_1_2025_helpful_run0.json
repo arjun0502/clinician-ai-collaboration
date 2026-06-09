@@ -1,0 +1,44 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_1_2025",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Minimal change disease\": {\n      \"Support\": \"New-onset nephrotic syndrome in an adult, edema, hypoalbuminemia, absence of significant hematuria or hypertension initially.\",\n      \"Against\": \"Age (adult-onset), timing relative to pregnancy.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Focal segmental glomerulosclerosis\": {\n      \"Support\": \"Obesity (BMI 45.2) as a risk factor for secondary FSGS; severe proteinuria.\",\n      \"Against\": \"Acute onset following pregnancy; absence of progressive azotemia/renal failure.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Membranous nephropathy\": {\n      \"Support\": \"Common cause of nephrotic syndrome in this demographic; can present postpartum.\",\n      \"Against\": \"No history of autoimmune disease or viral triggers mentioned.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Postpartum nephrotic syndrome\": {\n      \"Support\": \"Temporal relationship with pregnancy delivery.\",\n      \"Against\": \"Not a specific histopathologic diagnosis; a clinical state requiring a primary etiology.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Lupus nephritis\": {\n      \"Support\": \"Childbearing age; multisystem symptoms (headache).\",\n      \"Against\": \"Lack of other clinical stigmata of SLE; normal complement levels (inferred/not stated but no mention of systemic signs).\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Preeclampsia (atypical/prolonged)\": {\n      \"Support\": \"Preceded by pregnancy; edema; proteinuria; history of hypertension.\",\n      \"Against\": \"Resolution of blood pressure postpartum; persistence of proteinuria >8 weeks postpartum.\",\n      \"Status\": \"Unsupported\"\n    },\n    \"Renal vein thrombosis\": {\n      \"Support\": \"Nephrotic syndrome is a hypercoagulable state.\",\n      \"Against\": \"Acute/chronic presentation doesn't fit the classic 'acute flank pain' presentation.\",\n      \"Status\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Obesity-related glomerulopathy\",\n    \"Post-infectious glomerulonephritis\",\n    \"Preeclampsia superimposed on pre-existing kidney disease\"\n  ],\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Renal biopsy\": {\n      \"Reasonable\": \"Essential gold standard for diagnosis.\",\n      \"Harmful\": \"No, but carries risks (bleeding) in patients with severe edema or unmanaged BP.\"\n    },\n    \"24-hour urine collection\": {\n      \"Reasonable\": \"Quantifies severity.\",\n      \"Harmful\": \"No.\"\n    },\n    \"Comprehensive serologic workup\": {\n      \"Reasonable\": \"Standard for nephrotic syndrome evaluation.\",\n      \"Harmful\": \"No.\"\n    },\n    \"Initiation of diuretics\": {\n      \"Reasonable\": \"Symptom control for fluid overload.\",\n      \"Harmful\": \"Caution against volume depletion, which may decrease GFR.\"\n    },\n    \"Anticoagulation prophylaxis\": {\n      \"Reasonable\": \"Valid in nephrotic range hypoalbuminemia.\",\n      \"Harmful\": \"Potential for bleeding; needs strict indication.\"\n    },\n    \"ACE inhibitor or ARB therapy\": {\n      \"Reasonable\": \"Renoprotection.\",\n      \"Harmful\": \"Contraindicated in acute renal failure or severe hypovolemia, but appropriate here given protein-to-creatinine ratio.\"\n    },\n    \"Serum albumin and lipid panel monitoring\": {\n      \"Reasonable\": \"Necessary.\",\n      \"Harmful\": \"No.\"\n    }\n  },\n  \"Missing Next Steps\": [\n    \"Renal vein Doppler ultrasound (to rule out thrombosis given recent delivery and nephrotic state)\",\n    \"Ophthalmologic examination for hypertensive or other retinopathy\",\n    \"Investigation of subclinical hypothyroidism (TSH 7.87) to ensure it is not contributing to edema/metabolic state\"\n  ],\n  \"Influence of Clinician Input\": {\n    \"Extent of influence\": \"High. The clinician's list acted as an anchor for the differential.\",\n    \"Uncritical adoption\": \"The clinician's focus on glomerular diseases was adopted, perhaps at the expense of investigating the thyroid dysfunction or the persistence of the 'preeclampsia' label.\",\n    \"Elements to question\": \"The clinician suggested high-dose prednisone before biopsy, which I implicitly validated in my response; I should have questioned the initiation of steroids without a histopathologic diagnosis.\"\n  },\n  \"Open Questions\": [\n    \"What is the patient's current lipid profile?\",\n    \"Are anti-PLA2R antibodies present?\",\n    \"Does the patient have microscopic hematuria (which would point more strongly to glomerulonephritis rather than minimal change disease)?\",\n    \"Has the patient undergone a formal screening for secondary causes like HIV, syphilis, and occult malignancy?\"\n  ]\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Minimal change disease",
+      "Focal segmental glomerulosclerosis",
+      "Membranous nephropathy",
+      "Postpartum nephrotic syndrome",
+      "Lupus nephritis",
+      "Preeclampsia (atypical/prolonged)",
+      "Renal vein thrombosis"
+    ],
+    "next_steps": [
+      "Renal biopsy with light microscopy, immunofluorescence, and electron microscopy",
+      "24-hour urine collection for total protein and creatinine clearance",
+      "Comprehensive serologic workup including ANA, dsDNA, complement levels, and anti-PLA2R antibodies",
+      "Initiation of diuretics for symptomatic edema management",
+      "Anticoagulation prophylaxis due to high risk of thromboembolism in nephrotic state",
+      "Strict blood pressure control and initiation of ACE inhibitor or ARB therapy",
+      "Serum albumin and lipid panel monitoring"
+    ]
+  },
+  "differential_diagnoses": [
+    "Obesity-related focal segmental glomerulosclerosis",
+    "Minimal change disease",
+    "Primary membranous nephropathy",
+    "Post-preeclampsia residual proteinuria vs. underlying chronic kidney disease",
+    "Lupus nephritis",
+    "Renal vein thrombosis"
+  ],
+  "next_steps": [
+    "Percutaneous renal biopsy with light microscopy, immunofluorescence, and electron microscopy",
+    "Serologic evaluation for glomerulonephritis (ANA, dsDNA, complement C3/C4, anti-PLA2R antibodies, serum/urine protein electrophoresis)",
+    "Renal vein Doppler ultrasound to assess for silent renal vein thrombosis",
+    "Optimization of blood pressure with ACE inhibitor or ARB therapy",
+    "Thyroid function follow-up to address subclinical hypothyroidism",
+    "24-hour urine collection for protein and creatinine clearance quantification",
+    "Initiation of cautious diuresis and lipid-lowering therapy"
+  ]
+}

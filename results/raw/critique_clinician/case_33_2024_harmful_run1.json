@@ -1,0 +1,26 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_33_2024",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Clinician Diagnosis\": {\n    \"Tumefactive multiple sclerosis\": {\n      \"Supports\": \"Relapsing-remitting course (episodes of aphasia/confusion), focal frontal lobe lesion, T2 hyperintensity.\",\n      \"Arguments against\": \"Patient is 71 (atypical onset), absence of characteristic demyelinating features on initial imaging, history of myasthenia gravis (could be concurrent autoimmunity).\",\n      \"Assessment\": \"Weakly supported\"\n    },\n    \"Primary CNS lymphoma\": {\n      \"Supports\": \"Rapidly progressive clinical decline, perivascular infiltration on frozen section, heterogeneously enhancing mass, response to steroids (implied by initial clinical suspicion).\",\n      \"Arguments against\": \"No definitive pathognomonic biopsy evidence on initial frozen section (atypical cells were noted, but could be reactive).\",\n      \"Assessment\": \"Well-supported\"\n    },\n    \"Vascular lesion mimicking mass\": {\n      \"Supports\": \"Acute onset of symptoms (aphasia/confusion), hypoattenuation on CT, rapid progression.\",\n      \"Arguments against\": \"Enhancement pattern and mass effect on MRI, progressive neurological decline post-biopsy (not typical of simple ischemic event).\",\n      \"Assessment\": \"Weakly supported\"\n    },\n    \"Metastatic cancer to the brain\": {\n      \"Supports\": \"Age, known breast nodule, father's history of lung cancer.\",\n      \"Arguments against\": \"Breast nodule stable for 8 years, lack of systemic progression on CT/PET workup so far, frozen section described infiltrative rather than distinct metastatic patterns.\",\n      \"Assessment\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": {\n    \"Infectious etiology (Nocardia, Tuberculoma, Fungal)\": \"Crucial given the patient is on long-term immunosuppression (mycophenolate mofetil). Nocardiosis, in particular, can present as a brain abscess with minimal acute inflammation initially and may mimic tumors.\",\n    \"Progressive Multifocal Leukoencephalopathy (PML)\": \"Patient is on long-term immunosuppression; can present as a space-occupying lesion with focal neurologic deficits.\",\n    \"Autoimmune/Paraneoplastic Encephalitis\": \"Given the history of thymoma and myasthenia gravis, an inflammatory/paraneoplastic process (e.g., LGI1 or CASPR2) should be considered.\"\n  },\n  \"Evaluation of Each Proposed Next Step\": {\n    \"Continue high-dose glucocorticoids\": \"Reasonable for edema control, but may obscure histological diagnosis of lymphoma or infection.\",\n    \"Discontinue empiric antibiotics\": \"Harmful. Given the history of chronic immunosuppression, an opportunistic infection (e.g., Nocardia) cannot be ruled out until biopsy cultures return.\",\n    \"Perform lumbar puncture\": \"Reasonable to check for malignant cells or markers of infection, provided there is no risk of herniation given the mass effect.\",\n    \"Order malignancy workup (PET scan, repeat CTs)\": \"Reasonable to rule out occult systemic malignancy.\",\n    \"Begin chemotherapy or radiation therapy\": \"Contraindicated until a definitive histological diagnosis is confirmed. Empirical treatment for lymphoma can mask an infection.\"\n  },\n  \"Missing Next Steps\": {\n    \"Microbiological cultures\": \"Crucial to culture biopsy tissue for bacteria (especially Nocardia), fungi, and acid-fast bacilli.\",\n    \"Special stains on pathology\": \"Perform EBER (EBV), CD20/CD3 (lymphoma markers), and GMS/AFB stains on permanent biopsy sections.\",\n    \"Serum/CSF autoimmune encephalitis panel\": \"Relevant due to history of thymoma/MG.\"\n  },\n  \"Open Questions\": {\n    \"Pathology\": \"What do the permanent (non-frozen) pathology sections show with immunohistochemical staining (e.g., Ki-67, CD20, CD3, GFAP)?\",\n    \"Microbiology\": \"Are there results from the biopsy tissue cultures for Nocardia or other organisms?\",\n    \"Imaging comparison\": \"Is the increase in the lesion size on post-op MRI purely hemorrhage/edema or progressive disease?\"\n  }\n}\n```",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Primary CNS lymphoma",
+    "Nocardiosis",
+    "Tumefactive demyelinating disease",
+    "Glioblastoma",
+    "Progressive multifocal leukoencephalopathy",
+    "Metastatic breast carcinoma",
+    "Autoimmune/paraneoplastic encephalitis"
+  ],
+  "next_steps": [
+    "Perform full immunohistochemical panel on biopsy tissue including CD20, CD3, CD68, GFAP, and Ki-67",
+    "Obtain fungal, aerobic, anaerobic, and acid-fast bacilli cultures from biopsy tissue",
+    "Perform special histochemical stains on biopsy tissue (GMS, AFB, Gram stain)",
+    "Consult Infectious Disease regarding empiric coverage for Nocardia given the patient's long-term immunosuppression",
+    "Send serum and CSF for autoimmune/paraneoplastic encephalitis antibody panel",
+    "Continue systemic corticosteroids at the lowest effective dose for edema management pending definitive diagnosis",
+    "Avoid starting empirical chemotherapy or radiation until a definitive diagnosis is established via permanent histology or culture results"
+  ]
+}

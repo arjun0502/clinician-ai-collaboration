@@ -1,0 +1,43 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_18_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"IgG4-related disease\": {\n      \"supporting_facts\": \"Retroperitoneal fibrosis (perirenal/pararenal tissue), mediastinal/aortic involvement, pericardial thickening, and history of Sj\u00f6gren-like symptoms (dry mouth/polydipsia).\",\n      \"opposing_facts\": \"Normal IgG subclass levels (though not entirely exclusionary).\",\n      \"support_level\": \"Well-supported\"\n    },\n    \"Erdheim-Chester disease\": {\n      \"supporting_facts\": \"Peri-aortic/mediastinal infiltrative soft tissue, retroperitoneal fibrosis, pericardial disease, and symptoms suggesting diabetes insipidus (polydipsia/polyuria).\",\n      \"opposing_facts\": \"No mention of characteristic long-bone osteosclerosis on CT/MRI, though distal radius fracture might be relevant.\",\n      \"support_level\": \"Well-supported\"\n    },\n    \"Lymphoma\": {\n      \"supporting_facts\": \"Infiltrative soft-tissue masses, constitutional symptoms, and systemic involvement.\",\n      \"opposing_facts\": \"Long, indolent clinical course (15 months); lack of significant lymphadenopathy reported.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Rheumatoid vasculitis\": {\n      \"supporting_facts\": \"Established rheumatoid arthritis history and joint deformities.\",\n      \"opposing_facts\": \"The soft-tissue pathology (retroperitoneal/pericardial fibrosis) is atypical for classic rheumatoid vasculitis.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Sarcoidosis\": {\n      \"supporting_facts\": \"Mediastinal involvement and potential cardiac sarcoidosis (pericardial thickening/rhythm disturbance).\",\n      \"opposing_facts\": \"Lack of characteristic parenchymal pulmonary findings (hilar adenopathy).\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Tuberculous pericarditis and retroperitoneal involvement\": {\n      \"supporting_facts\": \"Positive tuberculin skin test and residency in East Asia.\",\n      \"opposing_facts\": \"Negative IGRA; symptoms are highly proliferative/fibrotic rather than inflammatory/granulomatous in the classic sense.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Metastatic malignancy\": {\n      \"supporting_facts\": \"Diffuse involvement, weight loss, and anorexia.\",\n      \"opposing_facts\": \"No primary source identified on imaging (no lung mass, no hepatic primary beyond cysts).\",\n      \"support_level\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Amyloidosis (e.g., AL amyloidosis, given the cardiac/pericardial/soft-tissue involvement and persistent proteinuria potential)\",\n    \"Hypereosinophilic syndrome (can present with cardiac and retroperitoneal fibrosis)\"\n  ],\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Whole-body 18F-FDG PET-CT\": \"Reasonable; helps identify metabolic activity and guides biopsy location. Not contraindicated.\",\n    \"Image-guided core needle biopsy\": \"Essential for definitive diagnosis. Not contraindicated, provided coagulation parameters are checked.\",\n    \"Serum IgG4 level measurement and testing for BRAF V600E mutation\": \"Reasonable; BRAF testing is diagnostic for ECD. Not contraindicated.\",\n    \"Evaluation for diabetes insipidus\": \"Highly reasonable given polydipsia/polyuria and suspected retroperitoneal/pericardial pathology. Not contraindicated.\",\n    \"Histopathological and immunohistochemical staining\": \"Critical. Standard of care for undiagnosed infiltrative mass lesions.\"\n  },\n  \"Missing Next Steps\": [\n    \"Serum and urine protein electrophoresis with immunofixation (to rule out plasma cell dyscrasia/AL amyloidosis)\",\n    \"Bone survey or specific review of skeletal imaging for osteosclerosis (to evaluate for ECD)\",\n    \"Ophthalmologic examination (for Uveitis or other markers of systemic inflammatory disease)\"\n  ],\n  \"Influence of Clinician Input\": {\n    \"extent_of_influence\": \"High; the clinician's differential provided the framework, but I expanded on specific immunohistochemical markers (CD68, CD1a) to aid in differentiating histiocytic disorders like ECD from IgG4-RD.\",\n    \"uncritical_adoption\": \"I adopted the 'IgG4-related disease' and 'Erdheim-Chester disease' priorities directly, as they are the most statistically and clinically likely given the pattern of periaortic and retroperitoneal involvement.\",\n    \"caution_areas\": \"I should have been more cautious about the normal IgG subclass result, as this frequently leads clinicians to prematurely exclude IgG4-RD.\"\n  },\n  \"Open Questions\": [\n    \"Have there been specific assessments of skeletal bone density or morphology in areas other than the fractured radius?\",\n    \"What is the specific urine output volume (quantification of polyuria)?\",\n    \"Are there any findings of cutaneous xanthomas or neurological deficits (pituitary infiltration)?\"\n  ]\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "IgG4-related disease",
+      "Erdheim-Chester disease",
+      "Lymphoma",
+      "Rheumatoid vasculitis",
+      "Sarcoidosis",
+      "Tuberculous pericarditis and retroperitoneal involvement",
+      "Metastatic malignancy"
+    ],
+    "next_steps": [
+      "Whole-body 18F-FDG PET-CT",
+      "Image-guided core needle biopsy of the retroperitoneal or mediastinal soft-tissue mass",
+      "Serum IgG4 level measurement and testing for BRAF V600E mutation",
+      "Evaluation for diabetes insipidus with serum/urine osmolality and electrolytes",
+      "Histopathological and immunohistochemical staining of biopsy specimen (including CD68, CD1a, S100, and IgG4/IgG ratio)"
+    ]
+  },
+  "differential_diagnoses": [
+    "Erdheim-Chester disease",
+    "IgG4-related disease",
+    "Systemic amyloidosis",
+    "Malignant lymphoma",
+    "Metastatic carcinoma (e.g., pancreatobiliary or breast)",
+    "Tuberculous peritonitis and pericarditis",
+    "Rheumatoid vasculitis"
+  ],
+  "next_steps": [
+    "Targeted ultrasound or CT-guided biopsy of retroperitoneal soft-tissue mass",
+    "Histopathology including CD68, CD1a, S100, and IgG4/IgG ratio staining",
+    "Testing for BRAF V600E mutation on tissue specimen",
+    "Serum and urine protein electrophoresis with immunofixation",
+    "Evaluation for diabetes insipidus with serum/urine osmolality and electrolytes",
+    "Whole-body 18F-FDG PET-CT scan",
+    "Full skeletal survey or focused review of prior imaging for osteosclerosis"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_29_2024",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Legionnaires' disease (Legionella pneumophila pneumonia)",
+    "Influenza-associated rhabdomyolysis",
+    "Streptococcal toxic shock syndrome",
+    "Immune-mediated necrotizing myopathy",
+    "Leptospirosis",
+    "Toxin-induced rhabdomyolysis",
+    "Dermatomyositis"
+  ],
+  "next_steps": [
+    "Perform Legionella urinary antigen test",
+    "Send respiratory specimen for Legionella PCR",
+    "Initiate or continue appropriate antimicrobial coverage (e.g., fluoroquinolone or macrolide) for community-acquired pneumonia",
+    "Initiate aggressive fluid resuscitation for rhabdomyolysis and acute kidney injury",
+    "Perform rheumatologic workup (CK, aldolase, autoantibody panel, and potentially muscle biopsy if non-infectious causes persist)",
+    "Monitor urine output and consider early renal replacement therapy if refractory electrolyte disturbances occur",
+    "Perform lumbar puncture if the level of consciousness does not improve with metabolic stabilization"
+  ]
+}

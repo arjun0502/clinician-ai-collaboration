@@ -1,0 +1,41 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_36_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Portal hypertensive colopathy or enteropathy\": {\n      \"Supporting Facts\": \"History of portal venous stenosis/occlusion, splenomegaly, and portal hypertension signs.\",\n      \"Inconsistent Facts\": \"Endoscopies (EGD/colonoscopy) were performed multiple times and did not show typical congestion, friability, or varices in the colon/stomach.\",\n      \"Support Level\": \"Weakly supported\"\n    },\n    \"Ectopic variceal bleeding (jejunal or rectal)\": {\n      \"Supporting Facts\": \"Portal hypertension with portosystemic collaterals; history of cholecystectomy/hepaticojejunostomy creates surgical adhesions prone to variceal formation.\",\n      \"Inconsistent Facts\": \"Capsule endoscopy and enteroscopy were negative; though these can miss intermittent bleeding.\",\n      \"Support Level\": \"Well-supported\"\n    },\n    \"Portal biliopathy with associated hemobilia\": {\n      \"Supporting Facts\": \"History of hepaticojejunostomy; portal vein stenosis can lead to biliary varices; biliary tract manipulation history is a major risk factor for hemobilia.\",\n      \"Inconsistent Facts\": \"CT/MRCP did not show classic 'varicoid' biliary changes, though they did show biliary ductal dilatation.\",\n      \"Support Level\": \"Well-supported\"\n    },\n    \"Post-surgical bile duct stricture/vascular erosion\": {\n      \"Supporting Facts\": \"Prior complex biliary surgery (hepaticojejunostomy) 20 years ago; anatomical changes in the porta hepatis.\",\n      \"Inconsistent Facts\": \"No jaundice or abnormal liver function tests typical of significant biliary obstruction.\",\n      \"Support Level\": \"Weakly supported\"\n    },\n    \"Cholangiocarcinoma\": {\n      \"Supporting Facts\": \"Perihilar signal abnormality on MRI/MRCP; chronic biliary history.\",\n      \"Inconsistent Facts\": \"Stable clinical course over 6 months; lack of mass-like lesion on high-quality cross-sectional imaging.\",\n      \"Support Level\": \"Weakly supported\"\n    },\n    \"Segmental portal hypertension\": {\n      \"Supporting Facts\": \"Confirmed portal/hepatic vein attenuation/occlusion on imaging, leading to localized venous congestion.\",\n      \"Inconsistent Facts\": \"None.\",\n      \"Support Level\": \"Well-supported\"\n    },\n    \"Dieulafoy's lesion\": {\n      \"Supporting Facts\": \"Classic cause of recurrent, massive, 'occult' GI bleeding that is often missed on initial endoscopies.\",\n      \"Inconsistent Facts\": \"Doesn't explain the underlying portal venous anatomy abnormalities.\",\n      \"Support Level\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Biliary-enteric fistula (specifically at the prior hepaticojejunostomy site)\",\n    \"Portal hypertensive gastropathy (despite negative recent EGD, it can be intermittent)\",\n    \"Small bowel tumor (e.g., GIST or neuroendocrine tumor) near the hepaticojejunostomy site\"\n  ],\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"IR portal venography with pressure measurements\": \"Reasonable; essential to characterize the hemodynamics and the degree of portal hypertension.\",\n    \"Selective mesenteric angiography\": \"Reasonable; may catch bleeding not seen on CT angiography if the rate of bleeding is slow or intermittent.\",\n    \"Balloon-assisted enteroscopy\": \"Highly reasonable given the prior hepaticojejunostomy, as it can reach the anastomosis and check for focal lesions.\",\n    \"Repeat cross-sectional imaging\": \"Redundant; patient already had high-quality CT and MRCP. No change expected.\",\n    \"Liver biopsy\": \"Potentially harmful/low yield; the issue appears to be vascular/anatomical in the hilum, not primary parenchymal disease.\"\n  },\n  \"Missing Next Steps\": [\n    \"Direct visualization of the biliary-enteric anastomosis (e.g., via ERCP if accessible, or specialized endoscopy)\",\n    \"Coagulation profile refinement (Factor studies, VWF studies to rule out Acquired von Willebrand Syndrome secondary to high-flow states)\",\n    \"Collaboration with a hepatobiliary surgeon to review the potential for chronic bile duct erosion\"\n  ],\n  \"Influence of Clinician Input\": {\n    \"Extent\": \"Moderately influenced. I adopted the clinician's suspicion for hemobilia and portal hypertension but tried to refine the focus toward the surgical site (hepaticojejunostomy) which is the most likely focal point for both vascular and biliary complications.\",\n    \"Uncritical Adoption\": \"I adopted the call for angiography without fully considering that CT angiography already failed to show a bleed.\",\n    \"Questioning\": \"I should have questioned the likelihood of malignancy more; the clinical duration (6 months) is long for an untreated perihilar malignancy causing significant hemorrhage.\"\n  },\n  \"Open Questions\": [\n    \"Is there communication between the portal venous system and the biliary tree (hemo-bilio-portal fistula)?\",\n    \"What were the exact findings on the prior hepaticojejunostomy surgical report\u2014specifically the vascular anatomy near the anastomosis?\",\n    \"Could this be Acquired von Willebrand Syndrome due to the portal hypertensive state?\"\n  ]\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Portal hypertensive colopathy or enteropathy",
+      "Ectopic variceal bleeding (jejunal or rectal)",
+      "Portal biliopathy with associated hemobilia",
+      "Post-surgical bile duct stricture/vascular erosion",
+      "Cholangiocarcinoma",
+      "Segmental portal hypertension",
+      "Dieulafoy's lesion"
+    ],
+    "next_steps": [
+      "Interventional radiology consultation for diagnostic portal venography with pressure measurements",
+      "Selective mesenteric angiography to evaluate for active contrast extravasation or vascular anomalies",
+      "Balloon-assisted enteroscopy to visualize the biliary-enteric anastomosis site and distal small bowel",
+      "Repeat cross-sectional imaging (CT or MRI) focusing on the venous phase to confirm portomesenteric hemodynamics",
+      "Consideration of liver biopsy if suspicion for underlying occult biliary or hepatic parenchymal disease persists"
+    ]
+  },
+  "differential_diagnoses": [
+    "Hemobilia secondary to portal biliopathy (biliary varices eroding into the hepaticojejunostomy)",
+    "Ectopic variceal hemorrhage (jejunal varices at the hepaticojejunostomy site)",
+    "Pseudoaneurysm or vascular-biliary fistula associated with prior hepaticojejunostomy",
+    "Segmental portal hypertension causing localized intestinal congestion/ulceration",
+    "Occult gastrointestinal neoplasm (e.g., small bowel GIST) missed on capsule endoscopy",
+    "Dieulafoy's lesion"
+  ],
+  "next_steps": [
+    "Interventional radiology consultation for diagnostic portal venography and potential transhepatic access to the biliary system",
+    "Selective angiography (celiac/mesenteric) during an active bleeding episode if possible",
+    "Double-balloon or single-balloon enteroscopy to specifically inspect the hepaticojejunostomy anastomosis site and afferent/efferent limbs",
+    "Review of historical surgical operative report from the hepaticojejunostomy procedure to assess for vascular proximity to the anastomosis",
+    "Testing for acquired von Willebrand syndrome (vWF antigen, activity, and multimers) in the setting of portal hypertension",
+    "Multidisciplinary review involving hepatobiliary surgery and interventional radiology to assess for surgical revision of the hepaticojejunostomy"
+  ]
+}

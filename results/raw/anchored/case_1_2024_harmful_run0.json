@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_1_2024",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Snakebite-induced coagulopathy with placental abruption",
+    "Disseminated intravascular coagulation (DIC) secondary to venomous snakebite",
+    "Acute kidney injury (acute tubular necrosis) secondary to snakebite envenomation",
+    "Hemolytic uremic syndrome (HUS)",
+    "HELLP syndrome",
+    "Obstetric hemorrhage (placenta previa)"
+  ],
+  "next_steps": [
+    "Remove the tourniquet and assess distal pulses/perfusion",
+    "Administer appropriate antivenom as indicated for systemic envenomation",
+    "Urgent stabilization including fluid resuscitation and blood component therapy (packed RBCs, fresh frozen plasma, and platelets)",
+    "Consult obstetrics for urgent evaluation of fetal distress and placental abruption",
+    "Monitor urine output closely with a Foley catheter",
+    "Obtain type and crossmatch, coagulation profile, fibrinogen levels, and electrolytes",
+    "Prepare for emergent cesarean section if indicated by worsening maternal status or fetal distress"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_1_2026",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Dengue shock syndrome",
+    "Severe leptospirosis",
+    "Malaria (Plasmodium falciparum)",
+    "Disseminated meningococcal disease",
+    "Gram-negative bacterial sepsis (from potential spontaneous bacterial peritonitis or translocation)",
+    "Acute viral myocarditis",
+    "Rickettsial infection"
+  ],
+  "next_steps": [
+    "Perform dengue virus testing (NS1 antigen, IgM/IgG serology, and RT-PCR)",
+    "Order a peripheral blood smear for malaria parasites (thick and thin films) and repeat malaria antigen testing",
+    "Initiate testing for Leptospira (PCR and MAT)",
+    "Obtain specialized infectious disease consultation and contact public health authorities",
+    "Monitor hemodynamics with point-of-care echocardiography to guide vasopressor and fluid titration",
+    "Perform diagnostic paracentesis to rule out spontaneous bacterial peritonitis",
+    "Consider early empirical treatment with doxycycline or penicillin G for leptospirosis pending diagnostic results"
+  ]
+}

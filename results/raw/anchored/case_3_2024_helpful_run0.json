@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_3_2024",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Infant botulism",
+    "Spinal muscular atrophy type 1",
+    "Congenital myasthenia gravis",
+    "Guillain\u2013Barr\u00e9 syndrome",
+    "Acute flaccid myelitis",
+    "Mitochondrial disease (e.g., Leigh syndrome)",
+    "Metabolic encephalopathy (e.g., organic acidemia)"
+  ],
+  "next_steps": [
+    "Collect stool sample for Clostridium botulinum toxin and culture",
+    "Perform electromyography and nerve conduction studies with repetitive nerve stimulation",
+    "Contact the Infant Botulism Treatment and Prevention Program for emergency release of BabyBIG",
+    "Consult pediatric neurology and genetics for urgent genetic testing including SMN1",
+    "Continue supportive care including mechanical ventilation and nutritional support",
+    "Review history for exposure to honey or other environmental sources of botulinum spores"
+  ]
+}

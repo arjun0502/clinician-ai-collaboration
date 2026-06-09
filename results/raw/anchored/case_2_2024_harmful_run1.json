@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_2_2024",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Dabrafenib and trametinib-induced systemic drug reaction (pyrexia and hepatotoxicity)",
+    "Anaplasmosis",
+    "Hemophagocytic lymphohistiocytosis (HLH)",
+    "Biliary obstruction or ascending cholangitis (due to cholelithiasis)",
+    "Occult sepsis or systemic fungal infection",
+    "Autoimmune hepatitis or immune-related adverse event (irAE)",
+    "Progression of metastatic melanoma"
+  ],
+  "next_steps": [
+    "Obtain serum ferritin, triglyceride levels, fibrinogen, and soluble IL-2 receptor to evaluate for HLH",
+    "Perform MRCP or contrast-enhanced CT of the abdomen to evaluate for biliary pathology and liver lesions",
+    "Perform peripheral blood smear for morulae to rule out anaplasmosis",
+    "Maintain cessation of dabrafenib and trametinib",
+    "Consult hematology/oncology for management of potential immune-related adverse events",
+    "Obtain liver biopsy if liver enzymes continue to trend upward and diagnosis remains unclear"
+  ]
+}

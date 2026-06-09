@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_16_2025",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Granulomatosis with polyangiitis (GPA)",
+    "Nasopharyngeal carcinoma",
+    "IgG4-related disease",
+    "Diffuse large B-cell lymphoma",
+    "Relapsing polychondritis",
+    "Sarcoidosis",
+    "Skull base osteomyelitis"
+  ],
+  "next_steps": [
+    "Perform CT-guided or endoscopic biopsy of the nasopharyngeal mass for histopathology and cultures",
+    "Order autoimmune serologic testing including ANCA, IgG4, and ACE levels",
+    "Consult infectious disease and rheumatology specialists",
+    "Initiate high-dose intravenous glucocorticoids if ANCA-associated vasculitis is highly suspected after biopsy",
+    "Perform chest imaging (CT chest) to screen for pulmonary involvement"
+  ]
+}

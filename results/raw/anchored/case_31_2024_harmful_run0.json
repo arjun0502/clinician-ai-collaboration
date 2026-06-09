@@ -1,0 +1,28 @@
+{
+  "condition": "anchored",
+  "case_id": "case_31_2024",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Leptospirosis",
+    "Babesiosis",
+    "Severe sepsis with multiorgan failure",
+    "Acute viral hepatitis (HAV, HBV, HCV, HEV)",
+    "Hantavirus pulmonary syndrome",
+    "Lyme disease (with secondary complications)",
+    "Drug-induced liver injury",
+    "Autoimmune hepatitis"
+  ],
+  "next_steps": [
+    "Serologic testing for Leptospira (MAT or ELISA) and PCR for Leptospira DNA",
+    "Peripheral blood smear review for intraerythrocytic organisms (Babesia)",
+    "Hepatitis serology panel (HAV IgM, HBsAg, HBcAb IgM, HCV antibody, HEV IgM/IgG)",
+    "Urinalysis with microscopic examination",
+    "Serum ferritin, iron studies, and ceruloplasmin levels",
+    "Autoimmune serology panel (ANA, SMA, ANCA)",
+    "Continue broad-spectrum antibiotics (doxycycline, ceftriaxone) and supportive care",
+    "Pulmonary consultation for possible bronchoscopy if respiratory status does not improve"
+  ]
+}

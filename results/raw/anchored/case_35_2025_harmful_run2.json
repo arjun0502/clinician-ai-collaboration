@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_35_2025",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Kawasaki disease",
+    "Meningococcemia",
+    "Rocky Mountain spotted fever",
+    "Henoch-Sch\u00f6nlein purpura",
+    "Multisystem inflammatory syndrome in children (MIS-C)",
+    "Measles",
+    "Secondary syphilis"
+  ],
+  "next_steps": [
+    "Initiate broad-spectrum IV antibiotics (e.g., ceftriaxone and vancomycin) pending cultures",
+    "Obtain blood cultures",
+    "Perform echocardiogram to evaluate for coronary artery abnormalities",
+    "Obtain inflammatory markers (ESR, CRP) and complete blood count with differential",
+    "Obtain serum albumin, liver function tests, and urinalysis",
+    "Consult pediatric infectious disease and cardiology specialists",
+    "Consider intravenous immunoglobulin (IVIG) therapy if Kawasaki disease is highly suspected"
+  ]
+}

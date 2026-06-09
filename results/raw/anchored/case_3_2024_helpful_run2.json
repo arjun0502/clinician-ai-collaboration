@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_3_2024",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Infant botulism",
+    "Guillain-Barr\u00e9 syndrome",
+    "Congenital myasthenia gravis",
+    "Spinal muscular atrophy type 1",
+    "Acute flaccid myelitis",
+    "Transverse myelitis",
+    "Tick paralysis"
+  ],
+  "next_steps": [
+    "Send stool for Clostridium botulinum toxin and culture testing",
+    "Electromyography (EMG) or nerve conduction studies (looking for incremental response to repetitive stimulation)",
+    "Consult neurology for evaluation of neuromuscular junction vs. anterior horn cell pathology",
+    "Expedite administration of Botulism Immune Globulin (BabyBIG)",
+    "Perform repetitive nerve stimulation testing",
+    "Inquire about exposure to honey, corn syrup, or environmental dust in the home",
+    "Monitor for autonomic instability and respiratory failure"
+  ]
+}

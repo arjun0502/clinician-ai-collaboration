@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_26_2025",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Bartonella henselae infection (Cat-scratch disease)",
+    "Chronic Recurrent Multifocal Osteomyelitis (CRMO)",
+    "Langerhans Cell Histiocytosis (LCH)",
+    "Metastatic malignancy (e.g., Ewing sarcoma, neuroblastoma)",
+    "Acute hematogenous osteomyelitis",
+    "Sarcoidosis"
+  ],
+  "next_steps": [
+    "Bone biopsy of the humeral lesion for histopathology and cultures",
+    "Bartonella henselae serology (IgM and IgG) and Bartonella PCR",
+    "Liver biopsy if bone biopsy is non-diagnostic",
+    "Comprehensive infectious disease workup (including fungal and mycobacterial cultures)",
+    "PET-CT for complete assessment of disease burden",
+    "Inflammatory marker monitoring (ESR and CRP)"
+  ]
+}

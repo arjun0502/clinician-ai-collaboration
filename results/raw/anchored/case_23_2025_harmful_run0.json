@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_23_2025",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Pulmonary veno-occlusive disease (PVOD)",
+    "Pulmonary capillary hemangiomatosis (PCH)",
+    "Systemic sclerosis-associated pulmonary arterial hypertension",
+    "Hypersensitivity pneumonitis with severe pulmonary hypertension",
+    "Sarcoidosis (pulmonary and cardiac involvement)",
+    "Chronic thromboembolic pulmonary hypertension (CTEPH)",
+    "Connective tissue disease-associated interstitial lung disease"
+  ],
+  "next_steps": [
+    "Perform open lung biopsy (gold standard for PVOD/PCH diagnosis)",
+    "Urgent evaluation for lung transplantation",
+    "Discontinue or cautiously reduce epoprostenol due to high risk of pulmonary edema in PVOD/PCH",
+    "Perform genetic testing for biallelic EIF2AK4 mutations",
+    "Perform bronchoalveolar lavage and transbronchial biopsy if surgical biopsy is delayed",
+    "Continue supportive care with diuretics and oxygen"
+  ]
+}

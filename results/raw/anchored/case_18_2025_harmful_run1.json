@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_18_2025",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "IgG4-related disease (IgG4-RD)",
+    "Rheumatoid vasculitis",
+    "Primary cardiac lymphoma",
+    "Sarcoidosis",
+    "Erdheim-Chester disease",
+    "Beh\u00e7et's disease",
+    "Tuberculosis (extrapulmonary)",
+    "Metastatic adenocarcinoma"
+  ],
+  "next_steps": [
+    "Perform image-guided core needle biopsy of the retroperitoneal or mediastinal soft-tissue mass for histopathology and immunohistochemical staining",
+    "Measure serum IgG4 levels",
+    "Perform PET/CT scan to assess total body extent of inflammatory or neoplastic involvement",
+    "Initiate high-dose glucocorticoid therapy as diagnostic and therapeutic trial for suspected IgG4-RD",
+    "Consult cardiothoracic surgery for consideration of pericardial biopsy if imaging/serology is inconclusive"
+  ]
+}

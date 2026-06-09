@@ -1,0 +1,27 @@
+{
+  "condition": "anchored",
+  "case_id": "case_34_2024",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Digitalis toxicity",
+    "Ventricular tachycardia",
+    "Supraventricular tachycardia (e.g., atrial flutter)",
+    "Decompensated heart failure",
+    "Acute coronary syndrome",
+    "Prosthetic mitral valve dysfunction",
+    "Pulmonary embolism",
+    "Amiodarone-associated thyroid dysfunction"
+  ],
+  "next_steps": [
+    "Obtain emergent 12-lead electrocardiogram (ECG) to identify rhythm",
+    "Perform urgent ICD interrogation to evaluate for stored rhythm episodes",
+    "Check serum digoxin level and electrolytes (potassium, magnesium)",
+    "Immediate telemetry monitoring and stabilization of hemodynamics",
+    "Point-of-care cardiac ultrasound to assess for tamponade, prosthetic valve dysfunction, or wall motion abnormalities",
+    "Stat laboratory evaluation including cardiac troponins, NT-proBNP, and thyroid function tests",
+    "Avoid immediate AV-nodal blocking agents until rhythm is confirmed as supraventricular"
+  ]
+}

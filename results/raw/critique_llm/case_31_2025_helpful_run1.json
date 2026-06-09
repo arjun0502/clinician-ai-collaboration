@@ -1,0 +1,42 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_31_2025",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Common Variable Immunodeficiency (CVID) with associated enteropathy\": {\n      \"Supporting facts\": \"Hypogammaglobulinemia (low IgA, IgM, IgG2-4), recurrent giardiasis, chronic diarrhea, malabsorption, and enterocolonic pathology.\",\n      \"Arguments against\": \"IgG level is not low; presence of M-component.\",\n      \"Support level\": \"Well-supported\"\n    },\n    \"Enteropathy-associated T-cell lymphoma (EATL)\": {\n      \"Supporting facts\": \"Aneurysmal dilation of the jejunum, weight loss, chronic diarrhea, malabsorption, and recent bowel wall thickening/ischemic changes.\",\n      \"Arguments against\": \"Prior biopsies showed active enteritis/ulceration but no malignant cells (though sampling error is possible).\",\n      \"Support level\": \"Well-supported\"\n    },\n    \"Crohn's disease\": {\n      \"Supporting facts\": \"Enterocolonic fistula, skip lesions, mucosal thickening, clinical response to infliximab.\",\n      \"Arguments against\": \"Poor response to standard treatment, persistent giardiasis, underlying hypogammaglobulinemia makes an autoimmune diagnosis less likely than an immunodeficiency-related one.\",\n      \"Support level\": \"Well-supported\"\n    },\n    \"Small intestinal adenocarcinoma\": {\n      \"Supporting facts\": \"Strictures, weight loss, anemia, and recent wall thickening.\",\n      \"Arguments against\": \"Diffuse involvement and length of history; pathology showed ulceration/granulation tissue rather than frank malignancy.\",\n      \"Support level\": \"Weakly supported\"\n    },\n    \"Giardiasis in the setting of hypogammaglobulinemia\": {\n      \"Supporting facts\": \"Repeated positive antigens; well-documented association with CVID.\",\n      \"Arguments against\": \"Persistence despite multiple antimicrobial courses and ongoing symptoms post-treatment.\",\n      \"Support level\": \"Well-supported\"\n    },\n    \"Autoimmune enteropathy\": {\n      \"Supporting facts\": \"Villous blunting, malabsorption, and diarrhea.\",\n      \"Arguments against\": \"Absence of enterocyte antibodies; patient has hypogammaglobulinemia.\",\n      \"Support level\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"NK-cell lymphoproliferative disorder / T-cell large granular lymphocyte (T-cell LGL) leukemia (given abnormal NK cells)\",\n    \"Small-bowel-associated lymphoma (specifically indolent T-cell lymphoproliferative disorder of the GI tract)\"\n  ],\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Surgical consultation for possible small bowel resection\": {\n      \"Reasonable\": \"Yes, given the aneurysmal dilation and suspected ischemia.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"Repeat cross-sectional imaging/angiography\": {\n      \"Reasonable\": \"Yes, to evaluate for active source of lower GI bleed.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"Full-thickness tissue sampling/resection\": {\n      \"Reasonable\": \"Yes, crucial for ruling out occult lymphoma via surgical resection.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"Assessment of T-cell receptor gene rearrangement\": {\n      \"Reasonable\": \"Yes, high suspicion for T-cell lymphoma.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"Evaluation for secondary causes of immunodeficiency\": {\n      \"Reasonable\": \"Yes.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"Optimization of nutritional status\": {\n      \"Reasonable\": \"Yes.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    }\n  },\n  \"Missing Next Steps\": [\n    \"Bone marrow aspiration and biopsy to investigate the peripheral NK-cell population and potential systemic lymphoid malignancy\",\n    \"Immunophenotyping of the specific jejunal lesions for NK/T-cell markers (e.g., CD3, CD56, CD8, TIA-1)\",\n    \"Consideration of vedolizumab or systemic chemotherapy pending biopsy results\"\n  ],\n  \"Influence of Clinician Input\": {\n    \"Extent of influence\": \"High; the clinician's suspicion of Crohn's directed the initial management, which I adopted but subsequently questioned as the patient deteriorated.\",\n    \"Uncritical adoption\": \"I adopted 'Crohn's disease' as a strong candidate, failing to recognize that the refractory nature and the presence of atypical NK cells point more strongly toward a lymphoid malignancy/immunodeficiency complex.\",\n    \"Questioning\": \"I should have been more critical of the 'Crohn's' diagnosis given the immunodeficiency profile.\"\n  },\n  \"Open Questions\": [\n    \"What are the results of the specific T-cell/NK-cell surface marker staining on the most recent jejunal biopsies?\",\n    \"Is there clonal evidence of T-cell or NK-cell expansion in the bowel wall?\",\n    \"Does the patient have a systemic lymphoproliferative disorder that is causing the bowel complications?\"\n  ]\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Common Variable Immunodeficiency (CVID) with associated enteropathy",
+      "Enteropathy-associated T-cell lymphoma (EATL)",
+      "Crohn's disease",
+      "Small intestinal adenocarcinoma",
+      "Giardiasis in the setting of hypogammaglobulinemia",
+      "Autoimmune enteropathy"
+    ],
+    "next_steps": [
+      "Surgical consultation for possible small bowel resection due to aneurysmal dilation and suspected ischemia",
+      "Repeat cross-sectional imaging or angiography if concern for active hemorrhage persists",
+      "Full-thickness tissue sampling/resection of the involved jejunal segments for histopathology and flow cytometry",
+      "Assessment of T-cell receptor gene rearrangement studies on biopsy tissue to evaluate for occult lymphoma",
+      "Evaluation for secondary causes of immunodeficiency (e.g., genetic panel for CVID-related mutations)",
+      "Optimization of nutritional status and iron replacement"
+    ]
+  },
+  "differential_diagnoses": [
+    "Indolent T-cell lymphoproliferative disorder of the gastrointestinal tract",
+    "Enteropathy-associated T-cell lymphoma (EATL)",
+    "Common Variable Immunodeficiency (CVID) with malabsorption and chronic giardiasis",
+    "T-cell large granular lymphocyte (LGL) leukemia with GI involvement",
+    "Crohn's disease (refractory, potentially masqueraded by occult lymphoproliferative disorder)",
+    "Small intestinal adenocarcinoma"
+  ],
+  "next_steps": [
+    "Surgical consultation for resection of the jejunal segments demonstrating aneurysmal dilation and suspected ischemia",
+    "Full-thickness histopathological evaluation of the resected bowel with immunohistochemistry for T-cell/NK-cell markers (CD3, CD4, CD8, CD56, CD30, EBER)",
+    "T-cell receptor (TCR) gene rearrangement studies on the resected tissue to establish clonality",
+    "Bone marrow aspiration and biopsy to investigate the peripheral NK-cell population and potential systemic involvement",
+    "Flow cytometry of the resected tissue and peripheral blood for precise immunophenotyping of the clonal lymphoid population",
+    "Consultation with hematology-oncology for management of potential lymphoproliferative disorder",
+    "Continued optimization of nutritional status and supportive care (e.g., iron replacement, vitamin supplementation)"
+  ]
+}

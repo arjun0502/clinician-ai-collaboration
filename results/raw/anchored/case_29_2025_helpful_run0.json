@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_29_2025",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Pneumocystis jirovecii pneumonia",
+    "Disseminated histoplasmosis",
+    "Disseminated tuberculosis",
+    "Disseminated Mycobacterium avium complex",
+    "Kaposi sarcoma of the lungs",
+    "Cryptococcosis",
+    "Lymphoma"
+  ],
+  "next_steps": [
+    "Bronchoalveolar lavage with transbronchial biopsy for staining, culture, and PCR",
+    "Serum (1,3)-beta-D-glucan assay",
+    "Urinary Histoplasma antigen test",
+    "Serum cryptococcal antigen test",
+    "Blood cultures for fungal, mycobacterial, and bacterial pathogens",
+    "Initiate empiric treatment for severe Pneumocystis jirovecii pneumonia",
+    "Advanced respiratory support monitoring in the ICU"
+  ]
+}

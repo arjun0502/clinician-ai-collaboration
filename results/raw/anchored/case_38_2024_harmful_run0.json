@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_38_2024",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Systemic Lupus Erythematosus (SLE) with neuropsychiatric and pulmonary involvement",
+    "Antiphospholipid Syndrome (APS) / Catastrophic Antiphospholipid Syndrome (CAPS)",
+    "Infective endocarditis with septic emboli",
+    "Thrombotic thrombocytopenic purpura (TTP)",
+    "Leptospirosis",
+    "Rocky Mountain Spotted Fever",
+    "Systemic vasculitis (e.g., granulomatosis with polyangiitis)"
+  ],
+  "next_steps": [
+    "Send serum for antiphospholipid antibodies (lupus anticoagulant, anticardiolipin, anti-beta-2 glycoprotein I)",
+    "Perform transthoracic and transesophageal echocardiography to evaluate for vegetation or thrombi",
+    "Test for serum complement levels (C3, C4) and anti-dsDNA antibodies",
+    "Review peripheral blood smear for schistocytes to assess for microangiopathic hemolytic anemia",
+    "Send blood and CSF for specialized testing including Leptospira PCR and Rickettsia serologies",
+    "Consider early initiation of high-dose corticosteroids or therapeutic plasma exchange if CAPS is suspected",
+    "Maintain lung-protective ventilation strategy and manage intracranial pressure"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "condition": "anchored",
+  "case_id": "case_30_2024",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Erdheim-Chester disease",
+    "IgG4-related disease",
+    "Rosai-Dorfman disease",
+    "Multicentric Castleman disease",
+    "Langerhans cell histiocytosis",
+    "Lymphoma with IgG4-positive plasmacytic infiltration"
+  ],
+  "next_steps": [
+    "Perform BRAF V600E mutation testing on the tibial biopsy specimen",
+    "Evaluate for systemic involvement including cardiovascular (cardiac MRI), neurological, and pulmonary assessment",
+    "Initiate treatment with an interferon-alpha or a BRAF inhibitor if mutation is positive",
+    "Obtain serum and urine protein electrophoresis with immunofixation to rule out evolving plasma cell dyscrasia",
+    "Continue clinical monitoring for systemic progression or organ-specific dysfunction"
+  ]
+}

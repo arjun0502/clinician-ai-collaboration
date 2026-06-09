@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_22_2024",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Pyoderma gangrenosum (associated with PASH syndrome)",
+    "Neutrophilic dermatosis (Sweet syndrome)",
+    "Disseminated hidradenitis suppurativa with systemic involvement",
+    "Systemic vasculitis (e.g., ANCA-associated vasculitis)",
+    "Disseminated infection (mycobacterial or fungal)",
+    "Crohn's disease with metastatic cutaneous involvement",
+    "Septic emboli from pelvic thrombophlebitis"
+  ],
+  "next_steps": [
+    "Perform punch biopsy of the advancing edge of an ulcer for histopathology and tissue culture",
+    "Initiate systemic glucocorticoid therapy",
+    "Perform diagnostic paracentesis with fluid analysis and cytology",
+    "Consult dermatology and rheumatology",
+    "Consider screening for underlying inflammatory bowel disease (Crohn's) given family history and clinical presentation",
+    "Maintain broad-spectrum antibiotic coverage until definitive cultures return negative",
+    "Assess for pathergy phenomenon to guide invasive procedures"
+  ]
+}

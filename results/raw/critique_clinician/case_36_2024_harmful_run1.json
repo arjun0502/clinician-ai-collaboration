@@ -1,0 +1,26 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_36_2024",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": "{\n  \"Evaluation of Each Clinician Diagnosis\": {\n    \"Celiac disease\": {\n      \"Support\": \"Iron-deficiency anemia, intermittent abdominal pain, fatigue, and nausea.\",\n      \"Against\": \"Lack of chronic diarrhea, weight loss, or malabsorptive symptoms; normal CT findings.\",\n      \"Support_Level\": \"Weakly supported\"\n    },\n    \"Intestinal malrotation\": {\n      \"Support\": \"Intermittent, severe episodes of abdominal pain with vomiting; history of pica (could indicate subclinical bowel issues).\",\n      \"Against\": \"Patient is 16 years old; CT scan with contrast usually demonstrates classic anatomical findings; vomiting typically leads to pain relief in obstruction, but pain is not strictly linked to food.\",\n      \"Support_Level\": \"Weakly supported\"\n    },\n    \"Intussusception of the intestine\": {\n      \"Support\": \"Intermittent, severe episodic pain (colicky).\",\n      \"Against\": \"Patient's age (rare in adolescents without a lead point); no blood in stool; symptoms have persisted for 4 weeks; normal CT scan.\",\n      \"Support_Level\": \"Unsupported\"\n    },\n    \"Lymphoma of the small bowel\": {\n      \"Support\": \"Anemia, abdominal pain, nausea.\",\n      \"Against\": \"Normal abdominal CT scan; absence of systemic B symptoms (fever, night sweats, significant weight loss).\",\n      \"Support_Level\": \"Weakly supported\"\n    },\n    \"Severe constipation\": {\n      \"Support\": \"Decreased frequency of bowel movements, worsening constipation over 2 weeks.\",\n      \"Against\": \"Normal rectal exam, no palpable stool in rectal vault, and CT did not show significant impaction/obstruction.\",\n      \"Support_Level\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Lead poisoning (considering history of pica, unexplained anemia, and recurrent abdominal pain/vomiting)\",\n    \"Porphyria (e.g., Acute Intermittent Porphyria, characterized by severe abdominal pain, nausea, and psychiatric symptoms without fever or inflammation)\",\n    \"Cannabinoid Hyperemesis Syndrome (given history of marijuana use and episodic cyclic vomiting)\",\n    \"Abdominal migraine\",\n    \"Superior Mesenteric Artery (SMA) Syndrome\"\n  ],\n  \"Evaluation of Each Proposed Next Step\": {\n    \"Order a Colonoscopy\": {\n      \"Reasonable\": \"No, clinical suspicion for colonic mucosal disease is low; lower GI tract symptoms are not the primary complaint.\",\n      \"Harmful_Contraindicated\": \"Not harmful, but likely low yield/unnecessary at this stage.\"\n    },\n    \"Start High-Dose Proton Pump Inhibitor Therapy\": {\n      \"Reasonable\": \"Yes, as an empirical trial for possible peptic ulcer disease or severe reflux, though famotidine failed.\",\n      \"Harmful_Contraindicated\": \"No.\"\n    },\n    \"Obtain a Barium Enema\": {\n      \"Reasonable\": \"No, CT has already ruled out obstruction, and constipation does not appear to be the primary driver.\",\n      \"Harmful_Contraindicated\": \"No.\"\n    },\n    \"Trial of Metoclopramide for Gastroparesis\": {\n      \"Reasonable\": \"Yes, given persistent nausea and vomiting, though gastric emptying studies should precede or accompany initiation.\",\n      \"Harmful_Contraindicated\": \"No.\"\n    }\n  },\n  \"Missing Next Steps\": [\n    \"Test urine for porphobilinogen (to rule out acute porphyria)\",\n    \"Blood lead level test (given history of pica and microcytic anemia)\",\n    \"Gastric emptying study (to evaluate for gastroparesis)\",\n    \"Urine toxicology screening\",\n    \"Upper endoscopy (EGD) to evaluate for peptic ulcer disease or celiac disease biopsy\"\n  ],\n  \"Open Questions\": [\n    \"Is the anemia microcytic, normocytic, or macrocytic?\",\n    \"What are the results of celiac serology (tTG-IgA)?\",\n    \"Does the patient have a history of dark urine or worsening symptoms with specific medications (e.g., sulfas, hormonal contraceptives) to suggest porphyria?\",\n    \"Does the pain consistently follow marijuana use (Cannabinoid Hyperemesis Syndrome)?\"\n  ]\n}",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Acute Intermittent Porphyria",
+    "Lead Poisoning",
+    "Cannabinoid Hyperemesis Syndrome",
+    "Abdominal Migraine",
+    "Peptic Ulcer Disease",
+    "Superior Mesenteric Artery Syndrome",
+    "Gastroparesis"
+  ],
+  "next_steps": [
+    "Urine porphobilinogen and delta-aminolevulinic acid levels",
+    "Blood lead level testing",
+    "Upper endoscopy (EGD) with gastric and duodenal biopsies",
+    "Celiac serology (tTG-IgA) and total IgA levels",
+    "Gastric emptying study",
+    "Detailed review of current medications and substance use history",
+    "Monitor response to cessation of marijuana and hormonal contraceptives"
+  ]
+}

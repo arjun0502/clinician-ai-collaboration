@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_33_2024",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Primary central nervous system lymphoma (PCNSL)",
+    "Tumefactive demyelinating lesion",
+    "Astrocytoma (high-grade glioma)",
+    "Subacute cerebral infarct (vascular)",
+    "Progressive multifocal leukoencephalopathy (PML)",
+    "CNS toxoplasmosis",
+    "Metastatic carcinoma"
+  ],
+  "next_steps": [
+    "Perform lumbar puncture for CSF analysis (cytology, flow cytometry, PCR for EBV and JC virus, and IgG index/oligoclonal bands)",
+    "Obtain permanent sections and immunohistochemistry from existing brain biopsy (CD20, CD3, GFAP, Ki-67, IDH1/2 status)",
+    "Perform whole-body PET/CT to evaluate for systemic occult malignancy",
+    "Re-evaluate for potential opportunistic infections in the context of long-term immunosuppression with mycophenolate mofetil",
+    "Monitor for progressive neurological deficit and consider repeat tissue sampling if initial pathology remains inconclusive",
+    "Continue corticosteroids pending definitive histological diagnosis"
+  ]
+}

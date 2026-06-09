@@ -1,0 +1,22 @@
+{
+  "condition": "anchored",
+  "case_id": "case_10_2025",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Systemic lupus erythematosus (SLE) with lupus nephritis and secondary antiphospholipid syndrome",
+    "Primary antiphospholipid syndrome (Catastrophic APS)",
+    "Membranous nephropathy with hypercoagulable state",
+    "ANCA-associated vasculitis (e.g., microscopic polyangiitis)",
+    "Renal vein thrombosis secondary to nephrotic syndrome"
+  ],
+  "next_steps": [
+    "Initiate therapeutic anticoagulation",
+    "Perform diagnostic workup for SLE and APS (ANA, anti-dsDNA, C3/C4, antiphospholipid antibodies)",
+    "Urgent renal biopsy to evaluate nephrotic syndrome and vasculitis",
+    "Continue broad-spectrum antibiotics pending final culture results",
+    "Consult nephrology and rheumatology specialties"
+  ]
+}

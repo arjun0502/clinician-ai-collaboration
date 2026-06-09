@@ -1,0 +1,26 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_1_2025",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": "{\n  \"Evaluation of Each Clinician Diagnosis\": {\n    \"Preeclampsia\": {\n      \"Supports\": \"History of proteinuria and edema during pregnancy; recent postpartum symptom recurrence.\",\n      \"Arguments against\": \"Onset/persistence 8 weeks postpartum; lack of sustained severe hypertension; no resolution after delivery.\",\n      \"Verdict\": \"Unsupported (postpartum preeclampsia typically resolves within 4-6 weeks).\"\n    },\n    \"Minimal change disease\": {\n      \"Supports\": \"Presentation with classic nephrotic syndrome (severe hypoalbuminemia, massive proteinuria, edema).\",\n      \"Arguments against\": \"Less common in adults; usually presents with more sudden onset edema.\",\n      \"Verdict\": \"Well-supported.\"\n    },\n    \"Lupus membranous nephropathy\": {\n      \"Supports\": \"Nephrotic-range proteinuria in a young female.\",\n      \"Arguments against\": \"No mention of hematuria, casts, rash, joint pain, or serologic evidence (ANA, dsDNA) provided.\",\n      \"Verdict\": \"Weakly supported.\"\n    },\n    \"Focal Segmental Glomerulosclerosis\": {\n      \"Supports\": \"Obesity-related hyperfiltration/glomerulomegaly can lead to secondary FSGS; severe proteinuria.\",\n      \"Arguments against\": \"Usually associated with lower levels of proteinuria than seen in pure Minimal Change Disease, though possible.\",\n      \"Verdict\": \"Well-supported (especially given obesity).\"\n    },\n    \"Primary membranous nephropathy\": {\n      \"Supports\": \"Common cause of adult-onset nephrotic syndrome.\",\n      \"Arguments against\": \"No specific evidence provided; usually more insidious onset.\",\n      \"Verdict\": \"Weakly supported.\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Obesity-related glomerulopathy (secondary FSGS)\",\n    \"Renal vein thrombosis (secondary to nephrotic syndrome, though ultrasound was negative for DVT, it does not rule out renal vein involvement)\",\n    \"Subclinical hypothyroidism (patient has TSH 7.87, which may exacerbate fluid retention)\",\n    \"Post-infectious glomerulonephritis\"\n  ],\n  \"Evaluation of Each Proposed Next Step\": {\n    \"High-Dose Prednisone\": {\n      \"Reasonability\": \"Premature. Empiric steroid therapy without a histologic diagnosis or ruling out other causes of nephrotic syndrome is inappropriate.\",\n      \"Contraindications\": \"Potential for weight gain, metabolic complications, and masking underlying infections.\"\n    },\n    \"Long-Term Monitoring\": {\n      \"Reasonability\": \"Inadequate for a patient with severe symptomatic nephrotic syndrome (alb 2.2, proteinuria 5.2).\",\n      \"Contraindications\": \"Risk of progression to acute kidney injury or thromboembolic events.\"\n    },\n    \"Kidney Biopsy\": {\n      \"Reasonability\": \"Highly appropriate and necessary to differentiate between glomerular pathologies causing nephrotic syndrome.\",\n      \"Contraindications\": \"None, provided blood pressure is controlled.\"\n    }\n  },\n  \"Missing Next Steps\": [\n    \"Full immunological workup (ANA, dsDNA, complement C3/C4, PLA2R antibodies, serum/urine protein electrophoresis to rule out amyloidosis/myeloma)\",\n    \"24-hour urine collection for quantification of proteinuria\",\n    \"Initiation of ACE inhibitor or ARB for proteinuria management\",\n    \"Initiation of prophylactic anticoagulation (or assessment of risk) due to severe hypoalbuminemia and hypercoagulable state of nephrotic syndrome\"\n  ],\n  \"Open Questions\": [\n    \"Are there any systemic symptoms (fevers, rash, arthritis) that would point toward SLE?\",\n    \"What do the autoimmune markers (PLA2R, ANA, complement levels) show?\",\n    \"Would initiation of statin therapy be indicated given the likely hyperlipidemia associated with nephrotic-range proteinuria?\"\n  ]\n}",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Minimal change disease",
+    "Obesity-related glomerulopathy (secondary focal segmental glomerulosclerosis)",
+    "Primary focal segmental glomerulosclerosis",
+    "Membranous nephropathy",
+    "Lupus nephritis",
+    "Postpartum preeclampsia",
+    "Amyloidosis"
+  ],
+  "next_steps": [
+    "Kidney biopsy for histologic diagnosis",
+    "Serologic evaluation including ANA, anti-dsDNA, complement levels (C3, C4), and anti-PLA2R antibodies",
+    "Serum and urine protein electrophoresis with immunofixation",
+    "Initiation of ACE inhibitor or ARB for antiproteinuric effect and blood pressure control",
+    "Initiation of anticoagulation prophylaxis based on high risk of thrombosis in severe nephrotic syndrome",
+    "Management of lipid profile with statin therapy",
+    "Evaluation of thyroid function with free T4 and anti-TPO antibodies to assess for Hashimoto's thyroiditis"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_32_2024",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": "{\n  \"Evaluation of Each Clinician Diagnosis\": {\n    \"Myasthenia gravis\": {\n      \"Support\": \"Fluctuating bulbar symptoms (dysarthria, dysphagia), ptosis, proximal muscle weakness, and respiratory muscle involvement.\",\n      \"Against\": \"Lack of clear diurnal variation initially; presence of upper motor neuron signs (Babinski reflex).\",\n      \"Assessment\": \"Well-supported\"\n    },\n    \"Guillain\u2013Barr\u00e9 syndrome\": {\n      \"Support\": \"Progressive weakness and respiratory involvement.\",\n      \"Against\": \"Chronic course (>3 years), lack of areflexia, and presence of upper motor neuron signs.\",\n      \"Assessment\": \"Unsupported\"\n    },\n    \"Transient ischemic attack\": {\n      \"Support\": \"Acute/subacute episodes of slurred speech and facial droop.\",\n      \"Against\": \"Neuroimaging (MRI) findings are chronic; symptoms are too protracted and multifocal.\",\n      \"Assessment\": \"Weakly supported\"\n    },\n    \"Amyotrophic lateral sclerosis\": {\n      \"Support\": \"Bulbar symptoms, respiratory failure, and upper motor neuron signs (Babinski).\",\n      \"Against\": \"The 3-year history of pulmonary hypertension/edema and obesity-related symptoms makes this less likely to explain the totality of the case.\",\n      \"Assessment\": \"Weakly supported\"\n    },\n    \"Lambert\u2013Eaton myasthenic syndrome\": {\n      \"Support\": \"Proximal weakness and autonomic symptoms (dysphagia/dyspnea).\",\n      \"Against\": \"Usually associated with specific underlying malignancies (e.g., SCLC), which are not evident here.\",\n      \"Assessment\": \"Weakly supported\"\n    },\n    \"Diphtheritic neuropathy\": {\n      \"Support\": \"Bulbar palsy.\",\n      \"Against\": \"Clinical context and duration are entirely inconsistent.\",\n      \"Assessment\": \"Unsupported\"\n    },\n    \"Leptomeningeal disease\": {\n      \"Support\": \"Multifocal neurologic deficits (cranial nerves, weakness).\",\n      \"Against\": \"Lack of constitutional symptoms; duration is too long for untreated leptomeningeal spread.\",\n      \"Assessment\": \"Weakly supported\"\n    },\n    \"Primary muscle disease (myopathy)\": {\n      \"Support\": \"Proximal weakness, obesity, respiratory fatigue.\",\n      \"Against\": \"Does not account for Babinski sign or episodic bulbar changes.\",\n      \"Assessment\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Amyloidosis (specifically transthyretin cardiac/neurologic amyloidosis)\",\n    \"Obesity hypoventilation syndrome (OHS) overlapping with obstructive sleep apnea\",\n    \"Acid maltase deficiency (Pompe disease) - adult onset\"\n  ],\n  \"Evaluation of Each Proposed Next Step\": {\n    \"Repetitive Nerve Stimulation Studies\": \"Reasonable; essential for evaluating neuromuscular junction disorders.\",\n    \"Routine Nerve Conduction Studies and Needle Electromyography\": \"Reasonable; crucial for distinguishing neuropathic versus myopathic processes.\",\n    \"Cerebrospinal Fluid Analysis via Lumbar Puncture\": \"Reasonable; indicated to rule out inflammatory or malignant processes given the chronic/subacute course.\",\n    \"Noninvasive Ventilatory Support/ICU-Level Respiratory Stabilization\": \"Highly reasonable; patient is in hypercapnic respiratory failure.\"\n  },\n  \"Missing Next Steps\": [\n    \"Acetylcholine receptor (AChR) antibody and anti-MuSK antibody testing\",\n    \"Serum protein electrophoresis (SPEP) and immunofixation with serum free light chains (to screen for plasma cell dyscrasias/amyloidosis)\",\n    \"Echocardiogram with strain imaging to evaluate for amyloid cardiomyopathy\"\n  ],\n  \"Open Questions\": [\n    \"Are there any cardiac biomarkers like elevated troponin or specific echocardiographic patterns (e.g., granular sparkling)?\",\n    \"Has the patient had a formal sleep study (polysomnography) to quantify the degree of nocturnal hypoventilation?\"\n  ]\n}",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Transthyretin (ATTR) amyloidosis (cardiac and systemic/neuropathic)",
+    "Myasthenia gravis",
+    "Obesity hypoventilation syndrome (OHS) with obstructive sleep apnea",
+    "Amyotrophic lateral sclerosis (ALS)",
+    "Adult-onset Pompe disease (acid maltase deficiency)",
+    "Chronic inflammatory demyelinating polyradiculoneuropathy (CIDP)",
+    "Lambert-Eaton myasthenic syndrome"
+  ],
+  "next_steps": [
+    "Serum protein electrophoresis (SPEP) and immunofixation with serum free light chains",
+    "Acetylcholine receptor (AChR) and anti-MuSK antibody testing",
+    "Echocardiogram with strain pattern analysis to assess for infiltrative cardiomyopathy",
+    "Polysomnography to evaluate for OHS and sleep-disordered breathing",
+    "Repetitive nerve stimulation (RNS) and needle electromyography (EMG)",
+    "Lumbar puncture for cerebrospinal fluid analysis",
+    "Cardiac MRI if amyloidosis is suspected"
+  ]
+}

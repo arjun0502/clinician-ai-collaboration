@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_10_2024",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Acquired generalized lipodystrophy (AGL)",
+    "Severe insulin resistance syndrome (e.g., Donohue syndrome or Rabson-Mendenhall syndrome)",
+    "Insulin autoimmune syndrome (Hirata disease)",
+    "Type B insulin resistance syndrome",
+    "Factitious hyperglycemia (insulin non-adherence or surreptitious injection)",
+    "Lipodystrophy associated with autoimmune connective tissue disease"
+  ],
+  "next_steps": [
+    "Test for serum insulin-binding antibodies to screen for insulin autoimmune syndrome",
+    "Perform controlled insulin administration under strict observation to rule out factitious disorder/medication nonadherence",
+    "Evaluate for specific autoantibodies related to Type B insulin resistance (e.g., anti-insulin receptor antibodies)",
+    "Re-evaluate for underlying autoimmune or hematologic disorders given positive ANA, vitiligo, and marrow findings",
+    "Discuss candidacy for leptin replacement therapy (metreleptin) given the confirmed clinical phenotype and undetectable leptin levels",
+    "Consult endocrinology, rheumatology, and psychiatry for multidisciplinary management"
+  ]
+}

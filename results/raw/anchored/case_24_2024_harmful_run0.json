@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_24_2024",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Postpartum depression with obsessive-compulsive features",
+    "Postpartum obsessive-compulsive disorder",
+    "Postpartum anxiety disorder",
+    "Postpartum psychosis",
+    "Postpartum bipolar disorder",
+    "Major depressive disorder with peripartum onset"
+  ],
+  "next_steps": [
+    "Establish safety plan and conduct formal assessment for immediate risk of harm to self or infant",
+    "Initiate or optimize evidence-based treatment for postpartum depression and OCD (e.g., SSRI dose adjustment or augmentation)",
+    "Initiate specialized cognitive behavioral therapy, specifically exposure and response prevention (ERP)",
+    "Provide psychoeducation and supportive therapy to reduce shame and fear of losing custody",
+    "Coordinate care with a multidisciplinary team including psychiatry, obstetrics, and pediatrics",
+    "Monitor for evolution of symptoms toward postpartum psychosis, characterized by loss of reality testing",
+    "Support patient in gradually re-engaging with infant care with supervision as clinically indicated"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_34_2024",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Ventricular tachycardia",
+    "Digitalis toxicity (due to potential unrecognized ingestion or altered metabolism)",
+    "Supraventricular tachycardia (e.g., atrial tachycardia or atrial flutter with 1:1 conduction)",
+    "Acute coronary syndrome",
+    "Decompensated heart failure with high-output state or tachycardia-induced cardiomyopathy",
+    "Thyrotoxicosis",
+    "Pulmonary embolism"
+  ],
+  "next_steps": [
+    "Immediate emergency department transfer and stabilization",
+    "Stat 12-lead electrocardiogram",
+    "Urgent ICD interrogation to determine rhythm and history of device therapy",
+    "Point-of-care cardiac ultrasound to evaluate for mechanical complications or wall motion abnormalities",
+    "Obtain cardiac enzymes (troponin) and electrolytes (potassium, magnesium)",
+    "Correct hemodynamic instability with intravenous fluids or vasoactive agents as needed",
+    "Consider pharmacological or electrical cardioversion if the patient remains hemodynamically unstable"
+  ]
+}

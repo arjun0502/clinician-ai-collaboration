@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_1_2025",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Primary membranous nephropathy",
+    "Minimal change disease",
+    "Lupus nephritis (membranous pattern)",
+    "Focal segmental glomerulosclerosis",
+    "Post-infectious glomerulonephritis",
+    "Renal vein thrombosis"
+  ],
+  "next_steps": [
+    "Perform a renal biopsy for histopathological diagnosis and immunofluorescence",
+    "Obtain serologic testing for ANA, anti-dsDNA, C3, C4, and anti-PLA2R antibodies",
+    "Initiate therapy with an ACE inhibitor or ARB for proteinuria reduction and blood pressure control",
+    "Initiate prophylactic anticoagulation due to the risk of thromboembolism associated with severe nephrotic syndrome",
+    "Monitor renal function, fluid balance, and proteinuria levels",
+    "Assess for signs of secondary nephrotic syndrome (e.g., viral serologies, serum protein electrophoresis)"
+  ]
+}

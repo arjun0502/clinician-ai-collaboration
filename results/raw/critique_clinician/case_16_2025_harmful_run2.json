@@ -1,0 +1,26 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_16_2025",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Clinician Diagnosis\": {\n    \"Nasopharyngeal carcinoma\": {\n      \"Support\": \"Massive nasopharyngeal soft tissue, middle ear effusions (eustachian tube dysfunction), facial nerve palsy (base of skull involvement), weight loss.\",\n      \"Against\": \"Lack of overt osseous destruction on imaging; cobblestone appearance described endoscopically is atypical for standard NPC; lack of cervical lymphadenopathy.\",\n      \"Verdict\": \"Well-supported\"\n    },\n    \"Adenoid cystic carcinoma of minor salivary glands\": {\n      \"Support\": \"Perineural spread (involvement of cranial nerves V, VII, XII), slow-growing nature, propensity for carotid sheath involvement.\",\n      \"Against\": \"Rapid worsening of systemic inflammatory markers (CRP/ESR); short duration (8 months) with relatively acute progression; lack of bony erosion which is usually seen in skull base ACC.\",\n      \"Verdict\": \"Weakly supported\"\n    },\n    \"Diffuse large B-cell lymphoma\": {\n      \"Support\": \"Nasopharyngeal mass, rapid progression, systemic constitutional symptoms (weight loss), dural/cranial nerve involvement.\",\n      \"Against\": \"Imaging showing reduced diffusivity (usually seen in lymphoma, but also in inflammation/abscesses); clinical picture with high systemic inflammatory markers is broader than typically localized DLBCL.\",\n      \"Verdict\": \"Well-supported\"\n    },\n    \"Acute invasive fungal sinusitis\": {\n      \"Support\": \"Cranial nerve palsies, dural involvement, facial droop, rapid decline.\",\n      \"Against\": \"The patient has been symptomatic for 8 months; lack of overt bony destruction; relatively immunocompetent host without neutropenia or uncontrolled diabetes.\",\n      \"Verdict\": \"Unsupported\"\n    }\n  },\n  \"Missing Diagnoses\": {\n    \"Granulomatosis with Polyangiitis (GPA)\": \"The history of chronic ear pain, sinus symptoms, mucosal inflammation (cobblestone appearance), elevated inflammatory markers (CRP/ESR), and cranial nerve involvement is a classic presentation for head-and-neck restricted GPA (formerly Wegener's).\",\n    \"IgG4-Related Disease\": \"Could explain the chronic mucosal inflammation, mass-like thickening, and multifocal involvement (nasopharynx, parapharyngeal space, meninges).\",\n    \"Sarcoidosis\": \"Neurosarcoidosis and mucosal sarcoidosis can cause the described cranial nerve enhancements and soft-tissue masses.\"\n  },\n  \"Evaluation of Each Proposed Next Step\": {\n    \"Order an esophagogastroduodenoscopy (EGD)\": \"Not reasonable; there is no primary clinical indication (no upper GI bleeding or specific signs) that would explain the nasopharyngeal/neurological findings.\",\n    \"Start empirical amphotericin B\": \"Harmful/Contraindicated; invasive fungal infection is unlikely given the 8-month timeline and lack of osseous erosion; empiric treatment is nephrotoxic without definitive diagnosis.\",\n    \"Perform lumbar puncture to evaluate for central nervous system infection\": \"Reasonable; given the dural enhancement and cranial nerve involvement, excluding subacute meningitis or lymphomatous meningitis is mandatory.\",\n    \"Begin high-dose IV steroids\": \"Harmful/Contraindicated; while it might provide temporary symptomatic relief, it will obscure the diagnosis by treating inflammatory conditions (GPA, IgG4-RD) or lymphoma, potentially confounding tissue biopsy results.\"\n  },\n  \"Missing Next Steps\": {\n    \"Nasopharyngeal biopsy\": \"Mandatory; definitive histopathological diagnosis is the most critical next step.\",\n    \"ANCA testing\": \"Necessary to rule out Granulomatosis with Polyangiitis given the clinical suspicion.\",\n    \"Serum IgG4 levels\": \"Necessary to evaluate for IgG4-Related Disease.\",\n    \"PET/CT\": \"Would help characterize the metabolic activity of the mass and identify other involved sites.\"\n  },\n  \"Open Questions\": {\n    \"Questions\": [\n      \"What are the results of the ANCA panel?\",\n      \"What is the biopsy histopathology (specifically looking for vasculitis, granulomas, IgG4-positive plasma cells, or malignancy)?\",\n      \"Is there evidence of renal involvement in the form of urinary sediment (casts, hematuria) not captured in the routine renal function labs?\"\n    ]\n  }\n}\n```",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Granulomatosis with polyangiitis (GPA)",
+    "Nasopharyngeal carcinoma",
+    "IgG4-related disease",
+    "Extranodal NK/T-cell lymphoma, nasal type",
+    "Sarcoidosis",
+    "Relapsing polychondritis",
+    "Rosai-Dorfman disease"
+  ],
+  "next_steps": [
+    "Perform image-guided nasopharyngeal and skull base mucosal biopsy for histopathology, immunophenotyping, and microbiology",
+    "Order ANCA (PR3 and MPO) testing",
+    "Check serum IgG4 levels",
+    "Perform urinalysis with microscopy for red cell casts to screen for glomerulonephritis",
+    "Perform lumbar puncture with cytology and flow cytometry for suspected leptomeningeal involvement",
+    "Perform whole-body PET/CT scan to assess systemic involvement and target optimal biopsy sites",
+    "Ophthalmologic consultation for potential ocular involvement"
+  ]
+}

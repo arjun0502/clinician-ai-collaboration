@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_33_2024",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Primary CNS lymphoma",
+    "Tumefactive demyelinating lesion",
+    "Listeriosis (rhombencephalitis or cerebritis)",
+    "Nocardiosis",
+    "Glioma (e.g., glioblastoma)",
+    "Metastatic carcinoma",
+    "Progressive multifocal leukoencephalopathy"
+  ],
+  "next_steps": [
+    "Permanent-section pathology with immunohistochemistry (e.g., CD20, CD3, GFAP, Ki-67, EBV-EBER)",
+    "Special stains for microorganisms on brain biopsy tissue (Gram, AFB, GMS, PAS)",
+    "CSF analysis (cytology, flow cytometry, PCR for EBV and JC virus, protein, glucose)",
+    "Broad-spectrum microbiology cultures of biopsy tissue (aerobic, anaerobic, fungal, acid-fast bacilli)",
+    "Infectious disease consultation to consider broadening empiric coverage to include coverage for Nocardia and Listeria",
+    "Evaluation for occult systemic malignancy if pathology remains nondiagnostic"
+  ]
+}

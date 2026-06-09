@@ -1,0 +1,44 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_31_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": "{\n  \"Evaluation_of_Each_Diagnosis_You_Listed\": {\n    \"Enteropathy-associated_T-cell_lymphoma_(EATL)\": {\n      \"Supports\": \"Severe malabsorption, jejunal ulceration/stricture, systemic B symptoms (weight loss), and unexplained anemia.\",\n      \"Against\": \"Lack of celiac disease markers (HLA-DQ2/8 negative); EATL is strongly associated with celiac disease.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Common_variable_immunodeficiency_(CVID)_with_associated_enteropathy\": {\n      \"Supports\": \"Hypogammaglobulinemia (IgA/IgM absent), recurrent Giardia, chronic diarrhea, and abnormal NK-cell population.\",\n      \"Against\": \"The severity of the focal jejunal mural changes and aneurysm-like dilatation is less typical for purely autoimmune CVID enteropathy.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Crohn's_disease_with_jejunal_involvement\": {\n      \"Supports\": \"Enterocolonic fistula, mural thickening, and transient response to infliximab.\",\n      \"Against\": \"Failure to thrive, refractory nature despite biologics, and findings of monoclonal gammopathy and abnormal NK cells suggest a primary lymphoproliferative process.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Primary_intestinal_lymphoma_(e.g.,_indolent_T-cell_lymphoproliferative_disorder)\": {\n      \"Supports\": \"Chronic clinical course, localized jejunal pathology, and clonal NK/T-cell evidence.\",\n      \"Against\": \"Fistulization is less common in indolent types.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Small-bowel_adenocarcinoma\": {\n      \"Supports\": \"Weight loss, anemia, and focal mural thickening/stricturing.\",\n      \"Against\": \"Lack of a distinct mass on biopsy/imaging and long duration (1+ years) without clear metastatic progression.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Whipple's_disease\": {\n      \"Supports\": \"Malabsorption, diarrhea, and joint/systemic symptoms.\",\n      \"Against\": \"PCR for Tropheryma whipplei was negative.\",\n      \"Status\": \"Unsupported\"\n    },\n    \"Autoimmune_enteropathy\": {\n      \"Supports\": \"Severe diarrhea and enteropathy in the context of immune dysregulation.\",\n      \"Against\": \"Negative testing for anti-enterocyte antibodies; doesn't explain the jejunal aneurysmal dilation.\",\n      \"Status\": \"Weakly supported\"\n    }\n  },\n  \"Missing_Diagnoses\": [\n    \"NK/T-cell lymphoma (nasal or extranodal type)\",\n    \"Lymphomatoid granulomatosis\",\n    \"Intestinal T-cell lymphoma, NOS\"\n  ],\n  \"Evaluation_of_Each_Next_Step_You_Proposed\": {\n    \"Surgical_consultation\": \"Reasonable; the patient has acute abdominal pain, ischemia-like changes, and history of fistula.\",\n    \"Deep_enteroscopy\": \"Reasonable; allows for deeper tissue sampling of the proximal jejunum.\",\n    \"Flow_cytometry_and_TCR_studies\": \"Essential; required to differentiate benign immune dysregulation from occult lymphoma.\",\n    \"Review_by_expert_hematopathologist\": \"Highly appropriate given the complexity of the pathology slides.\",\n    \"Evaluation_for_occult_systemic_lymphoma_(PET/CT)\": \"Reasonable; the patient has systemic immune markers (clonal NK cells).\",\n    \"Genetic_counseling/testing\": \"Reasonable; the patient has a clear immunodeficiency phenotype (CVID) and potential familial history.\"\n  },\n  \"Missing_Next_Steps\": [\n    \"Bone marrow biopsy to evaluate for the source of the monoclonal gammopathy and the abnormal NK cells.\",\n    \"Measurement of serum free light chains and updated SPEP to monitor the IgG lambda M component.\",\n    \"In-depth investigation of the 'monotonous lymphoid cells' found on the peripheral smear to correlate with findings in the small bowel.\"\n  ],\n  \"Influence_of_Clinician_Input\": {\n    \"Analysis\": \"The clinician's differential was overly narrow (missing the hematologic connection). I uncritically accepted the 'Crohn's disease' diagnosis initially, which likely blinded the clinical team to the underlying lymphoproliferative process. I should have questioned the diagnosis of Crohn's disease more rigorously, as it is a diagnosis of exclusion that does not adequately explain the clonal NK cell findings.\"\n  },\n  \"Open_Questions\": [\n    \"What is the identity/immunophenotype of the 'monotonous-appearing' cells on the peripheral blood smear?\",\n    \"Does the jejunal aneurysmal dilation represent a specific subtype of T-cell lymphoma characterized by wall thinning rather than mass formation?\",\n    \"Is the enterocolonic fistula a complication of a primary malignancy or inflammatory disease?\"\n  ]\n}",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Enteropathy-associated T-cell lymphoma (EATL)",
+      "Common variable immunodeficiency (CVID) with associated enteropathy",
+      "Crohn's disease with jejunal involvement",
+      "Primary intestinal lymphoma (e.g., indolent T-cell lymphoproliferative disorder of the GI tract)",
+      "Small-bowel adenocarcinoma",
+      "Whipple's disease",
+      "Autoimmune enteropathy"
+    ],
+    "next_steps": [
+      "Surgical consultation for possible exploratory laparotomy or resection of symptomatic jejunal segments",
+      "Deep enteroscopy (balloon-assisted) with repeat targeted biopsies of the jejunal wall and masses",
+      "Flow cytometry and T-cell receptor (TCR) gene rearrangement studies on biopsy tissue to evaluate for occult T-cell lymphoma",
+      "Review of pathology slides by an expert hematopathologist with specialized immunohistochemistry (CD3, CD4, CD8, CD56, CD30, TCR-beta, TCR-gamma, EBER)",
+      "Evaluation for occult systemic lymphoma (PET/CT scan)",
+      "Genetic counseling and testing (e.g., CTLA4, LRBA mutations) for underlying common variable immunodeficiency (CVID) etiology"
+    ]
+  },
+  "differential_diagnoses": [
+    "Indolent T-cell lymphoproliferative disorder of the gastrointestinal tract",
+    "Enteropathy-associated T-cell lymphoma (EATL) type II",
+    "Common variable immunodeficiency (CVID) with systemic lymphoproliferative complications",
+    "Monomorphic epitheliotropic intestinal T-cell lymphoma",
+    "NK/T-cell lymphoma, extranodal type",
+    "Crohn's disease with secondary intestinal lymphoma",
+    "Intestinal T-cell lymphoma, NOS"
+  ],
+  "next_steps": [
+    "Surgical consultation for resection of symptomatic, ischemic jejunal segments with mural aneurysmal dilatation",
+    "Full-thickness histopathologic and immunohistochemical evaluation of resected bowel (CD3, CD4, CD8, CD56, CD30, TCR-beta, TCR-gamma, EBER, Ki-67)",
+    "T-cell receptor (TCR) gene rearrangement studies on fresh tissue and blood",
+    "Bone marrow biopsy and aspiration with flow cytometry to assess for clonal NK/T-cell expansion",
+    "Whole-body PET/CT scan for staging and identification of potential lymphomatous sites",
+    "Genetic testing for primary immunodeficiency markers including CTLA4, LRBA, and PI3K pathway mutations",
+    "Repeat serum protein electrophoresis and free light chain assay to track monoclonal gammopathy"
+  ]
+}

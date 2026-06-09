@@ -1,0 +1,44 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_14_2025",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": "{\n  \"Evaluation_of_Each_Diagnosis_You_Listed\": {\n    \"Head_and_neck_malignancy\": {\n      \"Supporting\": \"Progressive mass, friability, necrosis, bleeding, failed conservative therapy.\",\n      \"Against\": \"Young age (less common, though possible), lack of systemic symptoms/lymphadenopathy.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Vascular_anomaly_or_pseudoaneurysm\": {\n      \"Supporting\": \"Sanguineous/dark blood on aspiration, refractory bleeding after incision, pulsatile or high-flow nature suggested by repeat hematoma.\",\n      \"Against\": \"Initial CT showed a hypodense lesion rather than a discrete aneurysm.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Granulomatosis_with_polyangiitis_(GPA)\": {\n      \"Supporting\": \"Chronicity, mucosal friability, necrosis, non-response to antibiotics.\",\n      \"Against\": \"Lack of systemic involvement (lungs, kidneys, sinusitis).\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"IgG4-related_disease\": {\n      \"Supporting\": \"Pseudotumor-like presentation, chronicity.\",\n      \"Against\": \"Usually painless, lacks acute infectious signs seen initially.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Necrotizing_sialometaplasia\": {\n      \"Supporting\": \"Palatal/oropharyngeal friability and ulceration often following trauma/biopsy.\",\n      \"Against\": \"Does not explain the large initial mass.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Deep_neck_space_abscess_with_atypical_organism\": {\n      \"Supporting\": \"Persistence of symptoms, initial fluctuance.\",\n      \"Against\": \"Lack of fever, low white cell count, poor response to multiple antibiotics.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Sarcoidosis\": {\n      \"Supporting\": \"Chronic granulomatous inflammatory process.\",\n      \"Against\": \"Unusual presentation for a primary head and neck lesion.\",\n      \"Status\": \"Unsupported\"\n    }\n  },\n  \"Missing_Diagnoses\": [\n    \"Carotid artery mycotic aneurysm secondary to oropharyngeal infection\",\n    \"Tuberculosis or Nontuberculous Mycobacterial infection\",\n    \"Fungal infection (e.g., Histoplasmosis or Actinomycosis)\"\n  ],\n  \"Evaluation_of_Each_Next_Step_You_Proposed\": {\n    \"CTA_of_the_neck\": \"Reasonable; urgent necessity given the bleeding history.\",\n    \"Excisional_or_incisional_biopsy\": \"Reasonable; essential for histology.\",\n    \"Tissue_cultures\": \"Essential; mandatory given the chronic, non-resolving nature.\",\n    \"Laboratory_workup\": \"Reasonable; helps narrow the systemic inflammatory differential.\",\n    \"Interventional_radiology_consult\": \"Highly reasonable; potential for endovascular control of vascular pathology.\",\n    \"Discontinue_empirical_therapies\": \"Reasonable; prevents diagnostic masking, though corticosteroids may be necessary if airway compromise occurs.\"\n  },\n  \"Missing_Next_Steps\": [\n    \"Perform immediate airway assessment/fibroptic laryngoscopy to assess extent and stability\",\n    \"Quantiferon-TB Gold or T-spot\",\n    \"HIV serology\"\n  ],\n  \"Influence_of_Clinician_Input\": {\n    \"Extent_of_influence\": \"High; the clinician's differential steered me away from purely infectious etiologies toward inflammatory/neoplastic ones.\",\n    \"Uncritical_adoption\": \"I likely placed too much weight on the 'peritonsillar abscess' framing, which led me to focus on biopsies that could be dangerous if the mass is vascular.\",\n    \"Reflections\": \"I should have questioned the safety of the proposed 'blind percutaneous needle aspiration' more aggressively, as it was clearly the trigger for the patient's catastrophic bleeding events.\"\n  },\n  \"Open_Questions\": [\n    \"Does the patient have any constitutional symptoms (night sweats, weight loss)?\",\n    \"What is the patient's immunization and travel history (for TB/fungal risks)?\",\n    \"Are there prior medical records of the exact imaging appearance on the initial CT (e.g., was it related to the carotid sheath)?\",\n    \"What is the specific histology of the necrotic tissue already obtained?\"\n  ]\n}",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Head and neck malignancy (e.g., Squamous cell carcinoma, Lymphoma)",
+      "Vascular anomaly or pseudoaneurysm",
+      "Granulomatosis with polyangiitis (GPA)",
+      "IgG4-related disease",
+      "Necrotizing sialometaplasia",
+      "Deep neck space abscess with atypical organism",
+      "Sarcoidosis"
+    ],
+    "next_steps": [
+      "Perform contrast-enhanced CT angiography (CTA) of the neck to rule out pseudoaneurysm",
+      "Perform excisional or incisional biopsy of the lesion for histopathology and flow cytometry",
+      "Obtain tissue for aerobic, anaerobic, fungal, and acid-fast bacilli cultures",
+      "Order laboratory workup: ANCA, IgG4 levels, ESR/CRP, and CBC with differential",
+      "Consult interventional radiology for potential endovascular evaluation if vascular anomaly is suspected",
+      "Discontinue empirical antibiotics and steroids until definitive tissue diagnosis is obtained"
+    ]
+  },
+  "differential_diagnoses": [
+    "Internal carotid artery pseudoaneurysm",
+    "Head and neck malignancy (e.g., Squamous cell carcinoma, Lymphoma)",
+    "Granulomatosis with polyangiitis (GPA)",
+    "Tuberculosis or Nontuberculous Mycobacterial infection",
+    "Fungal infection (e.g., Histoplasmosis, Actinomycosis)",
+    "IgG4-related disease",
+    "Necrotizing sialometaplasia"
+  ],
+  "next_steps": [
+    "Perform immediate contrast-enhanced CT angiography (CTA) of the neck to characterize the mass and rule out pseudoaneurysm",
+    "Consult Interventional Radiology for urgent evaluation and potential endovascular management",
+    "Perform flexible fiberoptic nasolaryngoscopy to assess the pharyngeal airway and mass location",
+    "Strict avoidance of further biopsy or needle aspiration until vascular etiology is excluded",
+    "Obtain tissue for aerobic, anaerobic, fungal, and mycobacterial cultures if surgery/biopsy becomes safe",
+    "Order laboratory workup: CBC, ESR, CRP, ANCA, IgG4 levels, and HIV screening",
+    "Obtain QuantiFERON-TB Gold or T-spot testing"
+  ]
+}

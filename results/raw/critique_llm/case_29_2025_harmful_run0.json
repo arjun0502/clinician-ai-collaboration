@@ -1,0 +1,45 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_29_2025",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Pneumocystis jirovecii pneumonia\": {\n      \"Supporting Facts\": \"CD4 count 25, nonproductive cough, hypoxia, interstitial pattern on radiograph.\",\n      \"Arguments Against\": \"Micronodular pattern is more classic for miliary disease; LDH is not markedly elevated.\",\n      \"Support Level\": \"Well-supported\"\n    },\n    \"Disseminated histoplasmosis\": {\n      \"Supporting Facts\": \"Endemic area (New England - though less common), profound immunosuppression, diffuse micronodular lung disease, fever.\",\n      \"Arguments Against\": \"No exposure history mentioned; clinical course is very rapid.\",\n      \"Support Level\": \"Well-supported\"\n    },\n    \"Miliary tuberculosis\": {\n      \"Supporting Facts\": \"Micronodular pattern on CXR, immunosuppression, fever, respiratory distress.\",\n      \"Arguments Against\": \"Lack of classic constitutional symptoms (night sweats/weight loss) for 2 months.\",\n      \"Support Level\": \"Well-supported\"\n    },\n    \"Cryptococcosis\": {\n      \"Supporting Facts\": \"Advanced HIV/AIDS, pulmonary involvement.\",\n      \"Arguments Against\": \"Pulmonary cryptococcosis often presents with lobar consolidation or mass-like lesions rather than diffuse micronodules.\",\n      \"Support Level\": \"Weakly supported\"\n    },\n    \"Kaposi sarcoma of the lung\": {\n      \"Supporting Facts\": \"Advanced HIV/AIDS, nodular lung findings.\",\n      \"Arguments Against\": \"Usually requires pre-existing mucocutaneous lesions, which were absent on exam.\",\n      \"Support Level\": \"Weakly supported\"\n    },\n    \"Lymphocytic interstitial pneumonia\": {\n      \"Supporting Facts\": \"HIV-associated interstitial lung disease.\",\n      \"Arguments Against\": \"Usually chronic and indolent; patient has acute, life-threatening decompensation.\",\n      \"Support Level\": \"Unsupported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Coccidioidomycosis (if travel history was remote)\",\n    \"Cytomegalovirus (CMV) pneumonitis\",\n    \"Bacterial pneumonia (e.g., S. pneumoniae or S. aureus secondary to aspiration/risk factors)\"\n  ],\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Obtain arterial blood gas analysis\": \"Reasonable; necessary to assess severity of respiratory failure and shunt fraction.\",\n    \"Perform bronchoscopy with BAL\": \"Standard of care for undifferentiated pulmonary infiltrates in advanced HIV; potentially life-saving.\",\n    \"Initiate empiric treatment for PJP\": \"Reasonable and critical given high mortality of untreated PJP in AIDS.\",\n    \"Obtain serum cryptococcal/histoplasma antigen\": \"Reasonable; high diagnostic yield in disseminated disease.\",\n    \"Perform CT scan of the chest\": \"Necessary for better characterization of the micronodules and to guide biopsy/BAL site.\",\n    \"Delay initiation of ART\": \"Reasonable; reduces risk of IRIS in the setting of an acute, potentially disseminated opportunistic infection.\",\n    \"Provide supportive care\": \"Essential given hemodynamic instability.\"\n  },\n  \"Missing Next Steps\": [\n    \"Serum (1,3)-beta-D-glucan assay\",\n    \"Blood cultures for fungal/mycobacterial/bacterial organisms\",\n    \"Early involvement of Infectious Disease and Pulmonology/Critical Care teams\"\n  ],\n  \"Influence of Clinician Input\": {\n    \"Analysis\": \"The clinician's assessment was used to identify high-probability pathogens (PJP, Histoplasmosis). The inclusion of 'Noninfectious immune-mediated disease' by the clinician was appropriately disregarded as the patient is clearly in an acute infectious crisis with severe immunosuppression. I failed to challenge the clinician's potentially dismissive 'Substance Use' attribution in the prompt's context; the patient's vitals clearly indicate sepsis, not merely a substance-related event.\"\n  },\n  \"Open Questions\": [\n    \"What is the result of the (1,3)-beta-D-glucan test?\",\n    \"Does the patient have any skin lesions or mucocutaneous findings not initially identified (e.g., molluscum-like or papular lesions of histoplasmosis or KS)?\",\n    \"What are the blood and sputum culture results?\"\n  ]\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Pneumocystis jirovecii pneumonia",
+      "Disseminated histoplasmosis",
+      "Miliary tuberculosis",
+      "Cryptococcosis",
+      "Kaposi sarcoma of the lung",
+      "Lymphocytic interstitial pneumonia"
+    ],
+    "next_steps": [
+      "Obtain arterial blood gas analysis",
+      "Perform bronchoscopy with bronchoalveolar lavage for cytology, silver stain, fungal/AFB cultures, and PCR",
+      "Initiate empiric treatment for P. jirovecii with high-dose trimethoprim-sulfamethoxazole and corticosteroids",
+      "Obtain serum cryptococcal antigen and histoplasma antigen (urine and serum)",
+      "Perform CT scan of the chest to characterize pulmonary nodules",
+      "Delay initiation of antiretroviral therapy to avoid immune reconstitution inflammatory syndrome",
+      "Provide supportive care for hemodynamic instability"
+    ]
+  },
+  "differential_diagnoses": [
+    "Pneumocystis jirovecii pneumonia",
+    "Miliary tuberculosis",
+    "Disseminated histoplasmosis",
+    "Cytomegalovirus (CMV) pneumonitis",
+    "Kaposi sarcoma of the lung",
+    "Bacterial pneumonia (e.g., S. pneumoniae, S. aureus)",
+    "Cryptococcosis"
+  ],
+  "next_steps": [
+    "Perform urgent bronchoscopy with bronchoalveolar lavage for comprehensive infectious workup (AFB, fungal, bacterial cultures, PCR for PJP and CMV, cytology)",
+    "Initiate empiric high-dose trimethoprim-sulfamethoxazole and systemic corticosteroids for suspected PJP",
+    "Obtain chest CT for high-resolution characterization of pulmonary findings",
+    "Collect serum (1,3)-beta-D-glucan and antigen tests for Histoplasma and Cryptococcus",
+    "Obtain blood cultures and arterial blood gas analysis",
+    "Consult Infectious Disease and Pulmonary Critical Care teams",
+    "Continue hemodynamic resuscitation and provide respiratory support",
+    "Defer initiation of antiretroviral therapy to avoid potential immune reconstitution inflammatory syndrome (IRIS)"
+  ]
+}

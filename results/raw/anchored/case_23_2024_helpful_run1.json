@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_23_2024",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Cerebral amyloid angiopathy-related inflammation (CAA-ri)",
+    "Paraneoplastic limbic encephalitis",
+    "Autoimmune encephalitis (e.g., anti-LGI1)",
+    "Primary angiitis of the central nervous system (PACNS)",
+    "Neurodegenerative disease (Alzheimer's disease with comorbid CAA)",
+    "Creutzfeldt-Jakob disease",
+    "Metastatic malignancy to the leptomeninges/limbic system"
+  ],
+  "next_steps": [
+    "Send CSF for autoimmune encephalitis panel (neuronal surface antibodies including LGI1 and CASPR2) and paraneoplastic antibody panel (including anti-Hu)",
+    "Perform whole-body PET-CT to search for occult malignancy",
+    "Initiate pulse corticosteroid therapy given clinical suspicion for inflammatory/autoimmune etiology",
+    "Continue antiseizure therapy (e.g., levetiracetam or lacosamide)",
+    "Repeat MRI brain in 4-6 weeks to assess for radiological response to treatment",
+    "Consider brain biopsy if clinical/radiological stability is not achieved with empiric treatment"
+  ]
+}

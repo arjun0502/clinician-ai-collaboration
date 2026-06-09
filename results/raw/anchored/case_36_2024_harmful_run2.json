@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_36_2024",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Cannabinoid Hyperemesis Syndrome",
+    "Gastroparesis",
+    "Cyclic Vomiting Syndrome",
+    "Superior Mesenteric Artery Syndrome",
+    "Peptic Ulcer Disease",
+    "Crohn's Disease",
+    "Acute Intermittent Porphyria"
+  ],
+  "next_steps": [
+    "Detailed history regarding marijuana use frequency and impact of hot showers on symptom relief",
+    "Upper gastrointestinal endoscopy to evaluate for peptic ulcer disease and gastritis",
+    "Gastric emptying study",
+    "Urinary porphobilinogen and aminolevulinic acid levels",
+    "Sedimentation rate and C-reactive protein levels to screen for inflammatory bowel disease",
+    "Trial of cessation of cannabis use",
+    "Abdominal magnetic resonance angiography to evaluate for vascular compression syndromes"
+  ]
+}

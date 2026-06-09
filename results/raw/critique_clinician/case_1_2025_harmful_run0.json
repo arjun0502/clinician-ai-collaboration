@@ -1,0 +1,26 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_1_2025",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Clinician Diagnosis\": {\n    \"Preeclampsia\": {\n      \"Supporting\": \"History of proteinuria and edema during pregnancy; recent persistent headache.\",\n      \"Against\": \"Onset occurred/persisted 8 weeks postpartum; lack of hypertension during recent encounters; proteinuria of nephrotic range (UPCR 5.2) without hypertensive emergency; clinical course is more chronic than typical postpartum preeclampsia.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Minimal change disease\": {\n      \"Supporting\": \"Nephrotic syndrome (hypoalbuminemia, heavy proteinuria, edema) in an adult.\",\n      \"Against\": \"No specific features of MCD are present, though it is a common cause of idiopathic nephrotic syndrome in adults.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Lupus membranous nephropathy\": {\n      \"Supporting\": \"Young woman, nephrotic syndrome, constitutional symptoms (headache).\",\n      \"Against\": \"No mention of other systemic symptoms (rash, arthritis, serositis) or typical labs (anemia, leukopenia, positive ANA/dsDNA).\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Primary membranous nephropathy\": {\n      \"Supporting\": \"Common cause of nephrotic syndrome in adults; consistent with degree of proteinuria and hypoalbuminemia.\",\n      \"Against\": \"Lack of hypertension at initial presentation, though it can develop later.\",\n      \"Status\": \"Well-supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Focal Segmental Glomerulosclerosis (FSGS) (often associated with obesity-related glomerulopathy)\",\n    \"Postpartum subacute thyroiditis (explaining TSH 7.87 and potential metabolic/fluid changes)\",\n    \"Renal vein thrombosis (secondary to nephrotic syndrome, though leg US was negative for DVT, the risk remains high)\",\n    \"Post-infectious glomerulonephritis\"\n  ],\n  \"Evaluation of Each Proposed Next Step\": {\n    \"Initiate antihypertensives\": {\n      \"Assessment\": \"Reasonable, given current blood pressure of 142/85 mm Hg, but management should prioritize RAAS inhibition given the proteinuria.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"Initiate empiric ACE inhibitors\": {\n      \"Assessment\": \"Highly reasonable; indicated for renoprotection and reduction of proteinuria in nephrotic syndrome.\",\n      \"Harmful/Contraindicated\": \"Ensure patient is not pregnant and monitor creatinine/potassium closely.\"\n    },\n    \"Order renal angiogram\": {\n      \"Assessment\": \"Unreasonable; not indicated unless there is high suspicion of renal artery stenosis or vasculitis, which is not supported by current clinical findings.\",\n      \"Harmful/Contraindicated\": \"Potential for contrast-induced nephropathy given the patient has significant proteinuria.\"\n    },\n    \"Prescribe empiric anticoagulation\": {\n      \"Assessment\": \"Potentially premature but aggressive; patients with nephrotic syndrome (especially if albumin < 2.0-2.5) are hypercoagulable. Prophylaxis is often considered.\",\n      \"Harmful/Contraindicated\": \"Increases bleeding risk; ensure no contraindications.\"\n    }\n  },\n  \"Missing Next Steps\": [\n    \"Renal biopsy: Mandatory for definitive diagnosis of nephrotic syndrome.\",\n    \"Serologic evaluation: ANA, dsDNA, complement levels (C3, C4), PLA2R antibodies (for membranous), HIV/Hepatitis screen.\",\n    \"24-hour urine collection: To confirm exact quantification of proteinuria.\",\n    \"Serum T4/T3: To clarify the significance of the elevated TSH (subclinical hypothyroidism vs. recovery from thyroiditis).\"\n  ],\n  \"Open Questions\": [\n    \"What are the serum creatinine and GFR trends over the past 8 weeks?\",\n    \"Is there a history of hematuria on urinalysis?\",\n    \"Does the patient have a positive PLA2R antibody?\",\n    \"Would a renal biopsy confirm podocytopathy versus membranous patterns?\"\n  ]\n}\n```",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Primary membranous nephropathy",
+    "Obesity-related glomerulopathy (focal segmental glomerulosclerosis)",
+    "Systemic lupus erythematosus with class V (membranous) lupus nephritis",
+    "Minimal change disease",
+    "Post-infectious glomerulonephritis",
+    "IgA nephropathy",
+    "Postpartum subacute thyroiditis with incidental nephrotic syndrome"
+  ],
+  "next_steps": [
+    "Perform a percutaneous renal biopsy for histological diagnosis",
+    "Order a comprehensive nephrotic syndrome serologic panel including ANA, anti-dsDNA, C3/C4 levels, and anti-PLA2R antibodies",
+    "Initiate ACE inhibitor or ARB therapy for renoprotection and antiproteinuric effect, ensuring non-pregnant status",
+    "Measure 24-hour urine protein and creatinine clearance to accurately quantify protein excretion and GFR",
+    "Recheck serum free T4 and TPO antibodies to further characterize the thyroid status",
+    "Optimize blood pressure control targeting <130/80 mmHg",
+    "Consider prophylactic anticoagulation in the setting of severe hypoalbuminemia (albumin <2.0-2.5 g/dL) based on individual thromboembolic risk assessment"
+  ]
+}

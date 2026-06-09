@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_2_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Posterior Reversible Encephalopathy Syndrome (PRES)",
+    "Cerebral Fat Embolism Syndrome",
+    "Sickle Cell-Associated Neuro-ophthalmologic/Neurologic Disease (SCAND)",
+    "Acute Intracranial Hemorrhage (secondary to coagulopathy or trauma)",
+    "Cerebral Venous Sinus Thrombosis",
+    "Reversible Cerebral Vasoconstriction Syndrome",
+    "Infectious Encephalitis"
+  ],
+  "next_steps": [
+    "Urgent Neurology and Hematology consultations",
+    "Initiation of seizure prophylaxis (e.g., Levetiracetam)",
+    "Blood pressure management to optimize cerebral perfusion while treating hypertension",
+    "Urgent red-cell exchange transfusion",
+    "Continuous EEG monitoring",
+    "Lumbar puncture to exclude infection/meningitis if clinical suspicion persists",
+    "Formal ophthalmologic evaluation for retinopathy"
+  ]
+}

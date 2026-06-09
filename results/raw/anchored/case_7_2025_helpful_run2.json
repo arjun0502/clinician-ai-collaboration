@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_7_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Metastatic malignancy with marrow infiltration (myelophthisis)",
+    "Hemophagocytic lymphohistiocytosis (HLH)",
+    "Acute myeloid leukemia",
+    "Occult solid tumor (e.g., lung or pancreatic carcinoma)",
+    "Myelodysplastic syndrome",
+    "Disseminated tuberculosis or fungal infection"
+  ],
+  "next_steps": [
+    "Bone marrow aspiration and biopsy with cytogenetics and flow cytometry",
+    "Serum soluble IL-2 receptor level and NK cell activity (HLH-2004 criteria workup)",
+    "CT of the chest with contrast to evaluate lung nodules and mediastinal lymphadenopathy",
+    "Consider PET/CT scan to identify occult malignancy sites",
+    "Diagnostic paracentesis or ultrasound-guided biopsy of suspicious hepatic/lung lesions if safe",
+    "Supportive care with transfusion for severe cytopenias and management of pancreatitis"
+  ]
+}

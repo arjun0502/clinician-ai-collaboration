@@ -1,0 +1,24 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_4_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Clinician Diagnosis\": {\n    \"Bartonellosis\": {\n      \"Support\": \"History of cat scratch 6 months ago; symptoms of fever, arthralgia, and generalized lymphadenopathy.\",\n      \"Against\": \"Lymphadenopathy is typically regional (at the site of inoculation) rather than bilateral hilar/mediastinal; pulmonary nodules are less characteristic.\",\n      \"SupportStatus\": \"Weakly supported\"\n    },\n    \"Blastomycosis\": {\n      \"Support\": \"Pulmonary nodules, systemic symptoms (fever, arthralgia), hilar lymphadenopathy; resident of endemic area (New England/mid-Atlantic/Southeast).\",\n      \"Against\": \"Usually presents with more prominent pulmonary parenchymal findings; dermatologic manifestations (e.g., verrucous lesions) absent despite systemic involvement.\",\n      \"SupportStatus\": \"Weakly supported\"\n    },\n    \"Diffuse large B-cell lymphoma\": {\n      \"Support\": \"B symptoms (fever, fatigue, weight loss), mediastinal/hilar lymphadenopathy, systemic involvement.\",\n      \"Against\": \"Lack of frank lymphadenopathy on physical exam; arthralgia/skin findings usually less pronounced than the adenopathy itself.\",\n      \"SupportStatus\": \"Weakly supported\"\n    },\n    \"Paraneoplastic inflammatory polyarthritis\": {\n      \"Support\": \"New onset joint pain in a middle-aged patient with evolving pulmonary findings.\",\n      \"Against\": \"Usually associated with an identified malignancy or solid tumor; clinical picture strongly points toward an inflammatory/granulomatous etiology.\",\n      \"SupportStatus\": \"Weakly supported\"\n    },\n    \"Sarcoidosis (L\u00f6fgren's syndrome)\": {\n      \"Support\": \"Classic presentation: bilateral hilar lymphadenopathy, erythema nodosum (ankles), polyarthralgia, fever, and recent pulmonary nodular changes.\",\n      \"Against\": \"Coronary involvement is rare but documented (cardiac sarcoidosis), which could explain the syncope and palpitations.\",\n      \"SupportStatus\": \"Well-supported\"\n    },\n    \"Systemic lupus erythematosus\": {\n      \"Support\": \"Arthralgia, fever, fatigue, ecchymoses (possible vasculitis/thrombocytopenia), multisystem involvement.\",\n      \"Against\": \"Negative urinalysis; no characteristic rash (malar/discoid); normal CBC (no cytopenias).\",\n      \"SupportStatus\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Cardiac Sarcoidosis (as a distinct clinical entity given the syncope and prior coronary intervention)\",\n    \"Tuberculosis (mediastinal adenopathy and fever)\",\n    \"IgG4-Related Disease (can cause mediastinal adenopathy and systemic symptoms)\",\n    \"Lymphoma (Hodgkin\u2019s, which often presents with prominent mediastinal masses)\"\n  ],\n  \"Evaluation of Each Proposed Next Step\": {\n    \"Cardiac MRI\": {\n      \"Reasonable\": \"Yes, essential to evaluate for myocardial inflammation or scar consistent with cardiac sarcoidosis, given syncope and history of CAD.\",\n      \"Harmful\": \"No.\"\n    },\n    \"18F-FDG PET/CT\": {\n      \"Reasonable\": \"Yes, excellent for identifying active inflammatory sites and guiding biopsy locations.\",\n      \"Harmful\": \"No.\"\n    },\n    \"Serum ACE level and calcium\": {\n      \"Reasonable\": \"Yes, standard initial laboratory workup for suspected sarcoidosis.\",\n      \"Harmful\": \"No.\"\n    }\n  },\n  \"Missing Next Steps\": [\n    \"Biopsy of pulmonary nodules or mediastinal lymph nodes (via EBUS-TBNA or VATS) for histopathology and cultures.\",\n    \"Serum soluble IL-2 receptor level (to assist in evaluating lymphoma vs. sarcoidosis).\",\n    \"Holter monitor or extended cardiac rhythm monitoring to investigate syncope and palpitations.\"\n  ],\n  \"Open Questions\": [\n    \"Did the previous coronary angiography show any features of extrinsic vessel compression or wall thickening consistent with non-atherosclerotic disease?\",\n    \"What is the specific morphology of the ankle macules (i.e., are they consistent with erythema nodosum)?\",\n    \"Was there any evidence of uveitis (slit lamp exam)?\"\n  ]\n}\n```",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Sarcoidosis",
+    "Cardiac sarcoidosis",
+    "Hodgkin lymphoma",
+    "Tuberculosis",
+    "Histoplasmosis",
+    "IgG4-related disease",
+    "Systemic lupus erythematosus"
+  ],
+  "next_steps": [
+    "Endobronchial ultrasound-guided transbronchial needle aspiration (EBUS-TBNA) of mediastinal lymph nodes for histopathology and microbial cultures",
+    "Cardiac MRI with late gadolinium enhancement",
+    "24-hour Holter monitoring or event recorder",
+    "Measurement of serum ACE, calcium, 1,25-dihydroxyvitamin D, and soluble IL-2 receptor",
+    "Ophthalmologic examination with slit-lamp for signs of uveitis"
+  ]
+}

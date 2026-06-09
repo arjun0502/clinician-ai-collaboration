@@ -1,0 +1,23 @@
+{
+  "condition": "anchored",
+  "case_id": "case_10_2025",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Systemic Lupus Erythematosus with Lupus Nephritis (Class V/Membranous) and secondary hypercoagulability",
+    "Antiphospholipid Syndrome (APS) with catastrophic APS or renal vein thrombosis",
+    "ANCA-associated vasculitis (e.g., Granulomatosis with Polyangiitis)",
+    "Anti-glomerular basement membrane (anti-GBM) disease",
+    "Membranous Nephropathy with hypercoagulable state"
+  ],
+  "next_steps": [
+    "Serologic evaluation: ANA, dsDNA, anti-Smith, complement levels (C3/C4), and antiphospholipid panel (lupus anticoagulant, anticardiolipin, anti-beta2-glycoprotein I)",
+    "Perform urgent renal biopsy to confirm histologic pattern of glomerulonephritis",
+    "Initiate therapeutic anticoagulation (e.g., heparin drip) given bilateral renal vein thrombosis and pulmonary emboli",
+    "Obtain formal transthoracic echocardiogram to assess for cardiac source of emboli and pulmonary hypertension",
+    "Initiate pulse corticosteroid therapy once infection is ruled out via culture data or if clinical suspicion for autoimmune etiology is high",
+    "Monitor renal function, electrolytes, and serial respiratory status"
+  ]
+}

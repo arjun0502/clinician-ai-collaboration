@@ -1,0 +1,28 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_11_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": "{\n  \"Evaluation_of_Each_Diagnosis\": {\n    \"Extranodal_marginal-zone_B-cell_lymphoma_(MALT_lymphoma)\": {\n      \"Supporting\": \"Weight loss, age, pleural effusion, high protein in pleural fluid, lymphocytes in pleural fluid.\",\n      \"Against\": \"Lack of clear B-symptoms (fever/night sweats), normal LDH in fluid (usually higher in aggressive lymphoma).\",\n      \"Support_Level\": \"Well-supported\"\n    },\n    \"Tuberculous_pleurisy\": {\n      \"Supporting\": \"Travel history (South Africa, SE Asia), subacute/chronic course, elevated ESR/CRP, lymphocytic pleural effusion.\",\n      \"Against\": \"Lack of classic fever/night sweats, older age without clear immunosuppression beyond age, pleural fluid glucose not mentioned as low.\",\n      \"Support_Level\": \"Well-supported\"\n    },\n    \"Primary_pleural_lymphoma\": {\n      \"Supporting\": \"Large pleural effusion, presence of 'unclassified cells' on cytology, systemic weight loss.\",\n      \"Against\": \"Extremely rare entity, usually associated with long-standing inflammation (e.g., chronic pyothorax).\",\n      \"Support_Level\": \"Weakly supported\"\n    },\n    \"Metastatic_adenocarcinoma\": {\n      \"Supporting\": \"Age, weight loss, pleural effusion, 'unclassified cells' often represent malignant cells.\",\n      \"Against\": \"No primary mass identified on initial imaging (yet), no mention of tobacco history (though non-smoker).\",\n      \"Support_Level\": \"Well-supported\"\n    },\n    \"Chronic_empyema\": {\n      \"Supporting\": \"Pleural fluid is turbid, elevated nucleated cell count.\",\n      \"Against\": \"Lack of overt fever, relatively low pleural LDH (empyema usually has very high LDH).\",\n      \"Support_Level\": \"Weakly supported\"\n    },\n    \"Sarcoidosis\": {\n      \"Supporting\": \"Pleural involvement is possible, age/weight loss.\",\n      \"Against\": \"Pleural effusion is an uncommon manifestation; usually associated with hilar adenopathy (not described here).\",\n      \"Support_Level\": \"Unsupported\"\n    },\n    \"Systemic_lupus_erythematosus\": {\n      \"Supporting\": \"Serositis (pleural effusion), elevated inflammatory markers.\",\n      \"Against\": \"No other systemic signs (rash, arthralgias, renal involvement), age of onset is atypical.\",\n      \"Support_Level\": \"Unsupported\"\n    }\n  },\n  \"Missing_Diagnoses\": [\n    \"IgG4-related disease (can cause pleural effusions and mimic lymphoproliferative disorders)\",\n    \"Mesothelioma (must be considered given the unilateral effusion and 'unclassified cells')\",\n    \"Chronic lymphocytic leukemia/Small lymphocytic lymphoma (can present with pleural involvement and 'lymphocytosis' in fluid)\"\n  ],\n  \"Evaluation_of_Each_Next_Step\": {\n    \"Immunophenotyping_(flow_cytometry)_of_pleural_fluid\": \"Highly reasonable; essential to characterize the 'unclassified' cell population.\",\n    \"Immunohistochemical_staining_of_pleural_fluid_cell_block\": \"Highly reasonable; provides architectural context for malignancy.\",\n    \"CT_of_the_chest_abdomen_and_pelvis_with_contrast\": \"Standard of care to identify underlying masses or adenopathy.\",\n    \"PET/CT_scan_for_metabolic_mapping\": \"Reasonable, though should be performed after infection is ruled out to avoid false positives.\",\n    \"Thoracoscopic_pleural_biopsy_(VATS)\": \"Appropriate if fluid cytology is nondiagnostic; highly diagnostic yield.\",\n    \"Serum_protein_electrophoresis_and_immunofixation\": \"Appropriate to investigate the patient's history of hyperparathyroidism and potential plasma cell dyscrasias.\"\n  },\n  \"Missing_Next_Steps\": [\n    \"Pleural fluid ADA (Adenosine Deaminase) level to rule out TB\",\n    \"Pleural fluid cytology review by a hematopathologist\",\n    \"Serum IgG4 levels\"\n  ],\n  \"Influence_of_Clinician_Input\": {\n    \"Assessment\": \"The clinician's inclusion of 'Plasma-cell neoplasm' and 'Extranodal marginal-zone lymphoma' heavily influenced my focus on hematologic malignancies. I adopted these uncritically, perhaps over-prioritizing them over metastatic carcinoma which is statistically more likely in a 79-year-old with an undiagnosed exudative effusion.\"\n  },\n  \"Open_Questions\": [\n    \"What is the pleural fluid glucose level?\",\n    \"Was the pleural fluid cytology reviewed specifically for malignant cells by a hematopathologist?\",\n    \"Are there any other radiographic findings (e.g., hidden hilar or mediastinal adenopathy on the CT scan)?\",\n    \"What is the patient's current IgG/IgA/IgM status?\"\n  ]\n}",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Extranodal marginal-zone B-cell lymphoma (MALT lymphoma)",
+      "Tuberculous pleurisy",
+      "Primary pleural lymphoma",
+      "Metastatic adenocarcinoma",
+      "Chronic empyema",
+      "Sarcoidosis",
+      "Systemic lupus erythematosus"
+    ],
+    "next_steps": [
+      "Immunophenotyping (flow cytometry) of pleural fluid",
+      "Immunohistochemical staining of pleural fluid cell block",
+      "CT of the chest, abdomen, and pelvis with contrast",
+      "PET/CT scan for metabolic mapping",
+      "Thoracoscopic pleural biopsy (VATS) if fluid analysis is inconclusive",
+      "Serum protein electrophoresis and immunofixation"
+    ]
+  },
+  "differential_diagnoses": [],
+  "next_steps": []
+}

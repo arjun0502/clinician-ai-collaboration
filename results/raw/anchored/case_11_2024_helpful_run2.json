@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_11_2024",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Rheumatoid vasculitis",
+    "Nonsystemic vasculitic neuropathy",
+    "Polyarteritis nodosa",
+    "ANCA-associated vasculitis (MPA or GPA)",
+    "Paraneoplastic neuropathy",
+    "Chronic inflammatory demyelinating polyradiculoneuropathy",
+    "Severe vitamin B6 deficiency (pyridoxine-deficiency neuropathy)"
+  ],
+  "next_steps": [
+    "Send comprehensive autoimmune/vasculitis panel including ANA, ANCA, RF, anti-CCP, complement levels (C3, C4), and cryoglobulins",
+    "Perform electrodiagnostic-guided sural nerve biopsy and concurrent muscle biopsy for vasculitis pathology",
+    "Obtain high-quality MRI of cervical and lumbar spine with contrast under sedation or analgesia to rule out structural/inflammatory cord involvement",
+    "Evaluate for underlying occult malignancy given the rapid functional decline and systemic inflammation",
+    "Monitor response to high-dose vitamin B6 supplementation while awaiting diagnostic biopsy results",
+    "Consult rheumatology and neurology for multidisciplinary management of suspected vasculitis"
+  ]
+}

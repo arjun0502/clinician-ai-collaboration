@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_15_2025",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Hantavirus cardiopulmonary syndrome (HCPS)",
+    "Leptospirosis with pulmonary involvement",
+    "Severe community-acquired pneumonia (atypical etiology)",
+    "Diffuse alveolar hemorrhage due to vasculitis (e.g., ANCA-associated)",
+    "Invasive fungal pneumonia (e.g., Histoplasmosis)",
+    "Influenza pneumonia with ARDS",
+    "Dengue fever with capillary leak syndrome"
+  ],
+  "next_steps": [
+    "Order Hantavirus serology (IgM/IgG) and PCR",
+    "Perform bronchoalveolar lavage for cytology, galactomannan, and pathogen-specific PCR",
+    "Review peripheral blood smear for atypical lymphocytes",
+    "Conduct echocardiogram (formal) to definitively exclude occult cardiac dysfunction",
+    "Complete autoimmune workup (ANCA, anti-GBM, ANA)",
+    "Initiate broad-spectrum antimicrobial coverage including specific agents for suspected Hantavirus or Leptospirosis as clinical suspicion warrants",
+    "Maintain lung-protective ventilation strategy"
+  ]
+}

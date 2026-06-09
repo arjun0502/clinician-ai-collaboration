@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_26_2025",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Bartonella henselae infection (Cat-scratch disease)",
+    "Langerhans cell histiocytosis",
+    "Chronic recurrent multifocal osteomyelitis (CRMO)",
+    "Metastatic malignancy (e.g., Ewing sarcoma, neuroblastoma)",
+    "Leukemia (Acute lymphoblastic leukemia)",
+    "Sarcoidosis",
+    "Disseminated fungal infection",
+    "Tuberculosis"
+  ],
+  "next_steps": [
+    "Bartonella henselae serology (IgG/IgM) and PCR",
+    "Biopsy of a liver or bone lesion for histopathology and microbial culture",
+    "Ophthalmologic examination to rule out neuroretinitis or retinochoroiditis",
+    "Complete blood count, peripheral blood smear, and inflammatory markers (ESR, CRP)",
+    "Bone marrow aspiration and biopsy",
+    "Echocardiogram to rule out culture-negative endocarditis"
+  ]
+}

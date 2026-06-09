@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_19_2024",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Granulomatosis with polyangiitis",
+    "Systemic lupus erythematosus",
+    "Adult-onset Still's disease",
+    "VEXAS syndrome",
+    "Relapsing polychondritis",
+    "Sarcoidosis"
+  ],
+  "next_steps": [
+    "Antineutrophil cytoplasmic antibody (ANCA) testing",
+    "Skin biopsy (with immunofluorescence)",
+    "Urinalysis and urine sediment examination",
+    "Chest CT (high-resolution)",
+    "Complement levels (C3, C4) and ANA/ENA panel",
+    "Nasal endoscopy or biopsy",
+    "Echocardiogram"
+  ]
+}

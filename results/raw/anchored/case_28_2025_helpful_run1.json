@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_28_2025",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Penetrating duodenal ulcer with duodenocaval or duodeno-renal fistula",
+    "Streptococcus anginosus group bacteremia secondary to occult intra-abdominal abscess",
+    "Infective endocarditis",
+    "Lemierre's syndrome (variant)",
+    "Strongyloides hyperinfection syndrome",
+    "Catastrophic antiphospholipid syndrome (CAPS)"
+  ],
+  "next_steps": [
+    "Echocardiogram (TTE/TEE) to rule out endocarditis",
+    "Repeat CT imaging of the abdomen (optimized/gated) or MRCP to better characterize the duodenal-renal interface",
+    "Upper endoscopy to evaluate for duodenal pathology or fistula",
+    "Continue broad-spectrum antibiotic coverage targeting Streptococcus anginosus group",
+    "Optimize anticoagulation management for the IVC/renal vein thrombosis",
+    "Repeat antiphospholipid panel after the acute phase to confirm or rule out secondary vs. primary APS"
+  ]
+}

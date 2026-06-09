@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_5_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Angiostrongylus cantonensis meningitis",
+    "Gnathostomiasis",
+    "Neurocysticercosis",
+    "Paragonimiasis",
+    "Tuberculous meningitis",
+    "Coccidioidal meningitis",
+    "Paraneoplastic neurological syndrome"
+  ],
+  "next_steps": [
+    "Send CSF for Angiostrongylus cantonensis PCR",
+    "Send CSF and serum for parasitic serologies (Angiostrongylus, Gnathostoma, Strongyloides)",
+    "Perform contrast-enhanced MRI of the brain and entire spine",
+    "Send CSF for fungal and mycobacterial studies (including PCR and culture)",
+    "Consult Infectious Disease and Neurology specialists",
+    "Continue broad-spectrum empirical coverage until specific pathogen identified"
+  ]
+}

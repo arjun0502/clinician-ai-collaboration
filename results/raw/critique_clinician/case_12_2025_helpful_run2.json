@@ -1,0 +1,24 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_12_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": "{\n  \"Evaluation_of_Each_Clinician_Diagnosis\": {\n    \"Body_lice_infestation\": {\n      \"Supporting_facts\": \"History of living in a homeless shelter with reports of infestation.\",\n      \"Against\": \"Does not explain fever, oral ulcer, or atypical lymphocytes.\",\n      \"Support\": \"Weakly supported (as a primary cause for symptoms).\"\n    },\n    \"DRESS_syndrome\": {\n      \"Supporting_facts\": \"Fever, rash, atypical lymphocytes, history of recent risperidone use.\",\n      \"Against\": \"Timeline (2 days) is inconsistent with the typical 2-8 week latency for DRESS.\",\n      \"Support\": \"Weakly supported.\"\n    },\n    \"Herpes_simplex_virus_infection\": {\n      \"Supporting_facts\": \"Oral ulcer, vesicular rash.\",\n      \"Against\": \"Distribution of rash (face, trunk, extremities) is atypical for HSV.\",\n      \"Support\": \"Weakly supported.\"\n    },\n    \"Measles\": {\n      \"Supporting_facts\": \"Fever, maculopapular rash, oral involvement (possible Koplik spots/ulcer).\",\n      \"Against\": \"Age group and lack of classic prodrome (cough, coryza, conjunctivitis).\",\n      \"Support\": \"Weakly supported.\"\n    },\n    \"Scabies\": {\n      \"Supporting_facts\": \"Pruritus, exposure history, involvement of skin folds.\",\n      \"Against\": \"Does not explain fever, oral ulcer, or atypical lymphocytes.\",\n      \"Support\": \"Well supported (for the pruritus and skin findings).\"\n    },\n    \"Varicella-zoster_virus_infection\": {\n      \"Supporting_facts\": \"Fever, papules/vesicles on face and trunk, oral ulcer.\",\n      \"Against\": \"None prominent; clinical presentation is highly suggestive of disseminated varicella.\",\n      \"Support\": \"Well supported.\"\n    }\n  },\n  \"Missing_Diagnoses\": [\n    \"Disseminated Varicella (Primary infection in an adult)\",\n    \"Syphilis (Secondary syphilis)\",\n    \"Rickettsial infection (e.g., Murine Typhus)\",\n    \"Erythema multiforme\"\n  ],\n  \"Evaluation_of_Each_Proposed_Next_Step\": {\n    \"Unroof_vesicle_for_PCR\": \"Highly reasonable; gold standard for diagnosing VZV/HSV.\",\n    \"Punch_biopsy\": \"Reasonable if initial PCR is negative or skin findings remain undifferentiated.\",\n    \"Serologies_and_HIV_testing\": \"Reasonable; HIV status is critical in an adult with disseminated varicella.\"\n  },\n  \"Missing_Next_Steps\": [\n    \"Rapid Plasma Reagin (RPR) or VDRL to rule out secondary syphilis given the rash involving palms/soles and systemic symptoms.\",\n    \"Comprehensive physical examination of mucosal surfaces (genital) to evaluate for secondary syphilis or other viral processes.\",\n    \"Strict isolation precautions (airborne and contact) until VZV is ruled out.\"\n  ],\n  \"Open_Questions\": [\n    \"What is the patient's varicella vaccination or prior infection history?\",\n    \"Are there specific lymphadenopathy findings (e.g., epitrochlear nodes for syphilis)?\",\n    \"Has the patient had recent travel or specific contact with individuals known to have varicella?\"\n  ]\n}",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Disseminated Varicella zoster virus infection",
+    "Secondary syphilis",
+    "Disseminated Herpes simplex virus infection",
+    "Erythema multiforme",
+    "Drug-induced hypersensitivity reaction",
+    "Scabies (concurrent infestation)"
+  ],
+  "next_steps": [
+    "Place the patient on airborne and contact isolation precautions immediately",
+    "Perform PCR testing for Varicella-zoster virus and Herpes simplex virus from vesicle fluid and the oral ulcer",
+    "Perform RPR or VDRL with reflex to confirmatory treponemal test for syphilis",
+    "Order HIV screening given the age and presentation of disseminated viral infection",
+    "Obtain a detailed history of varicella vaccination and previous zoster or varicella infections",
+    "Perform a physical exam focusing on generalized lymphadenopathy and genital mucosa"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "condition": "anchored",
+  "case_id": "case_30_2024",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Erdheim-Chester disease",
+    "IgG4-related disease",
+    "Rosai-Dorfman-Destombes disease",
+    "Multicentric Castleman disease",
+    "Lymphoma (e.g., indolent B-cell lymphoma with extranodal involvement)",
+    "Langerhans cell histiocytosis"
+  ],
+  "next_steps": [
+    "BRAF V600E mutation testing on the tibial biopsy specimen",
+    "Pathology re-review with immunostaining for CD1a, langerin, CD68, CD163, factor XIIIa, and S100",
+    "Serum or urine protein electrophoresis and immunofixation for monoclonal protein detection",
+    "Repeat bone marrow biopsy with flow cytometry and molecular analysis for clonal B-cell or histiocytic populations",
+    "Echocardiogram and cardiovascular MRI to evaluate for cardiac involvement typical of Erdheim-Chester disease"
+  ]
+}

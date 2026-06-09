@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_16_2025",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Granulomatosis with polyangiitis",
+    "Nasopharyngeal carcinoma",
+    "IgG4-related disease",
+    "Diffuse large B-cell lymphoma",
+    "Relapsing polychondritis",
+    "Sarcoidosis",
+    "Adenoid cystic carcinoma"
+  ],
+  "next_steps": [
+    "Perform endoscopic-guided biopsy of the nasopharyngeal mass with tissue sent for histopathology and immunohistochemical staining",
+    "Send serum for ANCA (PR3 and MPO) and IgG4 levels",
+    "Order a positron emission tomography (PET/CT) scan to evaluate for systemic involvement and identify optimal biopsy sites",
+    "Obtain rheumatology and otorhinolaryngology consultations for multidisciplinary management",
+    "Initiate urgent high-dose systemic corticosteroid therapy if suspicion for systemic vasculitis remains high and infectious causes are excluded"
+  ]
+}

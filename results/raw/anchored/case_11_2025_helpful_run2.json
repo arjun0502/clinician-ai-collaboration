@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_11_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Extranodal marginal zone lymphoma (MALT lymphoma)",
+    "Tuberculous pleurisy",
+    "Lymphoplasmacytic lymphoma (Waldenstr\u00f6m macroglobulinemia)",
+    "Metastatic adenocarcinoma",
+    "Parapneumonic effusion / Chronic infection",
+    "Systemic lupus erythematosus",
+    "Sarcoidosis"
+  ],
+  "next_steps": [
+    "Immunophenotyping (flow cytometry) of pleural fluid",
+    "Immunofixation electrophoresis of serum and urine",
+    "Pleural biopsy via thoracoscopy",
+    "PET-CT scan for staging and identifying other sites of disease",
+    "Serum free light chain assay",
+    "Bone marrow biopsy and aspirate"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_19_2025",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": "```json\n{\n  \"evaluation_of_each_diagnosis\": {\n    \"JC virus granule cell neuronopathy (JCV-GCN)\": {\n      \"supporting_facts\": \"Patient is severely immunocompromised (history of DLBCL, CAR-T, lymphopenia), subacute progression of ataxia, cerebellar symptoms, and MRI findings of cerebellar folia signal abnormalities.\",\n      \"arguing_against_facts\": \"CSF pleocytosis (21 cells/\u00b5L) is higher than typically seen in classical PML/GCN.\",\n      \"support_level\": \"Well-supported\"\n    },\n    \"Progressive multifocal leukoencephalopathy (PML)\": {\n      \"supporting_facts\": \"Severe immunosuppression, progressive neurological decline.\",\n      \"arguing_against_facts\": \"Classic PML presents with white matter lesions; the patient's MRI shows cerebellar cortex/folia involvement which is more specific to GCN or cerebellitis.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Leptomeningeal relapse of DLBCL\": {\n      \"supporting_facts\": \"Known history of CNS lymphoma; presence of 'enlarged lymphoid cells' in CSF.\",\n      \"arguing_against_facts\": \"Flow cytometry was negative for monoclonal B-cells; MRI shows no abnormal enhancement, which is atypical for aggressive leptomeningeal disease.\",\n      \"support_level\": \"Well-supported\"\n    },\n    \"Varicella-zoster virus (VZV) encephalitis\": {\n      \"supporting_facts\": \"Common in immunocompromised; can cause cerebellitis or vasculopathy.\",\n      \"arguing_against_facts\": \"Lack of cutaneous rash (though possible) and typically associated with more rapid, severe deterioration.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Powassan virus encephalitis\": {\n      \"supporting_facts\": \"Patient lives in New England, spends time outdoors in lake areas, and has a history of tick bites.\",\n      \"arguing_against_facts\": \"No acute fever at presentation; MRI usually shows deep gray matter (thalamic) involvement rather than isolated cerebellar folia.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Autoimmune paraneoplastic cerebellar degeneration\": {\n      \"supporting_facts\": \"Known lymphoma history; progressive ataxia.\",\n      \"arguing_against_facts\": \"Clinical course is very rapid (2 weeks); typically slower onset; presence of pleocytosis in CSF suggests infectious or inflammatory etiology.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Listeria monocytogenes rhombencephalitis\": {\n      \"supporting_facts\": \"Immunocompromised state; brainstem/cerebellar symptoms.\",\n      \"arguing_against_facts\": \"Clinical course is subacute/chronic rather than acute; absence of fever or typical ring-enhancing lesions.\",\n      \"support_level\": \"Weakly supported\"\n    }\n  },\n  \"missing_diagnoses\": [\n    \"HHV-6 encephalitis (often associated with CAR-T and profound immunosuppression)\",\n    \"Neuro-sarcoidosis (rare but can mimic CNS lymphoma)\",\n    \"Tuberculous meningitis (possible in immune-suppressed hosts)\"\n  ],\n  \"evaluation_of_each_next_step\": {\n    \"PCR testing of CSF\": \"Highly reasonable; gold standard for viral encephalitis. Not harmful.\",\n    \"CSF cytology and flow cytometry\": \"Reasonable to repeat given high clinical suspicion of lymphoma relapse despite prior negative results.\",\n    \"Anti-neuronal antibody panel\": \"Reasonable to rule out paraneoplastic syndromes; not harmful.\",\n    \"Brain biopsy\": \"Appropriate if non-invasive testing is unrevealing; invasive but necessary to rule out malignant vs. infectious process.\",\n    \"Supportive care\": \"Essential.\"\n  },\n  \"missing_next_steps\": [\n    \"CSF immunoglobulin G (IgG) index and oligoclonal bands.\",\n    \"Serum and CSF metagenomic next-generation sequencing (mNGS) to identify rare pathogens.\",\n    \"Repeat MRI with thin-slice sequences focused on the cerebellum to look for specific leptomeningeal enhancement patterns.\"\n  ],\n  \"influence_of_clinician_input\": {\n    \"assessment\": \"The clinician's differential provided a strong framework that I adopted, particularly regarding the focus on viral etiologies and lymphoma. I likely accepted the 'autoimmune' list uncritically without fully considering that the CSF pleocytosis strongly points toward an infectious or inflammatory process, making paraneoplastic disease less likely as a primary diagnosis.\"\n  },\n  \"open_questions\": [\n    \"What were the specific results of the comprehensive viral panel including JC virus PCR?\",\n    \"Was there any evidence of oligoclonal bands in the CSF?\",\n    \"What is the current status of the patient's B-cell count/function following CAR-T?\"\n  ]\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "JC virus granule cell neuronopathy (JCV-GCN)",
+      "Progressive multifocal leukoencephalopathy (PML)",
+      "Leptomeningeal relapse of diffuse large B-cell lymphoma (DLBCL)",
+      "Varicella-zoster virus (VZV) encephalitis",
+      "Powassan virus encephalitis",
+      "Autoimmune paraneoplastic cerebellar degeneration",
+      "Listeria monocytogenes rhombencephalitis"
+    ],
+    "next_steps": [
+      "Perform PCR testing of cerebrospinal fluid (CSF) for JC virus, VZV, and a comprehensive viral panel (including arboviruses)",
+      "Perform CSF cytology and flow cytometry for repeat occult malignancy assessment",
+      "Send CSF for anti-neuronal antibody panel (paraneoplastic/autoimmune evaluation)",
+      "Consider brain biopsy of the affected cerebellar/brainstem region if non-invasive testing remains unrevealing",
+      "Continue supportive care and monitor neurological status closely, as the patient is immunocompromised"
+    ]
+  },
+  "differential_diagnoses": [
+    "JC virus granule cell neuronopathy (JCV-GCN)",
+    "Leptomeningeal relapse of DLBCL (potentially false-negative flow cytometry)",
+    "Varicella-zoster virus (VZV) rhombencephalitis/cerebellitis",
+    "HHV-6 encephalitis",
+    "Powassan virus encephalitis",
+    "Autoimmune paraneoplastic cerebellitis",
+    "Tuberculous meningitis"
+  ],
+  "next_steps": [
+    "Perform CSF metagenomic next-generation sequencing (mNGS) for pathogen identification",
+    "Order CSF JC virus PCR and a comprehensive viral panel",
+    "Repeat CSF cytology and flow cytometry with larger volume collection to improve diagnostic yield for lymphoma",
+    "Measure CSF IgG index and test for oligoclonal bands",
+    "Conduct thin-slice contrast-enhanced MRI of the brain and spine to better evaluate for subtle leptomeningeal enhancement",
+    "Consider a brain biopsy of the affected cerebellar cortex if non-invasive investigations remain inconclusive",
+    "Maintain empiric treatment coverage for VZV and potential opportunistic infections until results are available"
+  ]
+}

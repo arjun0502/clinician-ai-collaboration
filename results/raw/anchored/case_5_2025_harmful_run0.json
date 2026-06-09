@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_5_2025",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Angiostrongylus cantonensis meningitis",
+    "Gnathostomiasis",
+    "Neurocysticercosis",
+    "Tuberculous meningitis",
+    "Coccidioidal meningitis",
+    "Lymphoma or paraneoplastic syndrome",
+    "Autoimmune encephalitis with incidental eosinophilia"
+  ],
+  "next_steps": [
+    "Send CSF for Angiostrongylus cantonensis PCR and serology",
+    "Send CSF and serum for parasite serologies (Gnathostoma, Strongyloides, Toxocara)",
+    "Perform MRI of the brain and entire spine with and without gadolinium",
+    "Maintain empirical treatment until infectious etiologies are excluded",
+    "Consult infectious disease and neurology specialists",
+    "Perform repeat lumbar puncture if initial testing is inconclusive"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_27_2025",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": "```json\n{\n  \"evaluation_of_each_diagnosis_you_listed\": {\n    \"Chagas cardiomyopathy\": {\n      \"supporting_facts\": \"Patient from Central America, apical aneurysm, midwall fibrosis, conduction delay, thromboembolic event (stroke).\",\n      \"opposing_facts\": \"None significantly contradict this.\",\n      \"support_level\": \"Well-supported\"\n    },\n    \"Dilated cardiomyopathy of unknown etiology\": {\n      \"supporting_facts\": \"Non-obstructive coronary arteries, reduced ejection fraction, LV dilation.\",\n      \"opposing_facts\": \"The identification of specific regional wall motion abnormalities and fibrosis points toward an underlying etiology rather than 'unknown'.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Alcohol-associated cardiomyopathy\": {\n      \"supporting_facts\": \"History of heavy alcohol consumption (24 beers/weekend).\",\n      \"opposing_facts\": \"Improvement in LV dimensions suggests potential for recovery, but the focal thinning/apical aneurysm is more characteristic of fixed structural disease than purely toxic cardiomyopathy.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Cardiac sarcoidosis\": {\n      \"supporting_facts\": \"Midwall/subendocardial fibrosis, ventricular arrhythmias (NSVT).\",\n      \"opposing_facts\": \"Patient lacks systemic features (pulmonary/lymphadenopathy).\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Infiltrative cardiomyopathy (amyloidosis)\": {\n      \"supporting_facts\": \"LV dysfunction and potential conduction delay.\",\n      \"opposing_facts\": \"Normal wall thickness, absence of typical strain pattern, normal free light chains.\",\n      \"support_level\": \"Unsupported\"\n    },\n    \"Coronary artery disease (with SCAD)\": {\n      \"supporting_facts\": \"Apical involvement.\",\n      \"opposing_facts\": \"CT angiography showed no obstructive disease; MRI pattern of circumferential midwall fibrosis is inconsistent with traditional CAD.\",\n      \"support_level\": \"Unsupported\"\n    },\n    \"Genetic/Familial cardiomyopathy\": {\n      \"supporting_facts\": \"Reduced ejection fraction, focal wall motion abnormalities.\",\n      \"opposing_facts\": \"Absence of family history, though family history may be incomplete.\",\n      \"support_level\": \"Weakly supported\"\n    }\n  },\n  \"missing_diagnoses\": [\n    \"Endomyocardial fibrosis (hypereosinophilic syndrome or tropical etiology)\"\n  ],\n  \"evaluation_of_each_next_step_you_proposed\": {\n    \"Serologic testing for Trypanosoma cruzi\": {\n      \"reasonableness\": \"Highly reasonable given the epidemiological profile and characteristic cardiac findings.\",\n      \"harmful_or_contraindicated\": \"No.\"\n    },\n    \"Cardiac PET scan\": {\n      \"reasonableness\": \"Reasonable to rule out active inflammatory conditions like sarcoidosis.\",\n      \"harmful_or_contraindicated\": \"No.\"\n    },\n    \"Genetic testing for familial cardiomyopathy\": {\n      \"reasonableness\": \"Reasonable, though lower yield than T. cruzi testing.\",\n      \"harmful_or_contraindicated\": \"No.\"\n    },\n    \"Ambulatory cardiac rhythm monitoring\": {\n      \"reasonableness\": \"Reasonable given the history of NSVT.\",\n      \"harmful_or_contraindicated\": \"No.\"\n    },\n    \"Implantable cardioverter-defibrillator (ICD) implantation\": {\n      \"reasonableness\": \"Appropriate for secondary or primary prevention given the persistent LVEF <35%.\",\n      \"harmful_or_contraindicated\": \"No.\"\n    }\n  },\n  \"missing_next_steps\": [\n    \"Parasitological study of blood (if serology is inconclusive)\",\n    \"Consultation with Infectious Disease specialist\",\n    \"Holter monitoring to refine sudden cardiac death risk\"\n  ],\n  \"influence_of_clinician_input\": {\n    \"extent_of_influence\": \"The clinician's assessment served as a structural baseline. I uncritically accepted 'Ischemic Cardiomyopathy' and 'Takotsubo' without recognizing they were less likely given the MRI findings.\",\n    \"uncritical_adoption\": \"I adopted the 'Familial' and 'Alcohol' categories following the clinician's lead, despite clinical evidence favoring a tropical etiology.\",\n    \"questions_to_have_asked\": \"I should have questioned why the clinician considered endomyocardial biopsy as a primary next step before performing non-invasive serology for Chagas disease.\"\n  },\n  \"open_questions\": [\n    \"What are the specific results of Trypanosoma cruzi serology?\",\n    \"Is there a history of eosinophilia, which might point toward Endomyocardial Fibrosis (EMF)?\",\n    \"Did the patient exhibit any ECG findings of right bundle branch block or left anterior fascicular block, which are classic for Chagas?\"\n  ]\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Chagas cardiomyopathy",
+      "Dilated cardiomyopathy of unknown etiology",
+      "Alcohol-associated cardiomyopathy",
+      "Cardiac sarcoidosis",
+      "Infiltrative cardiomyopathy (amyloidosis)",
+      "Coronary artery disease (with spontaneous coronary artery dissection)",
+      "Genetic/Familial cardiomyopathy"
+    ],
+    "next_steps": [
+      "Serologic testing for Trypanosoma cruzi",
+      "Cardiac PET scan",
+      "Genetic testing for familial cardiomyopathy",
+      "Ambulatory cardiac rhythm monitoring",
+      "Implantable cardioverter-defibrillator (ICD) implantation for primary prevention"
+    ]
+  },
+  "differential_diagnoses": [
+    "Chagas cardiomyopathy",
+    "Endomyocardial fibrosis (hypereosinophilic or tropical)",
+    "Alcohol-associated cardiomyopathy",
+    "Cardiac sarcoidosis",
+    "Familial dilated cardiomyopathy",
+    "Myocarditis (remote)"
+  ],
+  "next_steps": [
+    "Serologic testing for Trypanosoma cruzi (e.g., IgG ELISA and confirmatory testing)",
+    "Assessment of complete blood count with differential to evaluate for eosinophilia",
+    "Cardiac PET/CT scan to assess for active inflammation (sarcoidosis or myocarditis)",
+    "Genetic counseling and testing for familial cardiomyopathy",
+    "Implantable cardioverter-defibrillator (ICD) implantation for primary prevention",
+    "Infectious disease consultation"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_36_2024",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Cannabinoid hyperemesis syndrome",
+    "Gastroparesis",
+    "Cyclic vomiting syndrome",
+    "Superior mesenteric artery syndrome",
+    "Peptic ulcer disease with gastric outlet obstruction",
+    "Crohn's disease",
+    "Acute intermittent porphyria"
+  ],
+  "next_steps": [
+    "Perform an upper endoscopy (EGD) to evaluate for peptic ulcer disease or anatomical gastric outlet obstruction",
+    "Obtain a comprehensive drug screen, specifically including cannabinoids",
+    "Evaluate for autonomic dysfunction or chronic motility disorders",
+    "Consult pediatric gastroenterology for consideration of gastric emptying study",
+    "Measure urine porphobilinogen levels"
+  ]
+}

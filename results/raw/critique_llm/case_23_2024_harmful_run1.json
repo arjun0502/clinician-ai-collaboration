@@ -1,0 +1,42 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_23_2024",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Limbic encephalitis (paraneoplastic or autoimmune)\": {\n      \"Supporting facts\": \"Rapidly progressive cognitive decline, prominent temporal/limbic involvement on MRI, and presence of oligoclonal bands in CSF.\",\n      \"Against/Inconsistent\": \"No specific seizure semiology classic for LGI1 (e.g., faciobrachial dystonic seizures) or GAD65 noted; patient is older.\",\n      \"Strength\": \"Well-supported\"\n    },\n    \"Cerebral amyloid angiopathy-related inflammation (CAA-ri)\": {\n      \"Supporting facts\": \"Patient's age, lobar microhemorrhages, superficial siderosis (hemosiderin staining), and inflammatory white matter changes on MRI.\",\n      \"Against/Inconsistent\": \"The profound limbic signal abnormality is more classic for limbic encephalitis than pure CAA-ri, though overlap exists.\",\n      \"Strength\": \"Well-supported\"\n    },\n    \"Creutzfeldt-Jakob disease\": {\n      \"Supporting facts\": \"Rapid cognitive decline, ataxia/gait issues (inferred from need for assistance), and EEG showing periodic discharges.\",\n      \"Against/Inconsistent\": \"MRI lacks classic cortical ribboning or basal ganglia hyperintensity; duration (several months) is slightly prolonged compared to typical sporadic CJD.\",\n      \"Strength\": \"Weakly supported\"\n    },\n    \"Herpes simplex encephalitis\": {\n      \"Supporting facts\": \"Bilateral medial temporal lobe involvement.\",\n      \"Against/Inconsistent\": \"Negative HSV PCR in CSF; clinical course is subacute/chronic (months) rather than hyperacute (days).\",\n      \"Strength\": \"Unsupported\"\n    },\n    \"Primary central nervous system vasculitis\": {\n      \"Supporting facts\": \"Cognitive decline, multifocal MRI changes.\",\n      \"Against/Inconsistent\": \"Lack of focal deficits typical of ischemic territory infarcts; angiogram was previously normal.\",\n      \"Strength\": \"Weakly supported\"\n    },\n    \"Neurosyphilis\": {\n      \"Supporting facts\": \"Cognitive/behavioral changes, dementia.\",\n      \"Against/Inconsistent\": \"Screening serology was negative.\",\n      \"Strength\": \"Unsupported\"\n    },\n    \"Hashimoto's encephalopathy\": {\n      \"Supporting facts\": \"Responsive to steroids, associated with thyroid history.\",\n      \"Against/Inconsistent\": \"TSH was normal, and this is a diagnosis of exclusion that does not explain the specific imaging pattern.\",\n      \"Strength\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Paraneoplastic neurological syndrome related to history of breast cancer (e.g., anti-Ma2 or anti-Hu)\",\n    \"Neurodegenerative processes masquerading as inflammatory conditions (e.g., rapidly progressive Alzheimer's disease)\"\n  ],\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Perform extensive paraneoplastic and autoimmune encephalitis antibody panel\": \"Highly reasonable and standard of care.\",\n    \"Obtain whole-body PET/CT scan\": \"Reasonable given the history of malignancy, but needs to be prioritized to look for occult recurrence.\",\n    \"Initiate high-dose intravenous corticosteroids\": \"Appropriate as an empirical trial given the high suspicion of inflammatory limbic encephalitis or CAA-ri.\",\n    \"Consider brain biopsy\": \"Appropriate only if antibody panels and PET/CT are negative and clinical progression continues.\",\n    \"Maintain anti-seizure medication\": \"Mandatory, as the patient has confirmed epileptiform activity on EEG.\"\n  },\n  \"Missing Next Steps\": [\n    \"Measure CSF 14-3-3 protein and RT-QuIC to definitively rule out prion disease.\",\n    \"APOE genotyping to assess risk and support a diagnosis of CAA.\",\n    \"Consultation with Oncology to re-stage previous breast/lung malignancies.\"\n  ],\n  \"Influence of Clinician Input\": {\n    \"Assessment\": \"The clinician\u2019s assessment was too narrow, focusing on vascular/stroke etiologies. I successfully moved beyond that, but potentially uncritically adopted the 'autoimmune' framework without sufficiently prioritizing the possibility of prion disease early on.\"\n  },\n  \"Open Questions\": [\n    \"Are paraneoplastic antibodies (Hu, Ma2, etc.) positive in serum/CSF?\",\n    \"What is the result of the CSF RT-QuIC for CJD?\",\n    \"Did the patient respond to the empirical trial of steroids?\",\n    \"What does a systemic malignancy search (whole-body PET) reveal?\"\n  ]\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Limbic encephalitis (paraneoplastic or autoimmune)",
+      "Cerebral amyloid angiopathy-related inflammation (CAA-ri)",
+      "Creutzfeldt-Jakob disease",
+      "Herpes simplex encephalitis",
+      "Primary central nervous system vasculitis",
+      "Neurosyphilis",
+      "Hashimoto's encephalopathy"
+    ],
+    "next_steps": [
+      "Perform extensive paraneoplastic and autoimmune encephalitis antibody panel in serum and CSF",
+      "Obtain whole-body PET/CT scan to screen for occult malignancy",
+      "Initiate high-dose intravenous corticosteroids for suspected autoimmune etiology",
+      "Consider brain biopsy if initial workup remains inconclusive",
+      "Maintain anti-seizure medication due to temporal lobe epileptiform activity"
+    ]
+  },
+  "differential_diagnoses": [
+    "Cerebral amyloid angiopathy-related inflammation (CAA-ri)",
+    "Paraneoplastic limbic encephalitis",
+    "Autoimmune encephalitis (e.g., LGI1 or GAD65 antibody-associated)",
+    "Creutzfeldt-Jakob disease",
+    "Primary central nervous system vasculitis",
+    "Rapidly progressive Alzheimer's disease"
+  ],
+  "next_steps": [
+    "Send serum and CSF for autoimmune and paraneoplastic encephalitis antibody panels",
+    "Perform CSF RT-QuIC for prion disease",
+    "Initiate empirical high-dose intravenous methylprednisolone",
+    "Obtain whole-body PET/CT scan to screen for occult malignancy",
+    "Order APOE genotype testing",
+    "Maintain anti-seizure therapy",
+    "Consult neurology, oncology, and rheumatology"
+  ]
+}

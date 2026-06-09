@@ -1,0 +1,42 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_2_2026",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": "{\n  \"evaluation_of_each_diagnosis\": {\n    \"Disseminated Melioidosis (Burkholderia pseudomallei)\": {\n      \"supporting_facts\": \"Cavitated pulmonary nodules, large hepatic abscess, and hematogenous seeding (endophthalmitis/CNS). Patient has risk factors (though residency in New England is atypical, travel history or exposure could be latent).\",\n      \"opposing_facts\": \"Lack of clear tropical exposure history (though not impossible due to incubation periods).\",\n      \"support_level\": \"Well-supported\"\n    },\n    \"Disseminated Nocardiosis\": {\n      \"supporting_facts\": \"Multifocal pulmonary cavitary disease, CNS involvement, and potential for dissemination to eye/liver.\",\n      \"opposing_facts\": \"Usually seen in immunocompromised hosts; patient's history doesn't explicitly state immunosuppression, though he has not seen a doctor in decades.\",\n      \"support_level\": \"Well-supported\"\n    },\n    \"Metastatic carcinoma\": {\n      \"supporting_facts\": \"Weight loss, multiple pulmonary nodules/masses, large liver mass, and intraocular involvement (though rare, can present as metastasis).\",\n      \"opposing_facts\": \"Acute presentation with high fever, marked leukocytosis, and progression consistent with an infectious process rather than malignancy.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Systemic fungal infection (Blastomycosis/Coccidioidomycosis)\": {\n      \"supporting_facts\": \"Cavitary lung disease and dissemination to skin/eyes/liver.\",\n      \"opposing_facts\": \"Geography (New England) favors Histoplasmosis or Blastomycosis, but the acute, aggressive septic nature is less classic for endemic fungal infection without overt immunosuppression.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Infective endocarditis\": {\n      \"supporting_facts\": \"Systemic emboli (eyes, brain, lungs).\",\n      \"opposing_facts\": \"Transthoracic echo was negative, though sensitivity for small vegetations is low. Endocarditis rarely presents with a 8.6 cm hepatic mass.\",\n      \"support_level\": \"Well-supported\"\n    },\n    \"Tuberculosis\": {\n      \"supporting_facts\": \"Cavitary lung disease and systemic dissemination.\",\n      \"opposing_facts\": \"The rapid pace (3 weeks) and severe multi-organ abscess formation is more typical of pyogenic/bacterial infection than classic TB.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Septic emboli secondary to hepatic abscess\": {\n      \"supporting_facts\": \"Large liver mass (abscess) can seed the lungs, brain, and eyes (Klebsiella pneumoniae is a classic pathogen for this).\",\n      \"opposing_facts\": \"None.\",\n      \"support_level\": \"Well-supported\"\n    }\n  },\n  \"missing_diagnoses\": [\n    \"Hypervirulent Klebsiella pneumoniae (hvKP) syndrome: Classic cause of liver abscess, pulmonary nodules, and endogenous endophthalmitis (the 'liver-lung-eye' triad).\"\n  ],\n  \"evaluation_of_each_next_step\": {\n    \"Image-guided biopsy\": \"Reasonable; essential for microbiologic diagnosis.\",\n    \"Blood cultures\": \"Essential, though should specify prolonged culture for B. pseudomallei.\",\n    \"Ophthalmology paracentesis\": \"Reasonable; high diagnostic yield for endophthalmitis.\",\n    \"Transesophageal echocardiography\": \"Reasonable; higher sensitivity than TTE.\",\n    \"Consult infectious disease\": \"Standard care.\",\n    \"Repeat neuroimaging\": \"Reasonable, but systemic biopsy is higher priority.\"\n  },\n  \"missing_next_steps\": [\n    \"Specific serum testing for Melioidosis (IHA titer) and fungal markers (Beta-D-glucan, Galactomannan).\",\n    \"Stool or sputum testing for Acid-Fast Bacilli (AFB).\",\n    \"Urgent surgical consultation for potential drainage of the large hepatic abscess if feasible.\"\n  ],\n  \"influence_of_clinician_input\": {\n    \"analysis\": \"The clinician's differential was overly narrow (focused on endocarditis/fungal). I adopted the 'Infective Endocarditis' diagnosis but successfully broadened the differential to include high-morbidity pathogens like B. pseudomallei and hvKP, which are more consistent with the hepatic mass and ocular findings than standard endocarditis.\"\n  },\n  \"open_questions\": [\n    \"What is the patient's HIV status and HbA1c (to rule out uncontrolled diabetes, a major risk factor for hvKP and melioidosis)?\",\n    \"Did the patient have any specific occupational or environmental exposures to soil/water or travel to endemic regions?\",\n    \"What are the results of the initial blood cultures obtained at the first hospital?\"\n  ]\n}",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Disseminated Melioidosis (Burkholderia pseudomallei)",
+      "Disseminated Nocardiosis",
+      "Metastatic carcinoma (e.g., lung or occult primary with ocular metastasis)",
+      "Systemic fungal infection (e.g., Blastomycosis or Coccidioidomycosis)",
+      "Infective endocarditis with septic emboli",
+      "Tuberculosis with disseminated disease",
+      "Septic emboli secondary to hepatic abscess"
+    ],
+    "next_steps": [
+      "Perform image-guided biopsy of pulmonary nodule or liver mass for culture and histopathology",
+      "Blood cultures (aerobic, anaerobic, and specifically for B. pseudomallei)",
+      "Ophthalmology consultation for diagnostic anterior chamber or vitreous paracentesis",
+      "Transesophageal echocardiography to rule out endocarditis",
+      "Consult infectious disease specialist for targeted antibiotic therapy (e.g., ceftazidime or meropenem if melioidosis suspected)",
+      "Repeat neuroimaging or systemic search for metastatic disease if biopsy is non-diagnostic"
+    ]
+  },
+  "differential_diagnoses": [
+    "Hypervirulent Klebsiella pneumoniae (hvKP) syndrome with endogenous endophthalmitis",
+    "Disseminated melioidosis (Burkholderia pseudomallei)",
+    "Disseminated nocardiosis",
+    "Infective endocarditis with septic emboli",
+    "Disseminated fungal infection (e.g., Blastomycosis)",
+    "Metastatic malignancy with paraneoplastic or infectious complications"
+  ],
+  "next_steps": [
+    "Obtain HbA1c and HIV testing to evaluate for underlying immunocompromise",
+    "Perform image-guided aspiration and drainage of the hepatic mass for culture, gram stain, and histopathology",
+    "Perform diagnostic vitrectomy or vitreous tap for culture and PCR",
+    "Order specific serum testing for Burkholderia pseudomallei (IHA titers) and fungal markers (Beta-D-glucan)",
+    "Consult infectious disease, ophthalmology, and interventional radiology services immediately",
+    "Perform transesophageal echocardiography to rule out endocarditis"
+  ]
+}

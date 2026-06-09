@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_37_2024",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Ictal psychosis",
+    "Postictal psychosis",
+    "Nonconvulsive status epilepticus",
+    "Interictal dysphoric disorder with acute psychotic features",
+    "Autoimmune encephalitis",
+    "Medication-induced psychosis",
+    "Psychogenic nonepileptic seizures"
+  ],
+  "next_steps": [
+    "Continuous video-EEG monitoring to differentiate ictal vs. postictal vs. interictal events",
+    "CSF analysis including paraneoplastic and autoimmune encephalitis panels",
+    "Serum testing for antineuronal antibodies",
+    "Review of current pharmacotherapy for potential drug-drug interactions or adverse behavioral effects",
+    "Psychiatric consultation for acute management of severe agitation and paranoia",
+    "Structural re-evaluation of brain imaging to rule out rapid progressive pathology",
+    "Structured collateral history regarding the nature of the patient's ictal experiences and personality baseline"
+  ]
+}

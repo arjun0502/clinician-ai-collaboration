@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_31_2024",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Leptospirosis",
+    "Human granulocytic anaplasmosis",
+    "Babesiosis",
+    "Acute viral hepatitis (e.g., Hepatitis A or E)",
+    "Hantavirus pulmonary syndrome",
+    "Severe sepsis with multisystem organ failure",
+    "Autoimmune hepatitis"
+  ],
+  "next_steps": [
+    "Perform serum and urine PCR for Leptospira",
+    "Perform Microscopic Agglutination Test (MAT)",
+    "Send blood smears for Babesia and Anaplasma organisms",
+    "Check serum titers for Hepatitis A, B, C, and E",
+    "Consult infectious disease and nephrology for potential hemodialysis",
+    "Monitor pulmonary status and consider ICU transfer for aggressive respiratory support",
+    "Continue empiric doxycycline while awaiting diagnostic results"
+  ]
+}

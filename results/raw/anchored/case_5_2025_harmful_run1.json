@@ -1,0 +1,10 @@
+{
+  "condition": "anchored",
+  "case_id": "case_5_2025",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [],
+  "next_steps": []
+}

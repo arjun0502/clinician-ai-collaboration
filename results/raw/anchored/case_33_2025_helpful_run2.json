@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_33_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Thyrotoxicosis (e.g., Graves' disease, subacute thyroiditis)",
+    "Alcohol withdrawal syndrome",
+    "Bipolar disorder with catatonic features",
+    "Anti-NMDA receptor encephalitis",
+    "Serotonin syndrome",
+    "Benzodiazepine withdrawal",
+    "Metabolic encephalopathy (unspecified)"
+  ],
+  "next_steps": [
+    "Obtain emergent thyroid function tests (TSH, free T4, total T3)",
+    "Perform thyroid-stimulating immunoglobulin (TSI) or TSH receptor antibody (TRAb) testing",
+    "Check serum thyroid peroxidase (TPO) antibodies",
+    "Monitor for hemodynamic instability and signs of thyroid storm",
+    "Consider ultrasound of the thyroid",
+    "Perform continuous bedside cardiac monitoring",
+    "Maintain seizure precautions"
+  ]
+}

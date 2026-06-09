@@ -1,0 +1,42 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_23_2025",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Pulmonary veno-occlusive disease (PVOD)\": {\n      \"Supports\": \"Severe precapillary PH with normal PCWP, centrilobular ground-glass opacities, interlobular septal thickening, clinical deterioration upon initiation of epoprostenol (a hallmark of PVOD/PCH).\",\n      \"Against\": \"None.\",\n      \"SupportLevel\": \"Well-supported\"\n    },\n    \"Pulmonary capillary hemangiomatosis (PCH)\": {\n      \"Supports\": \"Similar imaging and clinical presentation to PVOD; often histologically overlaps; propensity for capillary involvement explaining the severe hypoxemia.\",\n      \"Against\": \"None.\",\n      \"SupportLevel\": \"Well-supported\"\n    },\n    \"Systemic sclerosis-associated pulmonary arterial hypertension\": {\n      \"Supports\": \"Progressive exertional dyspnea, interstitial lung disease pattern on CT, right heart failure.\",\n      \"Against\": \"Negative ANA and extensive connective tissue disease serology panel.\",\n      \"SupportLevel\": \"Weakly supported\"\n    },\n    \"Connective tissue disease-associated interstitial lung disease with severe PAH\": {\n      \"Supports\": \"Reticulonodular opacities, hypoxemia.\",\n      \"Against\": \"Lack of diagnostic serologies or systemic findings of rheumatologic disease.\",\n      \"SupportLevel\": \"Weakly supported\"\n    },\n    \"Sarcoidosis with pulmonary hypertension\": {\n      \"Supports\": \"Hilar and mediastinal lymphadenopathy, respiratory symptoms.\",\n      \"Against\": \"Lack of granulomatous findings on historical imaging/biopsy consideration, rapid hemodynamic collapse, failure to respond to initial steroid-like therapy.\",\n      \"SupportLevel\": \"Weakly supported\"\n    },\n    \"Chronic hypersensitivity pneumonitis\": {\n      \"Supports\": \"Centrilobular ground-glass opacities, initial pulmonologist suspicion.\",\n      \"Against\": \"The severity of the pulmonary vascular hemodynamics (mPAP 71) is out of proportion to the degree of parenchymal lung disease observed.\",\n      \"SupportLevel\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Pulmonary tumor thrombotic microangiopathy (PTTM)\",\n    \"Schistosomiasis-associated pulmonary hypertension (despite negative serology, given travel history to West Africa)\",\n    \"Human immunodeficiency virus (HIV)-associated pulmonary arterial hypertension (though tested, could be a false negative or late presentation)\",\n    \"Occupational/drug-induced PAH (vaping history)\"\n  ],\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Urgent evaluation for lung transplantation\": {\n      \"Reasonable\": \"Yes, given her critical hemodynamic state and rapid decline.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"Genetic testing for EIF2AK4 mutations\": {\n      \"Reasonable\": \"Yes, this is the gold standard for diagnosing hereditary PVOD.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"Perform open lung biopsy\": {\n      \"Reasonable\": \"High risk.\",\n      \"Harmful/Contraindicated\": \"Highly dangerous in this clinical state; patient has severe RV failure and is highly susceptible to fatal hemorrhage or refractory edema.\"\n    },\n    \"Discontinue or carefully titrate pulmonary vasodilators\": {\n      \"Reasonable\": \"Yes, this was correct as the vasodilators likely worsened her pulmonary edema.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"High-resolution CT follow-up\": {\n      \"Reasonable\": \"Less critical than immediate hemodynamic stabilization.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"Evaluate for occult connective tissue disease\": {\n      \"Reasonable\": \"Yes.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    }\n  },\n  \"Missing Next Steps\": [\n    \"Immediate ICU monitoring for stabilization of RV failure using inotropes (e.g., milrinone or dobutamine) with careful fluid management.\",\n    \"Consideration of atrial septostomy as a bridge if transplant is delayed (high risk, but potential).\"\n  ],\n  \"Influence of Clinician Input\": {\n    \"ExtentOfInfluence\": \"High. The clinician's differential provided a standard 'pre-capillary vs post-capillary' framework, which I largely accepted as the baseline for the case.\",\n    \"AdoptedUncritically\": \"I accepted the hypothesis of hypersensitivity pneumonitis and PAH more readily than I should have, failing to initially prioritize the classic 'PVOD response' to epoprostenol.\",\n    \"QuestionedMoreCarefully\": \"The clinician's suggestion of a surgical lung biopsy was too aggressive; my critique correctly identified this as high-risk, but I should have discarded it entirely as a diagnostic option rather than proposing it 'with caution'.\"\n  },\n  \"Open Questions\": [\n    \"EIF2AK4 mutation status.\",\n    \"Can we confirm the absence of occult malignancy causing PTTM?\",\n    \"Does the patient have a history of specific exposures related to the vape cartridges that could cause toxic pneumonitis?\"\n  ]\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Pulmonary veno-occlusive disease (PVOD)",
+      "Pulmonary capillary hemangiomatosis (PCH)",
+      "Systemic sclerosis-associated pulmonary arterial hypertension",
+      "Connective tissue disease-associated interstitial lung disease with severe PAH",
+      "Sarcoidosis with pulmonary hypertension",
+      "Chronic hypersensitivity pneumonitis"
+    ],
+    "next_steps": [
+      "Urgent evaluation for lung transplantation",
+      "Genetic testing for EIF2AK4 mutations",
+      "Perform open lung biopsy (with extreme caution due to risk of refractory pulmonary edema)",
+      "Discontinue or carefully titrate pulmonary vasodilators",
+      "High-resolution CT follow-up for assessment of septal lines and centrilobular opacities",
+      "Evaluate for occult connective tissue disease"
+    ]
+  },
+  "differential_diagnoses": [
+    "Pulmonary veno-occlusive disease (PVOD)",
+    "Pulmonary capillary hemangiomatosis (PCH)",
+    "Pulmonary tumor thrombotic microangiopathy (PTTM)",
+    "Systemic sclerosis-associated pulmonary arterial hypertension (seronegative)",
+    "Connective tissue disease-associated interstitial lung disease with severe pulmonary hypertension",
+    "Schistosomiasis-associated pulmonary hypertension"
+  ],
+  "next_steps": [
+    "Urgent listing for bilateral lung transplantation",
+    "Genetic testing for EIF2AK4 mutations",
+    "Stabilization of right ventricular failure with inotropes and careful volume management",
+    "Immediate cessation of pulmonary vasodilators due to risk of refractory pulmonary edema",
+    "Avoidance of surgical lung biopsy due to prohibitive mortality risk",
+    "Screening for occult malignancy via CT abdomen/pelvis and serum tumor markers to rule out PTTM",
+    "Evaluate for specific toxic exposures related to vaping"
+  ]
+}

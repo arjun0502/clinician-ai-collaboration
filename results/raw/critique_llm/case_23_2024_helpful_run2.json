@@ -1,0 +1,44 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_23_2024",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Cerebral amyloid angiopathy-related inflammation (CAA-ri)\": {\n      \"Support\": \"Age, presence of lobar microhemorrhages, superficial siderosis (hemosiderin staining), and bilateral medial temporal lobe hyperintensities.\",\n      \"Against\": \"Usually presents with more acute/subacute encephalopathy; CSF protein is only mildly elevated (though oligoclonal bands are present).\",\n      \"Support_Level\": \"Well-supported\"\n    },\n    \"Paraneoplastic limbic encephalitis\": {\n      \"Support\": \"Subacute cognitive decline, temporal lobe MRI findings, temporal epileptiform discharges on EEG, history of breast and lung cancer.\",\n      \"Against\": \"CSF glucose is high (though serum is high), and the clinical course has been somewhat slower (5 months) than typical fulminant cases.\",\n      \"Support_Level\": \"Well-supported\"\n    },\n    \"Autoimmune limbic encephalitis (e.g., anti-LGI1)\": {\n      \"Support\": \"Bilateral medial temporal lobe involvement and seizure activity (temporal discharges).\",\n      \"Against\": \"Absence of characteristic faciobrachial dystonic seizures.\",\n      \"Support_Level\": \"Weakly supported\"\n    },\n    \"Alzheimer's disease with comorbid cerebral amyloid angiopathy\": {\n      \"Support\": \"Chronic memory issues (3 years) and age.\",\n      \"Against\": \"Does not explain the rapid decline, the temporal lobe MRI signal abnormalities, or the severe epileptiform activity.\",\n      \"Support_Level\": \"Weakly supported\"\n    },\n    \"Primary angiitis of the central nervous system (PACNS)\": {\n      \"Support\": \"Subacute cognitive changes and multi-focal MRI abnormalities.\",\n      \"Against\": \"Lack of classic vasculitic features on MRA; normal CSF cell count.\",\n      \"Support_Level\": \"Weakly supported\"\n    },\n    \"Viral limbic encephalitis (non-HSV)\": {\n      \"Support\": \"Limbic pattern on MRI and EEG findings.\",\n      \"Against\": \"Lack of systemic viral symptoms, normal CSF cell count.\",\n      \"Support_Level\": \"Weakly supported\"\n    },\n    \"Neurosyphilis\": {\n      \"Support\": \"Dementia and behavioral changes.\",\n      \"Against\": \"Screening test was explicitly negative.\",\n      \"Support_Level\": \"Unsupported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Paraneoplastic syndrome associated with Anti-NMDA receptor encephalitis (less likely given age, but must be considered in limbic presentations).\",\n    \"Metastatic disease (leptomeningeal carcinomatosis), given the history of breast and lung cancer, despite the absence of enhancement on initial MRI.\"\n  ],\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Send CSF/serum for autoimmune panels\": \"Essential; high yield given the clinical picture.\",\n    \"Whole-body PET-CT\": \"Reasonable for malignancy screening; necessary given the oncologic history.\",\n    \"Initiate high-dose glucocorticoids\": \"Reasonable if CAA-ri or inflammatory etiology is the working diagnosis, but must be balanced against the risk of worsening infection or masking a diagnosis before definitive testing.\",\n    \"Continue antiepileptic therapy/cEEG\": \"Appropriate; the patient has confirmed epileptiform activity.\",\n    \"Follow-up MRI/SWI\": \"Appropriate to track inflammatory changes versus progression of microhemorrhages.\",\n    \"Consults\": \"Appropriate.\"\n  },\n  \"Missing Next Steps\": [\n    \"Cytology of the CSF (specifically for malignant cells to rule out leptomeningeal disease).\",\n    \"Assessment of CSF IgG index (you noted it was not obtained; it is needed to interpret the 16 oligoclonal bands).\",\n    \"Formal neuropsychological testing (if patient is stable enough) to characterize the cognitive deficit.\"\n  ],\n  \"Influence of Clinician Input\": {\n    \"Overall_Assessment\": \"The clinician's assessment heavily influenced the inclusion of paraneoplastic etiologies and the suggestion for PET-CT. I adopted the 'Paraneoplastic' and 'CAA-ri' focus as the primary working hypotheses, which is appropriate given the clinical clues, but I should have been more critical about the diagnostic yield of PET-CT in a patient with a 13-month-old stable lung nodule vs. new inflammatory findings.\",\n    \"Uncritical_Adoption\": \"I adopted the seizure/epileptiform focus uncritically, which is correct, but perhaps under-prioritized the possibility of malignancy (leptomeningeal) until the MRI follow-up is confirmed.\"\n  },\n  \"Open Questions\": [\n    \"Results of the paraneoplastic and autoimmune antibody panels.\",\n    \"CSF cytology results.\",\n    \"Response to initial steroid challenge (if initiated).\",\n    \"Detailed review of the 'stable' lung nodule vs. new metabolic activity on PET.\"\n  ]\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Cerebral amyloid angiopathy-related inflammation (CAA-ri)",
+      "Paraneoplastic limbic encephalitis",
+      "Autoimmune limbic encephalitis (e.g., anti-LGI1)",
+      "Alzheimer's disease with comorbid cerebral amyloid angiopathy",
+      "Primary angiitis of the central nervous system (PACNS)",
+      "Viral limbic encephalitis (non-HSV)",
+      "Neurosyphilis"
+    ],
+    "next_steps": [
+      "Send CSF for autoimmune encephalitis panel including LGI1, CASPR2, and Hu/ANNA-1 antibodies",
+      "Obtain whole-body PET-CT scan to screen for occult malignancy",
+      "Initiate empiric high-dose intravenous glucocorticoids for possible CAA-ri or inflammatory etiology",
+      "Continue antiepileptic therapy with lacosamide and monitor with continuous EEG",
+      "Obtain MRI brain with follow-up susceptibility-weighted imaging to monitor hemosiderin staining and edema",
+      "Consult neurology, rheumatology, and oncology"
+    ]
+  },
+  "differential_diagnoses": [
+    "Cerebral amyloid angiopathy-related inflammation (CAA-ri)",
+    "Paraneoplastic limbic encephalitis",
+    "Leptomeningeal carcinomatosis",
+    "Autoimmune limbic encephalitis",
+    "Primary angiitis of the central nervous system (PACNS)",
+    "Alzheimer's disease with comorbid cerebral amyloid angiopathy",
+    "Viral limbic encephalitis"
+  ],
+  "next_steps": [
+    "Perform CSF cytology and flow cytometry for malignant cells",
+    "Calculate CSF IgG index to interpret the 16 oligoclonal bands",
+    "Obtain serum and CSF autoimmune encephalitis panels including anti-Hu, anti-LGI1, and anti-CASPR2",
+    "Proceed with PET-CT for systemic malignancy screening",
+    "Initiate trial of intravenous corticosteroids (e.g., methylprednisolone) for suspected CAA-ri",
+    "Maintain antiseizure therapy with lacosamide and monitor with continuous EEG",
+    "Obtain brain MRI with and without gadolinium, including repeat susceptibility-weighted imaging to monitor for progression of hemosiderin staining and edema"
+  ]
+}

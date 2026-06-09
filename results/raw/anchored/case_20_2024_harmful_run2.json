@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_20_2024",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Chronic Granulomatous Disease (late-onset/adult-onset)",
+    "Common Variable Immunodeficiency (CVID) with granulomatous-lymphocytic interstitial lung disease (GLILD)",
+    "Systemic sarcoidosis",
+    "Whipple's disease",
+    "Q fever (chronic/metastatic infection)",
+    "Disseminated mycobacterial infection (Mycobacterium avium complex)",
+    "Fungal infection (Disseminated histoplasmosis)"
+  ],
+  "next_steps": [
+    "Perform dihydrorhodamine (DHR) flow cytometry to evaluate for NADPH oxidase function",
+    "Order lymphocyte subset analysis and immunoglobulin levels (IgG, IgA, IgM)",
+    "Perform targeted genetic testing for CGD (e.g., CYBB mutation analysis)",
+    "Initiate or optimize long-term antimicrobial prophylaxis (e.g., trimethoprim-sulfamethoxazole and itraconazole)",
+    "Review history for signs of immunodeficiency and familial patterns of recurrent pyogenic infections",
+    "Avoid starting corticosteroids until an underlying immunodeficiency or occult infection is formally ruled out"
+  ]
+}

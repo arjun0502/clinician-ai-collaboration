@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_36_2024",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Gastric bezoar (trichobezoar)",
+    "Cyclic vomiting syndrome",
+    "Peptic ulcer disease",
+    "Gastroparesis",
+    "Superior mesenteric artery syndrome",
+    "Crohn's disease",
+    "Abdominal migraine"
+  ],
+  "next_steps": [
+    "Esophagogastroduodenoscopy (EGD)",
+    "Psychiatric consultation for evaluation of trichotillomania and trichophagia",
+    "Repeat abdominal imaging (or review of CT for subtle gastric outlet findings)",
+    "Comprehensive nutritional assessment for iron deficiency and potential vitamin deficiencies",
+    "Inpatient stabilization and symptom management for recurrent vomiting"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_10_2025",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Systemic Lupus Erythematosus (SLE) with lupus nephritis and secondary antiphospholipid syndrome",
+    "Primary Antiphospholipid Syndrome (APS) presenting with catastrophic manifestations",
+    "Membranous nephropathy (PLA2R-associated) with secondary hypercoagulability",
+    "ANCA-associated vasculitis with pulmonary-renal syndrome",
+    "Infectious pneumonia with secondary reactive nephrotic syndrome",
+    "Anti-glomerular basement membrane (Goodpasture) disease"
+  ],
+  "next_steps": [
+    "Perform diagnostic serology including ANA, anti-dsDNA, anti-Smith, C3/C4 levels, and antiphospholipid antibody panel (lupus anticoagulant, anticardiolipin, anti-beta-2 glycoprotein I)",
+    "Perform renal biopsy to distinguish between glomerulonephritis types and assess chronicity",
+    "Initiate systemic anticoagulation with heparin, given bilateral renal vein thrombosis and pulmonary embolism",
+    "Send serum anti-PLA2R antibody and anti-GBM antibody titers",
+    "Continue broad-spectrum antibiotics pending blood/sputum culture results",
+    "Monitor renal function, electrolytes, and coagulation parameters daily"
+  ]
+}

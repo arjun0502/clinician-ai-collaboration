@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_4_2025",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Sarcoidosis",
+    "Lymphoma (e.g., Hodgkin or non-Hodgkin)",
+    "Bartonella henselae infection (Cat-scratch disease)",
+    "Tuberculosis",
+    "Histoplasmosis",
+    "Systemic lupus erythematosus",
+    "Paraneoplastic syndrome"
+  ],
+  "next_steps": [
+    "Endobronchial ultrasound-guided transbronchial needle aspiration (EBUS-TBNA) of mediastinal lymph nodes",
+    "Serum angiotensin-converting enzyme (ACE) level and serum/urine calcium",
+    "18F-FDG PET/CT to identify sites for biopsy and assess cardiac involvement",
+    "Cardiac MRI",
+    "Serum immunoglobulins and protein electrophoresis",
+    "Comprehensive infectious disease workup including QuantiFERON-TB Gold, fungal serologies, and Bartonella titers"
+  ]
+}

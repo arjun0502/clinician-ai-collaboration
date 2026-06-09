@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_6_2025",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Chronic portal vein thrombosis (cavernous transformation) secondary to remote abdominal trauma",
+    "Portal hypertensive enteropathy / mesenteric venous ischemia",
+    "Hepatic schistosomiasis (Symmers' fibrosis)",
+    "Non-cirrhotic portal hypertension",
+    "Cirrhosis of unknown etiology",
+    "Budd-Chiari syndrome",
+    "Arterial mesenteric ischemia"
+  ],
+  "next_steps": [
+    "Mesenteric CT angiography to evaluate mesenteric vasculature and potential ischemia",
+    "Consultation with Interventional Radiology for portal pressure measurement and potential portosystemic shunt evaluation",
+    "Transjugular liver biopsy with hepatic vein pressure gradient (HVPG) measurement",
+    "Hypercoagulability workup (JAK2 mutation, PNH testing, Protein C/S/Antithrombin levels, Factor V Leiden, Prothrombin gene mutation)",
+    "Echocardiogram to rule out right-sided heart failure or constrictive pericarditis",
+    "Supportive care for pain management and optimization of beta-blocker therapy"
+  ]
+}

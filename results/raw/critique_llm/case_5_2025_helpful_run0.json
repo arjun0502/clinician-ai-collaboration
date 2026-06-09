@@ -1,0 +1,45 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_5_2025",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Angiostrongylus cantonensis meningitis\": {\n      \"Supports\": \"Travel history to Hawaii/Thailand, eosinophilic pleocytosis in CSF, dysesthesia (common early symptom), headache, travel-related consumption of raw produce (salads).\",\n      \"Against\": \"None significant.\",\n      \"Support_Level\": \"Well-supported\"\n    },\n    \"Gnathostomiasis\": {\n      \"Supports\": \"Travel to Thailand/Japan, eosinophilic pleocytosis, migratory sensory symptoms (dysesthesia).\",\n      \"Against\": \"Usually presents with cutaneous migratory swellings or focal deficits; less commonly primary meningitis.\",\n      \"Support_Level\": \"Weakly supported\"\n    },\n    \"Neurocysticercosis\": {\n      \"Supports\": \"Global travel history, neurological symptoms.\",\n      \"Against\": \"Rarely causes eosinophilic pleocytosis in the CSF unless in the subarachnoid space (racemose form); usually presents with seizures or focal deficits rather than diffuse sensory progression.\",\n      \"Support_Level\": \"Unsupported\"\n    },\n    \"Tuberculous meningitis\": {\n      \"Supports\": \"Headache, confusion, elevated protein, low glucose.\",\n      \"Against\": \"Usually neutrophilic or lymphocytic, not eosinophilic pleocytosis; doesn't explain peripheral eosinophilia.\",\n      \"Support_Level\": \"Weakly supported\"\n    },\n    \"Paragonimiasis\": {\n      \"Supports\": \"Travel to Thailand, consumption of raw/undercooked food, eosinophilia.\",\n      \"Against\": \"Usually respiratory symptoms (hemoptysis) dominate; neuro-paragonimiasis typically causes focal deficits, not diffuse dysesthesia.\",\n      \"Support_Level\": \"Weakly supported\"\n    },\n    \"Coccidioidal meningitis\": {\n      \"Supports\": \"Eosinophilic pleocytosis.\",\n      \"Against\": \"No history of travel to endemic areas (Southwest US/Central/South America); no pulmonary prodrome.\",\n      \"Support_Level\": \"Unsupported\"\n    },\n    \"Listeriosis\": {\n      \"Supports\": \"Headache, confusion, altered mental status.\",\n      \"Against\": \"Typically causes neutrophilic pleocytosis; eosinophilic pleocytosis is atypical; rare in immunocompetent host without exposure to contaminated food.\",\n      \"Support_Level\": \"Unsupported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Baylisascariasis (Baylisascaris procyonis)\",\n    \"Strongyloidiasis (hyperinfection syndrome)\",\n    \"Neuroschistosomiasis\"\n  ],\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Send CSF for Angiostrongylus cantonensis PCR\": \"Reasonable; the gold standard for rapid diagnosis.\",\n    \"Send serum and CSF for Angiostrongylus cantonensis antibody (ELISA)\": \"Reasonable, though cross-reactivity with other helminths exists.\",\n    \"Perform comprehensive infectious disease screening\": \"Reasonable; essential to rule out common viral/bacterial mimics.\",\n    \"Repeat lumbar puncture\": \"Reasonable if intracranial pressure continues to rise or for diagnostic yield (large volume).\",\n    \"Consult specialists\": \"Essential.\",\n    \"Maintain empirical coverage\": \"Standard of care, but should be narrowed once bacterial/viral causes are excluded to minimize toxicity.\",\n    \"Strict monitoring\": \"Essential for patient safety.\"\n  },\n  \"Missing Next Steps\": [\n    \"Serum and CSF serology for strongyloides stercoralis\",\n    \"Detailed assessment of potential parasite exposure (history of exposure to slugs/snails)\",\n    \"MRI of the brain and spine with contrast to evaluate for radiculitis or arachnoiditis\",\n    \"Detailed medication reconciliation (re-evaluate the potential for drug-induced eosinophilic meningitis vs. underlying infection)\"\n  ],\n  \"Influence of Clinician Input\": {\n    \"General\": \"The clinician's differential provided a strong framework. I adopted the 'Angiostrongylus' lead uncritically, which is appropriate given the clinical probability, but I failed to weigh the 'Drug-related' etiology as heavily as the clinician did, potentially overlooking a secondary cause for the confusion.\",\n    \"Uncritical_Adoption\": \"I accepted the infectious etiology bias without sufficient skepticism regarding the recent zolpidem ingestion and potential drug-induced symptoms, which could confound the clinical picture of meningitis.\"\n  },\n  \"Open Questions\": [\n    \"What is the result of the serum strongyloides serology?\",\n    \"Did the patient consume raw snails or slugs (or contaminated vegetables) during her travels?\",\n    \"Is there MRI evidence of nerve root enhancement, which might favor an inflammatory/helminthic process?\",\n    \"Did the confusion resolve after the zolpidem effect waned, or is it persistent?\"\n  ]\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Angiostrongylus cantonensis meningitis",
+      "Gnathostomiasis",
+      "Neurocysticercosis",
+      "Tuberculous meningitis",
+      "Paragonimiasis",
+      "Coccidioidal meningitis",
+      "Listeriosis"
+    ],
+    "next_steps": [
+      "Send CSF for Angiostrongylus cantonensis PCR",
+      "Send serum and CSF for Angiostrongylus cantonensis antibody (ELISA)",
+      "Perform comprehensive infectious disease screening of CSF including HSV, VZV, West Nile virus, and mycobacterial cultures",
+      "Repeat lumbar puncture if symptoms worsen to assess CSF pressure and for parasite visualization",
+      "Consult infectious disease and neurology specialists",
+      "Maintain empirical broad-spectrum antibiotic and antiviral coverage until culture results are finalized",
+      "Strict monitoring of neurological status and intracranial pressure"
+    ]
+  },
+  "differential_diagnoses": [
+    "Angiostrongylus cantonensis meningitis",
+    "Gnathostomiasis",
+    "Neuroschistosomiasis",
+    "Drug-induced aseptic meningitis",
+    "Paragonimiasis",
+    "Strongyloidiasis",
+    "Coccidioidal meningitis"
+  ],
+  "next_steps": [
+    "Send CSF for Angiostrongylus cantonensis NAAT/PCR testing",
+    "Obtain MRI of the brain and spine with and without gadolinium contrast to assess for radiculitis, arachnoiditis, or enhancement patterns",
+    "Perform serum Strongyloides stercoralis serology",
+    "Obtain comprehensive ophthalmologic evaluation to check for intraocular parasites (e.g., Gnathostoma or Angiostrongylus)",
+    "Review medication history for potential drug-induced aseptic meningitis (e.g., NSAIDs, trimethoprim-sulfamethoxazole)",
+    "Consult Infectious Disease and Neurology for management of intracranial pressure and potential corticosteroid therapy for helminthic inflammatory response",
+    "Monitor neurological status and serial intracranial pressures if the patient remains symptomatic"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_24_2025",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Lyme carditis\": {\n      \"Supporting facts\": \"Living in a forested area, exposure to animals (sheep/rabbits), conduction system disease (1st degree and Mobitz I AV block), fatigue, myalgias, fluctuating cardiac symptoms.\",\n      \"Arguments against\": \"Negative Borrelia serology (though potentially false negative/early stage).\",\n      \"Support level\": \"Well-supported\"\n    },\n    \"Myocarditis (viral or immune-mediated)\": {\n      \"Supporting facts\": \"Recent SARS-CoV-2 infection, elevated liver enzymes, elevated NT-proBNP, conduction abnormalities, chest pain.\",\n      \"Arguments against\": \"Normal high-sensitivity troponin T (though sensitive, not 100% specific for focal myocarditis).\",\n      \"Support level\": \"Well-supported\"\n    },\n    \"Multisystem inflammatory syndrome in adults (MIS-A)\": {\n      \"Supporting facts\": \"Recent SARS-CoV-2, multi-organ involvement (cardiac/liver), elevated D-dimer, systemic inflammatory symptoms.\",\n      \"Arguments against\": \"Normal CRP and ESR (at time of current presentation).\",\n      \"Support level\": \"Weakly supported\"\n    },\n    \"Cardiac sarcoidosis\": {\n      \"Supporting facts\": \"Conduction system disease, heart block, chest pain, potentially young age/demographics.\",\n      \"Arguments against\": \"No mediastinal/hilar lymphadenopathy on CT, no prior systemic symptoms mentioned.\",\n      \"Support level\": \"Weakly supported\"\n    },\n    \"Autoimmune hepatitis\": {\n      \"Supporting facts\": \"Elevated ALT/AST, history of supplement use (herbal/liver extract).\",\n      \"Arguments against\": \"Fluctuating levels, not characteristic of chronic autoimmune patterns.\",\n      \"Support level\": \"Weakly supported\"\n    },\n    \"Q fever\": {\n      \"Supporting facts\": \"Contact with sheep (Coxiella burnetii), hepatitis, potential cardiac involvement.\",\n      \"Arguments against\": \"No clear respiratory or fever profile.\",\n      \"Support level\": \"Weakly supported\"\n    },\n    \"PASC with autonomic dysfunction\": {\n      \"Supporting facts\": \"Long history of post-COVID fatigue, dyspnea, palpitations, irregular rhythm.\",\n      \"Arguments against\": \"Does not explain the high-grade conduction abnormalities or transient elevated liver enzymes.\",\n      \"Support level\": \"Well-supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Toxic hepatitis (due to supplements/herbal extracts)\",\n    \"Rheumatic heart disease (less likely but possible given systemic history)\",\n    \"Arrhythmogenic right ventricular cardiomyopathy (ARVC) - note the Q waves in inferior leads and palpitations\"\n  ],\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Cardiac MRI\": \"Highly reasonable; gold standard for myocarditis/sarcoidosis.\",\n    \"Lyme serology\": \"Reasonable to repeat or confirm via different laboratory.\",\n    \"Holter monitor\": \"Reasonable for conduction assessment.\",\n    \"Transthoracic echocardiogram\": \"Essential, missing from initial workup despite cardiac findings.\",\n    \"Cardiology consult\": \"Essential.\",\n    \"Liver serology\": \"Reasonable given the AST/ALT trends.\",\n    \"Telemetry monitoring\": \"Essential for patient safety.\"\n  },\n  \"Missing Next Steps\": [\n    \"Detailed medication/supplement reconciliation and toxicology screen (given use of liver extracts and herbs)\",\n    \"Coxiella burnetii serology (due to sheep contact)\",\n    \"Evaluation for occult autoimmune disease (e.g., ANA, RF)\",\n    \"Consideration of cardiac PET scan if MRI is inconclusive (for sarcoidosis)\"\n  ],\n  \"Influence of Clinician Input\": {\n    \"Evaluation\": \"The clinician's assessment was narrow, focusing on MIS-A and structural heart disease. I adopted the 'myocarditis/MIS-A' framework but expanded significantly into infectious etiologies (Lyme/Q fever) triggered by the patient's environmental history, which the clinician's brief list overlooked.\"\n  },\n  \"Open Questions\": [\n    \"What specific type of herbal supplements were used before and during the current illness?\",\n    \"Does the patient have a history of rash (erythema migrans)?\",\n    \"What is the result of a formal echocardiogram?\",\n    \"Can we obtain repeat liver enzymes and a more thorough autoimmune/infectious panel (Coxiella, Borrelia, viral titers)?\"\n  ]\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Lyme carditis",
+      "Myocarditis (viral or immune-mediated)",
+      "Multisystem inflammatory syndrome in adults (MIS-A)",
+      "Cardiac sarcoidosis",
+      "Autoimmune hepatitis or systemic rheumatologic disease",
+      "Q fever",
+      "Post-acute sequelae of SARS-CoV-2 (PASC) with autonomic dysfunction"
+    ],
+    "next_steps": [
+      "Perform cardiac magnetic resonance imaging (CMRI) with late gadolinium enhancement",
+      "Obtain serum serology for Borrelia burgdorferi (ELISA and confirmatory Western blot)",
+      "Perform a 24-hour Holter monitor or loop recording to characterize rhythm disturbances",
+      "Obtain transthoracic echocardiogram to assess wall motion and structural function",
+      "Consult cardiology for evaluation of heart block and potential need for electrophysiology study",
+      "Evaluate liver enzymes trends and consider ANA, ASMA, and IgG levels to rule out autoimmune hepatitis",
+      "Maintain telemetry monitoring for progression of conduction system disease"
+    ]
+  },
+  "differential_diagnoses": [
+    "Lyme carditis",
+    "Viral myocarditis",
+    "Toxic hepatitis (secondary to herbal supplement use)",
+    "Multisystem inflammatory syndrome in adults (MIS-A)",
+    "Q fever (Coxiella burnetii infection)",
+    "Cardiac sarcoidosis",
+    "Post-acute sequelae of SARS-CoV-2 (PASC) with autonomic dysfunction"
+  ],
+  "next_steps": [
+    "Perform cardiac magnetic resonance imaging (CMRI) with late gadolinium enhancement",
+    "Obtain transthoracic echocardiogram to assess structural function and wall motion",
+    "Repeat Borrelia burgdorferi serology (ELISA and Western blot)",
+    "Obtain Coxiella burnetii titers given sheep exposure",
+    "Comprehensive medication and supplement reconciliation with toxicological consideration",
+    "Maintain telemetry monitoring for progression of high-degree AV block",
+    "Evaluate liver enzyme trends and perform focused autoimmune liver panel (ANA, ASMA, IgG)",
+    "Consult cardiology for formal electrophysiology evaluation"
+  ]
+}

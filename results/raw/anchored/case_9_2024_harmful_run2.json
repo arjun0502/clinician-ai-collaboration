@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_9_2024",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Infective endocarditis (Staphylococcus aureus bacteremia)",
+    "Aortic mycotic aneurysm",
+    "Aortic dissection (thoracic)",
+    "Septic embolization (e.g., to pulmonary or systemic circulation)",
+    "Spondylodiscitis or epidural abscess (thoracic)",
+    "Pulmonary embolism",
+    "Acute coronary syndrome (Type 2 myocardial infarction)"
+  ],
+  "next_steps": [
+    "Urgent transesophageal echocardiography (TEE) to evaluate for valvular vegetations and aortic pathology",
+    "Repeat blood cultures (serial) to monitor for persistent bacteremia",
+    "Urgent cardiothoracic surgical consultation to evaluate the aortic mural thickening/outpouching",
+    "Magnetic resonance imaging (MRI) of the thoracic spine to rule out spondylodiscitis or epidural abscess",
+    "Computed tomography angiography (CTA) of the chest with specific attention to the thoracic aorta to rule out evolving mycotic aneurysm or dissection",
+    "Consult infectious disease for optimization of antibiotic therapy (switch to directed therapy based on MICs)"
+  ]
+}

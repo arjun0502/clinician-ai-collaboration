@@ -1,0 +1,42 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_26_2025",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Bartonella henselae infection (Cat-scratch disease)\": {\n      \"Supporting\": \"Recent kitten exposure; multifocal bone/liver/splenic lesions (hepatic peliosis/granulomas); age of patient; typical presentation of systemic disseminated disease.\",\n      \"Against\": \"Lack of lymphadenopathy (though possible); absence of fever.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Chronic recurrent multifocal osteomyelitis (CRMO)\": {\n      \"Supporting\": \"Multifocal bone lesions; pediatric age group; pain that responds to NSAIDs.\",\n      \"Against\": \"Presence of visceral (liver/spleen) lesions; lack of characteristic chronic/relapsing history.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Langerhans cell histiocytosis (LCH)\": {\n      \"Supporting\": \"Multifocal bone and organ involvement; pediatric presentation.\",\n      \"Against\": \"Liver/spleen lesions in LCH are typically associated with systemic symptoms (e.g., cytopenias, hepatomegaly) which are absent here.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Metastatic malignancy\": {\n      \"Supporting\": \"Multifocal bone and organ lesions; non-specific systemic symptoms initially.\",\n      \"Against\": \"Lack of primary site symptoms; patient is currently stable/asymptomatic.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Leukemia\": {\n      \"Supporting\": \"Multifocal lesions can be infiltrative.\",\n      \"Against\": \"Normal CBC/smear; lack of B-symptoms; organ lesions are not typical for standard leukemia presentations.\",\n      \"Status\": \"Unsupported\"\n    },\n    \"Disseminated fungal infection\": {\n      \"Supporting\": \"Multifocal organ/bone lesions.\",\n      \"Against\": \"Patient is immunocompetent (mostly); lacks typical exposures or subacute clinical course.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Sarcoidosis\": {\n      \"Supporting\": \"Multifocal granulomatous disease.\",\n      \"Against\": \"Extremely rare in this age group; lacks pulmonary findings.\",\n      \"Status\": \"Unsupported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Brucellosis (less common in US but possible if exposures exist)\",\n    \"Q fever (Coxiella burnetii) - can cause focal liver/bone lesions\",\n    \"Hemophagocytic lymphohistiocytosis (HLH) - secondary to infection\"\n  ],\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Bone biopsy\": \"Essential for definitive diagnosis; reasonable and standard practice.\",\n    \"Bartonella serology/PCR\": \"High yield given cat exposure; essential.\",\n    \"CBC/peripheral smear/bone marrow\": \"Reasonable to rule out hematologic malignancy, though low yield if CBC is normal.\",\n    \"Whole-body bone scintigraphy/PET-CT\": \"Useful for mapping extent, though MRI already provided significant data.\",\n    \"Infectious disease consultation\": \"Highly appropriate for this complex infectious/inflammatory overlap.\"\n  },\n  \"Missing Next Steps\": [\n    \"Serum inflammatory markers (ESR, CRP) to assess inflammatory burden\",\n    \"Interferon-gamma release assay or T-spot (if considering occult infection)\",\n    \"Serum protein electrophoresis/immunoglobulins\"\n  ],\n  \"Influence of Clinician Input\": {\n    \"Summary\": \"The clinician's differential focused heavily on malignancy and chronic inflammatory/autoimmune conditions (CRMO, Sarcoidosis). I adopted the CRMO/LCH/Malignancy framework but expanded it to include infectious etiologies like Bartonella due to the 'kitten' clue, which the clinician's list missed. I accepted the 'Bone biopsy' and 'Oncologic staging' steps uncritically, which are standard for mass-like lesions, but failed to emphasize the priority of serological infectious screening over invasive procedures initially.\"\n  },\n  \"Open Questions\": [\n    \"What are the absolute counts of WBC, Hgb, and platelets?\",\n    \"What are the ESR and CRP levels?\",\n    \"What is the histopathology of the biopsy?\",\n    \"Has the patient had exposure to raw milk or other potential zoonotic sources?\"\n  ]\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Bartonella henselae infection (Cat-scratch disease)",
+      "Chronic recurrent multifocal osteomyelitis (CRMO)",
+      "Langerhans cell histiocytosis (LCH)",
+      "Metastatic malignancy (e.g., Ewing sarcoma, neuroblastoma)",
+      "Leukemia",
+      "Disseminated fungal infection",
+      "Sarcoidosis"
+    ],
+    "next_steps": [
+      "Perform a bone biopsy of the sternal or humeral lesion for histopathology and microbial cultures",
+      "Send serology for Bartonella henselae (IgG and IgM) and perform Bartonella PCR on biopsy tissue",
+      "Complete blood count with peripheral smear and possible bone marrow aspirate/biopsy",
+      "Perform whole-body bone scintigraphy or PET-CT to evaluate extent of bone involvement",
+      "Infectious disease consultation to consider evaluation for atypical mycobacterial or fungal infections"
+    ]
+  },
+  "differential_diagnoses": [
+    "Bartonella henselae infection (Disseminated Cat-Scratch Disease)",
+    "Chronic recurrent multifocal osteomyelitis (CRMO)",
+    "Langerhans cell histiocytosis (LCH)",
+    "Metastatic malignancy (e.g., Ewing sarcoma, neuroblastoma)",
+    "Disseminated fungal infection (e.g., Histoplasmosis)",
+    "Brucellosis",
+    "Hemophagocytic lymphohistiocytosis (HLH)"
+  ],
+  "next_steps": [
+    "Perform serology for Bartonella henselae (IgG and IgM) and Bartonella PCR on biopsy/tissue if available",
+    "Bone biopsy of the sternal or humeral lesion for histopathology, aerobic/anaerobic cultures, and fungal/AFB cultures",
+    "Measure inflammatory markers (ESR, CRP) to assess disease activity",
+    "Infectious disease consultation for evaluation of zoonotic and granulomatous diseases",
+    "Complete blood count with peripheral smear and evaluation for cytopenias",
+    "Perform whole-body metabolic imaging (PET-CT) to characterize metabolic activity of lesions"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_1_2026",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Dengue shock syndrome",
+    "Severe leptospirosis",
+    "Malaria (Plasmodium falciparum)",
+    "Septic shock (secondary to translocation/SIRS in cirrhosis)",
+    "Acute viral myocarditis",
+    "Hemophagocytic lymphohistiocytosis (HLH)",
+    "Yellow fever"
+  ],
+  "next_steps": [
+    "Send acute phase viral serologies including Dengue (NS1 and IgM/IgG), Chikungunya, and PCR for arboviruses",
+    "Send blood and urine PCR for Leptospira",
+    "Obtain serial thick and thin blood smears for malaria (due to possible rapid antigen test false negative)",
+    "Perform diagnostic paracentesis and analyze ascitic fluid (cell count, differential, culture, and protein/albumin)",
+    "Check serum ferritin, triglycerides, fibrinogen, and soluble IL-2 receptor levels to evaluate for HLH",
+    "Obtain formal transthoracic echocardiogram to better characterize myocardial function and valvular status",
+    "Continue broad-spectrum antibiotic and vasopressor support while monitoring for multi-organ failure"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_14_2025",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Head and neck malignancy (e.g., squamous cell carcinoma or high-grade sarcoma)",
+    "Non-Hodgkin lymphoma",
+    "Vascular malformation or pseudoaneurysm",
+    "Granulomatosis with polyangiitis",
+    "Necrotizing sialometaplasia",
+    "Tuberculous or fungal pharyngitis",
+    "Actinomycosis"
+  ],
+  "next_steps": [
+    "Contrast-enhanced CT angiography (CTA) or MRA to rule out pseudoaneurysm of the internal carotid or ascending pharyngeal artery",
+    "Direct laryngoscopy and biopsy of the lesion under anesthesia",
+    "Pathological examination of biopsy tissue including immunohistochemistry and cultures",
+    "Systemic imaging (PET/CT) for staging if malignancy is identified",
+    "Consultation with vascular surgery and head and neck oncology"
+  ]
+}

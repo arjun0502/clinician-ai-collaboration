@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_4_2025",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Sarcoidosis",
+    "Lymphoma",
+    "Tuberculosis",
+    "Bartonella henselae infection",
+    "Histoplasmosis",
+    "IgG4-related disease"
+  ],
+  "next_steps": [
+    "Endobronchial ultrasound-guided transbronchial needle aspiration (EBUS-TBNA) of mediastinal lymph nodes",
+    "Excisional lymph node biopsy if EBUS-TBNA is non-diagnostic",
+    "Serum angiotensin-converting enzyme (ACE) and soluble interleukin-2 receptor levels",
+    "Comprehensive ophthalmologic examination (uveitis screening)",
+    "Synovial fluid analysis of the affected knee and ankle joints",
+    "Pathologic examination of skin biopsy from erythematous macules"
+  ]
+}

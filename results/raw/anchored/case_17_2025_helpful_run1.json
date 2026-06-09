@@ -1,0 +1,27 @@
+{
+  "condition": "anchored",
+  "case_id": "case_17_2025",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Strongyloides stercoralis hyperinfection syndrome",
+    "Disseminated histoplasmosis",
+    "Disseminated Nocardia species infection",
+    "Cytomegalovirus pneumonitis",
+    "Tuberculosis (disseminated)",
+    "Pneumocystis jirovecii pneumonia",
+    "Capnocytophaga canimorsus sepsis",
+    "Drug-induced pneumonitis (e.g., sirolimus or mycophenolate-related)"
+  ],
+  "next_steps": [
+    "Examine tracheal aspirate for rhabditiform larvae of Strongyloides stercoralis",
+    "Perform punch biopsy of cutaneous purpuric lesions for histopathology and tissue culture",
+    "Order stool studies for ova and parasites (specifically concentrated for Strongyloides)",
+    "Send serum for Histoplasma antigen and galactomannan testing",
+    "Obtain Bronchoalveolar lavage (BAL) for broad-spectrum microbiological, fungal, and PCR testing",
+    "Start empiric treatment for hyperinfection syndrome (e.g., ivermectin) until ruled out",
+    "Perform serial abdominal exams and imaging to monitor for bowel perforation or progression of ileus"
+  ]
+}

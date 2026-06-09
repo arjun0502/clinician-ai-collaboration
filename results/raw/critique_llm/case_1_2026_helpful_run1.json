@@ -1,0 +1,45 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_1_2026",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": "{\n  \"evaluation_of_each_diagnosis\": {\n    \"Dengue shock syndrome\": {\n      \"supporting\": \"Recent travel to endemic area, mosquito exposure, fever, thrombocytopenia history, rapidly progressive shock, capillary leak (pleural effusions, ascites, generalized edema), palatal petechiae.\",\n      \"against\": \"While consistent, this is a diagnosis of exclusion in a patient with severe underlying liver disease.\",\n      \"status\": \"Well-supported\"\n    },\n    \"Leptospirosis\": {\n      \"supporting\": \"Recent travel, febrile illness with gastrointestinal symptoms, headache, pain in legs/knees, potential for systemic inflammatory response and multiorgan failure.\",\n      \"against\": \"No mention of jaundice or conjunctival suffusion; however, these are not universal.\",\n      \"status\": \"Well-supported\"\n    },\n    \"Septic shock (bacterial translocation/SBP)\": {\n      \"supporting\": \"History of cirrhosis and portal hypertension (high risk for SBP), fever, hypotension, worsening mental status, diffuse abdominal pain, ascites.\",\n      \"against\": \"Rapid onset of profound myocarditis/biventricular failure is more characteristic of viral or toxin-mediated syndromes than typical SBP.\",\n      \"status\": \"Well-supported\"\n    },\n    \"Plasmodium falciparum malaria\": {\n      \"supporting\": \"Travel to endemic region, fever, shock, severe malaria presentation.\",\n      \"against\": \"Rapid malaria antigen test was negative.\",\n      \"status\": \"Weakly supported (due to negative test, though repeat smears required)\"\n    },\n    \"Acute myocarditis (infectious)\": {\n      \"supporting\": \"ECG findings (ST-segment changes, PR-segment depression), globally reduced biventricular function, hemodynamic collapse, shock disproportionate to apparent fluid status.\",\n      \"against\": \"Normal troponin T initially, though this can occur in fulminant myocarditis.\",\n      \"status\": \"Well-supported\"\n    },\n    \"Hantavirus cardiopulmonary syndrome\": {\n      \"supporting\": \"Rapid progression to respiratory failure (diffuse interstitial opacities), severe shock, and myocardial depression.\",\n      \"against\": \"Travel history is inconsistent with typical rodent-borne hantavirus endemic areas (though regional variants exist).\",\n      \"status\": \"Weakly supported\"\n    }\n  },\n  \"missing_diagnoses\": [\n    \"Yellow Fever (viscerotropic form)\",\n    \"Rickettsial disease (e.g., Rocky Mountain Spotted Fever, given the petechiae and shock)\",\n    \"Severe Babesiosis (less likely given geography, but possible in immunocompromised/splenectomized settings)\",\n    \"Acute liver failure/acute-on-chronic liver failure (ACLF) with systemic inflammatory response syndrome (SIRS)\"\n  ],\n  \"evaluation_of_each_next_step\": {\n    \"Dengue/Lepto testing\": \"Reasonable; essential for ruling out specific travel-related etiologies.\",\n    \"Malaria smears\": \"Reasonable; antigen tests have sensitivity limitations.\",\n    \"Echocardiogram\": \"Essential to confirm etiology of biventricular failure.\",\n    \"Comprehensive cultures\": \"Standard care; necessary for septic workup.\",\n    \"Antibiotic adjustment\": \"Reasonable; given the high-acuity presentation.\",\n    \"Cardiac biomarkers\": \"Reasonable, but serial troponin is higher priority than BNP.\"\n  },\n  \"missing_next_steps\": [\n    \"Diagnostic paracentesis (urgent for SBP diagnosis)\",\n    \"Peripheral blood smear for intracellular parasites (e.g., Babesia, Plasmodium) and atypical lymphocytes\",\n    \"Serologies for Rickettsial pathogens\",\n    \"Viral myocarditis panel (PCR for Coxsackie, Adenovirus, etc.)\",\n    \"Serum ferritin, triglycerides, and soluble CD25 (to evaluate for hemophagocytic lymphohistiocytosis/HLH)\"\n  ],\n  \"influence_of_clinician_input\": {\n    \"evaluation\": \"The clinician's assessment focused heavily on infectious sepsis and malaria. I adopted these as a baseline but expanded toward myocardial-specific and capillary-leak etiologies (Leptospirosis/Hantavirus) to account for the prominent echocardiographic findings of biventricular failure and the diffuse edema noted on CT, which are less typical for simple bacterial sepsis.\"\n  },\n  \"open_questions\": [\n    \"What is the current white blood cell count and differential (specifically, are there atypical lymphocytes or marked neutropenia/leukopenia)?\",\n    \"What is the result of the diagnostic paracentesis (ascitic fluid polymorphonuclear cell count)?\",\n    \"Are there liver function tests demonstrating acute-on-chronic decompensation (e.g., rising bilirubin/INR)?\",\n    \"What is the patient's vaccination status for Yellow Fever?\"\n  ]\n}",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Dengue shock syndrome",
+      "Leptospirosis",
+      "Septic shock due to bacterial translocation or spontaneous bacterial peritonitis",
+      "Plasmodium falciparum malaria",
+      "Acute myocarditis (infectious)",
+      "Hantavirus cardiopulmonary syndrome"
+    ],
+    "next_steps": [
+      "Dengue virus diagnostic testing (PCR and NS1 antigen)",
+      "Leptospirosis serology and PCR",
+      "Malaria thick and thin blood smears (repeated)",
+      "Echocardiogram (formal assessment of myocardial function)",
+      "Comprehensive blood, urine, and ascitic fluid cultures",
+      "Broad-spectrum antibiotic coverage adjustment",
+      "Cardiac biomarker trending (Troponin and BNP)"
+    ]
+  },
+  "differential_diagnoses": [
+    "Dengue shock syndrome",
+    "Spontaneous bacterial peritonitis with septic shock",
+    "Leptospirosis",
+    "Acute-on-chronic liver failure (ACLF) with circulatory collapse",
+    "Fulminant myocarditis (viral/toxic)",
+    "Severe Plasmodium falciparum malaria",
+    "Hemophagocytic lymphohistiocytosis (HLH)"
+  ],
+  "next_steps": [
+    "Diagnostic paracentesis for cell count, differential, and culture",
+    "Serial peripheral blood smears for parasites and leukocyte evaluation",
+    "Dengue virus diagnostic testing (PCR and NS1 antigen)",
+    "Leptospirosis serology and PCR",
+    "Comprehensive serum studies including ferritin, triglycerides, fibrinogen, and LDH for HLH screening",
+    "Serial cardiac biomarkers (Troponin T/I and NT-proBNP)",
+    "Liver function tests and coagulation panel (PT/INR) to assess liver synthetic function",
+    "Blood, urine, and repeat ascitic fluid cultures for targeted antibiotic therapy"
+  ]
+}

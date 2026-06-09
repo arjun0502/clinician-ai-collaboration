@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_13_2025",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Cushing syndrome (likely ectopic ACTH production)",
+    "Fungal meningitis (e.g., Candida or Cryptococcus)",
+    "Tuberculous meningitis",
+    "Adrenocortical carcinoma",
+    "Metastatic malignancy with central nervous system involvement",
+    "Listeria monocytogenes meningoencephalitis"
+  ],
+  "next_steps": [
+    "Initiate empiric antifungal therapy (e.g., liposomal amphotericin B and flucytosine) and broad-spectrum antibiotics (covering Listeria)",
+    "Obtain serum cortisol, 24-hour urinary free cortisol, and plasma ACTH levels",
+    "Send cerebrospinal fluid for fungal and mycobacterial cultures, India ink, and cryptococcal antigen",
+    "Consult endocrinology for management of hypercortisolism",
+    "Urgent neurosurgical consultation for consideration of brain biopsy if infectious workup remains negative",
+    "Consider fine-needle aspiration of the adrenal nodule if suspicion of ectopic ACTH persists and other diagnostic measures are inconclusive"
+  ]
+}

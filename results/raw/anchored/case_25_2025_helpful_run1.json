@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_25_2025",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Severe symptomatic aortic stenosis",
+    "Iron deficiency anemia (likely gastrointestinal)",
+    "Heart failure with preserved ejection fraction (HFpEF)",
+    "Coronary artery disease",
+    "Progression of underlying interstitial lung disease",
+    "Chronic kidney disease-related anemia",
+    "Chronotropic incompetence"
+  ],
+  "next_steps": [
+    "Obtain complete blood count and peripheral smear",
+    "Perform iron studies, ferritin, and reticulocyte count",
+    "Order transthoracic echocardiography to assess hemodynamics of aortic stenosis and diastolic function",
+    "Obtain fecal occult blood testing and consider gastroenterology consultation for colonoscopy/endoscopy",
+    "Obtain N-terminal pro-B-type natriuretic peptide (NT-proBNP)",
+    "Perform stress testing or coronary angiography to evaluate for ischemia",
+    "Evaluate for chronotropic incompetence with ambulatory ECG monitoring"
+  ]
+}

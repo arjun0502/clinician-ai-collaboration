@@ -1,0 +1,44 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_24_2025",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Lyme carditis\": {\n      \"Supports\": \"Forest-dwelling area, tick exposure potential, symptomatic conduction disturbance (AV block).\",\n      \"Arguments against\": \"Negative Borrelia serology (though potentially early or low sensitivity).\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Myocarditis (post-viral)\": {\n      \"Supports\": \"Recent SARS-CoV-2 infection, elevated liver enzymes, cardiac conduction abnormalities (AV block), elevated NT-proBNP.\",\n      \"Arguments against\": \"Normal high-sensitivity troponin T.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Multisystem inflammatory syndrome in adults (MIS-A)\": {\n      \"Supports\": \"Recent SARS-CoV-2 infection, multisystem involvement (liver, cardiac conduction, fatigue).\",\n      \"Arguments against\": \"Normal C-reactive protein (usually elevated in MIS-A).\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Q fever (Coxiella burnetii infection)\": {\n      \"Supports\": \"Exposure to sheep/rabbits, hepatic involvement, cardiac manifestations.\",\n      \"Arguments against\": \"None specific.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Autoimmune/Rheumatologic condition (e.g., Sarcoidosis or Giant Cell Arteritis)\": {\n      \"Supports\": \"Cardiac conduction disease, fatigue, constitutional symptoms.\",\n      \"Arguments against\": \"Normal ESR and CRP.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Drug-induced hepatitis and cardiac conduction disturbance\": {\n      \"Supports\": \"Usage of multiple herbal supplements (turmeric/liver extract/milk thistle), temporal relationship to hepatic enzymes.\",\n      \"Arguments against\": \"Usually wouldn't explain the progression of conduction block.\",\n      \"Status\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Bartonella henselae infection (Bartonellosis)\",\n    \"Cardiac sarcoidosis (despite normal inflammatory markers)\",\n    \"Tick-borne encephalitis or other arboviral myocarditis\"\n  ],\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Transthoracic echocardiogram\": \"Reasonable; essential for structural/functional assessment.\",\n    \"Lyme serology\": \"Reasonable; mandatory given exposure history.\",\n    \"Q fever/Bartonella serology\": \"Reasonable; high-yield based on sheep/rabbits/woodland exposure.\",\n    \"Continuous telemetry\": \"Reasonable; standard of care for AV block.\",\n    \"Cardiac MRI\": \"Reasonable; gold standard for occult myocarditis.\",\n    \"Discontinue herbal supplements\": \"Reasonable; potential for hepatotoxicity and unknown drug interactions.\",\n    \"Cardiology consultation\": \"Reasonable; required for conduction system management.\"\n  },\n  \"Missing Next Steps\": [\n    \"Blood cultures (for endocarditis/sepsis)\",\n    \"Formal toxicology screen for supplements\",\n    \"Detailed ophthalmologic exam (for sarcoidosis or Bartonella)\",\n    \"Consideration of cardiac biopsy if suspicion for myocarditis/sarcoidosis remains high despite negative non-invasive imaging\"\n  ],\n  \"Influence of Clinician Input\": {\n    \"Critique\": \"The clinician's differential focused too narrowly on acute systemic processes (MIS-A, PE). I correctly identified the need to pivot toward zoonotic/infectious and structural etiologies (Lyme, Q fever) based on the patient's specific geographic and animal exposures, which were ignored by the provided clinician input.\"\n  },\n  \"Open Questions\": [\n    \"What are the specific results of the Borrelia western blot (not just 'negative' by report)?\",\n    \"Is there a history of erythema migrans or recent tick bites?\",\n    \"What are the specific ingredients in the 'animal liver extract' supplement (potential for heavy metals or contaminants)?\",\n    \"Results of the requested echocardiogram.\"\n  ]\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Lyme carditis",
+      "Myocarditis (post-viral)",
+      "Multisystem inflammatory syndrome in adults (MIS-A)",
+      "Q fever (Coxiella burnetii infection)",
+      "Autoimmune/Rheumatologic condition (e.g., Sarcoidosis or Giant Cell Arteritis)",
+      "Drug-induced hepatitis and cardiac conduction disturbance"
+    ],
+    "next_steps": [
+      "Perform transthoracic echocardiogram to assess for wall motion abnormalities, structural heart disease, and pericardial effusion",
+      "Obtain Lyme disease serology (IgM and IgG) and western blot",
+      "Obtain specialized infectious disease testing including Q fever serology (Coxiella burnetii) and Bartonella henselae serology",
+      "Perform continuous cardiac telemetry monitoring to evaluate for progression of AV block",
+      "Consider cardiac magnetic resonance imaging (cMRI) to evaluate for myocardial inflammation or fibrosis",
+      "Discontinue herbal supplements and substances potentially contributing to hepatotoxicity",
+      "Consult cardiology for assessment of potential conduction system disease"
+    ]
+  },
+  "differential_diagnoses": [
+    "Lyme carditis",
+    "Q fever (Coxiella burnetii infection)",
+    "Myocarditis (post-viral or autoimmune)",
+    "Bartonellosis (Bartonella henselae)",
+    "Cardiac sarcoidosis",
+    "Toxic hepatitis and conduction system injury related to herbal supplements",
+    "Multisystem inflammatory syndrome in adults (MIS-A)"
+  ],
+  "next_steps": [
+    "Perform a transthoracic echocardiogram to evaluate for structural heart disease and myocardial wall motion abnormalities",
+    "Order comprehensive infectious serologies including Lyme (Western blot), Q fever (Coxiella phase I and II antibodies), and Bartonella species",
+    "Perform continuous cardiac telemetry to monitor for progression of AV block and arrhythmias",
+    "Obtain cardiac magnetic resonance imaging (cMRI) with late gadolinium enhancement to assess for occult inflammation or fibrosis",
+    "Discontinue all herbal and animal-derived supplements pending toxicological assessment",
+    "Consult cardiology for assessment of potential pacemaker requirement and management of conduction disease",
+    "Collect blood cultures to rule out culture-negative endocarditis"
+  ]
+}

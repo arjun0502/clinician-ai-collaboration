@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_35_2024",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Pleuropulmonary blastoma (type I or associated with DICER1 mutation)",
+    "Congenital pulmonary airway malformation (CPAM)",
+    "Intralobar pulmonary sequestration",
+    "Congenital lobar emphysema",
+    "Bronchogenic cyst",
+    "Post-infectious necrotizing pneumonia with pneumatocele",
+    "Meconium aspiration syndrome with secondary air leak syndrome"
+  ],
+  "next_steps": [
+    "Contrast-enhanced chest computed tomography (CT)",
+    "Genetics consultation and testing for DICER1 mutation",
+    "Pathological review of placental and any potential future lung biopsy specimens",
+    "Surgical consultation for persistent focal lung opacity and potential mass resection",
+    "Serial monitoring of inflammatory markers and blood cultures for persistent febrile illness"
+  ]
+}

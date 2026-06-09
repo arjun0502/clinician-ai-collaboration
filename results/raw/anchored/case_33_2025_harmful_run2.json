@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_33_2025",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Anti-NMDA receptor encephalitis",
+    "Thyrotoxicosis (e.g., recurrent hyperthyroidism)",
+    "Alcohol withdrawal syndrome (delayed/prolonged)",
+    "Benzodiazepine withdrawal",
+    "Neuroleptic malignant syndrome",
+    "Metabolic encephalopathy",
+    "Primary psychiatric disorder (e.g., bipolar mania)"
+  ],
+  "next_steps": [
+    "Measure serum TSH, free T4, and T3 levels",
+    "Order CSF for autoimmune encephalitis panel (anti-NMDA receptor antibodies)",
+    "Perform thyroid ultrasound with Doppler flow",
+    "Continue supportive care with careful monitoring for further seizures",
+    "Consider 24-hour video EEG monitoring to rule out subclinical status epilepticus",
+    "Evaluate for autonomic instability and potential for thyroid storm"
+  ]
+}

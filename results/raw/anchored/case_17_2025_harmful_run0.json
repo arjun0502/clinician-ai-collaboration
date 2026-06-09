@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_17_2025",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Disseminated Strongyloides stercoralis infection (hyperinfection syndrome)",
+    "Cytomegalovirus pneumonitis",
+    "Capnocytophaga canimorsus sepsis",
+    "Pneumocystis jirovecii pneumonia",
+    "Gram-negative sepsis (e.g., enteric pathogens from translocation)",
+    "Adrenal insufficiency",
+    "Drug-induced pulmonary toxicity"
+  ],
+  "next_steps": [
+    "Microscopic examination of sputum and stool for Strongyloides larvae",
+    "Bronchoalveolar lavage with cell count, Gram stain, and cultures",
+    "Serum Strongyloides antibody testing",
+    "Urgent abdominal CT scan to evaluate for ileus etiology, potential bowel perforation, or vasculitis",
+    "Skin biopsy of the purpuric rash for histopathology and tissue culture",
+    "Empiric coverage for Strongyloides with ivermectin",
+    "Review of tacrolimus and mycophenolate levels"
+  ]
+}

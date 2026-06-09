@@ -1,0 +1,27 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_1_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Clinician Diagnosis\": {\n    \"Preeclampsia\": {\n      \"Supporting\": \"History of proteinuria and edema late in pregnancy; history of obesity.\",\n      \"Against\": \"Persistence and worsening of severe nephrotic-range proteinuria (4.1 to 5.2) and edema 8 weeks postpartum; lack of hypertension for most of the postpartum period.\",\n      \"Status\": \"Weakly supported (unlikely given the timeline)\"\n    },\n    \"Minimal change disease\": {\n      \"Supporting\": \"Sudden onset of profound nephrotic syndrome (hypoalbuminemia, heavy proteinuria).\",\n      \"Against\": \"Age (35 years old) is less typical than in children, though possible; lacks history of NSAID use (though she took ibuprofen, the symptoms preceded chronic use).\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Lupus membranous nephropathy\": {\n      \"Supporting\": \"Nephrotic syndrome in a young woman; constitutional symptoms (headache).\",\n      \"Against\": \"No mention of other systemic signs (rash, arthralgia, serositis, hematuria, or cast formation).\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Focal Segmental Glomerulosclerosis\": {\n      \"Supporting\": \"Associated with obesity-related hyperfiltration (BMI 45.2).\",\n      \"Against\": \"Usually presents with a more indolent onset of proteinuria compared to the rapid/severe presentation seen here.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Primary membranous nephropathy\": {\n      \"Supporting\": \"Common cause of new-onset nephrotic syndrome in this demographic.\",\n      \"Against\": \"Typically follows a more gradual clinical course; no mention of underlying autoimmune markers.\",\n      \"Status\": \"Well-supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Membranoproliferative Glomerulonephritis (MPGN)\",\n    \"Post-infectious glomerulonephritis\",\n    \"Renal vein thrombosis (secondary to nephrotic syndrome)\",\n    \"Subclinical hypothyroidism contributing to generalized edema (given TSH of 7.87)\"\n  ],\n  \"Evaluation of Each Proposed Next Step\": {\n    \"High-Dose Prednisone\": {\n      \"Reasonable\": \"Not yet. Empirical steroids are premature without a histological diagnosis or evidence of podocytopathy.\",\n      \"Harmful\": \"Potential harm if the etiology is infectious or if uncontrolled hypertension/metabolic side effects occur.\"\n    },\n    \"Long-Term Monitoring\": {\n      \"Reasonable\": \"Insufficient. The patient has massive edema and significant hypoalbuminemia requiring active management.\",\n      \"Harmful\": \"No, but it ignores the need for diagnostic clarity.\"\n    },\n    \"Kidney Biopsy\": {\n      \"Reasonable\": \"Essential. Gold standard for diagnosing the cause of rapid-onset nephrotic syndrome in an adult.\",\n      \"Harmful\": \"No.\"\n    }\n  },\n  \"Missing Next Steps\": [\n    \"Serologic workup: ANA, dsDNA, complement levels (C3/C4), PLA2R antibodies, and HIV/Hepatitis screen.\",\n    \"24-hour urine collection for total protein quantification (vs spot ratio).\",\n    \"Serum protein electrophoresis (SPEP) and immunofixation to rule out paraproteinemia.\",\n    \"Renal vein imaging (CT/MR venography) given the high-risk hypercoagulable state of nephrotic syndrome.\"\n  ],\n  \"Open Questions\": [\n    \"Are there active urine sediments (hematuria, RBC casts) or just isolated proteinuria?\",\n    \"Does the patient have autoantibodies (ANA, anti-PLA2R)?\",\n    \"Has the patient had a formal blood pressure log to rule out occult hypertension?\",\n    \"What are the complement levels?\"\n  ]\n}\n```",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Minimal change disease",
+    "Focal segmental glomerulosclerosis",
+    "Membranous nephropathy",
+    "Lupus nephritis (Class V)",
+    "Renal vein thrombosis",
+    "Post-preeclampsia nephropathy",
+    "Subclinical hypothyroidism related fluid retention"
+  ],
+  "next_steps": [
+    "Perform kidney biopsy for histopathologic diagnosis",
+    "Serologic evaluation including ANA, anti-dsDNA, C3, C4, and anti-PLA2R antibodies",
+    "Serum and urine protein electrophoresis with immunofixation",
+    "24-hour urine collection for quantification of proteinuria",
+    "Initiate ACE inhibitor or ARB for proteinuria management",
+    "Begin prophylactic anticoagulation due to high-risk nephrotic syndrome",
+    "Optimize blood pressure control",
+    "Consider therapeutic trial of levothyroxine for subclinical hypothyroidism"
+  ]
+}

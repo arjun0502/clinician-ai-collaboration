@@ -1,0 +1,25 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_33_2024",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": "{\n  \"Evaluation of Each Clinician Diagnosis\": {\n    \"Tumefactive multiple sclerosis\": {\n      \"Supports\": \"Subacute onset, focal neurologic deficits, and enhancing mass with surrounding edema in the left frontal lobe.\",\n      \"Arguments against\": \"Patient is 71 (atypical onset age), absence of previous history of demyelinating disease, and the appearance of the biopsy (atypical cells in perivascular arrangement) is more characteristic of malignancy.\",\n      \"Support Level\": \"Weakly supported\"\n    },\n    \"Brain abscess due to infection with Listeria monocytogenes\": {\n      \"Supports\": \"Patient is immunocompromised (long-term mycophenolate mofetil and history of thymectomy), Listeria has a known predilection for the rhombencephalon but can occur supratentorially.\",\n      \"Arguments against\": \"Lack of systemic signs of infection (no fever, normal WBC), biopsy did not show purulence or acute inflammation.\",\n      \"Support Level\": \"Weakly supported\"\n    },\n    \"Primary CNS lymphoma\": {\n      \"Supports\": \"Classic radiographic appearance of enhancing frontal mass, perivascular infiltration on frozen section, patient is iatrogenically immunosuppressed.\",\n      \"Arguments against\": \"Clinical decline following corticosteroid administration (though not uncommon, partial response is expected) and biopsy findings did not yield definitive lymphoid markers yet.\",\n      \"Support Level\": \"Well-supported\"\n    },\n    \"Vascular lesion mimicking mass\": {\n      \"Supports\": \"Acute onset of symptoms (aphasia), initial CT scan showed attenuation changes.\",\n      \"Arguments against\": \"Progression of mass effect and edema over days is less consistent with simple ischemic stroke; biopsy showed cellular infiltrate.\",\n      \"Support Level\": \"Weakly supported\"\n    },\n    \"Metastatic cancer to the brain\": {\n      \"Supports\": \"History of pulmonary nodule and breast nodule.\",\n      \"Arguments against\": \"Breast nodule stability over 8 years, lack of primary malignancy confirmed on imaging, and biopsy morphology/perivascular pattern strongly favor lymphoma.\",\n      \"Support Level\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Nocardiosis (common in long-term immunosuppression)\",\n    \"Progressive multifocal leukoencephalopathy (PML) - though usually non-enhancing\",\n    \"Toxoplasmosis (due to mycophenolate mofetil)\",\n    \"Neuro-Beh\u00e7et's disease (rare but possible in patients on long-term immunosuppression with systemic symptoms)\"\n  ],\n  \"Evaluation of Each Proposed Next Step\": {\n    \"Perform a Gram stain on aspirated material\": \"Reasonable, but low yield given the negative intraoperative findings of purulence.\",\n    \"Permanent-section pathology review + immunohistochemistry\": \"Essential and the most critical step to differentiate lymphoma from other infiltrative processes.\",\n    \"Order a broad microbiology workup\": \"Reasonable to rule out opportunistic pathogens given the immunosuppressed state.\",\n    \"Infectious Disease consultation + start broad empiric antibiotics\": \"Reasonable, though current coverage (ceftriaxone/vancomycin) does not cover Listeria adequately; would need ampicillin.\"\n  },\n  \"Missing Next Steps\": [\n    \"Cerebrospinal fluid (CSF) analysis (cytology, flow cytometry, protein/glucose, and PCR for EBV/JC virus/Toxoplasma)\",\n    \"Add ampicillin to the antibiotic regimen for empiric Listeria coverage pending final cultures\",\n    \"Repeat MRI with perfusion/spectroscopy if pathology remains equivocal\"\n  ],\n  \"Open Questions\": [\n    \"What are the final immunohistochemistry results (CD20, CD3, EBER-ISH, Ki-67)?\",\n    \"What were the results of the cerebrospinal fluid analysis?\",\n    \"What is the current EBV status?\"\n  ]\n}",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Primary CNS lymphoma (PCNSL)",
+    "Nocardiosis",
+    "Listeriosis",
+    "Tumefactive demyelinating lesion",
+    "Gliomatosis cerebri",
+    "Metastatic carcinoma",
+    "Toxoplasmosis"
+  ],
+  "next_steps": [
+    "Complete definitive pathological workup (immunohistochemistry for CD20, CD3, CD68, GFAP, and EBER-ISH)",
+    "Initiate empiric coverage for Listeria (ampicillin) and Nocardia (trimethoprim-sulfamethoxazole) while awaiting microbiology",
+    "Lumbar puncture for CSF analysis (cytology, flow cytometry, protein, glucose, and PCR for EBV, JC virus, Toxoplasma, and Tropheryma whipplei)",
+    "Consult infectious disease for management of opportunistic infections in an immunosuppressed patient",
+    "Hold dexamethasone if possible until a firm diagnosis is made to avoid masking or lysis of potential lymphoma",
+    "Review history for signs of systemic Nocardiosis (e.g., skin, lung, or joint involvement)"
+  ]
+}

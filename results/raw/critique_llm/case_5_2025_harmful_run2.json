@@ -1,0 +1,44 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_5_2025",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": "{\n  \"Evaluation_of_Each_Diagnosis\": {\n    \"Angiostrongylus_cantonensis_meningitis\": {\n      \"Supporting_facts\": \"Travel to Hawaii/Thailand, eosinophilic meningitis, dysesthesia (radiculitis), headache, recent ingestion of raw produce (salads).\",\n      \"Against_or_inconsistent\": \"None significant.\",\n      \"Support_level\": \"Well-supported\"\n    },\n    \"Gnathostomiasis\": {\n      \"Supporting_facts\": \"Travel to Thailand/Japan, eosinophilia, radicular pain, migratory/progressive symptoms.\",\n      \"Against_or_inconsistent\": \"Usually presents with more focal migratory cutaneous swelling (larva migrans) than pure meningitis.\",\n      \"Support_level\": \"Well-supported\"\n    },\n    \"Neurocysticercosis\": {\n      \"Supporting_facts\": \"Travel to endemic areas, headache, confusion.\",\n      \"Against_or_inconsistent\": \"Typically presents with seizures, hydrocephalus, or parenchymal cysts; eosinophilic pleocytosis is less common unless there is subarachnoid involvement.\",\n      \"Support_level\": \"Weakly supported\"\n    },\n    \"Tuberculous_meningitis\": {\n      \"Supporting_facts\": \"Subacute course, headache, high protein, low glucose, lymphocytic predominance.\",\n      \"Against_or_inconsistent\": \"Eosinophilia is atypical; clinical course is generally more prolonged; the high eosinophil count in the CSF points toward a parasitic etiology.\",\n      \"Support_level\": \"Weakly supported\"\n    },\n    \"Coccidioidomycosis\": {\n      \"Supporting_facts\": \"Can cause eosinophilic meningitis.\",\n      \"Against_or_inconsistent\": \"Patient lacks history of travel to endemic areas (Southwestern US).\",\n      \"Support_level\": \"Unsupported\"\n    },\n    \"Leptospirosis\": {\n      \"Supporting_facts\": \"Travel/swimming in tropical waters, aseptic meningitis symptoms.\",\n      \"Against_or_inconsistent\": \"Typically presents with fever, jaundice, and renal dysfunction; CSF pleocytosis usually neutrophilic, not eosinophilic.\",\n      \"Support_level\": \"Weakly supported\"\n    },\n    \"Primary_central_nervous_system_lymphoma\": {\n      \"Supporting_facts\": \"Confusion, headache, neurological decline.\",\n      \"Against_or_inconsistent\": \"Acute/subacute presentation, peripheral eosinophilia, and CSF eosinophilia are not typical.\",\n      \"Support_level\": \"Unsupported\"\n    }\n  },\n  \"Missing_Diagnoses\": [\n    \"Neuroschistosomiasis\",\n    \"Paragonimiasis\"\n  ],\n  \"Evaluation_of_Each_Next_Step\": {\n    \"Serum_and_CSF_testing_for_Angiostrongylus\": \"Reasonable; essential given the travel and clinical picture.\",\n    \"Serum_and_CSF_testing_for_Gnathostoma\": \"Reasonable; important diagnostic consideration for eosinophilic meningitis in this travel context.\",\n    \"Coccidioides_testing\": \"Reasonable but low yield given geography; acceptable as part of a broad screen.\",\n    \"MRI_brain_spine\": \"Highly recommended; essential to evaluate for enhancement patterns, spinal radiculitis, or space-occupying lesions.\",\n    \"Dexamethasone\": \"Reasonable for elevated intracranial pressure; however, caution is needed if the etiology is parasitic, though often used in A. cantonensis to reduce inflammation.\",\n    \"Consult_ID_Neurology\": \"Standard and necessary.\",\n    \"Monitor_ICP\": \"Reasonable given the neurological status and elevated opening pressure.\"\n  },\n  \"Missing_Next_Steps\": [\n    \"Detailed travel dietary history review for specific risk factors like raw snails or slugs (A. cantonensis vector).\",\n    \"Stool examination for ova and parasites.\",\n    \"MRI imaging specifically looking for nerve root enhancement.\"\n  ],\n  \"Influence_of_Clinician_Input\": {\n    \"Summary\": \"The clinician's differential provided a frame that favored inflammatory/autoimmune conditions (EGPA, GBS). I adopted the parasitic angle more strongly due to the combination of tropical travel, peripheral eosinophilia, and CSF eosinophilic pleocytosis, which are classic for A. cantonensis. I did not uncritically adopt the clinician's list, specifically moving away from autoimmune possibilities that lack strong evidence in the CSF profile.\"\n  },\n  \"Open_Questions\": [\n    \"Did the patient eat raw snails or slugs, or produce that might have been contaminated with snail slime?\",\n    \"Does the MRI show nerve root enhancement, which would be highly suggestive of A. cantonensis?\",\n    \"Are there any specific radiographic signs of migratory larvae (in case of gnathostomiasis)?\"\n  ]\n}",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Angiostrongylus cantonensis meningitis (Angiostrongyliasis)",
+      "Gnathostomiasis",
+      "Neurocysticercosis",
+      "Tuberculous meningitis",
+      "Coccidioidomycosis",
+      "Leptospirosis",
+      "Primary central nervous system lymphoma"
+    ],
+    "next_steps": [
+      "Perform serum and CSF testing for Angiostrongylus cantonensis antibody (e.g., ELISA or PCR)",
+      "Perform serum and CSF testing for Gnathostoma spinigerum",
+      "Send CSF for Coccidioides complement fixation and immunodiffusion",
+      "Obtain MRI of the brain and spine with and without gadolinium contrast",
+      "Continue dexamethasone to manage intracranial pressure and inflammation",
+      "Consult infectious disease and neurology specialists for urgent parasite serology guidance",
+      "Monitor intracranial pressure and assess for signs of hydrocephalus"
+    ]
+  },
+  "differential_diagnoses": [
+    "Angiostrongylus cantonensis meningitis",
+    "Gnathostomiasis",
+    "Neuroschistosomiasis",
+    "Paragonimiasis",
+    "Tuberculous meningitis",
+    "Neurocysticercosis"
+  ],
+  "next_steps": [
+    "Obtain MRI of the brain and entire spine with and without gadolinium contrast to look for radiculitis, arachnoiditis, or parenchymal lesions",
+    "Perform serum and CSF PCR/antibody testing for Angiostrongylus cantonensis",
+    "Send serum and CSF for Gnathostoma spinigerum serology",
+    "Consult infectious disease and neurology for specialized testing (e.g., Schistosoma and Paragonimus serologies)",
+    "Continue systemic corticosteroids for management of eosinophilic inflammation and intracranial pressure",
+    "Perform repeat lumbar puncture if neurologic status worsens to monitor pressure and CSF profile",
+    "Carefully document dietary history, specifically exposure to raw snails, slugs, or contaminated raw produce"
+  ]
+}

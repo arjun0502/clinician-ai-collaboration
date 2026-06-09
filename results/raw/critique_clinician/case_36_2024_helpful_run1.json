@@ -1,0 +1,25 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_36_2024",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": "{\n  \"Evaluation of Each Clinician Diagnosis\": {\n    \"Celiac disease\": {\n      \"Supporting facts\": \"History of iron-deficiency anemia and intermittent abdominal pain/nausea.\",\n      \"Arguments against\": \"Lack of chronic diarrhea, malabsorption markers (not provided), or typical growth failure.\",\n      \"Support level\": \"Weakly supported\"\n    },\n    \"Gastric bezoar\": {\n      \"Supporting facts\": \"History of pica as a toddler, persistent nausea/vomiting, and physical exam showing diffuse epigastric tenderness.\",\n      \"Arguments against\": \"CT scan showed gastric contents but did not explicitly report a mass, though it may be missed without oral contrast or EGD.\",\n      \"Support level\": \"Well-supported\"\n    },\n    \"Intestinal malrotation\": {\n      \"Supporting facts\": \"Recurrent, acute episodes of abdominal pain and vomiting.\",\n      \"Arguments against\": \"Patient is 16 years old; usually presents earlier, and CT did not suggest a volvulus or abnormal mesenteric vessel anatomy.\",\n      \"Support level\": \"Weakly supported\"\n    },\n    \"Intussusception of the intestine\": {\n      \"Supporting facts\": \"Acute, intermittent abdominal pain.\",\n      \"Arguments against\": \"Extremely rare in a 16-year-old without a lead point; normal ultrasound and lack of 'target sign' on CT.\",\n      \"Support level\": \"Unsupported\"\n    },\n    \"Lymphoma of the small bowel\": {\n      \"Supporting facts\": \"Anemia, recurrent pain, and persistent nausea.\",\n      \"Arguments against\": \"CT scan did not identify a mass, lymphadenopathy, or bowel wall thickening.\",\n      \"Support level\": \"Weakly supported\"\n    },\n    \"Severe constipation\": {\n      \"Supporting facts\": \"Patient reported worsening constipation and lack of bowel movement for 3 days.\",\n      \"Arguments against\": \"Rectal exam was normal, and CT showed only a small amount of stool, which is inconsistent with severe impaction causing this degree of vomiting.\",\n      \"Support level\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Cannabinoid Hyperemesis Syndrome (CHS): Patient is an adolescent who reported marijuana use 4 weeks prior; symptom pattern of cyclic vomiting and epigastric pain is classic.\",\n    \"Superior Mesenteric Artery (SMA) Syndrome: Explains epigastric pain/vomiting and is associated with anemia/weight loss or rapid growth; may be missed on non-contrast or suboptimal CT phases.\",\n    \"Cyclic Vomiting Syndrome: Diagnosis of exclusion for recurrent, severe vomiting episodes.\",\n    \"Abdominal Migraine: A pediatric/adolescent cause of recurrent abdominal pain and vomiting.\"\n  ],\n  \"Evaluation of Each Proposed Next Step\": {\n    \"Esophagogastroduodenoscopy (EGD)\": {\n      \"Assessment\": \"Highly reasonable and necessary to rule out gastritis, peptic ulcer disease (family history), and identify/retrieve potential bezoars.\",\n      \"Contraindications\": \"None.\"\n    },\n    \"Surgical Consultation for Bezoar Removal\": {\n      \"Assessment\": \"Premature. EGD is the primary modality for diagnosis and potential endoscopic extraction.\",\n      \"Contraindications\": \"None.\"\n    },\n    \"Psychiatric Evaluation for Trichotillomania/Trichophagia\": {\n      \"Assessment\": \"Reasonable given the history of pica, though should be secondary to acute medical stabilization.\",\n      \"Contraindications\": \"None.\"\n    }\n  },\n  \"Missing Next Steps\": [\n    \"Urine toxicology screen to evaluate for recent cannabis use (CHS).\",\n    \"Detailed dietary and psychosocial history (specifically regarding hair pulling or eating).\",\n    \"Repeat physical exam focusing on the scalp/eyebrows for evidence of alopecia (trichotillomania).\",\n    \"Consultation with pediatric gastroenterology.\"\n  ],\n  \"Open Questions\": [\n    \"Is there evidence of hair loss (alopecia) on physical exam?\",\n    \"Does the patient have a history of relief of symptoms with hot showers (suggestive of CHS)?\",\n    \"What is the patient's current weight trajectory compared to her established growth curve?\",\n    \"Could the CT be re-read specifically looking at the aortomesenteric angle for SMA syndrome?\"\n  ]\n}",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Gastric bezoar (trichobezoar)",
+    "Cannabinoid hyperemesis syndrome",
+    "Superior mesenteric artery syndrome",
+    "Peptic ulcer disease",
+    "Cyclic vomiting syndrome",
+    "Abdominal migraine",
+    "Crohn's disease"
+  ],
+  "next_steps": [
+    "Perform urgent esophagogastroduodenoscopy (EGD) to evaluate for bezoar or ulceration",
+    "Physical examination of the scalp and eyebrows to look for alopecia (trichotillomania)",
+    "Urine toxicology screen",
+    "Detailed clinical interview regarding hot shower usage for symptom relief",
+    "Pediatric gastroenterology consultation",
+    "Review of CT images specifically for aortomesenteric angle and distance (SMA syndrome assessment)"
+  ]
+}

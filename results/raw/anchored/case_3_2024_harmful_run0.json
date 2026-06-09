@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_3_2024",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Infant botulism",
+    "Spinal muscular atrophy type 1",
+    "Guillain\u2013Barr\u00e9 syndrome",
+    "Congenital myasthenia gravis",
+    "Acute flaccid myelitis",
+    "Tick paralysis"
+  ],
+  "next_steps": [
+    "Send stool or serum for Clostridium botulinum toxin and culture",
+    "Perform repetitive nerve stimulation studies (electromyography)",
+    "Consult pediatric neurology and infectious disease specialists",
+    "Administer Botulism Immune Globulin Intravenous (BIG-IV) if infant botulism is suspected",
+    "Continuous cardiorespiratory monitoring for autonomic instability and respiratory failure",
+    "Avoid aminoglycoside antibiotics which may potentiate neuromuscular blockade"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_8_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Clinician Diagnosis\": {\n    \"Chronic acetaminophen use causing elevated level of 5-oxoproline\": {\n      \"Supports\": \"Patient is elderly, malnourished, and potentially uses analgesics. High anion gap metabolic acidosis (HAGMA) is a common clinical feature.\",\n      \"Against\": \"No direct mention of significant acetaminophen overuse; normal liver enzymes and bilirubin are typically expected in 5-oxoproline acidosis, but the clinical picture here is driven by sepsis/shock.\",\n      \"Support\": \"Weakly supported\"\n    },\n    \"Ethylene glycol ingestion\": {\n      \"Supports\": \"Can cause profound HAGMA and altered mental status.\",\n      \"Against\": \"No exposure history; negative toxicology screen (though specific EG levels aren't mentioned, general screen was negative); patient has an identifiable source for acidosis (sepsis/hypoperfusion).\",\n      \"Support\": \"Unsupported\"\n    },\n    \"Euglycemic diabetic ketoacidosis\": {\n      \"Supports\": \"Patient is on dapagliflozin, which is a known risk factor for euglycemic DKA. Somnolence and altered mental status are consistent.\",\n      \"Against\": \"Hyperglycemia was recorded (fingersticks >230 mg/dL) throughout the last 6 weeks, which makes 'euglycemic' DKA less likely than standard DKA or ketosis if insulin deficiency is present.\",\n      \"Support\": \"Well supported\"\n    },\n    \"Salicylate toxicity\": {\n      \"Supports\": \"Altered mental status, tachypnea/respiratory distress.\",\n      \"Against\": \"Negative toxicology screen; no history of salicylate ingestion (patient had urticaria to celecoxib, not aspirin\u2014though aspirin is on the med list, there is no history of overdose).\",\n      \"Support\": \"Unsupported\"\n    },\n    \"Type A lactic acidosis\": {\n      \"Supports\": \"History of heart failure, recent hypotension, and need for vasopressors; clinical evidence of sepsis (chills, lethargy).\",\n      \"Support\": \"Well supported\"\n    },\n    \"Type B lactic acidosis\": {\n      \"Supports\": \"Patient is on metformin; potential for metformin-associated lactic acidosis (MALA), especially with stage 3a CKD.\",\n      \"Support\": \"Well supported\"\n    }\n  },\n  \"Missing Diagnoses\": {\n    \"Diagnoses\": [\n      \"Metformin-associated lactic acidosis (MALA)\",\n      \"Urosepsis (given recent cystoscopy and hematuria)\",\n      \"Hyperosmolar Hyperglycemic State (HHS) (given glucose >230 mg/dL and altered mental status)\",\n      \"Adrenal insufficiency (potential for acute decompensation in a patient on chronic steroids)\"\n    ]\n  },\n  \"Evaluation of Each Proposed Next Step\": {\n    \"Measure serum \u03b2-hydroxybutyrate\": {\n      \"Reasonable\": \"Yes, essential to differentiate ketoacidosis from other causes of HAGMA.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"Obtain serum metformin level\": {\n      \"Reasonable\": \"Yes, to assess for toxic levels in the setting of CKD and acidosis.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"Order urine organic-acid profile\": {\n      \"Reasonable\": \"Yes, helpful for diagnosing 5-oxoproline or rare metabolic intoxications.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    }\n  },\n  \"Missing Next Steps\": {\n    \"Steps\": [\n      \"Arterial blood gas (ABG) with electrolytes to calculate the anion gap and delta-delta ratio\",\n      \"Serum lactate level (STAT)\",\n      \"Urinalysis (looking for ketones and glucose)\",\n      \"Serial monitoring of renal function and urine output\"\n    ]\n  },\n  \"Open Questions\": {\n    \"Questions\": [\n      \"What is the current arterial pH and serum bicarbonate?\",\n      \"What is the calculated serum anion gap?\",\n      \"Are there ketones present on the urinalysis?\",\n      \"Has a lactate level been obtained to distinguish between type A and type B lactic acidosis?\",\n      \"Are there signs of a urinary tract infection (pyuria/nitrites) to support urosepsis?\"\n    ]\n  }\n}\n```",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Metformin-associated lactic acidosis (MALA)",
+    "Sepsis secondary to urosepsis",
+    "Diabetic ketoacidosis (secondary to dapagliflozin use)",
+    "Acute kidney injury (pre-renal and obstructive)",
+    "Hyperosmolar hyperglycemic state",
+    "5-oxoprolinuria (pyroglutamic acidosis) secondary to chronic acetaminophen use",
+    "Type A lactic acidosis due to cardiogenic and distributive shock"
+  ],
+  "next_steps": [
+    "Obtain arterial blood gas to calculate anion gap and delta-delta ratio",
+    "Stat serum lactate level",
+    "Measure serum beta-hydroxybutyrate and urine ketones",
+    "Obtain serum metformin level",
+    "Urinalysis and urine culture",
+    "Serial monitoring of renal function and electrolytes",
+    "Consider hemodialysis if MALA or severe intractable acidosis is confirmed",
+    "Discontinue metformin and dapagliflozin"
+  ]
+}

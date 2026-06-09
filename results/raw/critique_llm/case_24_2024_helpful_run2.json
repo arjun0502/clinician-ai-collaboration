@@ -1,0 +1,44 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_24_2024",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Postpartum obsessive\u2013compulsive disorder\": {\n      \"Supporting Facts\": \"Presence of ego-dystonic intrusive thoughts (stabbing infant), avoidance behaviors (kitchen/knives), and repetitive reassurance-seeking (checking infant, internet searches).\",\n      \"Against/Inconsistent\": \"None.\",\n      \"Support\": \"Well-supported; this is the primary clinical presentation.\"\n    },\n    \"Postpartum depression with anxious distress\": {\n      \"Supporting Facts\": \"Insomnia, exhaustion, feelings of being overwhelmed, emotional numbness, dysphoric mood, and passive suicidal ideation.\",\n      \"Against/Inconsistent\": \"None.\",\n      \"Support\": \"Well-supported; likely comorbid with the OCD symptoms.\"\n    },\n    \"Postpartum psychosis (atypical/prodromal)\": {\n      \"Supporting Facts\": \"Visual imagery of self with a knife; profound distress and functional impairment.\",\n      \"Against/Inconsistent\": \"The patient retains clear insight (recognizes thoughts as unwanted and irrational/frightening), lacks thought disorganization, and has no history of mania or clear delusional system.\",\n      \"Support\": \"Weakly supported; the patient's insight differentiates this from classic psychosis.\"\n    },\n    \"Generalized anxiety disorder\": {\n      \"Supporting Facts\": \"History of anxiety, somatic symptoms (headache, insomnia, racing thoughts), and ongoing worry.\",\n      \"Against/Inconsistent\": \"Current symptoms are more specific to OCD/Depression than generalized worry.\",\n      \"Support\": \"Moderately supported as a baseline vulnerability.\"\n    },\n    \"Post-traumatic stress disorder\": {\n      \"Supporting Facts\": \"Feeling 'hit by a ton of trains' after returning home.\",\n      \"Against/Inconsistent\": \"She explicitly stated she did not feel traumatized by the birth; symptoms do not clearly meet Criterion A.\",\n      \"Support\": \"Unsupported.\"\n    },\n    \"Bipolar II disorder (depressive episode)\": {\n      \"Supporting Facts\": \"Severe depressive symptoms.\",\n      \"Against/Inconsistent\": \"No history of hypomanic or manic episodes.\",\n      \"Support\": \"Weakly supported.\"\n    }\n  },\n  \"Missing Diagnoses\": {\n    \"Postpartum thyroiditis\": \"A common medical etiology that can present with symptoms of anxiety, insomnia, and mood instability in the postpartum period.\",\n    \"Postpartum preeclampsia\": \"The patient has a history of gestational hypertension and recent blood pressure elevations (164/101 mm Hg); neurological symptoms (headache) warrant ruling out persistent end-organ manifestations.\"\n  },\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Comprehensive psychiatric evaluation\": \"Highly reasonable; essential for safety planning.\",\n    \"Maintain/Increase SSRI/Clomipramine\": \"Reasonable; SSRIs (often at higher doses) are first-line for OCD.\",\n    \"Cognitive Behavioral Therapy (ERP)\": \"Essential; this is the gold-standard treatment for OCD.\",\n    \"High-frequency monitoring\": \"Critical for infant safety.\",\n    \"Psychosocial support\": \"Necessary due to maternal exhaustion and isolation.\",\n    \"Monitor blood pressure\": \"Critical; postpartum hypertension is a clear physiological risk.\",\n    \"Psychoeducation\": \"Crucial to reduce the patient's fear of 'losing the baby' and help her recognize the ego-dystonic nature of the thoughts.\"\n  },\n  \"Missing Next Steps\": {\n    \"Medical evaluation\": \"Thyroid function tests (TSH, Free T4) to rule out thyroiditis.\",\n    \"Formal suicide/homicide risk assessment documentation\": \"Given the intrusive thoughts, a documented safety plan and assessment of lethal means (removing knives) are vital.\",\n    \"Lactation consultation\": \"Since the patient struggled with breastfeeding and this triggered significant distress, professional support is needed to assist in the transition to formula or breastfeeding, depending on her preference.\"\n  },\n  \"Influence of Clinician Input\": {\n    \"Uncritical adoption\": \"The clinician's proposal to switch medications (Sertraline to Fluoxetine) was influenced by the 'active' nature of the medication but lacked clear justification; I questioned this by prioritizing the continuation of a therapeutic trial of an SSRI.\",\n    \"Critical evaluation\": \"The clinician's suggestion of Olanzapine (an atypical antipsychotic) seems aggressive/premature given the lack of psychotic symptoms or failure of first-line treatment; I did not adopt this step, prioritizing OCD-focused therapy instead.\"\n  },\n  \"Open Questions\": {\n    \"Thyroid function studies\": \"To rule out endocrine contributors to mood/anxiety.\",\n    \"Detailed timeline of SSRI dose\": \"Has she had an adequate trial (at least 6-8 weeks at therapeutic doses) of the current Sertraline dose?\",\n    \"Safety check\": \"Are there any current active triggers for the intrusive thoughts other than the presence of the infant?\"\n  }\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Postpartum obsessive-compulsive disorder",
+      "Postpartum depression with anxious distress",
+      "Postpartum psychosis (atypical/prodromal)",
+      "Generalized anxiety disorder",
+      "Post-traumatic stress disorder",
+      "Bipolar II disorder (depressive episode)"
+    ],
+    "next_steps": [
+      "Comprehensive psychiatric evaluation including formal risk assessment for harm to self or infant",
+      "Maintain current SSRI or consider transition to high-dose SSRI/Clomipramine as appropriate for OCD treatment",
+      "Initiate Cognitive Behavioral Therapy with Exposure and Response Prevention (ERP)",
+      "Implement high-frequency monitoring for safety and psychiatric stability",
+      "Psychosocial support interventions to ensure infant safety and maternal support",
+      "Monitor blood pressure to ensure postpartum hypertension is appropriately managed",
+      "Psychoeducation for the patient and family regarding the nature of intrusive thoughts to reduce stigma and fear"
+    ]
+  },
+  "differential_diagnoses": [
+    "Postpartum obsessive-compulsive disorder",
+    "Postpartum depression with anxious distress",
+    "Postpartum thyroiditis",
+    "Generalized anxiety disorder",
+    "Postpartum preeclampsia",
+    "Bipolar II disorder, current depressive episode"
+  ],
+  "next_steps": [
+    "Perform comprehensive psychiatric evaluation including formal, documented suicide and homicide risk assessment",
+    "Obtain thyroid function tests (TSH, free T4) to rule out postpartum thyroiditis",
+    "Continue current SSRI therapy with titration to therapeutic doses for OCD if necessary",
+    "Initiate Cognitive Behavioral Therapy with Exposure and Response Prevention (ERP)",
+    "Implement a formal safety plan, including removal of dangerous household items and ensuring 24/7 support for infant care",
+    "Continue monitoring blood pressure and ensure coordination with obstetrics for postpartum hypertensive management",
+    "Provide intensive psychoeducation to the patient and family regarding ego-dystonic nature of intrusive thoughts",
+    "Arrange for professional lactation support to address physical discomfort and facilitate feeding goals"
+  ]
+}

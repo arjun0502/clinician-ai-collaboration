@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_11_2025",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Primary pulmonary lymphoma (e.g., MALT lymphoma)",
+    "Metastatic adenocarcinoma",
+    "Tuberculous pleurisy",
+    "Chronic empyema / Parapneumonic effusion",
+    "Systemic lupus erythematosus serositis",
+    "IgG4-related disease"
+  ],
+  "next_steps": [
+    "Perform flow cytometry and immunohistochemistry on the pleural fluid (unclassified cells)",
+    "Perform contrast-enhanced CT of the chest, abdomen, and pelvis",
+    "Perform bronchoscopy with bronchoalveolar lavage and transbronchial biopsy",
+    "Perform pleural biopsy (if thoracentesis/bronchoscopy non-diagnostic)",
+    "Send pleural fluid for acid-fast bacilli smear, culture, and Xpert MTB/RIF",
+    "Send pleural fluid for cytology"
+  ]
+}

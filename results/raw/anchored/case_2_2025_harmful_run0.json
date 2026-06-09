@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_2_2025",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Posterior Reversible Encephalopathy Syndrome (PRES)",
+    "Sickle cell\u2013related cerebral vasculopathy",
+    "Acute hypertensive emergency",
+    "Cerebral fat embolism syndrome",
+    "Infectious encephalitis or meningoencephalitis",
+    "Metabolic encephalopathy",
+    "Post-traumatic seizure disorder"
+  ],
+  "next_steps": [
+    "Monitor blood pressure and titrate antihypertensive therapy to target, avoiding rapid drops",
+    "Perform lumbar puncture to rule out infectious etiologies and evaluate opening pressure",
+    "Review and adjust chronic immunosuppressive or medication regimen as potential triggers",
+    "Obtain continuous electroencephalogram (EEG) to monitor for subclinical seizure activity",
+    "Maintain adequate hydration and oxygenation to prevent further sickle cell vaso-occlusion",
+    "Optimize seizure management with appropriate antiepileptic therapy"
+  ]
+}

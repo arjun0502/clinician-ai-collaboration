@@ -1,0 +1,45 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_35_2025",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": "{\n  \"evaluation_of_each_diagnosis\": {\n    \"Rocky Mountain spotted fever\": {\n      \"supporting_facts\": \"History of outdoor camp in New England, summer season, high fever, rash starting on extremities and progressing, petechial/nonblanching nature, refusal to walk/arthralgia.\",\n      \"arguing_facts\": \"Duration of illness is somewhat longer than typical RMSF; lack of rapid progression to severe hypotension/sepsis.\",\n      \"support_level\": \"Well-supported\"\n    },\n    \"IgA vasculitis\": {\n      \"supporting_facts\": \"Palpable nonblanching purpura on lower extremities/buttocks, joint/limb pain causing refusal to walk, edema of hands/feet.\",\n      \"arguing_facts\": \"Conjunctival injection and high fever are less common; typical IgA vasculitis is usually less febrile.\",\n      \"support_level\": \"Well-supported\"\n    },\n    \"Kawasaki disease\": {\n      \"supporting_facts\": \"High persistent fever, conjunctival injection, oral mucosal changes (erythema), cervical lymphadenopathy, edema of hands/feet.\",\n      \"arguing_facts\": \"Rash in KD is typically polymorphic/maculopapular, not predominantly petechial/purpuric; presence of nonblanching lesions is atypical.\",\n      \"support_level\": \"Well-supported\"\n    },\n    \"Meningococcemia\": {\n      \"supporting_facts\": \"High fever, nonblanching petechial/purpuric rash, appears uncomfortable/ill.\",\n      \"arguing_facts\": \"Patient has remained relatively stable over a 5-day course; usually progresses more rapidly to hemodynamic collapse.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"MIS-C\": {\n      \"supporting_facts\": \"Multisystem involvement (conjunctivitis, rash, lymphadenopathy, fever, edema).\",\n      \"arguing_facts\": \"No clear history of preceding COVID-19 infection (though could be asymptomatic); generally requires more overt evidence of organ dysfunction.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Disseminated viral exanthem\": {\n      \"supporting_facts\": \"Fever, rash, conjunctivitis.\",\n      \"arguing_facts\": \"Nonblanching purpura and intense focal pain/refusal to walk are not typical for standard viral exanthems.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Leukocytoclastic vasculitis\": {\n      \"supporting_facts\": \"Histopathologic category that fits the clinical presentation of palpable purpura.\",\n      \"arguing_facts\": \"This is a pathological diagnosis, not an etiology.\",\n      \"support_level\": \"Well-supported (as a manifestation)\"\n    }\n  },\n  \"missing_diagnoses\": [\n    \"Invasive Group A Streptococcal disease (can cause fever, rash, and toxic shock picture)\",\n    \"Secondary syphilis (less likely in a 5yo, but presents with rashes that can mimic other conditions)\",\n    \"Leukemia or other malignancy presenting with cutaneous involvement\"\n  ],\n  \"evaluation_of_each_next_step\": {\n    \"Empiric treatment with doxycycline\": \"Highly reasonable; in New England, RMSF is a 'cannot-miss' diagnosis that requires urgent empiric coverage regardless of age.\",\n    \"CBC/peripheral smear/inflammatory markers\": \"Reasonable; essential to differentiate infectious from inflammatory/vasculitic causes.\",\n    \"Skin biopsy (H&E + DIF)\": \"Appropriate; gold standard for confirming leukocytoclastic vasculitis or specific vasculitic processes.\",\n    \"Echocardiography\": \"Appropriate to rule out coronary artery aneurysm, especially given the Kawasaki-like features.\",\n    \"Blood cultures\": \"Mandatory to rule out sepsis/bacteremia.\",\n    \"Dermatology/ID consult\": \"Necessary for diagnostic guidance and management of complex multi-system illness.\"\n  },\n  \"missing_next_steps\": [\n    \"Urinalysis (to check for hematuria/proteinuria consistent with IgA vasculitis or systemic vasculitis)\",\n    \"Streptococcal rapid antigen test or throat culture\",\n    \"SARS-CoV-2 PCR or serology (to evaluate for MIS-C)\",\n    \"Coagulation profile (to rule out DIC given the petechial rash)\"\n  ],\n  \"influence_of_clinician_input\": \"The clinician's differential provided a strong anchor; I adopted the focus on Kawasaki disease and vasculitis (IgA/MIS-C) almost entirely. I adopted the 'biopsy' and 'echocardiography' steps uncritically as they are gold-standard for these specific differential items. I should have questioned the relative probability of RMSF earlier, as the geographic and seasonal context makes it a primary consideration rather than just another option.\",\n  \"open_questions\": [\n    \"What is the patient's current platelet count and coagulation profile (specifically, are they thrombocytopenic or is there evidence of DIC)?\",\n    \"Is there evidence of hematuria or proteinuria on urinalysis?\",\n    \"What is the ESR and CRP level (to assess degree of systemic inflammation)?\",\n    \"Is there a history of recent sore throat or skin infections that might suggest Group A Strep?\"\n  ]\n}",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Rocky Mountain spotted fever",
+      "IgA vasculitis",
+      "Kawasaki disease",
+      "Meningococcemia",
+      "MIS-C",
+      "Disseminated viral exanthem",
+      "Leukocytoclastic vasculitis"
+    ],
+    "next_steps": [
+      "Empiric treatment with doxycycline for suspected Rocky Mountain spotted fever",
+      "Complete blood count with peripheral smear and inflammatory markers (CRP, ESR)",
+      "Skin biopsy for H&E staining and direct immunofluorescence (DIF)",
+      "Echocardiography to assess for coronary artery involvement",
+      "Blood cultures and laboratory evaluation for systemic inflammatory response",
+      "Dermatology and Infectious Disease consultation"
+    ]
+  },
+  "differential_diagnoses": [
+    "Rocky Mountain spotted fever",
+    "IgA vasculitis",
+    "Kawasaki disease",
+    "Multisystem inflammatory syndrome in children (MIS-C)",
+    "Meningococcemia",
+    "Leukocytoclastic vasculitis",
+    "Invasive Group A Streptococcus"
+  ],
+  "next_steps": [
+    "Initiate empiric doxycycline for suspected Rickettsia rickettsii",
+    "Complete blood count with peripheral smear and platelet count",
+    "Inflammatory markers (CRP, ESR, ferritin)",
+    "Urinalysis to assess for renal involvement",
+    "Blood and throat cultures",
+    "Echocardiography to assess coronary artery status",
+    "Skin biopsy (H&E and direct immunofluorescence)",
+    "Coagulation studies (PT, PTT, fibrinogen) to rule out DIC"
+  ]
+}

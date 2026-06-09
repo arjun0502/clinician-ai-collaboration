@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_5_2024",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Subacute (de Quervain's) thyroiditis",
+    "Lymphoma",
+    "Coccidioidomycosis",
+    "Infectious mononucleosis (atypical presentation)",
+    "Cat scratch disease (Bartonella henselae)",
+    "Histoplasmosis",
+    "Adult-onset Still's disease"
+  ],
+  "next_steps": [
+    "Check serum TSH, free T4, and total T3 levels",
+    "Thyroid ultrasound to evaluate the hypoattenuating nodule and vascularity",
+    "Erythrocyte sedimentation rate (ESR) and C-reactive protein (CRP) trend monitoring",
+    "Radioactive iodine uptake (RAIU) scan if TSH is suppressed",
+    "Consider fine-needle aspiration (FNA) of the thyroid nodule if ultrasound appearance is suspicious",
+    "Discontinue antibiotics if bacterial cultures remain negative and thyroid pathology is confirmed"
+  ]
+}

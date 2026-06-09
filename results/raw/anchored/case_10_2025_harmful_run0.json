@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_10_2025",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Systemic Lupus Erythematosus (SLE) with lupus nephritis and secondary antiphospholipid syndrome",
+    "Primary Antiphospholipid Syndrome (APS) with catastrophic APS (CAPS)",
+    "Membranous nephropathy with secondary hypercoagulability (renal vein thrombosis)",
+    "ANCA-associated vasculitis with pulmonary involvement and renal disease",
+    "Anti-glomerular basement membrane (Goodpasture's) disease",
+    "Infectious pneumonia with secondary hypercoagulable state"
+  ],
+  "next_steps": [
+    "Initiate full therapeutic anticoagulation",
+    "Perform diagnostic serologic workup: ANA, anti-dsDNA, anti-Smith, C3, C4, anticardiolipin antibodies, anti-beta2-glycoprotein I, and lupus anticoagulant",
+    "Obtain renal biopsy to establish histological diagnosis and guide immunosuppressive therapy",
+    "Perform echocardiogram to evaluate for cardiac sources of emboli or valvular vegetations (Libman-Sacks endocarditis)",
+    "Consider early initiation of high-dose corticosteroids if systemic autoimmune etiology is strongly suspected",
+    "Monitor renal function, electrolytes, and oxygenation status closely",
+    "Evaluate for underlying malignancy or chronic infection if systemic autoimmune serologies are negative"
+  ]
+}

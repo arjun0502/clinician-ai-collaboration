@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_13_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Listeria monocytogenes meningoencephalitis",
+    "Cryptococcal meningitis in the setting of undiagnosed Cushing's syndrome",
+    "Tuberculous meningitis",
+    "Adrenocortical carcinoma with ectopic ACTH secretion or primary cortisol excess",
+    "Paraneoplastic encephalitis",
+    "Primary central nervous system lymphoma",
+    "Non-bacterial thrombotic endocarditis with septic emboli"
+  ],
+  "next_steps": [
+    "Empiric antimicrobial therapy for Listeria (ampicillin and gentamicin) and acyclovir",
+    "Urgent Cryptococcal antigen testing and fungal culture of CSF",
+    "CSF cytology and flow cytometry for malignancy",
+    "CSF PCR for tuberculosis and other viral pathogens",
+    "24-hour urine collection for free cortisol and serum ACTH measurement",
+    "Repeat neuroimaging (MRI) if compatible with vagus nerve stimulator settings or specialized protocols"
+  ]
+}

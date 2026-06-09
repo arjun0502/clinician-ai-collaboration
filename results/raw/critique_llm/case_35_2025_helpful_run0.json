@@ -1,0 +1,46 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_35_2025",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Henoch-Sch\u00f6nlein purpura (IgA vasculitis)\": {\n      \"Supports\": \"Palpable purpura on lower extremities/buttocks, refusal to walk (arthralgia/arthritis).\",\n      \"Against\": \"High fevers (40.2\u00b0C), conjunctival injection, absence of abdominal pain or hematuria reported so far.\",\n      \"SupportLevel\": \"Well-supported\"\n    },\n    \"Kawasaki disease\": {\n      \"Supports\": \"High fever, conjunctival injection, cervical lymphadenopathy, swelling of hands/feet, oral mucosal changes (palatal macules).\",\n      \"Against\": \"Purpuric rash is atypical (usually polymorphous/maculopapular), though can occur in severe cases.\",\n      \"SupportLevel\": \"Well-supported\"\n    },\n    \"Rocky Mountain spotted fever\": {\n      \"Supports\": \"High fever, tick-endemic region (New England summer camp), rash spreading from distal extremities inward.\",\n      \"Against\": \"Nonblanching purpuric nature of lesions at this stage, duration of illness (longer than typical progression).\",\n      \"SupportLevel\": \"Weakly supported\"\n    },\n    \"Meningococcemia\": {\n      \"Supports\": \"High fever, nonblanching purpuric rash, acutely ill child.\",\n      \"Against\": \"Patient has been symptomatic for 3-5 days; usually, meningococcemia progresses much more rapidly to shock.\",\n      \"SupportLevel\": \"Well-supported (must rule out)\"\n    },\n    \"Multisystem Inflammatory Syndrome in Children (MIS-C)\": {\n      \"Supports\": \"Fever, conjunctival injection, rash, extremity involvement, systemic inflammation.\",\n      \"Against\": \"No history of known prior SARS-CoV-2 infection or exposure explicitly stated.\",\n      \"SupportLevel\": \"Well-supported\"\n    },\n    \"Disseminated viral infection\": {\n      \"Supports\": \"Fever, rash, conjunctivitis, cervical adenopathy.\",\n      \"Against\": \"Severity of systemic symptoms (high fever, purpura) is less typical for common enteroviruses.\",\n      \"SupportLevel\": \"Weakly supported\"\n    },\n    \"Sweet syndrome\": {\n      \"Supports\": \"Fever, painful erythematous/purpuric nodules.\",\n      \"Against\": \"Age (rare in children), lack of neutrophilic findings (preliminary blood counts were normal).\",\n      \"SupportLevel\": \"Unsupported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Parvovirus B19 (can present with 'gloves and socks' syndrome or purpuric rash)\",\n    \"Secondary syphilis (less likely, but possible)\",\n    \"Leukocytoclastic vasculitis (secondary to occult infection or drug reaction)\"\n  ],\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Complete blood count, ESR, CRP\": \"Highly reasonable to assess systemic inflammation.\",\n    \"Urinalysis\": \"Reasonable; essential for HSP/vasculitis screening.\",\n    \"Echocardiogram\": \"Highly reasonable; indicated due to suspected Kawasaki/MIS-C.\",\n    \"Dermatology consultation and skin biopsy\": \"Reasonable; gold standard for distinguishing vasculitis from septic/infectious etiologies.\",\n    \"Blood cultures and empiric antibiotics\": \"Standard of care for a febrile child with nonblanching rash to rule out sepsis.\",\n    \"Serum albumin and transaminases\": \"Reasonable; part of the scoring criteria for Kawasaki disease.\"\n  },\n  \"Missing Next Steps\": [\n    \"SARS-CoV-2 serology or PCR\",\n    \"Viral respiratory/GI panel (to rule out common viral mimics)\",\n    \"ASO/Anti-DNase B titers (to rule out post-streptococcal vasculitis)\",\n    \"Peripheral blood smear (to rule out hematologic malignancy)\"\n  ],\n  \"Influence of Clinician Input\": {\n    \"Assessment\": \"The clinician\u2019s differential heavily influenced my inclusion of Kawasaki and MIS-C. I adopted these uncritically because they represent the most dangerous/time-sensitive 'must-not-miss' diagnoses in this presentation. I should have perhaps questioned the 'poison ivy' diagnosis from the initial emergency visit more critically, as it likely delayed recognition of a systemic process.\"\n  },\n  \"Open Questions\": [\n    \"What are the results of the white blood cell count and platelet count (looking for thrombocytopenia vs. leukocytosis)?\",\n    \"Is there evidence of hematuria or proteinuria on urinalysis?\",\n    \"What is the patient's C-reactive protein (CRP) level?\",\n    \"Are there any cardiac findings on initial physical exam?\"\n  ]\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Henoch-Sch\u00f6nlein purpura (IgA vasculitis)",
+      "Kawasaki disease",
+      "Rocky Mountain spotted fever",
+      "Meningococcemia",
+      "Multisystem Inflammatory Syndrome in Children (MIS-C)",
+      "Disseminated viral infection (e.g., enterovirus or adenovirus)",
+      "Sweet syndrome"
+    ],
+    "next_steps": [
+      "Complete blood count with differential, inflammatory markers (ESR, CRP)",
+      "Urinalysis to screen for hematuria or proteinuria",
+      "Echocardiogram to assess coronary arteries",
+      "Dermatology consultation and skin biopsy for histopathology and direct immunofluorescence",
+      "Blood cultures and empiric antibiotic coverage for suspected sepsis/meningococcemia until ruled out",
+      "Measurement of serum albumin and transaminases"
+    ]
+  },
+  "differential_diagnoses": [
+    "Kawasaki disease",
+    "Multisystem Inflammatory Syndrome in Children (MIS-C)",
+    "IgA vasculitis (Henoch-Sch\u00f6nlein purpura)",
+    "Meningococcemia",
+    "Rocky Mountain spotted fever",
+    "Parvovirus B19 infection (papular-purpuric gloves and socks syndrome)",
+    "Post-streptococcal vasculitis"
+  ],
+  "next_steps": [
+    "Complete blood count with differential and peripheral blood smear",
+    "Inflammatory markers (ESR, CRP, procalcitonin)",
+    "Urinalysis to check for hematuria and proteinuria",
+    "Echocardiogram to assess for coronary artery aneurysms",
+    "Blood and skin lesion cultures to rule out sepsis",
+    "Comprehensive metabolic panel including albumin, transaminases, and renal function",
+    "Dermatology consultation for punch biopsy (H&E and direct immunofluorescence)",
+    "Empiric broad-spectrum antibiotic therapy for suspected sepsis until cultures are negative",
+    "Cardiac monitoring"
+  ]
+}

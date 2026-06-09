@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_31_2025",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Enteropathy-associated T-cell lymphoma (EATL)",
+    "Common variable immunodeficiency (CVID) associated enteropathy",
+    "Crohn's disease with jejunal involvement",
+    "Small bowel adenocarcinoma",
+    "Primary intestinal T-cell lymphoma (monomorphic epitheliotropic intestinal T-cell lymphoma)",
+    "Infectious enteritis (e.g., giardiasis, bacterial overgrowth) secondary to CVID"
+  ],
+  "next_steps": [
+    "Surgical exploration with resection of the involved jejunal segments for definitive histopathological diagnosis",
+    "Repeat immunophenotyping of peripheral blood lymphocytes and possibly bone marrow biopsy to assess for T-cell lymphoma",
+    "Repeat cross-sectional imaging or endoscopic evaluation of the small bowel to characterize the mural hypoenhancement",
+    "Transfusion of packed red blood cells to stabilize symptomatic anemia",
+    "Infectious disease consultation to exclude rare, chronic opportunistic infections given the history of hypogammaglobulinemia",
+    "Re-evaluation of intravenous immune globulin (IVIG) therapy optimization"
+  ]
+}

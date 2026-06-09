@@ -1,0 +1,42 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_40_2024",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": "{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Cerebral venous sinus thrombosis\": {\n      \"Supports\": \"Cirrhosis is a prothrombotic state; persistent headache, potential visual symptoms.\",\n      \"Against\": \"Previous CT head was normal; symptoms are localized/throbbing rather than classic global pressure symptoms.\",\n      \"Verdict\": \"Weakly supported\"\n    },\n    \"Spontaneous intracranial hypotension\": {\n      \"Supports\": \"Recent history of hip surgery/anesthesia; neck pain and headache that may worsen with upright posture.\",\n      \"Against\": \"Patient is chronically ill/distended abdomen; usually associated with dural tear.\",\n      \"Verdict\": \"Weakly supported\"\n    },\n    \"Meningitis (cryptococcal or other)\": {\n      \"Supports\": \"Immunocompromised state (cirrhosis, recent opioids/steroids); worsening headache; photophobia.\",\n      \"Against\": \"Lack of fever, nuchal rigidity, or significant meningeal signs (though classic signs are often absent in immunocompromised).\",\n      \"Verdict\": \"Well-supported\"\n    },\n    \"Migraine with aura\": {\n      \"Supports\": \"History of migraines; throbbing quality; relief with triptan.\",\n      \"Against\": \"Severity (9/10), new photophobia/visual changes in context of severe systemic illness, and worsening despite treatment.\",\n      \"Verdict\": \"Weakly supported\"\n    },\n    \"Giant cell arteritis\": {\n      \"Supports\": \"New-onset frontal headache in a 56-year-old.\",\n      \"Against\": \"Age (56 is slightly young for classic GCA); no mention of jaw claudication or ESR/CRP elevation.\",\n      \"Verdict\": \"Weakly supported\"\n    },\n    \"Subdural hematoma\": {\n      \"Supports\": \"Risk of coagulopathy in cirrhosis.\",\n      \"Against\": \"Previous CT head was normal, though subacute/chronic lesions can be isodense.\",\n      \"Verdict\": \"Weakly supported\"\n    },\n    \"Posterior reversible encephalopathy syndrome (PRES)\": {\n      \"Supports\": \"Cirrhosis, fluctuating blood pressure, potential for renal impairment.\",\n      \"Against\": \"Normal prior CT head; no seizures reported.\",\n      \"Verdict\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Hepatic encephalopathy (cerebral edema)\",\n    \"Intracranial space-occupying lesion (metastatic/primary)\",\n    \"Metabolic derangement (e.g., severe hyponatremia/hypomagnesemia secondary to diuretic use)\",\n    \"Spontaneous intracranial hemorrhage (acute)\"\n  ],\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Lumbar puncture\": \"Reasonable; essential to rule out infection and measure opening pressure. Potentially harmful if intracranial mass/lesion is present.\",\n    \"MRI/MRV\": \"Highly reasonable; superior to CT for soft tissue and venous sinus imaging.\",\n    \"Coagulopathy evaluation\": \"Reasonable; high priority in cirrhosis patients prior to LP.\",\n    \"Neurology/Ophthalmology consult\": \"Reasonable; essential for fundoscopic examination to evaluate for papilledema.\",\n    \"Medication review\": \"Reasonable; essential to identify potential triggers.\"\n  },\n  \"Missing Next Steps\": [\n    \"Ophthalmoscopy (fundoscopy) for papilledema\",\n    \"Coagulation profile (INR/PTT, Fibrinogen, Platelet count)\",\n    \"Serum electrolytes (sodium, magnesium) to rule out metabolic headache triggers\"\n  ],\n  \"Influence of Clinician Input\": \"The clinician's differential provided a strong anchor; I adopted 'Cryptococcal meningoencephalitis' and 'Cerebral venous thrombosis' directly from their list. I should have questioned the 'Migraine' diagnosis more critically, given the patient's acute physiological deterioration, and focused more on acute intracranial hypertension.\",\n  \"Open Questions\": [\n    \"What is the patient's current INR, platelet count, and fibrinogen?\",\n    \"Does the headache have a positional component (better or worse lying flat)?\",\n    \"Are there any focal neurologic deficits (other than visual blurring)?\"\n  ]\n}",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Cerebral venous sinus thrombosis",
+      "Spontaneous intracranial hypotension",
+      "Meningitis (cryptococcal or other)",
+      "Migraine with aura",
+      "Giant cell arteritis",
+      "Subdural hematoma",
+      "Posterior reversible encephalopathy syndrome"
+    ],
+    "next_steps": [
+      "Perform lumbar puncture with measurement of opening pressure and cerebrospinal fluid analysis (cell count, protein, glucose, culture, cryptococcal antigen, cytology)",
+      "Obtain MRI of the brain with magnetic resonance venography (MRV)",
+      "Evaluate for coagulopathy and potential hypercoagulable state due to cirrhosis",
+      "Consult neurology and ophthalmology for assessment of papilledema and cranial nerve involvement",
+      "Review all current medications for potential drug-induced headache or secondary intracranial hypertension"
+    ]
+  },
+  "differential_diagnoses": [
+    "Cryptococcal meningoencephalitis",
+    "Cerebral venous sinus thrombosis",
+    "Increased intracranial pressure secondary to hepatic encephalopathy (cerebral edema)",
+    "Subdural hematoma",
+    "Posterior reversible encephalopathy syndrome",
+    "Giant-cell arteritis",
+    "Spontaneous intracranial hypotension"
+  ],
+  "next_steps": [
+    "Perform immediate fundoscopy to assess for papilledema",
+    "Obtain MRI brain with MRV to evaluate for venous thrombosis and structural abnormalities",
+    "Evaluate coagulation profile (INR, platelets, fibrinogen) to assess for safe performance of lumbar puncture",
+    "Perform lumbar puncture with measurement of opening pressure and CSF analysis (cryptococcal antigen, cytology, protein, glucose, cell count, culture)",
+    "Consult neurology and ophthalmology for emergent assessment",
+    "Review metabolic panel (especially electrolytes and magnesium) and medications for potential iatrogenic triggers"
+  ]
+}

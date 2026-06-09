@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_33_2024",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Primary CNS lymphoma",
+    "Tumefactive demyelinating lesion (e.g., MS or ADEM)",
+    "Parenchymal neurosarcoidosis",
+    "Glioma (e.g., astrocytoma)",
+    "Subacute ischemic infarction",
+    "Infectious etiology (e.g., fungal or parasitic granuloma)",
+    "Metastatic malignancy"
+  ],
+  "next_steps": [
+    "Perform lumbar puncture for CSF analysis (cell count, protein, glucose, cytology, flow cytometry, oligoclonal bands, EBV PCR)",
+    "Obtain permanent histological staining and immunohistochemistry (e.g., CD20, CD3, GFAP, KI-67, EBER) of biopsy tissue",
+    "Review biopsy tissue for specific viral or fungal markers if lymphoma markers are negative",
+    "Continue high-dose corticosteroids to reduce mass effect and reassess neurological status",
+    "Perform systemic evaluation if lymphoma diagnosis is confirmed (e.g., PET-CT, slit-lamp exam)"
+  ]
+}

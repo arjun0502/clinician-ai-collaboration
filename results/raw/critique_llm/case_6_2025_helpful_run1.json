@@ -1,0 +1,44 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_6_2025",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": "{\n  \"Evaluation_of_Each_Diagnosis_You_Listed\": {\n    \"Chronic_portal_vein_thrombosis\": {\n      \"Supporting_facts\": \"Cavernous transformation on CT, history of significant blunt abdominal trauma (steering wheel injury), splenomegaly, and varices.\",\n      \"Against_or_inconsistent\": \"None; this is a highly probable anatomical diagnosis.\",\n      \"Support_status\": \"Well-supported\"\n    },\n    \"Portal_hypertensive_mesenteric_ischemia\": {\n      \"Supporting_facts\": \"Postprandial pain ('intestinal angina'), weight loss, and portal hypertension.\",\n      \"Against_or_inconsistent\": \"CT showed non-obstructed bowel; however, venous congestion can cause ischemic-like pain.\",\n      \"Support_status\": \"Well-supported\"\n    },\n    \"Hepatic_schistosomiasis\": {\n      \"Supporting_facts\": \"Patient lived in rural Costa Rica (cattle farming), portal hypertension without overt cirrhosis.\",\n      \"Against_or_inconsistent\": \"Liver appearance is shrunken/lobulated (more typical of advanced cirrhosis or vascular scarring).\",\n      \"Support_status\": \"Weakly supported\"\n    },\n    \"Non-cirrhotic_portal_hypertension\": {\n      \"Supporting_facts\": \"Absence of traditional liver disease risk factors (Hepatitis, alcohol).\",\n      \"Against_or_inconsistent\": \"Radiographic appearance of the liver is consistent with parenchymal disease.\",\n      \"Support_status\": \"Weakly supported\"\n    },\n    \"Budd-Chiari_syndrome\": {\n      \"Supporting_facts\": \"Portal hypertension and portal vein thrombosis are often seen with hypercoagulable states.\",\n      \"Against_or_inconsistent\": \"Doppler showed patent hepatic veins.\",\n      \"Support_status\": \"Unsupported\"\n    },\n    \"Hereditary_hemochromatosis\": {\n      \"Supporting_facts\": \"Transferrin saturation of 62%.\",\n      \"Against_or_inconsistent\": \"Normal serum ferritin level.\",\n      \"Support_status\": \"Weakly supported\"\n    },\n    \"Occult_malignancy\": {\n      \"Supporting_facts\": \"Significant weight loss, older age, abdominal pain.\",\n      \"Against_or_inconsistent\": \"Normal alpha-fetoprotein; portal vein cavernoma is a classic sign of chronic thrombosis, not typically acute malignant compression.\",\n      \"Support_status\": \"Weakly supported\"\n    }\n  },\n  \"Missing_Diagnoses\": [\n    \"Chronic mesenteric venous thrombosis (as a cause of the current acute pain/mesenteric venous congestion)\",\n    \"Small bowel obstruction (intermittent, due to the paraumbilical hernia)\",\n    \"Splenic vein thrombosis (contributing to localized portal hypertension)\"\n  ],\n  \"Evaluation_of_Each_Next_Step_You_Proposed\": {\n    \"Mesenteric_angiography_or_CT_angiography\": \"Reasonable; essential to assess for mesenteric venous outflow obstruction.\",\n    \"Transjugular_liver_biopsy_with_HVPG\": \"Reasonable to differentiate pre-sinusoidal vs. post-sinusoidal portal hypertension.\",\n    \"Thrombophilia_workup\": \"Reasonable and standard of care for non-cirrhotic portal vein thrombosis.\",\n    \"Direct_visualization_of_the_small_bowel\": \"Reasonable to rule out mucosal ischemia.\",\n    \"Echocardiogram\": \"Reasonable to rule out occult heart failure causing hepatic congestion.\",\n    \"Supportive_care\": \"Standard and necessary.\"\n  },\n  \"Missing_Next_Steps\": [\n    \"Surgical consultation for hernia management (given the recent history of incarceration/pain)\",\n    \"Fecal studies for ova and parasites (specifically for Schistosoma mansoni)\",\n    \"Liver elastography (to assess for underlying fibrosis/cirrhosis)\"\n  ],\n  \"Influence_of_Clinician_Input\": {\n    \"Extent_of_influence\": \"The clinician's assessment provided a strong foundation, particularly the inclusion of hepatic schistosomiasis. I adopted the 'transjugular biopsy' and 'thrombophilia workup' uncritically, as these are standard. I should have questioned the likelihood of cirrhosis more vigorously given the patient's lifestyle and lack of clear metabolic/viral history.\",\n    \"Critical_review\": \"I accepted the clinician's diagnostic framing of 'cirrhosis' too readily without prioritizing the anatomical consequence of the remote trauma.\"\n  },\n  \"Open_Questions\": [\n    \"Was the hepatic morphology on CT truly 'cirrhotic' or rather 'atrophic' due to chronic venous deprivation?\",\n    \"Does the patient have underlying mesenteric venous thrombosis, which would explain the severe, progressive postprandial pain?\",\n    \"Could the hernia be causing intermittent venous obstruction?\"\n  ]\n}",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Chronic portal vein thrombosis (cavernous transformation) secondary to remote abdominal trauma",
+      "Portal hypertensive mesenteric ischemia (abdominal angina)",
+      "Hepatic schistosomiasis (Symmers' clay pipestem fibrosis)",
+      "Non-cirrhotic portal hypertension",
+      "Budd-Chiari syndrome (chronic)",
+      "Hereditary hemochromatosis (given elevated transferrin saturation)",
+      "Occult malignancy (e.g., hepatocellular carcinoma or pancreatic/duodenal neoplasm causing vascular compression)"
+    ],
+    "next_steps": [
+      "Mesenteric angiography or CT angiography to evaluate for chronic mesenteric ischemia",
+      "Transjugular liver biopsy with hepatic venous pressure gradient (HVPG) measurement",
+      "Comprehensive thrombophilia workup (including JAK2 mutation and PNH testing)",
+      "Direct visualization of the small bowel (e.g., capsule endoscopy or enteroscopy) to rule out mesenteric ischemia or other pathology",
+      "Echocardiogram to evaluate for right-sided heart failure or constrictive pericarditis",
+      "Supportive care with titration of vasoactive medications and monitoring for mesenteric infarction"
+    ]
+  },
+  "differential_diagnoses": [
+    "Chronic portal vein thrombosis (cavernous transformation) with secondary portal hypertensive enteropathy",
+    "Chronic mesenteric venous thrombosis leading to mesenteric venous congestion and intestinal angina",
+    "Non-cirrhotic portal hypertension (e.g., idiopathic portal hypertension or schistosomiasis)",
+    "Intermittent small bowel obstruction due to paraumbilical hernia",
+    "Cirrhosis of uncertain etiology (possibly occult metabolic or post-traumatic atrophy)",
+    "Hereditary hemochromatosis (iron overload state)",
+    "Occult malignancy (e.g., small bowel or pancreatic neoplasm)"
+  ],
+  "next_steps": [
+    "Surgical consultation for elective repair of the paraumbilical hernia",
+    "CT angiography of the abdomen (mesenteric venous phase) to evaluate for mesenteric venous thrombosis or chronic ischemia",
+    "Transjugular liver biopsy with hepatic venous pressure gradient (HVPG) measurement",
+    "Comprehensive thrombophilia workup (including JAK2, PNH, and protein C/S/antithrombin)",
+    "Echocardiogram to rule out cardiac contributions to portal hypertension",
+    "Stool studies for ova and parasites (specifically S. mansoni) given the epidemiological risk",
+    "Enteroscopy or capsule endoscopy for objective assessment of bowel mucosa"
+  ]
+}

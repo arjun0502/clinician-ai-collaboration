@@ -1,0 +1,42 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_13_2025",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Candida meningitis\": {\n      \"Support\": \"Profound immunosuppression (likely Cushing's), elevated CSF protein, very low CSF glucose, elevated CSF pressure, pleocytosis.\",\n      \"Against\": \"Usually associated with hematogenous spread or direct inoculation; no clear source of candidemia found.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Cryptococcal meningitis\": {\n      \"Support\": \"Classic opportunistic presentation in a severely immunocompromised host; very low CSF glucose and elevated pressure are characteristic.\",\n      \"Against\": \"None significant.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Listeria monocytogenes meningoencephalitis\": {\n      \"Support\": \"Can cause rhombencephalitis/meningitis in the immunocompromised; CSF pleocytosis with neutrophils.\",\n      \"Against\": \"Usually presents with more prominent brainstem signs/cranial nerve deficits; CSF glucose of 2 mg/dL is extremely low even for Listeria.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Tuberculous meningitis\": {\n      \"Support\": \"Subacute course, very low CSF glucose, high protein, high opening pressure.\",\n      \"Against\": \"Lack of clear pulmonary or systemic TB focus.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Adrenal cortisol-secreting tumor (Cushing's syndrome)\": {\n      \"Support\": \"Weight loss, skin thinning, hyperglycemia (new/worsening), hypokalemia, adrenal nodule, lymphopenia, psychiatric symptoms.\",\n      \"Against\": \"None; this is the likely underlying driver of the clinical decline.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Paraneoplastic syndrome\": {\n      \"Support\": \"Weight loss, rapid decline, adrenal lesion.\",\n      \"Against\": \"Does not account for the profound CSF abnormalities (glucose 2, protein 92) which point to an infectious process.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Bacterial meningitis\": {\n      \"Support\": \"CSF pleocytosis (neutrophilic predominance).\",\n      \"Against\": \"Subacute clinical onset; usually more acute.\",\n      \"Status\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Nocardia (meningitis/abscesses)\",\n    \"Strongyloides hyperinfection syndrome (secondary to chronic immunosuppression from cortisol excess)\",\n    \"Primary Central Nervous System Lymphoma (secondary to previous hairy-cell leukemia history)\"\n  ],\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Empiric antifungal therapy\": {\n      \"Reasonable\": \"Yes, high suspicion for fungal etiology given immunosuppression and CSF findings.\",\n      \"Harmful/Contraindicated\": \"No, essential for survival.\"\n    },\n    \"CSF studies (cultures/PCR)\": {\n      \"Reasonable\": \"Yes, mandatory to identify the pathogen.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"Serum/urine cortisol\": {\n      \"Reasonable\": \"Yes, necessary to establish the etiology of the underlying immunosuppression (endogenous Cushing's).\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"Adrenal function/ACTH\": {\n      \"Reasonable\": \"Yes, needed to characterize the adrenal nodule.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"Serial neuro exams/monitoring\": {\n      \"Reasonable\": \"Yes, patient is at high risk for herniation.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"Neurosurgical consult\": {\n      \"Reasonable\": \"Yes, critical given opening pressure >58 cm H2O.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    }\n  },\n  \"Missing Next Steps\": [\n    \"CSF cytology for malignancy (rule out lymphoma)\",\n    \"Serum ACTH, DHEAS, and 24-hour urine cortisol fractionation to distinguish between primary adrenal pathology and ACTH-dependent Cushing's\",\n    \"Brain MRI (with contrast) is critical; reconsider if sedation/monitoring permits, as the vagus nerve stimulator does not always contraindicate MRI if safety protocols are followed\"\n  ],\n  \"Influence of Clinician Input\": {\n    \"Assessment\": \"The clinician's focus on Cushing's syndrome was critical. I adopted the suspicion of Cryptococcal meningitis but expanded the differential to include other opportunistic fungi and intracranial processes. I may have initially relied too heavily on the adrenal nodule as the sole driver, rather than investigating the secondary systemic effects leading to the opportunistic infection.\",\n    \"Uncritical adoption\": \"The clinician suggested Cryptococcal antigen testing, which I incorporated; this was an appropriate and essential recommendation.\"\n  },\n  \"Open Questions\": [\n    \"What is the ACTH level (crucial for distinguishing adrenal vs. pituitary/ectopic source)?\",\n    \"What do the CSF India ink/Cryptococcal antigen results show?\",\n    \"Does the patient have disseminated infection (e.g., skin lesions or pulmonary nodules)?\"\n  ]\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Candida meningitis",
+      "Cryptococcal meningitis",
+      "Listeria monocytogenes meningoencephalitis",
+      "Tuberculous meningitis",
+      "Adrenal cortisol-secreting tumor (Cushing's syndrome leading to severe immunocompromise)",
+      "Paraneoplastic syndrome associated with occult malignancy",
+      "Bacterial meningitis (partially treated or atypical pathogen)"
+    ],
+    "next_steps": [
+      "Immediate initiation of empiric broad-spectrum antifungal therapy (including liposomal amphotericin B and flucytosine)",
+      "CSF studies including fungal and bacterial cultures, cryptococcal antigen, and broad-range bacterial/fungal PCR",
+      "Serum and 24-hour urine cortisol evaluation to confirm suspected Cushing's syndrome",
+      "Assessment of adrenal function and ACTH levels",
+      "Serial neurological exams and monitoring of intracranial pressure",
+      "Consideration of neurosurgical consultation for ventriculostomy due to elevated opening pressure and hydrocephalus risk"
+    ]
+  },
+  "differential_diagnoses": [
+    "Cryptococcal meningitis",
+    "Endogenous Cushing's syndrome (likely ectopic ACTH secretion or adrenal cortical carcinoma)",
+    "Disseminated opportunistic fungal infection (e.g., Candida or Histoplasma)",
+    "Primary central nervous system lymphoma",
+    "Tuberculous meningitis",
+    "Listeria monocytogenes meningoencephalitis"
+  ],
+  "next_steps": [
+    "Initiate empiric treatment for fungal meningitis (liposomal amphotericin B and flucytosine) and bacterial meningitis (ceftriaxone, vancomycin, and ampicillin)",
+    "Perform CSF Cryptococcal antigen testing, India ink preparation, fungal culture, and broad-range PCR",
+    "Order serum ACTH, serum DHEAS, and 24-hour urine cortisol (fractionated) to clarify Cushing's etiology",
+    "Perform external ventricular drain placement for therapeutic CSF diversion to manage intracranial hypertension",
+    "Order contrast-enhanced MRI of the brain with safety precautions for the vagus nerve stimulator to better characterize CNS lesions",
+    "Obtain chest and abdominal CT to look for primary occult malignancy"
+  ]
+}

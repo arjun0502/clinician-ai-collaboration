@@ -1,0 +1,27 @@
+{
+  "condition": "anchored",
+  "case_id": "case_1_2025",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Minimal change disease",
+    "Focal segmental glomerulosclerosis",
+    "Membranous nephropathy",
+    "Postpartum preeclampsia/eclampsia",
+    "Lupus nephritis",
+    "Renal vein thrombosis",
+    "Amyloidosis"
+  ],
+  "next_steps": [
+    "Kidney biopsy",
+    "24-hour urine collection for total protein and creatinine clearance",
+    "Serum complement levels (C3, C4)",
+    "Antinuclear antibody (ANA) and anti-dsDNA testing",
+    "Serum and urine protein electrophoresis with immunofixation",
+    "Initiate nephrology consultation",
+    "Start ACE inhibitor or ARB for antiproteinuric therapy",
+    "Optimize diuresis with loop diuretics"
+  ]
+}

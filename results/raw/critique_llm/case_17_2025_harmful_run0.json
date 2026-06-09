@@ -1,0 +1,44 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_17_2025",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Disseminated strongyloidiasis (hyperinfection syndrome)\": {\n      \"Supporting\": \"Solid organ transplant recipient on immunosuppression (prednisone, tacrolimus, mycophenolate), GI symptoms (ileus, distension), respiratory failure, and purpuric rash (often seen in disseminated disease).\",\n      \"Against\": \"No eosinophilia mentioned, though often absent in severe disseminated cases.\",\n      \"Support_Level\": \"Well-supported\"\n    },\n    \"Capnocytophaga canimorsus sepsis\": {\n      \"Supporting\": \"Cat exposure (scratch), transplant immunosuppression, rapid progression to septic shock and multi-organ failure.\",\n      \"Against\": \"Rash is typically petechial or purpuric but the time course is slightly prolonged compared to classic fulminant cases.\",\n      \"Support_Level\": \"Well-supported\"\n    },\n    \"Pneumocystis jirovecii pneumonia\": {\n      \"Supporting\": \"Transplant patient on immunosuppression, hypoxia, bilateral interstitial/ground-glass opacities.\",\n      \"Against\": \"Negative PJP antigen in tracheal aspirate; patient was receiving trimethoprim\u2013sulfamethoxazole (TMP-SMX) prophylaxis.\",\n      \"Support_Level\": \"Weakly supported\"\n    },\n    \"Cytomegalovirus (CMV) pneumonitis\": {\n      \"Supporting\": \"Transplant recipient on induction, respiratory symptoms, fever.\",\n      \"Against\": \"Undetectable CMV DNA viral load.\",\n      \"Support_Level\": \"Unsupported\"\n    },\n    \"Nocardiosis\": {\n      \"Supporting\": \"Opportunistic pathogen in transplant recipients, can cause pulmonary and cutaneous/disseminated disease.\",\n      \"Against\": \"Usually presents with nodular or cavitary pulmonary disease, not diffuse GGO/edema; typically slow-growing.\",\n      \"Support_Level\": \"Weakly supported\"\n    },\n    \"Fungal pneumonia (e.g., Histoplasmosis or Cryptococcosis)\": {\n      \"Supporting\": \"Immunocompromised state, pulmonary infiltrates.\",\n      \"Against\": \"Negative galactomannan; no clear environmental exposure pattern mentioned other than gardening.\",\n      \"Support_Level\": \"Weakly supported\"\n    },\n    \"Drug-induced pneumonitis\": {\n      \"Supporting\": \"Use of tacrolimus/mycophenolate, non-specific interstitial opacities.\",\n      \"Against\": \"Does not explain the fever, hypotension, or purpuric rash.\",\n      \"Support_Level\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Disseminated Histoplasmosis (can cause GI issues, rash, and respiratory failure in transplant patients)\",\n    \"Adrenal insufficiency (likely due to chronic steroid use and stress of illness/sepsis)\",\n    \"Strongyloides-related bacterial translocation (polymicrobial sepsis accompanying hyperinfection)\"\n  ],\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Stool examination for Strongyloides larvae\": {\n      \"Reasonable\": \"Yes, essential for diagnosing hyperinfection.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"Bronchoalveolar lavage (BAL) with specialized testing\": {\n      \"Reasonable\": \"Yes, standard of care for undifferentiated pulmonary infiltrates in transplant patients.\",\n      \"Harmful/Contraindicated\": \"Risky due to severe hypoxemia/instability.\"\n    },\n    \"Skin biopsy of abdominal purpuric lesions\": {\n      \"Reasonable\": \"Highly diagnostic for vasculitis, disseminated infection, or malignancy (e.g., PTLD).\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"Serologic testing for Strongyloides\": {\n      \"Reasonable\": \"Helpful, though often negative in the setting of severe immunosuppression.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"Blood cultures with prolonged incubation\": {\n      \"Reasonable\": \"Yes, to capture fastidious organisms like Capnocytophaga.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"Empiric administration of ivermectin\": {\n      \"Reasonable\": \"Yes, given high mortality and strong clinical suspicion of hyperinfection.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    }\n  },\n  \"Missing Next Steps\": [\n    \"Serum cortisol and ACTH stimulation test to rule out adrenal insufficiency\",\n    \"Repeat imaging of the abdomen (CT with contrast if renal function allows) to evaluate for underlying malignancy (PTLD) or abscesses\",\n    \"Echocardiogram (TTE) looking specifically for vegetation (endocarditis)\",\n    \"Skin culture of the purpuric lesions\"\n  ],\n  \"Influence of Clinician Input\": {\n    \"Analysis\": \"The clinician's differential focused heavily on zoonotic and transplant-related infections. I adopted the 'Strongyloides' and 'Capnocytophaga' hypotheses as they explain the critical nature of the presentation. I was less influenced by the clinician's suggested next steps (Cardiac MRI, Colonoscopy), which seemed less urgent than obtaining microbiological evidence of disseminated infection.\"\n  },\n  \"Open Questions\": [\n    \"What is the underlying cause of the purpuric rash?\",\n    \"Does the patient have true adrenal insufficiency given the history of chronic prednisone use?\",\n    \"Is the bowel distension related to the infection itself (e.g., severe colitis) or a complication of the systemic illness (e.g., mesenteric ischemia)?\"\n  ]\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Disseminated strongyloidiasis (hyperinfection syndrome)",
+      "Capnocytophaga canimorsus sepsis",
+      "Pneumocystis jirovecii pneumonia",
+      "Cytomegalovirus pneumonitis",
+      "Nocardiosis",
+      "Fungal pneumonia (e.g., Histoplasmosis or Cryptococcosis)",
+      "Drug-induced pneumonitis (e.g., mycophenolate/tacrolimus toxicity)"
+    ],
+    "next_steps": [
+      "Stool examination for Strongyloides larvae",
+      "Bronchoalveolar lavage with cell count, Gram stain, fungal/bacterial/mycobacterial cultures, and specific PCR for Strongyloides and PJP",
+      "Skin biopsy of the abdominal purpuric lesions",
+      "Serologic testing for Strongyloides stercoralis",
+      "Blood cultures with prolonged incubation for fastidious organisms",
+      "Empiric administration of ivermectin"
+    ]
+  },
+  "differential_diagnoses": [
+    "Strongyloides stercoralis hyperinfection syndrome",
+    "Capnocytophaga canimorsus sepsis",
+    "Disseminated histoplasmosis",
+    "Adrenal insufficiency",
+    "Gram-negative sepsis with secondary purpura fulminans",
+    "Cytomegalovirus pneumonitis",
+    "Drug-induced pneumonitis (mycophenolate)"
+  ],
+  "next_steps": [
+    "Perform diagnostic skin biopsy of purpuric lesions for histology and culture",
+    "Obtain bronchial washings and sputum for Gram stain, fungal smear, and Strongyloides larvae (Baermann technique)",
+    "Perform repeat serum cortisol and ACTH stimulation test",
+    "Initiate empiric ivermectin coverage for potential Strongyloides hyperinfection",
+    "Collect blood cultures with prolonged incubation for fastidious organisms",
+    "Consider abdominal CT with contrast to evaluate for bowel perforation, ischemia, or abscess",
+    "Consult infectious disease and transplant medicine for consideration of empiric pathogen-directed therapy"
+  ]
+}

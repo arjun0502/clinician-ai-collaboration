@@ -1,0 +1,47 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_25_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": "```json\n{\n  \"Evaluation_of_Each_Diagnosis_You_Listed\": {\n    \"Symptomatic_severe_aortic_stenosis\": {\n      \"supporting\": \"History of aortic stenosis (15 months ago AVA 0.9 cm\u00b2), progression over time, age, grade 4/6 systolic murmur, current symptoms of dyspnea on exertion.\",\n      \"against\": \"No overt findings of heart failure on exam (clear lungs, no edema, normal JVP), though severe AS can be insidious.\",\n      \"status\": \"Well-supported\"\n    },\n    \"Iron_deficiency_anemia\": {\n      \"supporting\": \"Advanced age, dyspnea, use of antiplatelet (aspirin) and anticoagulant (apixaban), lack of screening colonoscopy for 15 years.\",\n      \"against\": \"Exam notes 'skin was not pale', though clinical anemia is insensitive.\",\n      \"status\": \"Well-supported\"\n    },\n    \"Heart_failure_with_preserved_ejection_fraction\": {\n      \"supporting\": \"Age, hypertension history, atrial flutter, aortic stenosis, dyspnea, sleep apnea.\",\n      \"against\": \"Absence of clinical congestion (clear lungs, no peripheral edema, normal JVP).\",\n      \"status\": \"Well-supported\"\n    },\n    \"Coronary_artery_disease\": {\n      \"supporting\": \"Advanced age, diabetes mellitus, aortic calcification, smoking/cardiovascular risk profile.\",\n      \"against\": \"Absence of typical anginal symptoms, though 'anginal equivalents' common in elderly.\",\n      \"status\": \"Moderately supported\"\n    },\n    \"Chronotropic_incompetence_related_to_beta-blocker_therapy\": {\n      \"supporting\": \"Patient is on metoprolol, heart rate at rest is 61 bpm (may be inadequate during exertion).\",\n      \"against\": \"Patient was previously active, dyspnea is a new complaint.\",\n      \"status\": \"Moderately supported\"\n    },\n    \"Pulmonary_parenchymal_disease_exacerbation\": {\n      \"supporting\": \"History of granulomatosis with polyangiitis (GPA), radiographic evidence of pleuroparenchymal scarring.\",\n      \"against\": \"Findings unchanged on imaging; no cough or systemic signs of vasculitis.\",\n      \"status\": \"Weakly supported\"\n    },\n    \"Myocardial_ischemia\": {\n      \"supporting\": \"Symptoms of dyspnea, known cardiovascular risk factors.\",\n      \"against\": \"No chest pain, stable ECG.\",\n      \"status\": \"Moderately supported\"\n    }\n  },\n  \"Missing_Diagnoses\": [\n    \"Heyde's syndrome (coexistence of AS and gastrointestinal angiodysplasia)\",\n    \"Severe valvular stenosis progression (post-valvular hemodynamic change)\",\n    \"Pulmonary embolism (given recent history of atrial arrhythmias and immobility)\"\n  ],\n  \"Evaluation_of_Each_Next_Step_You_Proposed\": {\n    \"Complete_blood_count_with_reticulocyte_count\": \"Reasonable; essential to assess for anemia.\",\n    \"Iron_studies\": \"Reasonable; essential for iron deficiency screening.\",\n    \"Fecal_occult_blood_test_or_diagnostic_endoscopy\": \"Reasonable, but FOBT is poor screening; direct endoscopy is preferred.\",\n    \"Repeat_transthoracic_echocardiography\": \"Reasonable; necessary to assess for valve change.\",\n    \"BNP_or_NT-proBNP_level\": \"Reasonable; helps rule out HF as a major contributor.\",\n    \"Cardiac_stress_testing_or_coronary_angiography\": \"Reasonable, but stress testing in the setting of severe AS must be done with extreme caution or avoided in favor of coronary CT angiography.\",\n    \"Comprehensive_metabolic_panel_and_TSH\": \"Reasonable; screen for chronic disease, renal function, and thyroid status.\"\n  },\n  \"Missing_Next_Steps\": [\n    \"ECG telemetry or Holter monitor to assess for occult atrial arrhythmia recurrence/rate issues\",\n    \"NT-proBNP levels (not in initial list)\",\n    \"High-sensitivity Troponin\"\n  ],\n  \"Influence_of_Clinician_Input\": {\n    \"extent\": \"Strongly influenced; I adopted the clinician's suspicion of anemia and echo assessment.\",\n    \"uncritical_adoption\": \"I adopted the clinician's implicit goal of investigating anemia and heart failure, which aligns with standard management, but I failed to challenge the clinician's inclusion of 'transfusion' as a proposed step\u2014transfusion without documented anemia is clinically inappropriate.\",\n    \"questioning\": \"I should have questioned the rationale of starting with transfusion before documenting anemia.\"\n  },\n  \"Open_Questions\": [\n    \"What is the current hemoglobin and hematocrit?\",\n    \"Does the patient have orthostatic vital sign changes?\",\n    \"Is there recent change in the aortic valve gradient (Doppler velocity) compared to 15 months ago?\",\n    \"Is there evidence of occult gastrointestinal bleeding (e.g., iron deficiency without clear anemia)?\"\n  ]\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Symptomatic severe aortic stenosis",
+      "Iron deficiency anemia (likely gastrointestinal blood loss)",
+      "Heart failure with preserved ejection fraction",
+      "Coronary artery disease",
+      "Chronotropic incompetence related to beta-blocker therapy",
+      "Pulmonary parenchymal disease exacerbation",
+      "Myocardial ischemia"
+    ],
+    "next_steps": [
+      "Complete blood count with reticulocyte count",
+      "Iron studies (serum iron, total iron-binding capacity, ferritin)",
+      "Fecal occult blood test or diagnostic upper and lower endoscopy",
+      "Repeat transthoracic echocardiography to reassess aortic valve hemodynamics",
+      "B-type natriuretic peptide (BNP) or NT-proBNP level",
+      "Cardiac stress testing or coronary angiography",
+      "Comprehensive metabolic panel and thyroid-stimulating hormone assessment"
+    ]
+  },
+  "differential_diagnoses": [
+    "Severe symptomatic aortic stenosis",
+    "Iron deficiency anemia secondary to chronic occult gastrointestinal blood loss",
+    "Heyde's syndrome",
+    "Heart failure with preserved ejection fraction",
+    "Coronary artery disease",
+    "Chronotropic incompetence due to beta-blocker therapy",
+    "Pulmonary embolism",
+    "Recurrent granulomatosis with polyangiitis"
+  ],
+  "next_steps": [
+    "Complete blood count with differential and reticulocyte count",
+    "Serum iron studies (iron, TIBC, ferritin)",
+    "Repeat transthoracic echocardiography to assess valvular hemodynamic progression",
+    "NT-proBNP level assessment",
+    "High-sensitivity troponin measurement",
+    "Cardiac coronary CT angiography (avoiding stress testing due to severe stenosis)",
+    "Consultation for upper and lower endoscopy to evaluate for GI source of blood loss",
+    "Orthostatic blood pressure assessment"
+  ]
+}

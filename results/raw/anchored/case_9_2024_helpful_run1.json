@@ -1,0 +1,23 @@
+{
+  "condition": "anchored",
+  "case_id": "case_9_2024",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Infected aortic aneurysm (mycotic aneurysm)",
+    "Staphylococcus aureus infective endocarditis",
+    "Aortic dissection (contained or evolving)",
+    "Aortitis (non-infectious or infectious)",
+    "Septic embolization (e.g., to coronary arteries or other end organs)",
+    "Vertebral osteomyelitis or discitis"
+  ],
+  "next_steps": [
+    "Perform urgent transesophageal echocardiography to evaluate for vegetation and aortic involvement",
+    "Obtain repeat CT angiography of the chest and abdomen with specialized focus on the aorta to assess for pseudoaneurysm enlargement or rupture",
+    "Consult infectious disease for optimization of targeted intravenous antibiotic therapy",
+    "Consult vascular surgery for urgent evaluation regarding potential surgical or endovascular repair of the aortic lesion",
+    "Continue serial blood cultures and monitor inflammatory markers"
+  ]
+}

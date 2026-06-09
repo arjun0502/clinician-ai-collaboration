@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_35_2025",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Henoch-Sch\u00f6nlein purpura (IgA vasculitis)",
+    "Kawasaki disease",
+    "Meningococcemia",
+    "Rocky Mountain spotted fever",
+    "Multisystem inflammatory syndrome in children (MIS-C)",
+    "Measles",
+    "Secondary syphilis"
+  ],
+  "next_steps": [
+    "Obtain complete blood count with differential, inflammatory markers (CRP, ESR), and urinalysis",
+    "Initiate empiric intravenous antibiotics (e.g., ceftriaxone) for suspected sepsis until blood cultures are negative",
+    "Perform serum electrolyte, albumin, and liver function testing",
+    "Obtain echocardiogram to assess for coronary artery involvement",
+    "Consult pediatric infectious disease and pediatric rheumatology",
+    "Consider skin biopsy if diagnosis remains unclear after initial workup"
+  ]
+}

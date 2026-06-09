@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_2_2025",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Posterior Reversible Encephalopathy Syndrome (PRES)",
+    "Sickle cell\u2013related cerebral vasculopathy",
+    "Metabolic encephalopathy",
+    "Cerebral fat embolism",
+    "Reversible cerebral vasoconstriction syndrome (RCVS)",
+    "Post-ictal state secondary to structural seizure",
+    "Infectious meningoencephalitis"
+  ],
+  "next_steps": [
+    "Strict blood pressure control",
+    "Continuous video electroencephalography (EEG) monitoring",
+    "Lumbar puncture to rule out meningitis or subarachnoid hemorrhage",
+    "Review of current medication list for triggers of PRES (e.g., immunosuppressants)",
+    "Consultation with hematology for optimization of sickle cell management",
+    "Neurosurgery consultation to monitor for potential mass effect or hydrocephalus",
+    "Serial neurologic examinations"
+  ]
+}

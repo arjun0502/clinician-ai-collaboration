@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_30_2024",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Erdheim-Chester disease",
+    "IgG4-related disease",
+    "Rosai-Dorfman-Destombes disease",
+    "Multicentric Castleman disease",
+    "Langerhans cell histiocytosis",
+    "Plasma cell myeloma (IgG4-producing)",
+    "Non-Hodgkin lymphoma (lympho-plasmacytic type)"
+  ],
+  "next_steps": [
+    "Immunohistochemical staining for CD68, CD163, CD1a, and Langerin on tibial biopsy",
+    "BRAF V600E mutation testing via allele-specific PCR or NGS on biopsy tissue",
+    "Serum and urine protein electrophoresis with immunofixation",
+    "Serum IgG subclass measurement and serum free light chain assay",
+    "Consultation with Hematology-Oncology regarding systemic therapy (e.g., BRAF/MEK inhibitors)",
+    "Long-bone skeletal survey and cardiac assessment (ECHO/cardiac MRI) to exclude typical ECD organ involvement"
+  ]
+}

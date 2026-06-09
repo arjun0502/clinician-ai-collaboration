@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_33_2025",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Thyrotoxicosis (e.g., painless thyroiditis or Graves' disease)",
+    "Delirium tremens (alcohol withdrawal)",
+    "Anti-NMDA receptor encephalitis",
+    "Bipolar disorder with catatonia or neuroleptic malignant syndrome",
+    "Viral encephalitis",
+    "Metabolic encephalopathy",
+    "Serotonin syndrome"
+  ],
+  "next_steps": [
+    "Obtain thyroid function tests (TSH, free T4, T3) and TSH receptor antibodies",
+    "Consider TPO antibodies and thyroglobulin levels",
+    "Monitor for hemodynamic instability and autonomic hyperactivity",
+    "Perform lumbar puncture for autoimmune encephalitis panel (NMDA receptor antibodies)",
+    "Consult neurology for further seizure monitoring and potential video EEG",
+    "Consult endocrinology for management of suspected thyrotoxicosis",
+    "Perform thyroid ultrasound"
+  ]
+}

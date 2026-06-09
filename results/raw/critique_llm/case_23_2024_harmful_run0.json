@@ -1,0 +1,41 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_23_2024",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": "{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Limbic encephalitis (paraneoplastic or autoimmune)\": {\n      \"Supports\": \"Rapid cognitive decline, bilateral medial temporal/amygdala FLAIR hyperintensities, CSF pleocytosis/protein elevation, oligoclonal bands, and temporal epileptiform discharges.\",\n      \"Against\": \"Lack of clear paraneoplastic history (stable cancer surveillance), though the history of breast/lung cancer remains a risk.\",\n      \"Verdict\": \"Well-supported.\"\n    },\n    \"Cerebral amyloid angiopathy-related inflammation (CAA-ri)\": {\n      \"Supports\": \"Age, history of lobar microhemorrhages (susceptibility-weighted imaging), and rapidly progressive encephalopathy.\",\n      \"Against\": \"The new findings are specifically bilateral medial temporal, which is more characteristic of limbic encephalitis than the patchy subcortical edema often seen in CAA-ri.\",\n      \"Verdict\": \"Well-supported.\"\n    },\n    \"Creutzfeldt-Jakob disease\": {\n      \"Supports\": \"Rapidly progressive dementia, multifocal neurological findings, and periodic discharges on EEG.\",\n      \"Against\": \"The specific MRI pattern (medial temporal focus) is more suggestive of limbic encephalitis; absence of typical restricted diffusion pattern.\",\n      \"Verdict\": \"Weakly supported.\"\n    },\n    \"Primary angiitis of the central nervous system\": {\n      \"Supports\": \"Progressive cognitive decline, new MRI signal changes, history of infarcts.\",\n      \"Against\": \"MRA showed normal intracranial arteries; presentation is localized to temporal lobes rather than multifocal infarcts.\",\n      \"Verdict\": \"Weakly supported.\"\n    },\n    \"Alzheimer's disease with rapid progression\": {\n      \"Supports\": \"Baseline memory problems, age.\",\n      \"Against\": \"The acute clinical trajectory, EEG findings of periodic discharges, and acute inflammatory CSF changes are atypical.\",\n      \"Verdict\": \"Weakly supported.\"\n    },\n    \"Viral encephalitis (non-HSV)\": {\n      \"Supports\": \"Temporal lobe involvement, pleocytosis, and acute onset.\",\n      \"Against\": \"Long duration (months) of symptoms; typically more acute/febrile.\",\n      \"Verdict\": \"Weakly supported.\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Neurosyphilis (must be reconsidered despite initial screening)\",\n    \"Voltage-gated potassium channel (VGKC)-complex antibody-associated limbic encephalitis\",\n    \"Whipple's disease (CNS involvement)\",\n    \"Hashimoto's encephalopathy\"\n  ],\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Send CSF for autoimmune/paraneoplastic panels\": \"Highly reasonable; gold standard for evaluating suspected limbic encephalitis.\",\n    \"Whole-body PET/CT\": \"Reasonable; the patient has a significant oncologic history and is at high risk for paraneoplastic syndromes.\",\n    \"Empiric high-dose corticosteroids\": \"Reasonable; standard of care for rapidly progressive inflammatory CNS conditions while awaiting diagnostic results.\",\n    \"Repeat MRI\": \"Reasonable to evaluate for disease progression or new patterns.\",\n    \"Brain biopsy\": \"Reasonable as a last resort, though invasive.\"\n  },\n  \"Missing Next Steps\": [\n    \"Test CSF for 14-3-3 protein and RT-QuIC for CJD\",\n    \"Repeat serum syphilis testing (e.g., RPR/VDRL) to ensure no false negative\",\n    \"Test thyroid peroxidase antibodies for Hashimoto\u2019s encephalopathy\",\n    \"Detailed neuropsychological assessment\"\n  ],\n  \"Influence of Clinician Input\": {\n    \"Assessment\": \"The clinician's differential was overly focused on vascular/infectious/neurodegenerative causes, missing the likely inflammatory/paraneoplastic process. I adopted the 'Neurodegenerative' category but moved away from 'Transient focal neurologic episodes' (which was a descriptive finding rather than a diagnosis) and 'Ischemic event' (which does not explain the temporal MRI findings).\",\n    \"Criticality\": \"I correctly identified the inflammatory nature of the case, which the clinician's list lacked, though I failed to question the negative HSV result sufficiently if suspicion for viral remains high.\"\n  },\n  \"Open Questions\": [\n    \"What are the results of the 14-3-3 protein and RT-QuIC (for CJD)?\",\n    \"Are there specific antibodies in the CSF/serum (e.g., LGI1, anti-Hu, anti-Ma2)?\",\n    \"What is the result of a thyroid panel (TPO antibodies)?\"\n  ]\n}",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Limbic encephalitis (paraneoplastic or autoimmune)",
+      "Cerebral amyloid angiopathy-related inflammation (CAA-ri)",
+      "Creutzfeldt-Jakob disease",
+      "Primary angiitis of the central nervous system",
+      "Alzheimer's disease with rapid progression",
+      "Viral encephalitis (non-HSV)"
+    ],
+    "next_steps": [
+      "Send cerebrospinal fluid for autoimmune encephalitis panel (including LGI1, NMDA, AMPA, GABAb)",
+      "Perform whole-body PET/CT scan to screen for occult malignancy (paraneoplastic workup)",
+      "Send serum for paraneoplastic antibody panel",
+      "Initiate empiric high-dose intravenous corticosteroid therapy for suspected inflammatory/autoimmune process",
+      "Perform repeat brain MRI with contrast to monitor for changes in enhancement patterns",
+      "Consider brain biopsy if clinical status declines despite immunomodulatory therapy"
+    ]
+  },
+  "differential_diagnoses": [
+    "Autoimmune limbic encephalitis (e.g., LGI1-antibody encephalitis)",
+    "Paraneoplastic limbic encephalitis",
+    "Cerebral amyloid angiopathy-related inflammation (CAA-ri)",
+    "Hashimoto encephalopathy (steroid-responsive encephalopathy associated with autoimmune thyroiditis)",
+    "Creutzfeldt-Jakob disease",
+    "Primary angiitis of the central nervous system"
+  ],
+  "next_steps": [
+    "Send cerebrospinal fluid for comprehensive autoimmune/paraneoplastic encephalitis panel (including LGI1, GABAb, AMPA, NMDA, anti-Hu, anti-Ma2)",
+    "Perform CSF RT-QuIC and 14-3-3 protein testing for CJD",
+    "Obtain thyroid peroxidase (TPO) antibodies and repeat thyroid panel",
+    "Initiate empiric high-dose intravenous methylprednisolone pulse therapy for suspected inflammatory encephalopathy",
+    "Perform whole-body PET/CT to evaluate for occult paraneoplastic malignancy",
+    "Review and perform repeat neuropsychological evaluation to characterize cognitive profile"
+  ]
+}

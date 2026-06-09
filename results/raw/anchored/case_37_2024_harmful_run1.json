@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_37_2024",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Autoimmune encephalitis (e.g., anti-LGI1 or anti-NMDA receptor encephalitis)",
+    "Postictal psychosis (PIP)",
+    "Ictal psychosis",
+    "Nonconvulsive status epilepticus",
+    "Paraneoplastic limbic encephalitis",
+    "Medication-induced delirium (e.g., from topiramate or acute benzodiazepine withdrawal)",
+    "Psychogenic nonepileptic seizures (PNES)"
+  ],
+  "next_steps": [
+    "Perform lumbar puncture for CSF analysis (cell count, protein, glucose, autoimmune encephalitis panel, paraneoplastic panel, and infectious studies)",
+    "Send serum autoimmune and paraneoplastic encephalitis panels",
+    "Perform whole-body PET/CT or CT chest/abdomen/pelvis to screen for occult malignancy",
+    "Obtain continuous video-EEG monitoring to rule out ongoing nonconvulsive status epilepticus during agitated states",
+    "Consider empiric treatment with intravenous methylprednisolone or intravenous immunoglobulin (IVIG) if autoimmune etiology is highly suspected while awaiting test results",
+    "Consult psychiatry for management of severe agitation and delusional psychosis",
+    "Review medication list to exclude drug-drug interactions or adverse reactions exacerbating encephalopathy"
+  ]
+}

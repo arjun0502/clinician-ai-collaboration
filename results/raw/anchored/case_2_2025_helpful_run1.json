@@ -1,0 +1,27 @@
+{
+  "condition": "anchored",
+  "case_id": "case_2_2025",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Posterior Reversible Encephalopathy Syndrome (PRES)",
+    "Sickle cell\u2013related cerebral vasculopathy",
+    "Fat embolism syndrome",
+    "Hypertensive emergency",
+    "Acute stroke (ischemic or hemorrhagic)",
+    "Neurotoxicity (e.g., secondary to medications or metabolic derangement)",
+    "Seizure disorder (idiopathic or structural)"
+  ],
+  "next_steps": [
+    "Strict blood pressure control (target systolic < 140 mm Hg)",
+    "Urgent neurology and neurocritical care consultation",
+    "Continuous EEG monitoring",
+    "Initiate antiseizure medication (e.g., levetiracetam)",
+    "Consider urgent red-cell exchange transfusion",
+    "Obtain toxicology screen for other potential neurotoxic agents",
+    "Serial neurologic examinations",
+    "Evaluate for underlying triggers (e.g., renal function, electrolyte imbalances, infection)"
+  ]
+}

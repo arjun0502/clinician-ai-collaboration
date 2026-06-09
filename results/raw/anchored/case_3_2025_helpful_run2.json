@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_3_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Cardiac amyloidosis (specifically transthyretin or light-chain)",
+    "Hypertrophic cardiomyopathy",
+    "Cardiac sarcoidosis",
+    "Constrictive pericarditis",
+    "Hypereosinophilic syndrome / Endomyocardial fibrosis",
+    "Fabry disease",
+    "Hemochromatosis"
+  ],
+  "next_steps": [
+    "Perform serum and urine immunofixation electrophoresis and serum free light-chain assay",
+    "Order technetium-99m pyrophosphate (PYP) or similar bone-avid radionuclide scintigraphy",
+    "Conduct cardiac magnetic resonance imaging with T1 mapping and extracellular volume (ECV) quantification",
+    "Perform N-terminal pro-B-type natriuretic peptide (NT-proBNP) and high-sensitivity troponin T testing",
+    "Consider endomyocardial biopsy if biochemical and non-invasive imaging testing remains inconclusive",
+    "Refer to ophthalmology for evaluation for Fabry disease or rheumatology for systemic involvement"
+  ]
+}

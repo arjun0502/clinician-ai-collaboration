@@ -1,0 +1,45 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_25_2024",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Nutritional optic neuropathy (Vitamin A deficiency, xerophthalmia)\": {\n      \"Supports\": \"History of extremely restrictive diet (ARFID), conjunctival keratinization (Bitot's spots equivalent), night blindness (worsening in low light), optic disk pallor.\",\n      \"Arguments against\": \"None.\",\n      \"Support_Level\": \"Well-supported\"\n    },\n    \"Nutritional optic neuropathy (Vitamin B12 deficiency)\": {\n      \"Supports\": \"Restrictive diet, neurologic symptoms.\",\n      \"Arguments against\": \"Usually associated with megaloblastic anemia and peripheral neuropathy/ataxia; the specific ocular findings of keratinization are pathognomonic for Vitamin A.\",\n      \"Support_Level\": \"Weakly supported\"\n    },\n    \"Copper deficiency-associated optic neuropathy\": {\n      \"Supports\": \"Restrictive diet, potential for malabsorption/deficiency.\",\n      \"Arguments against\": \"No evidence of characteristic hematologic abnormalities (neutropenia, microcytic anemia) or myelopathy.\",\n      \"Support_Level\": \"Weakly supported\"\n    },\n    \"Leber hereditary optic neuropathy (LHON)\": {\n      \"Supports\": \"Bilateral optic neuropathy, pediatric/young adult age group.\",\n      \"Arguments against\": \"Acute worsening with a clear nutritional trigger; presence of conjunctival keratinization (not seen in LHON).\",\n      \"Support_Level\": \"Unsupported\"\n    },\n    \"Autosomal dominant optic atrophy (OPA1)\": {\n      \"Supports\": \"Optic nerve pallor, vision loss.\",\n      \"Arguments against\": \"Typically a slow, progressive course; does not explain the conjunctival findings or dietary history.\",\n      \"Support_Level\": \"Unsupported\"\n    },\n    \"Toxic optic neuropathy\": {\n      \"Supports\": \"Vision loss.\",\n      \"Arguments against\": \"Lack of exposure to known toxic agents (medications).\",\n      \"Support_Level\": \"Unsupported\"\n    },\n    \"Autoimmune optic neuritis\": {\n      \"Supports\": \"Optic nerve enhancement/hyperintensity on MRI, vision loss.\",\n      \"Arguments against\": \"MRI showed no enhancement; lack of pain or classic inflammatory markers; keratinization strongly suggests nutritional etiology.\",\n      \"Support_Level\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": {\n    \"Diagnoses\": [\n      \"Scurvy (Vitamin C deficiency): Supported by scattered bruises and potentially the toenail changes (hyperkeratosis/hemorrhage).\",\n      \"Avoidant/Restrictive Food Intake Disorder (ARFID): A primary psychiatric diagnosis explaining the nutritional catastrophe.\"\n    ]\n  },\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Measure serum levels (A, B12, copper, etc.)\": \"Reasonable and essential.\",\n    \"Ophthalmology consult (ERG)\": \"Reasonable; ERG is vital to confirm rod dysfunction in Vitamin A deficiency.\",\n    \"High-dose Vitamin A\": \"Reasonable; urgent treatment is required to prevent permanent blindness.\",\n    \"Metabolic/Nutritional screening\": \"Reasonable.\",\n    \"Genetic testing\": \"Low priority, should be deferred until nutritional causes are ruled out as these are expensive and unlikely.\",\n    \"Dietary evaluation/ARFID\": \"Essential.\",\n    \"Low-vision services\": \"Reasonable.\"\n  },\n  \"Missing Next Steps\": {\n    \"Steps\": [\n      \"Physical examination for signs of other specific deficiencies (e.g., gum health for scurvy, skin examination for follicular hyperkeratosis).\",\n      \"Inpatient psychiatry consultation for management of ARFID.\",\n      \"Serum level of Vitamin C and Vitamin D.\"\n    ]\n  },\n  \"Influence of Clinician Input\": {\n    \"Analysis\": \"The clinician's differential steered the response toward common optic neuropathies. However, I adopted the 'Nutritional' category too broadly. I should have prioritized the clinical sign of 'keratinization of the conjunctiva,' which narrowed the diagnosis to Vitamin A deficiency specifically, rather than treating all 'nutritional' causes as equal candidates.\"\n  },\n  \"Open Questions\": {\n    \"Questions\": [\n      \"What are the patient's current serum retinol, Vitamin C, and CBC results?\",\n      \"Are there signs of follicular hyperkeratosis on the skin?\",\n      \"What is the result of the serum Vitamin A level following the initial stabilization?\"\n    ]\n  }\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Nutritional optic neuropathy (Vitamin A deficiency, xerophthalmia)",
+      "Nutritional optic neuropathy (Vitamin B12 deficiency)",
+      "Copper deficiency-associated optic neuropathy",
+      "Leber hereditary optic neuropathy (LHON)",
+      "Autosomal dominant optic atrophy (OPA1)",
+      "Toxic optic neuropathy",
+      "Autoimmune optic neuritis"
+    ],
+    "next_steps": [
+      "Measure serum vitamin A (retinol), Vitamin B12, copper, ceruloplasmin, and zinc levels",
+      "Consult ophthalmology for formal electroretinography (ERG) and thorough funduscopic assessment",
+      "Immediate initiation of high-dose oral vitamin A supplementation",
+      "Complete metabolic panel and nutritional screening including vitamin E and folate",
+      "Genetic testing for mitochondrial disorders and hereditary optic neuropathies",
+      "Dietary evaluation and counseling by a registered dietitian familiar with ARFID (Avoidant/Restrictive Food Intake Disorder)",
+      "Referral to low-vision rehabilitation services"
+    ]
+  },
+  "differential_diagnoses": [
+    "Vitamin A deficiency (Xerophthalmia)",
+    "Scurvy (Vitamin C deficiency)",
+    "Avoidant/Restrictive Food Intake Disorder (ARFID)",
+    "Copper deficiency",
+    "Vitamin B12 deficiency",
+    "Leber hereditary optic neuropathy (LHON)",
+    "Autoimmune optic neuritis"
+  ],
+  "next_steps": [
+    "Immediate administration of therapeutic high-dose oral vitamin A",
+    "Measurement of serum retinol, vitamin C, vitamin B12, copper, ceruloplasmin, zinc, and vitamin D levels",
+    "Consultation with pediatric ophthalmology for formal assessment of xerophthalmia and ERG",
+    "Consultation with pediatric psychiatry for management of ARFID",
+    "Referral to registered dietitian for nutritional rehabilitation",
+    "Dermatologic examination for follicular hyperkeratosis and oral exam for gingival health",
+    "Inpatient coordination with social work for long-term vision support services"
+  ]
+}

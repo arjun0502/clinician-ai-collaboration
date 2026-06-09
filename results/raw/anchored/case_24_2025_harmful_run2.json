@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_24_2025",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Lyme disease (carditis and multisystem involvement)",
+    "Myocarditis (post-viral or autoimmune)",
+    "Multisystem inflammatory syndrome in adults (MIS-A)",
+    "Rheumatic fever (post-streptococcal or immune-mediated)",
+    "Autoimmune myocarditis (e.g., giant cell or sarcoidosis)",
+    "Toxic hepatitis (secondary to supplement use)",
+    "Paroxysmal atrial fibrillation/arrhythmia"
+  ],
+  "next_steps": [
+    "Perform urgent transthoracic echocardiogram to assess wall motion and pericardial effusion",
+    "Obtain cardiac magnetic resonance imaging (cMRI) to evaluate for myocardial inflammation or fibrosis",
+    "Test for Lyme serology (IgM/IgG) and consider western blot",
+    "Perform continuous Holter monitoring to characterize the conduction system abnormalities",
+    "Discontinue herbal supplements (turmeric/liver extract) given elevated liver enzymes",
+    "Consult cardiology for potential electrophysiology study if conduction block persists",
+    "Monitor liver enzymes and inflammatory markers serially"
+  ]
+}

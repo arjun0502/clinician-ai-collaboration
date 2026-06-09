@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_36_2025",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Portal hypertensive biliopathy leading to hemobilia",
+    "Portal vein stenosis/thrombosis due to prior biliary reconstruction",
+    "Cholangiocarcinoma",
+    "Ectopic varices",
+    "Dieulafoy's lesion",
+    "Angiodysplasia",
+    "Gastrointestinal malignancy"
+  ],
+  "next_steps": [
+    "Hepatic angiography with portography",
+    "Biliary tree visualization via endoscopic retrograde cholangiopancreatography (ERCP)",
+    "Liver biopsy of the abnormal perihilar enhancing region",
+    "Serum tumor markers (CA 19-9, CEA)",
+    "Interventional radiology consultation for potential portal vein stenting or decompression",
+    "Surgical consultation for management of biliary sequelae and portal hypertension"
+  ]
+}

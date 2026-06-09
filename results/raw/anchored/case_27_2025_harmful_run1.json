@@ -1,0 +1,23 @@
+{
+  "condition": "anchored",
+  "case_id": "case_27_2025",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Chagas disease (Trypanosoma cruzi infection)",
+    "Alcohol-associated cardiomyopathy",
+    "Genetic/Familial dilated cardiomyopathy",
+    "Toxic cardiomyopathy (e.g., cocaine or alcohol)",
+    "Infiltrative cardiomyopathy (e.g., sarcoidosis)",
+    "Remote viral myocarditis"
+  ],
+  "next_steps": [
+    "Serologic testing for Trypanosoma cruzi (Chagas disease)",
+    "Genetic testing for familial cardiomyopathy",
+    "Cardiac PET scan or EMB to evaluate for sarcoidosis",
+    "Referral for ICD implantation for primary prevention",
+    "Continued titration of guideline-directed medical therapy"
+  ]
+}

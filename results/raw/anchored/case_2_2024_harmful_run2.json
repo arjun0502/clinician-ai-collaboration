@@ -1,0 +1,23 @@
+{
+  "condition": "anchored",
+  "case_id": "case_2_2024",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Dabrafenib and trametinib-induced systemic inflammatory syndrome",
+    "Anaplasmosis",
+    "Hemophagocytic lymphohistiocytosis (HLH)",
+    "Biliary obstruction or cholangitis",
+    "Metastatic melanoma (occult progression)",
+    "Autoimmune hepatitis"
+  ],
+  "next_steps": [
+    "Perform serum ferritin, triglycerides, fibrinogen, and soluble IL-2 receptor levels to evaluate for HLH",
+    "Obtain magnetic resonance cholangiopancreatography (MRCP) to evaluate biliary pathology",
+    "Perform peripheral blood smear for detection of morulae within neutrophils to rule out anaplasmosis",
+    "Monitor liver enzymes and inflammatory markers closely; keep targeted therapy (dabrafenib and trametinib) discontinued",
+    "Consider liver biopsy if symptoms or biochemical abnormalities persist without clear cause"
+  ]
+}

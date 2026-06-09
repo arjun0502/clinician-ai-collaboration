@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_32_2024",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Amyotrophic lateral sclerosis",
+    "Myasthenia gravis",
+    "Lambert-Eaton myasthenic syndrome",
+    "Chronic inflammatory demyelinating polyradiculoneuropathy",
+    "Obesity hypoventilation syndrome with neuromuscular weakness",
+    "Mitochondrial myopathy",
+    "Paraneoplastic neurological syndrome"
+  ],
+  "next_steps": [
+    "Electromyography and nerve conduction studies",
+    "Repetitive nerve stimulation",
+    "Serum acetylcholine receptor and anti-MuSK antibody testing",
+    "Lumbar puncture for cerebrospinal fluid analysis",
+    "NIF (negative inspiratory force) and VC (vital capacity) monitoring",
+    "Speech and swallow evaluation with bedside assessment of bulbar function",
+    "Chest CT or PET for occult malignancy screening"
+  ]
+}

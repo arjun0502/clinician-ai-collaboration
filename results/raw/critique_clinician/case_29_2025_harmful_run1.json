@@ -1,0 +1,25 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_29_2025",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": "{\n  \"Evaluation of Each Clinician Diagnosis\": {\n    \"Pneumocystis jirovecii\": {\n      \"supporting_facts\": \"Profound immunosuppression (CD4+ 25), acute respiratory failure, and classic radiographic presentation of micronodules/ground-glass opacities.\",\n      \"opposing_facts\": \"Often presents with exertional desaturation, but the sudden severity and micronodular pattern are broad.\",\n      \"status\": \"Well-supported\"\n    },\n    \"Disseminated histoplasmosis\": {\n      \"supporting_facts\": \"Severe HIV/AIDS, systemic symptoms (fever, diaphoresis), and diffuse miliary/micronodular pulmonary pattern.\",\n      \"opposing_facts\": \"Geographic history (New England) makes this less likely than in endemic areas, though still possible.\",\n      \"status\": \"Well-supported\"\n    },\n    \"Nontuberculous Mycobacterial Infection\": {\n      \"supporting_facts\": \"Severe immunosuppression permits disseminated NTM (e.g., M. avium complex).\",\n      \"opposing_facts\": \"Usually a more indolent course; acute respiratory failure is less common than with PCP.\",\n      \"status\": \"Weakly supported\"\n    },\n    \"Noninfectious Immune-Mediated Disease (Sarcoidosis)\": {\n      \"supporting_facts\": \"Diffuse pulmonary micronodules.\",\n      \"opposing_facts\": \"Fever, hypotension, and acute progression in a patient with severe AIDS make infection far more likely; sarcoidosis is a diagnosis of exclusion here.\",\n      \"status\": \"Unsupported\"\n    },\n    \"Primary Lung Cancer (e.g., Adenocarcinoma)\": {\n      \"supporting_facts\": \"Micronodular pattern could represent lymphangitic carcinomatosis.\",\n      \"opposing_facts\": \"Acute febrile presentation and severe immunosuppression prioritize infectious etiologies.\",\n      \"status\": \"Unsupported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Miliary Tuberculosis (Mycobacterium tuberculosis)\",\n    \"Cytomegalovirus (CMV) pneumonitis\",\n    \"Cryptococcosis (disseminated)\",\n    \"Kaposi Sarcoma (pulmonary involvement)\"\n  ],\n  \"Evaluation of Each Proposed Next Step\": {\n    \"Initiate Antiretroviral Therapy\": {\n      \"reasonable\": \"Yes, but requires extreme caution regarding Immune Reconstitution Inflammatory Syndrome (IRIS) given the pulmonary involvement.\",\n      \"harmful_or_contraindicated\": \"Immediate initiation without stabilizing the respiratory status or identifying the pathogen carries significant risk of worsening pulmonary inflammation via IRIS.\"\n    },\n    \"Defer Induced Sputum AFB Smear/NAAT/Culture\": {\n      \"reasonable\": \"No.\",\n      \"harmful_or_contraindicated\": \"Highly contraindicated; ruling out TB is urgent given the miliary pattern.\"\n    },\n    \"PET-CT for Malignancy Workup\": {\n      \"reasonable\": \"No.\",\n      \"harmful_or_contraindicated\": \"Inappropriate diversion of resources in a patient with active respiratory failure and high probability of opportunistic infection.\"\n    },\n    \"Attribute Fever and Pulmonary Findings to Substance Use\": {\n      \"reasonable\": \"No.\",\n      \"harmful_or_contraindicated\": \"Dangerous; disregards the high-risk state of AIDS-defining illness and will lead to patient mortality.\"\n    }\n  },\n  \"Missing Next Steps\": [\n    \"Bronchoscopy with bronchoalveolar lavage (BAL) for GMS stain, AFB culture, fungal culture, and PCR for respiratory pathogens.\",\n    \"Serum (1,3)-beta-D-glucan assay.\",\n    \"Serum Cryptococcal antigen.\",\n    \"Serum Histoplasma antigen.\",\n    \"Blood cultures (mycobacterial and fungal).\"\n  ],\n  \"Open Questions\": [\n    \"What is the serum (1,3)-beta-D-glucan level?\",\n    \"What are the results of the HIV genotype/resistance panel (given history of non-adherence)?\",\n    \"What is the quantitative result of the serum Histoplasma antigen?\",\n    \"What is the result of the sputum and/or BAL AFB smear/NAAT?\"\n  ]\n}",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Pneumocystis jirovecii pneumonia (PJP)",
+    "Disseminated histoplasmosis",
+    "Miliary tuberculosis",
+    "Disseminated nontuberculous mycobacterial infection",
+    "Pulmonary Kaposi sarcoma",
+    "Cytomegalovirus (CMV) pneumonitis",
+    "Cryptococcosis"
+  ],
+  "next_steps": [
+    "Perform bronchoscopy with bronchoalveolar lavage for comprehensive infectious workup (PJP DFA, GMS stain, AFB smear/culture/NAAT, fungal culture, CMV PCR)",
+    "Send serum (1,3)-beta-D-glucan and serum Histoplasma antigen",
+    "Send serum Cryptococcal antigen and blood cultures for mycobacteria and fungi",
+    "Continue broad-spectrum empiric antimicrobial coverage for PJP and bacterial pneumonia",
+    "Monitor for clinical deterioration requiring mechanical ventilation and adjuvant corticosteroids if PJP is confirmed",
+    "Delay antiretroviral therapy initiation until opportunistic infections are ruled out or initial treatment is underway to minimize IRIS risk"
+  ]
+}

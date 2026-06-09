@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_35_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Rocky Mountain spotted fever",
+    "IgA vasculitis",
+    "Kawasaki disease",
+    "Meningococcemia",
+    "Multisystem inflammatory syndrome in children (MIS-C)",
+    "Enteroviral exanthem",
+    "Adenovirus infection"
+  ],
+  "next_steps": [
+    "Initiate empiric treatment with doxycycline",
+    "Obtain blood cultures and start empiric intravenous antibiotics (e.g., ceftriaxone)",
+    "Perform CBC with differential, inflammatory markers (CRP, ESR), and coagulation studies",
+    "Perform echocardiography to evaluate for coronary artery involvement",
+    "Dermatology consultation for skin biopsy with H&E and direct immunofluorescence",
+    "Ophthalmology consultation for detailed slit-lamp examination",
+    "Serum testing for Rickettsia rickettsii antibodies and PCR"
+  ]
+}

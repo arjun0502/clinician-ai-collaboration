@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_2_2025",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Posterior Reversible Encephalopathy Syndrome (PRES)",
+    "Sickle cell\u2013related cerebral vasculopathy",
+    "Metabolic encephalopathy (e.g., uremic or related to opioid/medication side effects)",
+    "Cerebral fat embolism syndrome",
+    "Infectious encephalitis (e.g., meningitis or cerebritis)",
+    "Hypertensive emergency",
+    "Autoimmune or inflammatory cerebritis"
+  ],
+  "next_steps": [
+    "Strict blood pressure control",
+    "Perform lumbar puncture for CSF analysis (to rule out infection and inflammatory processes)",
+    "Perform comprehensive serum laboratory workup including renal function, electrolytes, magnesium, and toxicology",
+    "Continuous EEG monitoring",
+    "Discontinue or adjust medications that could contribute to neurotoxicity or vasogenic edema",
+    "Neurology and hematology consultation for management of sickle cell\u2013associated neurologic complications"
+  ]
+}

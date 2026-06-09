@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_15_2024",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "S\u00e9zary syndrome",
+    "Erythrodermic psoriasis",
+    "Kaposi's varicelliform eruption (eczema herpeticum) superinfected with Pseudomonas",
+    "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+    "Adult T-cell leukemia/lymphoma (ATLL)",
+    "Paraneoplastic erythroderma secondary to lung malignancy",
+    "Cutaneous T-cell lymphoma (Mycosis fungoides)"
+  ],
+  "next_steps": [
+    "Perform repeat deep punch biopsies or excisional lymph node biopsy for flow cytometry, immunohistochemistry (CD3, CD4, CD8, CD7, CD30), and T-cell receptor gene rearrangement studies",
+    "Obtain peripheral blood flow cytometry for S\u00e9zary cell quantification",
+    "Obtain biopsy of the pulmonary mass via CT-guided core needle biopsy or bronchoscopy",
+    "Review systemic medication list for potential DRESS-inducing agents",
+    "Continue targeted antimicrobial therapy for Pseudomonas aeruginosa and HSV based on culture and PCR results",
+    "Consult hematology/oncology and dermatology for multidisciplinary management"
+  ]
+}

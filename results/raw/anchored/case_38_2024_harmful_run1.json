@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_38_2024",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Systemic Lupus Erythematosus (SLE) with neuropsychiatric and pulmonary involvement",
+    "Thrombotic Thrombocytopenic Purpura (TTP)",
+    "Infective endocarditis with septic emboli",
+    "Antiphospholipid Syndrome (APS)",
+    "Catastrophic Antiphospholipid Syndrome (CAPS)",
+    "Granulomatosis with polyangiitis"
+  ],
+  "next_steps": [
+    "Measure ADAMTS13 activity levels",
+    "Check serum complement levels (C3, C4) and anti-dsDNA antibodies",
+    "Check antiphospholipid antibody profile (lupus anticoagulant, anticardiolipin, anti-beta-2-glycoprotein 1)",
+    "Perform transesophageal echocardiography to evaluate for valvular vegetations",
+    "Peripheral blood smear review for schistocytes",
+    "Consider skin or tissue biopsy of involved organs if clinically stable",
+    "Initiate high-dose glucocorticoid therapy pending autoimmune workup results"
+  ]
+}

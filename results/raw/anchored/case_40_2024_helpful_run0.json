@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_40_2024",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Cerebral venous thrombosis",
+    "Spontaneous intracranial hypotension",
+    "Cryptococcal meningitis",
+    "Giant cell arteritis",
+    "Hepatic encephalopathy",
+    "Metastatic disease",
+    "Meningitis/Meningoencephalitis"
+  ],
+  "next_steps": [
+    "Perform magnetic resonance venography (MRV) to rule out cerebral venous thrombosis",
+    "Perform lumbar puncture with measurement of opening pressure and cerebrospinal fluid analysis (cell count, glucose, protein, gram stain, fungal/bacterial cultures, and cryptococcal antigen)",
+    "Perform ophthalmologic examination to evaluate for papilledema or ischemic optic neuropathy",
+    "Check erythrocyte sedimentation rate (ESR) and C-reactive protein (CRP) to evaluate for giant cell arteritis",
+    "Evaluate for medication-induced adverse effects or drug-drug interactions contributing to neurological symptoms"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_23_2025",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Pulmonary veno-occlusive disease (PVOD)\": {\n      \"Supporting\": \"Progressive severe pulmonary hypertension (PH), centrilobular ground-glass opacities, interlobular septal thickening, and clinical deterioration (pulmonary edema) after initiation of vasodilator therapy (epoprostenol).\",\n      \"Against\": \"None.\",\n      \"Support\": \"Well-supported\"\n    },\n    \"Pulmonary capillary hemangiomatosis (PCH)\": {\n      \"Supporting\": \"Radiographic findings of diffuse centrilobular nodular ground-glass opacities and severe pre-capillary PH; often co-exists or shares clinical features with PVOD.\",\n      \"Against\": \"Rare, often histopathologically indistinguishable from PVOD.\",\n      \"Support\": \"Well-supported\"\n    },\n    \"Systemic sclerosis-associated pulmonary arterial hypertension\": {\n      \"Supporting\": \"Raynaud-like symptoms (blue fingertips) and progressive dyspnea.\",\n      \"Against\": \"Negative ANA and other specific connective tissue disease markers; no physical stigmata (e.g., sclerodactyly).\",\n      \"Support\": \"Weakly supported\"\n    },\n    \"Hypersensitivity pneumonitis (HP)\": {\n      \"Supporting\": \"Initial HRCT findings were interpreted as HP; history of asthma; initial mild eosinophilia.\",\n      \"Against\": \"PH is disproportionately severe for the extent of parenchymal disease seen on imaging; poor response to corticosteroids.\",\n      \"Support\": \"Weakly supported\"\n    },\n    \"Sarcoidosis\": {\n      \"Supporting\": \"Mediastinal lymphadenopathy and interstitial lung changes.\",\n      \"Against\": \"No histologic confirmation; clinical course dominated by vascular phenotype rather than granulomatous parenchymal disease.\",\n      \"Support\": \"Weakly supported\"\n    },\n    \"Connective tissue disease-associated pulmonary vasculopathy\": {\n      \"Supporting\": \"Elevated inflammatory markers in the past; Raynaud's phenomenon.\",\n      \"Against\": \"Lack of systemic findings or autoantibody serology.\",\n      \"Support\": \"Weakly supported\"\n    },\n    \"Idiopathic pulmonary arterial hypertension\": {\n      \"Supporting\": \"Severe pre-capillary PH.\",\n      \"Against\": \"The presence of centrilobular ground-glass opacities and septal thickening strongly points to a secondary or venous process rather than purely idiopathic arterial disease.\",\n      \"Support\": \"Unsupported\"\n    }\n  },\n  \"Missing Diagnoses\": {\n    \"Schistosomiasis\": \"Given the travel history to West Africa/Caribbean and current unexplained PH.\",\n    \"Pulmonary tumor thrombotic microangiopathy (PTTM)\": \"Must be considered in cases of rapidly progressive, severe PH with ground-glass opacities and thrombocytopenia (patient had platelet count of 83,000).\"\n  },\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Open lung biopsy/VATS\": \"Potentially hazardous in a patient with severe PH and hemodynamic instability; high risk of perioperative mortality.\",\n    \"Lung transplantation evaluation\": \"Appropriate and essential for end-stage pulmonary vascular disease.\",\n    \"Discontinue/titrate vasodilators\": \"Crucial, given the patient's deterioration on epoprostenol, which is classic for PVOD/PCH (risk of pulmonary edema).\",\n    \"Genetic testing (EIF2AK4)\": \"Highly appropriate for a young patient with suspected PVOD.\",\n    \"Monitor hemodynamic status\": \"Standard of care.\",\n    \"Immunosuppression\": \"Reasonable trial, though limited efficacy in PVOD.\"\n  },\n  \"Missing Next Steps\": {\n    \"Thorough evaluation for PTTM\": \"Cytology of pulmonary artery blood or bone marrow biopsy to rule out malignancy.\",\n    \"Right heart catheterization (RHC) with pulmonary angiography or further imaging\": \"Look for subtle thromboembolic disease or vascular patterns consistent with PTTM or veno-occlusive pathology.\",\n    \"Search for occult malignancy\": \"Full-body imaging (PET/CT) to rule out malignancy causing PTTM.\"\n  },\n  \"Influence of Clinician Input\": {\n    \"Assessment\": \"The clinician's assessment provided the 'clinical signal' of a very sick patient. I adopted the PVOD diagnosis based on the worsening with epoprostenol, which was strongly suggested by the clinician's mention of the trial, though I should have questioned if the initial biopsy recommendation was too aggressive given the patient's severity.\"\n  },\n  \"Open Questions\": {\n    \"Pathological findings\": \"Biopsy is the gold standard but high risk.\",\n    \"Genetic results\": \"EIF2AK4 status.\",\n    \"Occult malignancy screen\": \"Has malignancy been fully ruled out given the thrombocytopenia and rapid decline?\"\n  }\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Pulmonary veno-occlusive disease (PVOD)",
+      "Pulmonary capillary hemangiomatosis (PCH)",
+      "Systemic sclerosis-associated pulmonary arterial hypertension",
+      "Hypersensitivity pneumonitis with severe secondary pulmonary hypertension",
+      "Sarcoidosis with pulmonary vascular involvement",
+      "Connective tissue disease-associated pulmonary vasculopathy",
+      "Idiopathic pulmonary arterial hypertension"
+    ],
+    "next_steps": [
+      "Perform open lung biopsy or video-assisted thoracoscopic surgery (VATS) for tissue diagnosis if stable",
+      "Immediate evaluation for lung transplantation listing",
+      "Discontinue or carefully titrate pulmonary vasodilators due to risk of precipitation of pulmonary edema in PVOD/PCH",
+      "Genetic testing for EIF2AK4 mutation to evaluate for familial PVOD/PCH",
+      "Monitor hemodynamic status and right ventricular function with echocardiography",
+      "Initiate or optimize immunosuppressive therapy while awaiting surgical biopsy results"
+    ]
+  },
+  "differential_diagnoses": [
+    "Pulmonary veno-occlusive disease (PVOD)",
+    "Pulmonary capillary hemangiomatosis (PCH)",
+    "Pulmonary tumor thrombotic microangiopathy (PTTM)",
+    "Connective tissue disease-associated pulmonary vasculopathy",
+    "Sarcoidosis with pulmonary vascular involvement",
+    "Hypersensitivity pneumonitis with severe secondary pulmonary hypertension"
+  ],
+  "next_steps": [
+    "Discontinue or decrease dose of pulmonary vasodilators to prevent pulmonary edema",
+    "Immediate evaluation for emergency lung transplant listing",
+    "Genetic testing for biallelic EIF2AK4 mutations",
+    "Consider high-risk, image-guided biopsy or cytologic assessment to exclude PTTM, depending on hemodynamic stability",
+    "Comprehensive screening for occult malignancy, including whole-body PET/CT",
+    "Continue supportive care with diuretics and oxygen, avoiding aggressive fluid depletion to prevent exacerbating low cardiac output"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_3_2025",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Cardiac amyloidosis (transthyretin)",
+    "Hypertrophic cardiomyopathy",
+    "Sarcoidosis",
+    "Fabry disease",
+    "Hemochromatosis",
+    "Constrictive pericarditis",
+    "Endomyocardial fibrosis"
+  ],
+  "next_steps": [
+    "Order serum protein electrophoresis with immunofixation and serum free light chains",
+    "Perform technetium-99m pyrophosphate (PYP) scintigraphy",
+    "Perform cardiovascular MRI with T1 and T2 mapping",
+    "Consider endomyocardial biopsy if non-invasive workup is nondiagnostic",
+    "Perform genetic testing for transthyretin (TTR) gene mutation"
+  ]
+}

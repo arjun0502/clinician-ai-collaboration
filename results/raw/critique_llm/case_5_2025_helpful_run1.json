@@ -1,0 +1,44 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_5_2025",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": "{\n  \"evaluation_of_each_diagnosis_you_listed\": {\n    \"Angiostrongylus cantonensis meningitis\": {\n      \"supporting_facts\": \"Travel to Hawaii/Thailand, eosinophilic pleocytosis in CSF, progressive dysesthesia, headache, and confusion.\",\n      \"arguing_against\": \"None; this is the leading hypothesis given the exposure history.\",\n      \"support_level\": \"Well-supported\"\n    },\n    \"Gnathostomiasis\": {\n      \"supporting_facts\": \"Travel to Thailand/Japan, consumption of raw/undercooked foods, peripheral and CSF eosinophilia.\",\n      \"arguing_against\": \"Usually presents with migratory skin swellings or more focal neurological deficits rather than rapid progression to diffuse confusion.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Neurocysticercosis\": {\n      \"supporting_facts\": \"Travel history, confusion, headache.\",\n      \"arguing_against\": \"Typically presents with seizures, hydrocephalus, or parenchymal cysts on CT (which was negative); eosinophilic pleocytosis is rare.\",\n      \"support_level\": \"Unsupported\"\n    },\n    \"Tuberculous meningitis\": {\n      \"supporting_facts\": \"Headache, low CSF glucose, elevated protein, lymphocytic pleocytosis.\",\n      \"arguing_against\": \"Presence of eosinophils in CSF is highly uncharacteristic; clinical course is typically more indolent.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Coccidioidomycosis meningitis\": {\n      \"supporting_facts\": \"Can cause eosinophilic meningitis.\",\n      \"arguing_against\": \"No exposure history to endemic regions (e.g., SW USA); travel history does not overlap.\",\n      \"support_level\": \"Unsupported\"\n    },\n    \"Paraneoplastic encephalomyelitis\": {\n      \"supporting_facts\": \"Dysesthesia, subacute progression, confusion.\",\n      \"arguing_against\": \"Eosinophilia (peripheral and CSF) is not a feature of paraneoplastic syndromes; age of patient.\",\n      \"support_level\": \"Unsupported\"\n    },\n    \"Strongyloides stercoralis hyperinfection\": {\n      \"supporting_facts\": \"Peripheral eosinophilia, travel history, possible secondary meningitis.\",\n      \"arguing_against\": \"Usually occurs in the setting of immunosuppression (e.g., high-dose steroids); patient was previously healthy.\",\n      \"support_level\": \"Weakly supported\"\n    }\n  },\n  \"missing_diagnoses\": [\n    \"Baylisascariasis (unlikely due to geography but causes eosinophilic meningitis)\",\n    \"Drug-induced aseptic meningitis (e.g., NSAIDs/antibiotics, though duration and eosinophils suggest infection)\",\n    \"Leptospirosis (can occur in Hawaii, though eosinophilic meningitis is atypical)\"\n  ],\n  \"evaluation_of_each_next_step_you_proposed\": {\n    \"Send CSF for Angiostrongylus cantonensis PCR\": {\n      \"is_reasonable\": true,\n      \"is_harmful\": false\n    },\n    \"Send serum and CSF for Angiostrongylus cantonensis and Gnathostoma spp. antibody testing\": {\n      \"is_reasonable\": true,\n      \"is_harmful\": false\n    },\n    \"MRI of the brain and spine with contrast\": {\n      \"is_reasonable\": true,\n      \"is_harmful\": false\n    },\n    \"Full infectious disease workup (crypto/VDRL/AFB)\": {\n      \"is_reasonable\": true,\n      \"is_harmful\": false\n    },\n    \"Consider anthelmintic therapy and continuation of corticosteroids\": {\n      \"is_reasonable\": \"Corticosteroids are generally supported for eosinophilic meningitis to reduce inflammation; anthelmintic therapy for A. cantonensis remains controversial due to risk of worsening inflammation from dying larvae.\",\n      \"is_harmful\": false\n    },\n    \"Monitor intracranial pressure\": {\n      \"is_reasonable\": true,\n      \"is_harmful\": false\n    }\n  },\n  \"missing_next_steps\": [\n    \"Detailed dietary recall interview (specifically raw mollusks, slugs, or snails)\",\n    \"Serial lumbar punctures for ICP management if symptoms persist\",\n    \"Repeat CSF analysis for cytology (to rule out occult malignancy)\"\n  ],\n  \"influence_of_clinician_input\": {\n    \"influence_summary\": \"The clinician's differential provided a strong anchor toward eosinophilic meningitis. I adopted 'Angiostrongylus cantonensis' as the top priority because it best explains the convergence of travel history and CSF findings. I accepted the clinician's suspicion of autoimmune/vasculitic processes (EGPA) as a lower-tier consideration but focused primarily on infectious etiologies given the distinct geographic travel.\",\n    \"uncritical_adoption\": \"I relied on the clinician's inclusion of Gnathostomiasis and Coccidioidomycosis without fully vetting the likelihood of the latter based on geographic exposure.\",\n    \"questions_needed\": \"I should have questioned why the clinician included EGPA (Eosinophilic Granulomatosis with Polyangiitis) given the classic infectious travel history.\"\n  },\n  \"open_questions\": [\n    \"Did the patient consume raw garden vegetables, snails, or slugs in Hawaii, which are common vectors for A. cantonensis?\",\n    \"Does the patient have a history of specific food allergies or recent new medication exposures that could cause systemic eosinophilia?\",\n    \"What is the result of the MRI (to look for radiculitis or nerve root enhancement)?\"\n  ]\n}",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Angiostrongylus cantonensis meningitis",
+      "Gnathostomiasis",
+      "Neurocysticercosis",
+      "Tuberculous meningitis",
+      "Coccidioidomycosis meningitis",
+      "Paraneoplastic encephalomyelitis",
+      "Strongyloides stercoralis hyperinfection"
+    ],
+    "next_steps": [
+      "Send CSF for Angiostrongylus cantonensis PCR",
+      "Send serum and CSF for Angiostrongylus cantonensis and Gnathostoma spp. antibody testing",
+      "MRI of the brain and spine with contrast to evaluate for track signs or nerve root enhancement",
+      "Full infectious disease workup including serum and CSF cryptococcal antigen, VDRL, and AFB culture",
+      "Consider anthelmintic therapy and continuation of corticosteroids depending on diagnostic results",
+      "Monitor intracranial pressure and neurological status closely"
+    ]
+  },
+  "differential_diagnoses": [
+    "Angiostrongylus cantonensis meningitis",
+    "Gnathostomiasis",
+    "Eosinophilic granulomatosis with polyangiitis",
+    "Tuberculous meningitis",
+    "Neurocysticercosis",
+    "Strongyloides stercoralis hyperinfection",
+    "Drug-induced aseptic meningitis"
+  ],
+  "next_steps": [
+    "Send CSF for Angiostrongylus cantonensis NAAT/PCR",
+    "Send serum and CSF for Angiostrongylus cantonensis and Gnathostoma spp. antibody testing",
+    "MRI of brain and spine with gadolinium to assess for nerve root enhancement or track signs",
+    "Continue corticosteroids and maintain close monitoring of intracranial pressure",
+    "Perform detailed dietary history interview focusing on ingestion of raw or undercooked mollusks, slugs, or contaminated produce in Hawaii and Thailand",
+    "Repeat lumbar puncture if clinical deterioration occurs for cell counts and to relieve intracranial pressure",
+    "Perform comprehensive infectious disease serologies and cultures (cryptococcal antigen, AFB, VDRL, and fungal studies)"
+  ]
+}

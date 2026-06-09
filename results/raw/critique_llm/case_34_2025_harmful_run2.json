@@ -1,0 +1,42 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_34_2025",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Cerebral Amyloid Angiopathy-related inflammation (CAA-ri)\": {\n      \"Supporting Facts\": \"Age (57), fluctuating neurologic deficits, T1 hyperintensities, T2/FLAIR abnormalities, and MRI findings of superficial siderosis or subarachnoid hemorrhage (presumed).\",\n      \"Against/Inconsistent\": \"The initial presentation at 55 is relatively young for typical sporadic CAA, though consistent with the inflammatory variant (CAA-ri).\",\n      \"Support Level\": \"Well-supported\"\n    },\n    \"Primary Angiitis of the Central Nervous System (PACNS)\": {\n      \"Supporting Facts\": \"Headaches, seizures, multifocal CNS abnormalities, and progressive cognitive/neurologic decline.\",\n      \"Against/Inconsistent\": \"CSF is remarkably bland (only 1 nucleated cell), which is atypical for PACNS, which usually shows elevated protein and/or pleocytosis.\",\n      \"Support Level\": \"Weakly supported\"\n    },\n    \"Leptomeningeal metastases\": {\n      \"Supporting Facts\": \"Nodular leptomeningeal enhancement/hyperintensity on MRI, multi-focal nature of lesions, and subacute progression.\",\n      \"Against/Inconsistent\": \"Negative CSF cytology and flow cytometry on multiple occasions; lack of constitutional symptoms.\",\n      \"Support Level\": \"Weakly supported\"\n    },\n    \"Sarcoidosis\": {\n      \"Supporting Facts\": \"Leptomeningeal enhancement, potential for cranial nerve involvement (vocal cord palsy).\",\n      \"Against/Inconsistent\": \"Absence of systemic signs (hilar adenopathy, pulmonary involvement), normal CSF protein.\",\n      \"Support Level\": \"Weakly supported\"\n    },\n    \"IgG4-related disease\": {\n      \"Supporting Facts\": \"Nodular leptomeningeal involvement, progressive nature, can mimic malignancies/vasculitis.\",\n      \"Against/Inconsistent\": \"No specific evidence of organ enlargement or characteristic elevated serum IgG4 (not reported).\",\n      \"Support Level\": \"Weakly supported\"\n    },\n    \"Neurosyphilis\": {\n      \"Supporting Facts\": \"Presents as 'the great imitator' with diverse neurologic and ophthalmic signs.\",\n      \"Against/Inconsistent\": \"Normal CSF protein and cell count.\",\n      \"Support Level\": \"Unsupported\"\n    },\n    \"Tuberculous meningitis\": {\n      \"Supporting Facts\": \"Basilar/leptomeningeal involvement, chronic course.\",\n      \"Against/Inconsistent\": \"Patient lacks fever, night sweats, weight loss; CSF is not consistent (normal glucose and cell count).\",\n      \"Support Level\": \"Unsupported\"\n    }\n  },\n  \"Missing Diagnoses\": {\n    \"Diagnoses\": [\n      \"Metastatic Melanoma (given father's history and potential for occult primary)\",\n      \"CLIPPERS (Chronic Lymphocytic Inflammation with Pontine Perivascular Enhancement Responsive to Steroids)\",\n      \"Meningeal biopsy-proven isolated CNS angiitis (mimic of CAA-ri)\",\n      \"Primary CNS Lymphoma (PCNSL) (can be paucicellular in CSF)\"\n    ]\n  },\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Brain/leptomeningeal biopsy\": {\n      \"Reasonable\": \"Highly reasonable; this is the gold standard for defining the inflammatory or malignant process.\",\n      \"Harmful/Contraindicated\": \"Not contraindicated; however, requires careful site selection given multifocality.\"\n    },\n    \"Comprehensive CSF analysis\": {\n      \"Reasonable\": \"Necessary, though results have been consistently negative so far.\",\n      \"Harmful/Contraindicated\": \"None.\"\n    },\n    \"Vessel wall imaging\": {\n      \"Reasonable\": \"Excellent to differentiate vasculitis from atherosclerosis or secondary vasculopathy.\",\n      \"Harmful/Contraindicated\": \"None.\"\n    },\n    \"Systemic malignancy workup\": {\n      \"Reasonable\": \"Crucial given father's history of melanoma and the multifocal 'nodular' MRI appearance.\",\n      \"Harmful/Contraindicated\": \"None.\"\n    },\n    \"Trial of corticosteroids\": {\n      \"Reasonable\": \"Reasonable if biopsy is delayed or high-risk, especially if suspicion for CAA-ri is high.\",\n      \"Harmful/Contraindicated\": \"Risk of obscuring histopathologic diagnosis if biopsy is performed after initiation.\"\n    }\n  },\n  \"Missing Next Steps\": {\n    \"Steps\": [\n      \"Brain MRI with gadolinium to characterize enhancement pattern (nodular vs. leptomeningeal)\",\n      \"Dermatologic evaluation to screen for occult melanoma\",\n      \"Serum markers for autoimmune/inflammatory conditions (ANCA, ACE, IgG4 levels)\"\n    ]\n  },\n  \"Influence of Clinician Input\": {\n    \"Analysis\": \"The clinician's assessment focused heavily on inflammatory and autoimmune etiologies, which steered my differential toward vasculitis and IgG4 disease. I adopted the 'biopsy' recommendation as a primary step, as the clinician's suggestion to 'defer' it seemed overly conservative given the diagnostic stalemate and progressive neurological decline.\"\n  },\n  \"Open Questions\": {\n    \"Questions\": [\n      \"What is the pattern of enhancement on post-gadolinium MRI (specifically looking for dural vs. leptomeningeal)?\",\n      \"Are there serum markers available for auto-antibodies (e.g., anti-GFAP, anti-MOG)?\",\n      \"Has a whole-body PET scan been performed to rule out systemic occult malignancy?\"\n    ]\n  }\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Cerebral Amyloid Angiopathy-related inflammation (CAA-ri)",
+      "Primary Angiitis of the Central Nervous System (PACNS)",
+      "Leptomeningeal metastases (e.g., primary CNS lymphoma or occult carcinoma)",
+      "Sarcoidosis",
+      "IgG4-related ophthalmic or meningeal disease",
+      "Neurosyphilis",
+      "Tuberculous meningitis"
+    ],
+    "next_steps": [
+      "Brain and leptomeningeal biopsy to evaluate for vasculitis, amyloid-beta, or malignancy",
+      "Comprehensive CSF analysis including cytology, flow cytometry, oligoclonal bands, IgG index, and infectious workup",
+      "MRI venography and high-resolution vessel wall imaging",
+      "Systemic evaluation for malignancy (e.g., CT chest/abdomen/pelvis, PET scan)",
+      "Consider trial of corticosteroids if biopsy is high-risk or pending"
+    ]
+  },
+  "differential_diagnoses": [
+    "Cerebral Amyloid Angiopathy-related inflammation (CAA-ri)",
+    "Primary CNS Lymphoma (PCNSL)",
+    "Metastatic Melanoma (leptomeningeal carcinomatosis)",
+    "Primary Angiitis of the Central Nervous System (PACNS)",
+    "CLIPPERS (Chronic Lymphocytic Inflammation with Pontine Perivascular Enhancement Responsive to Steroids)",
+    "IgG4-related ophthalmic and meningeal disease",
+    "Sarcoidosis"
+  ],
+  "next_steps": [
+    "Brain and leptomeningeal biopsy of a representative nodular lesion",
+    "Brain MRI with high-resolution vessel wall imaging and gadolinium contrast",
+    "Serum evaluation for IgG4 levels, ANCA, ACE, and paraneoplastic/autoimmune panels",
+    "Full-body PET/CT to evaluate for systemic occult malignancy (specifically melanoma)",
+    "Dermatologic examination for occult melanoma",
+    "Comprehensive CSF analysis including repeated cytology, flow cytometry, and paraneoplastic markers"
+  ]
+}

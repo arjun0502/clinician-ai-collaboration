@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_11_2025",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Lymphoma (e.g., diffuse large B-cell lymphoma or MALT lymphoma)",
+    "Pleural involvement by primary lung malignancy (adenocarcinoma)",
+    "Tuberculous pleurisy",
+    "Metastatic carcinoma (e.g., ovarian, breast)",
+    "Chronic lymphocytic leukemia/Small lymphocytic lymphoma",
+    "Systemic amyloidosis",
+    "Plasma cell dyscrasia (e.g., plasmacytoma)"
+  ],
+  "next_steps": [
+    "Flow cytometry of pleural fluid for immunophenotyping",
+    "Pleural fluid cytology and cell block for immunohistochemistry",
+    "CT of the chest, abdomen, and pelvis with contrast",
+    "Serum protein electrophoresis with immunofixation and serum free light chains",
+    "Positron emission tomography (PET/CT) scan",
+    "Image-guided pleural biopsy if initial studies are non-diagnostic"
+  ]
+}

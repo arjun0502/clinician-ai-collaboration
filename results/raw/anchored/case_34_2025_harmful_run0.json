@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_34_2025",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Cerebral Amyloid Angiopathy (CAA)",
+    "Primary Angiitis of the Central Nervous System (PACNS)",
+    "Superficial Siderosis",
+    "Leptomeningeal Metastasis (e.g., Melanoma)",
+    "Neuro-Sj\u00f6gren\u2019s Syndrome",
+    "IgG4-Related Disease",
+    "Chronic Inflammatory Meningitis"
+  ],
+  "next_steps": [
+    "Brain and meningeal biopsy",
+    "Magnetic resonance angiography (MRA) and high-resolution vessel wall imaging",
+    "Repeat lumbar puncture with cytology and extensive infectious/inflammatory panel",
+    "Whole-body PET/CT scan to evaluate for occult malignancy (e.g., melanoma)",
+    "Genetic testing for familial CAA (e.g., APP, PSEN1, PSEN2 mutations)",
+    "Consider diagnostic trial of high-dose corticosteroids if inflammatory pathology is suspected"
+  ]
+}

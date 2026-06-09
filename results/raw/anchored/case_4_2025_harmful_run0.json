@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_4_2025",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Sarcoidosis",
+    "Lymphoma (e.g., Hodgkin or Non-Hodgkin)",
+    "Bartonellosis (Cat-scratch disease)",
+    "Tuberculosis",
+    "Histoplasmosis",
+    "Systemic Lupus Erythematosus",
+    "Reactive arthritis"
+  ],
+  "next_steps": [
+    "Endobronchial ultrasound-guided transbronchial needle aspiration (EBUS-TBNA) of mediastinal/hilar lymph nodes",
+    "Serum angiotensin-converting enzyme (ACE) and soluble interleukin-2 receptor levels",
+    "Biopsy of cutaneous lesions on the ankles",
+    "Assessment of inflammatory markers (ESR, CRP)",
+    "Ophthalmologic examination for uveitis",
+    "PET-CT scan to guide biopsy targets and assess systemic involvement",
+    "Comprehensive infectious disease workup (Bartonella serology/PCR, fungal cultures, QuantiFERON-TB Gold)"
+  ]
+}

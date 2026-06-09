@@ -1,0 +1,25 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_2_2026",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Clinician Diagnosis\": {\n    \"Endocarditis with septic emboli\": {\n      \"Supporting facts\": \"Fever, leukocytosis, multisystem involvement (lung, eye, liver, CNS), potential for embolic phenomena.\",\n      \"Arguments against\": \"Transthoracic echocardiography showed no valvular vegetations, although sensitivity is lower than transesophageal echocardiography (TEE).\",\n      \"Support level\": \"Weakly supported\"\n    },\n    \"Disseminated hypervirulent Klebsiella pneumoniae\": {\n      \"Supporting facts\": \"Classic presentation: hepatic abscess, lung nodules/cavitary lesions, and endophthalmitis (the 'Klebsiella metastatic infection syndrome').\",\n      \"Arguments against\": \"None; this is the leading hypothesis given the constellation of clinical findings.\",\n      \"Support level\": \"Well-supported\"\n    },\n    \"Disseminated fungal infection\": {\n      \"Supporting facts\": \"Cavitary lung lesions, ocular involvement, and systemic symptoms.\",\n      \"Arguments against\": \"Acute onset of symptoms over 3 weeks is more typical of bacterial rather than chronic fungal processes (though not impossible for invasive Candida or Aspergillus).\",\n      \"Support level\": \"Weakly supported\"\n    },\n    \"Mycobacterial infection\": {\n      \"Supporting facts\": \"Weight loss, chronic cough, and nodular/cavitary pulmonary findings.\",\n      \"Arguments against\": \"The clinical progression is too rapid; the severe hepatic involvement and sudden-onset endophthalmitis are more characteristic of aggressive bacterial infection.\",\n      \"Support level\": \"Weakly supported\"\n    },\n    \"Infective Endocarditis\": {\n      \"Supporting facts\": \"Redundant with 'Endocarditis with septic emboli' above.\",\n      \"Arguments against\": \"As noted above, echocardiogram was negative.\",\n      \"Support level\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Melioidosis (Burkholderia pseudomallei) - especially given tropical origin/history, though less likely in a US resident.\",\n    \"Nocardiosis - often presents with cavitary pulmonary disease, brain abscesses, and soft tissue involvement.\",\n    \"Metastatic malignancy - must be excluded as the hepatic mass could be a primary or secondary tumor with hemorrhagic/infectious complications.\"\n  ],\n  \"Evaluation of Each Proposed Next Step\": {\n    \"Order CT chest/abdomen/pelvis with IV contrast\": {\n      \"Reasonable\": \"Yes, already performed in the vignette, and critical for identifying the primary source.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"Order MRI brain + orbits with contrast\": {\n      \"Reasonable\": \"Yes, essential for evaluating the ocular involvement and CNS embolic events.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"Obtain microbiology (blood cultures, sputum cultures)\": {\n      \"Reasonable\": \"Yes, mandatory for definitive diagnosis.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"Order echocardiography\": {\n      \"Reasonable\": \"Yes, but TEE is required if suspicion for endocarditis remains high, as TTE has low sensitivity.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    }\n  },\n  \"Missing Next Steps\": [\n    \"Transesophageal echocardiography (TEE) to rule out endocarditis.\",\n    \"Ophthalmology consultation for vitreous tap/biopsy to identify the causative organism via Gram stain and culture.\",\n    \"Interventional Radiology consultation for biopsy/drainage of the hepatic mass.\",\n    \"Serum diagnostic tests (e.g., cryptococcal antigen, Histoplasma antigen, Beta-D-glucan) if fungal pathogens remain a concern.\"\n  ],\n  \"Open Questions\": [\n    \"What are the results of the final blood and sputum cultures?\",\n    \"What are the results of a TEE?\",\n    \"What is the histopathology of the liver lesion?\",\n    \"What is the result of the vitreous fluid analysis?\"\n  ]\n}\n```",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Hypervirulent Klebsiella pneumoniae (hvKP) invasive liver abscess syndrome",
+    "Melioidosis (Burkholderia pseudomallei)",
+    "Disseminated Nocardiosis",
+    "Infective endocarditis with systemic septic emboli",
+    "Metastatic adenocarcinoma with infectious complications",
+    "Disseminated fungal infection (e.g., Cryptococcosis or Aspergillosis)"
+  ],
+  "next_steps": [
+    "Perform vitreous fluid aspiration for Gram stain, culture, and PCR",
+    "Perform transesophageal echocardiography (TEE) to definitively rule out endocarditis",
+    "Obtain image-guided biopsy or aspiration of the hepatic mass",
+    "Send blood and sputum samples for specialized cultures including fungal and Nocardia",
+    "Consult Ophthalmology for emergent management of endophthalmitis",
+    "Consult Infectious Disease to optimize antibiotic/antifungal coverage based on preliminary culture results",
+    "Monitor for further neurologic decline or need for neurosurgical intervention for CNS lesions"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_19_2024",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Secondary Syphilis",
+    "Adult-onset Still's disease",
+    "Systemic lupus erythematosus",
+    "VEXAS syndrome",
+    "Chikungunya virus infection",
+    "Vasculitis (e.g., GPA or PAN)"
+  ],
+  "next_steps": [
+    "Serologic testing for syphilis (RPR and treponemal-specific antibody)",
+    "Skin biopsy of the rash",
+    "Laboratory evaluation including ANA, ANCA, anti-CCP, and RF",
+    "Serum protein electrophoresis and ferritin levels",
+    "Comprehensive metabolic panel and complete blood count with peripheral smear review",
+    "Consider lumbar puncture if syphilis serology is positive to evaluate for neurosyphilis given symptoms of lightheadedness/autonomic involvement"
+  ]
+}

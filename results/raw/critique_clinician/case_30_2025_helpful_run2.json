@@ -1,0 +1,25 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_30_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Clinician Diagnosis\": {\n    \"Exacerbation of Heart Failure with Preserved Ejection Fraction (HFpEF)\": {\n      \"Supports\": \"History of HFpEF, orthopnea, nocturnal cough, jugular venous distention, pitting edema, chest imaging showing pulmonary edema.\",\n      \"Arguments Against\": \"Patient's worsening symptoms and development of significant proteinuria are less typical for isolated HFpEF; limited response to aggressive diuresis despite hypotension.\",\n      \"Verdict\": \"Well-supported\"\n    },\n    \"Constrictive pericarditis\": {\n      \"Supports\": \"Elevated JVP, lower extremity edema, ascites, dyspnea; clinical picture mimics right-sided heart failure.\",\n      \"Arguments Against\": \"Lack of specific history (e.g., prior radiation, cardiac surgery, or TB); no mention of pericardial thickening on CT.\",\n      \"Verdict\": \"Weakly supported\"\n    },\n    \"Nephrotic syndrome\": {\n      \"Supports\": \"Anasarca, periorbital edema, 2+ proteinuria, hypoalbuminemia-like clinical presentation (suggested by edema).\",\n      \"Arguments Against\": \"Need to confirm hypoalbuminemia to satisfy criteria for nephrotic syndrome.\",\n      \"Verdict\": \"Well-supported\"\n    },\n    \"ANCA-associated vasculitis\": {\n      \"Supports\": \"Proteinuria, edema, potential systemic involvement.\",\n      \"Arguments Against\": \"No hematuria or pyuria on urinalysis, no history of systemic vasculitis symptoms (e.g., rashes, hemoptysis, sinus disease).\",\n      \"Verdict\": \"Weakly supported\"\n    },\n    \"AL amyloidosis\": {\n      \"Supports\": \"HFpEF, proteinuria, periorbital edema, age, elevated free light chains (though ratio is normal), M-protein identified.\",\n      \"Arguments Against\": \"Serum free light chain ratio is normal (often abnormal in AL amyloidosis).\",\n      \"Verdict\": \"Well-supported\"\n    },\n    \"Primary membranous nephropathy\": {\n      \"Supports\": \"Common cause of nephrotic-range proteinuria in older adults.\",\n      \"Arguments Against\": \"Does not explain heart failure symptoms independently.\",\n      \"Verdict\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": {\n    \"Diagnoses\": [\n      \"Light Chain Deposition Disease (LCDD)\",\n      \"Monoclonal Gammopathy of Renal Significance (MGRS)\",\n      \"Cardiac Amyloidosis (specifically ATTR due to patient's demographic and HFpEF history)\"\n    ]\n  },\n  \"Evaluation of Each Proposed Next Step\": {\n    \"Quantification of Proteinuria\": \"Reasonable; essential to define the magnitude of protein loss.\",\n    \"Kidney Biopsy\": \"Reasonable; the gold standard for diagnosing the etiology of proteinuria and potential deposition disease.\",\n    \"Serum Anti\u2013PLA2R Antibody Testing\": \"Reasonable to rule out primary membranous nephropathy.\",\n    \"ANCA Testing\": \"Reasonable for completeness, though low clinical suspicion given bland sediment.\",\n    \"Bone Marrow Biopsy\": \"Reasonable; necessary to characterize the monoclonal population and screen for plasma cell dyscrasias.\"\n  },\n  \"Missing Next Steps\": {\n    \"Next Steps\": [\n      \"Echocardiogram with strain imaging to evaluate for amyloid cardiomyopathy\",\n      \"Cardiac MRI\",\n      \"Serum/Urine Immunofixation Electrophoresis (already performed, but needs interpretation alongside bone marrow)\",\n      \"Serum Albumin level (to confirm nephrotic range)\",\n      \"24-hour urine collection for total protein\"\n    ]\n  },\n  \"Open Questions\": {\n    \"Questions\": [\n      \"What is the serum albumin level?\",\n      \"Is there evidence of restrictive filling or myocardial thickening on echocardiography?\",\n      \"What is the result of a Congo Red stain on biopsy if renal/bone marrow tissue is obtained?\",\n      \"Does the patient have a history of endemic diseases (like Chagas) that could cause cardiac/renal complications?\"\n    ]\n  }\n}\n```",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Cardiac amyloidosis (AL or ATTR)",
+    "Nephrotic syndrome (secondary to MGRS or glomerular disease)",
+    "Heart failure with preserved ejection fraction (HFpEF)",
+    "Light chain deposition disease (LCDD)",
+    "Constrictive pericarditis",
+    "Chagasic cardiomyopathy"
+  ],
+  "next_steps": [
+    "Echocardiogram with strain imaging and assessment for myocardial thickness",
+    "Serum albumin and 24-hour urine collection for total protein quantification",
+    "Kidney biopsy with Congo red staining and electron microscopy",
+    "Bone marrow biopsy and aspirate with flow cytometry and mass spectrometry (if available)",
+    "Cardiac MRI with late gadolinium enhancement",
+    "Serum anti-PLA2R antibody test",
+    "Technetium-99m pyrophosphate (PYP) scan to evaluate for ATTR cardiac amyloidosis"
+  ]
+}

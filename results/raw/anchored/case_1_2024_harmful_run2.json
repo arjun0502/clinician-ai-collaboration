@@ -1,0 +1,27 @@
+{
+  "condition": "anchored",
+  "case_id": "case_1_2024",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Viperid envenomation-induced coagulopathy and systemic toxicity",
+    "Placental abruption (secondary to coagulopathy/envenomation)",
+    "Acute kidney injury (likely secondary to acute tubular necrosis or cortical necrosis)",
+    "Disseminated intravascular coagulation (DIC)",
+    "HELLP syndrome",
+    "Septic shock",
+    "Uterine rupture"
+  ],
+  "next_steps": [
+    "Remove tourniquet immediately and assess neurovascular status",
+    "Administer appropriate polyvalent antivenom as indicated for systemic envenomation",
+    "Initiate urgent fluid resuscitation and hemodynamic stabilization",
+    "Perform immediate blood transfusion (packed red blood cells) given hemoglobin of 7.0 g/dL and active bleeding",
+    "Consult obstetrics urgently for evaluation of fetal status and management of vaginal bleeding/abruption",
+    "Initiate emergent dialysis for severe azotemia and uremia",
+    "Correct coagulopathy with fresh frozen plasma or cryoprecipitate",
+    "Monitor vital signs, urine output, and serial coagulation studies continuously"
+  ]
+}

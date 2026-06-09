@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_30_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "AL amyloidosis",
+    "Nephrotic syndrome (secondary to membranous nephropathy or other glomerulopathy)",
+    "Heart failure with preserved ejection fraction (HFpEF)",
+    "Constrictive pericarditis",
+    "IgA nephropathy with monoclonal gammopathy",
+    "Light chain deposition disease",
+    "Cryoglobulinemic vasculitis"
+  ],
+  "next_steps": [
+    "Quantification of 24-hour urine protein",
+    "Kidney biopsy with Congo red staining, immunofluorescence, and electron microscopy",
+    "Serum anti-PLA2R antibody testing",
+    "Echocardiography with strain imaging to evaluate for amyloid infiltration",
+    "Cardiac MRI",
+    "Bone marrow aspiration and biopsy with Congo red staining and clonality assessment",
+    "Serum free light chain ratio monitoring"
+  ]
+}

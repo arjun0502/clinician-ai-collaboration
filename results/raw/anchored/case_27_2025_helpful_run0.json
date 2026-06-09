@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_27_2025",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Chagas disease (Trypanosoma cruzi cardiomyopathy)",
+    "Genetic dilated cardiomyopathy (e.g., lamin A/C mutation)",
+    "Alcohol-associated dilated cardiomyopathy",
+    "Sarcoidosis",
+    "Myocardial infarction with non-obstructive coronary arteries (MINOCA)",
+    "Amyloidosis",
+    "Viral myocarditis (sequelae)"
+  ],
+  "next_steps": [
+    "Serologic testing for Trypanosoma cruzi antibodies",
+    "Implantable cardioverter-defibrillator (ICD) implantation for primary prevention of sudden cardiac death",
+    "Genetic counseling and panel testing for inherited cardiomyopathies",
+    "Assessment for cardiac sarcoidosis via PET scan",
+    "Continuation of guideline-directed medical therapy for heart failure"
+  ]
+}

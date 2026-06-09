@@ -1,0 +1,25 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_33_2024",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": "{\n  \"Evaluation of Each Clinician Diagnosis\": {\n    \"Tumefactive multiple sclerosis\": {\n      \"Supporting facts\": \"Age, female gender, subacute progression of focal neurological deficits (aphasia), ring-enhancing mass effect.\",\n      \"Inconsistent facts\": \"Lack of prior history of demyelinating disease, advanced age of onset is atypical.\",\n      \"Support level\": \"Weakly supported\"\n    },\n    \"Brain abscess (Listeria monocytogenes)\": {\n      \"Supporting facts\": \"Patient is chronically immunosuppressed (mycophenolate mofetil) and has a history of thymoma/myasthenia; listeria has a predilection for the brainstem and frontal lobes.\",\n      \"Inconsistent facts\": \"Lack of systemic signs of infection (fever), subacute course is more indolent than typical listeriosis, biopsy did not show purulence or significant acute inflammation.\",\n      \"Support level\": \"Weakly supported\"\n    },\n    \"Primary CNS lymphoma\": {\n      \"Supporting facts\": \"Heterogeneously enhancing mass in an immunosuppressed patient, perivascular distribution of atypical cells noted on frozen section.\",\n      \"Inconsistent facts\": \"Usually shows robust response to corticosteroids; the lesion enlarged significantly despite initiation of high-dose dexamethasone.\",\n      \"Support level\": \"Well-supported\"\n    },\n    \"Vascular lesion (ischemic stroke)\": {\n      \"Supporting facts\": \"Sudden onset of symptoms (aphasia), focal hypoattenuation on CT, rapid evolution.\",\n      \"Inconsistent facts\": \"Presence of mass effect and persistent enhancement on MRI is unusual for a simple infarct; doesn't explain the cellular atypia on frozen section.\",\n      \"Support level\": \"Weakly supported\"\n    },\n    \"Metastatic cancer\": {\n      \"Supporting facts\": \"Breast nodule history (though stable), history of thymoma.\",\n      \"Inconsistent facts\": \"Biopsy of breast nodule 8 years ago and stability argue against metastatic breast cancer; thymoma typically has different patterns.\",\n      \"Support level\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Progressive Multifocal Leukoencephalopathy (PML) - though usually non-enhancing, inflammatory/IRIS-like presentation in immunosuppressed hosts can mimic masses.\",\n    \"Nocardiosis - classic cause of brain abscess in immunosuppressed patients that may present with less systemic inflammatory response than other bacterial etiologies.\",\n    \"Toxoplasmosis - reactivation in a transplant/immunosuppressed patient.\"\n  ],\n  \"Evaluation of Each Proposed Next Step\": {\n    \"Perform a Gram stain\": \"Reasonable, though yield is low for non-pyogenic processes.\",\n    \"Permanent-section pathology + IHC\": \"Essential; critical to distinguish between lymphoma, glioma, and infectious etiologies.\",\n    \"Broad microbiology workup\": \"Essential, given the patient's immunosuppression.\",\n    \"ID consult + empiric antibiotics\": \"Reasonable, though empiric antibiotics should be broadened to cover Nocardia/Listeria given clinical context.\"\n  },\n  \"Missing Next Steps\": [\n    \"Lumbar puncture (if intracranial pressure permits) for cytology, flow cytometry, and EBV PCR.\",\n    \"Flow cytometry on the brain biopsy specimen to characterize the cellular infiltrate.\",\n    \"Serum EBV PCR and possibly HIV testing (to confirm degree of immunosuppression).\",\n    \"Repeat MRI with susceptibility-weighted imaging (SWI) to evaluate for hemorrhage versus progression.\"\n  ],\n  \"Open Questions\": [\n    \"What are the final immunohistochemistry results (CD20, CD3, EBER-ISH, GFAP, Ki-67)?\",\n    \"Was there any evidence of leptomeningeal enhancement or dissemination elsewhere in the CNS?\",\n    \"Could the lesion be a manifestation of JC virus (PML) or another opportunistic fungal process (e.g., Aspergillus) that was missed on initial biopsy?\"\n  ]\n}",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Primary CNS Lymphoma",
+    "Nocardiosis",
+    "Progressive multifocal leukoencephalopathy with inflammatory response (PML-IRIS)",
+    "Toxoplasmosis",
+    "Glioma (high-grade)",
+    "Metastatic carcinoma",
+    "Listeriosis"
+  ],
+  "next_steps": [
+    "Perform immunohistochemical staining (CD20, CD3, CD68, GFAP, Ki-67, SV40) on biopsy tissue",
+    "In-situ hybridization for Epstein-Barr virus (EBER-ISH)",
+    "Comprehensive microbiological culture of biopsy tissue (fungal, aerobic, anaerobic, Nocardia, mycobacterial)",
+    "Lumbar puncture for cerebrospinal fluid cytology, flow cytometry, and PCR for EBV and JC virus",
+    "Serum testing for HIV and detailed immunophenotyping to characterize degree of cellular immunosuppression",
+    "Review of original histology with specialized neuropathology consultation for possible occult infection or inflammatory mimic"
+  ]
+}

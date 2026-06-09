@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_7_2024",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "IgG4-related ophthalmic disease",
+    "Idiopathic orbital inflammation (orbital pseudotumor)",
+    "Relapsing polychondritis",
+    "Granulomatosis with polyangiitis",
+    "Sarcoidosis",
+    "Thyroid eye disease",
+    "Neuromyelitis optica spectrum disorder"
+  ],
+  "next_steps": [
+    "Perform an orbital tissue biopsy (optic nerve sheath or adjacent fat) for histopathology and immunohistochemical staining",
+    "Obtain serum IgG4, ANA, ANCA, and ENA panel",
+    "Start pulse intravenous corticosteroids for acute symptom control",
+    "Consider rituximab or other steroid-sparing immunosuppressive agents depending on biopsy results",
+    "Monitor systemic involvement with PET/CT to evaluate for multisystem IgG4-related disease"
+  ]
+}

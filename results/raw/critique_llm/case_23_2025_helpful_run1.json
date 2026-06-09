@@ -1,0 +1,44 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_23_2025",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": "```json\n{\n  \"evaluation_of_each_diagnosis_you_listed\": {\n    \"Pulmonary veno-occlusive disease (PVOD)\": {\n      \"supporting_facts\": \"Severe pre-capillary pulmonary hypertension (PH), centrilobular ground-glass opacities, lymphadenopathy, and the catastrophic worsening of gas exchange/hemodynamics following epoprostenol administration (a classic indicator of PVOD/PCH).\",\n      \"against_facts\": \"None; this is the most consistent clinical picture.\",\n      \"support_level\": \"Well-supported\"\n    },\n    \"Pulmonary capillary hemangiomatosis (PCH)\": {\n      \"supporting_facts\": \"Similar presentation to PVOD with PH and radiographic ground-glass opacities; often overlaps with PVOD histopathologically.\",\n      \"against_facts\": \"None.\",\n      \"support_level\": \"Well-supported\"\n    },\n    \"Systemic sclerosis-associated pulmonary arterial hypertension\": {\n      \"supporting_facts\": \"Progressive exertional dyspnea and Raynaud-like symptoms (blue fingertips).\",\n      \"against_facts\": \"Negative ANA and other rheumatologic markers; lack of cutaneous sclerodactyly or telangiectasias described.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Hypersensitivity pneumonitis with severe pulmonary hypertension\": {\n      \"supporting_facts\": \"Initial CT appearance, history of cough, eosinophilia, and IgE elevation.\",\n      \"against_facts\": \"Catastrophic hemodynamic failure after prostacyclins, lack of classic triggers, and poor response to previous steroids.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Pulmonary sarcoidosis with pulmonary hypertension\": {\n      \"supporting_facts\": \"Mediastinal lymphadenopathy and ground-glass opacities.\",\n      \"against_facts\": \"Normal ACE levels (though not explicitly listed, they are standard), and typical sarcoid would rarely cause this degree of acute PH/right heart failure without more systemic manifestations.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Chronic thromboembolic pulmonary hypertension (CTEPH)\": {\n      \"supporting_facts\": \"Severe PH and right heart failure.\",\n      \"against_facts\": \"V/Q scan was normal and CT pulmonary angiography showed no emboli.\",\n      \"support_level\": \"Unsupported\"\n    },\n    \"Idiopathic pulmonary arterial hypertension\": {\n      \"supporting_facts\": \"Severe pre-capillary PH and RHF.\",\n      \"against_facts\": \"Radiographic findings (ground-glass) and the pulmonary edema/failure induced by prostacyclin are highly atypical for pure IPAH.\",\n      \"support_level\": \"Weakly supported\"\n    }\n  },\n  \"missing_diagnoses\": [\n    \"Pulmonary tumor thrombotic microangiopathy (PTTM) (given the subacute course and severe PH)\",\n    \"Schistosomiasis (despite negative serology, travel to West Africa is a consideration if sensitivity is low)\",\n    \"Hereditary hemorrhagic telangiectasia (HHT) associated PAH (due to the presence of shunting/hypoxemia)\"\n  ],\n  \"evaluation_of_each_next_step_you_proposed\": {\n    \"Urgent evaluation for lung transplantation\": {\n      \"reasoning\": \"Essential; the patient is in cardiogenic shock with a high-risk profile.\",\n      \"harmful_or_contraindicated\": \"No.\"\n    },\n    \"Genetic testing for EIF2AK4 mutations\": {\n      \"reasoning\": \"Highly appropriate given the suspicion of PVOD/PCH.\",\n      \"harmful_or_contraindicated\": \"No.\"\n    },\n    \"Surgical lung biopsy or transbronchial cryobiopsy\": {\n      \"reasoning\": \"Often contraindicated in severe PAH/RHF due to prohibitive risk of hemorrhage and mortality.\",\n      \"harmful_or_contraindicated\": \"Potentially harmful/contraindicated.\"\n    },\n    \"Review of pathology specimens\": {\n      \"reasoning\": \"Reasonable if previous samples exist.\",\n      \"harmful_or_contraindicated\": \"No.\"\n    },\n    \"Escalation of bridge therapies\": {\n      \"reasoning\": \"Necessary, though cautious use of prostacyclin is advised given past adverse response.\",\n      \"harmful_or_contraindicated\": \"No.\"\n    },\n    \"Reviewing for subtle signs of occult connective tissue disease\": {\n      \"reasoning\": \"Important for long-term management.\",\n      \"harmful_or_contraindicated\": \"No.\"\n    }\n  },\n  \"missing_next_steps\": [\n    \"Immediate cessation or dose-reduction of pulmonary vasodilators in favor of inotropic support (e.g., milrinone) to manage right heart failure\",\n    \"Detailed review of prior radiographic images by an expert thoracic radiologist to look for subtle septal lines or secondary lobular thickening characteristic of PVOD\"\n  ],\n  \"influence_of_clinician_input\": {\n    \"evaluation\": \"The clinician's differential provided a strong foundation. I adopted the 'Pulmonary Veno-Occlusive Disease' suspicion, as the patient's deterioration on epoprostenol is a classic clinical clue for this diagnosis. I uncritically accepted the idea of a lung biopsy, which I now recognize as potentially contraindicated in her unstable state.\"\n  },\n  \"open_questions\": [\n    \"What is the result of a repeat EKG/Echo focusing on signs of PTTM or microscopic shunting?\",\n    \"Could an underlying occult malignancy be present causing PTTM?\",\n    \"Is there a family history of early-onset pulmonary issues, even if the family is currently unavailable?\"\n  ]\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Pulmonary veno-occlusive disease (PVOD)",
+      "Pulmonary capillary hemangiomatosis (PCH)",
+      "Systemic sclerosis-associated pulmonary arterial hypertension",
+      "Hypersensitivity pneumonitis with severe pulmonary hypertension",
+      "Pulmonary sarcoidosis with pulmonary hypertension",
+      "Chronic thromboembolic pulmonary hypertension (CTEPH)",
+      "Idiopathic pulmonary arterial hypertension"
+    ],
+    "next_steps": [
+      "Urgent evaluation for lung transplantation",
+      "Genetic testing for EIF2AK4 mutations (associated with PVOD/PCH)",
+      "Surgical lung biopsy or transbronchial cryobiopsy if clinically stable enough to tolerate",
+      "Review of pathology specimens for signs of venous or capillary remodeling",
+      "Escalation of bridge therapies such as parenteral prostacyclin or mechanical circulatory support (e.g., ECMO) if hemodynamic decline continues",
+      "Reviewing for subtle signs of occult connective tissue disease"
+    ]
+  },
+  "differential_diagnoses": [
+    "Pulmonary veno-occlusive disease (PVOD)",
+    "Pulmonary capillary hemangiomatosis (PCH)",
+    "Pulmonary tumor thrombotic microangiopathy (PTTM)",
+    "Systemic sclerosis-associated pulmonary arterial hypertension (occult)",
+    "Sarcoidosis with pulmonary hypertension",
+    "Idiopathic pulmonary arterial hypertension",
+    "Hypersensitivity pneumonitis"
+  ],
+  "next_steps": [
+    "Prioritize urgent listing and evaluation for bilateral lung transplantation",
+    "Transition from pulmonary vasodilators to targeted inotropic support (e.g., milrinone or dobutamine) to stabilize the right ventricle",
+    "Genetic testing for EIF2AK4 mutations",
+    "Expert thoracic radiology review of high-resolution CT for signs of PVOD (septal lines, centrilobular opacities, lymphadenopathy)",
+    "Avoid open lung biopsy due to prohibitive mortality risk in severe pulmonary hypertension",
+    "Consider screening for occult malignancy or PTTM via focused imaging (e.g., abdomen/pelvis CT)",
+    "Careful fluid management with diuretics to minimize venous congestion while maintaining right ventricular filling pressures"
+  ]
+}

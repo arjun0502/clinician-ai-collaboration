@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_33_2024",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Primary CNS lymphoma",
+    "Nocardiosis (brain abscess)",
+    "Tumefactive demyelinating lesion",
+    "Metastatic carcinoma",
+    "Glioblastoma",
+    "Progressive multifocal leukoencephalopathy",
+    "Subacute infarction"
+  ],
+  "next_steps": [
+    "Permanent-section pathology including EBER-ISH, CD20, CD3, and GFAP staining",
+    "Bacterial, fungal, and mycobacterial cultures of biopsy tissue",
+    "Molecular testing for JC virus and Tropheryma whipplei",
+    "CSF analysis including cytology, flow cytometry, and paraneoplastic panel",
+    "Re-evaluation of immunosuppressive history regarding Nocardia risk",
+    "Consultation with Infectious Disease and Neuropathology"
+  ]
+}

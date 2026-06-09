@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_1_2025",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Minimal change disease",
+    "Focal segmental glomerulosclerosis",
+    "Membranous nephropathy",
+    "Postpartum preeclampsia",
+    "Lupus nephritis",
+    "IgA nephropathy",
+    "Renal vein thrombosis"
+  ],
+  "next_steps": [
+    "Kidney biopsy for histologic diagnosis",
+    "Serum protein electrophoresis and immunofixation",
+    "Serologic evaluation including ANA, anti-dsDNA, C3, and C4 levels",
+    "24-hour urine collection for total protein and creatinine clearance",
+    "Initiation of diuretics and salt restriction for volume management",
+    "Consideration of prophylactic anticoagulation due to severe nephrotic syndrome",
+    "Renal ultrasound to evaluate kidney morphology and renal vein patency"
+  ]
+}

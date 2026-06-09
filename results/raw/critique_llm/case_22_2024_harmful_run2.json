@@ -1,0 +1,44 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_22_2024",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Pyoderma Gangrenosum (PG) associated with PASH syndrome\": {\n      \"Supporting facts\": \"History of hidradenitis suppurativa, acne, and new rapidly progressive ulcerating lesions at sites of trauma (pathergy, specifically at IV site and catheter site).\",\n      \"Arguments against\": \"None; clinical presentation is classic for pathergy.\",\n      \"Support\": \"Well-supported\"\n    },\n    \"Postpartum sepsis\": {\n      \"Supporting facts\": \"Fever, leukocytosis, pelvic pain, and postpartum status.\",\n      \"Arguments against\": \"Failure of broad-spectrum antibiotics, sterile cultures, and development of systemic inflammatory manifestations (ascites, hepatomegaly) not explained by typical infection.\",\n      \"Support\": \"Well-supported\"\n    },\n    \"Pelvic inflammatory disease / Tubo-ovarian abscess\": {\n      \"Supporting facts\": \"Pelvic fluid collections on imaging, fever.\",\n      \"Arguments against\": \"Collections did not resolve as expected with antibiotics; sterile cultures; persistence of systemic symptoms.\",\n      \"Support\": \"Weakly supported\"\n    },\n    \"Crohn's disease with extraintestinal manifestations\": {\n      \"Supporting facts\": \"Family history of Crohn's, history of diverticulitis, and extraintestinal symptoms (PG, skin ulcerations).\",\n      \"Arguments against\": \"No clear gastrointestinal bleeding or diarrhea documented.\",\n      \"Support\": \"Well-supported\"\n    },\n    \"Sweet syndrome (acute febrile neutrophilic dermatosis)\": {\n      \"Supporting facts\": \"Fever, neutrophilic leukocytosis, skin lesions (plaques/bullae).\",\n      \"Arguments against\": \"Lesions progressed to deep ulcerations, which is more characteristic of PG than classic Sweet syndrome.\",\n      \"Support\": \"Weakly supported\"\n    },\n    \"Beh\u00e7et's disease\": {\n      \"Supporting facts\": \"Ulcerative lesions, systemic inflammatory state, hepatosplenomegaly.\",\n      \"Arguments against\": \"No mention of ocular or oral involvement.\",\n      \"Support\": \"Weakly supported\"\n    },\n    \"Necrotizing fasciitis\": {\n      \"Supporting facts\": \"Severe illness, systemic toxicity, ulcerating skin lesions.\",\n      \"Arguments against\": \"Chronic course (days/weeks), lack of crepitus, and progression at non-surgical sites (IV sites) favors a systemic inflammatory process over localized necrosis.\",\n      \"Support\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Pyogenic Arthritis, Pyoderma gangrenosum, and Acne (PAPA) syndrome\",\n    \"PASH (Pyoderma gangrenosum, Acne, and Suppurative Hidradenitis) syndrome (which I included, but specifically as a differential for the systemic inflammatory process)\",\n    \"Systemic inflammatory response to undiagnosed underlying inflammatory bowel disease\"\n  ],\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Perform an urgent skin biopsy\": \"Highly reasonable; diagnostic gold standard for PG.\",\n    \"Consult dermatology\": \"Highly reasonable.\",\n    \"Initiate high-dose systemic corticosteroids\": \"Reasonable, but carries risk if infection is still present. Requires careful exclusion of active infection first.\",\n    \"Consult gastroenterology\": \"Highly reasonable given family history of IBD.\",\n    \"Discontinue invasive procedures\": \"Essential due to pathergy.\",\n    \"Perform wound cultures and tissue biopsy for infection\": \"Essential to rule out secondary infection before starting immunosuppression.\"\n  },\n  \"Missing Next Steps\": [\n    \"Biopsy of the new liver lesions (guided by imaging) to rule out metastatic disease or hepatic inflammatory infiltration.\",\n    \"Serum inflammatory markers (ESR, CRP, Ferritin) to characterize the magnitude of the systemic inflammatory syndrome.\",\n    \"Genetic testing for PSTPIP1 mutation (associated with PAPA/PASH syndromes).\"\n  ],\n  \"Influence of Clinician Input\": {\n    \"Assessment\": \"The clinician's inclusion of PASH/PAPA syndromes was highly influential and steered the differential toward autoinflammatory conditions. I adopted this uncritically as it fits the constellation of symptoms (hidradenitis + ulceration + pathergy) better than traditional infection-only models.\"\n  },\n  \"Open Questions\": [\n    \"What are the biopsy results from the active skin lesions?\",\n    \"What are the results of autoimmune serologies (e.g., ANCA, ANA)?\",\n    \"Is there evidence of underlying inflammatory bowel disease via calprotectin or imaging findings indicative of Crohn's beyond the previous 'diverticulitis' history?\"\n  ]\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Pyoderma Gangrenosum (PG) associated with PASH syndrome",
+      "Postpartum sepsis (staphylococcal or streptococcal)",
+      "Pelvic inflammatory disease / Tubo-ovarian abscess",
+      "Crohn's disease with extraintestinal manifestations",
+      "Sweet syndrome (acute febrile neutrophilic dermatosis)",
+      "Beh\u00e7et's disease",
+      "Necrotizing fasciitis"
+    ],
+    "next_steps": [
+      "Perform an urgent skin biopsy of an active ulcer edge for histopathology (to look for neutrophilic dermatosis)",
+      "Consult dermatology for suspected Pyoderma Gangrenosum",
+      "Initiate high-dose systemic corticosteroids (e.g., prednisone or methylprednisolone)",
+      "Consult gastroenterology for evaluation of potential underlying inflammatory bowel disease (Crohn's) via imaging or endoscopy",
+      "Discontinue invasive procedures near lesion sites to avoid pathergy",
+      "Perform wound cultures and tissue biopsy for bacterial, fungal, and mycobacterial pathogens to definitively rule out infection"
+    ]
+  },
+  "differential_diagnoses": [
+    "PASH syndrome (Pyoderma gangrenosum, Acne, and Suppurative Hidradenitis)",
+    "Pyoderma gangrenosum with systemic involvement",
+    "Crohn's disease with extensive extraintestinal manifestations",
+    "Sweet syndrome (Neutrophilic dermatosis)",
+    "Beh\u00e7et's disease",
+    "Systemic inflammatory vasculitis",
+    "PAPA syndrome (Pyogenic arthritis, Pyoderma gangrenosum, and Acne)"
+  ],
+  "next_steps": [
+    "Perform diagnostic skin biopsy of the active ulcer edge for histopathology and tissue culture to confirm neutrophilic dermatosis and exclude infection",
+    "Initiate systemic corticosteroids after obtaining microbiologic samples to treat presumptive pyoderma gangrenosum",
+    "Consult rheumatology and dermatology for management of autoinflammatory spectrum",
+    "Obtain inflammatory markers including ESR, CRP, and ferritin",
+    "Consult gastroenterology for colonoscopy or capsule endoscopy to evaluate for underlying subclinical Crohn's disease",
+    "Avoid unnecessary surgical debridement or invasive procedures due to the risk of pathergy",
+    "Perform genetic testing for PSTPIP1 gene mutations"
+  ]
+}

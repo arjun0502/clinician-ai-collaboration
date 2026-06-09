@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_1_2026",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Dengue shock syndrome",
+    "Severe malaria (Plasmodium falciparum)",
+    "Leptospirosis",
+    "Septic shock (gastrointestinal translocation/bacterial)",
+    "Acute myocarditis (possibly viral/post-viral)",
+    "Chikungunya virus infection (with systemic inflammatory response)",
+    "Yellow fever"
+  ],
+  "next_steps": [
+    "Send peripheral blood smear for thick and thin smears (repeat malaria testing)",
+    "Order dengue NS1 antigen and IgM/IgG serology",
+    "Order diagnostic paracentesis and analysis of ascitic fluid (cell count, differential, culture, albumin)",
+    "Send serum for viral panel (PCR for Dengue, Chikungunya, Zika, Leptospira)",
+    "Perform serial echocardiography to monitor myocardial function",
+    "Consider early empiric treatment for malaria (artemisinin-based therapy) despite initial negative test",
+    "Measure serum ferritin, fibrinogen, and d-dimer to evaluate for hemophagocytic lymphohistiocytosis (HLH)"
+  ]
+}

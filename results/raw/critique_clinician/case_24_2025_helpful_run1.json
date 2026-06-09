@@ -1,0 +1,25 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_24_2025",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Clinician Diagnosis\": {\n    \"Lyme carditis\": {\n      \"Supporting facts\": \"Residency in a forested area, history of hiking/camping, presence of sheep and rabbits, history of heart block (first-degree and Mobitz I).\",\n      \"Arguments against\": \"Negative serology reportedly done 2.5 years ago (though not recent); patient lacks typical skin manifestations (erythema migrans).\",\n      \"Assessment\": \"Well-supported; high clinical suspicion given geographical risk and cardiac conduction system involvement.\"\n    },\n    \"Multisystem inflammatory syndrome (MIS-A)\": {\n      \"Supporting facts\": \"History of recent SARS-CoV-2 infection (5 weeks prior), elevated D-dimer (previously), elevated NT-proBNP, systemic symptoms (fatigue, myalgia, chest pain, liver enzyme elevations).\",\n      \"Arguments against\": \"Inflammatory markers (CRP, ESR) are normal at this time; patient is afebrile.\",\n      \"Assessment\": \"Weakly supported; the lack of elevated inflammatory markers at this stage makes this diagnosis less likely than during the acute phase.\"\n    },\n    \"Pulmonary embolism\": {\n      \"Supporting facts\": \"Chest pain, dyspnea on exertion, elevated D-dimer (previously).\",\n      \"Arguments against\": \"CT angiography was negative; current D-dimer is normal; oxygen saturation is normal.\",\n      \"Assessment\": \"Unsupported; effectively ruled out by the negative CT angiography.\"\n    },\n    \"Acute coronary syndrome\": {\n      \"Supporting facts\": \"Chest pain, palpitations, Q-waves on ECG, elevated NT-proBNP.\",\n      \"Arguments against\": \"Troponin levels are normal; age/demographics are low-risk for CAD; pain characteristics are pleuritic/positional.\",\n      \"Assessment\": \"Weakly supported; structural or inflammatory heart disease is more likely given the normal high-sensitivity troponin.\"\n    },\n    \"Cardiomyopathy\": {\n      \"Supporting facts\": \"Elevated NT-proBNP, conduction abnormalities (heart block), palpitations.\",\n      \"Arguments against\": \"No clear evidence of heart failure on examination (no rales, no edema).\",\n      \"Assessment\": \"Weakly supported; requires echocardiographic confirmation.\"\n    }\n  },\n  \"Missing Diagnoses\": {\n    \"Diagnoses\": [\n      \"Q fever (Coxiella burnetii) - relevant due to exposure to sheep.\",\n      \"Myocarditis (viral or autoimmune) - potentially related to recent SARS-CoV-2.\",\n      \"Autoimmune disease (e.g., SLE, sarcoidosis) - given multi-organ involvement (liver, heart, musculoskeletal).\"\n    ]\n  },\n  \"Evaluation of Each Proposed Next Step\": {\n    \"Lyme Disease Serologic Testing\": \"Reasonable; essential due to the high index of suspicion and epidemiological risk.\",\n    \"Start empiric antibiotic therapy immediately (IV ceftriaxone)\": \"Reasonable in the context of symptomatic heart block in an endemic area; the risk of untreated Lyme carditis (worsening block) outweighs the risks of short-term ceftriaxone.\",\n    \"Serial Electrocardiographic Monitoring\": \"Reasonable; mandatory for monitoring progression of conduction block (e.g., toward complete heart block).\"\n  },\n  \"Missing Next Steps\": {\n    \"Steps\": [\n      \"Transthoracic echocardiography to assess wall motion and rule out myocarditis or structural heart disease.\",\n      \"Detailed review of herbal supplements (specifically the 'animal liver extract') to rule out toxicity or interactions.\",\n      \"Serology for Coxiella burnetii due to sheep exposure.\"\n    ]\n  },\n  \"Open Questions\": {\n    \"Questions\": [\n      \"What is the specific composition of the herbal supplement, and could it be causing liver toxicity or affecting the heart?\",\n      \"Are there signs of myocarditis on cardiac MRI?\",\n      \"Why is the liver enzyme profile still fluctuating despite the resolution of initial symptoms?\"\n    ]\n  }\n}\n```",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Lyme carditis",
+    "Viral myocarditis",
+    "Q fever (Coxiella burnetii)",
+    "Autoimmune myocarditis (e.g., Sarcoidosis)",
+    "Drug-induced or supplement-associated hepatotoxicity and cardiac conduction disturbance",
+    "Multisystem inflammatory syndrome in adults (MIS-A)"
+  ],
+  "next_steps": [
+    "Transthoracic echocardiogram to assess cardiac structure and function",
+    "Cardiac MRI to evaluate for late gadolinium enhancement indicative of myocarditis",
+    "Lyme disease serology (ELISA followed by Western blot)",
+    "Coxiella burnetii (Q fever) serology",
+    "Continuous inpatient cardiac telemetry to monitor for high-grade atrioventricular block",
+    "Comprehensive review and toxicological screening of herbal supplements for hepatotoxins",
+    "Empiric intravenous ceftriaxone therapy while awaiting diagnostic confirmation of Lyme carditis"
+  ]
+}

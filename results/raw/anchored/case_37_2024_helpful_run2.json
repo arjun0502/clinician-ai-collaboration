@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_37_2024",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Postictal psychosis",
+    "Ictal psychosis",
+    "Interictal psychosis",
+    "Nonconvulsive status epilepticus",
+    "Psychogenic nonepileptic seizures",
+    "Delirium secondary to metabolic or medication factors",
+    "Autoimmune encephalitis"
+  ],
+  "next_steps": [
+    "Continuous video-EEG monitoring to differentiate ictal/postictal events from interictal psychosis",
+    "Comprehensive metabolic panel and toxicology screening",
+    "Lumbar puncture for CSF analysis to rule out autoimmune or paraneoplastic limbic encephalitis",
+    "Brain MRI with dedicated epilepsy protocol and contrast if not already performed",
+    "Multidisciplinary team review involving psychiatry and epilepsy specialists",
+    "Transition to a stable, non-sedating antiseizure medication regimen",
+    "Consultation for surgical epilepsy evaluation if concordant focus is confirmed"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_5_2024",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Subacute thyroiditis (de Quervain's thyroiditis)",
+    "Lymphoma (e.g., Hodgkin or Non-Hodgkin lymphoma)",
+    "Acute retroviral syndrome (HIV primary infection)",
+    "Coccidioidomycosis",
+    "Adult-onset Still's disease",
+    "Tuberculosis",
+    "Thyrotoxicosis factitia"
+  ],
+  "next_steps": [
+    "Order thyroid function panel (TSH, free T4, T3)",
+    "Measure thyroid autoantibodies (TPO, TSI) and erythrocyte sedimentation rate/CRP",
+    "Order radioactive iodine uptake scan",
+    "Perform thyroid ultrasound",
+    "Test for HIV-1/2 antigen/antibody combination assay",
+    "Discontinue antibiotics as they are not indicated",
+    "Consider serum thyroglobulin level measurement"
+  ]
+}

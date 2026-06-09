@@ -1,0 +1,26 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_13_2025",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Clinician Diagnosis\": {\n    \"Acute bacterial meningitis\": {\n      \"Support\": \"CSF pleocytosis (neutrophil-predominant), low CSF glucose, elevated protein, and encephalopathy.\",\n      \"Against\": \"The clinical course was indolent (6 weeks of symptoms), and the CSF glucose is profoundly low (2 mg/dL), which is more typical of fungal or tuberculous processes rather than typical bacterial meningitis.\",\n      \"Verdict\": \"Weakly supported\"\n    },\n    \"Viral meningoencephalitis (HSV/VZV)\": {\n      \"Support\": \"Encephalopathy, headache, and CSF findings of pleocytosis and elevated protein.\",\n      \"Against\": \"The CSF glucose of 2 mg/dL is extremely atypical for viral etiologies; the clinical course is too prolonged.\",\n      \"Verdict\": \"Unsupported\"\n    },\n    \"Cryptococcal meningitis in the setting of Cushing\u2019s syndrome\": {\n      \"Support\": \"Patient has clinical features of Cushing's syndrome (thinning skin, weight loss, glucose intolerance, hypertension, hypokalemia). Immunocompromise (hairy-cell leukemia, Cushing's) increases risk for opportunistic fungi. Low CSF glucose and high opening pressure are classic.\",\n      \"Against\": \"None; this is highly consistent with the clinical picture.\",\n      \"Verdict\": \"Well-supported\"\n    },\n    \"Candida meningitis\": {\n      \"Support\": \"Opportunistic fungal infection consistent with severe immunocompromise.\",\n      \"Against\": \"Rare in the absence of neurosurgical intervention or disseminated candidemia (which was not reported).\",\n      \"Verdict\": \"Weakly supported\"\n    },\n    \"Adrenocortical carcinoma\": {\n      \"Support\": \"1.9 cm adrenal nodule; patient exhibits clear biochemical signs of hypercortisolism.\",\n      \"Against\": \"Primary adrenal malignancy is less common than functioning adenoma or bilateral hyperplasia in the context of hypercortisolism; it does not explain the CSF findings directly (other than through immunosuppression).\",\n      \"Verdict\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Tuberculous meningitis (TBM) - classic for very low CSF glucose and high opening pressure\",\n    \"Ectopic ACTH-secreting neuroendocrine tumor\",\n    \"Primary Adrenal Cushing\u2019s syndrome (adenoma)\",\n    \"Primary CNS vasculitis\"\n  ],\n  \"Evaluation of Each Proposed Next Step\": {\n    \"24-hour urine collection for urinary free cortisol\": {\n      \"Reasoning\": \"Essential to confirm the diagnosis of Cushing's syndrome.\",\n      \"Safety\": \"Safe.\"\n    },\n    \"Repeat Brain CT Imaging\": {\n      \"Reasoning\": \"Less useful than MRI, but if MRI is contraindicated, it may track the progression of intracranial pressure/edema.\",\n      \"Safety\": \"Safe.\"\n    },\n    \"Cryptococcal Antigen Testing\": {\n      \"Reasoning\": \"High yield and critical given the CSF findings.\",\n      \"Safety\": \"Safe.\"\n    }\n  },\n  \"Missing Next Steps\": [\n    \"CSF studies for fungal culture, cryptococcal antigen, acid-fast bacilli (AFB) smear and culture, and cytology.\",\n    \"Plasma ACTH and serum cortisol levels to differentiate ACTH-dependent vs. independent Cushing's.\",\n    \"Brain MRI (despite the vagus-nerve stimulator, many are now MRI-conditional; verify compatibility or assess for alternative imaging).\",\n    \"Serum (1,3)-beta-D-glucan test.\"\n  ],\n  \"Open Questions\": [\n    \"Are the lacunar infarcts visible on CT true ischemia, or are they an artifact of severe edema/meningitis?\",\n    \"Does the patient have true immunosuppression beyond the history of hairy-cell leukemia (e.g., secondary to the suspected endogenous Cushing's)?\",\n    \"Is the VNS (Vagus Nerve Stimulator) MRI-conditional?\"\n  ]\n}\n```",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Cryptococcal meningitis",
+    "Tuberculous meningitis",
+    "Endogenous Cushing's syndrome (adrenal adenoma vs ectopic ACTH)",
+    "Primary CNS lymphoma",
+    "Disseminated histoplasmosis",
+    "Coccidioidomycosis meningitis",
+    "Listeriosis"
+  ],
+  "next_steps": [
+    "Perform cryptococcal antigen testing on CSF and serum",
+    "Send CSF for fungal culture, mycobacterial (AFB) culture and PCR, and cytology",
+    "Measure serum ACTH, serum cortisol, and 24-hour urine free cortisol",
+    "Initiate empiric antifungal therapy (amphotericin B plus flucytosine) given high clinical suspicion for cryptococcal meningitis",
+    "Consult neurosurgery for potential ventricular drain placement due to elevated intracranial pressure (opening pressure > 58 cm H2O)",
+    "Verify MRI compatibility of the vagus-nerve stimulator (VNS) for potential imaging, or proceed with CT-guided biopsy if intracranial lesions persist",
+    "Perform serum (1,3)-beta-D-glucan testing"
+  ]
+}

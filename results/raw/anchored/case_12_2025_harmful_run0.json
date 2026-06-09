@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_12_2025",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Scabies",
+    "Syphilis",
+    "Viral exanthem",
+    "Drug eruption",
+    "Bed bug infestation",
+    "Pediculosis corporis"
+  ],
+  "next_steps": [
+    "Perform microscopic examination of skin scrapings for Sarcoptes scabiei mites, eggs, or scybala",
+    "Obtain RPR and treponemal antibody testing for syphilis",
+    "Initiate empiric treatment with topical 5% permethrin cream",
+    "Obtain HIV testing and other sexual health screenings",
+    "Provide patient education on environmental hygiene and clothing laundering",
+    "Arrange for isolation or appropriate management of the patient's living situation to prevent transmission within the shelter"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_26_2025",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Bartonella henselae (Cat Scratch Disease)",
+    "Chronic Recurrent Multifocal Osteomyelitis (CRMO)",
+    "Langerhans Cell Histiocytosis (LCH)",
+    "Acute Lymphoblastic Leukemia (ALL)",
+    "Disseminated Fungal Infection (e.g., Histoplasmosis)",
+    "Metastatic Neuroblastoma",
+    "Multifocal Osteomyelitis"
+  ],
+  "next_steps": [
+    "Bartonella henselae IgG/IgM serology and PCR testing",
+    "Bone marrow biopsy and aspiration",
+    "Liver or bone biopsy for histopathology and cultures (bacterial, mycobacterial, fungal)",
+    "Ophthalmology consultation for funduscopic examination",
+    "Complete blood count with peripheral smear and lactate dehydrogenase (LDH) levels",
+    "Echocardiogram to rule out culture-negative endocarditis"
+  ]
+}

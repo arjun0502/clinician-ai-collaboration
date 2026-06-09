@@ -1,0 +1,26 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_33_2025",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": "{\n  \"Evaluation_of_Each_Clinician_Diagnosis\": {\n    \"Bipolar_I_disorder_relapse\": {\n      \"supporting_facts\": \"Patient has a history of bipolar I disorder and had discontinued maintenance medications.\",\n      \"arguing_against_facts\": \"Does not explain the new-onset tonic-clonic seizure, tachycardia, confusion, or the specific pattern of progressive neurological decline.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Complicated_alcohol_withdrawal\": {\n      \"supporting_facts\": \"History of daily alcohol use and agitation/tachycardia.\",\n      \"arguing_against_facts\": \"The timeline of 2 months of symptoms is inconsistent with alcohol withdrawal; benzodiazepines (prescribed and likely used) would typically prevent withdrawal seizures.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Graves_disease\": {\n      \"supporting_facts\": \"History of hyperthyroidism, palpable thyroid, tachycardia, and agitation.\",\n      \"arguing_against_facts\": \"No clinical signs of ophthalmopathy or tremor; physical exam noted no clear thyroid enlargement (nodules/goiter).\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Lithium-induced_thyrotoxicosis\": {\n      \"supporting_facts\": \"Patient has a history of bipolar I and prior hyperthyroidism.\",\n      \"arguing_against_facts\": \"Serum lithium is undetectable; this would not cause current thyrotoxicosis unless it was an antecedent trigger for autoimmune disease.\",\n      \"support_level\": \"Unsupported\"\n    },\n    \"Benzodiazepine_withdrawal\": {\n      \"supporting_facts\": \"History of benzodiazepine use and a recent seizure.\",\n      \"arguing_against_facts\": \"Urine toxicology was positive for benzodiazepines, suggesting ongoing exposure rather than withdrawal.\",\n      \"support_level\": \"Unsupported\"\n    }\n  },\n  \"Missing_Diagnoses\": [\n    \"Anti-NMDA receptor encephalitis\",\n    \"Thyroid storm (unmasked or recurrent)\",\n    \"Metabolic encephalopathy (e.g., urea cycle disorder, porphyria)\",\n    \"Autoimmune encephalitis (other types)\",\n    \"Central nervous system vasculitis\"\n  ],\n  \"Evaluation_of_Each_Proposed_Next_Step\": {\n    \"Escalate_antipsychotic_therapy\": {\n      \"is_reasonable\": \"No.\",\n      \"is_harmful_or_contraindicated\": \"Potentially harmful; could exacerbate autonomic instability, increase seizure risk, and mask symptoms of underlying encephalitis or thyroid storm.\"\n    },\n    \"Initiate_high-dose_benzodiazepine_therapy\": {\n      \"is_reasonable\": \"Reasonable for acute agitation/seizure control, but suboptimal as a primary therapeutic strategy.\",\n      \"is_harmful_or_contraindicated\": \"Can confound neurologic examination and respiratory status.\"\n    },\n    \"Brain_biopsy_or_cerebral_angiography\": {\n      \"is_reasonable\": \"No; both are overly invasive without further non-invasive testing (e.g., specific serology, MRA).\",\n      \"is_harmful_or_contraindicated\": \"Biopsy is highly invasive; unnecessary at this stage.\"\n    }\n  },\n  \"Missing_Next_Steps\": [\n    \"Thyroid function panel (TSH, Free T4, T3, TPO antibodies, TSI)\",\n    \"Serum and CSF autoimmune encephalitis panel (specifically anti-NMDA receptor antibodies)\",\n    \"Serum ceruloplasmin and copper (Wilson's disease)\",\n    \"Continuous EEG monitoring\",\n    \"Toxicology for specific non-routine substances (e.g., synthetic cannabinoids, heavy metals)\"\n  ],\n  \"Open_Questions\": [\n    \"What are the patient's current thyroid function test results?\",\n    \"Are there specific antibodies present in the CSF (e.g., anti-NMDAR)?\",\n    \"Could this be a manifestation of Wilson's disease given the neuropsychiatric presentation and seizure?\",\n    \"Why was the MRI quality limited by motion artifacts? (Are there involuntary movements not noted in the initial exam?)\"\n  ]\n}",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Anti-NMDA receptor encephalitis",
+    "Thyroid storm",
+    "Wilson's disease",
+    "Limbic encephalitis (paraneoplastic or autoimmune)",
+    "Acute intermittent porphyria",
+    "Hashimoto's encephalopathy",
+    "Non-convulsive status epilepticus"
+  ],
+  "next_steps": [
+    "Obtain emergent thyroid function panel including TSH, Free T4, and T3",
+    "Send serum and CSF for autoimmune encephalitis panel, specifically anti-NMDA receptor antibodies",
+    "Initiate continuous EEG monitoring to rule out occult non-convulsive status epilepticus",
+    "Measure serum ceruloplasmin, copper levels, and 24-hour urine copper excretion",
+    "Measure plasma total homocysteine and methylmalonic acid to evaluate for metabolic disturbances",
+    "Send spot urine for porphobilinogen and delta-aminolevulinic acid to rule out porphyria",
+    "Assess for occult malignancy via whole-body CT or PET/CT scan"
+  ]
+}

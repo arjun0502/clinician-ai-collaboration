@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_10_2024",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Acquired generalized lipodystrophy (AGL)",
+    "Insulin-receptor antibody syndrome (Type B insulin resistance)",
+    "Type A insulin resistance syndrome (mutations in INSR gene)",
+    "Congenital generalized lipodystrophy (Berardinelli-Seip syndrome)",
+    "Autoimmune polyglandular syndrome",
+    "Factitious insulin resistance"
+  ],
+  "next_steps": [
+    "Test for insulin-receptor autoantibodies",
+    "Repeat serum glucose and insulin levels, including serum insulin binding and recovery",
+    "Perform genetic testing for lipodystrophy-associated mutations (e.g., AGPAT2, BSCL2, CAV1, PTRF)",
+    "Consult endocrinology and immunology for evaluation of autoimmune disease overlap",
+    "Continue supportive glycemic management with frequent monitoring for rebound hypoglycemia",
+    "Assess for potential severe autoimmune complications or underlying lymphoproliferative disorder"
+  ]
+}

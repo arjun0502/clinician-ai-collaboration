@@ -1,0 +1,43 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_3_2025",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Cardiac amyloidosis (specifically ATTR)\": {\n      \"Supports\": \"Progressive heart failure symptoms, increased wall thickness (18mm), reduced QRS amplitude on recent ECG, atrial/IVC dilation, elevated JVP with Kussmaul's sign, age (54).\",\n      \"Against\": \"Hyperdynamic LV early in course; usually shows low voltage, though this can be masked by hypertrophy.\",\n      \"Verdict\": \"Well-supported.\"\n    },\n    \"Hypertrophic cardiomyopathy (phenocopy)\": {\n      \"Supports\": \"Concentric wall thickening (18mm), mitral valve thickening, LGE (midwall apical).\",\n      \"Against\": \"Negative 56-gene panel for classic HCM; familial screening negative; progression of symptoms.\",\n      \"Verdict\": \"Well-supported.\"\n    },\n    \"Sarcoidosis\": {\n      \"Supports\": \"T-wave inversions, conduction changes (axis, Q-waves), heart failure symptoms, LGE pattern.\",\n      \"Against\": \"No evidence of pulmonary or systemic involvement; no mention of heart block.\",\n      \"Verdict\": \"Weakly supported.\"\n    },\n    \"Constrictive pericarditis\": {\n      \"Supports\": \"Elevated JVP, Kussmaul's sign, exertional dyspnea, exercise intolerance.\",\n      \"Against\": \"Cardiac MRI did not highlight pericardial thickening/calcification.\",\n      \"Verdict\": \"Weakly supported.\"\n    },\n    \"Hypereosinophilic syndrome\": {\n      \"Supports\": \"Thickened valves, restrictive physiology, symptoms.\",\n      \"Against\": \"Normal CBC (specifically no mention of eosinophilia).\",\n      \"Verdict\": \"Unsupported.\"\n    },\n    \"Endomyocardial fibrosis\": {\n      \"Supports\": \"Restrictive physiology, atrial dilation, valve thickening.\",\n      \"Against\": \"Usually tropical epidemiology; no characteristic apical obliteration noted on MRI.\",\n      \"Verdict\": \"Weakly supported.\"\n    }\n  },\n  \"Missing Diagnoses\": {\n    \"Diagnoses\": [\n      \"Cardiac sarcoidosis (again, but with more emphasis given the Kussmaul sign and heart failure)\",\n      \"Arrhythmogenic Right Ventricular Cardiomyopathy (ARVC) - given the new rightward axis, T-wave inversions, and ventricular runs\",\n      \"Pericardial constriction (post-viral or idiopathic)\"\n    ]\n  },\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Technetium-99m pyrophosphate (PYP) scan\": \"Highly reasonable; gold standard for non-invasive TTR amyloid diagnosis.\",\n    \"Serum/Urine protein electrophoresis & Free light chains\": \"Essential to rule out AL amyloidosis.\",\n    \"Cardiac MRI with T1/ECV\": \"High diagnostic utility for identifying infiltrative patterns.\",\n    \"Genetic testing\": \"Necessary to rule out hereditary forms (ATTR, Fabry).\",\n    \"Endomyocardial biopsy\": \"Reasonable if non-invasive tests are negative and clinical suspicion remains high.\"\n  },\n  \"Missing Next Steps\": {\n    \"Next Steps\": [\n      \"24-hour urine collection for total protein (if light chains are negative)\",\n      \"12-lead signal-averaged ECG (for ARVC suspicion)\",\n      \"Cardiac PET (if sarcoidosis is suspected)\",\n      \"Right heart catheterization (to differentiate restriction from constriction via pressure tracings)\"\n    ]\n  },\n  \"Influence of Clinician Input\": {\n    \"Analysis\": \"I adopted the clinician's diagnostic categories (e.g., cardiomyopathy, sarcoidosis) as a scaffold. I adopted the 'Endomyocardial biopsy' too readily without first prioritizing non-invasive hemodynamic assessment (Right heart cath) to distinguish constriction from restriction, which is a critical clinical oversight.\"\n  },\n  \"Open Questions\": {\n    \"Questions\": [\n      \"What was the specific result of the serum protein electrophoresis (to rule out MGUS or AL amyloid)?\",\n      \"What is the result of the right heart catheterization regarding atrial pressure waveforms (dip-and-plateau vs. elevated filling pressures)?\",\n      \"Is there a history of biopsy-proven skin angiomas, or are these new and potentially related to a systemic process (e.g., Fabry)?\"\n    ]\n  }\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Cardiac amyloidosis (specifically ATTR)",
+      "Hypertrophic cardiomyopathy (phenocopy, e.g., Danon disease or Fabry disease)",
+      "Sarcoidosis",
+      "Constrictive pericarditis",
+      "Hypereosinophilic syndrome",
+      "Endomyocardial fibrosis"
+    ],
+    "next_steps": [
+      "Technetium-99m pyrophosphate (PYP) scan to evaluate for cardiac amyloidosis",
+      "Serum and urine protein electrophoresis with immunofixation",
+      "Serum free light chain assay",
+      "Cardiac magnetic resonance imaging with T1 mapping and extracellular volume quantification",
+      "Genetic testing for transthyretin (TTR) mutations and lysosomal storage disorders",
+      "Endomyocardial biopsy if non-invasive workup is inconclusive"
+    ]
+  },
+  "differential_diagnoses": [
+    "Cardiac amyloidosis (specifically ATTR)",
+    "Constrictive pericarditis",
+    "Cardiac sarcoidosis",
+    "Fabry disease",
+    "Restrictive cardiomyopathy due to another storage disorder",
+    "Arrhythmogenic cardiomyopathy (left-dominant)",
+    "Hypereosinophilic syndrome with endomyocardial fibrosis"
+  ],
+  "next_steps": [
+    "Right heart catheterization with pressure-volume analysis to differentiate restriction from constriction",
+    "Technetium-99m pyrophosphate (PYP) scan to evaluate for ATTR amyloidosis",
+    "Serum and urine protein electrophoresis with immunofixation and serum free light chain assay",
+    "Cardiac PET/CT to evaluate for sarcoidosis",
+    "Cardiac MRI with T1 mapping and extracellular volume quantification",
+    "Genetic testing for TTR mutations and lysosomal storage disorders (including GLA for Fabry)",
+    "24-hour Holter monitoring to characterize arrhythmias"
+  ]
+}

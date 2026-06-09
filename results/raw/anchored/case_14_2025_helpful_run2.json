@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_14_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Embryonal rhabdomyosarcoma",
+    "Non-Hodgkin lymphoma",
+    "Carotid artery pseudoaneurysm",
+    "Pleomorphic adenoma with atypical features",
+    "Granulomatosis with polyangiitis",
+    "Vascular malformation",
+    "Metastatic carcinoma (e.g., occult primary)"
+  ],
+  "next_steps": [
+    "CT angiography of the neck to rule out vascular pathology such as pseudoaneurysm",
+    "Direct laryngoscopy and examination under anesthesia with formal excisional or deep incisional biopsy",
+    "Frozen section analysis during biopsy to confirm malignancy and guide further tissue sampling",
+    "Immunohistochemical staining including desmin, MyoD1, myogenin, and pan-cytokeratin",
+    "Whole-body PET/CT for staging",
+    "Molecular testing including FOXO1 FISH if rhabdomyosarcoma is confirmed"
+  ]
+}

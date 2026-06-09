@@ -1,0 +1,43 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_23_2024",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Limbic encephalitis (paraneoplastic or autoimmune)\": {\n      \"Support\": \"Subacute cognitive decline, temporal lobe-predominant MRI findings (hippocampal/amygdala hyperintensity), and temporal epileptiform discharges on EEG.\",\n      \"Against\": \"No mass or clear paraneoplastic trigger identified on previous surveillance; CSF glucose is high (though serum is high).\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Cerebral amyloid angiopathy-related inflammation (CAA-ri)\": {\n      \"Support\": \"Age, lobar microhemorrhages (susceptibility-weighted imaging), and rapidly progressive cognitive decline.\",\n      \"Against\": \"Hyperintensities are specifically in the limbic structures rather than the subcortical white matter; CSF protein is only mildly elevated (often higher in active inflammation).\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Neurosyphilis\": {\n      \"Support\": \"Progressive cognitive decline, temporal involvement.\",\n      \"Against\": \"Screening serology (RPR/VDRL or FTA-ABS/TP-EIA) was reported as negative.\",\n      \"Status\": \"Unsupported\"\n    },\n    \"Creutzfeldt-Jakob disease\": {\n      \"Support\": \"Rapidly progressive dementia.\",\n      \"Against\": \"Clinical course (5 months) is somewhat slow for classic CJD; MRI lacks cortical ribboning/diffusion restriction; EEG shows slowing and temporal discharges rather than periodic sharp wave complexes.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Hashimoto's encephalopathy\": {\n      \"Support\": \"Rapidly progressive dementia.\",\n      \"Against\": \"Thyrotropin was reported as normal.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Primary angiitis of the central nervous system\": {\n      \"Support\": \"Cognitive decline, focal neurologic episodes, white matter disease.\",\n      \"Against\": \"Lack of leptomeningeal enhancement; MRA was normal; typically presents with multifocal deficits rather than exclusive limbic localization.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Viral encephalitis (other than HSV)\": {\n      \"Support\": \"Progressive encephalopathy, CSF pleocytosis/protein elevation.\",\n      \"Against\": \"Course is too prolonged (5 months); afebrile; no severe systemic signs.\",\n      \"Status\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": {\n    \"Diagnoses\": [\n      \"Metastatic disease (leptomeningeal carcinomatosis): Previous breast and lung history; lobar microhemorrhages could be mimicry of metastatic deposits.\",\n      \"Intravascular lymphoma: Often presents as rapidly progressive dementia with focal deficits and can have subtle CSF findings.\",\n      \"Alzheimer's disease with co-existing CAA: Underlying neurodegeneration exacerbated by inflammatory microvascular disease.\"\n    ]\n  },\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Autoimmune/paraneoplastic panels\": \"Reasonable and standard of care for rapidly progressive encephalopathy.\",\n    \"PET/CT scan\": \"Reasonable given the history of breast/lung cancer to look for occult recurrence.\",\n    \"Empiric steroids\": \"Reasonable; given the subacute/inflammatory MRI appearance and potential for rapid clinical decline in autoimmune encephalitis, this is frequently initiated.\",\n    \"Repeat LP\": \"Highly necessary to check for cytology/flow cytometry, given the possibility of occult malignancy.\",\n    \"Brain biopsy\": \"Appropriate if inflammatory/neoplastic workup remains negative and patient continues to decline.\",\n    \"Antiepileptics\": \"Appropriate due to EEG findings of temporal epileptiform discharges.\"\n  },\n  \"Missing Next Steps\": {\n    \"Steps\": [\n      \"CSF cytology and flow cytometry: Essential to rule out malignant cells, given the patient's cancer history.\",\n      \"CSF 14-3-3 protein, RT-QuIC: To definitively exclude CJD.\",\n      \"Repeat MRI brain with contrast: Specifically to look for leptomeningeal enhancement or subtle changes post-steroid trial.\"\n    ]\n  },\n  \"Influence of Clinician Input\": {\n    \"Analysis\": \"The clinician's differential was overly focused on vascular/infectious causes (TIA, vasculitis, HSV). My response correctly shifted toward inflammatory/autoimmune processes, which better explain the bilateral limbic signal changes. I adopted the EEG and imaging findings uncritically but correctly interpreted the 'subacute infarction' described earlier as potentially representing 'pseudonormalization' of inflammatory lesions or microhemorrhages rather than classic ischemic strokes.\"\n  },\n  \"Open Questions\": {\n    \"Questions\": [\n      \"What were the exact results of the CSF oligoclonal bands (is there mirror-pattern or restricted?)\",\n      \"Is there evidence of occult leptomeningeal disease on high-resolution MRI?\",\n      \"Would a trial of corticosteroids lead to symptomatic improvement?\"\n    ]\n  }\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Limbic encephalitis (paraneoplastic or autoimmune)",
+      "Cerebral amyloid angiopathy-related inflammation (CAA-ri)",
+      "Neurosyphilis",
+      "Creutzfeldt-Jakob disease",
+      "Hashimoto's encephalopathy",
+      "Primary angiitis of the central nervous system",
+      "Viral encephalitis (other than HSV)"
+    ],
+    "next_steps": [
+      "Send CSF for autoimmune encephalitis panel (including LGI1, CASPR2, AMPAR, GABA-B) and paraneoplastic panel",
+      "Send serum for autoimmune encephalitis panel and paraneoplastic antibodies",
+      "Perform whole-body PET/CT scan to screen for occult malignancy",
+      "Initiate empiric high-dose intravenous methylprednisolone for suspected autoimmune/inflammatory process",
+      "Perform repeat lumbar puncture if initial autoimmune panels are non-diagnostic, including cytology and flow cytometry for lymphoma",
+      "Consider brain biopsy if non-invasive workup is inconclusive",
+      "Continue levetiracetam or other antiepileptic therapy due to EEG findings"
+    ]
+  },
+  "differential_diagnoses": [
+    "Paraneoplastic limbic encephalitis",
+    "Autoimmune encephalitis (e.g., LGI1 or GABA-B receptor antibody-associated)",
+    "Cerebral amyloid angiopathy-related inflammation (CAA-ri)",
+    "Intravascular lymphomatosis",
+    "Leptomeningeal carcinomatosis",
+    "Primary angiitis of the central nervous system"
+  ],
+  "next_steps": [
+    "Perform CSF analysis including cytology, flow cytometry, paraneoplastic and autoimmune encephalitis antibody panels, and RT-QuIC for CJD",
+    "Initiate empiric high-dose intravenous corticosteroids for suspected inflammatory/autoimmune process",
+    "Conduct whole-body PET/CT scan to screen for occult malignancy",
+    "Initiate levetiracetam for seizure control given epileptiform EEG findings",
+    "Perform high-resolution MRI of the brain with and without gadolinium contrast and post-steroid follow-up imaging",
+    "Consider brain biopsy if initial autoimmune and malignancy workup is inconclusive"
+  ]
+}

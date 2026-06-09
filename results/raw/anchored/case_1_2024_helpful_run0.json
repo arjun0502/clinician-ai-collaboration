@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_1_2024",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Echis ocellatus (carpet viper) envenomation with severe coagulopathy",
+    "Placental abruption",
+    "Acute kidney injury (acute tubular necrosis vs. cortical necrosis)",
+    "Disseminated intravascular coagulation",
+    "HELLP syndrome",
+    "Severe postpartum hemorrhage"
+  ],
+  "next_steps": [
+    "Remove the tourniquet and assess for local tissue damage",
+    "Administer polyvalent or species-specific antivenom",
+    "Initiate fluid resuscitation and manage obstetric hemorrhage",
+    "Obtain type and cross-match for urgent blood transfusion",
+    "Administer parenteral antibiotics and tetanus prophylaxis",
+    "Perform urgent obstetric consultation for fetal and maternal stabilization",
+    "Monitor urine output, coagulation profile, and hematologic parameters",
+    "Transfer to a facility capable of hemodialysis and advanced obstetric care"
+  ]
+}

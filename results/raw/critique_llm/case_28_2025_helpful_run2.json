@@ -1,0 +1,42 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_28_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": "{\n  \"Evaluation_of_Each_Diagnosis_You_Listed\": {\n    \"Duodenal_perforation_with_retroperitoneal_abscess_and_secondary_IVC_thrombosis\": {\n      \"Supporting_facts\": \"Right-sided abdominal/back pain, duodenal thickening, soft-tissue connection between duodenum and kidney, S. anginosus bacteremia.\",\n      \"Arguments_against\": \"Lack of free air on initial CT, though retroperitoneal location can mask this.\",\n      \"Support_level\": \"Well-supported\"\n    },\n    \"Streptococcus_anginosus_group_liver_abscess_with_portal_vein_or_inferior_vena_cava_involvement\": {\n      \"Supporting_facts\": \"S. anginosus bacteremia, hepatomegaly, periportal edema, jaundice.\",\n      \"Arguments_against\": \"MRI/CT did not show a discrete liver abscess.\",\n      \"Support_level\": \"Well-supported\"\n    },\n    \"Duodenal-renal_fistula_(or_penetration)_due_to_chronic_peptic_ulcer_disease\": {\n      \"Supporting_facts\": \"Right-sided pain, renal vein thrombosis adjacent to duodenal thickening.\",\n      \"Arguments_against\": \"No prior evidence of long-standing ulcer disease.\",\n      \"Support_level\": \"Well-supported\"\n    },\n    \"Infective_endocarditis_with_septic_pulmonary_emboli\": {\n      \"Supporting_facts\": \"S. anginosus bacteremia, persistent fever, pulmonary opacities, tachycardia, thrombocytopenia.\",\n      \"Arguments_against\": \"Lack of classic physical signs (murmur, stigmata); pulmonary findings look more like diffuse inflammation/edema.\",\n      \"Support_level\": \"Well-supported\"\n    },\n    \"Strongyloides_stercoralis_hyperinfection_syndrome\": {\n      \"Supporting_facts\": \"Patient from Central America, lung opacities, sepsis of unknown origin, GI involvement.\",\n      \"Arguments_against\": \"Blood cultures identify S. anginosus; no larvae reported in sputum or stool yet.\",\n      \"Support_level\": \"Weakly supported\"\n    },\n    \"Crohns_disease_with_entero-renal_fistula\": {\n      \"Supporting_facts\": \"Duodenal thickening.\",\n      \"Arguments_against\": \"Acute onset of systemic symptoms, lack of chronic GI symptoms, age at presentation.\",\n      \"Support_level\": \"Weakly supported\"\n    },\n    \"Antiphospholipid_syndrome_with_secondary_venous_thrombosis_and_infection\": {\n      \"Supporting_facts\": \"Positive lupus anticoagulant, venous thrombosis.\",\n      \"Arguments_against\": \"Lupus anticoagulant can be transiently positive in the setting of acute inflammation or infection.\",\n      \"Support_level\": \"Weakly supported\"\n    }\n  },\n  \"Missing_Diagnoses\": [\n    \"Ascending cholangitis (due to biliary duct wall thickening seen on imaging).\",\n    \"Lemierre-like syndrome involving the portal venous system (pylephlebitis) associated with S. anginosus.\",\n    \"Biliary source of sepsis (choledocholithiasis or other obstruction).\"\n  ],\n  \"Evaluation_of_Each_Next_Step_You_Proposed\": {\n    \"Repeat_MRI_with_sedation\": \"Reasonable to improve diagnostic yield; potentially difficult given patient instability.\",\n    \"Upper_GI_endoscopy\": \"Highly reasonable to visualize the duodenal pathology but carries risk of inducing further perforation if the area is necrotic/fistulized.\",\n    \"Echocardiogram\": \"Essential to rule out endocarditis given persistent fever and S. anginosus bacteremia.\",\n    \"Surgical_consultation\": \"Crucial given the concern for duodenal-renal penetration/fistula.\",\n    \"Continue_targeted_antibiotics\": \"Reasonable; ceftriaxone is appropriate for S. anginosus.\",\n    \"Serial_monitoring\": \"Standard of care.\"\n  },\n  \"Missing_Next_Steps\": [\n    \"Thoracentesis/pleural fluid analysis if trace pleural fluid persists to rule out empyema.\",\n    \"Evaluation for Strongyloides (stool O&P or serology) given the patient's geographic history.\",\n    \"Transesophageal echocardiogram (TEE) is preferred over TTE for higher sensitivity in endocarditis.\",\n    \"Assessment of biliary tree via MRCP (if MRI is repeated) given the gallbladder/bile duct findings.\"\n  ],\n  \"Influence_of_Clinician_Input\": \"The clinician's assessment provided the framework for the duodenal-renal pathology. I adopted the surgical consultation and imaging suggestions directly. I should have questioned the 'Antiphospholipid' diagnosis more critically, as it is likely secondary to the acute infection/inflammation rather than a primary etiology.\",\n  \"Open_Questions\": [\n    \"What were the results of the S. anginosus susceptibility testing?\",\n    \"Is there evidence of larvae or Strongyloides serology?\",\n    \"Does the patient have a history of biliary disease that explains the gallbladder and ductal findings?\",\n    \"What is the current status of the patient's coagulation profile beyond the lupus anticoagulant?\"\n  ]\n}",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Duodenal perforation with retroperitoneal abscess and secondary IVC thrombosis",
+      "Streptococcus anginosus group liver abscess with portal vein or inferior vena cava involvement",
+      "Duodenal-renal fistula (or penetration) due to chronic peptic ulcer disease",
+      "Infective endocarditis with septic pulmonary emboli",
+      "Strongyloides stercoralis hyperinfection syndrome",
+      "Crohn's disease with entero-renal fistula",
+      "Antiphospholipid syndrome with secondary venous thrombosis and infection"
+    ],
+    "next_steps": [
+      "Repeat magnetic resonance imaging (MRI) of the abdomen with sedation to improve image quality",
+      "Upper gastrointestinal endoscopy to evaluate the duodenum",
+      "Echocardiogram (transthoracic or transesophageal) to rule out endocarditis",
+      "Surgical consultation for potential management of duodenal-renal pathology",
+      "Continue targeted antibiotic therapy for Streptococcus anginosus and optimize anticoagulation",
+      "Serial monitoring of abdominal physical examination and inflammatory markers"
+    ]
+  },
+  "differential_diagnoses": [
+    "Penetrating duodenal ulcer causing a retroperitoneal abscess and secondary venous thrombosis",
+    "Streptococcus anginosus group infection with septic thrombophlebitis (pylephlebitis or IVC thrombosis)",
+    "Infective endocarditis with septic emboli",
+    "Strongyloides stercoralis hyperinfection syndrome with secondary bacterial translocation",
+    "Biliary source of sepsis with periportal inflammatory involvement",
+    "Antiphospholipid syndrome (secondary)"
+  ],
+  "next_steps": [
+    "Transesophageal echocardiography to rule out infective endocarditis",
+    "Upper gastrointestinal endoscopy to evaluate the duodenum and rule out perforation/fistula",
+    "Surgical consultation for management of potential retroperitoneal/duodenal pathology",
+    "Strongyloides serology and stool examination for parasites",
+    "Magnetic resonance cholangiopancreatography (MRCP) to further evaluate biliary/periportal findings",
+    "Continue broad-spectrum antibiotics and therapeutic anticoagulation"
+  ]
+}

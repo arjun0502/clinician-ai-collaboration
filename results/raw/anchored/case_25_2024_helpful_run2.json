@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_25_2024",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Vitamin A deficiency (Xerophthalmia)",
+    "Nutritional optic neuropathy (Vitamin B12/folate/thiamine/copper deficiency)",
+    "Leber hereditary optic neuropathy (LHON)",
+    "Autosomal dominant optic atrophy (OPA1 mutation)",
+    "Toxic optic neuropathy",
+    "Autoimmune demyelinating optic neuritis (MOGAD/NMOSD)",
+    "Neurometabolic disorder (e.g., mitochondrial disease)"
+  ],
+  "next_steps": [
+    "Obtain serum levels of Vitamin A (retinol), Vitamin B12, folate, copper, zinc, and Vitamin E",
+    "Urgent ophthalmology consultation for formal assessment and electroretinography",
+    "Dietary evaluation by a pediatric nutritionist",
+    "Initiate empiric high-dose Vitamin A supplementation",
+    "Consider genetic testing for hereditary optic neuropathies",
+    "Perform comprehensive neurological assessment and metabolic screen",
+    "Referral to low-vision rehabilitation and behavioral support services"
+  ]
+}

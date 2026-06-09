@@ -1,0 +1,28 @@
+{
+  "condition": "anchored",
+  "case_id": "case_31_2024",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Leptospirosis (Weil's disease)",
+    "Babesiosis",
+    "Severe acute respiratory syndrome (SARS-CoV-2/ARDS)",
+    "Hantavirus pulmonary syndrome",
+    "Viral hepatitis (A, B, C, or E)",
+    "Tularemia (pulmonary/typhoidal)",
+    "T-cell lymphoma",
+    "Toxic shock syndrome"
+  ],
+  "next_steps": [
+    "Order leptospirosis PCR and serology (MAT)",
+    "Order peripheral blood smear for Babesia species",
+    "Perform bronchoalveolar lavage for cytology, cultures, and PCR",
+    "Order viral hepatitis panel (HAV, HBV, HCV, HEV)",
+    "Send serum and urine for leptospirosis testing",
+    "Maintain hemodynamic support and monitor for renal replacement therapy",
+    "Order autoimmune workup including ANCA and ANA",
+    "Perform thoracic echocardiography to evaluate for cardiac involvement"
+  ]
+}

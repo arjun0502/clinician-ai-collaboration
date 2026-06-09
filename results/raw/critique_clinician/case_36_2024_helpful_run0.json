@@ -1,0 +1,25 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_36_2024",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": "{\n  \"Evaluation of Each Clinician Diagnosis\": {\n    \"Celiac disease\": {\n      \"Supporting facts\": \"History of iron-deficiency anemia, abdominal pain, and nausea.\",\n      \"Arguments against\": \"Lack of chronic diarrhea, weight loss, or malabsorption signs; normal growth development; unlikely to cause abrupt, 15-minute episodes of severe pain.\",\n      \"Support level\": \"Weakly supported\"\n    },\n    \"Gastric bezoar\": {\n      \"Supporting facts\": \"History of pica as a toddler (may indicate persistent behavior), persistent abdominal pain, vomiting, epigastric tenderness, and iron-deficiency anemia (blood loss or malabsorption).\",\n      \"Arguments against\": \"CT scan mentioned 'gastric contents' but did not explicitly report a mass, though non-obstructive bezoars can be missed if oral contrast is not used or if it is radiolucent.\",\n      \"Support level\": \"Well-supported\"\n    },\n    \"Intestinal malrotation\": {\n      \"Supporting facts\": \"Intermittent abdominal pain and vomiting.\",\n      \"Arguments against\": \"Typically presents with bilious vomiting; age of onset is unusual for a primary presentation; CT showed normal anatomy.\",\n      \"Support level\": \"Unsupported\"\n    },\n    \"Intussusception of the intestine\": {\n      \"Supporting facts\": \"Intermittent, colicky, severe pain.\",\n      \"Arguments against\": \"Vignette describes a 4-week course; normal ultrasound and CT findings; rare in this age group without a lead point.\",\n      \"Support level\": \"Unsupported\"\n    },\n    \"Lymphoma of the small bowel\": {\n      \"Supporting facts\": \"Anemia, vague abdominal pain, persistent nausea.\",\n      \"Arguments against\": \"Normal CT imaging; lack of constitutional B-symptoms (fever, night sweats, significant weight loss).\",\n      \"Support level\": \"Weakly supported\"\n    },\n    \"Severe constipation\": {\n      \"Supporting facts\": \"Reported constipation, abdominal pain.\",\n      \"Arguments against\": \"CT showed only a 'small amount' of stool; rectal exam was normal; symptoms are not relieved by standard laxative therapies.\",\n      \"Support level\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Cannabinoid Hyperemesis Syndrome (CHS) - patient reported marijuana use.\",\n    \"Cyclic Vomiting Syndrome (CVS) - classic pattern of recurrent, discrete episodes of intense nausea/vomiting.\",\n    \"Lead toxicity - history of pica, anemia, and abdominal pain.\",\n    \"Superior Mesenteric Artery (SMA) Syndrome - associated with weight loss or anatomic changes, presenting with postprandial pain and vomiting.\",\n    \"Eosinophilic Gastroenteritis.\"\n  ],\n  \"Evaluation of Each Proposed Next Step\": {\n    \"Esophagogastroduodenoscopy (EGD)\": \"Highly reasonable; diagnostic gold standard for bezoars, gastritis, celiac disease (via biopsy), and structural lesions.\",\n    \"Surgical Consultation for Bezoar Removal\": \"Premature; EGD should be the initial diagnostic and potentially therapeutic step; surgery is reserved for complications (perforation/obstruction) or failure of endoscopic retrieval.\",\n    \"Psychiatric Evaluation for Trichotillomania/Trichophagia\": \"Reasonable; essential given the history of pica and the potential for a trichobezoar.\"\n  },\n  \"Missing Next Steps\": [\n    \"Urine toxicology screen to evaluate for cannabinoid metabolites.\",\n    \"Serum lead level (due to history of pica).\",\n    \"Tissue transglutaminase IgA levels for celiac disease screening.\",\n    \"Detailed interview regarding hair pulling or eating habits (trichophagia/pica).\"\n  ],\n  \"Open Questions\": [\n    \"Was the 'gastric contents' on CT described as a mass, or was it amorphous? Did the patient receive contrast that would outline a bezoar?\",\n    \"Are there specific food triggers or patterns related to the marijuana use that would suggest Cannabinoid Hyperemesis Syndrome?\",\n    \"Does the patient have a history of hair loss or thinning (consistent with trichotillomania)?\"\n  ]\n}",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Gastric trichobezoar",
+    "Cannabinoid hyperemesis syndrome",
+    "Cyclic vomiting syndrome",
+    "Lead toxicity",
+    "Eosinophilic gastroenteritis",
+    "Peptic ulcer disease",
+    "Celiac disease"
+  ],
+  "next_steps": [
+    "Esophagogastroduodenoscopy (EGD) for direct visualization and potential biopsy/retrieval",
+    "Urine toxicology screen for cannabinoid metabolites",
+    "Detailed patient interview regarding trichophagia and hair loss",
+    "Serum lead level testing",
+    "Tissue transglutaminase IgA and total serum IgA for celiac disease screening",
+    "Psychiatric consultation"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_13_2025",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Cushing syndrome (adrenocortical carcinoma or ectopic ACTH)\": {\n      \"Supporting facts\": \"Weight loss (paradoxical in chronic, but possible in cachectic phase), skin thinning, bruising, hyperglycemia, hypokalemia, hypertension, adrenal nodule, lymphopenia.\",\n      \"Arguments against\": \"Rapid progression of neurological symptoms is less characteristic unless metastatic/ectopic; CSF findings are atypical for hormonal excess alone.\",\n      \"Support level\": \"Well-supported\"\n    },\n    \"Bacterial meningitis (including Listeria monocytogenes)\": {\n      \"Supporting facts\": \"CSF pleocytosis (neutrophil-predominant), low glucose (profound), high protein, opening pressure >58 cm H2O.\",\n      \"Arguments against\": \"Afebrile, subacute course (6 weeks), absence of classic meningismus.\",\n      \"Support level\": \"Well-supported\"\n    },\n    \"Fungal meningitis (e.g., Cryptococcus, Candida, Coccidioides)\": {\n      \"Supporting facts\": \"Subacute clinical course, profound CSF hypoglycorrhachia, encephalopathy, immunocompromised host (history of leukemia).\",\n      \"Arguments against\": \"Neutrophilic pleocytosis is less common (usually lymphocytic), though early stages or Candida can present this way.\",\n      \"Support level\": \"Well-supported\"\n    },\n    \"Tuberculous meningitis\": {\n      \"Supporting facts\": \"Subacute, profound hypoglycorrhachia, high protein, high opening pressure, New England resident (though atypical).\",\n      \"Arguments against\": \"Often lymphocytic; lack of fever/night sweats.\",\n      \"Support level\": \"Weakly supported\"\n    },\n    \"Carcinomatous meningitis\": {\n      \"Supporting facts\": \"History of malignancy, subacute progression, systemic cachexia.\",\n      \"Arguments against\": \"CSF glucose of 2 mg/dL is extremely low, usually more typical of infection than primary carcinomatous meningitis.\",\n      \"Support level\": \"Weakly supported\"\n    },\n    \"Neuro-sarcoidosis\": {\n      \"Supporting facts\": \"Can cause high opening pressure, hypoglycorrhachia, and cranial nerve/parenchymal involvement.\",\n      \"Arguments against\": \"Usually lymphocytic; less common to present with such severe glucose depletion.\",\n      \"Support level\": \"Weakly supported\"\n    },\n    \"Adrenal insufficiency\": {\n      \"Supporting facts\": \"Weight loss, anorexia, nausea, fatigue, hypotension risk (though he is hypertensive).\",\n      \"Arguments against\": \"Hypertension and hyperglycemia contradict classic adrenal insufficiency.\",\n      \"Support level\": \"Unsupported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Primary CNS Lymphoma (PCNSL)\",\n    \"Neuro-Whipple's Disease\",\n    \"Paraneoplastic encephalitis (anti-Hu/Ma2)\"\n  ],\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Initiate empiric treatment for bacterial meningitis\": \"Reasonable. Life-threatening bacterial meningitis cannot be ruled out until cultures/PCR return.\",\n    \"Start empiric antifungal coverage\": \"Reasonable given the CSF glucose and immunocompromised history.\",\n    \"Obtain infectious disease consultation\": \"Essential; high yield.\",\n    \"Perform hormonal workup\": \"Necessary, but must be balanced with urgent infection management.\",\n    \"Measure serum and CSF lactate\": \"Highly useful; helps differentiate bacterial from viral/fungal.\",\n    \"Re-evaluate for occult malignancy\": \"Reasonable.\"\n  },\n  \"Missing Next Steps\": [\n    \"CSF cytology/flow cytometry (for lymphoma)\",\n    \"CSF Tropheryma whipplei PCR\",\n    \"Serum and CSF cytology for malignant cells\",\n    \"MRI of the spine (to evaluate for high opening pressure/extramedullary pathology)\"\n  ],\n  \"Influence of Clinician Input\": {\n    \"Critique\": \"The clinician's assessment was narrow and potentially dangerous (e.g., suggesting deferral of LP, which was already done, and prioritizing biopsy over stabilization). I ignored the 'defer LP' advice because the patient was clearly deteriorating neurologically. I adopted the 'bacterial' concern but expanded the scope significantly beyond the clinician's narrow list to include systemic fungal and autoimmune considerations.\"\n  },\n  \"Open Questions\": [\n    \"What was the specific cytology result from the CSF (e.g., blast cells vs. inflammatory cells)?\",\n    \"Were the CSF samples tested for Tropheryma whipplei PCR or paraneoplastic antibodies?\",\n    \"Did the adrenal nodule demonstrate enhancement or uptake on PET/CT (if performed)?\"\n  ]\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Cushing syndrome (adrenocortical carcinoma or ectopic ACTH)",
+      "Bacterial meningitis (including Listeria monocytogenes)",
+      "Fungal meningitis (e.g., Cryptococcus, Candida, Coccidioides)",
+      "Tuberculous meningitis",
+      "Carcinomatous meningitis",
+      "Neuro-sarcoidosis",
+      "Adrenal insufficiency (secondary to rapid withdrawal or occult etiology)"
+    ],
+    "next_steps": [
+      "Initiate empiric treatment for bacterial meningitis, including coverage for Listeria (ampicillin)",
+      "Start empiric antifungal coverage (amphotericin B)",
+      "Obtain infectious disease consultation for specialized CSF testing (India ink, fungal culture, AFB, PCR for TB/fungi)",
+      "Perform hormonal workup (ACTH, cortisol, dexamethasone suppression test, metanephrines, DHEAS)",
+      "Measure serum and CSF lactate to further differentiate bacterial vs. other etiologies",
+      "Re-evaluate for occult malignancy or paraneoplastic syndromes"
+    ]
+  },
+  "differential_diagnoses": [
+    "Candida meningitis",
+    "Primary CNS lymphoma",
+    "Bacterial meningitis (e.g., Listeria monocytogenes)",
+    "Cryptococcal meningitis",
+    "Tuberculous meningitis",
+    "Paraneoplastic encephalitis",
+    "Adrenocortical carcinoma with brain metastases"
+  ],
+  "next_steps": [
+    "Immediate empiric treatment with vancomycin, ceftriaxone, ampicillin, and liposomal amphotericin B",
+    "Send CSF for Tropheryma whipplei PCR and fungal/bacterial/TB cultures and PCR",
+    "Perform CSF cytology and flow cytometry for malignancy",
+    "Send serum and CSF for paraneoplastic antibody panels",
+    "Perform full endocrine workup (ACTH, cortisol, DHEAS, plasma metanephrines) for adrenal lesion",
+    "Consult neurology for repeat imaging or biopsy if CSF studies are non-diagnostic",
+    "Monitor intracranial pressure and provide neuro-protective supportive care"
+  ]
+}

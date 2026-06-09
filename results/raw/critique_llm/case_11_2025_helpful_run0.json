@@ -1,0 +1,41 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_11_2025",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": "{\n  \"Evaluation_of_Each_Diagnosis_You_Listed\": {\n    \"Lymphoma\": {\n      \"Support\": \"Weight loss, persistent symptoms, age, maternal history of lymphoma, lymphocytic-predominant pleural effusion.\",\n      \"Against\": \"Lack of lymphadenopathy on physical exam.\",\n      \"Verdict\": \"Well-supported.\"\n    },\n    \"Tuberculous_pleurisy\": {\n      \"Support\": \"Weight loss, travel to endemic areas (Southeast Asia, South Africa), pleural fluid lymphocytosis.\",\n      \"Against\": \"Subacute course without fever or night sweats; low pleural fluid LDH.\",\n      \"Verdict\": \"Moderately supported.\"\n    },\n    \"Metastatic_carcinoma\": {\n      \"Support\": \"Weight loss, age, pleural effusion, right-sided lung opacities.\",\n      \"Against\": \"Normal protein/albumin levels (usually low in advanced malignancy); no obvious primary source on exam.\",\n      \"Verdict\": \"Moderately supported.\"\n    },\n    \"Plasma_cell_neoplasm\": {\n      \"Support\": \"History of hyperparathyroidism/osteoporosis, weight loss, 'unclassified cells' in pleural fluid.\",\n      \"Against\": \"No mention of lytic bone lesions or anemia.\",\n      \"Verdict\": \"Weakly supported.\"\n    },\n    \"Chronic_empyema_parapneumonic_effusion\": {\n      \"Support\": \"Productive cough, right-sided opacities, effusion.\",\n      \"Against\": \"Fluid cell count profile (not frankly purulent); lack of acute febrile illness.\",\n      \"Verdict\": \"Weakly supported.\"\n    },\n    \"Systemic_inflammatory_disease\": {\n      \"Support\": \"Elevated ESR and CRP.\",\n      \"Against\": \"Lack of other systemic markers (e.g., skin, joint, or renal involvement).\",\n      \"Verdict\": \"Unsupported.\"\n    }\n  },\n  \"Missing_Diagnoses\": [\n    \"IgG4-related disease (can cause pleural effusions and relate to history of parathyroid/autoimmune tendencies)\",\n    \"Primary lung malignancy (e.g., adenocarcinoma with malignant effusion)\",\n    \"Rare infections (e.g., fungal infection related to travel)\"\n  ],\n  \"Evaluation_of_Each_Next_Step_You_Proposed\": {\n    \"Flow_cytometry_and_cytology\": \"Essential and high-yield for ruling out malignancy/lymphoma.\",\n    \"CT_chest_abdomen\": \"Reasonable; essential for staging and identifying hidden mass/adenopathy.\",\n    \"Pleural_biopsy\": \"Reasonable if initial cytology is negative; carries minor procedural risk.\",\n    \"TB_testing\": \"Appropriate given travel history and lymphocytosis.\",\n    \"PET-CT\": \"Useful, but usually prioritized after initial imaging/cytology results.\"\n  },\n  \"Missing_Next_Steps\": [\n    \"Serum protein electrophoresis (SPEP) and immunofixation to evaluate for plasma cell dyscrasia given the 'unclassified cells'.\",\n    \"Measurement of pleural fluid ADA (Adenosine Deaminase) level to aid in Tuberculous pleurisy diagnosis.\",\n    \"Pleural fluid LDH/Serum LDH ratio (Light's criteria calculation).\"\n  ],\n  \"Influence_of_Clinician_Input\": {\n    \"Extent_of_influence\": \"High. The clinician's inclusion of 'plasma-cell neoplasm' and 'extranodal marginal-zone lymphoma' (MALT) prompted their inclusion in my list, which are specific and highly relevant for this presentation.\",\n    \"Uncritical_adoption\": \"I uncritically adopted the 'lymphoma' suspicion, which is clinically sound but perhaps missed the urgency of investigating the 'unclassified cells' via immunohistochemistry more specifically.\",\n    \"Questioning\": \"I should have challenged the 'Maxillary Sinus Biopsy' suggested by the clinician; unless there are symptoms of sinusitis not explicitly detailed in the physical exam, this seems premature/unrelated.\"\n  },\n  \"Open_Questions\": [\n    \"What is the result of the pleural fluid cytology/cell block (specifically immunophenotyping of the 'unclassified cells')?\",\n    \"What do the chest CT findings show regarding the mediastinum and the specific nature of the right-sided opacities?\",\n    \"Are there serum monoclonal proteins present (SPEP/IFE)?\"\n  ]\n}",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Lymphoma (e.g., MALT lymphoma or diffuse large B-cell lymphoma)",
+      "Tuberculous pleurisy",
+      "Metastatic carcinoma (e.g., lung or breast)",
+      "Plasma cell neoplasm / Multiple myeloma",
+      "Chronic empyema / Parapneumonic effusion",
+      "Systemic inflammatory disease (e.g., sarcoidosis or vasculitis)"
+    ],
+    "next_steps": [
+      "Pleural fluid flow cytometry and immunophenotyping",
+      "Pleural fluid cytology and cell block for immunohistochemistry",
+      "Contrast-enhanced CT scan of the chest and abdomen",
+      "Pleural biopsy (if thoracentesis is nondiagnostic)",
+      "Tuberculosis testing (QuantiFERON-TB Gold or pleural fluid AFB culture)",
+      "PET-CT imaging to identify potential primary lesion or lymphadenopathy"
+    ]
+  },
+  "differential_diagnoses": [
+    "Extranodal marginal-zone B-cell lymphoma (MALT lymphoma)",
+    "Plasma-cell neoplasm (e.g., pleural plasmacytoma or multiple myeloma)",
+    "Tuberculous pleurisy",
+    "Metastatic adenocarcinoma of the lung",
+    "Diffuse large B-cell lymphoma",
+    "IgG4-related disease"
+  ],
+  "next_steps": [
+    "Pleural fluid immunohistochemistry (cell block) to characterize unclassified cells",
+    "Pleural fluid flow cytometry for clonality and surface marker analysis",
+    "Serum protein electrophoresis (SPEP) and serum immunofixation",
+    "Measurement of pleural fluid adenosine deaminase (ADA) levels",
+    "Contrast-enhanced CT of the chest, abdomen, and pelvis for staging",
+    "Pleural biopsy if fluid cytology/flow cytometry is nondiagnostic"
+  ]
+}

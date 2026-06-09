@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_4_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Sarcoidosis",
+    "Lymphoma",
+    "Tuberculosis",
+    "Bartonella henselae infection",
+    "Histoplasmosis",
+    "Systemic lupus erythematosus",
+    "Metastatic carcinoma"
+  ],
+  "next_steps": [
+    "Endobronchial ultrasound-guided transbronchial needle aspiration (EBUS-TBNA) of mediastinal lymph nodes",
+    "Serum ACE level and 1,25-dihydroxyvitamin D measurement",
+    "18F-FDG PET/CT scan",
+    "Cardiac MRI to assess for myocardial involvement",
+    "Excisional lymph node biopsy if EBUS is non-diagnostic",
+    "Comprehensive rheumatologic workup including ANA, ENA panel, and RF"
+  ]
+}

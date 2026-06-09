@@ -1,0 +1,41 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_32_2025",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Primary cardiac diffuse large B-cell lymphoma\": {\n      \"Supporting\": \"Rapid growth of a large, infiltrative right atrial mass, mediastinal lymphadenopathy, and B-symptoms potential.\",\n      \"Against\": \"None definitive; LDH levels (not provided) would be highly relevant.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Cardiac angiosarcoma\": {\n      \"Supporting\": \"Primary site (right atrium), rapid progression, clinical signs of SVC syndrome, pulmonary emboli/metastases.\",\n      \"Against\": \"Usually presents with significant hemorrhagic pericardial involvement; patient's age is slightly older than typical presentation.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Metastatic malignancy\": {\n      \"Supporting\": \"Large mass, pulmonary nodules, mediastinal lymphadenopathy.\",\n      \"Against\": \"Lack of a known primary (though occult primary is possible); normal tumor markers (AFP, CA 19-9, CA 125, CEA).\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Cardiac sarcoma (undifferentiated pleomorphic)\": {\n      \"Supporting\": \"Aggressive infiltrative nature and rapid growth.\",\n      \"Against\": \"Non-specific; diagnosis of exclusion.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Right atrial thrombus\": {\n      \"Supporting\": \"History of pacemaker lead placement, SVC syndrome, and pulmonary emboli.\",\n      \"Against\": \"Mass size (9 cm), infiltration into adjacent tissues/aortic root, and heterogeneity on TEE are highly uncharacteristic of thrombus.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Infective endocarditis with vegetation\": {\n      \"Supporting\": \"Pacemaker lead presence, clinical deterioration.\",\n      \"Against\": \"Normal temperature, negative blood cultures, massive size of the lesion, and infiltrative growth pattern.\",\n      \"Status\": \"Unsupported\"\n    },\n    \"Atrial myxoma\": {\n      \"Supporting\": \"Right atrial location.\",\n      \"Against\": \"Myxomas are typically pedunculated, not infiltrative, and do not cause massive mediastinal lymphadenopathy or rapid progression to SVC syndrome.\",\n      \"Status\": \"Unsupported\"\n    }\n  },\n  \"Missing Diagnoses\": {\n    \"Diagnoses\": [\n      \"Cardiac IgG4-related disease\",\n      \"Cardiac sarcoidosis\",\n      \"Primary cardiac T-cell lymphoma\"\n    ]\n  },\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"18F-FDG PET-CT scan\": {\n      \"Reasonable\": \"Yes, essential for staging and identifying the most metabolically active biopsy site.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"Percutaneous biopsy\": {\n      \"Reasonable\": \"Yes, but requires caution due to the risk of hemorrhage and the location abutting the aorta.\",\n      \"Harmful/Contraindicated\": \"High risk of bleeding/tamponade; must be performed by highly experienced interventionalists.\"\n    },\n    \"Pericardiocentesis\": {\n      \"Reasonable\": \"Yes, diagnostic for cytology and potentially therapeutic for tamponade symptoms.\",\n      \"Harmful/Contraindicated\": \"No, provided there is sufficient fluid to safely access.\"\n    },\n    \"Formal cardiac MRI\": {\n      \"Reasonable\": \"Yes, provides superior tissue characterization (gadolinium enhancement patterns) to distinguish thrombus from tumor.\",\n      \"Harmful/Contraindicated\": \"Must ensure pacemaker is MRI-conditional and appropriately programmed.\"\n    },\n    \"Anticoagulation management\": {\n      \"Reasonable\": \"Yes, necessary for pulmonary embolism, but requires risk-benefit assessment in the setting of a potential vascular tumor.\",\n      \"Harmful/Contraindicated\": \"Potential for hemorrhage if the tumor is highly vascular (e.g., angiosarcoma).\"\n    }\n  },\n  \"Missing Next Steps\": {\n    \"Steps\": [\n      \"Serum LDH level check (critical for lymphoma diagnosis)\",\n      \"MRI compatibility check of the existing permanent pacemaker system\",\n      \"Multidisciplinary review by cardio-oncology team\"\n    ]\n  },\n  \"Influence of Clinician Input\": {\n    \"Assessment\": \"The clinician's differential provided a strong framework for my initial response. I adopted the 'Primary cardiac lymphoma' and 'Angiosarcoma' hypotheses uncritically due to their high clinical probability given the imaging findings (floating-vessel sign, infiltrative mass). I should have been more skeptical about the viability of biopsy given the anatomical proximity to the aortic root and the pacemaker lead complications.\"\n  },\n  \"Open Questions\": {\n    \"Questions\": [\n      \"What is the serum LDH level?\",\n      \"Is the current pacemaker MRI-conditional?\",\n      \"Does the patient have signs of SVC syndrome confirmed by hemodynamic pressure measurement?\"\n    ]\n  }\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Primary cardiac diffuse large B-cell lymphoma",
+      "Cardiac angiosarcoma",
+      "Metastatic malignancy",
+      "Cardiac sarcoma (undifferentiated pleomorphic)",
+      "Right atrial thrombus",
+      "Infective endocarditis with vegetation",
+      "Atrial myxoma"
+    ],
+    "next_steps": [
+      "18F-FDG PET-CT scan to evaluate metabolic activity and extent of disease",
+      "Percutaneous biopsy of the cardiac mass or FDG-avid mediastinal lymph node",
+      "Pericardiocentesis with cytologic analysis and flow cytometry",
+      "Formal cardiac MRI to characterize tissue perfusion and enhancement patterns",
+      "Anticoagulation management for pulmonary embolism in the context of malignancy"
+    ]
+  },
+  "differential_diagnoses": [
+    "Primary cardiac diffuse large B-cell lymphoma",
+    "Cardiac angiosarcoma",
+    "Metastatic carcinoma",
+    "Primary cardiac undifferentiated pleomorphic sarcoma",
+    "Cardiac IgG4-related disease",
+    "Right atrial thrombus"
+  ],
+  "next_steps": [
+    "Check serum lactate dehydrogenase (LDH) and beta-2 microglobulin levels",
+    "Confirm MRI-conditional status of the pacemaker hardware for cardiac MRI planning",
+    "18F-FDG PET-CT for staging and identifying biopsy targets",
+    "Pericardiocentesis with cytologic, flow cytometry, and immunohistochemical analysis",
+    "Multidisciplinary review by interventional radiology, cardiothoracic surgery, and cardio-oncology",
+    "Ultrasound-guided biopsy of the most accessible and metabolically active mediastinal lymph node"
+  ]
+}

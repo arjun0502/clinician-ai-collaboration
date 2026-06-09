@@ -1,0 +1,44 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_2_2026",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": "```json\n{\n  \"Evaluation_of_Each_Diagnosis\": {\n    \"Hypervirulent_Klebsiella_pneumoniae\": {\n      \"Supporting_Facts\": \"Liver abscess, endophthalmitis, and multiple cavitary pulmonary nodules in a patient with an unclear travel/social history are classic for metastatic hypervirulent K. pneumoniae.\",\n      \"Against_Facts\": \"None.\",\n      \"Support_Level\": \"Well-supported\"\n    },\n    \"Disseminated_nocardiosis\": {\n      \"Supporting_Facts\": \"Pulmonary nodules/cavitation, central nervous system involvement (brain lesions), and endophthalmitis.\",\n      \"Against_Facts\": \"Liver abscess is less common than in Klebsiella, though possible.\",\n      \"Support_Level\": \"Well-supported\"\n    },\n    \"Disseminated_fungal_infection\": {\n      \"Supporting_Facts\": \"Endophthalmitis, multiple organ involvement (liver, lung, CNS), and fever.\",\n      \"Against_Facts\": \"Typically occurs in immunocompromised hosts; this patient's immune status is unknown.\",\n      \"Support_Level\": \"Well-supported\"\n    },\n    \"Infective_endocarditis\": {\n      \"Supporting_Facts\": \"Embolic phenomena (eye, brain, lungs).\",\n      \"Against_Facts\": \"Transthoracic echocardiography showed no vegetations; hyperdynamic state suggests systemic sepsis rather than just localized valvular disease.\",\n      \"Support_Level\": \"Weakly supported\"\n    },\n    \"Disseminated_tuberculosis\": {\n      \"Supporting_Facts\": \"Weight loss, pulmonary nodules, cavitation.\",\n      \"Against_Facts\": \"Acute progression (3 weeks), neutrophilic leukocytosis, and specific ocular presentation (panophthalmitis) are less characteristic.\",\n      \"Support_Level\": \"Weakly supported\"\n    },\n    \"Malignancy\": {\n      \"Supporting_Facts\": \"Weight loss, pulmonary masses, hepatic mass.\",\n      \"Against_Facts\": \"Rapid onset of fevers and the presence of septic-appearing endophthalmitis strongly favor an infectious process.\",\n      \"Support_Level\": \"Weakly supported\"\n    },\n    \"Melioidosis\": {\n      \"Supporting_Facts\": \"Presentation mirrors hypervirulent Klebsiella (abscesses, septic emboli).\",\n      \"Against_Facts\": \"Rare in the U.S. without specific travel history (though patient was born in the Caribbean).\",\n      \"Support_Level\": \"Weakly supported\"\n    }\n  },\n  \"Missing_Diagnoses\": [\n    \"Entamoeba histolytica (liver abscess and potential systemic spread, though endophthalmitis is highly atypical)\",\n    \"Actinomycosis (can mimic malignancy/tuberculosis with sinus tracts and mass lesions)\"\n  ],\n  \"Evaluation_of_Each_Next_Step\": {\n    \"Hepatic_aspiration\": \"Reasonable; essential for microbiologic diagnosis.\",\n    \"Vitreous_tap\": \"Reasonable and urgent for both diagnosis and local control of endophthalmitis.\",\n    \"Blood_urine_sputum_cultures\": \"Necessary, though likely already sent; serial cultures are vital.\",\n    \"Transesophageal_echocardiography\": \"Reasonable, as it is more sensitive than transthoracic for small vegetations.\",\n    \"Antimicrobial_optimization\": \"Necessary, but empirical broad-spectrum coverage must be prioritized.\",\n    \"Ophthalmology_consult\": \"Mandatory; likely requires intravitreal antibiotics and surgical evaluation.\",\n    \"Pulmonary_biopsy\": \"Reasonable only if other less invasive sites (blood, liver, eye) are nondiagnostic.\"\n  },\n  \"Missing_Next_Steps\": [\n    \"Comprehensive immunodeficiency workup (HIV testing, A1c for undiagnosed diabetes mellitus, as DM is the primary risk factor for hypervirulent Klebsiella).\",\n    \"Detailed social/exposure history (specifically regarding diabetes or recent travel to Southeast Asia or hyperendemic regions).\"\n  ],\n  \"Influence_of_Clinician_Input\": {\n    \"Assessment\": \"The clinician's assessment was narrow, focusing primarily on infective endocarditis. I adopted a broader approach that included hypervirulent Klebsiella and Nocardia, which better accounts for the liver-eye-lung axis seen in the case.\",\n    \"Critique\": \"The clinician missed the liver abscess-endophthalmitis syndrome, which is a classic clinical triad for hypervirulent Klebsiella pneumoniae. I properly questioned the sufficiency of 'infective endocarditis' as the sole diagnosis.\"\n  },\n  \"Open_Questions\": [\n    \"What is the patient's Hemoglobin A1c (to assess for underlying diabetes)?\",\n    \"What are the results of the HIV antibody/antigen testing?\",\n    \"What is the identity of the organism from the initial blood/sputum cultures obtained at the first hospital?\",\n    \"Does the patient have a history of specific high-risk exposures?\"\n  ]\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Hypervirulent Klebsiella pneumoniae infection with metastatic endophthalmitis and liver abscess",
+      "Disseminated nocardiosis",
+      "Disseminated fungal infection (e.g., Candida or Aspergillus)",
+      "Infective endocarditis with septic emboli",
+      "Disseminated tuberculosis",
+      "Malignancy with paraneoplastic or metastatic sequelae",
+      "Melioidosis (Burkholderia pseudomallei)"
+    ],
+    "next_steps": [
+      "Perform aspiration of the hepatic mass for culture, Gram stain, and pathology",
+      "Perform diagnostic vitreous tap (vitrectomy) for microbiology and PCR",
+      "Obtain follow-up blood, urine, and sputum cultures",
+      "Perform transesophageal echocardiography to rule out occult endocarditis",
+      "Initiate or optimize targeted antimicrobial therapy pending culture results",
+      "Consult Ophthalmology for management of endophthalmitis and potential intravitreal injections",
+      "Consider biopsy of suspicious pulmonary nodules if diagnosis remains elusive"
+    ]
+  },
+  "differential_diagnoses": [
+    "Hypervirulent Klebsiella pneumoniae (hvKP) syndrome with metastatic endophthalmitis and hepatic abscess",
+    "Disseminated nocardiosis",
+    "Disseminated fungal infection (e.g., Candida or Aspergillus)",
+    "Infective endocarditis with septic emboli",
+    "Melioidosis (Burkholderia pseudomallei)",
+    "Disseminated tuberculosis",
+    "Metastatic malignancy with secondary infection"
+  ],
+  "next_steps": [
+    "Obtain definitive microbiologic samples (blood cultures, hepatic abscess aspiration, vitrectomy for vitreous fluid analysis)",
+    "Perform diagnostic imaging (transesophageal echocardiography, CT/MRI of affected areas if not already done)",
+    "Evaluate for underlying predisposing conditions, particularly undiagnosed diabetes mellitus (HbA1c) and HIV status",
+    "Consult Ophthalmology immediately for potential vitrectomy and intravitreal antibiotic administration",
+    "Tailor broad-spectrum antibiotic therapy based on Gram stain and early culture results (prioritizing coverage for hvKP)",
+    "Manage supportive care for severe systemic sepsis and ocular preservation"
+  ]
+}

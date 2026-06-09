@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_2_2024",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Dabrafenib and trametinib-induced systemic toxicity (drug-induced pyrexia and hepatitis)",
+    "Anaplasmosis (due to residency in New England and clinical presentation)",
+    "Acute cholecystitis with secondary systemic inflammatory response",
+    "Autoimmune hepatitis",
+    "Sarcoidosis",
+    "Occult metastatic melanoma progression with paraneoplastic symptoms",
+    "Hemophagocytic lymphohistiocytosis (HLH)"
+  ],
+  "next_steps": [
+    "Perform PCR for Anaplasma phagocytophilum and Ehrlichia chaffeensis",
+    "Perform liver biopsy with histopathological assessment for drug toxicity vs. infiltration",
+    "Serum ferritin, triglycerides, and fibrinogen levels to rule out HLH",
+    "Repeat abdominal imaging (MRCP or HIDA scan) to further evaluate biliary pathology",
+    "Discontinue dabrafenib and trametinib indefinitely",
+    "Initiate systemic corticosteroids if liver enzymes continue to trend upward or if biopsy confirms drug-induced hepatotoxicity"
+  ]
+}

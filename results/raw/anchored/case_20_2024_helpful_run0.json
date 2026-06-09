@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_20_2024",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Common Variable Immunodeficiency (CVID) with granulomatous-lymphocytic interstitial lung disease (GLILD)",
+    "Chronic Granulomatous Disease (CGD)",
+    "Systemic Sarcoidosis",
+    "Whipple's disease",
+    "Q fever (chronic)",
+    "Cat-scratch disease (Bartonella henselae)",
+    "Hemophagocytic lymphohistiocytosis (HLH)"
+  ],
+  "next_steps": [
+    "Quantitative serum immunoglobulin levels (IgG, IgA, IgM)",
+    "Measurement of vaccine-specific antibody titers (pneumococcal, tetanus, diphtheria)",
+    "Dihydrorhodamine (DHR) flow cytometry assay for CGD",
+    "Whole-exome sequencing or targeted primary immunodeficiency gene panel",
+    "Repeat liver biopsy with molecular testing (e.g., 16S rRNA gene sequencing or metagenomic next-generation sequencing)",
+    "Consultation with clinical immunology and infectious disease"
+  ]
+}

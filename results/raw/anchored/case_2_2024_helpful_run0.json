@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_2_2024",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Dabrafenib and trametinib-induced systemic adverse reaction (pyrexia/hepatotoxicity)",
+    "Anaplasmosis",
+    "Biliary obstruction/Cholangitis",
+    "Hemophagocytic lymphohistiocytosis (HLH)",
+    "Metastatic melanoma progression",
+    "Autoimmune hepatitis",
+    "Infective endocarditis"
+  ],
+  "next_steps": [
+    "Discontinue dabrafenib and trametinib permanently",
+    "Serum ferritin, triglycerides, fibrinogen, and sCD25 levels to evaluate for HLH",
+    "Blood smear for Anaplasma morulae and PCR testing for tickborne pathogens",
+    "Magnetic resonance cholangiopancreatography (MRCP) to exclude biliary pathology",
+    "Liver biopsy with specialized staining and immunohistochemistry",
+    "Echocardiogram to rule out endocarditis",
+    "Corticosteroid therapy consideration if drug-induced systemic inflammatory syndrome is confirmed"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_28_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Duodenal perforation (penetrating peptic ulcer) with retroperitoneal abscess and secondary thrombophlebitis",
+    "Lemierre's syndrome variant (Streptococcus anginosus) with deep space infection",
+    "Strongyloides stercoralis hyperinfection syndrome",
+    "Infective endocarditis with septic emboli",
+    "Crohn's disease with enterorenal fistula and abscess",
+    "Tuberculosis (disseminated) involving mediastinal nodes and abdomen"
+  ],
+  "next_steps": [
+    "Urgent upper endoscopy to evaluate the duodenum for ulceration or fistula",
+    "Echocardiography (transthoracic or transesophageal) to rule out endocarditis",
+    "Stool examination for ova and parasites (specifically Strongyloides)",
+    "Repeat blood cultures to monitor for clearance of bacteremia",
+    "Continue systemic anticoagulation for renal vein/IVC thrombosis",
+    "Consult Interventional Radiology for potential drainage of the pararenal fluid collection if identified on imaging",
+    "Review clinical status for escalation to surgical consultation if evidence of contained duodenal perforation persists"
+  ]
+}

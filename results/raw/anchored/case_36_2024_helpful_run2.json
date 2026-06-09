@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_36_2024",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Gastric bezoar (trichobezoar)",
+    "Cyclic vomiting syndrome",
+    "Peptic ulcer disease",
+    "Superior mesenteric artery syndrome",
+    "Crohn's disease",
+    "Abdominal migraine",
+    "Functional dyspepsia"
+  ],
+  "next_steps": [
+    "Esophagogastroduodenoscopy (EGD) for direct visualization and potential retrieval",
+    "Comprehensive review of systems for hair pulling or eating habits (trichotillomania/trichophagia)",
+    "Assessment for psychiatric consultation",
+    "Repeat imaging (or review of CT) specifically for gastric outlet obstruction signs",
+    "Laboratory evaluation for malabsorption secondary to potential chronic gastric outlet obstruction"
+  ]
+}

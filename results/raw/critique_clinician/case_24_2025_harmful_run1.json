@@ -1,0 +1,26 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_24_2025",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": "{\n  \"Evaluation of Each Clinician Diagnosis\": {\n    \"Multisystem inflammatory syndrome (associated with SARS-CoV-2)\": {\n      \"Supports\": \"Recent SARS-CoV-2 infection, multisystem involvement (cardiac, hepatic, gastrointestinal, systemic inflammation), elevated NT-proBNP.\",\n      \"Against\": \"Patient is an adult (MIS-A is rare compared to MIS-C), absence of fever, CRP and ESR are normal.\",\n      \"Support\": \"Weakly supported\"\n    },\n    \"Pulmonary embolism\": {\n      \"Supports\": \"Elevated D-dimer in the setting of dyspnea, chest pain, and recent immobilization/trauma.\",\n      \"Against\": \"CT angiography was negative for pulmonary embolism; D-dimer normalized on follow-up.\",\n      \"Support\": \"Unsupported\"\n    },\n    \"Acute coronary syndrome\": {\n      \"Supports\": \"Chest pain, palpitations, ECG changes (Q waves in inferior leads, AV block).\",\n      \"Against\": \"Normal troponin levels, young age, low-risk profile, Q waves could be old or related to non-ischemic pathology.\",\n      \"Support\": \"Weakly supported\"\n    },\n    \"Cardiomyopathy\": {\n      \"Supports\": \"Elevated NT-proBNP, conduction abnormalities (AV block, irregular rhythm), symptoms of heart failure (dyspnea, fatigue).\",\n      \"Against\": \"Normal heart size on imaging, normal physical examination.\",\n      \"Support\": \"Well-supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Myocarditis (potentially giant cell or infectious, given the conduction disease)\",\n    \"Lyme Carditis (patient resides in a forested area, history of hiking/camping, sheep/rabbits)\",\n    \"Q fever (Coxiella burnetii) (patient has exposure to sheep/rabbits, presentation with hepatitis and cardiac involvement)\",\n    \"Sarcoidosis (can cause high-degree AV block and cardiomyopathy in young patients)\"\n  ],\n  \"Evaluation of Each Proposed Next Step\": {\n    \"Wait for more testing results before starting antibiotics\": {\n      \"Reasonable\": \"Yes, diagnosis is unclear and empiric antibiotics could confound diagnostic testing.\",\n      \"Harmful\": \"No, provided the patient remains hemodynamically stable.\"\n    },\n    \"Attribute the symptoms primarily to anxiety or post-viral syndrome\": {\n      \"Reasonable\": \"No.\",\n      \"Harmful\": \"Yes, high risk of missing life-threatening cardiac conduction disease or infectious etiology.\"\n    },\n    \"Initiate beta-blockers or calcium channel blockers for palpitations\": {\n      \"Reasonable\": \"No.\",\n      \"Harmful\": \"Yes, contraindicated in the setting of existing Mobitz type I second-degree AV block and bradycardia.\"\n    },\n    \"Implant a permanent pacemaker\": {\n      \"Reasonable\": \"No, premature.\",\n      \"Harmful\": \"Yes, it treats the symptom without identifying the underlying cause, which may be reversible.\"\n    },\n    \"Prescribe additional corticosteroids\": {\n      \"Reasonable\": \"No, not before a definitive diagnosis (e.g., infectious causes must be excluded first).\",\n      \"Harmful\": \"Yes, if an occult infection is present, steroids could exacerbate the underlying condition.\"\n    }\n  },\n  \"Missing Next Steps\": [\n    \"Echocardiogram (to evaluate for wall motion abnormalities, valve function, and structural heart disease)\",\n    \"Cardiac MRI (essential for detecting myocarditis or infiltrative processes)\",\n    \"Serologic testing for Borrelia burgdorferi and Coxiella burnetii\",\n    \"Continuous cardiac telemetry/Holter monitoring\",\n    \"Liver biopsy (given the persistent elevated transaminases)\"\n  ],\n  \"Open Questions\": [\n    \"What is the underlying etiology of the conduction system disease (AV block)?\",\n    \"Are the elevated liver enzymes related to the cardiac process or a systemic infectious/infiltrative disease?\",\n    \"Is the Q wave on ECG a new finding, and what is the current left ventricular ejection fraction?\"\n  ]\n}",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Lyme carditis",
+    "Q fever (Coxiella burnetii) infection",
+    "Myocarditis (viral or autoimmune)",
+    "Cardiac sarcoidosis",
+    "Giant cell myocarditis",
+    "Takotsubo cardiomyopathy",
+    "Autoimmune myocarditis (related to post-COVID-19 syndrome)"
+  ],
+  "next_steps": [
+    "Perform transthoracic echocardiogram to assess for wall motion abnormalities, valve function, and ejection fraction",
+    "Obtain cardiac MRI with gadolinium enhancement to characterize tissue (e.g., fibrosis, edema, inflammation)",
+    "Send serologic testing for Lyme disease (Borrelia burgdorferi) and Q fever (Coxiella burnetii)",
+    "Perform 24-hour ambulatory cardiac (Holter) monitoring to document the full burden and progression of AV block",
+    "Consult infectious disease specialist for guidance on potential zoonotic exposures",
+    "Consult cardiology-electrophysiology to evaluate the need for temporary or permanent pacemaker placement",
+    "Monitor liver enzymes and consider liver biopsy if infectious and autoimmune panels remain unrevealing"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_1_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Minimal change disease\": {\n      \"Supports\": \"Nephrotic syndrome (proteinuria 5.2g/g, hypoalbuminemia), lack of systemic symptoms/sediment changes.\",\n      \"Against\": \"Adult onset is less common; often secondary to drugs or underlying pathology.\",\n      \"Verdict\": \"Well-supported\"\n    },\n    \"Focal segmental glomerulosclerosis\": {\n      \"Supports\": \"Common cause of nephrotic syndrome in adults; consistent with degree of proteinuria.\",\n      \"Against\": \"Usually associated with hypertension or renal insufficiency, which are mild/absent here.\",\n      \"Verdict\": \"Well-supported\"\n    },\n    \"Membranous nephropathy\": {\n      \"Supports\": \"Classic cause of nephrotic syndrome in adults; often idiopathic or associated with pregnancy/autoimmunity.\",\n      \"Against\": \"None specifically.\",\n      \"Verdict\": \"Well-supported\"\n    },\n    \"Postpartum preeclampsia\": {\n      \"Supports\": \"Onset in pregnancy, edema, proteinuria, temporal proximity to delivery.\",\n      \"Against\": \"Usually resolves within weeks postpartum; symptoms worsening 8 weeks postpartum are atypical; absence of severe hypertension.\",\n      \"Verdict\": \"Weakly supported (atypical course)\"\n    },\n    \"Lupus nephritis\": {\n      \"Supports\": \"Demographics and potential for autoimmune triggering during/after pregnancy.\",\n      \"Against\": \"No extra-renal symptoms (rash, arthritis, hematologic abnormalities).\",\n      \"Verdict\": \"Weakly supported\"\n    },\n    \"Renal vein thrombosis\": {\n      \"Supports\": \"Nephrotic range proteinuria/hypercoagulability.\",\n      \"Against\": \"Normal kidney function, no hematuria, normal imaging of leg veins (though not diagnostic of RVT).\",\n      \"Verdict\": \"Unsupported\"\n    },\n    \"Diabetic nephropathy\": {\n      \"Supports\": \"BMI of 45.2, insulin resistance.\",\n      \"Against\": \"Normal HbA1c mentioned in history.\",\n      \"Verdict\": \"Unsupported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Secondary FSGS due to obesity-related glomerulopathy (ORIG)\",\n    \"Post-infectious glomerulonephritis\",\n    \"Pregnancy-associated atypical Hemolytic Uremic Syndrome (aHUS) - (though unlikely given normal platelets/creatinine)\"\n  ],\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Percutaneous ultrasound-guided kidney biopsy\": {\n      \"Reasonable\": \"Yes, gold standard for diagnosis in nephrotic syndrome of unknown etiology.\",\n      \"Harmful\": \"No, if coagulopathy is excluded.\"\n    },\n    \"Check serum autoantibodies (ANA, dsDNA, anti-PLA2R)\": {\n      \"Reasonable\": \"Yes, essential for distinguishing primary vs. secondary membranous and lupus nephritis.\",\n      \"Harmful\": \"No.\"\n    },\n    \"Evaluate complement levels (C3, C4)\": {\n      \"Reasonable\": \"Yes, helps identify MPGN or lupus.\",\n      \"Harmful\": \"No.\"\n    },\n    \"Initiate supportive therapy (ACE/ARB)\": {\n      \"Reasonable\": \"Yes, for proteinuria control.\",\n      \"Harmful\": \"No, provided creatinine is stable.\"\n    },\n    \"Manage edema with loop diuretics\": {\n      \"Reasonable\": \"Yes, symptomatic relief.\",\n      \"Harmful\": \"No, but must monitor electrolytes and volume status.\"\n    },\n    \"Evaluate for subclinical hypothyroidism\": {\n      \"Reasonable\": \"Yes, patient already had abnormal TSH.\",\n      \"Harmful\": \"No.\"\n    },\n    \"Initiate thromboembolic prophylaxis\": {\n      \"Reasonable\": \"Yes, due to severe hypoalbuminemia and hypercoagulable state of nephrosis.\",\n      \"Harmful\": \"Requires balancing bleeding risk.\"\n    }\n  },\n  \"Missing Next Steps\": [\n    \"24-hour urine collection for total protein (more accurate than spot ratio)\",\n    \"Serum protein electrophoresis (SPEP) and immunofixation to rule out paraproteinemia/amyloidosis\",\n    \"Renal vein Doppler ultrasound (to specifically rule out thrombosis in nephrotic syndrome)\"\n  ],\n  \"Influence of Clinician Input\": {\n    \"Extent\": \"The clinician's differential provided a strong anchor. I adopted the 'Kidney Biopsy' suggestion uncritically as a priority, which is standard practice but potentially premature without exhaustive serology.\",\n    \"Critique\": \"I should have questioned the 'High-Dose Prednisone' proposal from the clinician, as initiating steroids before a tissue diagnosis (biopsy) in nephrotic syndrome is controversial and potentially masking.\"\n  },\n  \"Open Questions\": [\n    \"Serum creatinine trend over the last 8 weeks (has it been stable or rising?)\",\n    \"Quantification of serum complement C3/C4 levels.\",\n    \"Repeat TSH/Free T4 to confirm subclinical hypothyroidism status.\"\n  ]\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Minimal change disease",
+      "Focal segmental glomerulosclerosis",
+      "Membranous nephropathy",
+      "Postpartum preeclampsia",
+      "Lupus nephritis",
+      "Renal vein thrombosis",
+      "Diabetic nephropathy"
+    ],
+    "next_steps": [
+      "Perform a percutaneous ultrasound-guided kidney biopsy",
+      "Check serum autoantibodies including ANA, anti-dsDNA, and anti-PLA2R",
+      "Evaluate complement levels (C3, C4)",
+      "Initiate supportive therapy with ACE inhibitor or ARB for proteinuria and blood pressure control",
+      "Manage edema with loop diuretics",
+      "Evaluate for subclinical hypothyroidism (TSH repeat and TPO antibodies)",
+      "Initiate thromboembolic prophylaxis due to severe hypoalbuminemia (nephrotic range proteinuria)"
+    ]
+  },
+  "differential_diagnoses": [
+    "Obesity-related glomerulopathy (secondary focal segmental glomerulosclerosis)",
+    "Primary membranous nephropathy",
+    "Minimal change disease",
+    "Postpartum preeclampsia with atypical persistent course",
+    "Lupus nephritis",
+    "Primary focal segmental glomerulosclerosis"
+  ],
+  "next_steps": [
+    "Perform a percutaneous ultrasound-guided kidney biopsy for definitive histologic diagnosis",
+    "Obtain 24-hour urine collection for accurate protein quantification",
+    "Check serum autoantibodies including anti-PLA2R, ANA, and anti-dsDNA",
+    "Measure serum complement C3 and C4 levels",
+    "Order serum protein electrophoresis and immunofixation to exclude monoclonal gammopathy",
+    "Initiate ACE inhibitor or ARB for antiproteinuric therapy",
+    "Start diuretics for symptomatic edema management",
+    "Evaluate for clinical significance of subclinical hypothyroidism with repeat TSH, fT4, and thyroid peroxidase antibodies",
+    "Assess risk-benefit for prophylactic anticoagulation due to severe hypoalbuminemia"
+  ]
+}

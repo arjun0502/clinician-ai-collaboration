@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_35_2024",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Congenital pulmonary airway malformation (CPAM)",
+    "Pleuropulmonary blastoma",
+    "Intralobar bronchopulmonary sequestration",
+    "Congenital lobar emphysema",
+    "Meconium aspiration syndrome",
+    "Neonatal pneumonia with pneumatocele formation",
+    "Type 1 congenital pulmonary airway malformation"
+  ],
+  "next_steps": [
+    "Contrast-enhanced computed tomography (CT) of the chest",
+    "Magnetic resonance imaging (MRI) of the chest to characterize lesion components",
+    "Genetics consultation for DICER1 syndrome",
+    "DICER1 mutation analysis",
+    "Pediatric surgery consultation for surgical planning and resection",
+    "Pathological examination of resected tissue to rule out pleuropulmonary blastoma"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_1_2026",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": "{\n  \"Evaluation_of_Each_Clinician_Diagnosis\": {\n    \"Disseminated_meningococcal_disease\": {\n      \"Supports\": \"Fever, rapid progression to shock, petechiae, and multi-organ involvement.\",\n      \"Arguments_against\": \"Lack of classic purpura fulminans; patient had more respiratory and gastrointestinal prodromal symptoms.\",\n      \"Support_level\": \"Weakly supported\"\n    },\n    \"Malaria_(Plasmodium_falciparum)\": {\n      \"Supports\": \"Travel to endemic area, fever, fatigue, thrombocytopenia (chronic), and shock.\",\n      \"Arguments_against\": \"Negative rapid malaria antigen test (though requires repeat testing/smear), lack of hyperparasitemia symptoms initially.\",\n      \"Support_level\": \"Well-supported (must be ruled out via smear)\"\n    },\n    \"Dengue_shock_syndrome\": {\n      \"Supports\": \"Travel to endemic area, mosquito exposure, sudden onset fever, shock, pleural effusions, ascites, and capillary leak syndrome.\",\n      \"Arguments_against\": \"Shock onset is quite rapid compared to typical dengue progression (usually days 3-7 of illness), though possible.\",\n      \"Support_level\": \"Well-supported\"\n    },\n    \"Fulminant_gram-negative_enteric_sepsis\": {\n      \"Supports\": \"Fever, hypotension, shock, history of cirrhosis/splenomegaly (immunocompromised state).\",\n      \"Arguments_against\": \"None; highly likely given the clinical presentation of septic shock.\",\n      \"Support_level\": \"Well-supported\"\n    },\n    \"Pyelonephritis/urosepsis\": {\n      \"Supports\": \"Right hydroureteronephrosis and systemic shock symptoms.\",\n      \"Arguments_against\": \"Absence of dysuria, hematuria, or specific costovertebral tenderness.\",\n      \"Support_level\": \"Weakly supported\"\n    },\n    \"Sepsis\": {\n      \"Supports\": \"Fever, tachycardia, tachypnea, hypotension, multi-organ dysfunction syndrome.\",\n      \"Arguments_against\": \"None; this is the clinical status of the patient.\",\n      \"Support_level\": \"Well-supported\"\n    }\n  },\n  \"Missing_Diagnoses\": [\n    \"Leptospirosis (often associated with rural travel, fever, shock, and capillary leak syndrome/pulmonary involvement)\",\n    \"Rickettsial infections (Rocky Mountain Spotted Fever or other spotted fever group rickettsioses)\",\n    \"Acute exacerbation of underlying schistosomiasis (Katayama fever or secondary bacterial infection)\",\n    \"Myocarditis (given ECG changes, low QRS voltage, and global biventricular dysfunction)\",\n    \"Hemophagocytic lymphohistiocytosis (HLH) secondary to infection\"\n  ],\n  \"Evaluation_of_Each_Proposed_Next_Step\": {\n    \"Dengue_testing\": {\n      \"Reasonable\": \"Yes, highly relevant given travel history and symptoms.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"Rapid_meningococcal_NAAT/PCR\": {\n      \"Reasonable\": \"Yes, critical given the severity of shock and petechiae.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"Peripheral_blood_smear_(thick/thin)\": {\n      \"Reasonable\": \"Yes, essential standard of care for febrile traveler to rule out malaria.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    }\n  },\n  \"Missing_Next_Steps\": [\n    \"Blood and stool cultures (for enteric pathogens)\",\n    \"Urinalysis and urine culture\",\n    \"Serum ferritin, triglycerides, and fibrinogen to assess for HLH\",\n    \"Cardiac biomarkers (serial troponin, pro-BNP) and echocardiography follow-up for myocarditis assessment\",\n    \"Leptospirosis IgM/PCR\"\n  ],\n  \"Open_Questions\": [\n    \"What are the serial WBC and platelet counts? (To differentiate acute worsening from chronic baseline)\",\n    \"What are the liver and kidney function tests? (Baseline vs. current)\",\n    \"Are there parasites or inflammatory markers (CRP/Procalcitonin) available?\",\n    \"Does the patient have a history of recent antibiotic use?\",\n    \"What is the current status of the patient's coagulation profile (PT/PTT/INR)?\"\n  ]\n}",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Dengue shock syndrome",
+    "Septic shock (gram-negative/enteric bacterial translocation)",
+    "Leptospirosis (Weil's disease)",
+    "Malaria (Plasmodium falciparum)",
+    "Fulminant myocarditis (infectious/viral)",
+    "Hemophagocytic lymphohistiocytosis (HLH)",
+    "Acute exacerbation of chronic schistosomiasis with sepsis"
+  ],
+  "next_steps": [
+    "Send peripheral blood smear for thick and thin assessment to definitively rule out malaria",
+    "Request dengue serology (NS1 antigen and IgM/IgG antibodies)",
+    "Order Leptospira PCR and IgM testing",
+    "Perform full infectious workup including serial blood, urine, and stool cultures",
+    "Obtain ferritin, fasting triglycerides, fibrinogen, and soluble CD25 to evaluate for secondary HLH",
+    "Collect serial cardiac biomarkers (troponin, NT-proBNP) and evaluate for autoimmune or viral myocarditis markers",
+    "Order coagulation profile (PT, PTT, INR, fibrinogen) and D-dimer to monitor for DIC",
+    "Monitor serial lactate and bedside echocardiography to assess responsiveness to volume resuscitation and vasopressor titration"
+  ]
+}

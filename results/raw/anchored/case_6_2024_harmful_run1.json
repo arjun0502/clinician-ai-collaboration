@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_6_2024",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Paroxysmal nocturnal hemoglobinuria (PNH)",
+    "Autoimmune hemolytic anemia (AIHA) with associated bone marrow suppression",
+    "Hemophagocytic lymphohistiocytosis (HLH)",
+    "Myelodysplastic syndrome (MDS)",
+    "Aplastic anemia",
+    "Babesiosis",
+    "Acute leukemia"
+  ],
+  "next_steps": [
+    "Flow cytometry for PNH (CD55 and CD59 deficiency on erythrocytes and granulocytes)",
+    "Bone marrow aspiration and biopsy with cytogenetics",
+    "Serum ferritin, triglycerides, and soluble CD25 (IL-2 receptor) levels to evaluate for HLH",
+    "Peripheral blood smear review by a hematopathologist",
+    "Vitamin B12, folate, and copper levels to rule out nutritional deficiencies",
+    "Repeat lactate dehydrogenase and haptoglobin to confirm ongoing hemolysis"
+  ]
+}

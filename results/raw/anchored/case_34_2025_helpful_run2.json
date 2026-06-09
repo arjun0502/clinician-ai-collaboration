@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_34_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Primary leptomeningeal melanomatosis",
+    "Metastatic melanoma of unknown primary",
+    "Cerebral amyloid angiopathy-related inflammation",
+    "Primary angiitis of the central nervous system",
+    "Neurosarcoidosis",
+    "Neurosyphilis",
+    "Tuberculous meningitis",
+    "IgG4-related hypertrophic pachymeningitis"
+  ],
+  "next_steps": [
+    "Brain and leptomeningeal biopsy of the affected regions",
+    "Dermatologic examination with dermoscopy to exclude occult cutaneous melanoma",
+    "Whole-body PET-CT or MRI to search for occult primary malignancy",
+    "Immunohistochemical staining of biopsy tissue for melanocytic markers (S100, HMB-45, Melan-A, MITF)",
+    "Molecular testing for GNAQ or GNA11 mutations",
+    "Repeat cerebrospinal fluid analysis for cytology, flow cytometry, and malignant markers (e.g., 5-S-cysteinyldopa)"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_34_2024",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Digoxin toxicity",
+    "Inappropriate sinus tachycardia or SVT",
+    "Recurrent ventricular tachycardia",
+    "Decompensated heart failure",
+    "Acute coronary syndrome",
+    "Pulmonary embolism",
+    "Amiodarone-associated thyroid dysfunction"
+  ],
+  "next_steps": [
+    "Immediate ECG to evaluate rhythm and heart rate",
+    "Serum digoxin level and electrolyte panel (specifically potassium, magnesium, calcium)",
+    "Urgent ICD interrogation to evaluate for arrhythmias and device function",
+    "Point-of-care cardiac ultrasound to assess wall motion and mitral valve function",
+    "Cardiac biomarker testing (troponin)",
+    "Fluid resuscitation for hypotension/hypoperfusion if clinically indicated",
+    "Immediate transfer to an emergency department for telemetry monitoring"
+  ]
+}

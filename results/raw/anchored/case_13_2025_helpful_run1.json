@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_13_2025",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Cryptococcal meningitis",
+    "Cushing's syndrome (ectopic or adrenal origin)",
+    "Listeriosis",
+    "Tuberculous meningitis",
+    "Primary central nervous system lymphoma",
+    "Paraneoplastic encephalomyelitis",
+    "Carcinomatous meningitis"
+  ],
+  "next_steps": [
+    "India ink preparation and cryptococcal antigen testing of cerebrospinal fluid",
+    "Fungal and mycobacterial cultures of cerebrospinal fluid",
+    "Brain MRI with contrast (if compatible with vagus nerve stimulator) or PET-CT scan to evaluate for occult malignancy",
+    "Serum and urinary free cortisol and plasma ACTH levels",
+    "Empiric antifungal therapy (e.g., liposomal amphotericin B and flucytosine) given the severe hypoglycorrhachia",
+    "Start systemic corticosteroids if adrenal insufficiency is ruled out or considered secondary to underlying malignancy, though caution is required given the suspected Cushing's syndrome"
+  ]
+}

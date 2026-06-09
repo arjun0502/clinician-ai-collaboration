@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_11_2024",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Rheumatoid vasculitis",
+    "Nonsystemic vasculitic neuropathy",
+    "Cryoglobulinemic vasculitis",
+    "ANCA-associated vasculitis (Microscopic polyangiitis)",
+    "Pyridoxine (Vitamin B6) deficiency-related peripheral neuropathy",
+    "Chronic inflammatory demyelinating polyradiculoneuropathy (CIDP)",
+    "Paraneoplastic neurological syndrome"
+  ],
+  "next_steps": [
+    "Obtain rheumatoid factor, anti-CCP antibodies, ANA, ANCA, and complement levels (C3, C4)",
+    "Perform cryoglobulin testing and serum protein electrophoresis/immunofixation if not already finalized",
+    "Schedule a combined sural nerve and gastrocnemius muscle biopsy for histological evaluation for vasculitis",
+    "Consider initiating a trial of intravenous corticosteroids if vasculitis is suspected",
+    "Continue pyridoxine supplementation and monitor for neurological improvement",
+    "Perform a more comprehensive neurological assessment and formal cognitive testing once pain is better managed"
+  ]
+}

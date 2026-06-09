@@ -1,0 +1,27 @@
+{
+  "condition": "anchored",
+  "case_id": "case_33_2025",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Anti-NMDA receptor encephalitis",
+    "Thyrotoxicosis (recurrent or factitious)",
+    "Alcohol withdrawal syndrome (delirium tremens)",
+    "Benzodiazepine withdrawal",
+    "Serotonin syndrome",
+    "Autoimmune encephalitis (non-paraneoplastic)",
+    "Viral encephalitis",
+    "Bipolar mania with catatonia"
+  ],
+  "next_steps": [
+    "Check serum TSH, free T4, and free T3 levels",
+    "Obtain serum and CSF NMDAR antibody testing",
+    "Perform 24-hour continuous video-EEG monitoring",
+    "Obtain a comprehensive toxicological review including heavy metals and thyroid hormone analogues",
+    "Perform whole-body CT imaging to screen for occult malignancy (e.g., ovarian teratoma or other neoplasms)",
+    "Consider empiric treatment for autoimmune encephalitis (e.g., high-dose corticosteroids or IVIG) if clinical suspicion remains high",
+    "Monitor for autonomic instability and manage symptoms supportively in the ICU"
+  ]
+}

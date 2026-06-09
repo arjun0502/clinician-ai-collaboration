@@ -1,0 +1,26 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_33_2024",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Clinician Diagnosis\": {\n    \"Tumefactive multiple sclerosis\": {\n      \"Supporting\": \"History of autoimmune disease (myasthenia gravis), clinical presentation with focal neurological deficits, and T2-hyperintense expansile lesion with mass effect.\",\n      \"Against\": \"Patient age (71) is atypical for MS onset; lack of specific white matter patterns on imaging; poor response to initial steroids.\",\n      \"Support\": \"Weakly supported\"\n    },\n    \"Brain abscess due to infection with Listeria monocytogenes\": {\n      \"Supporting\": \"Patient is chronically immunosuppressed (mycophenolate mofetil) and has had prior thymectomy; Listeria is a classic pathogen in this context; can present as cerebritis/abscess.\",\n      \"Against\": \"Lack of systemic fever or elevated inflammatory markers; no purulence seen intraoperatively.\",\n      \"Support\": \"Well-supported\"\n    },\n    \"Primary CNS lymphoma\": {\n      \"Supporting\": \"Age of patient; radiographic appearance of a heterogeneously enhancing mass; perivascular infiltrate seen on frozen section is highly suggestive.\",\n      \"Against\": \"Mass failed to shrink or worsened rapidly after corticosteroid initiation (a characteristic 'vanishing' tumor effect).\",\n      \"Support\": \"Well-supported\"\n    },\n    \"Vascular lesion mimicking mass\": {\n      \"Supporting\": \"Acute onset of symptoms (aphasia, confusion); history of hypertension.\",\n      \"Against\": \"Imaging showing progressive mass effect/edema over several days; frozen section showed cellular infiltrate, not necrotic tissue typical of stroke.\",\n      \"Support\": \"Weakly supported\"\n    },\n    \"Metastatic cancer to the brain\": {\n      \"Supporting\": \"History of thymoma, pulmonary nodule, and breast nodule.\",\n      \"Against\": \"Breast nodule stable for 8 years; thymoma was resected 22 years ago; histopathology showed infiltrate rather than glandular or epithelial malignancy.\",\n      \"Support\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Nocardiosis (common in long-term immunosuppression)\",\n    \"Progressive multifocal leukoencephalopathy (PML) - though usually less mass-like\",\n    \"Toxoplasmosis (due to long-term immunosuppression)\",\n    \"Primary angiitis of the CNS (PACNS)\",\n    \"Paraneoplastic encephalitis associated with prior thymoma\"\n  ],\n  \"Evaluation of Each Proposed Next Step\": {\n    \"Perform a Gram stain on aspirated material\": \"Reasonable; essential for ruling out bacterial etiology.\",\n    \"Permanent-section pathology review + immunohistochemistry\": \"Crucial; absolutely necessary for definitive diagnosis (e.g., markers for B/T cells, GFAP, etc.).\",\n    \"Order a broad microbiology workup\": \"Reasonable; should include CSF/tissue culture for fungi, mycobacteria, and Nocardia.\",\n    \"Infectious Disease consultation + start broad empiric antibiotics\": \"Reasonable, though coverage should specifically target organisms like Listeria and Nocardia in this immunosuppressed host.\"\n  },\n  \"Missing Next Steps\": [\n    \"Comprehensive CSF analysis (if not already done, though lumbar puncture may be high-risk given mass effect)\",\n    \"Serum EBV PCR (for PCNSL)\",\n    \"Evaluation for occult systemic malignancy (e.g., PET/CT)\",\n    \"Immunohistochemistry for CD20, CD3, and Ki-67 on biopsy tissue\"\n  ],\n  \"Open Questions\": [\n    \"Are there any specific markers of B-cell clonality or viral markers (like EBV) in the biopsy tissue?\",\n    \"Did the patient have an MRI perfusion study to assess vascularity?\",\n    \"What is the current status of the patient's peripheral CD4 count given long-term mycophenolate use?\"\n  ]\n}\n```",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Primary CNS Lymphoma",
+    "Listeriosis (rhombencephalitis or cerebritis)",
+    "Nocardiosis",
+    "Toxoplasmosis",
+    "Tumefactive multiple sclerosis",
+    "Primary angiitis of the CNS (PACNS)",
+    "Paraneoplastic autoimmune encephalitis"
+  ],
+  "next_steps": [
+    "Perform immunohistochemical staining on biopsy tissue (CD20, CD3, CD68, GFAP, Ki-67)",
+    "Request tissue cultures for aerobic/anaerobic bacteria, fungi, mycobacteria, and Nocardia",
+    "Perform EBER in situ hybridization on biopsy specimen to evaluate for EBV association",
+    "Consult Infectious Disease for optimization of empiric antimicrobial coverage for Listeria and Nocardia",
+    "Obtain serum EBV PCR and quantify peripheral lymphocyte subsets",
+    "Consider repeat advanced neuroimaging (MR perfusion or spectroscopy) to differentiate neoplasm from inflammatory processes",
+    "Evaluate for systemic occult infection or malignancy via whole-body PET/CT scan"
+  ]
+}

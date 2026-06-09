@@ -1,0 +1,41 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_19_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": "{\n  \"Evaluation_of_Each_Diagnosis_You_Listed\": {\n    \"Progressive_multifocal_leukoencephalopathy_(JC_virus_granule_cell_neuronopathy)\": {\n      \"Supports\": \"Subacute ataxia, brainstem/cerebellar involvement, severe immunosuppression (post-CAR-T, lymphopenia).\",\n      \"Against\": \"Lack of white matter lesions; GCN typically causes cerebellar atrophy which is not emphasized.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Neurolymphomatosis_(Leptomeningeal_relapse_of_DLBCL)\": {\n      \"Supports\": \"History of CNS DLBCL, elevated CSF protein, presence of atypical lymphoid cells.\",\n      \"Against\": \"Negative flow cytometry; subacute progressive course in the setting of prior remission.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Varicella-zoster_virus_(VZV)_rhombencephalitis\": {\n      \"Supports\": \"Severe immunocompromise, rhombencephalitis presentation (ataxia, cranial nerve palsy).\",\n      \"Against\": \"No cutaneous rash (zoster sine herpete is possible but rare).\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Powassan_virus_encephalitis\": {\n      \"Supports\": \"New England residence, outdoor activity history, subacute neurological decline.\",\n      \"Against\": \"CSF pleocytosis is moderate; usually presents with acute encephalitic features.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Listeria_monocytogenes_rhombencephalitis\": {\n      \"Supports\": \"Severe cellular immunosuppression, brainstem predilection.\",\n      \"Against\": \"Subacute timeline is longer than typically seen with acute Listeria; negative Gram stain.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Paraneoplastic_cerebellar_degeneration\": {\n      \"Supports\": \"Underlying history of malignancy, subacute progressive cerebellar syndrome.\",\n      \"Against\": \"CSF pleocytosis (21 cells) is more common in inflammatory/infectious than pure paraneoplastic syndromes.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"HHV-6_encephalitis\": {\n      \"Supports\": \"Occurs in post-CAR-T cell recipients, limbic/brainstem involvement.\",\n      \"Against\": \"Usually occurs early post-transplant/CAR-T; current timeline is quite delayed.\",\n      \"Status\": \"Weakly supported\"\n    }\n  },\n  \"Missing_Diagnoses\": [\n    \"Whipple's disease (Tropheryma whipplei)\",\n    \"Neurosarcoidosis\",\n    \"Primary CNS vasculitis\"\n  ],\n  \"Evaluation_of_Each_Next_Step_You_Proposed\": {\n    \"CSF_PCR_for_JC_virus_VZV_HHV-6_and_arboviruses\": \"Highly reasonable and mandatory.\",\n    \"Repeat_CSF_cytology_with_immunocytochemistry\": \"Reasonable given the initial 'atypical cells' finding; non-invasive.\",\n    \"CSF_paraneoplastic_antibody_panel\": \"Reasonable, though diagnostic yield is lower.\",\n    \"Supportive_care\": \"Essential.\",\n    \"Brain_biopsy\": \"Reasonable as a last resort, but high risk in a patient with coagulopathy (though apixaban was stopped).\"\n  },\n  \"Missing_Next_Steps\": [\n    \"CSF T-cell receptor (TCR) gene rearrangement analysis (to rule out T-cell lymphoma)\",\n    \"CSF EBER-in situ hybridization (to specifically detect EBV-associated lymphoproliferative disorder)\",\n    \"MRI of the total spine (to look for leptomeningeal enhancement not visible on head MRI)\"\n  ],\n  \"Influence_of_Clinician_Input\": {\n    \"Analysis\": \"I adopted the clinician's differential structure significantly. The inclusion of paraneoplastic syndromes was heavily influenced by the clinician's list. I may have uncritically accepted the 'cerebellitis' framework without considering that the 'atypical cells' in CSF strongly point towards a missed or occult lymphomatous process requiring more specific molecular testing than standard flow cytometry.\"\n  },\n  \"Open_Questions\": [\n    \"Are the atypical cells observed in the CSF EBV-positive (EBER-ISH)?\",\n    \"Did the patient have an MRI of the entire neuraxis to look for nodular leptomeningeal disease?\",\n    \"Could the 'calcified lesion' be a red herring, or is it a site of chronic smoldering disease?\"\n  ]\n}",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Progressive multifocal leukoencephalopathy (JC virus granule cell neuronopathy)",
+      "Neurolymphomatosis (Leptomeningeal relapse of DLBCL)",
+      "Varicella-zoster virus (VZV) rhombencephalitis",
+      "Powassan virus encephalitis",
+      "Listeria monocytogenes rhombencephalitis",
+      "Paraneoplastic cerebellar degeneration",
+      "HHV-6 encephalitis"
+    ],
+    "next_steps": [
+      "Perform CSF PCR for JC virus (specifically testing for granule cell neuronopathy), VZV, HHV-6, and arboviruses including Powassan virus",
+      "Perform repeat CSF cytology with immunocytochemistry and potentially brain biopsy if CSF studies are nondiagnostic",
+      "Perform CSF paraneoplastic antibody panel (including anti-Yo, anti-DNER, anti-Hu, and anti-Ma2)",
+      "Continue supportive care and reassess immunosuppressive regimen",
+      "Consider brain biopsy for definitive histopathologic diagnosis if non-invasive testing remains negative"
+    ]
+  },
+  "differential_diagnoses": [
+    "Leptomeningeal relapse of EBV-positive DLBCL",
+    "Progressive multifocal leukoencephalopathy (JC virus granule cell neuronopathy)",
+    "Varicella-zoster virus (VZV) rhombencephalitis (zoster sine herpete)",
+    "Paraneoplastic cerebellar degeneration",
+    "Powassan virus encephalitis",
+    "Listeria monocytogenes rhombencephalitis"
+  ],
+  "next_steps": [
+    "Perform CSF EBV EBER-in situ hybridization and PCR on cytologic specimens",
+    "Perform CSF PCR for JC virus, VZV, HHV-6, and arboviruses",
+    "Perform CSF TCR gene rearrangement and repeat cytology with immunohistochemistry",
+    "Perform MRI of the entire spine with and without gadolinium contrast to evaluate for leptomeningeal enhancement",
+    "Send CSF paraneoplastic antibody panel",
+    "Consider brain biopsy of the cerebellum or meninges if non-invasive workup is negative and clinical decline persists"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_15_2024",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "S\u00e9zary syndrome",
+    "Adult T-cell leukemia/lymphoma",
+    "Psoriasiform drug eruption",
+    "Kaposi's varicelliform eruption (superimposed on chronic dermatitis)",
+    "Erythrodermic psoriasis",
+    "Atopic dermatitis (severe/complicated)",
+    "Paraneoplastic erythroderma"
+  ],
+  "next_steps": [
+    "Excisional biopsy of enlarged inguinal lymph node for histopathology, immunohistochemistry, and T-cell receptor gene rearrangement studies",
+    "Flow cytometry of peripheral blood for T-cell markers (CD3, CD4, CD8, CD7, CD26) to rule out S\u00e9zary cells",
+    "HTLV-1 antibody testing",
+    "Whole-body PET/CT scan for metabolic evaluation of lymphadenopathy and pulmonary nodules",
+    "Biopsy of pulmonary nodule or bronchoscopy if clinically stable",
+    "Review of previous skin biopsy slides by expert dermatopathologist for clonal T-cell populations",
+    "Consultation with hematology-oncology for systemic staging"
+  ]
+}

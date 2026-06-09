@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_37_2024",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Autoimmune encephalitis (e.g., anti-LGI1 or anti-NMDA receptor encephalitis)",
+    "Postictal psychosis",
+    "Ictal psychosis",
+    "Nonconvulsive status epilepticus",
+    "Paraneoplastic limbic encephalitis",
+    "Psychogenic nonepileptic seizures (PNES) with comorbid epilepsy",
+    "Metabolic or toxic encephalopathy"
+  ],
+  "next_steps": [
+    "Perform lumbar puncture for CSF analysis (including autoimmune encephalitis panel and paraneoplastic antibodies)",
+    "Order serum autoimmune encephalitis and paraneoplastic antibody panels",
+    "Obtain whole-body PET/CT to screen for occult malignancy",
+    "Continue continuous video-EEG monitoring to rule out ongoing subclinical status epilepticus",
+    "Consult psychiatry for evaluation of acute psychosis and agitation",
+    "Consider trial of empiric pulse corticosteroids or intravenous immunoglobulin (IVIG) if autoimmune etiology is highly suspected",
+    "Review all current medication profiles to ensure no drug-drug interactions or toxicities"
+  ]
+}

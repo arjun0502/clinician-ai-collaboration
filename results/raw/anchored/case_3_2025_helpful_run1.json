@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_3_2025",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Transthyretin Cardiac Amyloidosis (ATTR)",
+    "Light-chain (AL) Amyloidosis",
+    "Hypertrophic Cardiomyopathy (phenocopy mimic)",
+    "Cardiac Sarcoidosis",
+    "Fabry Disease",
+    "Hemochromatosis",
+    "Endomyocardial Fibrosis"
+  ],
+  "next_steps": [
+    "Serum and urine protein electrophoresis with immunofixation",
+    "Serum free light-chain assay",
+    "Technetium-99m pyrophosphate (PYP) or DPD/HMDP scintigraphy",
+    "Cardiac magnetic resonance imaging (repeat with specific emphasis on extracellular volume fraction and late gadolinium enhancement pattern)",
+    "Endomyocardial biopsy if scintigraphy and light-chain studies are inconclusive",
+    "Genetic testing for TTR gene mutation (TTR sequencing)"
+  ]
+}

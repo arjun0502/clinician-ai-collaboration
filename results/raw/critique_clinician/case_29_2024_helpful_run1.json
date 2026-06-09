@@ -1,0 +1,27 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_29_2024",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Clinician Diagnosis\": {\n    \"Legionella infection complicated by rhabdomyolysis\": {\n      \"Supporting facts\": \"Right lower lobe pneumonia, acute kidney injury, confusion (hyponatremia-associated), rapid progression.\",\n      \"Against facts\": \"No clear water exposure history, but urban residence allows for environmental aerosolization.\",\n      \"Support level\": \"Well-supported\"\n    },\n    \"Streptococcal pneumonia with rhabdomyolysis\": {\n      \"Supporting facts\": \"Right lower lobe consolidation on imaging.\",\n      \"Against facts\": \"Rhabdomyolysis is rare compared to typical pneumonia; patient is young/otherwise healthy.\",\n      \"Support level\": \"Weakly supported\"\n    },\n    \"Influenza\": {\n      \"Supporting facts\": \"Myalgias, fatigue, fever, acute lung injury.\",\n      \"Against facts\": \"Negative rapid respiratory panel (NAAT).\",\n      \"Support level\": \"Unsupported\"\n    },\n    \"Supplement-/toxin-associated rhabdomyolysis\": {\n      \"Supporting facts\": \"Usage of ginseng and burdock root.\",\n      \"Against facts\": \"Does not explain the pulmonary consolidation or the systemic inflammatory response.\",\n      \"Support level\": \"Weakly supported\"\n    },\n    \"Inflammatory myopathy\": {\n      \"Supporting facts\": \"Very high CK levels.\",\n      \"Against facts\": \"Acute onset over 6 days is highly atypical for dermatomyositis/polymyositis; lacks characteristic dermatologic signs.\",\n      \"Support level\": \"Weakly supported\"\n    },\n    \"Aspergillus infection\": {\n      \"Supporting facts\": \"None obvious; patient is not immunocompromised.\",\n      \"Against facts\": \"Lack of risk factors (e.g., neutropenia, corticosteroids).\",\n      \"Support level\": \"Unsupported\"\n    },\n    \"HIV infection\": {\n      \"Supporting facts\": \"Pneumonia and potential opportunistic involvement.\",\n      \"Against facts\": \"No history of exposure, no chronic symptoms, unlikely in a 47-year-old with acute presentation.\",\n      \"Support level\": \"Weakly supported\"\n    },\n    \"Nemaline myopathy\": {\n      \"Supporting facts\": \"Family history in sister.\",\n      \"Against facts\": \"Nemaline myopathy is a congenital condition; a 47-year-old would not present with acute onset rhabdomyolysis of this nature.\",\n      \"Support level\": \"Unsupported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Leptospirosis (Weil's disease)\",\n    \"Hantavirus Pulmonary Syndrome\",\n    \"Toxic Shock Syndrome (Staphylococcal or Streptococcal)\",\n    \"Dengue fever\",\n    \"Autoimmune encephalitis with paraneoplastic pneumonia\"\n  ],\n  \"Evaluation of Each Proposed Next Step\": {\n    \"Nephrology Consult + Emergency Hemodialysis Catheter Placement\": \"Reasonable; the patient has severe AKI, hyperkalemia, and oliguria.\",\n    \"Transthoracic Echocardiogram + Repeat TTE\": \"Reasonable; to assess for endocarditis or stress-induced cardiomyopathy.\",\n    \"Legionella Urinary Antigen Test\": \"Highly reasonable; should have been done immediately upon presentation.\",\n    \"Repeat chest imaging if clinical deterioration occurs\": \"Reasonable, though prompt serial imaging is standard for rapid respiratory decline.\"\n  },\n  \"Missing Next Steps\": [\n    \"Blood and sputum cultures (before/during antibiotic administration)\",\n    \"Serum CPK isoenzymes or aldolase (to confirm muscle origin)\",\n    \"Comprehensive viral panel (including Hantavirus if geographic/environmental risk persists)\",\n    \"Autoimmune workup (ANA, anti-Jo-1, myositis panel)\",\n    \"Leptospira serology or PCR\"\n  ],\n  \"Open Questions\": [\n    \"Was a urinalysis performed to check for myoglobinuria?\",\n    \"Does the patient have specific exposure to rodents (hantavirus/leptospirosis risk) in the 'converted factory' apartment?\",\n    \"What are the results of the initial blood/sputum cultures?\",\n    \"Is there a history of autoimmune disease beyond the sister's (patient-specific)?\",\n    \"What is the specific composition of the 'burdock root' supplement (potential adulteration)?\"\n  ]\n}\n```",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Legionellosis with severe rhabdomyolysis",
+    "Leptospirosis (Weil's syndrome)",
+    "Staphylococcal toxic shock syndrome",
+    "Streptococcal toxic shock syndrome",
+    "Viral pneumonia with secondary bacterial superinfection",
+    "Autoimmune myositis presenting as a crisis",
+    "Hantavirus pulmonary syndrome"
+  ],
+  "next_steps": [
+    "Perform Legionella urinary antigen test",
+    "Urinalysis with urine myoglobin evaluation",
+    "Blood and sputum cultures",
+    "Consult nephrology for emergent hemodialysis",
+    "Perform autoimmune myositis panel (including anti-Jo-1, anti-SRP, and anti-HMGCR)",
+    "Order Leptospira IgM and PCR testing",
+    "Obtain specialized toxicology screen for heavy metals or adulterants in herbal supplements",
+    "Perform bedside transthoracic echocardiogram to rule out cardiomyopathy"
+  ]
+}

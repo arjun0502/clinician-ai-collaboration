@@ -1,0 +1,27 @@
+{
+  "condition": "anchored",
+  "case_id": "case_15_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Hantavirus cardiopulmonary syndrome (HCPS)",
+    "Leptospirosis",
+    "Severe community-acquired pneumonia (atypical/bacterial)",
+    "Dengue fever with capillary leak syndrome",
+    "Pulmonary alveolar hemorrhage (e.g., vasculitis)",
+    "Psittacosis",
+    "Invasive fungal pneumonia (e.g., Histoplasmosis)",
+    "Q fever"
+  ],
+  "next_steps": [
+    "Send serum for Hantavirus-specific serology (IgM/IgG) and viral RNA (RT-PCR)",
+    "Initiate serial monitoring of hemoglobin and hematocrit to detect hemoconcentration",
+    "Maintain lung-protective mechanical ventilation strategy",
+    "Send serum/urine for Leptospira PCR and microscopic agglutination test (MAT)",
+    "Perform bronchoalveolar lavage (BAL) for microbiology, cytology, and fungal/bacterial cultures",
+    "Consult with public health authorities regarding potential zoonotic exposure",
+    "Continue supportive hemodynamic management focusing on judicious fluid resuscitation"
+  ]
+}

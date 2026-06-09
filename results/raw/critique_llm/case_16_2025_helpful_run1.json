@@ -1,0 +1,44 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_16_2025",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Granulomatosis with polyangiitis\": {\n      \"Support\": \"Elevated inflammatory markers (ESR/CRP), involvement of nasopharynx, eustachian tube dysfunction (middle ear effusions), cranial nerve palsies, and dural thickening/enhancement.\",\n      \"Against\": \"Lack of renal or classic pulmonary involvement to date; however, this can be localized/limited GPA.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Nasopharyngeal carcinoma\": {\n      \"Support\": \"Nasopharyngeal mass, eustachian tube obstruction (otitis media with effusion), and lower cranial nerve deficits.\",\n      \"Against\": \"Lack of osseous erosion on imaging is somewhat unusual for advanced invasive NPC, though not exclusionary.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"IgG4-related disease\": {\n      \"Support\": \"Mass-like lesion in the nasopharynx, prevertebral/parapharyngeal involvement, and dural enhancement.\",\n      \"Against\": \"Lower incidence than malignancy or ANCA-associated vasculitis in this clinical presentation.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Diffuse large B-cell lymphoma\": {\n      \"Support\": \"Rapidly progressive nasopharyngeal mass, weight loss, and constitutional symptoms.\",\n      \"Against\": \"The chronic 8-month course of symptoms (ear fullness) is somewhat more indicative of an indolent process or chronic inflammatory/autoimmune disease, though aggressive lymphoma remains a major concern.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Sarcoidosis\": {\n      \"Support\": \"Enhancement of cranial nerves, dural involvement, and nasopharyngeal mucosal changes.\",\n      \"Against\": \"Systemic involvement (lymphadenopathy, typical pulmonary findings) is absent; weight loss is significant but often less profound in localized sarcoid.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Tuberculosis\": {\n      \"Support\": \"Cobblestone appearance, chronic duration, and nasopharyngeal symptoms.\",\n      \"Against\": \"Patient has no classic risk factors; lack of pulmonary findings on CT.\",\n      \"Status\": \"Unsupported\"\n    },\n    \"Fungal sinusitis (e.g., invasive aspergillosis)\": {\n      \"Support\": \"Chronic, progressive, invasive skull-base features.\",\n      \"Against\": \"Patient is immunocompetent; no osseous erosion visible on high-resolution imaging.\",\n      \"Status\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": {\n    \"Diagnoses\": [\n      \"Rosai-Dorfman disease (can present as a mass in the head/neck with thickened dura/intracranial extension)\",\n      \"Neuroendocrine tumor\",\n      \"Chordoma (though usually midline and bone-based)\"\n    ]\n  },\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Endoscopic nasopharyngeal biopsy\": \"Essential; gold standard for diagnostic confirmation.\",\n    \"ANCA testing\": \"Necessary; high yield for GPA/AAV.\",\n    \"Serum IgG4 levels\": \"Reasonable; helps screen for IgG4-RD.\",\n    \"Serum ACE/Lysozyme\": \"Reasonable; screens for sarcoidosis.\",\n    \"Chest CT\": \"Essential; needed to evaluate for subclinical pulmonary involvement (AAV/Sarcoid/Malignancy).\",\n    \"Urinalysis\": \"Essential; to rule out silent renal involvement in AAV.\",\n    \"Histopathology\": \"Essential; must include specialized stains (e.g., IgG4, EBV-EBER).\"\n  },\n  \"Missing Next Steps\": {\n    \"Missing\": [\n      \"Serology for EBV (VCA/EBNA/EBER in situ hybridization) is critical due to the strong association between EBV and nasopharyngeal carcinoma.\",\n      \"Neurological evaluation of the cavernous sinus/skull base.\",\n      \"Review of previous pathology if any prior biopsies were performed during the multiple clinic visits.\"\n    ]\n  },\n  \"Influence of Clinician Input\": {\n    \"Evaluation\": \"The clinician's differential provided a focused list of common, high-stakes etiologies. I adopted the biopsy and ANCA testing recommendations uncritically as they are standard of care, but I expanded the list to include inflammatory mimics (IgG4-RD, Sarcoid) to ensure a broader initial scope, as the patient's presentation mimics both autoimmune and neoplastic processes.\"\n  },\n  \"Open Questions\": {\n    \"Questions\": [\n      \"Results of EBV serology or EBER-ISH if biopsy is performed.\",\n      \"Pathology results from any prior minor biopsies during the 8-month course.\",\n      \"Detailed review of the peripheral blood smear for atypical lymphocytes or markers of hematologic malignancy.\",\n      \"Results of the ANCA titer and IgG4 levels.\"\n    ]\n  }\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Granulomatosis with polyangiitis",
+      "Nasopharyngeal carcinoma",
+      "IgG4-related disease",
+      "Diffuse large B-cell lymphoma",
+      "Sarcoidosis",
+      "Tuberculosis",
+      "Fungal sinusitis (e.g., invasive aspergillosis)"
+    ],
+    "next_steps": [
+      "Perform endoscopic ultrasound-guided or direct nasopharyngeal biopsy of the suspicious mass",
+      "Order ANCA (PR3 and MPO) testing",
+      "Order serum IgG4 levels",
+      "Perform serum ACE and lysozyme levels",
+      "Obtain chest imaging (CT chest) to evaluate for pulmonary involvement",
+      "Perform urinalysis to evaluate for glomerulonephritis",
+      "Initiate urgent histopathological assessment with appropriate immunohistochemistry and special stains"
+    ]
+  },
+  "differential_diagnoses": [
+    "Granulomatosis with polyangiitis (GPA)",
+    "Nasopharyngeal carcinoma",
+    "Diffuse large B-cell lymphoma",
+    "IgG4-related disease",
+    "Rosai-Dorfman disease",
+    "Sarcoidosis",
+    "Fungal sinusitis (e.g., invasive aspergillosis)"
+  ],
+  "next_steps": [
+    "Perform targeted endoscopic biopsy of the nasopharyngeal mass with tissue sent for histopathology, immunohistochemistry (including IgG4, CD20, CD3, and EBER in situ hybridization), and microbiology cultures",
+    "Obtain ANCA (PR3 and MPO) serology",
+    "Obtain EBV VCA/EBNA titers and serum IgG4 levels",
+    "Perform CT of the chest to assess for pulmonary involvement (nodules, masses, lymphadenopathy)",
+    "Perform urinalysis and microscopic examination to check for active sediment (hematuria, casts) indicative of glomerulonephritis",
+    "Evaluate for systemic inflammatory markers (repeat ESR/CRP and complete metabolic panel)"
+  ]
+}

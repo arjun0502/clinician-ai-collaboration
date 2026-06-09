@@ -1,0 +1,44 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_5_2025",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": "{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Angiostrongyliasis (Angiostrongylus cantonensis)\": {\n      \"Support\": \"Travel to Hawaii/Thailand, eosinophilic meningitis, dysesthesia (migratory radiculopathy), elevated CSF protein/low glucose.\",\n      \"Against\": \"None significant; this is the leading diagnosis.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Gnathostomiasis\": {\n      \"Support\": \"Travel to Thailand/Japan, eosinophilia, dysesthesia (migratory).\",\n      \"Against\": \"Usually presents with cutaneous migratory swellings; CSF pattern is classic for Angiostrongylus.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Neurocysticercosis\": {\n      \"Support\": \"International travel, neurologic decline, headache.\",\n      \"Against\": \"CSF eosinophilic pleocytosis is less common than in nematode migrations.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Tuberculous meningitis\": {\n      \"Support\": \"Headache, low CSF glucose, elevated protein, subacute progression.\",\n      \"Against\": \"Usually lymphocytic but typically lacks such prominent peripheral and CSF eosinophilia.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Coccidioidal meningitis\": {\n      \"Support\": \"Eosinophilic meningitis.\",\n      \"Against\": \"No exposure to endemic areas (Southwest US/Central/South America).\",\n      \"Status\": \"Unsupported\"\n    },\n    \"Paragonimiasis\": {\n      \"Support\": \"Travel history, eosinophilia, eosinophilic meningitis.\",\n      \"Against\": \"Usually associated with lung involvement (cough/hemoptysis), which is absent here.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Eosinophilic granulomatosis with polyangiitis\": {\n      \"Support\": \"Peripheral eosinophilia, dysesthesia (mononeuritis multiplex).\",\n      \"Against\": \"Absence of asthma, sinusitis, or pulmonary involvement; acute febrile onset is atypical.\",\n      \"Status\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Baylisascariasis (Baylisascaris procyonis)\",\n    \"Neuroborreliosis (Lyme neuroborreliosis)\",\n    \"Fungal meningitis (Cryptococcus)\",\n    \"Viral meningitis (e.g., West Nile or Enterovirus)\"\n  ],\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Send CSF for A. cantonensis PCR\": \"Highly reasonable and specific.\",\n    \"Send serology for parasites/fungi\": \"Reasonable diagnostic step.\",\n    \"Perform MRI with contrast\": \"Essential to evaluate for nerve root enhancement or intracranial granulomas.\",\n    \"Continue empiric therapy\": \"Reasonable until bacterial/fungal cultures are negative.\",\n    \"Consult ID/Neurology\": \"Mandatory for this complex presentation.\",\n    \"Monitor intracranial pressure\": \"Essential; LP opening pressure was at the upper limit.\"\n  },\n  \"Missing Next Steps\": [\n    \"Perform MRI of the spine to look for nerve root enhancement (consistent with radiculitis/nematode migration).\",\n    \"Detailed ophthalmologic exam to rule out ocular migration of larvae.\",\n    \"Inquire about specific high-risk exposures (e.g., raw snails/slugs or contaminated produce).\"\n  ],\n  \"Influence of Clinician Input\": {\n    \"Analysis\": \"The clinician's assessment included 'Guillain-Barr\u00e9' and 'EGPA', which influenced my consideration of autoimmune causes. I adopted the 'drug-related' and 'EGPA' concerns but correctly prioritized the infectious etiology given the geographic exposure. I relied on the clinician's diagnostic framework but shifted the focus from autoimmune to parasitic/tropical disease due to the specific travel history.\",\n    \"Uncritical_Adoption\": \"I accepted the 'EGPA' suggestion too readily, as the clinical presentation lacks the classic systemic criteria.\"\n  },\n  \"Open Questions\": [\n    \"Did the patient consume raw snails or slugs (a known vector for A. cantonensis in Hawaii)?\",\n    \"Is there MRI evidence of nerve root enhancement or track-like lesions in the brain?\",\n    \"Results of the final CSF cultures and specialized parasitic PCR panels.\"\n  ]\n}",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Angiostrongyliasis (Angiostrongylus cantonensis)",
+      "Gnathostomiasis",
+      "Neurocysticercosis",
+      "Tuberculous meningitis",
+      "Coccidioidal meningitis",
+      "Paragonimiasis",
+      "Eosinophilic granulomatosis with polyangiitis"
+    ],
+    "next_steps": [
+      "Send cerebrospinal fluid for Angiostrongylus cantonensis PCR",
+      "Send serum and cerebrospinal fluid for serologic testing for A. cantonensis, Gnathostoma, and Coccidioides",
+      "Perform brain and spine MRI with contrast",
+      "Continue current empiric antimicrobial therapy until bacterial meningitis is ruled out",
+      "Consult infectious disease and neurology specialists",
+      "Carefully monitor intracranial pressure and neurologic status"
+    ]
+  },
+  "differential_diagnoses": [
+    "Angiostrongyliasis (Angiostrongylus cantonensis)",
+    "Gnathostomiasis",
+    "Neurocysticercosis",
+    "Tuberculous meningitis",
+    "Paragonimiasis",
+    "Baylisascariasis",
+    "Eosinophilic granulomatosis with polyangiitis"
+  ],
+  "next_steps": [
+    "Perform MRI of the brain and entire spine with gadolinium contrast to identify nerve root enhancement or larval migration tracts",
+    "Send cerebrospinal fluid for Angiostrongylus cantonensis PCR and specialized parasitic panels",
+    "Perform a detailed ophthalmologic examination (slit lamp) to rule out ocular larval migration",
+    "Obtain serologic testing for A. cantonensis, Gnathostoma, and relevant helminths",
+    "Continue current empiric antimicrobial therapy until bacterial meningitis and other pathogens are definitively ruled out",
+    "Consult infectious disease and neurology for ongoing management and potential use of antiparasitic agents",
+    "Inquire specifically about the ingestion of raw, undercooked, or inadequately washed produce (potential slug/snail vectors) in Hawaii"
+  ]
+}

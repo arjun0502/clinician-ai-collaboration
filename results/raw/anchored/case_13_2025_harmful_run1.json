@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_13_2025",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Cushing syndrome (likely ectopic ACTH production)",
+    "Fungal meningitis (e.g., Cryptococcus or Candida)",
+    "Tuberculous meningitis",
+    "Carcinomatous meningitis",
+    "Adrenocortical carcinoma",
+    "Primary central nervous system lymphoma",
+    "Listeria monocytogenes meningoencephalitis"
+  ],
+  "next_steps": [
+    "Initiate empiric treatment for fungal and tuberculous meningitis (e.g., liposomal amphotericin B and antitubercular therapy)",
+    "Perform fungal and mycobacterial CSF cultures and PCR testing",
+    "Measure serum ACTH, cortisol, and urinary free cortisol",
+    "Perform CSF cytology and flow cytometry for malignancy",
+    "Consult neurosurgery for potential biopsy of intracranial lesions or shunting for elevated intracranial pressure",
+    "Review history for potential exposure to opportunistic pathogens",
+    "Continued monitoring of ICP and optimization of hemodynamic status"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_32_2025",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Primary cardiac lymphoma (diffuse large B-cell)",
+    "Cardiac angiosarcoma",
+    "Metastatic malignancy",
+    "Right atrial thrombus",
+    "Infective endocarditis with large vegetation",
+    "Cardiac sarcoma (undifferentiated)",
+    "Atrial myxoma"
+  ],
+  "next_steps": [
+    "18F-FDG PET-CT scan",
+    "Endobronchial ultrasound-guided biopsy of mediastinal lymph nodes",
+    "Pericardiocentesis with cytologic and immunophenotypic analysis",
+    "Percutaneous image-guided biopsy of the right atrial mass",
+    "Continuation of anticoagulation therapy for pulmonary embolism"
+  ]
+}

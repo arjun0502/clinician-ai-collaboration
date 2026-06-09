@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_9_2024",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Infective endocarditis with septic emboli",
+    "Thoracic aortic vasculitis or periaortitis (possibly infectious/mycotic aneurysm)",
+    "Staphylococcus aureus bacteremia with metastatic foci (e.g., spondylodiscitis, sternoclavicular joint)",
+    "Aortic dissection or intramural hematoma",
+    "Pulmonary embolism",
+    "Takotsubo cardiomyopathy",
+    "Myocardial infarction (type 1 or 2)"
+  ],
+  "next_steps": [
+    "Perform transesophageal echocardiography to rule out infective endocarditis",
+    "Order urgent CT angiography of the chest and abdomen with focus on the thoracic aorta to evaluate for mycotic aneurysm or dissection",
+    "Obtain MRI of the thoracic spine to rule out spondylodiscitis or epidural abscess",
+    "Continue targeted intravenous antibiotics for Staphylococcus aureus bacteremia",
+    "Consult Infectious Disease, Cardiology, and Vascular Surgery teams",
+    "Monitor blood pressure closely and consider imaging for the retrocardiac opacity identified on chest X-ray"
+  ]
+}

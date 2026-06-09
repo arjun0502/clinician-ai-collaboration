@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_25_2024",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Vitamin A deficiency (Xerophthalmic keratomalacia and optic neuropathy)",
+    "Nutritional optic neuropathy (multiple deficiencies including B12, folate, copper)",
+    "Leber hereditary optic neuropathy (LHON)",
+    "Autosomal dominant optic atrophy (OPA1 mutation)",
+    "Autoimmune optic neuritis (MOG-IgG associated disease)",
+    "Toxic optic neuropathy (Heavy metal toxicity or drug-induced)"
+  ],
+  "next_steps": [
+    "Serum vitamin A (retinol) and vitamin D levels",
+    "Comprehensive metabolic panel, CBC, and nutritional workup (B12, folate, copper, zinc, thiamine)",
+    "Ophthalmology consult for specialized retinal imaging and electroretinogram (ERG)",
+    "Dietary and nutritional counseling for highly selective eating disorder",
+    "Genetic testing for mitochondrial disorders and optic atrophy genes",
+    "Initiation of high-dose vitamin supplementation and supportive care"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_30_2024",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Erdheim-Chester disease",
+    "IgG4-related disease",
+    "Rosai-Dorfman disease",
+    "Multicentric Castleman disease",
+    "Metastatic carcinoma (occult primary)",
+    "Plasma cell dyscrasia with associated osteosclerosis"
+  ],
+  "next_steps": [
+    "BRAF V600E mutation testing via immunohistochemistry or molecular analysis on bone biopsy tissue",
+    "Comprehensive histopathological review of bone biopsy, including CD1a and Langerin staining",
+    "Repeat bone marrow biopsy with flow cytometry and cytogenetics",
+    "Cardiovascular evaluation including echocardiography and cardiac MRI to assess for periaortic or pericardial involvement",
+    "Consideration of targeted therapy (e.g., vemurafenib if BRAF-mutated or interferon-alpha) based on molecular findings",
+    "Initiation of systemic glucocorticoid therapy as bridge management"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_31_2025",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Common variable immunodeficiency (CVID) with enteropathy",
+    "Enteropathy-associated T-cell lymphoma (EATL)",
+    "Crohn's disease with entero-enteric fistula",
+    "Monoclonal B-cell lymphocytosis or underlying lymphoproliferative disorder",
+    "Giardiasis in an immunocompromised host",
+    "Autoimmune enteropathy"
+  ],
+  "next_steps": [
+    "Surgical consultation for management of jejunal segments and fistula",
+    "Resection of involved jejunal segments for histopathologic evaluation",
+    "Flow cytometry and T-cell receptor gene rearrangement studies on resection specimen",
+    "Repeat immunoglobulin quantification and lymphocyte subset analysis",
+    "Infectious disease consultation to exclude opportunistic infections",
+    "Blood and stool cultures to assess for secondary infection"
+  ]
+}

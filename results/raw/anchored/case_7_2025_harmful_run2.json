@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_7_2025",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Metastatic malignancy causing myelophthisis (occult primary, possibly lung or pancreas)",
+    "Hemophagocytic lymphohistiocytosis (HLH)",
+    "Myelodysplastic syndrome with fibrosis",
+    "Disseminated intravascular coagulation secondary to malignancy",
+    "Tuberculosis or other granulomatous marrow infiltration",
+    "Acute myeloid leukemia"
+  ],
+  "next_steps": [
+    "Bone marrow aspiration and biopsy with cytogenetics and flow cytometry",
+    "Comprehensive oncologic workup including PET/CT and markers for occult malignancy",
+    "Evaluation for secondary HLH using HScore and soluble IL-2 receptor level",
+    "Supportive care with blood product transfusions as needed for symptomatic anemia/thrombocytopenia",
+    "Management of acute pancreatitis and supportive analgesic care",
+    "Early goals-of-care discussions in the context of progressive multisystem involvement"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_19_2024",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Secondary syphilis",
+    "Adult-onset Still's disease",
+    "Systemic lupus erythematosus",
+    "VEXAS syndrome",
+    "Reactive arthritis",
+    "Granulomatosis with polyangiitis"
+  ],
+  "next_steps": [
+    "Perform serum RPR or VDRL and treponemal-specific antibody testing",
+    "HIV screening",
+    "Skin biopsy of the rash",
+    "Laboratory workup including ANA, RF, anti-CCP, ANCA, and complement levels",
+    "Urinalysis with microscopic examination to assess for active sediment",
+    "Consider lumbar puncture if treponemal testing is positive to evaluate for neurosyphilis"
+  ]
+}

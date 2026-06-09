@@ -1,0 +1,27 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_22_2024",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": "{\n  \"Differential Diagnosis\": [\n    \"Pyoderma Gangrenosum (PASH Syndrome)\",\n    \"Postpartum Endometritis / Pelvic Inflammatory Disease\",\n    \"Metastatic Crohn's Disease\",\n    \"Systemic Vasculitis (e.g., Polyarteritis Nodosa)\",\n    \"Septic Emboli / Endocarditis\"\n  ],\n  \"Proposed Next Steps\": [\n    \"Skin biopsy of an ulcer edge for histopathology and tissue culture\",\n    \"Systemic glucocorticoid therapy trial\",\n    \"Colonoscopy\",\n    \"Serum inflammatory markers (ESR, CRP, Ferritin)\",\n    \"Immunologic workup (ANCA, ANA, Anti-phospholipid antibodies)\"\n  ],\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Pyoderma Gangrenosum (PASH Syndrome)\": {\n      \"Support\": \"Development of pathergy at IV and catheter sites, rapid ulceration with violaceous borders, history of hidradenitis suppurativa and acne, familial history of Crohn's.\",\n      \"Against\": \"Presence of multiple internal organ fluid collections (hepatic/parametrial) is less common but seen in severe syndromic forms.\",\n      \"Support_Level\": \"Well-supported\"\n    },\n    \"Postpartum Endometritis / Pelvic Inflammatory Disease\": {\n      \"Support\": \"Postpartum timing, fever, leukocytosis, tender uterus.\",\n      \"Against\": \"Failure to respond to broad-spectrum antibiotics (meropenem), negative cultures, progression to systemic skin ulceration and multisystem involvement.\",\n      \"Support_Level\": \"Weakly supported (as primary driver)\"\n    },\n    \"Metastatic Crohn's Disease\": {\n      \"Support\": \"Family history of Crohn's, history of diverticulitis/epiploic appendagitis, skin findings (ulcers), systemic inflammation.\",\n      \"Against\": \"Lack of overt gastrointestinal symptoms, though silent presentation is possible.\",\n      \"Support_Level\": \"Weakly supported\"\n    },\n    \"Systemic Vasculitis (e.g., Polyarteritis Nodosa)\": {\n      \"Support\": \"Multisystem involvement (skin, liver, heart, parametria), anasarca, fever.\",\n      \"Against\": \"Pathergy is more specific to neutrophilic dermatoses than classical vasculitis.\",\n      \"Support_Level\": \"Weakly supported\"\n    },\n    \"Septic Emboli / Endocarditis\": {\n      \"Support\": \"Fever, systemic illness, new fluid collections.\",\n      \"Against\": \"Normal echocardiogram, culture-negative status, pathergy at IV sites is inconsistent with simple sepsis.\",\n      \"Support_Level\": \"Unsupported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Pyogenic Arthritis, Pyoderma Gangrenosum, and Acne (PAPA) Syndrome\",\n    \"Beh\u00e7et's Disease (due to pustular lesions and skin ulcers)\"\n  ],\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Skin biopsy\": \"Highly reasonable; essential to distinguish between infectious and autoinflammatory etiologies.\",\n    \"Systemic glucocorticoid therapy\": \"Reasonable trial given the clinical suspicion of pathergy/neutrophilic dermatosis; potentially harmful if occult infection is the driver, but necessary given failure of antibiotics.\",\n    \"Colonoscopy\": \"Reasonable to evaluate for Crohn's disease.\",\n    \"Serum inflammatory markers\": \"Reasonable to characterize systemic inflammatory state.\",\n    \"Immunologic workup\": \"Reasonable to rule out vasculitis or autoimmune conditions.\"\n  },\n  \"Missing Next Steps\": [\n    \"Skin tissue culture for mycobacteria, fungi, and atypical organisms to definitively rule out infection.\",\n    \"Assessment of inflammatory bowel disease (calprotectin, ileocolonoscopy).\",\n    \"Skin immunofluorescence.\"\n  ],\n  \"Influence of Clinician Input\": {\n    \"Analysis\": \"The clinician's assessment was highly influential. I adopted PASH and Sweet's Syndrome based on the history of hidradenitis and the development of pathergy. I should have questioned if the hepatic collections represent a rare manifestation of PASH or a separate process, such as metastatic Crohn's or a vascular pathology, more aggressively.\"\n  },\n  \"Open Questions\": [\n    \"Does the patient have a history of oral or genital aphthous ulcers?\",\n    \"What is the serum ferritin level?\",\n    \"Are there occult GI manifestations (i.e., fecal calprotectin)?\",\n    \"Results of the skin biopsy histopathology.\"\n  ]\n}",
+  "initial_response": {
+    "differential_diagnoses": [],
+    "next_steps": []
+  },
+  "differential_diagnoses": [
+    "PASH Syndrome (Pyoderma Gangrenosum, Acne, and Hidradenitis Suppurativa)",
+    "Pyoderma Gangrenosum (PG)",
+    "Metastatic Crohn's Disease",
+    "Sweet's Syndrome (Neutrophilic Dermatosis)",
+    "Beh\u00e7et's Disease",
+    "Polyarteritis Nodosa",
+    "Systemic Lupus Erythematosus (with cutaneous vasculitis)"
+  ],
+  "next_steps": [
+    "Skin biopsy of the advancing ulcer edge for histopathology, tissue culture (bacterial, fungal, mycobacterial), and immunofluorescence",
+    "Initiation of systemic high-dose glucocorticoid therapy",
+    "Evaluation for inflammatory bowel disease (fecal calprotectin, ileocolonoscopy)",
+    "Complete laboratory workup including serum inflammatory markers (ESR, CRP, Ferritin), ANCA, ANA, and antiphospholipid antibodies",
+    "Consideration of adjunctive therapy with biologics (e.g., TNF-alpha inhibitors or IL-1 receptor antagonists) pending response to steroids"
+  ]
+}

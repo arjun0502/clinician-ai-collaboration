@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_24_2024",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Postpartum obsessive-compulsive disorder",
+    "Postpartum depression with anxious distress",
+    "Postpartum psychosis",
+    "Generalized anxiety disorder",
+    "Post-traumatic stress disorder",
+    "Bipolar disorder with postpartum onset"
+  ],
+  "next_steps": [
+    "Immediate safety assessment and risk stratification for harm to self or infant",
+    "Initiate specialized cognitive-behavioral therapy for postpartum OCD (specifically exposure and response prevention)",
+    "Consider adjustment of pharmacotherapy (e.g., maximizing SSRI dosage or augmentation with an atypical antipsychotic if indicated by severity)",
+    "Implement intensive outpatient or partial hospital program support",
+    "Ensure regular maternal-infant monitoring and social support systems are active",
+    "Monitor blood pressure and continue medical management of hypertension"
+  ]
+}

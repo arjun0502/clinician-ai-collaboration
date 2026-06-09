@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_16_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Granulomatosis with polyangiitis",
+    "Nasopharyngeal carcinoma",
+    "IgG4-related disease",
+    "Diffuse large B-cell lymphoma",
+    "Sarcoidosis",
+    "Relapsing polychondritis",
+    "Rosai-Dorfman disease"
+  ],
+  "next_steps": [
+    "Perform nasopharyngeal biopsy with tissue for histology, microbiology (fungal/bacterial culture), and flow cytometry",
+    "Measure ANCA (PR3 and MPO) titers",
+    "Measure serum IgG4 levels",
+    "Perform PET/CT to evaluate for systemic disease involvement",
+    "Consult rheumatology for potential immunosuppressive therapy based on biopsy results",
+    "Monitor airway and cranial nerve function"
+  ]
+}

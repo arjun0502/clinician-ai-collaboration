@@ -1,0 +1,23 @@
+{
+  "condition": "anchored",
+  "case_id": "case_22_2024",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Pyoderma gangrenosum (associated with PASH or PAPASH syndrome)",
+    "Sweet syndrome (neutrophilic dermatosis)",
+    "Metastatic Crohn's disease",
+    "Disseminated infection (fungal or atypical bacterial)",
+    "Vasculitis",
+    "Beh\u00e7et's disease"
+  ],
+  "next_steps": [
+    "Perform punch biopsy of the ulcer edge for histopathology (including tissue culture)",
+    "Consult dermatology for evaluation of neutrophilic dermatosis",
+    "Initiate systemic glucocorticoid therapy",
+    "Evaluate for underlying inflammatory bowel disease (Crohn's disease) with gastroenterology consultation",
+    "Review immunologic and genetic workup for autoinflammatory syndromes"
+  ]
+}

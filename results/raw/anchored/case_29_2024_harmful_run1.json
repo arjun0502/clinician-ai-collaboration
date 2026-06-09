@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_29_2024",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Legionella pneumonia",
+    "Influenza-associated rhabdomyolysis",
+    "Streptococcus pneumoniae sepsis",
+    "Leptospirosis",
+    "Hemophagocytic lymphohistiocytosis",
+    "Antisynthetase syndrome",
+    "Toxin-induced rhabdomyolysis"
+  ],
+  "next_steps": [
+    "Perform urinary antigen testing for Legionella species",
+    "Obtain arterial blood gas analysis",
+    "Initiate hemodialysis for management of acute kidney injury and electrolyte imbalances",
+    "Collect lower respiratory tract secretions for culture and molecular diagnostics",
+    "Obtain inflammatory markers (ferritin, LDH, triglycerides) and soluble IL-2 receptor",
+    "Continue broad-spectrum antibiotics covering atypical pathogens",
+    "Consider muscle biopsy if rhabdomyolysis persists without infectious etiology"
+  ]
+}

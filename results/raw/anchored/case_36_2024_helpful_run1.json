@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_36_2024",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Gastric bezoar (trichobezoar)",
+    "Peptic ulcer disease",
+    "Superior mesenteric artery syndrome",
+    "Crohn's disease",
+    "Gastroparesis",
+    "Cyclic vomiting syndrome",
+    "Intestinal malrotation with intermittent volvulus"
+  ],
+  "next_steps": [
+    "Esophagogastroduodenoscopy (EGD) for direct visualization and potential retrieval of gastric contents",
+    "Consultation with pediatric surgery for possible surgical removal of bezoar if endoscopic retrieval fails",
+    "Psychiatric consultation to evaluate for trichotillomania and trichophagia",
+    "Nutritional assessment to address underlying iron-deficiency anemia",
+    "Close monitoring of hemodynamic status and electrolyte balance"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_7_2024",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "IgG4-related ophthalmic disease",
+    "Granulomatosis with polyangiitis",
+    "Sarcoidosis",
+    "Relapsing polychondritis",
+    "Systemic lupus erythematosus",
+    "Paraneoplastic syndrome",
+    "Tolosa-Hunt syndrome"
+  ],
+  "next_steps": [
+    "Perform biopsy of the affected orbital tissue/optic nerve sheath",
+    "Serum IgG subclass 1-4 analysis and IgG4/IgG ratio calculation",
+    "Antineutrophil cytoplasmic antibody (ANCA) testing (PR3 and MPO)",
+    "Serum ANA, ENA, and anti-dsDNA antibody testing",
+    "Serum soluble IL-2 receptor levels for potential sarcoidosis",
+    "PET-CT scan to evaluate for systemic involvement (e.g., retroperitoneal fibrosis, lymphadenopathy, or aortitis)",
+    "Consultation with rheumatology and ophthalmology for consideration of systemic immunosuppressive therapy"
+  ]
+}

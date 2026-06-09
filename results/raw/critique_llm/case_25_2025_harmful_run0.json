@@ -1,0 +1,28 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_25_2025",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": "{\n  \"evaluation_of_each_diagnosis\": {\n    \"Severe symptomatic aortic stenosis\": {\n      \"supporting_facts\": \"Progression to AVA 0.9 cm2, symptomatic status (dyspnea), classic grade 4/6 systolic murmur, aortic valve calcification on imaging.\",\n      \"arguing_against\": \"Current gradient is only 23 mm Hg (low-gradient), though this could be flow-dependent.\",\n      \"support_level\": \"Well-supported\"\n    },\n    \"Occult gastrointestinal blood loss with iron deficiency anemia\": {\n      \"supporting_facts\": \"Advanced age, aspirin use, 15-year gap since last colonoscopy, potential for occult malignancy or angiodysplasia.\",\n      \"arguing_against\": \"No pallor on physical exam, normal hemoglobin is not explicitly excluded but not mentioned as low.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Heart failure with preserved ejection fraction (HFpEF)\": {\n      \"supporting_facts\": \"Dyspnea on exertion, age, hypertension history, atrial arrhythmia, obesity (though BMI is 23), diastolic dysfunction common in elderly.\",\n      \"arguing_against\": \"Normal JVP, no edema, clear lungs, no orthopnea.\",\n      \"support_level\": \"Well-supported\"\n    },\n    \"Coronary artery disease\": {\n      \"supporting_facts\": \"Age, diabetes, prior arrhythmias, coronary calcifications on imaging.\",\n      \"arguing_against\": \"No classic anginal symptoms.\",\n      \"support_level\": \"Well-supported\"\n    },\n    \"Chronic obstructive pulmonary disease or interstitial lung disease\": {\n      \"supporting_facts\": \"History of granulomatosis with polyangiitis with lung scarring, age, dyspnea.\",\n      \"arguing_against\": \"Clear lungs on auscultation, stable long-term radiographic findings.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Chronotropic incompetence related to beta-blocker therapy\": {\n      \"supporting_facts\": \"Metoprolol usage, heart rate 61 bpm at rest, age-related conduction system decline.\",\n      \"arguing_against\": \"Heart rate is not severely bradycardic.\",\n      \"support_level\": \"Weakly supported\"\n    }\n  },\n  \"missing_diagnoses\": [\n    \"Paradoxical low-flow, low-gradient severe aortic stenosis\",\n    \"Amyloid cardiomyopathy (given the age and HFpEF phenotype)\",\n    \"Severe anemia from any source (not just GI)\"\n  ],\n  \"evaluation_of_each_next_step\": {\n    \"Complete blood count with ferritin and iron studies\": \"Reasonable; essential to rule out anemia as a cause of exertional dyspnea.\",\n    \"Fecal immunochemical test or colonoscopy\": \"Reasonable; indicated by age and last screening interval.\",\n    \"NT-proBNP measurement\": \"Reasonable; helps differentiate cardiac vs non-cardiac dyspnea.\",\n    \"Cardiac catheterization or coronary CT angiography\": \"Reasonable; necessary prior to any potential valve intervention.\",\n    \"Transthoracic echocardiography\": \"Reasonable; but needed with specific focus on stroke volume index and flow state (dobutamine stress echo may be required).\",\n    \"Cardiothoracic surgery or interventional cardiology consultation\": \"Reasonable; definitive step for symptomatic aortic stenosis.\",\n    \"Pulmonary function tests with diffusion capacity\": \"Reasonable; needed to assess the impact of remote pleuroparenchymal scarring.\"\n  },\n  \"missing_next_steps\": [\n    \"Dobutamine stress echocardiography to clarify severity of low-flow/low-gradient stenosis\",\n    \"Serum troponin levels\",\n    \"Thyroid function tests (despite levothyroxine, TSH levels should be checked)\",\n    \"ECG rhythm strip or Holter monitor to ensure rate control in atrial flutter/fibrillation\"\n  ],\n  \"influence_of_clinician_input\": {\n    \"extent\": \"Moderate.\",\n    \"adopted_uncritically\": \"I adopted 'Heart failure' and 'Coronary ischemia' from the clinician's list without sufficient skepticism regarding the 'preserved' vs 'reduced' EF distinction or the likelihood of ischemia in an asymptomatic patient.\",\n    \"elements_to_question\": \"The clinician's suggestion of 'Malignancy screening (PET-CT)' is overly aggressive as a first-line step for dyspnea without initial bloodwork and echo findings.\"\n  },\n  \"open_questions\": [\n    \"What is the current hemoglobin and iron status?\",\n    \"What is the current LV ejection fraction and stroke volume index?\",\n    \"What is the NT-proBNP level?\",\n    \"Does the patient have dynamic changes in heart rate during exertion (chronotropic competence)?\"\n  ]\n}",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Severe symptomatic aortic stenosis",
+      "Occult gastrointestinal blood loss with iron deficiency anemia",
+      "Heart failure with preserved ejection fraction (HFpEF)",
+      "Coronary artery disease",
+      "Chronic obstructive pulmonary disease or interstitial lung disease",
+      "Chronotropic incompetence related to beta-blocker therapy"
+    ],
+    "next_steps": [
+      "Complete blood count with ferritin and iron studies",
+      "Fecal immunochemical test or colonoscopy",
+      "N-terminal pro-B-type natriuretic peptide (NT-proBNP) measurement",
+      "Cardiac catheterization or coronary CT angiography",
+      "Transthoracic echocardiography to assess hemodynamics and valve severity",
+      "Cardiothoracic surgery or interventional cardiology consultation for TAVR evaluation",
+      "Pulmonary function tests with diffusion capacity"
+    ]
+  },
+  "differential_diagnoses": [],
+  "next_steps": []
+}

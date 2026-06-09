@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_34_2025",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Primary leptomeningeal melanomatosis",
+    "Metastatic melanoma",
+    "Cerebral amyloid angiopathy-related inflammation",
+    "Neuro-sarcoidosis",
+    "Chronic lymphocytic inflammation with pontine perivascular enhancement responsive to steroids (CLIPPERS)",
+    "Primary angiitis of the central nervous system"
+  ],
+  "next_steps": [
+    "Brain and leptomeningeal biopsy of the involved parietal/occipital region",
+    "Comprehensive dermatologic examination to look for occult skin lesions",
+    "Whole-body PET-CT to exclude occult primary malignancy",
+    "Immunohistochemical staining of biopsy tissue for S100, SOX10, and Melan-A",
+    "Molecular analysis of biopsy tissue for GNAQ or GNA11 mutations",
+    "High-resolution contrast-enhanced MRI of the entire neuraxis including the spine"
+  ]
+}

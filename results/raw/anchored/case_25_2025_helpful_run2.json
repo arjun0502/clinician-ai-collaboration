@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_25_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Severe symptomatic aortic stenosis",
+    "Iron deficiency anemia (likely gastrointestinal blood loss)",
+    "Heart failure with preserved ejection fraction (HFpEF)",
+    "Coronary artery disease",
+    "Chronic obstructive pulmonary disease or occult interstitial lung disease",
+    "Chronotropic incompetence",
+    "Pulmonary hypertension"
+  ],
+  "next_steps": [
+    "Complete blood count with peripheral smear and iron studies",
+    "Repeat transthoracic echocardiography to assess hemodynamics of aortic stenosis",
+    "Fecal occult blood test or diagnostic colonoscopy/EGD if anemia confirmed",
+    "N-terminal pro-B-type natriuretic peptide (NT-proBNP) levels",
+    "Cardiac catheterization or coronary CT angiography to assess coronary artery disease",
+    "Pulmonary function tests and DLCO",
+    "Holter monitor or extended cardiac rhythm monitoring"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_19_2025",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Progressive multifocal leukoencephalopathy (PML) - granule cell neuronopathy (GCN)\": {\n      \"Supporting Facts\": \"History of immunosuppression (CAR-T, lymphopenia), clinical syndrome of progressive cerebellar and brainstem dysfunction (ataxia, cranial nerve palsy, dysphagia), MRI showing cerebellar folia hyperintensity.\",\n      \"Arguments Against\": \"Lack of classic white matter lesions (though GCN is distinct from classic PML), relatively rapid course.\",\n      \"Support Level\": \"Well-supported\"\n    },\n    \"Epstein\u2013Barr virus (EBV) encephalitis\": {\n      \"Supporting Facts\": \"Patient had prior EBV-positive CNS DLBCL, history of profound immunosuppression.\",\n      \"Arguments Against\": \"Flow cytometry did not reveal a B-cell clonal population; EBV encephalitis often presents with more pronounced inflammatory changes.\",\n      \"Support Level\": \"Well-supported\"\n    },\n    \"Leptomeningeal recurrence of diffuse large B-cell lymphoma (DLBCL)\": {\n      \"Supporting Facts\": \"Patient history of CNS DLBCL, presence of atypical lymphoid cells in CSF, progressive neurologic decline.\",\n      \"Arguments Against\": \"Flow cytometry negative for monoclonal B-cells; no enhancement on MRI.\",\n      \"Support Level\": \"Well-supported\"\n    },\n    \"Varicella-zoster virus (VZV) encephalitis/cerebellitis\": {\n      \"Supporting Facts\": \"VZV is a known cause of vasculopathy and rhombencephalitis in immunocompromised patients; patient has cranial nerve involvement.\",\n      \"Arguments Against\": \"Absence of cutaneous rash, though zoster sine herpete is possible.\",\n      \"Support Level\": \"Weakly supported\"\n    },\n    \"Powassan virus encephalitis\": {\n      \"Supporting Facts\": \"Geographic location (New England), history of tick bites, clinical presentation of encephalitis/ataxia.\",\n      \"Arguments Against\": \"Relatively slow progression (weeks) compared to typical arboviral encephalitis.\",\n      \"Support Level\": \"Weakly supported\"\n    },\n    \"Paraneoplastic cerebellar degeneration\": {\n      \"Supporting Facts\": \"History of DLBCL, subacute cerebellar syndrome.\",\n      \"Arguments Against\": \"Typically more indolent progression than acute-on-chronic decline; CSF findings (atypical cells) point toward malignancy or infection.\",\n      \"Support Level\": \"Weakly supported\"\n    },\n    \"Human herpesvirus 6 (HHV-6) encephalitis\": {\n      \"Supporting Facts\": \"Common opportunistic viral pathogen in severely immunocompromised patients, particularly post-CAR-T therapy.\",\n      \"Arguments Against\": \"No strong clinical feature unique to HHV-6 over other viral etiologies.\",\n      \"Support Level\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Neurolymphomatosis (infiltrative lymphomatous process involving nerve roots)\",\n    \"HHV-6 limbic encephalitis (though cerebellar findings dominate)\",\n    \"Cryptococcal meningitis (patient has history of cryptococcal pneumonia, though he is on fluconazole prophylaxis)\"\n  ],\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"CSF PCR for JC virus\": {\n      \"Reasonable\": \"Yes\",\n      \"Harmful/Contraindicated\": \"No\"\n    },\n    \"CSF PCR for comprehensive viral panel\": {\n      \"Reasonable\": \"Yes\",\n      \"Harmful/Contraindicated\": \"No\"\n    },\n    \"Repeat CSF cytology/flow with immunohistochemistry\": {\n      \"Reasonable\": \"Yes, especially to identify B-cell markers or EBV-encoded RNA (EBER) in situ hybridization for latent/active lymphoma.\",\n      \"Harmful/Contraindicated\": \"No\"\n    },\n    \"Serum and CSF paraneoplastic antibody panel\": {\n      \"Reasonable\": \"Yes\",\n      \"Harmful/Contraindicated\": \"No\"\n    },\n    \"Repeat brain MRI\": {\n      \"Reasonable\": \"Yes, to monitor progression.\",\n      \"Harmful/Contraindicated\": \"No\"\n    }\n  },\n  \"Missing Next Steps\": [\n    \"CSF EBER in situ hybridization (essential for occult EBV-positive lymphoma)\",\n    \"Brain biopsy (if non-invasive testing remains inconclusive)\",\n    \"CSF immunoglobulin G index and oligoclonal bands\"\n  ],\n  \"Influence of Clinician Input\": {\n    \"Influence\": \"The clinician's differential provided a strong framework that was largely adopted. I uncritically accepted the 'paraneoplastic' hypothesis despite the atypical CSF findings. I should have placed higher priority on EBER testing given the patient's specific history of EBV-driven CNS lymphoma.\",\n    \"Critique\": \"The input helped focus on the cerebellar pathology, but might have narrowed the search for alternative infectious etiologies too early.\"\n  },\n  \"Open Questions\": [\n    \"Is there EBER-positive latent or active lymphoma in the CSF?\",\n    \"What is the result of the comprehensive viral PCR panel?\",\n    \"Could the patient's 'atypical' CSF cells be non-neoplastic, and is there an occult viral etiology (e.g., JC virus) masking as a recurrence?\"\n  ]\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Progressive multifocal leukoencephalopathy (PML) - granule cell neuronopathy (GCN)",
+      "Epstein-Barr virus (EBV) encephalitis",
+      "Leptomeningeal recurrence of diffuse large B-cell lymphoma (DLBCL)",
+      "Varicella-zoster virus (VZV) encephalitis/cerebellitis",
+      "Powassan virus encephalitis",
+      "Paraneoplastic cerebellar degeneration",
+      "Human herpesvirus 6 (HHV-6) encephalitis"
+    ],
+    "next_steps": [
+      "CSF PCR for JC virus (including testing for granule cell neuronopathy)",
+      "CSF PCR for a comprehensive viral panel (EBV, VZV, HHV-6, West Nile, Powassan)",
+      "Repeat CSF cytology and flow cytometry with immunohistochemistry for B-cell markers",
+      "Serum and CSF paraneoplastic antibody panel",
+      "Repeat brain MRI with attention to contrast enhancement patterns",
+      "Consultation with infectious disease and neurology subspecialists"
+    ]
+  },
+  "differential_diagnoses": [
+    "JC virus-associated granule cell neuronopathy (GCN)",
+    "Epstein-Barr virus (EBV)-positive CNS lymphoma (recurrence/leptomeningeal)",
+    "Varicella-zoster virus (VZV) rhombencephalitis",
+    "Progressive multifocal leukoencephalopathy (PML)",
+    "Neurolymphomatosis",
+    "Paraneoplastic cerebellar degeneration"
+  ],
+  "next_steps": [
+    "Perform CSF PCR for JC virus (specifically for GCN detection)",
+    "Perform CSF EBER in situ hybridization to screen for EBV-associated lymphoma cells",
+    "Send CSF for comprehensive viral PCR panel (including HHV-6, VZV, West Nile, Powassan)",
+    "Repeat lumbar puncture with cytology, flow cytometry, and immunohistochemistry for B-cell markers",
+    "Perform brain biopsy if CSF studies remain non-diagnostic to rule out lymphoma vs. viral encephalitis",
+    "Consult neurology, infectious disease, and oncology for multidisciplinary management"
+  ]
+}

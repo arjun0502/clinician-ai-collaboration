@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_32_2024",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Amyotrophic lateral sclerosis (bulbar-onset)",
+    "Myasthenia gravis",
+    "Obstructive sleep apnea with chronic hypercapnic respiratory failure",
+    "Chronic inflammatory demyelinating polyradiculoneuropathy",
+    "Lambert-Eaton myasthenic syndrome",
+    "Metabolic or toxic myopathy",
+    "Paraneoplastic neurological syndrome"
+  ],
+  "next_steps": [
+    "Admission to the intensive care unit for close respiratory monitoring",
+    "Nerve conduction studies and needle electromyography",
+    "Repetitive nerve stimulation testing",
+    "Serum acetylcholine receptor antibody and anti-MuSK antibody testing",
+    "Lumbar puncture for cerebrospinal fluid analysis (protein-cell dissociation)",
+    "Polysomnography or nocturnal oximetry to evaluate sleep-disordered breathing",
+    "Screening for underlying malignancy including age-appropriate imaging"
+  ]
+}

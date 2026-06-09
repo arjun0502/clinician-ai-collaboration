@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_24_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Lyme carditis",
+    "Myocarditis (viral or autoimmune)",
+    "Multisystem inflammatory syndrome in adults (MIS-A)",
+    "Arrhythmogenic right ventricular cardiomyopathy (ARVC)",
+    "Drug-induced liver injury or supplement-related cardiotoxicity",
+    "Sarcoidosis",
+    "Post-acute sequelae of SARS-CoV-2 (PASC) with autonomic dysfunction"
+  ],
+  "next_steps": [
+    "Admit to telemetry unit for continuous cardiac monitoring",
+    "Perform transthoracic echocardiogram to assess for wall motion abnormalities, valve function, and structural heart disease",
+    "Obtain Lyme disease serology (ELISA followed by Western blot)",
+    "Perform cardiac magnetic resonance imaging (CMR) to evaluate for myocardial inflammation or fibrosis",
+    "Review all herbal supplements and medications for potential cardiotoxic or hepatotoxic effects",
+    "Consider Holter monitoring if rhythm disturbances persist",
+    "Maintain high index of suspicion for MIS-A and consider specialist infectious disease and cardiology consultation"
+  ]
+}

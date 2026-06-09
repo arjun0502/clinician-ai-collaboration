@@ -1,0 +1,44 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_14_2025",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": "{\n  \"evaluation_of_each_diagnosis\": {\n    \"Embryonal rhabdomyosarcoma\": {\n      \"support\": \"Young adult presentation, rapid growth, persistence despite antibiotics, friable/necrotic tissue, hemorrhagic nature.\",\n      \"against\": \"Rare in the peritonsillar region in this age group; usually pediatric.\",\n      \"status\": \"Well-supported\"\n    },\n    \"Lymphoma\": {\n      \"support\": \"Oropharyngeal mass, fatigue, persistent swelling.\",\n      \"against\": \"The clinical course (bleeding, rapid recurrence of fluid) is less typical for a primary solid lymphoma mass, which is usually firm/rubbery.\",\n      \"status\": \"Weakly supported\"\n    },\n    \"Granulomatosis with polyangiitis\": {\n      \"support\": \"Can present as localized necrotic/ulcerative oropharyngeal disease.\",\n      \"against\": \"Lack of systemic symptoms (e.g., renal involvement, pulmonary nodules) and no mention of sinonasal/upper airway crusting.\",\n      \"status\": \"Weakly supported\"\n    },\n    \"Pleomorphic adenoma\": {\n      \"support\": \"Common site (palate/parapharyngeal space).\",\n      \"against\": \"Should be indolent; rapid, hemorrhagic, and necrotic evolution is highly atypical for a benign salivary neoplasm.\",\n      \"status\": \"Weakly supported\"\n    },\n    \"Metastatic carcinoma\": {\n      \"support\": \"Oropharyngeal mass in a young woman could represent occult primary.\",\n      \"against\": \"CT imaging description (hypodense, minimal enhancement) is less characteristic of typical squamous cell carcinoma.\",\n      \"status\": \"Weakly supported\"\n    },\n    \"Vascular malformation or pseudoaneurysm\": {\n      \"support\": \"Recurrent bleeding, 'sanguineous fluid' drainage, failure of incision/drainage to resolve the mass, pulsatile nature (suggested by 'froggy' voice and persistent bleeding).\",\n      \"against\": \"CT contrast appearance (hypodense lesion) might have been interpreted as an abscess but could be a complex hematoma/pseudoaneurysm.\",\n      \"status\": \"Well-supported\"\n    },\n    \"Infectious etiology\": {\n      \"support\": \"Initial presentation (sore throat, swelling).\",\n      \"against\": \"Failure of multiple courses of antibiotics and incision/drainage, progression over 7 weeks.\",\n      \"status\": \"Weakly supported\"\n    }\n  },\n  \"missing_diagnoses\": [\n    \"Internal Carotid Artery (ICA) pseudoaneurysm (most critical to rule out before biopsy)\",\n    \"Extranodal NK/T-cell lymphoma (nasal type, which can present as necrotic, destructive lesions)\",\n    \"Sarcoma (e.g., Alveolar Rhabdomyosarcoma or Synovial Sarcoma)\"\n  ],\n  \"evaluation_of_each_next_step\": {\n    \"Secure airway\": \"Reasonable and mandatory.\",\n    \"Excisional biopsy\": \"Potentially catastrophic if this is a pseudoaneurysm. Excisional biopsy should not be performed until vascular involvement is ruled out by MRA/CTA.\",\n    \"H&E and IHC\": \"Standard and appropriate for suspected malignancy.\",\n    \"Molecular testing\": \"Appropriate for sarcoma classification.\",\n    \"Contrast-enhanced MRI/MRA\": \"Essential; likely should have been prioritized *before* any further tissue manipulation.\",\n    \"Interdisciplinary consults\": \"Appropriate.\"\n  },\n  \"missing_next_steps\": [\n    \"Angiographic imaging (CTA or MRA) of the neck prior to any further invasive procedures to exclude carotid artery pseudoaneurysm or high-flow vascular anomaly.\",\n    \"Formal ENT consultation in a tertiary center with vascular surgery readiness.\",\n    \"Serum ANCA, ACE, and EBV titers to screen for systemic inflammatory or viral-associated lymphoma causes.\"\n  ],\n  \"influence_of_clinician_input\": {\n    \"influence\": \"The clinician's focus on sarcoma heavily influenced the diagnostic priorities. I adopted the biopsy recommendation uncritically, which is dangerous given the history of recurrent bleeding\u2014a red flag for vascular injury or pseudoaneurysm.\",\n    \"reflection\": \"I should have questioned the safety of 'excision' more aggressively given the patient's history of bleeding during previous office-based drainage attempts.\"\n  },\n  \"open_questions\": [\n    \"What were the exact results of the histopathology from the previous hospital's biopsy/drainage attempt (if any tissue was sent)?\",\n    \"Was the 'sanguineous fluid' pulsatile?\",\n    \"Could this be an aberrant internal carotid artery or a pseudoaneurysm resulting from initial inflammation?\"\n  ]\n}",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Embryonal rhabdomyosarcoma",
+      "Lymphoma (e.g., Diffuse Large B-cell Lymphoma)",
+      "Granulomatosis with polyangiitis",
+      "Pleomorphic adenoma",
+      "Metastatic carcinoma",
+      "Vascular malformation or pseudoaneurysm",
+      "Infectious etiology with atypical presentation (e.g., fungal or mycobacterial)"
+    ],
+    "next_steps": [
+      "Secure airway given proximity of lesion to the oropharynx",
+      "Perform diagnostic excisional biopsy of the peritonsillar mass with ENT/Head and Neck surgery",
+      "Immediate histopathological evaluation with H&E staining",
+      "Immunohistochemistry including desmin, MyoD1, myogenin, and pancytokeratin",
+      "Molecular testing including FISH for FOXO1 and NGS for sarcoma-associated mutations",
+      "Contrast-enhanced MRI or MRA to evaluate for vascular involvement or pseudoaneurysm",
+      "Interdisciplinary consultation with oncology and pathology"
+    ]
+  },
+  "differential_diagnoses": [
+    "Internal Carotid Artery (ICA) pseudoaneurysm",
+    "Embryonal rhabdomyosarcoma",
+    "Extranodal NK/T-cell lymphoma",
+    "Synovial sarcoma",
+    "Metastatic carcinoma",
+    "Pleomorphic adenoma",
+    "Granulomatosis with polyangiitis"
+  ],
+  "next_steps": [
+    "Perform immediate contrast-enhanced CT angiography (CTA) or MRA of the neck to evaluate for vascular involvement, specifically internal carotid artery pseudoaneurysm",
+    "Consult interventional radiology for potential endovascular management or coil embolization if a vascular lesion is confirmed",
+    "Ensure vascular surgery is on standby if further surgical exploration or biopsy is required",
+    "Maintain patient in a hospital setting with strict precautions against further tissue manipulation until vascular involvement is definitively excluded",
+    "Perform diagnostic biopsy only after ruling out a vascular origin for the mass, ensuring it is done under general anesthesia in an operating room with full hemostatic control",
+    "Obtain tissue for comprehensive histopathology, including H&E, IHC (Desmin, MyoD1, myogenin, CD56, EBER), and molecular testing for sarcoma-associated mutations"
+  ]
+}

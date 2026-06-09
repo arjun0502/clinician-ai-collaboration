@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_10_2024",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Acquired generalized lipodystrophy (AGL)",
+    "Severe insulin resistance syndrome (Type B insulin resistance)",
+    "Psychogenic polydipsia and factitious hyperglycemia",
+    "Autoimmune lipodystrophy",
+    "Paraneoplastic syndrome",
+    "Congenital generalized lipodystrophy (CGL/Berardinelli-Seip syndrome)",
+    "Hepatitis C-associated lipodystrophy"
+  ],
+  "next_steps": [
+    "Test for anti-insulin receptor antibodies (Type B insulin resistance)",
+    "Evaluate for insulin injection technique and possibility of insulin non-adherence or surreptitious administration",
+    "Consult endocrinology for transition to subcutaneous U-500 insulin titration protocol or consideration of U-500 pump",
+    "Assess for systemic autoimmune disease (e.g., repeating ANA, checking ENA, C1q, CH50)",
+    "Perform clinical psychiatric evaluation for factitious disorder or severe psychological distress",
+    "Evaluate for systemic inflammatory or connective tissue disease given ANA positivity",
+    "Discontinue unnecessary medications and simplify the regimen to improve reliability"
+  ]
+}

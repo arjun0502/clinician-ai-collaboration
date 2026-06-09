@@ -1,0 +1,43 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_24_2025",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": "```json\n{\n  \"Evaluation_of_Each_Diagnosis_You_Listed\": {\n    \"Lyme_carditis\": {\n      \"Support\": \"Patient lives in a forested area; presents with high-grade AV block; exposure to sheep/rabbits (ticks); systemic symptoms (fatigue, myalgias).\",\n      \"Against\": \"Negative Lyme serology in the past (though exposure is remote); lack of classic erythema migrans.\",\n      \"Verdict\": \"Well-supported.\"\n    },\n    \"Multisystem_inflammatory_syndrome_in_adults_(MIS-A)\": {\n      \"Support\": \"History of recent SARS-CoV-2 reinfection (5 weeks prior); multisystem involvement (cardiac conduction, hepatic, gastrointestinal).\",\n      \"Against\": \"Normal inflammatory markers (CRP, ESR) and normal troponin/white blood cell count.\",\n      \"Verdict\": \"Weakly supported.\"\n    },\n    \"Myocarditis_(viral_or_immune-mediated)\": {\n      \"Support\": \"Recent viral infection; cardiac conduction abnormalities (AV block); pleuritic chest pain; elevated NT-proBNP.\",\n      \"Against\": \"Normal high-sensitivity troponin T; no overt heart failure signs on exam.\",\n      \"Verdict\": \"Well-supported.\"\n    },\n    \"Arrhythmogenic_cardiomyopathy\": {\n      \"Support\": \"Palpitations; irregular pulse; inferior Q waves on ECG.\",\n      \"Against\": \"Patient has no history of syncope or sudden cardiac death; normal heart structure on initial imaging.\",\n      \"Verdict\": \"Weakly supported.\"\n    },\n    \"Drug-induced_liver_injury_or_toxicity\": {\n      \"Support\": \"History of herbal supplement use (turmeric, liver extract, milk thistle); elevated liver enzymes.\",\n      \"Against\": \"Elevations are mild/transient; direct link to cardiac conduction is unclear.\",\n      \"Verdict\": \"Well-supported (as a secondary finding).\"\n    },\n    \"Coronary_artery_vasospasm\": {\n      \"Support\": \"Positional/pleuritic chest pain; history of cannabis/tobacco use.\",\n      \"Against\": \"ECG changes (heart block) are more indicative of nodal conduction disease than ischemia.\",\n      \"Verdict\": \"Weakly supported.\"\n    }\n  },\n  \"Missing_Diagnoses\": [\n    \"Q fever (Coxiella burnetii): High clinical suspicion given the patient raises sheep and rabbits.\",\n    \"Sarcoidosis: Potential for myocardial involvement causing AV block and elevated NT-proBNP.\",\n    \"Autoimmune rheumatic disease (e.g., SLE): Fits the 'brain fog,' fatigue, and multisystem nature of symptoms.\"\n  ],\n  \"Evaluation_of_Each_Next_Step_You_Proposed\": {\n    \"Lyme_disease_serologic_testing\": \"Reasonable; essential given geography.\",\n    \"Echocardiogram\": \"Reasonable; mandatory for cardiac evaluation.\",\n    \"Cardiac_MRI\": \"Reasonable; gold standard for evaluating myocarditis/conduction disease.\",\n    \"Cardiac_telemetry\": \"Reasonable; necessary due to existing AV block.\",\n    \"Review_of_supplements\": \"Reasonable; potentially linked to liver enzymes.\",\n    \"Electrophysiology_studies\": \"Premature; wait for non-invasive imaging/lab results.\"\n  },\n  \"Missing_Next_Steps\": [\n    \"Q fever serology and PCR (due to livestock contact).\",\n    \"Detailed medication reconciliation (including potential interactions of supplements).\",\n    \"Holter monitor or extended loop recording for broader rhythm evaluation.\",\n    \"Comprehensive autoimmune panel (ANA, ENA, etc.).\"\n  ],\n  \"Influence_of_Clinician_Input\": {\n    \"Assessment\": \"The clinician's focus on Lyme disease was highly influential. I adopted the suspicion of Lyme disease uncritically, as it is a top differential, but I perhaps focused less on the 'sheep/rabbit' aspect (zoonosis) than I should have, which points specifically toward Q fever or Tularemia.\",\n    \"Critique\": \"The clinician's proposal to start empiric ceftriaxone immediately was aggressive; I should have questioned if waiting for cardiac workup or serology was more appropriate given the hemodynamic stability.\"\n  },\n  \"Open_Questions\": [\n    \"What are the specific results of the hepatic imaging (the liver enzyme elevation is unexplained)?\",\n    \"What is the baseline vs. current ECG rhythm strip (is the AV block persistent)?\",\n    \"What is the antibody status for Q fever?\"\n  ]\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Lyme carditis",
+      "Multisystem inflammatory syndrome in adults (MIS-A)",
+      "Myocarditis (viral or immune-mediated)",
+      "Arrhythmogenic cardiomyopathy",
+      "Drug-induced liver injury or toxicity (herbals/supplements)",
+      "Coronary artery vasospasm"
+    ],
+    "next_steps": [
+      "Lyme disease serologic testing (EIA followed by Western blot)",
+      "Echocardiogram to assess for wall motion abnormalities and valvular function",
+      "Cardiac MRI with gadolinium to evaluate for myocardial inflammation or fibrosis",
+      "Continuous cardiac telemetry monitoring for progression of heart block",
+      "Review of supplement use and discontinuation of potential hepatotoxins",
+      "Consultation with cardiology for possible electrophysiology studies"
+    ]
+  },
+  "differential_diagnoses": [
+    "Lyme carditis",
+    "Q fever (Coxiella burnetii infection)",
+    "Myocarditis (post-viral or autoimmune)",
+    "Sarcoidosis",
+    "Drug-induced hepatic and cardiac toxicity",
+    "Multisystem inflammatory syndrome in adults (MIS-A)",
+    "Autoimmune rheumatic disease (e.g., Systemic Lupus Erythematosus)"
+  ],
+  "next_steps": [
+    "Lyme disease serology (EIA/Western blot) and Q fever serology (Phase I and II antibodies)",
+    "Transthoracic echocardiogram to assess for structural heart disease and valvular function",
+    "Cardiac MRI with gadolinium to evaluate for myocardial inflammation, edema, or fibrosis",
+    "Continuous inpatient cardiac telemetry to monitor for high-grade AV block progression",
+    "Comprehensive autoimmune panel including ANA, ENA, and possibly ACE levels",
+    "Discontinuation of all herbal and non-essential supplements to address hepatic injury",
+    "Full liver function panel and viral hepatitis screening"
+  ]
+}

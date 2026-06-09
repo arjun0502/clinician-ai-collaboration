@@ -1,0 +1,45 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_32_2024",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Amyotrophic lateral sclerosis (bulbar-onset)\": {\n      \"Supporting\": \"Progressive dysphagia, dysarthria, garbled/soft voice, limb weakness, fatigue, respiratory failure.\",\n      \"Against\": \"Lack of overt atrophy or fasciculations noted on exam, presence of ptosis and ocular involvement.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Myasthenia gravis\": {\n      \"Supporting\": \"Bulbar symptoms (dysphagia, dysarthria), fluctuating muscle weakness, ptosis, respiratory weakness, fatigue.\",\n      \"Against\": \"Normal creatine kinase and lack of classic diurnal variation description, though presentation fits.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Lambert-Eaton myasthenic syndrome\": {\n      \"Supporting\": \"Proximal limb weakness, autonomic involvement (dry mouth mentioned as dysphagia-related), respiratory involvement.\",\n      \"Against\": \"Deep tendon reflexes were not explicitly noted as absent; often associated with malignancy (not found on CT).\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Obstructive sleep apnea / Obesity hypoventilation syndrome\": {\n      \"Supporting\": \"BMI 53.1, daytime somnolence, dyspnea, pulmonary hypertension, leg edema.\",\n      \"Against\": \"Does not explain focal neurological signs like right facial droop or Babinski reflex.\",\n      \"Status\": \"Well-supported (as a comorbidity)\"\n    },\n    \"Cerebral small vessel disease\": {\n      \"Supporting\": \"Imaging findings of chronic microangiopathy/microhemorrhages, history of transient deficits.\",\n      \"Against\": \"Does not explain the progressive nature of the neuromuscular/bulbar decline.\",\n      \"Status\": \"Well-supported (as a comorbidity)\"\n    },\n    \"Systemic amyloidosis\": {\n      \"Supporting\": \"Cardiac involvement (low QRS voltage, heart failure with preserved ejection fraction), macroglossia (often under-reported), peripheral neuropathy, systemic weakness.\",\n      \"Against\": \"Initial echocardiogram showed normal wall thickness, which is atypical for advanced cardiac amyloidosis.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Multiple system atrophy\": {\n      \"Supporting\": \"Autonomic dysfunction, parkinsonism/weakness, respiratory stridor/dysphagia.\",\n      \"Against\": \"Lack of classic parkinsonism signs, though disease is progressive.\",\n      \"Status\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Motor neuron disease variant (Progressive Bulbar Palsy)\",\n    \"Botulism (unlikely given timeline but fits acute bulbar/respiratory failure)\",\n    \"Paraneoplastic neurological syndrome (occult malignancy)\"\n  ],\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"EMG/NCS/RNS\": \"Reasonable and standard for neuromuscular workup. No harm.\",\n    \"Serologic testing (AChR/MuSK)\": \"Essential for MG rule-out. No harm.\",\n    \"Lumbar puncture\": \"Reasonable to rule out inflammatory/leptomeningeal processes. No harm.\",\n    \"Modified barium swallow\": \"Crucial for safety, but must be careful of aspiration risk in a somnolent patient.\",\n    \"Pulmonary function testing\": \"Necessary, but may be contraindicated if the patient is too unstable (use bedside NIF/FVC).\",\n    \"Cardiac telemetry/respiratory support\": \"Critical for stability.\"\n  },\n  \"Missing Next Steps\": [\n    \"Serum protein electrophoresis (SPEP) with immunofixation and free light chains (to rule out amyloidosis/plasma cell dyscrasia)\",\n    \"Edrophonium (Tensilon) test or trial of pyridostigmine (if clinical suspicion for MG is high)\",\n    \"Bedside forced vital capacity (FVC) and negative inspiratory force (NIF) monitoring\"\n  ],\n  \"Influence of Clinician Input\": {\n    \"Analysis\": \"I adopted the clinician's differential closely but expanded it to include systemic causes like amyloidosis. I relied on their proposed next steps uncritically; the clinician's focus was heavily neurology-centric, while the systemic nature (heart/lungs/neurology) suggests a systemic metabolic or depositional disease should have been prioritized earlier.\"\n  },\n  \"Open Questions\": [\n    \"What is the result of the cardiac serum biomarkers (troponin, NT-proBNP) and a repeat echocardiogram focusing on global longitudinal strain?\",\n    \"Are there serum free light chains or an M-spike present?\",\n    \"What is the result of the bedside FVC/NIF testing?\",\n    \"Could the 'low voltage' on EKG and 'thickened heart' (even if initial echo was read as normal) point toward infiltrative heart disease?\"\n  ]\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Amyotrophic lateral sclerosis (bulbar-onset)",
+      "Myasthenia gravis",
+      "Lambert-Eaton myasthenic syndrome",
+      "Obstructive sleep apnea / Obesity hypoventilation syndrome with pulmonary hypertension",
+      "Cerebral small vessel disease with pseudobulbar palsy",
+      "Systemic amyloidosis",
+      "Multiple system atrophy"
+    ],
+    "next_steps": [
+      "Electromyography (EMG) and nerve conduction studies",
+      "Repetitive nerve stimulation (RNS) of multiple muscles",
+      "Serologic testing for acetylcholine receptor and MuSK antibodies",
+      "Lumbar puncture for CSF protein and cytology",
+      "Fluoroscopic swallow study (modified barium swallow)",
+      "Consultation with pulmonology for formal sleep study and pulmonary function testing",
+      "Continuous cardiac telemetry and optimization of respiratory support"
+    ]
+  },
+  "differential_diagnoses": [
+    "Systemic Amyloidosis (AL or ATTR)",
+    "Amyotrophic Lateral Sclerosis (Bulbar-onset)",
+    "Myasthenia Gravis",
+    "Lambert-Eaton Myasthenic Syndrome",
+    "Obesity Hypoventilation Syndrome with secondary pulmonary hypertension",
+    "Cerebral Small Vessel Disease with pseudobulbar palsy",
+    "Paraneoplastic Neurological Syndrome"
+  ],
+  "next_steps": [
+    "Serum protein electrophoresis with immunofixation and serum free light chain assay",
+    "Repetitive nerve stimulation (RNS) and needle electromyography (EMG)",
+    "Bedside negative inspiratory force (NIF) and forced vital capacity (FVC) monitoring",
+    "Echocardiogram with focus on global longitudinal strain to evaluate for infiltrative cardiomyopathy",
+    "Serum acetylcholine receptor and MuSK antibody testing",
+    "Lumbar puncture for protein and cytology",
+    "Continuous cardiac telemetry and optimization of respiratory support (BiPAP)"
+  ]
+}

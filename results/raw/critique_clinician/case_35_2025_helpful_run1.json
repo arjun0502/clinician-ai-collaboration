@@ -1,0 +1,26 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_35_2025",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": "{\n  \"Evaluation of Each Clinician Diagnosis\": {\n    \"Meningococcemia\": {\n      \"Supporting\": \"Fever, nonblanching papules (purpura), and rapid clinical deterioration.\",\n      \"Against\": \"Patient has been symptomatic for 3 days and appearing relatively 'well' in earlier assessments; no signs of frank shock or meningitis.\",\n      \"Verdict\": \"Weakly supported\"\n    },\n    \"Kawasaki disease\": {\n      \"Supporting\": \"Fever, injected conjunctivae, oral mucosal changes, cervical lymphadenopathy, and hand/foot edema.\",\n      \"Against\": \"The rash (nonblanching papules) is more suggestive of a vasculitis or petechial eruption than the typical polymorphous rash of KD.\",\n      \"Verdict\": \"Well-supported\"\n    },\n    \"Rocky Mountain spotted fever\": {\n      \"Supporting\": \"Fever, rash starting on extremities, New England residency, history of outdoor camp activity.\",\n      \"Against\": \"Rash morphology (nonblanching papules/purpura) is atypical; typically begins as blanching macules/papules on wrists/ankles before becoming petechial.\",\n      \"Verdict\": \"Well-supported\"\n    },\n    \"IgA vasculitis\": {\n      \"Supporting\": \"Palpable purpura (nonblanching papules) on lower extremities and buttocks, edema.\",\n      \"Against\": \"High fevers and conjunctival injection are not typical features.\",\n      \"Verdict\": \"Weakly supported\"\n    },\n    \"MIS-C\": {\n      \"Supporting\": \"Fever, conjunctivitis, mucocutaneous involvement, and limb swelling.\",\n      \"Against\": \"No reported recent history of COVID-19 or contact tracing; normally requires multi-organ involvement (gastrointestinal/cardiac).\",\n      \"Verdict\": \"Weakly supported\"\n    },\n    \"Hand, foot, and mouth disease\": {\n      \"Supporting\": \"Rash on extremities and oral involvement.\",\n      \"Against\": \"Nonblanching purpuric nature of the rash and high grade, persistent fever are inconsistent with typical enteroviral presentations.\",\n      \"Verdict\": \"Unsupported\"\n    },\n    \"Measles\": {\n      \"Supporting\": \"Fever, conjunctivitis, oral enanthem (Koplik-like), and rash progression.\",\n      \"Against\": \"Vaccination status is up-to-date; purpuric/nonblanching rash is atypical.\",\n      \"Verdict\": \"Unsupported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Disseminated gonococcal infection (DGI)\",\n    \"Parvovirus B19 (can cause 'gloves and socks' syndrome and petechiae)\",\n    \"Leukocytoclastic vasculitis secondary to other infections/drug reactions\"\n  ],\n  \"Evaluation of Each Proposed Next Step\": {\n    \"Skin biopsy for H&E + direct immunofluorescence (DIF)\": \"Reasonable; essential to differentiate between small-vessel vasculitis and petechial/purpuric processes.\",\n    \"Echocardiography\": \"Highly reasonable; mandatory due to the suspicion of Kawasaki disease to assess for coronary artery aneurysms.\",\n    \"Dermatology consultation + morphology-focused exam\": \"Reasonable; clinical expertise in lesion characterization is critical.\"\n  },\n  \"Missing Next Steps\": [\n    \"Blood cultures and inflammatory markers (CRP, ESR, procalcitonin)\",\n    \"Complete blood count (CBC) with peripheral smear to look for thrombocytopenia, schistocytes, or blasts\",\n    \"Serologic testing for RMSF (though often delayed) and possibly Rickettsial PCR\",\n    \"Viral respiratory/systemic panel (including COVID-19 testing)\"\n  ],\n  \"Open Questions\": [\n    \"What is the status of the patient's platelet count and coagulation profile?\",\n    \"Does the patient have elevated inflammatory markers (CRP/ESR)?\",\n    \"Is there a history of recent tick bites or known tick-borne illness exposures at the camp?\",\n    \"What were the specific findings on the palate/buccal mucosa (e.g., vesicles vs. erythema)?\"\n  ]\n}",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Kawasaki disease",
+    "Rocky Mountain spotted fever",
+    "Meningococcemia",
+    "IgA vasculitis",
+    "Multisystem inflammatory syndrome in children (MIS-C)",
+    "Parvovirus B19 infection",
+    "Disseminated gonococcal infection"
+  ],
+  "next_steps": [
+    "Obtain blood cultures, CBC with differential, and coagulation profile",
+    "Measure inflammatory markers including CRP, ESR, and procalcitonin",
+    "Perform urgent echocardiography to evaluate for coronary artery changes",
+    "Initiate empiric intravenous antibiotics for suspected bacterial sepsis (e.g., ceftriaxone) and consider doxycycline if Rickettsial disease is high on the differential",
+    "Dermatology consultation for skin biopsy (H&E and DIF) to rule out vasculitis",
+    "Perform diagnostic studies for Rickettsia rickettsii (PCR or serology) and COVID-19 PCR/antibody testing",
+    "Administer intravenous immunoglobulin (IVIG) and high-dose aspirin if Kawasaki disease criteria are met or highly suspected"
+  ]
+}

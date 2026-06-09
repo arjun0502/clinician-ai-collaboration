@@ -1,0 +1,41 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_36_2025",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": "{\n  \"evaluation_of_each_diagnosis\": {\n    \"Portal hypertensive gastropathy or enteropathy\": {\n      \"supporting_facts\": \"Presence of portal vein stenosis, splenomegaly, and portal hypertension.\",\n      \"arguing_against\": \"Endoscopy showed erosive gastropathy, but this usually causes oozing rather than the profound recurrent hemorrhages/melena described.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Ectopic variceal hemorrhage secondary to portal vein stenosis\": {\n      \"supporting_facts\": \"Patient has portal vein stenosis, portosystemic collaterals, and history of biliary surgery leading to potential adhesive small bowel disease.\",\n      \"arguing_against\": \"No varices seen on prior EGD/colonoscopy (though these don't visualize the small bowel).\",\n      \"support_level\": \"Well-supported\"\n    },\n    \"Hemobilia due to hepaticojejunostomy complications\": {\n      \"supporting_facts\": \"History of hepaticojejunostomy, MRCP finding of focal biliary dilatation, and clinical presentation of melena/hematochezia.\",\n      \"arguing_against\": \"Liver function tests are normal; no jaundice.\",\n      \"support_level\": \"Well-supported\"\n    },\n    \"Portal biliopathy\": {\n      \"supporting_facts\": \"Presence of portal vein stenosis/cavernomatous changes and biliary abnormalities on MRCP.\",\n      \"arguing_against\": \"Usually presents with obstructive jaundice; patient is non-icteric.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Cholangiocarcinoma\": {\n      \"supporting_facts\": \"Perihilar signal abnormality and enhancement pattern; history of chronic biliary reconstruction.\",\n      \"arguing_against\": \"Normal liver enzymes/bilirubin; lack of systemic symptoms (weight loss).\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Dieulafoy's lesion\": {\n      \"supporting_facts\": \"Common cause of occult GI bleed.\",\n      \"arguing_against\": \"Multiple prior endoscopies (EGD/colonoscopy) were performed; lesions are usually identified by experienced endoscopists unless they are in the distal small bowel.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Arteriovenous malformation/fistula\": {\n      \"supporting_facts\": \"Recurrent unexplained bleeding.\",\n      \"arguing_against\": \"CT angiography did not identify a focal AVF.\",\n      \"support_level\": \"Unsupported\"\n    },\n    \"Small bowel angiodysplasia\": {\n      \"supporting_facts\": \"Common cause of obscure GI bleed in this age group.\",\n      \"arguing_against\": \"Video capsule endoscopy was negative.\",\n      \"support_level\": \"Weakly supported\"\n    }\n  },\n  \"missing_diagnoses\": [\n    \"Portal biliopathy-related pseudoaneurysm (e.g., of the hepatic artery) eroding into the biliary tree\",\n    \"Jejunal varices at the site of the previous hepaticojejunostomy (anastomotic varices)\",\n    \"Hepatoportal sclerosis\"\n  ],\n  \"evaluation_of_each_next_step\": {\n    \"Interventional radiology consultation for portal venography and pressure measurement\": \"Highly reasonable; essential to delineate the venous anatomy and rule out pressure-dependent variceal bleeding.\",\n    \"Mesenteric angiography\": \"Reasonable, but low yield if bleeding is not active. IR consultation should prioritize cross-sectional correlation first.\",\n    \"Deep enteroscopy (balloon-assisted)\": \"Highly reasonable; necessary to evaluate the jejuno-jejunostomy and hepaticojejunostomy site specifically.\",\n    \"Red blood cell scintigraphy\": \"Not highly effective for chronic/intermittent bleeding compared to angiography or push enteroscopy.\",\n    \"Multidisciplinary evaluation with hepatobiliary surgery\": \"Essential given the history of hepaticojejunostomy and current vascular findings.\"\n  },\n  \"missing_next_steps\": [\n    \"Hepatic artery angiography (specifically to rule out hemobilia from a pseudoaneurysm)\",\n    \"Referral for specialized surgical consultation for revision of hepaticojejunostomy site\",\n    \"Check serum gastrin/somatostatin to rule out neuroendocrine tumors in the setting of obscure bleed/liver findings\"\n  ],\n  \"influence_of_clinician_input\": {\n    \"summary\": \"The clinician's differential provided a strong foundation. I adopted the 'hemobilia' and 'portal hypertension' theories uncritically as they explain the vascular findings. I was perhaps too focused on 'classic' endoscopy misses rather than the highly specific anatomical complication of the hepaticojejunostomy site.\"\n  },\n  \"open_questions\": [\n    \"What is the exact origin of the perihilar enhancement seen on MRCP? Is it vascular, inflammatory, or malignant?\",\n    \"Could there be an occult pseudoaneurysm of the hepatic artery associated with the prior biliary repair?\",\n    \"What are the portosystemic pressure gradients across the portal stenoses?\"\n  ]\n}",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Portal hypertensive gastropathy or enteropathy",
+      "Ectopic variceal hemorrhage secondary to portal vein stenosis",
+      "Hemobilia due to hepaticojejunostomy complications or biliary stricture",
+      "Portal biliopathy with associated portal hypertension",
+      "Cholangiocarcinoma (hilar)",
+      "Dieulafoy's lesion (missed on prior endoscopy)",
+      "Arteriovenous malformation or fistula",
+      "Small bowel angiodysplasia"
+    ],
+    "next_steps": [
+      "Interventional radiology consultation for portal venography and pressure measurement",
+      "Mesenteric angiography to look for occult vascular anomalies or variceal bleeding source",
+      "Deep enteroscopy (balloon-assisted) to specifically target the jejuno-jejunostomy site",
+      "Red blood cell scintigraphy to localize intermittent active bleeding",
+      "Multidisciplinary evaluation with hepatobiliary surgery regarding the hepaticojejunostomy and vascular anatomy"
+    ]
+  },
+  "differential_diagnoses": [
+    "Hemobilia secondary to hepatic artery pseudoaneurysm at the hepaticojejunostomy site",
+    "Ectopic variceal hemorrhage (jejunal varices) secondary to portal vein stenosis",
+    "Portal hypertensive biliopathy with associated vascular abnormalities",
+    "Hilar cholangiocarcinoma",
+    "Dieulafoy's lesion in the excluded limb of the jejunum",
+    "Small bowel angiodysplasia"
+  ],
+  "next_steps": [
+    "Perform hepatic artery angiography with potential embolization to rule out and treat a pseudoaneurysm",
+    "Perform portal venography with pressure measurements to assess the hemodynamic significance of the portal stenosis",
+    "Consult interventional radiology for evaluation of the perihilar enhancement and venous stenosis",
+    "Perform balloon-assisted deep enteroscopy to directly visualize the hepaticojejunostomy site and the Roux-en-Y limb",
+    "Schedule a multidisciplinary team conference involving hepatobiliary surgery and interventional radiology to discuss definitive vascular or biliary reconstruction"
+  ]
+}

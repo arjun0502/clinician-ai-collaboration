@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_38_2024",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Infective endocarditis with septic emboli",
+    "Systemic lupus erythematosus with Libman-Sacks endocarditis",
+    "Antiphospholipid syndrome",
+    "Disseminated malignancy with nonbacterial thrombotic endocarditis",
+    "Vasculitis (e.g., ANCA-associated)",
+    "Thrombotic thrombocytopenic purpura"
+  ],
+  "next_steps": [
+    "Transesophageal echocardiography",
+    "Send blood cultures for specialized organisms (HACEK, Bartonella, Coxiella, Brucella)",
+    "Antiphospholipid antibody panel and ANA reflex testing",
+    "Cerebral digital subtraction angiography",
+    "Consultation with infectious disease, rheumatology, and cardiology",
+    "Biopsy of petechial lesion"
+  ]
+}

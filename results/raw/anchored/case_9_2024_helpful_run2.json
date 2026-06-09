@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_9_2024",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Infected aortic aneurysm (mycotic aneurysm)",
+    "Staphylococcus aureus endocarditis",
+    "Aortic dissection",
+    "Aorto-enteric fistula",
+    "Vertebral osteomyelitis/discitis",
+    "Pulmonary embolism",
+    "Acute coronary syndrome"
+  ],
+  "next_steps": [
+    "Perform urgent CT angiography of the chest, abdomen, and pelvis with contrast to evaluate for expansion or rupture of the aortic pseudoaneurysm",
+    "Perform transesophageal echocardiography to evaluate for vegetation or abscess related to infective endocarditis",
+    "Obtain follow-up serial blood cultures to document clearance of Staphylococcus aureus bacteremia",
+    "Initiate urgent vascular surgery and infectious disease consultation",
+    "Continue targeted antibiotic therapy for methicillin-sensitive Staphylococcus aureus (MSSA) as guided by susceptibility results"
+  ]
+}

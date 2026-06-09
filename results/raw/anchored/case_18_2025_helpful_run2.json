@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_18_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Erdheim-Chester disease",
+    "IgG4-related disease",
+    "Primary or metastatic malignancy (lymphoma, sarcoma)",
+    "Granulomatosis with polyangiitis",
+    "Takayasu arteritis",
+    "Sarcoidosis",
+    "Tuberculous periaortitis/mediastinitis"
+  ],
+  "next_steps": [
+    "Whole-body 18F-FDG PET-CT to identify metabolic activity and optimal biopsy sites",
+    "Image-guided core needle biopsy of the retroperitoneal or mediastinal soft-tissue mass",
+    "Serum IgG4 level measurement and testing for BRAF V600E mutation",
+    "Water-deprivation test or serum osmolality and urine osmolality testing for diabetes insipidus",
+    "Detailed ophthalmologic examination for orbital involvement",
+    "Histopathological evaluation with immunohistochemical staining for CD68, CD1a, and S100"
+  ]
+}

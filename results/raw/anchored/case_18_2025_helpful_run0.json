@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_18_2025",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Erdheim-Chester disease",
+    "IgG4-related disease",
+    "Lymphoma",
+    "Rheumatoid arthritis-associated vasculitis",
+    "Metastatic malignancy",
+    "Sarcoidosis",
+    "Tuberculosis"
+  ],
+  "next_steps": [
+    "Whole-body 18F-FDG PET-CT",
+    "Image-guided core biopsy of retroperitoneal or mediastinal soft-tissue lesion",
+    "Serum IgG4 level measurement",
+    "Endocrine evaluation for diabetes insipidus (urine osmolality, serum sodium, and water-deprivation test)",
+    "Consultation with rheumatology, oncology, and interventional radiology"
+  ]
+}

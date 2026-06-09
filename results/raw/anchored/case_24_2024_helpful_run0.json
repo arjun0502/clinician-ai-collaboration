@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_24_2024",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Postpartum obsessive-compulsive disorder",
+    "Postpartum depression with anxious distress",
+    "Postpartum psychosis",
+    "Generalized anxiety disorder",
+    "Post-traumatic stress disorder",
+    "Bipolar disorder with postpartum onset"
+  ],
+  "next_steps": [
+    "Assess for immediate safety including suicide and infanticide risk",
+    "Referral to specialized reproductive psychiatry services",
+    "Initiate or optimize evidence-based pharmacotherapy for OCD (e.g., higher-dose SSRI)",
+    "Consider adjunctive therapy such as Exposure and Response Prevention (ERP)",
+    "Implement psychoeducation for patient and family regarding intrusive thoughts",
+    "Regular monitoring of blood pressure and postpartum physical health",
+    "Frequent follow-up visits to ensure adherence and safety"
+  ]
+}

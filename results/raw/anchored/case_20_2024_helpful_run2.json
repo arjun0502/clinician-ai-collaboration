@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_20_2024",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Chronic Granulomatous Disease (CGD)",
+    "Common Variable Immunodeficiency (CVID)",
+    "Systemic Sarcoidosis",
+    "Whipple's Disease",
+    "Q fever (Chronic)",
+    "Occult malignancy (e.g., lymphoma or metastatic carcinoma)",
+    "Mycobacterial infection (M. tuberculosis or NTM)"
+  ],
+  "next_steps": [
+    "Measure quantitative serum immunoglobulins (IgG, IgA, IgM)",
+    "Perform dihydrorhodamine (DHR) flow cytometry assay for CGD",
+    "Evaluate specific antibody responses to protein and polysaccharide antigens (vaccine responses)",
+    "Perform whole-exome sequencing or targeted primary immunodeficiency gene panel",
+    "Re-evaluate liver biopsy pathology with focus on stains for Tropheryma whipplei",
+    "Perform PCR testing of liver biopsy tissue for fastidious organisms"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "condition": "anchored",
+  "case_id": "case_5_2024",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Subacute thyroiditis (de Quervain's)",
+    "Lymphoma (e.g., Hodgkin or non-Hodgkin)",
+    "Cat scratch disease (Bartonella henselae)",
+    "Toxoplasmosis",
+    "Primary HIV infection",
+    "Systemic onset juvenile idiopathic arthritis (or Adult-onset Still's disease)",
+    "Coccidioidomycosis"
+  ],
+  "next_steps": [
+    "Thyroid function tests (TSH, free T4, total T3)",
+    "Thyroid ultrasound",
+    "Thyroid uptake and scan (if TSH is suppressed)",
+    "Erythrocyte sedimentation rate (ESR) and CRP monitoring",
+    "Repeat HIV antibody/antigen testing (4th generation)",
+    "Blood cultures for Bartonella and serologic testing",
+    "Excisional lymph node biopsy if neck pain persists and lymphadenopathy is identified or suggested by imaging",
+    "Consider PET/CT scan if systemic symptoms persist without a clear focus"
+  ]
+}

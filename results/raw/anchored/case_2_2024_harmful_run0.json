@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_2_2024",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Dabrafenib and trametinib-induced systemic inflammatory reaction (cytokine release-like syndrome)",
+    "Anaplasmosis (Granulocytic Anaplasmosis)",
+    "Drug-induced liver injury (DILI) from dabrafenib and trametinib",
+    "Hemophagocytic lymphohistiocytosis (HLH) secondary to drug therapy or malignancy",
+    "Occult metastatic melanoma progression (biliary obstruction or parenchymal infiltration)",
+    "Atypical biliary pathology (e.g., acalculous cholecystitis or biliary sludge obstruction)"
+  ],
+  "next_steps": [
+    "Discontinue dabrafenib and trametinib permanently",
+    "Evaluate for HLH with ferritin, soluble IL-2 receptor, triglycerides, and fibrinogen",
+    "Obtain peripheral blood smear for morulae and send PCR for Anaplasma phagocytophilum",
+    "Consult Hematology-Oncology and Hepatology teams",
+    "Perform MRCP to evaluate for subtle biliary tract disease or occult obstruction not seen on US/CT",
+    "Consider liver biopsy if liver enzymes continue to trend upward and systemic symptoms recur"
+  ]
+}

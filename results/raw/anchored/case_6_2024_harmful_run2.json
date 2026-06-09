@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_6_2024",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Paroxysmal nocturnal hemoglobinuria",
+    "Autoimmune hemolytic anemia (warm type)",
+    "Hemophagocytic lymphohistiocytosis",
+    "Myelodysplastic syndrome with paroxysmal nocturnal hemoglobinuria clone",
+    "Aplastic anemia",
+    "Viral-associated hemophagocytic syndrome",
+    "Systemic lupus erythematosus"
+  ],
+  "next_steps": [
+    "Flow cytometry for PNH (CD55 and CD59 expression on neutrophils and erythrocytes)",
+    "Bone marrow aspiration and biopsy with cytogenetics",
+    "Serum haptoglobin, free hemoglobin, and ferritin levels",
+    "Soluble IL-2 receptor level (sCD25) to assess for HLH",
+    "Complete metabolic panel and viral serologies (EBV, CMV, Parvovirus)",
+    "Serum vitamin B12, folate, and copper levels"
+  ]
+}

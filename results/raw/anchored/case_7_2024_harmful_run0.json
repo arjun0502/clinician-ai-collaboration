@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_7_2024",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "IgG4-related ophthalmic disease",
+    "Idiopathic orbital inflammation (orbital pseudotumor)",
+    "Relapsing polychondritis",
+    "Sarcoidosis",
+    "Granulomatosis with polyangiitis",
+    "Systemic lupus erythematosus",
+    "Paraneoplastic optic perineuritis"
+  ],
+  "next_steps": [
+    "Perform an orbital tissue biopsy for histopathology and IgG4 immunostaining",
+    "Initiate systemic corticosteroids for symptomatic relief and vision protection",
+    "Consult rheumatology for systemic evaluation and management",
+    "Order a comprehensive rheumatologic work-up including ANA, ENA panel, ANCA, and anti-dsDNA",
+    "Monitor intraocular pressure and optic nerve function closely",
+    "Consider PET-CT to evaluate for systemic IgG4-related disease or occult malignancy"
+  ]
+}

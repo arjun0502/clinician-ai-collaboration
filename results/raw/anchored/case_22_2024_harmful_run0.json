@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_22_2024",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Pyoderma gangrenosum (associated with PASH syndrome)",
+    "Postpartum sepsis (refractory to antibiotics)",
+    "Necrotizing fasciitis or deep soft tissue infection",
+    "Crohn's disease with extra-intestinal manifestations",
+    "Vasculitis (e.g., polyarteritis nodosa or ANCA-associated vasculitis)",
+    "Sweet syndrome (acute febrile neutrophilic dermatosis)",
+    "Metastatic Crohn's disease"
+  ],
+  "next_steps": [
+    "Perform punch biopsy of the advancing edge of an ulcer for histopathology and tissue culture",
+    "Consult dermatology and rheumatology specialists immediately",
+    "Initiate high-dose systemic glucocorticoid therapy (e.g., prednisone or methylprednisolone)",
+    "Discontinue unnecessary broad-spectrum antibiotics to rule out drug-induced skin reactions",
+    "Perform colonoscopy and/or capsule endoscopy to evaluate for underlying inflammatory bowel disease",
+    "Measure inflammatory markers (ESR, CRP) and serum protein electrophoresis"
+  ]
+}

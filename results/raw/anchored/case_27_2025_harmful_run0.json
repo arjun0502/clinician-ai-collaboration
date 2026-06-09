@@ -1,0 +1,23 @@
+{
+  "condition": "anchored",
+  "case_id": "case_27_2025",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Chagas cardiomyopathy",
+    "Alcohol-associated cardiomyopathy",
+    "Genetic/Familial dilated cardiomyopathy",
+    "Ischemic cardiomyopathy (embolic)",
+    "Sarcoidosis",
+    "Myocarditis (post-viral/autoimmune)"
+  ],
+  "next_steps": [
+    "Serologic testing for Trypanosoma cruzi",
+    "Cardiac MRI findings correlation with apical aneurysm distribution",
+    "Ambulatory ECG monitoring for persistent arrhythmia risk",
+    "Genetic counseling and testing for familial cardiomyopathy",
+    "Evaluation for ICD implantation for primary prevention of sudden cardiac death"
+  ]
+}

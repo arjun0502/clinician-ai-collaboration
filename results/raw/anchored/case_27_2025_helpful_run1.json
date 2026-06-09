@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_27_2025",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Chagas disease (Trypanosoma cruzi infection)",
+    "Non-ischemic dilated cardiomyopathy (idiopathic)",
+    "Alcohol-associated cardiomyopathy",
+    "Sarcoidosis",
+    "Genetic/Familial cardiomyopathy",
+    "Remote viral myocarditis"
+  ],
+  "next_steps": [
+    "Serologic testing for Trypanosoma cruzi (Chagas disease)",
+    "Endomyocardial biopsy if autoimmune or infiltrative disease is suspected",
+    "Genetic counseling and testing for cardiomyopathy",
+    "Referral for implantable cardioverter-defibrillator (ICD) implantation",
+    "Continued titration of guideline-directed medical therapy",
+    "Cardiac PET scan to evaluate for underlying inflammatory processes like sarcoidosis"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_36_2024",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": "```json\n{\n  \"Evaluation_of_Each_Diagnosis_You_Listed\": {\n    \"Gastric_bezoar_trichobezoar\": {\n      \"Supporting_facts\": \"History of pica, chronic iron-deficiency anemia, intermittent epigastric pain, nausea/vomiting, and a CT scan showing 'gastric contents' despite the patient presenting in a fasted state.\",\n      \"Against_facts\": \"CT scan did not explicitly identify the characteristic density of a bezoar (though this is often missed if not specifically suspected).\",\n      \"Support_level\": \"Well-supported\"\n    },\n    \"Cyclic_vomiting_syndrome\": {\n      \"Supporting_facts\": \"Recurrent episodes of severe nausea/vomiting, self-limiting nature, periods of normalcy between episodes, and lack of findings on CT/ultrasound.\",\n      \"Against_facts\": \"Patient has persistent abdominal pain between episodes and objective findings of leukocytosis and anemia.\",\n      \"Support_level\": \"Weakly supported\"\n    },\n    \"Peptic_ulcer_disease\": {\n      \"Supporting_facts\": \"Family history, epigastric pain, iron-deficiency anemia, use of NSAIDs/ibuprofen.\",\n      \"Against_facts\": \"Negative family history of H. pylori mention; CT scan did not show perforation or severe inflammatory changes.\",\n      \"Support_level\": \"Weakly supported\"\n    },\n    \"Celiac_disease\": {\n      \"Supporting_facts\": \"Anemia, chronic abdominal pain, history of poor growth (implied as 'normal growth', but weight fluctuations common).\",\n      \"Against_facts\": \"No diarrhea or malabsorption symptoms described; recent CT imaging did not report small bowel dilation or mucosal thickening.\",\n      \"Support_level\": \"Weakly supported\"\n    },\n    \"Abdominal_migraine\": {\n      \"Supporting_facts\": \"Recurrent episodes, age group, severity of pain, negative workup.\",\n      \"Against_facts\": \"Persistent leukocytosis, anemia, and specific localizing physical findings (guarding).\",\n      \"Support_level\": \"Weakly supported\"\n    },\n    \"Intestinal_malrotation_with_intermittent_volvulus\": {\n      \"Supporting_facts\": \"Intermittent, severe episodes of pain/vomiting.\",\n      \"Against_facts\": \"CT scan is generally sensitive for malrotation; no mention of 'whirl sign' or mesenteric vessel abnormalities.\",\n      \"Support_level\": \"Weakly supported\"\n    },\n    \"Crohn_s_disease\": {\n      \"Supporting_facts\": \"Chronic abdominal pain, anemia, elevated white-cell count, fatigue.\",\n      \"Against_facts\": \"No report of weight loss, diarrhea, or inflammatory signs on CT.\",\n      \"Support_level\": \"Weakly supported\"\n    }\n  },\n  \"Missing_Diagnoses\": [\n    \"Lead poisoning (can cause abdominal pain, anemia, and history of pica)\",\n    \"Porphyria (acute intermittent porphyria can present as recurrent abdominal pain, nausea, and psychiatric symptoms)\",\n    \"Superior Mesenteric Artery (SMA) Syndrome (consistent with weight loss/appetite changes and epigastric pain)\"\n  ],\n  \"Evaluation_of_Each_Next_Step_You_Proposed\": {\n    \"EGD\": \"Highly reasonable; diagnostic gold standard for bezoar and PUD.\",\n    \"Detailed_history_hair_pulling\": \"Essential given the pica history; non-invasive and high yield.\",\n    \"Consult_pediatric_surgery\": \"Reasonable if EGD confirms a large or obstructing mass.\",\n    \"Consult_pediatric_gastroenterology\": \"Appropriate for complex motility or refractory GI symptoms.\",\n    \"Review_history_of_anemia\": \"Reasonable to distinguish between iron deficiency from blood loss vs. chronic disease/pica.\"\n  },\n  \"Missing_Next_Steps\": [\n    \"Toxicology screen for heavy metals (lead levels)\",\n    \"Urinary porphobilinogen (UPG) to screen for acute porphyria\",\n    \"Measurement of serum ferritin, iron saturation, and TIBC\"\n  ],\n  \"Influence_of_Clinician_Input\": {\n    \"Extent\": \"The clinician's differential provided a strong anchor toward mechanical/obstructive etiologies (bezoar/intussusception).\",\n    \"Uncritical_adoption\": \"I adopted the 'Gastric bezoar' and 'EGD' steps heavily, as they are the most parsimonious explanations for the clinical triad of pica, anemia, and epigastric pain.\",\n    \"Questioning\": \"I should have questioned the 'Intussusception' diagnosis more critically, as it is rare in a 16-year-old without a lead point and would likely have been more apparent on repeated imaging.\"\n  },\n  \"Open_Questions\": [\n    \"What is the character of the stool/vomitus?\",\n    \"Does the patient have specific dietary restrictions or significant recent weight loss?\",\n    \"What are the specific results of the repeat ferritin and iron studies?\"\n  ]\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Gastric bezoar (trichobezoar)",
+      "Cyclic vomiting syndrome",
+      "Peptic ulcer disease",
+      "Celiac disease",
+      "Abdominal migraine",
+      "Intestinal malrotation with intermittent volvulus",
+      "Crohn's disease"
+    ],
+    "next_steps": [
+      "Perform esophagogastroduodenoscopy (EGD) to visualize gastric contents",
+      "Obtain detailed history regarding hair pulling or eating habits (trichotillomania/trichophagia)",
+      "Consult pediatric surgery if a large bezoar is identified",
+      "Consult pediatric gastroenterology for further evaluation of motility or inflammatory disorders",
+      "Review history of iron-deficiency anemia as a potential consequence of chronic blood loss or malabsorption"
+    ]
+  },
+  "differential_diagnoses": [
+    "Gastric trichobezoar",
+    "Peptic ulcer disease with occult bleeding",
+    "Crohn's disease",
+    "Lead toxicity (secondary to pica)",
+    "Superior mesenteric artery (SMA) syndrome",
+    "Celiac disease",
+    "Acute intermittent porphyria"
+  ],
+  "next_steps": [
+    "Perform esophagogastroduodenoscopy (EGD) for direct visualization of gastric contents",
+    "Screen for trichotillomania and trichophagia with a sensitive, non-judgmental history",
+    "Order serum lead level to evaluate for complications of pica",
+    "Order iron studies (ferritin, TIBC, transferrin saturation) to characterize the anemia",
+    "Check urinary porphobilinogen (UPG) to rule out acute intermittent porphyria",
+    "Consult pediatric gastroenterology for further management of suspected motility or structural pathology"
+  ]
+}

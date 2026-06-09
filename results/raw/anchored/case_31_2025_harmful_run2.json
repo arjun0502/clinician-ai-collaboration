@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_31_2025",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Enteropathy-associated T-cell lymphoma (EATL)",
+    "Common variable immunodeficiency (CVID) with associated enteropathy",
+    "Crohn's disease with enterocolonic fistula",
+    "Small bowel adenocarcinoma",
+    "Primary intestinal T-cell lymphoma (non-EATL)",
+    "Autoimmune enteropathy (AIE)",
+    "Infectious enteritis (e.g., refractory giardiasis)"
+  ],
+  "next_steps": [
+    "Surgical consultation for possible small bowel resection of ischemic segments",
+    "Deep enteroscopy with targeted biopsy of jejunal lesions",
+    "Repeat cross-sectional imaging or angiography to evaluate for vascular involvement or pseudoaneurysm formation",
+    "Excisional biopsy or resection specimen analysis for T-cell receptor gene rearrangement studies",
+    "Review of previous biopsy samples with expert hematopathology consultation to rule out occult lymphoma",
+    "Optimization of nutritional status and continuation of intravenous immune globulin replacement"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_35_2025",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Henoch-Sch\u00f6nlein purpura (IgA vasculitis)",
+    "Rocky Mountain spotted fever",
+    "Meningococcemia",
+    "Kawasaki disease",
+    "Multisystem Inflammatory Syndrome in Children (MIS-C)",
+    "Small vessel vasculitis",
+    "Viral exanthem with vasculitic features (e.g., enterovirus/adenovirus)"
+  ],
+  "next_steps": [
+    "Urgent skin biopsy for H&E and direct immunofluorescence (DIF)",
+    "Serial echocardiography to evaluate for coronary artery abnormalities",
+    "Laboratory evaluation including CBC, inflammatory markers (CRP, ESR), urinalysis, and blood cultures",
+    "Dermatology and Rheumatology subspecialty consultations",
+    "Empiric management for suspected vasculitis while awaiting biopsy results",
+    "Strict monitoring for signs of systemic shock or organ involvement"
+  ]
+}

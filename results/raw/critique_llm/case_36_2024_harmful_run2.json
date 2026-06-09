@@ -1,0 +1,42 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_36_2024",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Cyclic vomiting syndrome\": {\n      \"Support\": \"Recurrent, stereotyped episodes of severe nausea and vomiting with pain, interepisodic periods of relative health.\",\n      \"Against\": \"Presence of chronic interepisodic pain, elevated WBC, and persistent anemia.\",\n      \"Assessment\": \"Well-supported\"\n    },\n    \"Gastroparesis\": {\n      \"Support\": \"Nausea, vomiting, epigastric pain, early satiety/decreased appetite.\",\n      \"Against\": \"CT showed gastric contents but did not report significant gastric dilation; usually associated with systemic disease or diabetes.\",\n      \"Assessment\": \"Well-supported\"\n    },\n    \"Superior mesenteric artery syndrome\": {\n      \"Support\": \"Epigastric pain, vomiting, history of iron-deficiency anemia (nutritional deficits).\",\n      \"Against\": \"Usually associated with significant recent weight loss; BMI is 25.8 (overweight).\",\n      \"Assessment\": \"Weakly supported\"\n    },\n    \"Crohn's disease\": {\n      \"Support\": \"Chronic abdominal pain, nausea, vomiting, anemia, leukocytosis, history of pica (iron deficiency).\",\n      \"Against\": \"No diarrhea, no fever, no obvious inflammatory markers reported.\",\n      \"Assessment\": \"Well-supported\"\n    },\n    \"Peptic ulcer disease\": {\n      \"Support\": \"Epigastric pain, iron-deficiency anemia, family history, use of ibuprofen (NSAIDs).\",\n      \"Against\": \"CT was performed, though EGD is the gold standard; no hematemesis or melena mentioned.\",\n      \"Assessment\": \"Well-supported\"\n    },\n    \"Cannabinoid hyperemesis syndrome\": {\n      \"Support\": \"History of marijuana use, nausea and vomiting that might improve with hot showers (though not mentioned, common in this syndrome).\",\n      \"Against\": \"Patient reports last use 4 weeks ago; typical pattern is continuous daily use.\",\n      \"Assessment\": \"Weakly supported\"\n    },\n    \"Abdominal migraine\": {\n      \"Support\": \"Recurrent severe episodes of abdominal pain.\",\n      \"Against\": \"Typically a diagnosis of exclusion in younger children; vomiting is usually secondary, not the primary feature.\",\n      \"Assessment\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Lead poisoning (history of pica, abdominal pain, anemia)\",\n    \"Porphyria (acute intermittent porphyria can present as recurrent abdominal pain and vomiting)\",\n    \"Hereditary angioedema (recurrent abdominal pain and vomiting without urticaria)\",\n    \"Small bowel obstruction (intermittent, potentially from intermittent intussusception)\"\n  ],\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Upper endoscopy (EGD)\": \"Highly reasonable; gold standard for PUD, eosinophilic esophagitis, or outlet obstruction.\",\n    \"Gastric emptying study\": \"Reasonable for motility evaluation, but premature before ruling out mechanical causes (EGD).\",\n    \"Evaluation for occult gastrointestinal bleeding\": \"Necessary given the persistent anemia (11.3 -> 10.8 g/dL).\",\n    \"Cessation of cannabis\": \"Reasonable precaution, though history suggests low probability.\",\n    \"Consultation with pediatric gastroenterology\": \"Highly reasonable for specialized motility and inflammatory workup.\"\n  },\n  \"Missing Next Steps\": [\n    \"Measurement of serum lead levels\",\n    \"Measurement of urinary porphobilinogen\",\n    \"Measurement of inflammatory markers (ESR, CRP, Fecal Calprotectin)\",\n    \"Celiac serology (tTG-IgA)\"\n  ],\n  \"Influence of Clinician Input\": {\n    \"Analysis\": \"The clinician's differential was narrow and focused primarily on anatomical/obstruction causes. I adopted the 'investigative' spirit (EGD, specialist consult) but intentionally broadened the scope to functional/metabolic causes which the clinician ignored. I was perhaps too quick to accept the clinician's 'intestinal' focus, failing to include systemic/metabolic mimics like porphyria or lead toxicity until later evaluation.\"\n  },\n  \"Open Questions\": [\n    \"What are the iron studies (ferritin, TIBC, iron saturation)?\",\n    \"What is the result of fecal calprotectin?\",\n    \"Does the patient have a history of specific triggers (e.g., specific foods)?\",\n    \"What are the inflammatory markers (ESR/CRP)?\"\n  ]\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Cyclic vomiting syndrome",
+      "Gastroparesis",
+      "Superior mesenteric artery syndrome",
+      "Crohn's disease",
+      "Peptic ulcer disease",
+      "Cannabinoid hyperemesis syndrome",
+      "Abdominal migraine"
+    ],
+    "next_steps": [
+      "Upper endoscopy (EGD) to evaluate for peptic ulcer disease and gastric outflow obstruction",
+      "Gastric emptying study",
+      "Evaluation for occult gastrointestinal bleeding given persistent anemia",
+      "Cessation of all cannabis use to exclude cannabinoid hyperemesis syndrome",
+      "Consultation with pediatric gastroenterology for consideration of motility studies"
+    ]
+  },
+  "differential_diagnoses": [
+    "Crohn's disease",
+    "Peptic ulcer disease",
+    "Lead poisoning",
+    "Acute intermittent porphyria",
+    "Cyclic vomiting syndrome",
+    "Superior mesenteric artery syndrome",
+    "Gastroparesis"
+  ],
+  "next_steps": [
+    "Upper endoscopy (EGD) with biopsies for H. pylori and celiac disease",
+    "Measure serum inflammatory markers (ESR, CRP) and fecal calprotectin",
+    "Check serum lead level",
+    "Check urinary porphobilinogen and porphyrins",
+    "Obtain iron studies (ferritin, iron, TIBC) and peripheral blood smear",
+    "Consult pediatric gastroenterology for possible motility evaluation"
+  ]
+}

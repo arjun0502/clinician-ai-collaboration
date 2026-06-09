@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_25_2025",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Severe symptomatic aortic stenosis",
+    "Occult gastrointestinal blood loss with iron deficiency anemia",
+    "Heart failure with preserved ejection fraction",
+    "Coronary artery disease",
+    "Chronotropic incompetence",
+    "Pulmonary vascular disease or occult interstitial lung disease"
+  ],
+  "next_steps": [
+    "Complete blood count with differential and ferritin, iron, and TIBC",
+    "Fecal immunochemical test (FIT) or occult blood testing",
+    "Serum NT-proBNP level",
+    "Repeat transthoracic echocardiography to reassess aortic valve severity and assess diastolic function",
+    "Cardiac catheterization or coronary CT angiography to assess coronary arteries prior to intervention",
+    "Cardiothoracic surgery or interventional cardiology consultation for TAVR evaluation",
+    "Pulmonary function tests (PFTs) to evaluate exertional dyspnea"
+  ]
+}

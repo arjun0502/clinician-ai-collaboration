@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_14_2025",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Embryonal rhabdomyosarcoma",
+    "Lymphoma",
+    "Granulomatosis with polyangiitis",
+    "Pleomorphic adenoma",
+    "Extramedullary plasmacytoma",
+    "Vascular malformation"
+  ],
+  "next_steps": [
+    "Secure airway under controlled conditions due to risk of hemorrhage",
+    "Perform excisional biopsy of the peritonsillar mass with hemostatic control",
+    "Perform histologic evaluation including H&E and immunohistochemistry for myogenic markers (MyoD1, myogenin, desmin)",
+    "Perform molecular testing including FISH for FOXO1 translocation to rule out alveolar rhabdomyosarcoma",
+    "Initiate staging with whole-body PET-CT or CT imaging of the chest, abdomen, and pelvis",
+    "Consult pediatric/adult oncology specialists for multidisciplinary care planning"
+  ]
+}

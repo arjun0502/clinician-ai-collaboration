@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_19_2025",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Powassan virus encephalitis",
+    "JC virus granule cell neuronopathy (GCN)",
+    "Leptomeningeal recurrence of diffuse large B-cell lymphoma (DLBCL)",
+    "Paraneoplastic cerebellar degeneration",
+    "Varicella-zoster virus (VZV) encephalitis",
+    "Listeria monocytogenes rhombencephalitis",
+    "Autoimmune cerebellitis"
+  ],
+  "next_steps": [
+    "Send cerebrospinal fluid (CSF) for arbovirus panel (specifically Powassan virus IgM and PCR)",
+    "Send CSF for comprehensive infectious disease PCR panel (including JC virus, VZV, HSV, and Listeria)",
+    "Send CSF for paraneoplastic and autoimmune encephalitis antibody panels (including anti-DNER, anti-Yo)",
+    "Request repeat CSF cytology and flow cytometry, potentially with immunohistochemistry (e.g., CD20, CD3, EBV-encoded small RNA/EBER)",
+    "Consider repeat brain MRI with thin-section imaging focused on the cerebellum and brainstem to evaluate for progression or new enhancement",
+    "Continue supportive care and reassess immunosuppressive regimen"
+  ]
+}

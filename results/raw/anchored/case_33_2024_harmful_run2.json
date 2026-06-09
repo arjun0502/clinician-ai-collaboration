@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_33_2024",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Primary Central Nervous System Lymphoma (PCNSL)",
+    "Progressive Multifocal Leukoencephalopathy (PML)",
+    "Tumefactive Demyelinating Lesion",
+    "Glioblastoma Multiforme",
+    "Cerebral Toxoplasmosis",
+    "Neuro-Beh\u00e7et's Disease",
+    "Paraneoplastic Encephalitis"
+  ],
+  "next_steps": [
+    "Perform lumbar puncture for CSF analysis including cytology, flow cytometry, EBV PCR, and oligoclonal bands",
+    "Obtain specialized neuropathology consultation with immunohistochemistry (e.g., CD20, CD3, EBER-ISH, GFAP, SV40)",
+    "Continue dexamethasone to manage significant perilesional edema and mass effect",
+    "Perform whole-body PET/CT or repeat imaging of chest/abdomen/pelvis to rule out systemic occult malignancy",
+    "Review immunosuppression history in the context of opportunistic infection risk (PML vs lymphoma)",
+    "Monitor neurological status closely for signs of herniation given the rapid progression and mass effect"
+  ]
+}

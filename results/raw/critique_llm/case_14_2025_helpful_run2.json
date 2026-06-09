@@ -1,0 +1,43 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_14_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": "{\n  \"evaluation_of_each_diagnosis\": {\n    \"Embryonal rhabdomyosarcoma\": {\n      \"supporting\": \"Young age, progressive enlarging mass, failure to heal after drainage, friable necrotic tissue, lack of systemic infection signs.\",\n      \"against\": \"Rare in the oropharynx, though possible.\",\n      \"support_level\": \"Well-supported\"\n    },\n    \"Non-Hodgkin lymphoma\": {\n      \"supporting\": \"Rapidly growing oropharyngeal mass, persistent symptoms, minimal systemic signs.\",\n      \"against\": \"Typically associated with lymphadenopathy, though primary extranodal presentation occurs.\",\n      \"support_level\": \"Well-supported\"\n    },\n    \"Pleomorphic adenoma of minor salivary gland\": {\n      \"supporting\": \"Location in the soft palate/peritonsillar area.\",\n      \"against\": \"Clinical behavior is too aggressive; typically presents as a slow-growing, painless mass. Does not explain friability or spontaneous bleeding.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Carcinoma ex pleomorphic adenoma\": {\n      \"supporting\": \"Can present with rapid enlargement and invasive behavior.\",\n      \"against\": \"Typically seen in older patients with a long-standing history of a mass.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Granulomatosis with polyangiitis\": {\n      \"supporting\": \"Ulceration, necrotic tissue, failure to respond to antibiotics.\",\n      \"against\": \"No systemic signs (no sinus, pulmonary, or renal involvement).\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Vascular malformation or pseudoaneurysm\": {\n      \"supporting\": \"Repetitive bleeding, sanguineous drainage.\",\n      \"against\": \"Does not explain the solid mass appearance on CT.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Infected branchial cleft cyst\": {\n      \"supporting\": \"Fluctuance, drainage history.\",\n      \"against\": \"Failure to resolve despite surgical drainage and multiple courses of antibiotics.\",\n      \"support_level\": \"Weakly supported\"\n    }\n  },\n  \"missing_diagnoses\": [\n    \"Carotid artery pseudoaneurysm (as a primary vascular catastrophe masking as a mass)\",\n    \"Extramedullary plasmacytoma\",\n    \"Sinonasal-type undifferentiated carcinoma\"\n  ],\n  \"evaluation_of_each_next_step\": {\n    \"Secure airway under controlled conditions\": \"Highly reasonable given the risk of airway compromise from a bleeding, friable mass.\",\n    \"Excisional/wide incisional biopsy\": \"Essential; however, must be done with caution for hemorrhage.\",\n    \"Immunohistochemical staining\": \"Reasonable; standard for undifferentiated tumors.\",\n    \"Molecular testing\": \"Reasonable; aids in diagnosis and potential targeted therapy.\",\n    \"MRI of the neck\": \"Reasonable; superior to CT for soft tissue definition and vascular anatomy.\",\n    \"Systemic staging\": \"Reasonable; indicated if malignancy is confirmed.\"\n  },\n  \"missing_next_steps\": [\n    \"Angiography (CT or catheter-based): Crucial to rule out a pseudoaneurysm or high-flow vascular anomaly before biopsy to prevent fatal hemorrhage.\",\n    \"Serum protein electrophoresis/free light chains: To rule out extramedullary plasmacytoma.\"\n  ],\n  \"influence_of_clinician_input\": {\n    \"influence\": \"The clinician's focus on rhabdomyosarcoma significantly influenced the decision to include myogenic markers. I adopted the biopsy and molecular workup uncritically, failing to emphasize the immediate need for vascular imaging to rule out a pseudoaneurysm despite the history of 'sanguineous' drainage.\"\n  },\n  \"open_questions\": [\n    \"What is the internal structure of the mass on MRI (enhancement pattern, vascular flow voids)?\",\n    \"Has the patient had a formal coagulation panel to rule out underlying bleeding diathesis given the persistent bleeding?\",\n    \"Does the mass have a clear interface with the carotid artery or other major vessels?\"\n  ]\n}",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Embryonal rhabdomyosarcoma",
+      "Non-Hodgkin lymphoma",
+      "Pleomorphic adenoma of minor salivary gland",
+      "Carcinoma ex pleomorphic adenoma",
+      "Granulomatosis with polyangiitis",
+      "Vascular malformation or pseudoaneurysm",
+      "Infected branchial cleft cyst"
+    ],
+    "next_steps": [
+      "Secure airway under controlled conditions",
+      "Excisional or wide incisional biopsy of the mass with frozen section analysis",
+      "Immunohistochemical staining including desmin, MyoD1, myogenin, and pancytokeratin",
+      "Molecular testing including FISH for FOXO1 and NGS for driver mutations",
+      "Magnetic resonance imaging of the neck with contrast to better define tumor extent and relationship to the carotid sheath",
+      "Systemic staging including PET/CT or chest/abdominal/pelvic CT"
+    ]
+  },
+  "differential_diagnoses": [
+    "Embryonal rhabdomyosarcoma",
+    "Carotid artery pseudoaneurysm",
+    "Non-Hodgkin lymphoma",
+    "Extramedullary plasmacytoma",
+    "Pleomorphic adenoma of minor salivary gland",
+    "Sinonasal-type undifferentiated carcinoma",
+    "Granulomatosis with polyangiitis"
+  ],
+  "next_steps": [
+    "Perform urgent CT angiography or MRI/MRA of the neck to rule out carotid artery pseudoaneurysm prior to any invasive procedure",
+    "Secure airway under controlled conditions in the operating room",
+    "Perform excisional biopsy under general anesthesia with vascular surgery on standby for potential hemorrhage control",
+    "Submit tissue for histopathology with immunohistochemical staining (desmin, MyoD1, myogenin, pancytokeratin, CD138, LCA)",
+    "Perform molecular analysis including FISH for FOXO1 and NGS panel",
+    "Obtain baseline laboratory studies including CBC, coagulation profile, and serum protein electrophoresis"
+  ]
+}

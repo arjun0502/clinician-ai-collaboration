@@ -1,0 +1,44 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_17_2025",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Strongyloides hyperinfection syndrome\": {\n      \"Supporting\": \"History of immunosuppression (prednisone, tacrolimus, mycophenolate), residence in southern US, presentation with ileus/abdominal distention, and rapidly progressive pulmonary infiltrates/respiratory failure.\",\n      \"Against\": \"None definitive, though the lack of peripheral eosinophilia is common in severe hyperinfection due to profound suppression.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Disseminated histoplasmosis\": {\n      \"Supporting\": \"Immunosuppressed state, New England/Southern US residence (endemic areas), pulmonary infiltrates, and systemic illness with multi-organ involvement (GI, lungs).\",\n      \"Against\": \"The patient's clinical deterioration was extremely rapid (over a few weeks); Histoplasma usually follows a more indolent course unless the host is severely T-cell deficient.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Pneumocystis jirovecii pneumonia\": {\n      \"Supporting\": \"Classic presentation in a transplant recipient on immunosuppression; diffuse ground-glass opacities.\",\n      \"Against\": \"Patient was on trimethoprim\u2013sulfamethoxazole (prophylaxis), making breakthrough infection less likely, and the initial antigen test was reported negative.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Cytomegalovirus pneumonitis\": {\n      \"Supporting\": \"Common in transplant recipients; lung/GI involvement.\",\n      \"Against\": \"Patient was on valganciclovir prophylaxis; undetectable CMV viral load.\",\n      \"Status\": \"Unsupported\"\n    },\n    \"Capnocytophaga canimorsus sepsis\": {\n      \"Supporting\": \"Cat scratch exposure, purpuric rash (often associated with this pathogen), shock, and immunosuppressed state.\",\n      \"Against\": \"The clinical progression (weeks) is much slower than the classic fulminant septicemia associated with C. canimorsus.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Nocardiosis\": {\n      \"Supporting\": \"Immunosuppressed transplant recipient; potential for lung and systemic dissemination.\",\n      \"Against\": \"No specific evidence of skin/brain abscesses noted yet.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Tuberculosis\": {\n      \"Supporting\": \"Immunocompromised; potential for reactivation.\",\n      \"Against\": \"No travel history to high-prevalence areas mentioned; progression is very aggressive for typical TB.\",\n      \"Status\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": {\n    \"Diagnoses\": [\n      \"Hemophagocytic lymphohistiocytosis (HLH) secondary to infection/immunosuppression\",\n      \"Post-transplant lymphoproliferative disorder (PTLD)\",\n      \"Strongyloides stercoralis is the most vital missing link given the ileus/GI symptoms and pulmonary collapse.\"\n    ]\n  },\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Stool examination for Strongyloides larvae (O&P)\": \"Reasonable and high yield given the ileus.\",\n    \"Bronchoalveolar lavage with fungal and parasite staining/culture\": \"Highly appropriate for identifying the causative pathogen in a ventilated patient.\",\n    \"Serum Strongyloides IgG antibody testing\": \"Appropriate, though it may be falsely negative in an immunocompromised host.\",\n    \"Skin biopsy of the purpuric rash\": \"Crucial, as the rash might represent vasculitis or disseminated infection (e.g., larva currens or bacterial emboli).\",\n    \"Empiric initiation of ivermectin\": \"Given the risk of mortality in hyperinfection, empiric therapy is life-saving and standard of care.\",\n    \"Abdominal CT scan with contrast\": \"Reasonable, but cautious: the patient is in shock; renal function must be considered given the recent transplant.\"\n  },\n  \"Missing Next Steps\": {\n    \"Steps\": [\n      \"Ferritin, triglycerides, and fibrinogen levels (to rule out HLH)\",\n      \"Blood cultures specifically for slow-growing/fastidious organisms\",\n      \"Testing for donor-derived infections given the recent transplant\"\n    ]\n  },\n  \"Influence of Clinician Input\": {\n    \"Assessment\": \"The clinician focused heavily on zoonotic infections (Pasteurella, Capnocytophaga) and rejection. I adopted a broader approach by incorporating Strongyloides, which better explains the combination of ileus and pulmonary failure. I was perhaps too focused on 'classic' infections and should have questioned if the initial negative testing for PCP was a true negative or a sampling error.\"\n  },\n  \"Open Questions\": {\n    \"Questions\": [\n      \"What is the current absolute eosinophil count?\",\n      \"What did the peripheral blood smear show (to look for circulating larvae)?\",\n      \"Are there any signs of graft dysfunction beyond the creatinine change?\"\n    ]\n  }\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Strongyloides hyperinfection syndrome",
+      "Disseminated histoplasmosis",
+      "Pneumocystis jirovecii pneumonia",
+      "Cytomegalovirus pneumonitis",
+      "Capnocytophaga canimorsus sepsis",
+      "Nocardiosis",
+      "Tuberculosis"
+    ],
+    "next_steps": [
+      "Stool examination for Strongyloides larvae (O&P)",
+      "Bronchoalveolar lavage with fungal and parasite staining/culture",
+      "Serum Strongyloides IgG antibody testing",
+      "Skin biopsy of the purpuric rash for pathology and culture",
+      "Empiric initiation of ivermectin",
+      "Abdominal CT scan with contrast to evaluate bowel distention and potential perforation"
+    ]
+  },
+  "differential_diagnoses": [
+    "Strongyloides hyperinfection syndrome",
+    "Capnocytophaga canimorsus sepsis",
+    "Disseminated histoplasmosis",
+    "Pneumocystis jirovecii pneumonia",
+    "Hemophagocytic lymphohistiocytosis (HLH)",
+    "Post-transplant lymphoproliferative disorder (PTLD)",
+    "Cytomegalovirus pneumonitis"
+  ],
+  "next_steps": [
+    "Skin biopsy of purpuric rash for histopathology and bacterial/fungal culture",
+    "Bronchoalveolar lavage with Gram stain, fungal stains (GMS), and Strongyloides larvae exam",
+    "Stool microscopy for Strongyloides larvae (O&P) and S. stercoralis PCR",
+    "Serum Strongyloides IgG antibody testing",
+    "Empiric initiation of ivermectin",
+    "Laboratory evaluation for HLH (ferritin, triglycerides, fibrinogen, soluble CD25)",
+    "Blood cultures for fastidious organisms including Capnocytophaga"
+  ]
+}

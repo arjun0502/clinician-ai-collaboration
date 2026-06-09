@@ -1,0 +1,26 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_35_2025",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Clinician Diagnosis\": {\n    \"Meningococcemia\": {\n      \"Supporting\": \"Fever, nonblanching rash (petechiae/purpura), rapid progression, irritability/distress.\",\n      \"Against\": \"Patient appears relatively well despite high fever; 4-day course without shock or progression to frank purpura fulminans; absence of meningeal signs.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Kawasaki disease\": {\n      \"Supporting\": \"Fever >5 days, conjunctival injection, oral changes (palatal erythema), cervical lymphadenopathy, extremity swelling, rash.\",\n      \"Against\": \"Rash morphology (nonblanching/purpuric is atypical), absence of lip fissures/strawberry tongue, current presentation duration is relatively short.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Rocky Mountain spotted fever\": {\n      \"Supporting\": \"Fever, nonblanching rash (petechiae), summer camp history in New England (though RMSF is rare in this region).\",\n      \"Against\": \"Lack of classic centripetal rash pattern (started on feet/shins, typically starts on wrists/ankles); patient was well for several days despite fever.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"IgA vasculitis\": {\n      \"Supporting\": \"Palpable purpura, distribution on legs/buttocks, swelling/edema, refusal to walk (arthralgia/arthritis).\",\n      \"Against\": \"Fever is usually low-grade; conjunctivitis and oral lesions are not characteristic; high fever (40.2\u00b0C) is atypical.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"MIS-C\": {\n      \"Supporting\": \"Fever, conjunctivitis, rash, extremity involvement, systemic distress.\",\n      \"Against\": \"Absence of gastrointestinal symptoms (often prominent); absence of documented prior COVID-19 infection.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Hand, foot, and mouth disease\": {\n      \"Supporting\": \"Rash on extremities, oral lesions, fever.\",\n      \"Against\": \"Nonblanching purpuric nature of the rash is inconsistent with typical vesicular exanthem; disease course is too severe.\",\n      \"Status\": \"Unsupported\"\n    },\n    \"Measles\": {\n      \"Supporting\": \"Fever, rash, conjunctivitis, oral macules (Koplik-like).\",\n      \"Against\": \"Vaccination history; lack of classic prodromal cough, coryza, and photophobia.\",\n      \"Status\": \"Unsupported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Disseminated Gonococcemia\",\n    \"Septic emboli (e.g., secondary to endocarditis)\",\n    \"Small vessel vasculitis (ANCA-associated)\",\n    \"Leukocytoclastic vasculitis (secondary to occult infection)\"\n  ],\n  \"Evaluation of Each Proposed Next Step\": {\n    \"Skin biopsy for H&E + direct immunofluorescence (DIF)\": \"Reasonable. Highly useful to distinguish between vasculitis (IgA vs. ANCA) and embolic/thrombotic processes.\",\n    \"Echocardiography\": \"Reasonable. Essential to screen for coronary artery aneurysms given the strong suspicion of Kawasaki disease.\",\n    \"Dermatology consultation + morphology-focused exam\": \"Reasonable. Expert assessment of skin lesions is critical for narrowing the etiology of the purpura.\"\n  },\n  \"Missing Next Steps\": [\n    \"Blood cultures (essential to rule out sepsis/meningococcemia)\",\n    \"Complete blood count with differential and peripheral smear (assess for thrombocytopenia, blast cells, or atypical lymphocytes)\",\n    \"Inflammatory markers (ESR, CRP, Procalcitonin)\",\n    \"Urinalysis (check for hematuria/proteinuria suggestive of vasculitis)\",\n    \"Serologic testing for Rickettsia rickettsii and viral pathogens\"\n  ],\n  \"Open Questions\": [\n    \"Are there any pet/tick exposures beyond 'outdoor activities' at camp?\",\n    \"What is the current platelet count (to rule out coagulopathy vs. inflammatory purpura)?\",\n    \"Is there evidence of elevated inflammatory markers (CRP/ESR) to support a systemic inflammatory syndrome like Kawasaki or MIS-C?\",\n    \"Has the patient received any recent antibiotics that might mask an infection?\"\n  ]\n}\n```",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Kawasaki disease",
+    "IgA vasculitis",
+    "Meningococcemia",
+    "Rocky Mountain spotted fever",
+    "MIS-C",
+    "Disseminated gonococcemia",
+    "Post-infectious leukocytoclastic vasculitis"
+  ],
+  "next_steps": [
+    "Obtain blood cultures and start empiric IV antibiotics for suspected meningococcemia",
+    "Perform STAT echocardiography to evaluate for coronary artery abnormalities",
+    "Order CBC with differential, ESR, CRP, procalcitonin, and comprehensive metabolic panel",
+    "Obtain urinalysis to assess for hematuria and proteinuria",
+    "Perform dermatology consultation and consider punch biopsy of purpuric lesion for H&E and DIF",
+    "Collect nasopharyngeal/oropharyngeal swabs for respiratory viral panel and SARS-CoV-2 testing",
+    "Consult pediatric infectious disease and rheumatology subspecialists"
+  ]
+}

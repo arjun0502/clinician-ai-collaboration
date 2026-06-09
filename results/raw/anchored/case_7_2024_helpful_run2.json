@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_7_2024",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "IgG4-related ophthalmic disease",
+    "Granulomatosis with polyangiitis (localized)",
+    "Idiopathic orbital inflammation (orbital pseudotumor)",
+    "Sarcoidosis",
+    "Relapsing polychondritis",
+    "Orbital lymphoma",
+    "Neuromyelitis optica spectrum disorder"
+  ],
+  "next_steps": [
+    "Orbital biopsy of the inflamed tissue (optic nerve sheath/intraconal fat)",
+    "Repeat serum IgG4 and assess total IgG levels",
+    "Comprehensive ANCA testing (PR3 and MPO)",
+    "Serum soluble IL-2 receptor levels to evaluate for sarcoidosis or lymphoma",
+    "Close follow-up of systemic symptoms and repeat imaging to monitor response to corticosteroids",
+    "Consultation with rheumatology and ophthalmology for multidisciplinary management"
+  ]
+}

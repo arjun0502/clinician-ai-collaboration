@@ -1,0 +1,25 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_1_2025",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Clinician Diagnosis\": {\n    \"Preeclampsia\": {\n      \"Supporting Facts\": \"History of pregnancy with edema and proteinuria.\",\n      \"Arguing Against\": \"Onset/persistence 8 weeks postpartum; lack of sustained hypertension; significant interval since delivery makes typical preeclampsia highly unlikely.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Minimal change disease\": {\n      \"Supporting Facts\": \"Nephrotic-range proteinuria (ratio 5.2), hypoalbuminemia (2.2 g/dL), edema.\",\n      \"Arguing Against\": \"Less common in this age group as a primary onset, though possible.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Lupus membranous nephropathy\": {\n      \"Supporting Facts\": \"Nephrotic syndrome in a young woman.\",\n      \"Arguing Against\": \"No mention of systemic symptoms (rash, arthralgia), hematologic abnormalities, or hypocomplementemia provided.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Focal Segmental Glomerulosclerosis\": {\n      \"Supporting Facts\": \"Nephrotic-range proteinuria and hypoalbuminemia.\",\n      \"Arguing Against\": \"No specific history (e.g., HIV, drug use) to suggest secondary FSGS, though primary is possible.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Primary membranous nephropathy\": {\n      \"Supporting Facts\": \"Classic presentation of nephrotic syndrome in an adult.\",\n      \"Arguing Against\": \"No specific findings to distinguish it from other causes of nephrotic syndrome.\",\n      \"Status\": \"Well-supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Membranous Nephropathy (secondary to malignancy or autoimmune disease)\",\n    \"Renal vein thrombosis (secondary to nephrotic syndrome, which could explain symptom progression)\",\n    \"Postpartum nephropathy/glomerular disease exacerbation\"\n  ],\n  \"Evaluation of Each Proposed Next Step\": {\n    \"High-Dose Prednisone\": {\n      \"Reasoning\": \"Premature. Empiric steroids before confirming the underlying glomerular pathology is inappropriate.\",\n      \"Harm/Contraindications\": \"Potential to mask underlying pathology or worsen metabolic status without a tissue diagnosis.\"\n    },\n    \"Long-Term Monitoring\": {\n      \"Reasoning\": \"Inadequate. The patient has profound hypoalbuminemia and progressive edema that requires active investigation.\",\n      \"Harm/Contraindications\": \"Risk of complications related to severe nephrotic syndrome (thromboembolism, infection).\"\n    },\n    \"Kidney Biopsy\": {\n      \"Reasoning\": \"Essential. The gold standard for identifying the etiology of nephrotic syndrome.\",\n      \"Harm/Contraindications\": \"Generally indicated; no specific contraindications mentioned.\"\n    }\n  },\n  \"Missing Next Steps\": [\n    \"Comprehensive serological evaluation (ANA, anti-dsDNA, C3/C4 levels, anti-PLA2R antibodies, serum/urine protein electrophoresis to rule out secondary causes)\",\n    \"Thromboprophylaxis assessment (given the high risk of thromboembolism in nephrotic syndrome)\",\n    \"24-hour urine collection to quantify protein precisely\"\n  ],\n  \"Open Questions\": [\n    \"What are the results of autoimmune serology (ANA, PLA2R, complement levels)?\",\n    \"Are there any markers of monoclonal gammopathy?\",\n    \"Has a formal renal ultrasound been performed to assess kidney size and echogenicity?\"\n  ]\n}\n```",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Primary Membranous Nephropathy",
+    "Minimal Change Disease",
+    "Focal Segmental Glomerulosclerosis",
+    "Lupus Nephritis",
+    "Post-infectious Glomerulonephritis",
+    "Renal Vein Thrombosis"
+  ],
+  "next_steps": [
+    "Perform a renal biopsy for histopathological classification",
+    "Serological testing for autoimmune/glomerular markers including anti-PLA2R, ANA, anti-dsDNA, and C3/C4 levels",
+    "Obtain 24-hour urine collection for total protein quantification",
+    "Evaluate for serum and urine monoclonal proteins via electrophoresis and immunofixation",
+    "Initiate thromboembolic risk assessment and prophylactic anticoagulation if indicated by albumin levels",
+    "Start symptomatic management with ACE inhibitor or ARB for antiproteinuric effects and blood pressure control",
+    "Optimize thyroid replacement therapy for subclinical hypothyroidism"
+  ]
+}

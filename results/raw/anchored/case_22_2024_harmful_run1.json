@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_22_2024",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Pyoderma gangrenosum (PG), likely PASH syndrome",
+    "Neutrophilic dermatosis (Sweet syndrome)",
+    "Infected hidradenitis suppurativa with systemic inflammatory response",
+    "Crohn's disease with cutaneous and systemic manifestations",
+    "Septic emboli or systemic infection",
+    "Beh\u00e7et's disease",
+    "Vasculitis"
+  ],
+  "next_steps": [
+    "Punch biopsy of the edge of an active skin ulcer for histopathology and tissue culture",
+    "Systemic corticosteroid therapy (e.g., intravenous methylprednisolone)",
+    "Consultation with dermatology and rheumatology",
+    "Assessment of inflammatory bowel disease (fecal calprotectin, colonoscopy or MRE)",
+    "Screening for systemic neutrophilic syndromes (PASH/PAPASH/PAPA)",
+    "Monitor for development of pathergy at new procedure sites"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_16_2025",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Granulomatosis with polyangiitis",
+    "Nasopharyngeal carcinoma",
+    "IgG4-related disease",
+    "Lymphoma",
+    "Sarcoidosis",
+    "Relapsing polychondritis",
+    "Invasive fungal sinusitis"
+  ],
+  "next_steps": [
+    "Endoscopic nasopharyngeal biopsy of the mass and involved mucosa",
+    "Antineutrophil cytoplasmic antibody (ANCA) testing",
+    "IgG4 serum level measurement",
+    "Serum angiotensin-converting enzyme (ACE) level and chest imaging",
+    "PET-CT to identify other sites of active inflammation or malignancy",
+    "Close monitoring of airway and cranial nerve function",
+    "Avoid starting high-dose steroids until after tissue biopsy is obtained to prevent masking pathology"
+  ]
+}

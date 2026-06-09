@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_36_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Portal hypertensive biliopathy with associated variceal hemorrhage",
+    "Ectopic varices (jejunal or stomal)",
+    "Hemobilia due to biliary-vascular fistula (pseudoaneurysm)",
+    "Portal vein thrombosis with portal hypertension",
+    "Cholangiocarcinoma",
+    "Angiodysplasia or vascular malformations in the small bowel",
+    "Dieulafoy's lesion"
+  ],
+  "next_steps": [
+    "Diagnostic and therapeutic mesenteric angiography with possible portal venography",
+    "Double-balloon enteroscopy to visualize the biliary-enteric anastomosis",
+    "Multidisciplinary review by interventional radiology, hepatology, and surgical oncology",
+    "Coagulation profile optimization and ongoing hematologic support",
+    "Evaluation for portal vein recanalization or TIPS if portal hypertension is confirmed as the source"
+  ]
+}

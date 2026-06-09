@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_4_2025",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Sarcoidosis",
+    "Lymphoma",
+    "Bartonella henselae infection (Cat-scratch disease)",
+    "Tuberculosis",
+    "Histoplasmosis",
+    "Systemic lupus erythematosus",
+    "Metastatic malignancy"
+  ],
+  "next_steps": [
+    "Endobronchial ultrasound-guided transbronchial needle aspiration (EBUS-TBNA) of mediastinal lymph nodes",
+    "Excisional biopsy of a peripheral lymph node (if present) or lung biopsy",
+    "Serum angiotensin-converting enzyme (ACE) and 1,25-dihydroxyvitamin D levels",
+    "18F-FDG PET/CT to identify optimal biopsy sites and extent of disease",
+    "Cardiac MRI to assess for myocardial involvement",
+    "Evaluation for Bartonella henselae via serology and PCR"
+  ]
+}

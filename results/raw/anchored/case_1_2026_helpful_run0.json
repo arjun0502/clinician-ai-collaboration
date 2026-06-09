@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_1_2026",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Dengue shock syndrome",
+    "Leptospirosis",
+    "Septic shock due to bacterial translocation in cirrhosis",
+    "Malaria (Plasmodium falciparum)",
+    "Acute myocarditis",
+    "Yellow fever",
+    "Disseminated intravascular coagulation secondary to severe infection"
+  ],
+  "next_steps": [
+    "Perform dengue virus NS1 antigen and IgM/IgG serology",
+    "Submit peripheral blood smear for thick and thin assessment to rule out malaria",
+    "Send serum and urine for leptospirosis PCR or microscopic agglutination testing",
+    "Obtain echocardiogram to characterize biventricular dysfunction and rule out tamponade",
+    "Consult infectious disease specialist regarding travel-acquired tropical infections",
+    "Initiate broad-spectrum antimicrobial coverage for potential leptospirosis (e.g., ceftriaxone or doxycycline)",
+    "Continue aggressive hemodynamic support with close monitoring of fluid balance to prevent pulmonary edema"
+  ]
+}

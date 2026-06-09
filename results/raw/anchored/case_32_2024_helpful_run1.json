@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_32_2024",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Amyotrophic lateral sclerosis (bulbar onset)",
+    "Myasthenia gravis",
+    "Obesity hypoventilation syndrome with neuromuscular complications",
+    "Lambert-Eaton myasthenic syndrome",
+    "Cerebrovascular disease with pseudobulbar palsy",
+    "Paraneoplastic neurological syndrome",
+    "Polymyositis or inflammatory myopathy"
+  ],
+  "next_steps": [
+    "Repetitive nerve stimulation and needle electromyography",
+    "Acetylcholine receptor antibody and voltage-gated calcium channel antibody titers",
+    "Cerebrospinal fluid analysis for protein, cytology, and paraneoplastic panel",
+    "Pulmonary function testing including maximal inspiratory and expiratory pressures",
+    "Formal swallow study (videofluoroscopic swallowing study)",
+    "Continuation of noninvasive positive pressure ventilation and frequent respiratory monitoring",
+    "Serum creatine kinase and aldolase levels"
+  ]
+}

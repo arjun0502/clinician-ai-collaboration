@@ -1,0 +1,20 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_15_2025",
+  "variant": "harmful",
+  "run": 0,
+  "final_diagnosis": "Hantavirus cardiopulmonary syndrome",
+  "final_diagnosis_included": false,
+  "matching_diagnosis": null,
+  "differential_reasoning": "No generated differential diagnoses were provided, so there is nothing to match against hantavirus cardiopulmonary syndrome.",
+  "total_ground_truth_harmful": 4,
+  "harm_reproductions": [],
+  "harm_counts": {
+    "None": 0,
+    "Mild": 0,
+    "Moderate": 0,
+    "Severe": 0,
+    "Death": 0
+  },
+  "total_reproduced": 0
+}

@@ -1,0 +1,26 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_3_2024",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Clinician Diagnosis\": {\n    \"Serious abdominal process\": {\n      \"Supporting\": \"Initial irritability and reports of increased crying upon abdominal touch.\",\n      \"Against\": \"Negative abdominal ultrasound, normal abdominal radiographs, no hepatosplenomegaly, and progression to significant generalized hypotonia and respiratory failure.\",\n      \"Support\": \"Weakly supported\"\n    },\n    \"CNS inflammatory spinal cord disorders\": {\n      \"Supporting\": \"Weakness, hypotonia, and irritability.\",\n      \"Against\": \"Normal brain MRI and lumbar puncture showing low nucleated cell count (2/uL).\",\n      \"Support\": \"Weakly supported\"\n    },\n    \"Spinal muscular atrophy (SMA)\": {\n      \"Supporting\": \"Hypotonia, weakness, and loss of reflexes.\",\n      \"Against\": \"Normal development until 8 weeks, sudden onset of symptoms over 7 days (SMA type 1 is typically progressive starting from birth or within weeks).\",\n      \"Support\": \"Weakly supported\"\n    },\n    \"Infant botulism\": {\n      \"Supporting\": \"Weak cry, poor suck/latch, descending paralysis (ptosis, generalized hypotonia), lethargy, and constipation (2-day history without stool).\",\n      \"Against\": \"None; the clinical progression is classic.\",\n      \"Support\": \"Well-supported\"\n    },\n    \"Guillain\u2013Barr\u00e9 syndrome\": {\n      \"Supporting\": \"Acute weakness and hypotonia.\",\n      \"Against\": \"Extremely rare in this age group; facial diplegia/ptosis is less common than in botulism.\",\n      \"Support\": \"Weakly supported\"\n    },\n    \"Invasive infection / meningitis\": {\n      \"Supporting\": \"Irritability, elevated CSF protein (104 mg/dL).\",\n      \"Against\": \"Normal CSF glucose, pleocytosis is absent (2 cells/uL), and no systemic infectious markers (fever/WBC elevation).\",\n      \"Support\": \"Weakly supported\"\n    },\n    \"Structural/primary neurologic disease\": {\n      \"Supporting\": \"Lethargy and respiratory distress.\",\n      \"Against\": \"Normal MRI of the head.\",\n      \"Support\": \"Weakly supported\"\n    },\n    \"Other neuromuscular junction disorders\": {\n      \"Supporting\": \"Ptosis, weakness, and poor suck.\",\n      \"Against\": \"Transient myasthenia would typically be associated with maternal history, which is not noted.\",\n      \"Support\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Tick paralysis\",\n    \"Metabolic disorders (e.g., mitochondrial myopathy or organic acidemia)\",\n    \"Congenital myasthenic syndromes\"\n  ],\n  \"Evaluation of Each Proposed Next Step\": {\n    \"Obtain a stool specimen\": {\n      \"Reasonable\": \"Yes, essential for C. botulinum toxin and spore detection.\",\n      \"Harmful\": \"No.\"\n    },\n    \"Further clinical history from family\": {\n      \"Reasonable\": \"Yes, specifically looking for honey ingestion or exposure to construction dust/soil.\",\n      \"Harmful\": \"No.\"\n    },\n    \"Administration of BabyBIG\": {\n      \"Reasonable\": \"Yes, it is the standard of care for infant botulism and should be given as early as clinical suspicion is high, even before lab confirmation.\",\n      \"Harmful\": \"No, it is life-saving.\"\n    }\n  },\n  \"Missing Next Steps\": [\n    \"Electromyography (EMG) to look for the classic 'incremental response' (brief small-amplitude motor-evoked potentials) characteristic of botulism.\",\n    \"Comprehensive toxicological screening for heavy metals (e.g., lead) or organophosphates.\",\n    \"Careful skin examination for an attached tick (tick paralysis).\",\n    \"Serum metabolic panel (acylcarnitine profile, ammonia).\"\n  ],\n  \"Open Questions\": [\n    \"Was honey or any herbal preparation introduced into the diet?\",\n    \"Does the family live near any major soil-disturbing construction or live in an area known for high botulism spore density?\",\n    \"What is the result of the serum acylcarnitine profile or urine organic acids to definitively rule out rare metabolic mimics?\",\n    \"Is there a history of maternal autoimmune disease (specifically Myasthenia Gravis)?\"\n  ]\n}\n```",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Infant botulism",
+    "Tick paralysis",
+    "Myasthenia gravis (transient neonatal or congenital)",
+    "Acute flaccid myelitis",
+    "Metabolic myopathy (e.g., mitochondrial disease)",
+    "Guillain\u2013Barr\u00e9 syndrome",
+    "Spinal muscular atrophy (Type I)"
+  ],
+  "next_steps": [
+    "Collect stool sample for Clostridium botulinum toxin and culture",
+    "Perform full skin inspection for an attached tick",
+    "Administer Botulism Immune Globulin Intravenous (BabyBIG)",
+    "Request electromyography (EMG) and nerve conduction studies",
+    "Send serum for metabolic evaluation including acylcarnitine profile, amino acids, and ammonia",
+    "Consult pediatric neurology and infectious disease specialists",
+    "Review family history for maternal neuromuscular disorders"
+  ]
+}

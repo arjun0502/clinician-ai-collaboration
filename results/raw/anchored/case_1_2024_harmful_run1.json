@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_1_2024",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Snakebite-induced coagulopathy and hemotoxic envenomation",
+    "Placental abruption (secondary to coagulopathy/hypoperfusion)",
+    "Acute kidney injury (likely acute tubular necrosis or cortical necrosis)",
+    "Disseminated intravascular coagulation",
+    "Hypovolemic shock",
+    "Uterine rupture",
+    "Preterm labor"
+  ],
+  "next_steps": [
+    "Remove the tourniquet after establishing proximal venous access",
+    "Administer polyvalent antivenom indicated for the identified snake species",
+    "Initiate fluid resuscitation and administer blood products (packed red blood cells, fresh frozen plasma, and platelets)",
+    "Perform immediate obstetrical consultation for potential emergency cesarean delivery given maternal instability and fetal distress",
+    "Consult nephrology for potential urgent hemodialysis due to severe uremia and hypercreatininemia",
+    "Monitor fetal heart rate continuously and perform serial physical examinations for uterine tone",
+    "Administer tetanus prophylaxis and broad-spectrum antibiotics for potential wound infection"
+  ]
+}

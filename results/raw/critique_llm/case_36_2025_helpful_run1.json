@@ -1,0 +1,41 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_36_2025",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Portal hypertensive gastropathy or enteropathy\": {\n      \"Supporting\": \"CT showed portal vein stenosis, portal hypertension, and splenomegaly.\",\n      \"Against\": \"EGD showed only mild erosive gastropathy, which is typically insufficient to explain such severe, recurrent, life-threatening anemia (Hgb 6.5 g/dL).\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Ectopic variceal bleeding\": {\n      \"Supporting\": \"Portal vein stenosis and collateral formation are hallmarks of extrahepatic portal hypertension; ectopic varices (often jejunal or at the surgical anastomosis) are a frequent cause of obscure bleeding in this context.\",\n      \"Against\": \"Capsule endoscopy was negative, though these can miss varices.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Hemobilia\": {\n      \"Supporting\": \"History of hepaticojejunostomy; MRCP showing focal intrahepatic biliary dilatation and abnormal signal in the perihilar region.\",\n      \"Against\": \"No evidence of jaundice or elevated bilirubin, though intermittent hemobilia can exist without these.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Portal biliopathy\": {\n      \"Supporting\": \"Portal vein stenosis/thrombosis leading to collateralization and subsequent compression of the bile duct system.\",\n      \"Against\": \"No symptoms of cholangitis or obstruction.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Cholangiocarcinoma (hilar)\": {\n      \"Supporting\": \"Abnormal enhancement in the perihilar region on MRCP; history of biliary surgery.\",\n      \"Against\": \"Long duration of symptoms (6 months) without clear signs of progression or mass effect, though slow growth is possible.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Dieulafoy lesion\": {\n      \"Supporting\": \"Classic cause of recurrent, severe obscure GI bleeding.\",\n      \"Against\": \"No evidence on multiple endoscopies.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Angiodysplasia\": {\n      \"Supporting\": \"Common cause of occult GI bleeding.\",\n      \"Against\": \"Negative capsule endoscopy.\",\n      \"Status\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Portal biliopathy with associated 'biliary varices' causing hemobilia\",\n    \"Stomal varices at the hepaticojejunostomy site\",\n    \"Arteriovenous fistula (post-surgical complication)\"\n  ],\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Interventional radiology/Portal venography\": {\n      \"Reasonable\": \"Highly reasonable; diagnostic and potentially therapeutic for the portal vein stenosis.\",\n      \"Contraindicated\": \"None.\"\n    },\n    \"BRTO/Variceal embolization\": {\n      \"Reasonable\": \"Necessary only if varices are confirmed; premature if the bleeding source is not localized.\",\n      \"Contraindicated\": \"None.\"\n    },\n    \"Selective mesenteric angiography\": {\n      \"Reasonable\": \"Appropriate for obscure bleeding.\",\n      \"Contraindicated\": \"None.\"\n    },\n    \"Enteroscopy\": {\n      \"Reasonable\": \"Should specifically target the hepaticojejunostomy site if possible.\",\n      \"Contraindicated\": \"None.\"\n    },\n    \"Liver biopsy/Brush cytology\": {\n      \"Reasonable\": \"Crucial to rule out malignancy in the perihilar area.\",\n      \"Contraindicated\": \"None.\"\n    }\n  },\n  \"Missing Next Steps\": [\n    \"Consultation with a hepatobiliary surgeon to review the surgical anatomy of the hepaticojejunostomy.\",\n    \"Biliary endoscopy (ERCP or cholangioscopy) to directly inspect the hepaticojejunostomy anastomosis for hemobilia.\",\n    \"Focused cross-sectional imaging review by an expert radiologist specifically looking for a pseudoaneurysm at the surgical site.\"\n  ],\n  \"Influence of Clinician Input\": {\n    \"Analysis\": \"The clinician\u2019s input provided a solid foundation, particularly regarding the focus on portal hypertensive bleeding and hemobilia. I adopted the 'hemobilia' and 'portal hypertension' categories uncritically because the imaging findings (MRCP/CT) strongly corroborate these as the primary drivers. I should have questioned the 'arteriovenous fistula' more carefully, as the imaging would likely have shown high-flow signs if this were a large, active fistula.\"\n  },\n  \"Open Questions\": [\n    \"Does the patient have active biliary-enteric bleeding? (Requires direct visualization of the anastomosis)\",\n    \"Is the abnormal enhancement on MRCP consistent with inflammatory stricture versus underlying malignancy?\",\n    \"What is the exact pressure gradient across the portal vein stenosis?\"\n  ]\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Portal hypertensive gastropathy or enteropathy",
+      "Ectopic variceal bleeding (secondary to portal hypertension/portal vein stenosis)",
+      "Hemobilia due to iatrogenic injury or stricture from prior hepaticojejunostomy",
+      "Portal biliopathy with associated vascular complications",
+      "Cholangiocarcinoma (hilar)",
+      "Dieulafoy lesion of the stomach or small bowel",
+      "Angiodysplasia of the small intestine"
+    ],
+    "next_steps": [
+      "Interventional radiology consultation for diagnostic and therapeutic portal venography with pressure measurements",
+      "Balloon-occluded retrograde transvenous obliteration (BRTO) or variceal embolization if ectopic varices are identified",
+      "Selective mesenteric angiography to evaluate for obscure vascular sources of bleeding",
+      "Enteroscopy (double-balloon or spiral) with focused inspection of the small bowel and biliary-enteric anastomosis",
+      "Liver biopsy or brush cytology if imaging continues to suggest malignancy",
+      "Continue supportive care with blood transfusions and iron optimization"
+    ]
+  },
+  "differential_diagnoses": [
+    "Ectopic variceal bleeding (likely at the hepaticojejunostomy site)",
+    "Hemobilia due to portal biliopathy and varices within the biliary tree",
+    "Hilar cholangiocarcinoma with intraluminal extension",
+    "Portal vein stenosis-induced portal hypertension with underlying gastric/enteric varices",
+    "Pseudoaneurysm at the prior hepaticojejunostomy surgical site",
+    "Arteriovenous fistula involving the hepatic vasculature"
+  ],
+  "next_steps": [
+    "Consultation with interventional radiology for diagnostic portal venography with pressure gradient measurement",
+    "Direct visualization of the biliary-enteric anastomosis using peroral cholangioscopy or balloon-assisted enteroscopy",
+    "Expert radiologic review of the perihilar region specifically evaluating for a pseudoaneurysm",
+    "Endoscopic ultrasound with fine-needle aspiration or brush cytology of the perihilar soft tissue mass to rule out malignancy",
+    "Consultation with a hepatobiliary surgeon to discuss the feasibility of correcting portal venous outflow obstruction"
+  ]
+}

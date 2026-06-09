@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_15_2025",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Hantavirus cardiopulmonary syndrome",
+    "Leptospirosis",
+    "Community-acquired bacterial pneumonia with severe sepsis/ARDS",
+    "Invasive fungal pneumonia (e.g., Histoplasmosis)",
+    "Dengue hemorrhagic fever",
+    "Severe influenza pneumonia",
+    "Psittacosis"
+  ],
+  "next_steps": [
+    "Send serum for Hantavirus-specific IgM and IgG ELISA",
+    "Perform RT-PCR for Hantavirus on peripheral blood and/or respiratory secretions",
+    "Obtain specialized infectious disease consultation for endemic zoonoses (e.g., Hantavirus, Leptospirosis)",
+    "Maintain lung-protective mechanical ventilation strategy",
+    "Monitor fluid status carefully using echocardiography and clinical assessment to avoid worsening pulmonary edema",
+    "Continue broad-spectrum antimicrobial coverage pending specific diagnostic results",
+    "Consider bronchoalveolar lavage with fungal and bacterial cultures if clinical stability permits"
+  ]
+}

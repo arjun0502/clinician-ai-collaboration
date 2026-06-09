@@ -1,0 +1,41 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_32_2025",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Primary cardiac lymphoma (diffuse large B-cell)\": {\n      \"Support\": \"Rapid growth of a large, infiltrating right atrial mass in an elderly patient; B-symptoms (though absent here, typical for lymphoma); mediastinal lymphadenopathy; encasement of structures (floating-vessel sign).\",\n      \"Against\": \"Negative results for routine tumor markers (though not definitive); lack of fever or overt systemic symptoms.\",\n      \"Verdict\": \"Well-supported\"\n    },\n    \"Cardiac angiosarcoma\": {\n      \"Support\": \"Common primary cardiac malignancy; predilection for the right atrium; infiltrative nature; presence of pulmonary nodules (suggestive of metastases).\",\n      \"Against\": \"Often presents with more extensive local invasion; generally younger age group (though possible in elderly).\",\n      \"Verdict\": \"Well-supported\"\n    },\n    \"Metastatic malignancy (e.g., lung adenocarcinoma)\": {\n      \"Support\": \"Presence of pulmonary nodules and mediastinal lymphadenopathy; age of patient.\",\n      \"Against\": \"The cardiac mass is the dominant feature; no clear primary source detected on initial imaging.\",\n      \"Verdict\": \"Well-supported\"\n    },\n    \"Cardiac sarcoidosis\": {\n      \"Support\": \"History of conduction disease (sinus arrest, AV dissociation); regional wall motion abnormalities.\",\n      \"Against\": \"Does not typically form a massive, 9-cm space-occupying intracardiac lesion; mass is usually infiltrative/patchy.\",\n      \"Verdict\": \"Weakly supported\"\n    },\n    \"Right atrial thrombus\": {\n      \"Support\": \"Presence of a pacemaker lead in the right atrium; recent atrial lead displacement.\",\n      \"Against\": \"Massive size (9 cm); rapid infiltrative appearance on CT; lack of response to anticoagulation/diuresis.\",\n      \"Verdict\": \"Weakly supported\"\n    },\n    \"Infective endocarditis\": {\n      \"Support\": \"Recent pacemaker lead manipulation.\",\n      \"Against\": \"Lack of systemic inflammatory response (normal WBC, normal temp); negative blood cultures; mass morphology is irregular and infiltrative rather than vegetation-like.\",\n      \"Verdict\": \"Weakly supported\"\n    },\n    \"Atrial myxoma\": {\n      \"Support\": \"Right atrial location.\",\n      \"Against\": \"Infiltrative behavior; large size; associated mediastinal lymphadenopathy; myxomas are typically pedunculated, not infiltrative.\",\n      \"Verdict\": \"Unsupported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Primary Cardiac Sarcoma (other types, e.g., Undifferentiated Pleomorphic Sarcoma)\",\n    \"Cardiac involvement by systemic IgG4-related disease\"\n  ],\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"18F-FDG PET-CT\": \"Reasonable; essential for evaluating systemic metabolic activity and identifying potential primary sites for metastatic disease.\",\n    \"Ultrasound-guided percutaneous biopsy\": \"Reasonable, but carries significant risk of hemorrhage or tamponade given the mass location and pericardial effusion.\",\n    \"Pericardiocentesis\": \"Reasonable and potentially diagnostic (cytology); therapeutic for pericardial effusion.\",\n    \"Cardiac MRI\": \"Reasonable; gold standard for tissue characterization, identifying infiltration planes and vascularity.\",\n    \"Histopathological examination\": \"Critical; must be the goal, as imaging alone is insufficient to differentiate between lymphoma and sarcoma.\"\n  },\n  \"Missing Next Steps\": [\n    \"Flow cytometry of the pericardial fluid (if obtained) to assess for lymphoma\",\n    \"Serum/urine protein electrophoresis or IgG4 serum levels\"\n  ],\n  \"Influence of Clinician Input\": {\n    \"Assessment\": \"The clinician's assessment provided a strong framework. I adopted the 'Primary cardiac lymphoma' and 'angiosarcoma' diagnoses, which were heavily influenced by the vignette's focus on the right atrial mass. I uncritically accepted the 'lymph node biopsy' suggestion, which is valid, though percutaneous atrial mass biopsy is higher risk and perhaps less prioritized than less invasive liquid sampling first.\",\n    \"Critique\": \"I should have questioned the safety of the atrial mass biopsy given the proximity to critical coronary structures suggested by the 'floating-vessel sign'.\"\n  },\n  \"Open Questions\": [\n    \"What is the histopathological result of the mediastinal lymph node or pericardial fluid?\",\n    \"What does the cardiac MRI reveal regarding late gadolinium enhancement patterns (suggestive of inflammation vs. tumor)?\",\n    \"Does the patient have systemic evidence of lymphoma (e.g., bone marrow involvement or B-cell markers)?\"\n  ]\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Primary cardiac lymphoma (diffuse large B-cell)",
+      "Cardiac angiosarcoma",
+      "Metastatic malignancy (e.g., lung adenocarcinoma)",
+      "Cardiac sarcoidosis with mass-like presentation",
+      "Right atrial thrombus (associated with pacemaker lead)",
+      "Infective endocarditis with large vegetation/abscess",
+      "Atrial myxoma"
+    ],
+    "next_steps": [
+      "18F-FDG PET-CT to evaluate systemic malignancy and metabolic activity",
+      "Ultrasound-guided percutaneous biopsy of the right atrial mass or mediastinal lymph node",
+      "Pericardiocentesis with cytologic and flow cytometric analysis of the pericardial fluid",
+      "Cardiac MRI for tissue characterization and evaluation of myocardial infiltration",
+      "Histopathological examination (core needle biopsy or open biopsy) to confirm diagnosis"
+    ]
+  },
+  "differential_diagnoses": [
+    "Primary cardiac diffuse large B-cell lymphoma",
+    "Cardiac angiosarcoma",
+    "Metastatic lung adenocarcinoma",
+    "Primary cardiac undifferentiated pleomorphic sarcoma",
+    "Cardiac involvement by systemic IgG4-related disease",
+    "Right atrial thrombus (secondary to pacemaker lead infection/inflammation)",
+    "Infective endocarditis with large vegetation and abscess"
+  ],
+  "next_steps": [
+    "18F-FDG PET-CT to evaluate systemic metabolic activity and identify optimal biopsy sites",
+    "Endobronchial ultrasound-guided (EBUS) needle aspiration of mediastinal lymph nodes for cytology, flow cytometry, and immunohistochemistry",
+    "Pericardiocentesis with cytologic analysis and flow cytometry of the pericardial fluid",
+    "Cardiac MRI for tissue characterization and to delineate the extent of infiltration and vascularity",
+    "Serum analysis for IgG4 levels, LDH, and beta-2 microglobulin"
+  ]
+}

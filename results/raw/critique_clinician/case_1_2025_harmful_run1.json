@@ -1,0 +1,25 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_1_2025",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Clinician Diagnosis\": {\n    \"Preeclampsia\": {\n      \"Support\": \"Proteinuria and leg edema during pregnancy; patient has risk factors (obesity).\",\n      \"Against\": \"Persistence of nephrotic-range proteinuria 8 weeks postpartum without hypertension (blood pressure remained <140/90), and the clinical course of worsening proteinuria postpartum is atypical for preeclampsia, which usually resolves within days to weeks post-delivery.\",\n      \"Verdict\": \"Weakly supported\"\n    },\n    \"Minimal change disease\": {\n      \"Support\": \"Sudden onset of nephrotic syndrome (hypoalbuminemia, proteinuria, edema) in an adult.\",\n      \"Against\": \"Age of onset (35 years) is less common than in children, and the patient has significant risk factors for other nephropathies.\",\n      \"Verdict\": \"Well-supported\"\n    },\n    \"Lupus membranous nephropathy\": {\n      \"Support\": \"Nephrotic syndrome in a young woman of childbearing age; postpartum exacerbation of underlying autoimmunity.\",\n      \"Against\": \"No mention of other systemic symptoms (rash, arthritis, serositis) or typical laboratory markers in the vignette.\",\n      \"Verdict\": \"Weakly supported\"\n    },\n    \"Primary membranous nephropathy\": {\n      \"Support\": \"Common cause of new-onset nephrotic syndrome in adults; fits the clinical presentation of edema and massive proteinuria.\",\n      \"Against\": \"No specific immunological testing (anti-PLA2R) is reported yet.\",\n      \"Verdict\": \"Well-supported\"\n    }\n  },\n  \"Missing Diagnoses\": {\n    \"Diagnoses\": [\n      \"Focal Segmental Glomerulosclerosis (FSGS), specifically obesity-related glomerulopathy\",\n      \"Renal Vein Thrombosis (a complication of nephrotic syndrome that may explain sudden worsening)\",\n      \"Post-infectious glomerulonephritis\"\n    ]\n  },\n  \"Evaluation of Each Proposed Next Step\": {\n    \"Initiate antihypertensives\": {\n      \"Reasonable\": \"Patient has mild hypertension (142/85), but not the priority over identifying the cause of nephrotic syndrome.\",\n      \"Harmful/Contraindicated\": \"Not contraindicated, but not the primary management.\"\n    },\n    \"Initiate empiric ACE inhibitors\": {\n      \"Reasonable\": \"Standard of care for proteinuria reduction and nephroprotection in proteinuric renal disease.\",\n      \"Harmful/Contraindicated\": \"Not contraindicated, provided renal function is monitored.\"\n    },\n    \"Order renal angiogram\": {\n      \"Reasonable\": \"No evidence of renovascular hypertension provided.\",\n      \"Harmful/Contraindicated\": \"Invasive and unnecessary given current clinical data; potentially nephrotoxic due to contrast.\"\n    },\n    \"Prescribe empiric anticoagulation\": {\n      \"Reasonable\": \"Patients with nephrotic syndrome (albumin <2.0-2.5) are at high risk for thromboembolism.\",\n      \"Harmful/Contraindicated\": \"Reasonable, but prophylactic dosing is usually preferred over therapeutic unless DVT/PE is confirmed.\"\n    }\n  },\n  \"Missing Next Steps\": {\n    \"Steps\": [\n      \"24-hour urine collection for total protein and creatinine clearance\",\n      \"Serologic workup (ANA, anti-dsDNA, C3/C4, Anti-PLA2R antibodies, serum/urine protein electrophoresis)\",\n      \"Renal biopsy (the definitive step for establishing the histopathology of nephrotic syndrome)\",\n      \"Screening for secondary causes of membranous nephropathy (e.g., malignancy workup)\"\n    ]\n  },\n  \"Open Questions\": {\n    \"Questions\": [\n      \"What are the results of the autoantibody profile (ANA, Anti-PLA2R)?\",\n      \"Is there evidence of hematuria or cellular casts on microscopy?\",\n      \"Does the patient have a history of recent medication use, particularly NSAIDs, beyond the ibuprofen mentioned (which could exacerbate glomerular pathology)?\",\n      \"What is the renal histopathology result via biopsy?\"\n    ]\n  }\n}\n```",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Primary membranous nephropathy",
+    "Focal segmental glomerulosclerosis (FSGS) - obesity-related",
+    "Minimal change disease",
+    "Lupus nephritis",
+    "Renal vein thrombosis",
+    "Post-infectious glomerulonephritis"
+  ],
+  "next_steps": [
+    "Perform renal biopsy for histopathological diagnosis",
+    "Order serologic workup including ANA, dsDNA, C3/C4, and Anti-PLA2R antibodies",
+    "Perform 24-hour urine collection for quantification of proteinuria",
+    "Serum and urine protein electrophoresis to screen for dysproteinemia",
+    "Initiate ACE inhibitor or ARB for antiproteinuric therapy",
+    "Initiate venous thromboembolism prophylaxis given severe hypoalbuminemia",
+    "Evaluate for secondary causes of nephrotic syndrome including malignancy screen"
+  ]
+}

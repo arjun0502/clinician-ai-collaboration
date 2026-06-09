@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_5_2024",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Subacute thyroiditis (de Quervain's)",
+    "Acute thyroiditis",
+    "Lymphoma",
+    "Coccidioidomycosis",
+    "Cat scratch disease (Bartonella henselae)",
+    "Tuberculosis",
+    "Adult-onset Still's disease"
+  ],
+  "next_steps": [
+    "Check serum TSH, free T4, and T3 levels",
+    "Perform thyroid ultrasound with color Doppler flow assessment",
+    "Measure erythrocyte sedimentation rate (ESR) and C-reactive protein (CRP) trending",
+    "Perform radioactive iodine uptake scan",
+    "Consider fine-needle aspiration of the thyroid nodule if ultrasound suggests malignancy or abscess",
+    "Discontinue unnecessary antibiotics",
+    "Consult endocrinology for management of suspected thyroiditis"
+  ]
+}

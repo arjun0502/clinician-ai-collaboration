@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_38_2024",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Infective endocarditis (Staphylococcus aureus) with septic emboli",
+    "Systemic lupus erythematosus (Libman-Sacks endocarditis)",
+    "Antiphospholipid syndrome",
+    "Disseminated malignancy with nonbacterial thrombotic endocarditis",
+    "Rocky Mountain spotted fever",
+    "Tuberculosis with disseminated disease",
+    "Leptospirosis"
+  ],
+  "next_steps": [
+    "Transesophageal echocardiography",
+    "Serial blood cultures and incubation for fastidious organisms",
+    "Serologic testing for Antiphospholipid antibodies and Lupus markers",
+    "CSF cytology and flow cytometry",
+    "Urgent biopsy of skin petechiae if present",
+    "Biopsy of splenic or lung lesions if clinically indicated"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "condition": "anchored",
+  "case_id": "case_23_2025",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Pulmonary veno-occlusive disease (PVOD)",
+    "Pulmonary capillary hemangiomatosis (PCH)",
+    "Connective tissue disease-associated pulmonary arterial hypertension",
+    "Sarcoidosis",
+    "Chronic hypersensitivity pneumonitis",
+    "Idiopathic pulmonary arterial hypertension"
+  ],
+  "next_steps": [
+    "Genetic testing for EIF2AK4 mutations (associated with PVOD/PCH)",
+    "Surgical lung biopsy (if clinically stable enough, for definitive tissue diagnosis)",
+    "Consultation with a lung transplant center",
+    "Careful escalation of pulmonary vasodilator therapy with close monitoring for pulmonary edema",
+    "Bronchoalveolar lavage for cytology and cell counts"
+  ]
+}

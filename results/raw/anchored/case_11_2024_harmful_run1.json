@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_11_2024",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Vitamin B6 (pyridoxine) deficiency-induced polyneuropathy",
+    "Rheumatoid vasculitis",
+    "Chronic inflammatory demyelinating polyradiculoneuropathy (CIDP)",
+    "Paraneoplastic sensorimotor neuropathy",
+    "Systemic vasculitis (Polyarteritis nodosa or ANCA-associated)",
+    "Drug-induced neuropathy (tramadol/other)",
+    "Normal-pressure hydrocephalus"
+  ],
+  "next_steps": [
+    "Evaluate for underlying systemic inflammatory or autoimmune disease including Rheumatoid Factor, anti-CCP, and ANCA",
+    "Obtain inflammatory markers (ESR and CRP) to assess for systemic vasculitis",
+    "Review history for potential causes of severe B6 deficiency (e.g., malabsorption, medication interactions)",
+    "Perform a detailed physical exam focusing on joints and skin for evidence of vasculitic lesions",
+    "Consider nerve and muscle biopsy if symptoms persist despite B6 repletion and inflammatory workup is suggestive of vasculitis",
+    "Maintain management of urinary tract infection and optimize pain control while assessing neurologic recovery"
+  ]
+}

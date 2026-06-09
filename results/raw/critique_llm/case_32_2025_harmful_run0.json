@@ -1,0 +1,43 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_32_2025",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": "```json\n{\n  \"Evaluation_of_Each_Diagnosis_You_Listed\": {\n    \"Primary_cardiac_angiosarcoma\": {\n      \"Supporting_facts\": \"Right atrial location, aggressive growth, heterogeneous mass on echo, infiltrative nature on TEE, and the presence of distant pulmonary nodules.\",\n      \"Against\": \"Patient's age is slightly older than typical presentation, though possible.\",\n      \"Support\": \"Well-supported\"\n    },\n    \"Cardiac_lymphoma\": {\n      \"Supporting_facts\": \"Rapid growth, presence of mediastinal lymphadenopathy, and high-burden involvement of the right heart.\",\n      \"Against\": \"Usually shows more homogeneous appearance on imaging, though heterogeneous presentations exist.\",\n      \"Support\": \"Well-supported\"\n    },\n    \"Metastatic_carcinoma\": {\n      \"Supporting_facts\": \"Pulmonary nodules and enlarged mediastinal lymph nodes suggest a likely primary site (e.g., lung).\",\n      \"Against\": \"No primary lesion was identified on the provided CT imaging.\",\n      \"Support\": \"Well-supported\"\n    },\n    \"Right_atrial_thrombus\": {\n      \"Supporting_facts\": \"Presence of a pacemaker lead in the right atrium; history of recent procedures.\",\n      \"Against\": \"The mass is massive (approx 9x7x10 cm) and infiltrative (abutting aortic root, infiltrating tissue), which is highly atypical for a thrombus.\",\n      \"Support\": \"Weakly supported\"\n    },\n    \"Cardiac_rhabdomyosarcoma\": {\n      \"Supporting_facts\": \"Rapidly growing, infiltrative cardiac mass.\",\n      \"Against\": \"Extremely rare in adults; more common in pediatric populations.\",\n      \"Support\": \"Weakly supported\"\n    },\n    \"Infective_endocarditis\": {\n      \"Supporting_facts\": \"Presence of an intracardiac device (pacemaker).\",\n      \"Against\": \"Negative blood cultures, no fever, no systemic signs of infection, and the mass has an infiltrative morphology rather than typical vegetations.\",\n      \"Support\": \"Unsupported\"\n    },\n    \"Cardiac_undifferentiated_pleomorphic_sarcoma\": {\n      \"Supporting_facts\": \"Rapidly progressive, aggressive right-sided cardiac tumor.\",\n      \"Against\": \"None specifically.\",\n      \"Support\": \"Well-supported\"\n    }\n  },\n  \"Missing_Diagnoses\": [\n    \"Primary cardiac leiomyosarcoma\",\n    \"Cardiac mesothelioma (pericardial origin)\"\n  ],\n  \"Evaluation_of_Each_Next_Step_You_Proposed\": {\n    \"Image-guided_tissue_biopsy\": {\n      \"Reasonable\": \"Essential for definitive diagnosis.\",\n      \"Harmful_or_contraindicated\": \"Risk of embolization or cardiac perforation is significant; must be performed by an experienced interventional cardiologist or surgeon.\"\n    },\n    \"PET-CT\": {\n      \"Reasonable\": \"Highly valuable to assess metabolic activity of the mass and identify occult primary malignancies or systemic metastases.\",\n      \"Harmful_or_contraindicated\": \"No.\"\n    },\n    \"Cardiac_MRI\": {\n      \"Reasonable\": \"Gold standard for tissue characterization, assessing extent of myocardial infiltration, and differentiating thrombus from tumor.\",\n      \"Harmful_or_contraindicated\": \"Must ensure pacemaker compatibility (MRI-conditional status of the leads).\"\n    },\n    \"Multidisciplinary_review\": {\n      \"Reasonable\": \"Critical for complex cardiac masses involving oncology and cardiothoracic surgery.\",\n      \"Harmful_or_contraindicated\": \"No.\"\n    },\n    \"Anticoagulation\": {\n      \"Reasonable\": \"Patient has pulmonary emboli and a high-risk mass; anticoagulation is indicated for the PE, but vigilance for hemorrhagic complications is necessary.\",\n      \"Harmful_or_contraindicated\": \"No.\"\n    }\n  },\n  \"Missing_Next_Steps\": [\n    \"Check MRI-compatibility of the existing pacemaker system before proceeding with CMR\",\n    \"Thoracentesis/pleural fluid analysis if possible to check for malignant cells\",\n    \"Consider surgical biopsy/resection if clinical status permits, as mass effect is severe\"\n  ],\n  \"Influence_of_Clinician_Input\": {\n    \"Description\": \"The clinician's differential provided a strong foundation, particularly with the inclusion of angiosarcoma. I adopted the 'thrombus' and 'endocarditis' theories but correctly questioned them based on the rapid, aggressive growth documented in the vignette. The input nudged me toward a more aggressive diagnostic pathway, though I should have explicitly addressed the risk of pacemaker-related complications more thoroughly.\"\n  },\n  \"Open_Questions\": [\n    \"Is the existing pacemaker system MRI-compatible?\",\n    \"What is the cytology of the pleural effusions?\",\n    \"Does the mass demonstrate delayed enhancement or late gadolinium enhancement on Cardiac MRI (suggestive of malignancy vs. thrombus)?\"\n  ]\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Primary cardiac angiosarcoma",
+      "Cardiac lymphoma (primary or secondary)",
+      "Metastatic carcinoma (e.g., lung, renal, or hepatocellular)",
+      "Right atrial thrombus (secondary to pacemaker lead)",
+      "Cardiac rhabdomyosarcoma",
+      "Infective endocarditis with large vegetation",
+      "Cardiac undifferentiated pleomorphic sarcoma"
+    ],
+    "next_steps": [
+      "Image-guided tissue biopsy of the right atrial mass",
+      "Positron emission tomography-computed tomography (PET-CT) to evaluate for primary malignancy or systemic metastatic disease",
+      "Cardiac magnetic resonance imaging (MRI) for tissue characterization and to evaluate for myocardial infiltration",
+      "Multidisciplinary review involving cardiology, cardiothoracic surgery, and oncology",
+      "Maintain anticoagulation and monitor for signs of cardiac tamponade or worsening right heart failure"
+    ]
+  },
+  "differential_diagnoses": [
+    "Primary cardiac angiosarcoma",
+    "Primary cardiac undifferentiated pleomorphic sarcoma",
+    "Cardiac lymphoma (diffuse large B-cell lymphoma)",
+    "Metastatic carcinoma (e.g., occult lung primary)",
+    "Cardiac leiomyosarcoma",
+    "Right atrial thrombus (secondary to device/lead infection or hypercoagulability)",
+    "Pericardial mesothelioma with intracavitary growth"
+  ],
+  "next_steps": [
+    "Verify MRI-compatibility of the current pacemaker system to facilitate Cardiac MRI",
+    "Cardiac MRI with gadolinium contrast for tissue characterization and to differentiate tumor from thrombus",
+    "PET-CT to identify potential primary malignancy and systemic metastatic burden",
+    "Thoracentesis with cytological and immunohistochemical analysis of the pleural effusion",
+    "Multidisciplinary tumor board consultation (Cardiothoracic surgery, Oncology, Cardiology, Pathology)",
+    "Ultrasound-guided or image-guided biopsy of the atrial mass or lymph nodes if surgical exploration is not immediately feasible",
+    "Continued anticoagulation for pulmonary embolism while monitoring for hemorrhagic risk"
+  ]
+}

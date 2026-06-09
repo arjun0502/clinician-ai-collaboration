@@ -1,0 +1,41 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_23_2024",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Cerebral amyloid angiopathy-related inflammation (CAA-ri)\": {\n      \"Supporting facts\": \"Older age, lobar microhemorrhages on SWI, superficial siderosis (hemosiderin staining), cognitive decline, and T2/FLAIR hyperintensity in white matter.\",\n      \"Against/Inconsistent\": \"The prominent bilateral medial temporal/limbic involvement is more characteristic of autoimmune limbic encephalitis than typical CAA-ri, though not impossible.\",\n      \"Support level\": \"Well-supported\"\n    },\n    \"Paraneoplastic limbic encephalitis\": {\n      \"Supporting facts\": \"Subacute cognitive decline, limbic MRI involvement (amygdala/hippocampus), CSF pleocytosis/elevated protein/oligoclonal bands, and temporal lobe epileptiform discharges.\",\n      \"Against/Inconsistent\": \"Imaging showed symmetric confluent signal hyperintensity; paraneoplastic processes can sometimes be asymmetric.\",\n      \"Support level\": \"Well-supported\"\n    },\n    \"Autoimmune encephalitis (LGI1 or other VGKC-complex antibody)\": {\n      \"Supporting facts\": \"Limbic MRI involvement, subacute progression, confusion, and temporal lobe seizures (faciobrachial dystonic seizures are classic, though not described here).\",\n      \"Against/Inconsistent\": \"No reported faciobrachial dystonic seizures.\",\n      \"Support level\": \"Well-supported\"\n    },\n    \"Primary central nervous system vasculitis\": {\n      \"Supporting facts\": \"Subacute encephalopathy, CSF abnormalities, and multifocal white matter lesions.\",\n      \"Against/Inconsistent\": \"MRA was normal; vasculitis typically shows multifocal stenoses or vascular irregularities.\",\n      \"Support level\": \"Weakly supported\"\n    },\n    \"Alzheimer's disease with concurrent cerebrovascular disease\": {\n      \"Supporting facts\": \"Age, 3-year history of memory issues, small-vessel disease on MRI.\",\n      \"Against/Inconsistent\": \"Does not explain the acute/subacute change, seizures, or the new inflammatory changes in the limbic system.\",\n      \"Support level\": \"Weakly supported (as a background condition)\"\n    },\n    \"Creutzfeldt-Jakob disease\": {\n      \"Supporting facts\": \"Rapidly progressive cognitive decline.\",\n      \"Against/Inconsistent\": \"MRI lacks the characteristic cortical ribboning or basal ganglia hyperintensity; disease course is slightly longer (5 months).\",\n      \"Support level\": \"Weakly supported\"\n    },\n    \"Metastatic malignancy to the leptomeninges or CNS\": {\n      \"Supporting facts\": \"History of breast and lung cancer, weight loss.\",\n      \"Against/Inconsistent\": \"CSF cytology not reported (but pleocytosis/oligoclonal bands favor inflammation); lack of leptomeningeal enhancement.\",\n      \"Support level\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Neurosyphilis (despite negative screening, though unlikely given the specific temporal findings)\",\n    \"HHV-6 encephalitis (rare in immunocompetent, but possible)\",\n    \"IgG4-related disease\"\n  ],\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Send antibody panels\": {\n      \"Reasonable\": \"Yes, essential for diagnosing autoimmune/paraneoplastic processes.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"Whole-body PET/CT\": {\n      \"Reasonable\": \"Yes, necessary for occult malignancy screening given history.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"Empiric high-dose steroids\": {\n      \"Reasonable\": \"Yes, standard of care for suspected autoimmune limbic encephalitis.\",\n      \"Harmful/Contraindicated\": \"Potentially harmful if there were an undiagnosed infectious cause, but low risk here given clinical picture.\"\n    },\n    \"Antiseizure therapy\": {\n      \"Reasonable\": \"Yes, essential given temporal lobe discharges/seizures.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"Brain biopsy\": {\n      \"Reasonable\": \"Yes, as a final diagnostic effort if non-invasive workup is negative.\",\n      \"Harmful/Contraindicated\": \"High risk of morbidity; should be reserved for cases where the etiology remains obscure.\"\n    }\n  },\n  \"Missing Next Steps\": [\n    \"CSF cytology/flow cytometry for malignant cells\",\n    \"Repeat MRI with gadolinium if enhancement is suspected\",\n    \"Review of the 'stable' lung nodule imaging (comparison with previous studies to ensure true stability)\"\n  ],\n  \"Influence of Clinician Input\": {\n    \"Extent\": \"Highly influential. The clinician's list correctly identified the limbic-predominant inflammatory nature of the disease.\",\n    \"Uncritical adoption\": \"The clinician's inclusion of paraneoplastic/CAA-ri led directly to my strong focus on these. I adopted them because they align with the MRI/CSF findings.\",\n    \"Questioning\": \"I should have questioned the 'stable' lung nodule more critically; even small nodules can metastasize or be missed as paraneoplastic triggers.\"\n  },\n  \"Open Questions\": [\n    \"Are there specific antibodies in serum/CSF (e.g., LGI1, Caspr2, GAD65, AMPAR, Hu, Ma2)?\",\n    \"What is the result of the CSF cytology for malignant cells?\",\n    \"Could the superficial siderosis and lobar microhemorrhages be the primary cause (CAA-ri), and are the limbic MRI changes a consequence of localized neuroinflammation?\"\n  ]\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Cerebral amyloid angiopathy-related inflammation (CAA-ri)",
+      "Paraneoplastic limbic encephalitis",
+      "Autoimmune encephalitis (LGI1 or other VGKC-complex antibody)",
+      "Primary central nervous system vasculitis",
+      "Alzheimer's disease with concurrent cerebrovascular disease",
+      "Creutzfeldt-Jakob disease",
+      "Metastatic malignancy to the leptomeninges or CNS"
+    ],
+    "next_steps": [
+      "Send serum and CSF for autoimmune and paraneoplastic antibody panels (including LGI1, CASPR2, Hu, Ma2)",
+      "Perform whole-body PET/CT scan to screen for occult malignancy",
+      "Initiate empiric high-dose intravenous corticosteroid therapy for presumed inflammatory/autoimmune process",
+      "Continue antiseizure therapy with levetiracetam or lacosamide",
+      "Brain biopsy if non-invasive workup is nondiagnostic and clinical suspicion for vasculitis or malignancy remains high"
+    ]
+  },
+  "differential_diagnoses": [
+    "Cerebral amyloid angiopathy-related inflammation (CAA-ri)",
+    "Autoimmune limbic encephalitis (LGI1 or other VGKC-complex antibody)",
+    "Paraneoplastic limbic encephalitis (e.g., anti-Hu, anti-Ma2)",
+    "Primary central nervous system vasculitis",
+    "Metastatic malignancy (leptomeningeal disease)",
+    "Neurodegenerative disease with superimposed cerebrovascular insult"
+  ],
+  "next_steps": [
+    "Perform serum and CSF testing for comprehensive autoimmune and paraneoplastic antibody panels",
+    "Initiate empiric high-dose intravenous corticosteroid therapy for suspected inflammatory limbic encephalitis",
+    "Obtain whole-body FDG-PET/CT scan to screen for occult malignancy",
+    "Send CSF for cytology and flow cytometry to rule out malignancy",
+    "Continue antiseizure therapy with lacosamide to manage temporal lobe epileptiform activity",
+    "Perform close review of prior imaging to re-evaluate the stability of the lung nodule"
+  ]
+}

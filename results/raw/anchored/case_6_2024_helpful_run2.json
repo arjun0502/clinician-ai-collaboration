@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_6_2024",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Pernicious anemia (severe Vitamin B12 deficiency)",
+    "Paroxysmal nocturnal hemoglobinuria (PNH)",
+    "Myelodysplastic syndrome (MDS)",
+    "Hemophagocytic lymphohistiocytosis (HLH)",
+    "Autoimmune hemolytic anemia (Cold agglutinin disease)",
+    "Acute leukemia",
+    "Babesiosis"
+  ],
+  "next_steps": [
+    "Serum vitamin B12, folate, methylmalonic acid, and homocysteine levels",
+    "Bone marrow aspiration and biopsy with flow cytometry, cytogenetics, and iron staining",
+    "Peripheral blood flow cytometry for PNH clones (CD55 and CD59)",
+    "Serum haptoglobin, free hemoglobin, and LDH isoenzymes",
+    "Serum ferritin, soluble CD25, and NK-cell activity (to evaluate for HLH)",
+    "Copper and zinc levels",
+    "Antinuclear antibody (ANA) and direct antiglobulin test (DAT) subtyping"
+  ]
+}

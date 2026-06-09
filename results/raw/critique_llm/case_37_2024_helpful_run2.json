@@ -1,0 +1,44 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_37_2024",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Ictal psychosis\": {\n      \"Supporting facts\": \"Episodes of psychosis/delusion occurred during periods of ongoing electrographic seizure activity and EEG-proven temporal lobe focus.\",\n      \"Arguments against\": \"Some behavioral episodes persisted beyond the duration of identified electrographic seizures.\",\n      \"Support level\": \"Well-supported\"\n    },\n    \"Postictal psychosis\": {\n      \"Supporting facts\": \"Psychosis manifested following generalized tonic-clonic seizures and focal seizures with impairment; patient showed initial calm followed by delayed agitation.\",\n      \"Arguments against\": \"The duration and severity (paranoia, violence, disorganized behavior) were prolonged and required restraints, which is less typical for a brief postictal state.\",\n      \"Support level\": \"Well-supported\"\n    },\n    \"Interictal psychosis\": {\n      \"Supporting facts\": \"Persistent paranoia and disorganized thoughts occurred even after attempted stabilization of seizures.\",\n      \"Arguments against\": \"Patient had no prior history of psychiatric illness; symptoms appeared clearly linked to seizure exacerbation in the EMU.\",\n      \"Support level\": \"Weakly supported\"\n    },\n    \"Nonconvulsive status epilepticus\": {\n      \"Supporting facts\": \"Prolonged agitation, confusion, and repetitive behaviors (eating the phone, staring); patient was difficult to engage.\",\n      \"Arguments against\": \"EEG during the most severe agitation did not unequivocally show continuous ictal discharges (though brief ictal events were recorded).\",\n      \"Support level\": \"Well-supported\"\n    },\n    \"Medication-induced delirium\": {\n      \"Supporting facts\": \"Frequent polypharmacy adjustments (carbamazepine, levetiracetam, topiramate, haloperidol, risperidone, lorazepam, labetalol) provide a high risk for deliriogenic interactions.\",\n      \"Arguments against\": \"The psychotic features began during the initial EMU admission before the heavy escalation of antipsychotic/antihypertensive drugs.\",\n      \"Support level\": \"Well-supported\"\n    },\n    \"Encephalitis\": {\n      \"Supporting facts\": \"Rapid progression of psychiatric symptoms, seizures, and autonomic instability (tachycardia, hypertension).\",\n      \"Arguments against\": \"MRI findings were chronic/stable; no fever reported.\",\n      \"Support level\": \"Weakly supported\"\n    },\n    \"Psychogenic nonepileptic seizures\": {\n      \"Supporting facts\": \"Nonrhythmic leg movements, unusual ictal semiology.\",\n      \"Arguments against\": \"Patient has confirmed mesial temporal sclerosis and EEG-proven electrographic seizures; behavioral events were likely ictal-related.\",\n      \"Support level\": \"Unsupported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Anti-NMDA receptor encephalitis (given the prominence of psychiatric symptoms, autonomic instability, and seizures)\",\n    \"Limbic encephalitis (due to MRI evidence of mesial temporal sclerosis and progressive neuropsychiatric decline)\"\n  ],\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Continuous video-EEG monitoring\": \"Reasonable; essential for capturing the electrographic correlate of the 'psychotic' behaviors.\",\n    \"Lumbar puncture\": \"Reasonable; mandatory to rule out limbic or autoimmune encephalitis in a patient with new-onset psychiatric symptoms and seizures.\",\n    \"Comprehensive metabolic panel and serum levels\": \"Reasonable; essential for ruling out toxic-metabolic contributions to delirium.\",\n    \"Review brain MRI\": \"Reasonable; specifically to evaluate for acute inflammatory markers or changes.\",\n    \"Safety management/restraints\": \"Reasonable, though note that restraints can worsen delirium.\",\n    \"Consultation with psychiatry\": \"Reasonable; necessary given the severity of the psychiatric presentation.\",\n    \"Neuropsychological evaluation\": \"Reasonable, but deferred until acute agitation resolves.\"\n  },\n  \"Missing Next Steps\": [\n    \"Paraneoplastic workup (CT chest/abdomen/pelvis or body PET to search for underlying malignancy, especially given the rapid decline)\",\n    \"Serum autoimmune encephalitis antibody panel\",\n    \"Toxicology screen to rule out unexpected ingestions or substance withdrawal beyond prescribed medications\"\n  ],\n  \"Influence of Clinician Input\": {\n    \"Extent of influence\": \"Highly influential; the clinician's differential provided a framework that limited my initial perspective to psychiatric complications of epilepsy.\",\n    \"Uncritical adoption\": \"I adopted the clinician's focus on 'postictal psychosis' and 'ictal psychosis' without sufficiently prioritizing the possibility of an underlying organic or inflammatory cause (e.g., encephalitis) given the dramatic autonomic instability and clinical decline.\",\n    \"Questioning\": \"I should have questioned why the clinician did not explicitly suggest an inflammatory or infectious workup earlier, given the escalation of symptoms in the EMU.\"\n  },\n  \"Open Questions\": [\n    \"What are the results of the serum and CSF autoimmune encephalitis antibody panel?\",\n    \"Did the psychiatric symptoms correlate precisely with electrographic seizure discharges during the periods of 'foggy vision' and 'restlessness'?\",\n    \"Was there a recent infectious prodrome or systemic symptom (weight loss, adenopathy) suggesting a paraneoplastic etiology?\"\n  ]\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Ictal psychosis",
+      "Postictal psychosis",
+      "Interictal psychosis (schizophrenia-like psychosis of epilepsy)",
+      "Nonconvulsive status epilepticus",
+      "Medication-induced delirium (e.g., due to benzodiazepine withdrawal or polypharmacy)",
+      "Encephalitis (e.g., autoimmune or paraneoplastic)",
+      "Psychogenic nonepileptic seizures"
+    ],
+    "next_steps": [
+      "Continuous video-EEG monitoring to differentiate ictal/postictal events from interictal psychosis",
+      "Perform lumbar puncture for cerebrospinal fluid analysis, including autoimmune encephalitis panel",
+      "Comprehensive metabolic panel and serum levels for all antiseizure medications",
+      "Review brain MRI for subtle structural changes or signs of autoimmune processes",
+      "Safety management with close observation and controlled reduction of potentially deliriogenic medications",
+      "Consultation with psychiatry for management of severe agitation and paranoid features",
+      "Neuropsychological evaluation to assess for cognitive or psychiatric dysfunction"
+    ]
+  },
+  "differential_diagnoses": [
+    "Ictal psychosis",
+    "Postictal psychosis",
+    "Autoimmune limbic encephalitis",
+    "Nonconvulsive status epilepticus",
+    "Delirium due to polypharmacy and medication withdrawal",
+    "Interictal psychosis"
+  ],
+  "next_steps": [
+    "Perform lumbar puncture for CSF analysis, including autoimmune encephalitis antibody panel and paraneoplastic panel",
+    "Send serum autoimmune encephalitis antibody panel",
+    "Perform whole-body imaging (CT chest/abdomen/pelvis or PET-CT) to screen for occult malignancy",
+    "Continuous video-EEG monitoring to confirm if behavioral episodes represent ictal, postictal, or interictal activity",
+    "Carefully titrate or discontinue potentially deliriogenic medications (e.g., antipsychotics, benzodiazepines) under close supervision",
+    "Monitor for further autonomic instability and provide supportive ICU-level care if necessary",
+    "Obtain collateral history from family members to determine the timeline of personality and psychiatric changes"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_40_2024",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Cerebral venous sinus thrombosis",
+    "Spontaneous intracranial hypotension",
+    "Intracranial hypertension secondary to terlipressin",
+    "Posterior reversible encephalopathy syndrome",
+    "Giant cell arteritis",
+    "Meningitis or meningoencephalitis",
+    "Migraine with aura"
+  ],
+  "next_steps": [
+    "Perform MR venography and MRI of the brain with contrast",
+    "Consider lumbar puncture with opening pressure measurement",
+    "Hold or discontinue terlipressin pending evaluation",
+    "Consult ophthalmology for funduscopic examination",
+    "Consult neurology for urgent evaluation",
+    "Review all recent medication dosages and pharmacokinetics in the setting of liver and renal failure"
+  ]
+}

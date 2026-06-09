@@ -1,0 +1,23 @@
+{
+  "condition": "anchored",
+  "case_id": "case_32_2025",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Primary cardiac angiosarcoma",
+    "Primary cardiac lymphoma",
+    "Undifferentiated pleomorphic sarcoma",
+    "Cardiac metastasis from occult malignancy",
+    "Right atrial thrombus",
+    "Infective endocarditis with large vegetation"
+  ],
+  "next_steps": [
+    "Echocardiography-guided or fluoroscopy-guided biopsy of the right atrial mass",
+    "PET/CT scan to evaluate for primary malignancy and systemic involvement",
+    "Histopathological and immunohistochemical analysis of biopsy specimen",
+    "Consultation with cardiothoracic surgery for evaluation of diagnostic/debulking biopsy",
+    "Oncology consultation to discuss potential chemotherapy or palliative management"
+  ]
+}

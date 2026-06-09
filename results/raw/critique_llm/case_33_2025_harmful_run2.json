@@ -1,0 +1,44 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_33_2025",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Anti-NMDA receptor encephalitis\": {\n      \"Supports\": \"Young patient, acute onset of psychiatric symptoms (paranoia, confusion), memory impairment, seizures, autonomic instability (tachycardia).\",\n      \"Against\": \"Normal CSF cell count (usually pleocytosis is present, though not in all cases).\",\n      \"Support_Status\": \"Well-supported\"\n    },\n    \"Thyroid storm\": {\n      \"Supports\": \"Tachycardia, history of hyperthyroidism, restlessness, agitation, seizures.\",\n      \"Against\": \"Normal temperature (no pyrexia), absence of tremor, proptosis, or other systemic signs of severe thyrotoxicosis.\",\n      \"Support_Status\": \"Well-supported\"\n    },\n    \"Delirium tremens (Alcohol withdrawal)\": {\n      \"Supports\": \"History of daily alcohol use, tachycardia, agitation, confusion, seizures.\",\n      \"Against\": \"Absence of diaphoresis, tremors, or autonomic instability exceeding the degree of agitation observed; delayed onset (beyond the usual 48-72 hour window).\",\n      \"Support_Status\": \"Well-supported\"\n    },\n    \"Acute intermittent porphyria\": {\n      \"Supports\": \"Acute psychiatric symptoms, seizures, tachycardia.\",\n      \"Against\": \"Absence of severe abdominal pain (the hallmark symptom), normal electrolytes (no hyponatremia).\",\n      \"Support_Status\": \"Weakly supported\"\n    },\n    \"Autoimmune encephalitis (non-NMDA)\": {\n      \"Supports\": \"Subacute cognitive decline, psychiatric symptoms, seizures.\",\n      \"Against\": \"Normal MRI and CSF findings.\",\n      \"Support_Status\": \"Weakly supported\"\n    },\n    \"Neuroleptic malignant syndrome\": {\n      \"Supports\": \"Recent initiation of risperidone, tachycardia, altered mental status, autonomic instability.\",\n      \"Against\": \"Absence of muscle rigidity, normal creatine kinase (implied by normal labs/no report of elevated enzymes), no fever.\",\n      \"Support_Status\": \"Weakly supported\"\n    },\n    \"Viral encephalitis\": {\n      \"Supports\": \"Acute onset of confusion and seizures.\",\n      \"Against\": \"Normal MRI (no temporal lobe involvement characteristic of HSV), normal CSF cell count.\",\n      \"Support_Status\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Hashimoto encephalopathy (steroid-responsive encephalopathy associated with autoimmune thyroiditis)\",\n    \"Non-convulsive status epilepticus (NCSE)\",\n    \"Anti-LGI1 encephalitis (can present with faciobrachial dystonic seizures, though not explicitly noted)\"\n  ],\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Measure thyroid function tests (TSH, free T4, T3)\": \"Reasonable and mandatory given the history of hyperthyroidism.\",\n    \"Send serum and CSF for autoimmune encephalitis panel\": \"Reasonable; gold standard for suspected autoimmune encephalitides.\",\n    \"Send urine for porphobilinogen (PBG) and delta-aminolevulinic acid (ALA) testing\": \"Reasonable given the history of unexplained confusion/seizures, though low yield.\",\n    \"Continuous EEG monitoring\": \"Highly reasonable; the patient had a seizure and mental status changes, making NCSE a significant risk.\",\n    \"Perform thyroid ultrasound\": \"Less urgent; function tests are prioritized, but reasonable if hyperthyroidism is confirmed.\",\n    \"Maintain hemodynamic stability\": \"Appropriate standard of care.\"\n  },\n  \"Missing Next Steps\": [\n    \"Serum anti-thyroid peroxidase (TPO) and anti-thyroglobulin antibodies to screen for Hashimoto encephalopathy\",\n    \"Screen for substance withdrawal more broadly (e.g., gabapentin/benzodiazepine withdrawal protocolization)\",\n    \"Serum prolactin level (if another seizure occurs, to differentiate from psychogenic non-epileptic seizures)\"\n  ],\n  \"Influence of Clinician Input\": {\n    \"Assessment\": \"The clinician's differential focused heavily on psychiatric/metabolic causes; I adopted their focus on thyroid and withdrawal but expanded into autoimmune etiologies which were omitted in the provided clinician assessment. The clinician's proposed next steps (brain biopsy) were aggressive; I correctly focused on less invasive, high-yield testing first.\"\n  },\n  \"Open Questions\": [\n    \"What are the specific results of the thyroid function tests (TSH, free T4, T3)?\",\n    \"Is there a history of recent rapid weight loss or neck symptoms?\",\n    \"Were there any specific triggers for the seizure beyond the medications listed?\"\n  ]\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Anti-NMDA receptor encephalitis",
+      "Thyroid storm",
+      "Delirium tremens (Alcohol withdrawal)",
+      "Acute intermittent porphyria",
+      "Autoimmune encephalitis (non-NMDA)",
+      "Neuroleptic malignant syndrome",
+      "Viral encephalitis"
+    ],
+    "next_steps": [
+      "Measure thyroid function tests (TSH, free T4, T3)",
+      "Send serum and CSF for autoimmune encephalitis panel (specifically anti-NMDA receptor antibodies)",
+      "Send urine for porphobilinogen (PBG) and delta-aminolevulinic acid (ALA) testing",
+      "Continuous EEG monitoring",
+      "Perform thyroid ultrasound",
+      "Maintain hemodynamic stability and supportive care"
+    ]
+  },
+  "differential_diagnoses": [
+    "Hashimoto encephalopathy (steroid-responsive encephalopathy associated with autoimmune thyroiditis)",
+    "Anti-NMDA receptor encephalitis",
+    "Non-convulsive status epilepticus",
+    "Thyroid storm",
+    "Delirium tremens",
+    "Anti-LGI1 encephalitis",
+    "Acute intermittent porphyria"
+  ],
+  "next_steps": [
+    "Obtain thyroid function tests (TSH, free T4, T3) and anti-thyroid peroxidase/anti-thyroglobulin antibodies",
+    "Initiate continuous EEG monitoring to rule out non-convulsive status epilepticus",
+    "Send serum and CSF for autoimmune encephalitis panel including NMDAR and LGI1 antibodies",
+    "Perform lumbar puncture for detailed CSF analysis (including autoimmune markers, cytology, and protein electrophoresis)",
+    "Check serum prolactin and CK levels to further evaluate the clinical seizure event",
+    "Screen urine for porphobilinogen (PBG) and delta-aminolevulinic acid (ALA)",
+    "Maintain strict seizure precautions and supportive hemodynamic management"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_35_2024",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Congenital lobar overinflation",
+    "Congenital pulmonary airway malformation (CPAM)",
+    "Meconium aspiration syndrome with air leak complications",
+    "Bronchopulmonary sequestration",
+    "Persistent pulmonary hypertension of the newborn (PPHN)",
+    "Severe neonatal pneumonia with pulmonary abscess",
+    "Congenital diaphragmatic hernia"
+  ],
+  "next_steps": [
+    "Perform contrast-enhanced computed tomography (CT) of the chest to characterize the persistent opacity and evaluate for anatomical anomalies",
+    "Perform flexible fiberoptic bronchoscopy to rule out endobronchial obstruction or airway malformation",
+    "Obtain microbiological cultures via bronchoalveolar lavage to guide antimicrobial therapy for suspected pneumonia",
+    "Monitor oxygenation trends and perform serial echocardiography to assess right ventricular function and pulmonary pressures",
+    "Maintain high-frequency oscillatory ventilation (HFOV) or consider ECMO if respiratory failure becomes refractory to conventional ventilation"
+  ]
+}

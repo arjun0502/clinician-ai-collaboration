@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_19_2024",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Secondary Syphilis",
+    "Adult-onset Still's disease",
+    "Systemic lupus erythematosus",
+    "VEXAS syndrome",
+    "Chikungunya virus infection",
+    "Reactive arthritis",
+    "Granulomatosis with polyangiitis"
+  ],
+  "next_steps": [
+    "Perform rapid plasma reagin (RPR) and confirmatory treponemal specific antibody testing",
+    "Perform HIV screening",
+    "Biopsy skin lesions for histopathology and immunohistochemistry",
+    "Obtain antinuclear antibody (ANA) panel and extractable nuclear antigen (ENA) series",
+    "Obtain serum ferritin, iron studies, and liver function tests",
+    "Perform blood cultures if systemic inflammatory markers remain persistently elevated",
+    "Consult ophthalmology and otolaryngology if symptoms involving those systems arise"
+  ]
+}

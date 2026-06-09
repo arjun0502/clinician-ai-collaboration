@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_25_2025",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Severe symptomatic aortic stenosis",
+    "Occult gastrointestinal bleeding with anemia",
+    "Heart failure with preserved ejection fraction (HFpEF)",
+    "Coronary artery disease",
+    "Chronotropic incompetence",
+    "Pulmonary pathology related to prior granulomatosis with polyangiitis"
+  ],
+  "next_steps": [
+    "Complete blood count (CBC) to evaluate for anemia",
+    "Serum NT-proBNP and troponin levels",
+    "Transesophageal echocardiography or stress echocardiography for definitive aortic stenosis severity assessment",
+    "Fecal immunochemical test (FIT) or repeat colonoscopy",
+    "Cardiac catheterization for coronary anatomy evaluation",
+    "Referral to Heart Team for TAVR evaluation",
+    "Pulmonary function testing"
+  ]
+}

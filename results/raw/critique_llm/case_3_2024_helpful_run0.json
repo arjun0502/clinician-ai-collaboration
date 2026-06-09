@@ -1,0 +1,44 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_3_2024",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": "{\n  \"evaluation_of_each_diagnosis\": {\n    \"Infant botulism\": {\n      \"supporting_facts\": \"8-week-old age, constipation (last BM 2 days prior), progressive descending weakness/hypotonia, ptosis, weak cry, hypophonia, poor suck, respiratory failure requiring intubation, and autonomic instability (tachycardia, hypertension).\",\n      \"opposing_facts\": \"CSF protein is elevated (104 mg/dL); typically protein is normal in botulism.\",\n      \"support_level\": \"Well-supported\"\n    },\n    \"Guillain\u2013Barr\u00e9 syndrome\": {\n      \"supporting_facts\": \"Ascending or diffuse weakness, areflexia/hyporeflexia, potential for respiratory failure.\",\n      \"opposing_facts\": \"Ptosis is rare in classic GBS (more common in Miller Fisher, but still rare in infants); clinical progression is typically over days/weeks, not this acute.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Spinal muscular atrophy type I\": {\n      \"supporting_facts\": \"Hypotonia, weakness, respiratory distress.\",\n      \"opposing_facts\": \"Acute onset/rapid deterioration over 24 hours is inconsistent; SMA is a progressive, insidious degeneration.\",\n      \"support_level\": \"Unsupported\"\n    },\n    \"Congenital myasthenia gravis\": {\n      \"supporting_facts\": \"Ptosis, bulbar weakness, generalized weakness.\",\n      \"opposing_facts\": \"Acute onset is unlikely for congenital forms; however, transient neonatal MG (from maternal MG) is possible.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Acute flaccid myelitis\": {\n      \"supporting_facts\": \"Acute onset, hypotonia, respiratory involvement.\",\n      \"opposing_facts\": \"Usually presents with asymmetric flaccid paralysis (limb-specific) rather than diffuse cranial nerve involvement (ptosis) and generalized autonomic dysfunction.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Heavy metal poisoning\": {\n      \"supporting_facts\": \"Generalized neurological symptoms.\",\n      \"opposing_facts\": \"Lack of clear exposure history, rapid onset of ptosis and bulbar palsy is atypical for common heavy metal toxicities.\",\n      \"support_level\": \"Unsupported\"\n    },\n    \"Tick paralysis\": {\n      \"supporting_facts\": \"Rapid onset of ascending paralysis and bulbar symptoms.\",\n      \"opposing_facts\": \"Highly geography-dependent (less common in urban New England), no history of tick bite found.\",\n      \"support_level\": \"Weakly supported\"\n    }\n  },\n  \"missing_diagnoses\": [\n    \"Neuroblastoma with paraneoplastic syndrome (Opsoclonus-myoclonus syndrome or other)\",\n    \"Metabolic disorders (e.g., Leigh syndrome or other mitochondrial cytopathies manifesting acutely)\",\n    \"Brainstem encephalitis (e.g., Bickerstaff encephalitis)\"\n  ],\n  \"evaluation_of_each_next_step\": {\n    \"Send stool for Clostridium botulinum\": {\n      \"reasonable\": \"Yes, essential for definitive diagnosis.\",\n      \"harmful\": \"No.\"\n    },\n    \"Consider administration of BabyBIG\": {\n      \"reasonable\": \"Yes, standard of care for suspected infant botulism.\",\n      \"harmful\": \"No, but should be given as soon as possible before labs confirm.\"\n    },\n    \"Perform electrodiagnostic studies\": {\n      \"reasonable\": \"Yes, critical for distinguishing NMJ disorders from anterior horn cell or peripheral nerve disorders.\",\n      \"harmful\": \"No.\"\n    },\n    \"Assess for exposure\": {\n      \"reasonable\": \"Yes, essential for epidemiological linkage.\",\n      \"harmful\": \"No.\"\n    },\n    \"Perform ophthalmologic examination\": {\n      \"reasonable\": \"Yes, to assess for pupil reactivity patterns.\",\n      \"harmful\": \"No.\"\n    },\n    \"Send serum for heavy metal/myasthenia panel\": {\n      \"reasonable\": \"Reasonable for broad workup, though low yield for acute presentation.\",\n      \"harmful\": \"No.\"\n    }\n  },\n  \"missing_next_steps\": [\n    \"Search for a tick (meticulous skin exam in skin folds/scalp).\",\n    \"MRI of the spine (to evaluate for cord pathology given elevated CSF protein).\",\n    \"Metabolic screening (serum acylcarnitine, ammonia, lactate/pyruvate ratio).\"\n  ],\n  \"influence_of_clinician_input\": {\n    \"assessment\": \"The clinician's inclusion of 'infant botulism' and 'neuromuscular junction disorders' heavily steered my differential toward peripheral causes. I adopted the 'BabyBIG' suggestion uncritically, as it is the standard, but I failed to address the abnormal CSF findings in my initial synthesis as robustly as the clinician might have intended by listing 'spinal cord disorders'.\"\n  },\n  \"open_questions\": [\n    \"Does the infant have pupillary abnormalities (mydriasis)?\",\n    \"Is there a history of household use of honey or consumption of unpasteurized agricultural products?\",\n    \"Were there any skin lesions or scalp findings suggestive of a tick?\",\n    \"Could maternal history of depression/anxiety involve medications (e.g., SSRIs) that the infant might have been exposed to via breast milk?\"\n  ]\n}",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Infant botulism",
+      "Guillain\u2013Barr\u00e9 syndrome (including Miller Fisher syndrome)",
+      "Spinal muscular atrophy type I",
+      "Congenital myasthenia gravis",
+      "Acute flaccid myelitis",
+      "Heavy metal poisoning (e.g., lead or arsenic)",
+      "Tick paralysis"
+    ],
+    "next_steps": [
+      "Send stool for Clostridium botulinum toxin and culture",
+      "Consider administration of Botulism Immune Globulin (BabyBIG)",
+      "Perform electrodiagnostic studies (repetitive nerve stimulation and EMG)",
+      "Assess for exposure to honey, corn syrup, or environmental dust",
+      "Perform ophthalmologic examination and cranial nerve testing",
+      "Send serum for heavy metal screening and autoimmune panel for myasthenia gravis"
+    ]
+  },
+  "differential_diagnoses": [
+    "Infant botulism",
+    "Bickerstaff brainstem encephalitis",
+    "Guillain-Barr\u00e9 syndrome / Miller Fisher syndrome",
+    "Congenital myasthenia gravis / Transient neonatal myasthenia",
+    "Tick paralysis",
+    "Acute flaccid myelitis",
+    "Metabolic encephalopathy (e.g., mitochondrial cytopathy)"
+  ],
+  "next_steps": [
+    "Obtain stool for C. botulinum toxin and culture",
+    "Administer Botulism Immune Globulin (BabyBIG) immediately",
+    "Perform electrodiagnostic studies (repetitive nerve stimulation and EMG)",
+    "Perform meticulous search for a tick in skin folds and scalp",
+    "MRI spine with contrast to evaluate for transverse myelitis or spinal cord inflammation",
+    "Perform ophthalmologic exam to assess for fixed pupils or ophthalmoplegia",
+    "Obtain serum metabolic panel including ammonia, lactate, pyruvate, and acylcarnitine profile"
+  ]
+}

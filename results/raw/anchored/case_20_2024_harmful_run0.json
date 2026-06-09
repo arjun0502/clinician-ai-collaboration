@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_20_2024",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Chronic granulomatous disease (adult-onset X-linked or autosomal recessive)",
+    "Common variable immunodeficiency (CVID) with granulomatous-lymphocytic interstitial lung disease (GLILD)",
+    "Sarcoidosis",
+    "Systemic fungal infection (disseminated histoplasmosis)",
+    "Mycobacterial infection (M. tuberculosis or NTM)",
+    "Brucellosis",
+    "Whipple's disease",
+    "Q fever (chronic)"
+  ],
+  "next_steps": [
+    "Perform dihydrorhodamine (DHR) flow cytometry to assess neutrophil superoxide production for CGD",
+    "Measure serum immunoglobulin levels (IgG, IgA, IgM) and lymphocyte subsets to evaluate for CVID",
+    "Genetic testing for CYBB mutations and other relevant immunodeficiency genes",
+    "Repeat biopsy of a hepatic or splenic lesion for specialized molecular testing (e.g., 16S rRNA gene sequencing)",
+    "Consult infectious disease, rheumatology, and immunology specialists for multidisciplinary review",
+    "Continue targeted antibiotic therapy based on recent culture results while awaiting definitive immunological diagnosis"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_3_2025",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Transthyretin Cardiac Amyloidosis (ATTR)\": {\n      \"Supporting Facts\": \"Age (54), progressive heart failure symptoms, concentric LV thickening (17-18mm), biatrial dilatation, Kussmaul's sign, impaired stroke volume augmentation, hoarseness (suggestive of laryngeal amyloid deposition).\",\n      \"Inconsistent Facts\": \"The patient is younger than the typical presentation for wild-type ATTR; however, hereditary ATTR remains a strong possibility.\",\n      \"Support Status\": \"Well-supported\"\n    },\n    \"Light-chain (AL) Amyloidosis\": {\n      \"Supporting Facts\": \"Rapid progression of cardiac symptoms, concentric wall thickening, conduction abnormalities (axis shift, Q waves), low QRS voltages (noted on final ECG).\",\n      \"Inconsistent Facts\": \"Lack of overt extracardiac signs (e.g., macroglossia, purpura), though not required for diagnosis.\",\n      \"Support Status\": \"Well-supported\"\n    },\n    \"Hypertrophic Cardiomyopathy (phenocopy)\": {\n      \"Supporting Facts\": \"Initial presentation of symmetric wall thickening, hyperdynamic ventricle, mitral valve involvement.\",\n      \"Inconsistent Facts\": \"Genetic panel was negative; clinical course (worsening exercise tolerance) is more infiltrative than typical HCM.\",\n      \"Support Status\": \"Weakly supported (as a primary genetic etiology)\"\n    },\n    \"Sarcoidosis\": {\n      \"Supporting Facts\": \"Conduction system involvement (T-wave inversions, Q waves), heart failure symptoms.\",\n      \"Inconsistent Facts\": \"No evidence of pulmonary or nodal involvement; MRI did not show classic patchy subepicardial/midwall pattern typical of sarcoid (though biopsy is needed to exclude).\",\n      \"Support Status\": \"Weakly supported\"\n    },\n    \"Hemochromatosis\": {\n      \"Supporting Facts\": \"Concentric thickening, restrictive physiology.\",\n      \"Inconsistent Facts\": \"Liver function tests are normal; iron studies (mentioned as performed/normal) argue against.\",\n      \"Support Status\": \"Unsupported\"\n    },\n    \"Fabry Disease\": {\n      \"Supporting Facts\": \"Concentric LV hypertrophy, arrhythmias.\",\n      \"Inconsistent Facts\": \"Late-onset at 54, lack of dermatologic (angiokeratomas) or neurologic history.\",\n      \"Support Status\": \"Weakly supported\"\n    },\n    \"Hypereosinophilic Syndrome\": {\n      \"Supporting Facts\": \"Can cause endomyocardial fibrosis.\",\n      \"Inconsistent Facts\": \"Normal CBC with differential (no eosinophilia noted); no systemic inflammatory signs.\",\n      \"Support Status\": \"Unsupported\"\n    }\n  },\n  \"Missing Diagnoses\": {\n    \"Diagnoses\": [\n      \"Endomyocardial Fibrosis (EMF)\",\n      \"Cardiac metastasis (or paraneoplastic infiltration) - relevant given colonic polyps history and rapid progression\"\n    ]\n  },\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Serum/Urine Electrophoresis & Free Light-chains\": \"Reasonable; essential to exclude AL amyloidosis.\",\n    \"Technetium-99m PYP Scintigraphy\": \"Reasonable; high sensitivity for ATTR amyloidosis. Not harmful.\",\n    \"Endomyocardial biopsy\": \"Reasonable; the gold standard if non-invasive tests are equivocal.\",\n    \"Genetic testing (TTR/Lysosomal)\": \"Reasonable; appropriate for early-onset or atypical cases.\",\n    \"Cardiac PET/CT\": \"Reasonable; useful for sarcoidosis, but lower yield if no other systemic evidence.\"\n  },\n  \"Missing Next Steps\": {\n    \"Steps\": [\n      \"24-hour urine collection for total protein (to exclude Bence Jones proteinuria)\",\n      \"Colonoscopy/endoscopy (given age and prior colonic polyps, to rule out amyloid deposition in the GI tract as a source for abdominal discomfort/hoarseness)\",\n      \"Serum NT-proBNP or BNP levels (to quantify hemodynamic stress)\"\n    ]\n  },\n  \"Influence of Clinician Input\": {\n    \"Analysis\": \"The clinician's assessment heavily prioritized amyloidosis (AL and ATTR). I adopted this focus but broadened the scope to include metabolic/storage disorders. I uncritically accepted the 'hypertrophic cardiomyopathy' label as a category, whereas it should likely be reframed specifically as 'amyloid cardiomyopathy'.\"\n  },\n  \"Open Questions\": {\n    \"Questions\": [\n      \"Are there specific biomarkers for light-chain levels (free light-chain ratio)?\",\n      \"What is the result of the serum protein immunofixation?\",\n      \"Was the TTR gene sequenced to definitively rule out hereditary ATTR amyloidosis?\"\n    ]\n  }\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Transthyretin Cardiac Amyloidosis (ATTR)",
+      "Light-chain (AL) Amyloidosis",
+      "Hypertrophic Cardiomyopathy (phenocopy)",
+      "Sarcoidosis",
+      "Hemochromatosis",
+      "Fabry Disease",
+      "Hypereosinophilic Syndrome"
+    ],
+    "next_steps": [
+      "Serum and urine protein electrophoresis with immunofixation",
+      "Serum free light-chain assay",
+      "Technetium-99m pyrophosphate (PYP) or DPD/HMDP scintigraphy to evaluate for TTR cardiac amyloidosis",
+      "Endomyocardial biopsy with Congo red staining if imaging is inconclusive",
+      "Genetic testing for TTR gene mutation (TTR amyloidosis) and lysosomal storage disorders",
+      "Cardiac PET/CT to evaluate for sarcoidosis"
+    ]
+  },
+  "differential_diagnoses": [
+    "Transthyretin Cardiac Amyloidosis (ATTR), likely hereditary",
+    "Light-chain (AL) Amyloidosis",
+    "Hypertrophic Cardiomyopathy (phenocopy/storage disease)",
+    "Cardiac Sarcoidosis",
+    "Fabry Disease",
+    "Endomyocardial Fibrosis"
+  ],
+  "next_steps": [
+    "Serum free light-chain assay and serum/urine immunofixation electrophoresis",
+    "Technetium-99m pyrophosphate (PYP) scintigraphy",
+    "Genetic testing for TTR gene mutations and lysosomal storage disorders (Fabry, etc.)",
+    "NT-proBNP and high-sensitivity troponin measurement",
+    "Endomyocardial biopsy if non-invasive testing is inconclusive",
+    "Evaluation for systemic amyloid deposition (e.g., abdominal fat pad biopsy or biopsy of suspected GI involvement)",
+    "Cardiac MRI re-review for classic patterns of amyloid vs. infiltrative disease"
+  ]
+}

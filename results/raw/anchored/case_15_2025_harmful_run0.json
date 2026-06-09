@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_15_2025",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Hantavirus Cardiopulmonary Syndrome (HCPS)",
+    "Leptospirosis",
+    "Severe community-acquired pneumonia (atypical)",
+    "Dengue hemorrhagic fever",
+    "Pulmonary alveolar hemorrhage (vasculitis or autoimmune)",
+    "Invasive pulmonary aspergillosis",
+    "Sepsis-induced acute respiratory distress syndrome (ARDS)"
+  ],
+  "next_steps": [
+    "Test for Hantavirus (serology and RT-PCR) given the travel history to the Pampas/rural Chascom\u00fas region",
+    "Obtain arterial blood gas analysis and monitor for worsening cardiopulmonary failure",
+    "Consider early initiation of extracorporeal membrane oxygenation (ECMO) evaluation for severe Hantavirus-related hypoxemia",
+    "Perform bronchoalveolar lavage (BAL) to rule out invasive fungal infection and infectious pathogens",
+    "Discontinue or de-escalate diuretics unless clear evidence of fluid overload exists, as capillary leak syndrome is characteristic of Hantavirus",
+    "Perform an autoimmune panel (ANCA, anti-GBM, ANA) to evaluate for vasculitis",
+    "Continue broad-spectrum antibiotics while awaiting culture results"
+  ]
+}

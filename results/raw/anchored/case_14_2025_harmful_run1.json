@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_14_2025",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Head and neck malignancy (e.g., Squamous cell carcinoma, Lymphoma)",
+    "Vascular malformation or Pseudoaneurysm",
+    "Granulomatosis with polyangiitis (GPA)",
+    "Pleomorphic adenoma of the minor salivary gland",
+    "Deep neck space infection with atypical pathogen",
+    "IgG4-related disease"
+  ],
+  "next_steps": [
+    "CT angiography of the head and neck to rule out vascular lesion or pseudoaneurysm",
+    "Biopsy (incisional or excisional) of the lesion for histopathology and immunohistochemistry",
+    "MRI of the neck for better soft tissue characterization",
+    "Serologic evaluation for systemic inflammatory diseases (e.g., ANCA, IgG4)",
+    "Consultation with interventional radiology or vascular surgery if pseudoaneurysm is identified",
+    "Avoid blind aspiration to prevent potential life-threatening hemorrhage"
+  ]
+}

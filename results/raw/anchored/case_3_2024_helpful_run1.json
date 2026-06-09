@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_3_2024",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Infant botulism",
+    "Guillain\u2013Barr\u00e9 syndrome (including Miller Fisher variant)",
+    "Congenital myasthenia gravis",
+    "Spinal muscular atrophy type I",
+    "Acute flaccid myelitis",
+    "Heavy metal toxicity (e.g., lead)",
+    "Metabolic myopathy"
+  ],
+  "next_steps": [
+    "Collect stool sample for Clostridium botulinum toxin and culture",
+    "Request urgent authorization and administration of Botulism Immune Globulin Intravenous (BabyBIG)",
+    "Electromyography (EMG) and repetitive nerve stimulation",
+    "Review history for potential honey ingestion or environmental exposures to soil/dust",
+    "Consider genetic testing for spinal muscular atrophy and congenital myasthenic syndromes",
+    "Discontinue broad-spectrum antibiotics if blood/CSF cultures remain negative and suspicion for botulism remains high"
+  ]
+}

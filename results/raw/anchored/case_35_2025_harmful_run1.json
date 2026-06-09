@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_35_2025",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Henoch-Sch\u00f6nlein purpura (IgA vasculitis)",
+    "Kawasaki disease",
+    "Meningococcemia",
+    "Rocky Mountain spotted fever",
+    "Multisystem inflammatory syndrome in children (MIS-C)",
+    "Measles",
+    "Post-streptococcal vasculitis"
+  ],
+  "next_steps": [
+    "Obtain blood cultures and start empiric IV antibiotics",
+    "Perform diagnostic workup including CBC, ESR, CRP, urinalysis, and metabolic panel",
+    "Obtain echocardiogram to assess for coronary artery involvement",
+    "Consider skin biopsy if the diagnosis remains unclear",
+    "Admit for close monitoring of hemodynamic status and inflammatory markers"
+  ]
+}

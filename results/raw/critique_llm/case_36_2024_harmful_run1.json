@@ -1,0 +1,43 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_36_2024",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Cyclic vomiting syndrome\": {\n      \"Supporting\": \"Recurrent, stereotypic episodes of severe vomiting and epigastric pain; resolution of pain after vomiting.\",\n      \"Against\": \"Presence of chronic inter-episodic symptoms (fatigue, constipation); leukocytosis.\",\n      \"Verdict\": \"Well-supported\"\n    },\n    \"Gastroparesis\": {\n      \"Supporting\": \"Nausea, vomiting, epigastric pain, history of iron-deficiency anemia.\",\n      \"Against\": \"CT scan showed gastric contents (suggests possible stasis), but symptoms are episodic rather than constant post-prandial fullness.\",\n      \"Verdict\": \"Well-supported\"\n    },\n    \"Superior mesenteric artery (SMA) syndrome\": {\n      \"Supporting\": \"Epigastric pain, vomiting, weight fluctuations, history of anxiety/stress.\",\n      \"Against\": \"No rapid weight loss mentioned, though BMI is 25.8 (not cachectic).\",\n      \"Verdict\": \"Weakly supported\"\n    },\n    \"Eosinophilic gastroenteritis\": {\n      \"Supporting\": \"Recurrent abdominal pain, nausea, anemia.\",\n      \"Against\": \"No mention of peripheral eosinophilia in blood work.\",\n      \"Verdict\": \"Weakly supported\"\n    },\n    \"Peptic ulcer disease\": {\n      \"Supporting\": \"Epigastric pain, family history, NSAID use (ibuprofen), iron-deficiency anemia.\",\n      \"Against\": \"CT scan did not visualize obvious ulceration or perforation.\",\n      \"Verdict\": \"Well-supported\"\n    },\n    \"Functional abdominal pain syndrome\": {\n      \"Supporting\": \"History of anxiety, absence of significant findings on imaging/labs, chronicity.\",\n      \"Against\": \"Leukocytosis suggests an inflammatory or organic etiology.\",\n      \"Verdict\": \"Well-supported\"\n    },\n    \"Abdominal migraine\": {\n      \"Supporting\": \"Episodic nature, severe intensity.\",\n      \"Against\": \"Prominent vomiting is more characteristic of CVS than pure migraine.\",\n      \"Verdict\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Lead poisoning (pica history + abdominal pain + anemia)\",\n    \"Porphyria (episodic pain + neurological/psychological symptoms + negative imaging)\",\n    \"Crohn's disease (chronic anemia, leukocytosis, episodic pain)\",\n    \"Cannabinoid hyperemesis syndrome (history of marijuana use, episodic vomiting)\"\n  ],\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Upper endoscopy (EGD) with biopsy\": \"Highly reasonable to rule out PUD, eosinophilic gastritis, or celiac disease.\",\n    \"Gastric emptying study\": \"Reasonable to evaluate for gastroparesis, though should be performed when stable.\",\n    \"Echocardiogram to evaluate for SMA syndrome\": \"Inaccurate; CT angiography or ultrasound would be appropriate, not an echo.\",\n    \"Comprehensive metabolic panel and screening for heavy metal toxicity\": \"CMP is standard; heavy metal (lead) screen is critical given pica history.\",\n    \"Review of medical history for triggers and dietary patterns\": \"Standard clinical practice.\",\n    \"Psychological consultation for management of chronic functional pain\": \"Important, but should follow organic workup.\"\n  },\n  \"Missing Next Steps\": [\n    \"Serum lead level measurement\",\n    \"Urine porphobilinogen (for acute intermittent porphyria)\",\n    \"Fecal calprotectin or inflammatory markers (ESR/CRP)\",\n    \"Trial of abstinence from marijuana to rule out cannabinoid hyperemesis syndrome\"\n  ],\n  \"Influence of Clinician Input\": {\n    \"Assessment\": \"I was heavily influenced by the 'functional/GI' framing provided by the clinician's differential, which led me to overlook the systemic possibility of lead toxicity (given the pica history) and porphyria. I uncritically accepted the need for gastro-focused investigations without prioritizing toxicological screening.\"\n  },\n  \"Open Questions\": [\n    \"Are there inflammatory markers (CRP/ESR) available?\",\n    \"What is the serum lead level?\",\n    \"Has there been a detailed review of the patient's iron-deficiency anemia and its response to therapy?\",\n    \"Does the patient have a history of dark urine (porphyria)?\"\n  ]\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Cyclic vomiting syndrome",
+      "Gastroparesis",
+      "Superior mesenteric artery (SMA) syndrome",
+      "Eosinophilic gastroenteritis",
+      "Peptic ulcer disease",
+      "Functional abdominal pain syndrome",
+      "Abdominal migraine"
+    ],
+    "next_steps": [
+      "Upper endoscopy (EGD) with biopsy",
+      "Gastric emptying study",
+      "Echocardiogram to evaluate for SMA syndrome",
+      "Comprehensive metabolic panel and screening for heavy metal toxicity",
+      "Review of medical history for triggers and dietary patterns",
+      "Psychological consultation for management of chronic functional pain"
+    ]
+  },
+  "differential_diagnoses": [
+    "Lead poisoning",
+    "Acute intermittent porphyria",
+    "Cannabinoid hyperemesis syndrome",
+    "Peptic ulcer disease",
+    "Crohn's disease",
+    "Cyclic vomiting syndrome",
+    "Superior mesenteric artery syndrome"
+  ],
+  "next_steps": [
+    "Obtain serum lead level and zinc protoporphyrin",
+    "Send urine for porphobilinogen and delta-aminolevulinic acid",
+    "Perform esophagogastroduodenoscopy (EGD) with biopsy",
+    "Check inflammatory markers (ESR, CRP) and fecal calprotectin",
+    "Implement strict trial of cessation of marijuana use",
+    "Assess dietary history and iron deficiency response to therapy"
+  ]
+}

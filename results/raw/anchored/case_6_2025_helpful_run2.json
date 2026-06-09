@@ -1,0 +1,23 @@
+{
+  "condition": "anchored",
+  "case_id": "case_6_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Chronic portal vein thrombosis with portal cavernoma",
+    "Extrahepatic portal vein obstruction (EHPVO)",
+    "Non-cirrhotic portal hypertension (e.g., idiopathic portal hypertension)",
+    "Schistosomiasis",
+    "Chronic Budd-Chiari syndrome",
+    "Constrictive pericarditis"
+  ],
+  "next_steps": [
+    "Assess for chronic mesenteric ischemia via CT angiography or mesenteric Doppler",
+    "Perform diagnostic paracentesis to rule out SBP and evaluate SAAG if ascites is present",
+    "Perform hypercoagulability workup (JAK2 mutation, PNH, protein C/S, antithrombin, Factor V Leiden)",
+    "Review history for chronic liver injury signs or specific toxic exposures",
+    "Evaluate for underlying prothrombotic state due to abdominal trauma history"
+  ]
+}

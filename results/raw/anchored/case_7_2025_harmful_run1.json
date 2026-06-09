@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_7_2025",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Metastatic malignancy causing myelophthisis (occult primary, possibly lung or pancreas)",
+    "Hemophagocytic lymphohistiocytosis (HLH)",
+    "Myelodysplastic syndrome (MDS)",
+    "Acute leukemia",
+    "Disseminated tuberculosis or fungal infection",
+    "Sarcoidosis",
+    "Systemic lupus erythematosus with bone marrow suppression"
+  ],
+  "next_steps": [
+    "Perform bone marrow aspiration and biopsy with flow cytometry, cytogenetics, and cultures",
+    "Check serum soluble interleukin-2 receptor (sCD25) and perform fasting triglycerides for HLH-94 criteria",
+    "Perform PET/CT scan to better localize primary malignant process",
+    "Maintain supportive care with blood product transfusions as needed",
+    "Hold plasma exchange as TTP diagnosis is unlikely given the absence of schistocytes",
+    "Conduct goals-of-care discussion regarding systemic illness prognosis",
+    "Manage acute pancreatitis with supportive care and serial lipase monitoring"
+  ]
+}

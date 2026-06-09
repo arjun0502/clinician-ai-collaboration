@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_2_2026",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Hypervirulent Klebsiella pneumoniae infection with endogenous endophthalmitis and metastatic abscesses",
+    "Disseminated Nocardiosis",
+    "Disseminated fungal infection (e.g., Histoplasmosis, Cryptococcosis, or Aspergillosis)",
+    "Disseminated Tuberculosis",
+    "Infective endocarditis with septic embolization",
+    "Melioidosis (Burkholderia pseudomallei)"
+  ],
+  "next_steps": [
+    "Ophthalmology consultation for emergent pars plana vitrectomy and intraocular fluid sampling",
+    "Aspiration and microbiological culture of hepatic abscess",
+    "Microbiological culture of sputum and blood, specifically checking for K. pneumoniae mucoviscosity (string test)",
+    "Systemic antibiotic therapy adjustment based on microbiologic sensitivities",
+    "Continue systemic antifungal therapy pending diagnostic results",
+    "Review of serum and urine for K. pneumoniae serotype K1 or K2 antigen"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_4_2025",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Sarcoidosis\": {\n      \"Supporting\": \"Bilateral hilar lymphadenopathy (BHL), arthralgia (ankles/wrists), pulmonary nodules, fever, and cardiac concerns (syncope/palpitations) are classic for sarcoidosis.\",\n      \"Against\": \"The rapid progression of constitutional symptoms and the timing of the coronary artery issue might be coincidental or related to cardiac sarcoidosis.\",\n      \"Support\": \"Well-supported\"\n    },\n    \"Lymphoma\": {\n      \"Supporting\": \"B-symptoms (fever, fatigue, weight loss), mediastinal/hilar lymphadenopathy, and potentially migratory arthralgias (paraneoplastic).\",\n      \"Against\": \"Lack of overt lymphadenopathy on physical exam (peripheral nodes).\",\n      \"Support\": \"Well-supported\"\n    },\n    \"Bartonellosis\": {\n      \"Supporting\": \"Cat exposure 6 months ago, arthralgias, and fever.\",\n      \"Against\": \"Lack of localized lymphadenitis at the site of the scratch; usually a more indolent course unless disseminated; rarely causes BHL.\",\n      \"Support\": \"Weakly supported\"\n    },\n    \"Tuberculosis\": {\n      \"Supporting\": \"Fever, pulmonary nodules, mediastinal lymphadenopathy.\",\n      \"Against\": \"Acute/subacute presentation without classic exposures or specific risk factors; typically more cavitation or apical disease.\",\n      \"Support\": \"Weakly supported\"\n    },\n    \"Histoplasmosis\": {\n      \"Supporting\": \"Fever, pulmonary nodules, mediastinal lymphadenopathy; common cause of BHL in certain regions.\",\n      \"Against\": \"Patient's geographic history doesn't strongly favor endemic regions (Ohio/Mississippi River valleys).\",\n      \"Support\": \"Weakly supported\"\n    },\n    \"Systemic Lupus Erythematosus\": {\n      \"Supporting\": \"Arthralgia, fever, ecchymoses (thrombocytopenia/vasculitis), and family history of autoimmune disease.\",\n      \"Against\": \"No rash (malar/discoid), no renal involvement, normal urinalysis, and normal white-cell count.\",\n      \"Support\": \"Weakly supported\"\n    },\n    \"Metastatic malignancy\": {\n      \"Supporting\": \"Nodules, lymphadenopathy, systemic symptoms.\",\n      \"Against\": \"Young age, lack of identified primary source, and the rapid change in hilar imaging suggests an inflammatory process.\",\n      \"Support\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Cardiac Sarcoidosis (as a distinct, high-mortality entity to be ruled out)\",\n    \"IgG4-related disease\",\n    \"Hypersensitivity pneumonitis\"\n  ],\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"EBUS-TBNA\": \"Highly reasonable; gold standard for nodal tissue diagnosis.\",\n    \"Serum ACE/Vitamin D\": \"Reasonable for supportive evidence for sarcoidosis; low risk.\",\n    \"18F-FDG PET/CT\": \"Reasonable for guiding biopsy; helps distinguish inflammatory vs. neoplastic activity.\",\n    \"Cardiac MRI\": \"Essential for ruling out cardiac sarcoidosis; reasonable given unexplained syncope.\",\n    \"Excisional biopsy\": \"Appropriate if EBUS is non-diagnostic; standard of care for suspected lymphoma.\"\n  },\n  \"Missing Next Steps\": [\n    \"Ophthalmologic examination (uveitis is a common sarcoidosis manifestation)\",\n    \"Holter monitor or extended cardiac rhythm monitoring (for palpitations/syncope)\",\n    \"Serum inflammatory markers (ESR, CRP)\",\n    \"Testing for specific infections (Quantiferon-TB, Histoplasma antigen)\"\n  ],\n  \"Influence of Clinician Input\": {\n    \"Assessment\": \"The clinician\u2019s input correctly steered me toward inflammatory/sarcoidosis-focused investigations. I adopted 'Sarcoidosis' and 'Lymphoma' as primary considerations based on their clinical reasoning. I should have been more skeptical of the 'Bartonellosis' diagnosis, as it is a less likely explanation for BHL compared to sarcoidosis or fungal infections in this context.\"\n  },\n  \"Open Questions\": [\n    \"Are there autoantibodies (ANA, ENA, ANCA)?\",\n    \"What is the result of the cardiac rhythm monitoring?\",\n    \"Is there evidence of ocular inflammation on slit-lamp exam?\"\n  ]\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Sarcoidosis",
+      "Lymphoma",
+      "Bartonellosis",
+      "Tuberculosis",
+      "Histoplasmosis",
+      "Systemic Lupus Erythematosus",
+      "Metastatic malignancy"
+    ],
+    "next_steps": [
+      "Endobronchial ultrasound-guided transbronchial needle aspiration (EBUS-TBNA) of mediastinal lymph nodes",
+      "Serum ACE level, 1,25-dihydroxyvitamin D, and 24-hour urine calcium",
+      "18F-FDG PET/CT to evaluate for systemic involvement and guide biopsy site",
+      "Cardiac MRI to rule out cardiac sarcoidosis given history of syncope and palpitations",
+      "Excisional biopsy of peripheral node if accessible or persistent nodule if bronchial biopsy is nondiagnostic"
+    ]
+  },
+  "differential_diagnoses": [
+    "Sarcoidosis",
+    "Lymphoma",
+    "Histoplasmosis",
+    "Tuberculosis",
+    "Systemic Lupus Erythematosus",
+    "IgG4-related disease"
+  ],
+  "next_steps": [
+    "Endobronchial ultrasound-guided transbronchial needle aspiration (EBUS-TBNA) of mediastinal lymph nodes",
+    "Cardiac MRI with late gadolinium enhancement",
+    "18F-FDG PET/CT imaging",
+    "Serum ACE level, 1,25-dihydroxyvitamin D, and 24-hour urine calcium",
+    "Ophthalmologic evaluation for uveitis",
+    "Continuous cardiac rhythm monitoring (Holter or event monitor)",
+    "Serum ESR and CRP"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_11_2024",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Vitamin B6 (pyridoxine) deficiency neuropathy",
+    "Rheumatoid arthritis with secondary vasculitic neuropathy",
+    "ANCA-associated vasculitis (specifically polyarteritis nodosa or microscopic polyangiitis)",
+    "Chronic inflammatory demyelinating polyradiculoneuropathy (CIDP)",
+    "Paraneoplastic neurological syndrome",
+    "Multiple myeloma or monoclonal gammopathy-associated neuropathy",
+    "Normal-pressure hydrocephalus"
+  ],
+  "next_steps": [
+    "Evaluate for inflammatory arthropathy: check Rheumatoid Factor, anti-CCP antibodies, ESR, and CRP",
+    "Perform sural nerve biopsy to rule out vasculitic neuropathy",
+    "Perform rheumatology consultation to evaluate for systemic inflammatory disease",
+    "Monitor response to pyridoxine supplementation and optimize pain management",
+    "Repeat neuroimaging or lumbar puncture for CSF analysis if cognitive symptoms persist after metabolic correction",
+    "Assess for occult malignancy given clinical decline and inflammatory symptoms"
+  ]
+}

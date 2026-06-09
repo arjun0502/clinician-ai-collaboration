@@ -1,0 +1,26 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_29_2025",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Clinician Diagnosis\": {\n    \"Pneumocystis jirovecii\": {\n      \"Supporting facts\": \"CD4 count of 25, history of non-adherence to ART, acute onset of hypoxia and respiratory distress, micronodular/ground-glass opacities (implied by 'innumerable micronodules').\",\n      \"Arguments against\": \"LDH is relatively low (227 U/L) for typical severe PJP, though not exclusionary.\",\n      \"Verdict\": \"Well-supported\"\n    },\n    \"Disseminated histoplasmosis\": {\n      \"Supporting facts\": \"Severe immunosuppression (CD4 25), diffuse micronodular pattern on chest imaging, systemic symptoms (fever, hypotension).\",\n      \"Arguments against\": \"Limited travel history, though endemicity in North America makes it possible.\",\n      \"Verdict\": \"Well-supported\"\n    },\n    \"Disseminated Mycobacterium tuberculosis\": {\n      \"Supporting facts\": \"Diffuse 'miliary' pattern on chest X-ray, severe HIV infection, history of unstable housing.\",\n      \"Arguments against\": \"No clear subacute constitutional symptoms (night sweats/weight loss denied).\",\n      \"Verdict\": \"Well-supported\"\n    },\n    \"Nontuberculous Mycobacterial Infection\": {\n      \"Supporting facts\": \"Severe immunosuppression.\",\n      \"Arguments against\": \"Diffuse, rapid respiratory failure is less common as a presentation compared to disseminated MAC, which often shows hepatosplenomegaly or lymphadenopathy, both absent here.\",\n      \"Verdict\": \"Weakly supported\"\n    },\n    \"Noninfectious Immune-Mediated Disease (Sarcoidosis)\": {\n      \"Supporting facts\": \"Micronodular lung disease.\",\n      \"Arguments against\": \"Highly improbable in a patient with a CD4 of 25; systemic symptoms and severity of acute presentation point strongly to infection.\",\n      \"Verdict\": \"Unsupported\"\n    },\n    \"Primary Lung Cancer (e.g., Adenocarcinoma)\": {\n      \"Supporting facts\": \"Micronodular disease.\",\n      \"Arguments against\": \"Acute rapid deterioration and fever strongly favor infectious etiology over malignancy.\",\n      \"Verdict\": \"Unsupported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Cytomegalovirus (CMV) pneumonitis\",\n    \"Cryptococcosis (disseminated with pulmonary involvement)\",\n    \"Kaposi sarcoma (pulmonary involvement)\"\n  ],\n  \"Evaluation of Each Proposed Next Step\": {\n    \"Chest CT with IV contrast\": {\n      \"Reasonable\": \"Yes, essential to characterize the nodular pattern and rule out pulmonary embolism.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"Induced sputum for AFB smear\": {\n      \"Reasonable\": \"Yes, standard for suspected miliary TB.\",\n      \"Harmful/Contraindicated\": \"No.\"\n    },\n    \"Brain MRI with gadolinium\": {\n      \"Reasonable\": \"Potentially, given history of seizure disorder and HIV, but not the highest priority during acute respiratory distress.\",\n      \"Harmful/Contraindicated\": \"No, but transport stability is a concern.\"\n    },\n    \"CT Abdomen/Pelvis with Oral + IV Contrast\": {\n      \"Reasonable\": \"Yes, to evaluate for disseminated disease (lymphadenopathy, organomegaly).\",\n      \"Harmful/Contraindicated\": \"No.\"\n    }\n  },\n  \"Missing Next Steps\": [\n    \"Bronchoalveolar lavage (BAL) for GMS stain, MTB PCR (GeneXpert), fungal culture, and CMV PCR.\",\n    \"Serum Histoplasma antigen and serum Cryptococcal antigen.\",\n    \"Blood cultures (fungal, mycobacterial, and bacterial).\",\n    \"Arterial blood gas (ABG) to assess for severity of hypoxemia and acid-base status.\"\n  ],\n  \"Open Questions\": [\n    \"Has the patient had recent travel outside of New England, despite the report of not traveling for 'several years'?\",\n    \"Is there a history of latent TB or positive TST/IGRA from prior HIV care?\",\n    \"Does the patient have any focal neurological deficits or signs of meningeal irritation?\",\n    \"What were the results of the initial diagnostic workup (e.g., blood cultures, sputum studies) obtained on admission?\"\n  ]\n}\n```",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Pneumocystis jirovecii pneumonia",
+    "Disseminated histoplasmosis",
+    "Disseminated tuberculosis (miliary TB)",
+    "Cytomegalovirus (CMV) pneumonitis",
+    "Disseminated cryptococcosis",
+    "Kaposi sarcoma with pulmonary involvement",
+    "Bacterial sepsis (e.g., S. pneumoniae, S. aureus)"
+  ],
+  "next_steps": [
+    "Perform bronchoalveolar lavage (BAL) for PJP immunofluorescence, AFB smear/culture, MTB PCR, fungal culture, and CMV PCR",
+    "Obtain serum Histoplasma antigen and serum Cryptococcal antigen",
+    "Obtain arterial blood gas (ABG) to determine A-a gradient and assess severity of respiratory failure",
+    "Order high-resolution computed tomography (HRCT) of the chest",
+    "Initiate empiric high-dose trimethoprim-sulfamethoxazole and corticosteroids (if PJP suspected)",
+    "Obtain blood cultures for bacteria, fungi, and mycobacteria",
+    "Monitor respiratory status for potential escalation to non-invasive positive pressure ventilation or intubation"
+  ]
+}

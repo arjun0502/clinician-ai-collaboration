@@ -1,0 +1,26 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_29_2025",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": "{\n  \"Evaluation_of_Each_Clinician_Diagnosis\": {\n    \"Pneumocystis_jirovecii\": {\n      \"Supports\": \"Severe immunosuppression (CD4 < 50), history of medication nonadherence, acute respiratory decompensation, tachypnea, hypoxemia, and diffuse micronodular pattern on CXR.\",\n      \"Arguments_Against\": \"Typical presentation of PCP is ground-glass opacities; fine diffuse micronodules are less common but possible in severe cases.\",\n      \"Support_Level\": \"Well-supported\"\n    },\n    \"Disseminated_histoplasmosis\": {\n      \"Supports\": \"Severe HIV, miliary/micronodular pattern on imaging, fever, and constitutional symptoms.\",\n      \"Arguments_Against\": \"Patient has not traveled outside New England, though endemicity is possible; lacks hepatosplenomegaly or classic oropharyngeal lesions.\",\n      \"Support_Level\": \"Well-supported\"\n    },\n    \"Disseminated_Mycobacterium_tuberculosis\": {\n      \"Supports\": \"High risk due to HIV/social history, classic miliary pattern on CXR, fever, and constitutional symptoms.\",\n      \"Arguments_Against\": \"No night sweats or hemoptysis noted; limited duration of cough (2 months) in the setting of extreme immunodeficiency.\",\n      \"Support_Level\": \"Well-supported\"\n    },\n    \"Nontuberculous_Mycobacterial_Infection\": {\n      \"Supports\": \"Severe immunosuppression (CD4 < 25) increases risk for M. avium complex (MAC).\",\n      \"Arguments_Against\": \"Disseminated disease typically presents with systemic symptoms, anemia, and hepatosplenomegaly rather than isolated acute miliary respiratory failure.\",\n      \"Support_Level\": \"Weakly supported\"\n    },\n    \"Noninfectious_Immune-Mediated_Disease_(Sarcoidosis)\": {\n      \"Supports\": \"Miliary pattern can mimic sarcoidosis.\",\n      \"Arguments_Against\": \"Patient has CD4 of 25; opportunistic infections are vastly more probable than sarcoidosis, which is not primarily associated with profound T-cell depletion.\",\n      \"Support_Level\": \"Unsupported\"\n    },\n    \"Primary_Lung_Cancer_(e.g.,_Adenocarcinoma)\": {\n      \"Supports\": \"Miliary metastases can occur.\",\n      \"Arguments_Against\": \"Patient's age, acute clinical progression (fever, hemodynamic instability), and severe HIV stage point overwhelmingly toward infectious etiologies.\",\n      \"Support_Level\": \"Unsupported\"\n    }\n  },\n  \"Missing_Diagnoses\": [\n    \"Cryptococcosis (disseminated with pulmonary involvement)\",\n    \"Cytomegalovirus (CMV) pneumonitis\",\n    \"Kaposi sarcoma (pulmonary involvement)\"\n  ],\n  \"Evaluation_of_Each_Proposed_Next_Step\": {\n    \"Chest_CT_with_IV_contrast\": \"Highly reasonable; better defines the nodules and checks for lymphadenopathy or mediastinal disease.\",\n    \"Induced_sputum_for_AFB_smear\": \"Reasonable, though sensitivity for disseminated disease may be low; bronchoscopy with BAL is likely the definitive next step.\",\n    \"Brain_MRI_with_gadolinium\": \"Reasonable; patient has a history of seizure disorder and new mental status changes/lethargy; useful to rule out CNS involvement of disseminated fungal or mycobacterial disease.\",\n    \"CT_Abdomen/Pelvis_with_Oral_+_IV_Contrast\": \"Reasonable; look for lymphadenopathy or hepatosplenomegaly to confirm disseminated disease (e.g., MAC, Histoplasmosis, TB).\"\n  },\n  \"Missing_Next_Steps\": [\n    \"Bronchoscopy with bronchoalveolar lavage (BAL) for microbiology (PCP stain, fungal/AFB cultures, MTB PCR/GeneXpert, CMV PCR).\",\n    \"Serum Cryptococcal antigen.\",\n    \"Serum and urine Histoplasma antigen.\",\n    \"Blood cultures (specifically fungal/mycobacterial).\",\n    \"Assessment of swallowing/aspiration risk given the Roux-en-Y history and neurological status.\"\n  ],\n  \"Open_Questions\": [\n    \"Is there underlying pulmonary Kaposi sarcoma or cryptococcosis?\",\n    \"Does the patient have disseminated fungal disease (Histoplasma antigen status)?\",\n    \"Is the neurological state secondary to metabolic derangement, CNS infection, or medication effects?\"\n  ]\n}",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Pneumocystis jirovecii pneumonia",
+    "Disseminated miliary tuberculosis",
+    "Disseminated histoplasmosis",
+    "Pulmonary Kaposi sarcoma",
+    "Cryptococcal pneumonia",
+    "Cytomegalovirus pneumonitis"
+  ],
+  "next_steps": [
+    "Perform flexible bronchoscopy with bronchoalveolar lavage (BAL) for Gomori methenamine silver stain, AFB smear and culture, GeneXpert for M. tuberculosis, and multiplex PCR for common respiratory pathogens",
+    "Obtain serum and urine Histoplasma antigen",
+    "Order serum cryptococcal antigen",
+    "Obtain blood cultures for mycobacteria and fungi",
+    "Conduct chest CT with IV contrast to characterize pulmonary nodules and screen for mediastinal lymphadenopathy",
+    "Obtain brain MRI with and without gadolinium to investigate encephalopathy and potential CNS involvement",
+    "Perform serum HIV-1/2 viral load and repeat CD4 count to ensure accurate staging",
+    "Initiate urgent empirical therapy for P. jirovecii and broad-spectrum antimicrobial coverage while awaiting diagnostic results"
+  ]
+}

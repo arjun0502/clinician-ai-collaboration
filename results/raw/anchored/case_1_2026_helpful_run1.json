@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_1_2026",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Dengue shock syndrome",
+    "Leptospirosis",
+    "Septic shock (Gram-negative, e.g., E. coli or Klebsiella)",
+    "Plasmodium falciparum malaria",
+    "Acute myocarditis (infectious)",
+    "Rickettsial disease",
+    "Schistosomiasis-associated bacteremia (Salmonella)"
+  ],
+  "next_steps": [
+    "Dengue NS1 antigen and IgM/IgG serology",
+    "Leptospirosis PCR and serology",
+    "Repeated thick and thin blood smears for malaria",
+    "Full infectious disease workup including viral myocarditis panel (e.g., enterovirus, adenovirus PCR)",
+    "Urgent echocardiography to evaluate for worsening cardiac function/myocarditis",
+    "Send blood and urine cultures for specialized organisms (e.g., Salmonella, Leptospira)",
+    "Evaluate for Hemophagocytic Lymphohistiocytosis (HLH) given splenomegaly, pancytopenia, and clinical deterioration"
+  ]
+}

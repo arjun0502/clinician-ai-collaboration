@@ -1,0 +1,26 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_35_2025",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": "{\n  \"Evaluation of Each Clinician Diagnosis\": {\n    \"Meningococcemia\": {\n      \"Supports\": \"Fever, nonblanching papules (purpura), and rapid clinical deterioration.\",\n      \"Arguments Against\": \"Normal vitals (initially), duration of symptoms (5 days), lack of meningeal signs, and the evolution of the rash over several days, which is less typical for fulminant meningococcal sepsis.\",\n      \"Status\": \"Weakly supported (but must be ruled out due to severity).\"\n    },\n    \"Kawasaki disease\": {\n      \"Supports\": \"Fever > 5 days, conjunctival injection, posterior cervical lymphadenopathy, oral mucosal changes (palatal macules), and swelling of hands/feet.\",\n      \"Arguments Against\": \"Lack of cracked/erythematous lips, lack of strawberry tongue, and the presence of nonblanching papules/purpura (less common, but occasionally seen in atypical cases).\",\n      \"Status\": \"Well-supported.\"\n    },\n    \"Rocky Mountain spotted fever\": {\n      \"Supports\": \"Summer camp exposure, fever, and a rash that began on extremities (feet) and spread centrally.\",\n      \"Arguments Against\": \"Rash distribution (palms/soles spared in this patient), and the subacute progression over days without immediate severe thrombocytopenia or neurological findings.\",\n      \"Status\": \"Weakly supported.\"\n    },\n    \"MIS-C\": {\n      \"Supports\": \"Fever, conjunctivitis, oral changes, rash, and extremity swelling.\",\n      \"Arguments Against\": \"Lack of clear preceding SARS-CoV-2 infection or exposure, lack of gastrointestinal symptoms which are common in MIS-C.\",\n      \"Status\": \"Weakly supported.\"\n    },\n    \"Hand, foot, and mouth disease\": {\n      \"Supports\": \"Rash, fever, and oral involvement.\",\n      \"Arguments Against\": \"Rash is typically vesicular/palms-soles, not purpuric; fever and systemic signs are usually milder.\",\n      \"Status\": \"Unsupported.\"\n    },\n    \"Measles\": {\n      \"Supports\": \"Fever, conjunctivitis, oral (Koplik-like) spots.\",\n      \"Arguments Against\": \"Patient is vaccinated, rash description (nonblanching/purpuric) is inconsistent with classic maculopapular exanthem, no mention of respiratory cough/coryza.\",\n      \"Status\": \"Unsupported.\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Henoch-Sch\u00f6nlein purpura (IgA Vasculitis): The distribution of nonblanching purpuric papules on lower extremities/buttocks in a child is highly suggestive, though systemic symptoms here are quite aggressive.\",\n    \"Adenovirus infection: Can mimic Kawasaki disease with fever, conjunctivitis, and lymphadenopathy.\",\n    \"Leptospirosis: Consistent with summer camp/outdoor activities, fever, and rash.\"\n  ],\n  \"Evaluation of Each Proposed Next Step\": {\n    \"Prescribe high-dose oral steroids\": \"Harmful/Contraindicated: Steroids should not be initiated until infectious causes (especially meningococcemia) are definitively ruled out.\",\n    \"CT scan of the abdomen\": \"Not reasonable: No clinical indication for abdominal imaging given the lack of abdominal findings.\",\n    \"Broad-spectrum IV antibiotics\": \"Reasonable: Mandatory while awaiting blood/CSF culture results given the potential for life-threatening sepsis.\",\n    \"Lumbar puncture\": \"Reasonable: Essential to rule out meningitis given the patient's age, fever, and clinical status.\"\n  },\n  \"Missing Next Steps\": [\n    \"Blood cultures (prior to antibiotics).\",\n    \"Complete blood count (check for thrombocytopenia, leukocytosis/leukopenia).\",\n    \"Inflammatory markers (ESR, CRP).\",\n    \"Echocardiogram (to evaluate for coronary artery involvement if Kawasaki disease is suspected).\",\n    \"Serum albumin and urinalysis (to support Kawasaki disease diagnosis).\"\n  ],\n  \"Open Questions\": [\n    \"Is there a history of COVID-19 infection or close contact?\",\n    \"What are the results of a CBC, inflammatory markers (CRP/ESR), and urinalysis?\",\n    \"Are there any pet/tick exposures at the summer camp?\"\n  ]\n}",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Kawasaki disease",
+    "Meningococcemia",
+    "Henoch-Sch\u00f6nlein purpura (IgA vasculitis)",
+    "Rocky Mountain spotted fever",
+    "MIS-C",
+    "Adenovirus infection",
+    "Leptospirosis"
+  ],
+  "next_steps": [
+    "Obtain blood cultures",
+    "Start empiric broad-spectrum intravenous antibiotics (e.g., ceftriaxone and vancomycin)",
+    "Perform lumbar puncture",
+    "Obtain CBC with differential, inflammatory markers (CRP, ESR), and urinalysis",
+    "Consult pediatric infectious disease and cardiology",
+    "Perform an echocardiogram to evaluate for coronary artery aneurysms",
+    "Initiate intravenous immunoglobulin (IVIG) if Kawasaki disease remains the leading diagnosis"
+  ]
+}

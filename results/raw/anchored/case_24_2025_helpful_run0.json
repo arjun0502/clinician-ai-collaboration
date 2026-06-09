@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_24_2025",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Lyme carditis",
+    "Viral myocarditis",
+    "Multisystem inflammatory syndrome in adults (MIS-A)",
+    "Autoimmune myocarditis (e.g., giant cell myocarditis, sarcoidosis)",
+    "Drug-induced or supplement-induced hepatotoxicity with cardiac involvement",
+    "Post-acute sequelae of SARS-CoV-2 (PASC) with autonomic dysfunction",
+    "Infectious endocarditis"
+  ],
+  "next_steps": [
+    "Admit for continuous cardiac telemetry monitoring",
+    "Perform urgent echocardiography to evaluate for wall motion abnormalities, valvular disease, and ventricular function",
+    "Order Lyme disease antibody testing (ELISA with reflex to Western Blot)",
+    "Order additional cardiac markers including repeat high-sensitivity troponin and cardiac MRI",
+    "Initiate empiric intravenous ceftriaxone while awaiting infectious disease evaluation and testing results",
+    "Evaluate for medication-induced liver injury by discontinuing all herbal supplements",
+    "Review medication history for potential QT-prolonging or bradycardic agents"
+  ]
+}

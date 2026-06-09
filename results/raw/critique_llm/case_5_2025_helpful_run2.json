@@ -1,0 +1,29 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_5_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": "```json\n{\n  \"Differential Diagnosis\": [\n    \"Angiostrongylus cantonensis (Rat lungworm)\",\n    \"Neurognathostomiasis\",\n    \"Primary Amebic Meningoencephalitis (Balamuthia mandrillaris)\",\n    \"Neurocysticercosis\",\n    \"Tuberculous meningitis\",\n    \"Listeria monocytogenes meningitis\"\n  ],\n  \"Proposed Next Steps\": [\n    \"Send CSF for Angiostrongylus cantonensis PCR/NAAT\",\n    \"Send serum and CSF for Angiostrongylus serology\",\n    \"Serum and CSF immunodiagnostic testing for Gnathostoma spinigerum\",\n    \"Comprehensive CSF infectious panel (BioFire or equivalent) including Balamuthia and common viral pathogens\",\n    \"CSF cytology and flow cytometry to rule out malignancy\",\n    \"MRI of the brain and spine with contrast\",\n    \"Consult infectious disease and neurology\"\n  ],\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Angiostrongylus cantonensis\": {\n      \"Supporting\": \"History of travel to Hawaii/Thailand/Japan (endemic areas), consumption of raw produce/sushi, eosinophilic meningitis, progressive dysesthesia, headache, and altered mental status.\",\n      \"Against\": \"None significant.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Neurognathostomiasis\": {\n      \"Supporting\": \"Travel to Thailand/Japan, consumption of raw/undercooked seafood, migratory dysesthesia/radicular pain, eosinophilic meningitis.\",\n      \"Against\": \"Less common than Angiostrongylus in Hawaii/travelers.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Primary Amebic Meningoencephalitis (Balamuthia)\": {\n      \"Supporting\": \"Subacute meningitis, confusion, elevated CSF protein, low glucose.\",\n      \"Against\": \"Usually associated with soil exposure rather than ingestion; eosinophilia is not typical, though not impossible.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Neurocysticercosis\": {\n      \"Supporting\": \"Headache, mental status change, eosinophilia.\",\n      \"Against\": \"Less likely to present with acute severe eosinophilic meningitis without prior seizure history or calcifications on CT.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Tuberculous meningitis\": {\n      \"Supporting\": \"Subacute course, high protein, low glucose, lymphocytic pleocytosis.\",\n      \"Against\": \"CSF eosinophils are unusual (though can occur), duration of illness is relatively short for TB.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Listeria monocytogenes meningitis\": {\n      \"Supporting\": \"Low CSF glucose, subacute presentation, confusion.\",\n      \"Against\": \"Usually neutrophilic (though can be lymphocytic), not associated with eosinophilia.\",\n      \"Status\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Coccidioidomycosis (meningitis)\",\n    \"Leptospirosis\",\n    \"Paraneoplastic neurological syndrome (less likely given eosinophilia)\"\n  ],\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Angiostrongylus cantonensis NAAT\": \"Crucial; diagnostic standard, though sensitivity varies.\",\n    \"CSF for HSV and VZV\": \"Reasonable; must rule out common viral causes despite eosinophilic presentation.\",\n    \"Gabapentin/Amitriptyline\": \"Reasonable for symptomatic management, but diagnostic workup takes priority.\"\n  },\n  \"Missing Next Steps\": [\n    \"MRI brain and spine with contrast (essential to identify tracks or enhancement patterns)\",\n    \"Serum testing for Strongyloides and Gnathostoma serologies\",\n    \"Repeat CSF studies (if initial remains undiagnosed, to look for organism/larvae)\"\n  ],\n  \"Influence of Clinician Input\": \"The clinician's differential correctly prioritized Angiostrongylus, which is the most statistically likely diagnosis given the travel and diet. I adopted the Angiostrongylus suspicion heavily but added Gnathostoma and Balamuthia to broaden the differential for subacute eosinophilic meningitis, as Angiostrongylus is a diagnosis of exclusion in many settings.\",\n  \"Open Questions\": [\n    \"Results of follow-up CSF imaging (MRI)\",\n    \"Serum serologic results for parasitic infections\",\n    \"Detailed dietary exposure timeline to isolate specific high-risk foods (e.g., snails/slugs vs fish)\"\n  ]\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [],
+    "next_steps": []
+  },
+  "differential_diagnoses": [
+    "Angiostrongylus cantonensis meningitis (Rat lungworm disease)",
+    "Neurognathostomiasis",
+    "Primary amebic meningoencephalitis (Balamuthia mandrillaris)",
+    "Tuberculous meningitis",
+    "Coccidioidal meningitis",
+    "Strongyloidiasis (hyperinfection syndrome)",
+    "Paraneoplastic encephalomyelitis"
+  ],
+  "next_steps": [
+    "Perform contrast-enhanced MRI of the brain and entire spine to assess for meningeal enhancement or parasitic tracks",
+    "Send CSF for Angiostrongylus cantonensis real-time PCR",
+    "Send serum and CSF for specialized parasitic serologic testing (Gnathostoma, Strongyloides, Coccidioides)",
+    "Coordinate with CDC for specialized testing (e.g., Balamuthia mandrillaris IFA or PCR)",
+    "Repeat lumbar puncture if clinical status deteriorates or if initial results are inconclusive",
+    "Continue supportive care and symptomatic pain management for neuropathic symptoms",
+    "Maintain empirical broad-spectrum coverage until results return, specifically monitoring for signs of worsening cerebral edema"
+  ]
+}

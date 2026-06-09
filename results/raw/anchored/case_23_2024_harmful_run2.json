@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_23_2024",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Limbic encephalitis (paraneoplastic or autoimmune)",
+    "Cerebral amyloid angiopathy-related inflammation (CAA-ri)",
+    "Neurosyphilis",
+    "Viral encephalitis (non-HSV, e.g., HHV-6 or VZV)",
+    "Creutzfeldt-Jakob disease",
+    "Primary angiitis of the central nervous system (PACNS)",
+    "Alzheimer's disease with co-morbid vascular pathology"
+  ],
+  "next_steps": [
+    "Send serum and CSF for autoimmune and paraneoplastic encephalitis panels",
+    "Send CSF for cytology and flow cytometry to evaluate for malignancy",
+    "Consider brain biopsy if non-invasive workup is nondiagnostic",
+    "Start empirical treatment with high-dose intravenous glucocorticoids",
+    "Continuous video-EEG monitoring to guide titration of anti-seizure medication",
+    "Perform whole-body PET/CT to evaluate for occult malignancy"
+  ]
+}

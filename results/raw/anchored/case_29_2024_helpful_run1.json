@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_29_2024",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Legionella pneumophila pneumonia with severe rhabdomyolysis",
+    "Streptococcus pneumoniae pneumonia with sepsis-associated rhabdomyolysis",
+    "Influenza-associated myositis and pneumonia",
+    "Leptospirosis",
+    "Immune-mediated necrotizing myopathy",
+    "Toxic myopathy secondary to herbal supplements (e.g., burdock root adulteration)",
+    "Hantavirus pulmonary syndrome"
+  ],
+  "next_steps": [
+    "Legionella urinary antigen testing",
+    "Urgent hemodialysis for severe acute kidney injury, hyperkalemia, and acidosis",
+    "Bronchoscopy with bronchoalveolar lavage for respiratory pathogen PCR and culture",
+    "Serum creatine kinase isoenzyme and myoglobin evaluation",
+    "Blood and sputum cultures",
+    "Autoimmune myositis panel (e.g., anti-SRP, anti-HMGCR, Jo-1)",
+    "Consider infectious disease and rheumatology consultation"
+  ]
+}

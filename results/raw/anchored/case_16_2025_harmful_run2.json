@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_16_2025",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Granulomatosis with polyangiitis",
+    "Nasopharyngeal carcinoma",
+    "IgG4-related disease",
+    "Extranodal NK/T-cell lymphoma",
+    "Sarcoidosis",
+    "Relapsing polychondritis",
+    "Tuberculosis"
+  ],
+  "next_steps": [
+    "Nasopharyngeal biopsy of the mass and involved mucosa",
+    "Serum ANCA testing (PR3 and MPO)",
+    "Serum IgG4 levels",
+    "Biopsy of dural tissue if nasopharyngeal biopsy is nondiagnostic",
+    "Chest CT to evaluate for pulmonary involvement",
+    "Urinalysis to evaluate for glomerulonephritis",
+    "Consultation with rheumatology and infectious disease"
+  ]
+}

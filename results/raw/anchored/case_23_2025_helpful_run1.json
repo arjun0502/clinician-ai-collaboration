@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_23_2025",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Pulmonary veno-occlusive disease (PVOD)",
+    "Pulmonary capillary hemangiomatosis (PCH)",
+    "Systemic sclerosis-associated pulmonary arterial hypertension",
+    "Connective tissue disease-associated pulmonary vasculopathy",
+    "Sarcoidosis",
+    "Chronic hypersensitivity pneumonitis"
+  ],
+  "next_steps": [
+    "Urgent evaluation for lung transplantation",
+    "Genetic testing for EIF2AK4 mutations",
+    "Bronchoscopy with bronchoalveolar lavage for cytology and cell count",
+    "Lung biopsy (if clinically stable enough, though high risk)",
+    "Careful titration or discontinuation of pulmonary vasodilators due to risk of pulmonary edema",
+    "Consideration of bridge to transplant with extracorporeal membrane oxygenation (ECMO) if hemodynamic collapse occurs"
+  ]
+}

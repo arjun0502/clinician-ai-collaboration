@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_9_2024",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Infected aortic pseudoaneurysm (mycotic aneurysm)",
+    "Staphylococcus aureus infective endocarditis",
+    "Aortic dissection (complicated by mycotic aneurysm)",
+    "Aortitis",
+    "Septic emboli resulting from S. aureus bacteremia",
+    "Pulmonary embolism",
+    "Acute coronary syndrome"
+  ],
+  "next_steps": [
+    "Urgent CT angiography of the chest/abdomen with contrast to assess aortic morphology and rule out progression of pseudoaneurysm",
+    "Transesophageal echocardiography to evaluate for vegetation and valvular involvement",
+    "Continuous cardiac telemetry and frequent monitoring of blood pressure",
+    "Infectious disease consultation to optimize antibiotic regimen for MSSA bacteremia",
+    "Vascular surgery consultation for potential definitive intervention of aortic pathology"
+  ]
+}

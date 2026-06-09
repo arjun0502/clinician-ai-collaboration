@@ -1,0 +1,27 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_33_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": "{\n  \"Evaluation of Each Clinician Diagnosis\": {\n    \"Bipolar I disorder relapse\": {\n      \"Support\": \"History of bipolar I disorder, recent cessation of meds, and current paranoid behavior/confusion.\",\n      \"Against\": \"Presence of new-onset seizure, tachycardia, and altered mental status with impaired orientation/attention point toward an underlying medical or organic etiology (delirium) rather than primary mania.\",\n      \"Verdict\": \"Weakly supported (as the primary cause of current presentation).\"\n    },\n    \"Complicated alcohol withdrawal\": {\n      \"Support\": \"History of daily alcohol use, tachycardia, confusion, and seizure.\",\n      \"Against\": \"Benzodiazepines were administered upon admission, and toxicology was positive for benzodiazepines; severe withdrawal is less likely given the supportive care provided in the ED.\",\n      \"Verdict\": \"Weakly supported.\"\n    },\n    \"Graves\u2019 disease\": {\n      \"Support\": \"Remote history of hyperthyroidism, tachycardia, agitation, and restlessness.\",\n      \"Against\": \"Lack of classic signs like ophthalmopathy, goiter, tremor, or diaphoresis.\",\n      \"Verdict\": \"Well-supported (high priority).\"\n    },\n    \"Lithium-induced thyrotoxicosis\": {\n      \"Support\": \"Patient has a history of lithium use.\",\n      \"Against\": \"Serum lithium level is currently below detection, and the patient has been off lithium.\",\n      \"Verdict\": \"Unsupported.\"\n    },\n    \"Benzodiazepine withdrawal\": {\n      \"Support\": \"History of benzodiazepine use.\",\n      \"Against\": \"Toxicology positive for benzodiazepines at time of admission; unlikely to be in withdrawal while testing positive.\",\n      \"Verdict\": \"Unsupported.\"\n    },\n    \"Subacute painless thyroiditis\": {\n      \"Support\": \"Possible cause of transient thyrotoxicosis leading to tachycardia and delirium in a patient with a thyroid history.\",\n      \"Against\": \"No specific evidence provided; requires thyroid studies for confirmation.\",\n      \"Verdict\": \"Well-supported.\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Anti-NMDA receptor encephalitis\",\n    \"Thyrotoxic storm (thyroid storm)\",\n    \"Wernicke's encephalopathy\",\n    \"Electrolyte disturbances (though serum levels reported normal, timing and context of previous meds matter)\"\n  ],\n  \"Evaluation of Each Proposed Next Step\": {\n    \"Continued and titrated beta-blocker therapy\": {\n      \"Verdict\": \"Reasonable for management of tachycardia, but premature without thyroid function confirmation; caution needed if patient is experiencing intermittent hypotension or conduction issues post-seizure.\"\n    },\n    \"Outpatient Endocrine/Psychiatric Follow-up\": {\n      \"Verdict\": \"Inadequate. The patient is currently suffering from acute delirium and a new-onset seizure; this requires inpatient management.\"\n    },\n    \"Order thyroid function tests (TSH, total T4, free T4)\": {\n      \"Verdict\": \"Essential and critical.\"\n    }\n  },\n  \"Missing Next Steps\": [\n    \"Measurement of serum TSH, Free T4, and T3 to definitively rule out thyrotoxicosis.\",\n    \"Measurement of TSH-receptor antibodies (TRAb) to evaluate for Graves' disease.\",\n    \"Thiamine supplementation (to prevent/treat potential Wernicke's encephalopathy given history of alcohol use).\",\n    \"Comprehensive metabolic panel review (confirming no subtle electrolyte shifts).\",\n    \"Formal neuro-psychiatric consultation to evaluate for autoimmune encephalitis.\"\n  ],\n  \"Open Questions\": [\n    \"What are the specific results of the thyroid function tests (TSH, Free T4, T3)?\",\n    \"Is there a history of thyroid-related surgeries or radioactive iodine treatment?\",\n    \"Could this be 'thyroid storm' (Burch-Wartofsky score calculation is needed)?\",\n    \"Are there any signs of autonomic instability beyond tachycardia (e.g., hyperpyrexia) that have been missed?\"\n  ]\n}",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Thyroid storm",
+    "Anti-NMDA receptor encephalitis",
+    "Wernicke's encephalopathy",
+    "Alcohol withdrawal syndrome (atypical/protracted)",
+    "Bipolar I disorder with catatonic or delirious features",
+    "Subacute thyroiditis",
+    "Occult substance toxicity or withdrawal (e.g., non-benzodiazepine GABAergic agents)",
+    "Metabolic encephalopathy"
+  ],
+  "next_steps": [
+    "Obtain serum TSH, free T4, total T3, and TSH-receptor antibody (TRAb) levels immediately",
+    "Initiate intravenous thiamine for potential Wernicke's encephalopathy",
+    "Calculate Burch-Wartofsky Point Scale to assess for thyroid storm",
+    "Consider lumbar puncture for NMDA receptor antibody testing in CSF",
+    "Perform continuous bedside telemetry monitoring for arrhythmias",
+    "Monitor thyroid-related cardiovascular symptoms and initiate appropriate pharmacological blockade if thyrotoxicosis is confirmed",
+    "Evaluate for autonomic instability (fever, fluctuating blood pressure) and provide supportive care"
+  ]
+}

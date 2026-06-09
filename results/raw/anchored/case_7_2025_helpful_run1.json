@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_7_2025",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Metastatic carcinoma (e.g., lung or occult primary) with bone marrow infiltration",
+    "Hemophagocytic lymphohistiocytosis (HLH)",
+    "Myelodysplastic syndrome (MDS) with myelofibrosis",
+    "Occult malignancy-associated paraneoplastic syndrome",
+    "Disseminated tuberculosis or fungal infection",
+    "Acute leukemia",
+    "Chronic myelomonocytic leukemia (CMML)"
+  ],
+  "next_steps": [
+    "Bone marrow aspiration and biopsy with flow cytometry and cytogenetics",
+    "CT scan of the chest (high-resolution) to further evaluate pulmonary nodules",
+    "Serum soluble IL-2 receptor level and NK cell activity assay to investigate HLH",
+    "Repeat peripheral blood smear by a hematopathologist",
+    "Oncology and hematology subspecialty consultation",
+    "Maintain supportive care including transfusions as clinically indicated"
+  ]
+}

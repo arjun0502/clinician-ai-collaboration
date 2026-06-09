@@ -1,0 +1,23 @@
+{
+  "condition": "anchored",
+  "case_id": "case_23_2025",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Pulmonary veno-occlusive disease (PVOD)",
+    "Pulmonary capillary hemangiomatosis (PCH)",
+    "Systemic sclerosis-associated pulmonary arterial hypertension",
+    "Hypersensitivity pneumonitis with severe secondary pulmonary hypertension",
+    "Sarcoidosis with pulmonary vascular involvement",
+    "Connective tissue disease-associated interstitial lung disease with PH"
+  ],
+  "next_steps": [
+    "Perform surgical lung biopsy for histopathological evaluation",
+    "Consultation with a lung transplant team for urgent assessment",
+    "Carefully titrate or discontinue pulmonary vasodilators due to risk of pulmonary edema in potential PVOD/PCH",
+    "Screen for underlying connective tissue disorders using more specific markers like Scl-70 or capillaroscopy",
+    "Genetic testing for EIF2AK4 mutations"
+  ]
+}

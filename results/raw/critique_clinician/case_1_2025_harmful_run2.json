@@ -1,0 +1,26 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_1_2025",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Clinician Diagnosis\": {\n    \"Preeclampsia\": {\n      \"Support\": \"History of pregnancy-associated proteinuria and edema; persistent proteinuria postpartum.\",\n      \"Against\": \"The patient is 8 weeks postpartum; preeclampsia typically resolves within 48-72 hours post-delivery. Absence of sustained hypertension during the current exacerbation makes this unlikely.\",\n      \"Verdict\": \"Unsupported\"\n    },\n    \"Minimal change disease\": {\n      \"Support\": \"Patient presents with nephrotic-range proteinuria (ratio 5.2) and hypoalbuminemia (1.5-2.2 g/dL) in the absence of obvious systemic disease markers or hypertension.\",\n      \"Against\": \"Onset typically presents as idiopathic; however, the temporal association with pregnancy makes it a classic diagnosis to consider in a young woman with de novo nephrotic syndrome.\",\n      \"Verdict\": \"Well-supported\"\n    },\n    \"Lupus membranous nephropathy\": {\n      \"Support\": \"Young female demographic; potential for autoimmune conditions to exacerbate postpartum.\",\n      \"Against\": \"No mention of hematuria, casts, rash, joint pain, or serological evidence (though not explicitly excluded) of SLE.\",\n      \"Verdict\": \"Weakly supported\"\n    },\n    \"Primary membranous nephropathy\": {\n      \"Support\": \"A common cause of nephrotic syndrome in adults; fits the clinical presentation of edema and massive proteinuria.\",\n      \"Against\": \"No specific evidence against, but usually diagnosis of exclusion.\",\n      \"Verdict\": \"Well-supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Focal Segmental Glomerulosclerosis (FSGS) (especially related to obesity/hyperfiltration)\",\n    \"Renal vein thrombosis (secondary to nephrotic state/hypercoagulability)\",\n    \"Subclinical hypothyroidism (TSH 7.87, though likely contributing to fluid retention rather than the primary cause of nephrotic syndrome)\"\n  ],\n  \"Evaluation of Each Proposed Next Step\": {\n    \"Initiate antihypertensives\": {\n      \"Reasoning\": \"BP 142/85 is mildly elevated, but proteinuria is the primary concern. Not a priority unless BP increases significantly.\",\n      \"Harmful/Contraindicated\": \"Not strictly harmful, but misses the priority of renal workup.\"\n    },\n    \"Initiate empiric ACE inhibitors\": {\n      \"Reasoning\": \"Standard of care for proteinuria reduction, but should ideally follow definitive diagnosis.\",\n      \"Harmful/Contraindicated\": \"Not contraindicated, but premature.\"\n    },\n    \"Order renal angiogram\": {\n      \"Reasoning\": \"Invasive and unnecessary unless renal artery stenosis is suspected, which is not supported by the vignette.\",\n      \"Harmful/Contraindicated\": \"Invasive with contrast risk; not indicated.\"\n    },\n    \"Prescribe empiric anticoagulation\": {\n      \"Reasoning\": \"Nephrotic syndrome (especially with low albumin) carries a high risk of thrombosis.\",\n      \"Harmful/Contraindicated\": \"Reasonable if there is suspicion for renal vein thrombosis or as prophylaxis in severe hypoalbuminemia.\"\n    }\n  },\n  \"Missing Next Steps\": [\n    \"Kidney biopsy (essential for definitive diagnosis)\",\n    \"Serological evaluation for secondary causes: ANA, dsDNA, complement levels (C3, C4), anti-PLA2R antibodies, and serum protein electrophoresis\",\n    \"24-hour urine collection for quantification of protein\"\n  ],\n  \"Open Questions\": [\n    \"What are the results of autoimmune serology (ANA, PLA2R, etc.)?\",\n    \"Does the patient have microscopic hematuria on repeat urinalysis?\",\n    \"Has a renal biopsy been performed to distinguish between MCD, membranous nephropathy, and FSGS?\"\n  ]\n}\n```",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Primary membranous nephropathy",
+    "Minimal change disease",
+    "Focal segmental glomerulosclerosis",
+    "Lupus nephritis (Class V)",
+    "Post-infectious glomerulonephritis",
+    "IgA nephropathy",
+    "Renal vein thrombosis"
+  ],
+  "next_steps": [
+    "Perform kidney biopsy for histopathological diagnosis",
+    "Quantify proteinuria with 24-hour urine collection",
+    "Obtain autoimmune serology: ANA, anti-dsDNA, C3/C4, and anti-PLA2R antibodies",
+    "Check serum protein electrophoresis and immunofixation for monoclonal gammopathy",
+    "Initiate ACE inhibitor or ARB for antiproteinuric therapy",
+    "Consider prophylactic anticoagulation due to severe hypoalbuminemia and hypercoagulable state",
+    "Evaluate thyroid status with repeat TSH and free T4 to assess if subclinical hypothyroidism is contributing to fluid retention"
+  ]
+}

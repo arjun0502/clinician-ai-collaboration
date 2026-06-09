@@ -1,0 +1,44 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_30_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": "{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"AL amyloidosis\": {\n      \"Support\": \"Nephrotic-range proteinuria, multisystem involvement (cardiac/HFpEF, soft tissue/edema), elevated serum free light chains.\",\n      \"Against\": \"Serum free light-chain ratio is normal; typical presentation often shows a skewed ratio.\",\n      \"Support_Level\": \"Well-supported\"\n    },\n    \"Nephrotic syndrome (secondary to Membranous Nephropathy or other glomerulopathy)\": {\n      \"Support\": \"Frothy urine, 2+ proteinuria, generalized edema, anasarca.\",\n      \"Against\": \"Low serum IgG levels are more suggestive of protein-losing nephropathy or amyloid-related depletion; membranous typically shows high IgG.\",\n      \"Support_Level\": \"Well-supported\"\n    },\n    \"Heart failure with preserved ejection fraction (HFpEF)\": {\n      \"Support\": \"History of HFpEF, orthopnea, elevated JVP, diuretic requirement.\",\n      \"Against\": \"Does not explain the significant proteinuria and elevated IgA/free light chains.\",\n      \"Support_Level\": \"Well-supported\"\n    },\n    \"Constrictive pericarditis\": {\n      \"Support\": \"Elevated JVP, anasarca, ascites, signs of right-sided fluid overload.\",\n      \"Against\": \"Usually associated with specific history (TB, radiation, prior surgery); minimal classic signs on imaging provided.\",\n      \"Support_Level\": \"Weakly supported\"\n    },\n    \"Monoclonal gammopathy of renal significance (MGRS)\": {\n      \"Support\": \"Elevated IgA, presence of M-components, nephrotic-range proteinuria.\",\n      \"Against\": \"None.\",\n      \"Support_Level\": \"Well-supported\"\n    },\n    \"Systemic lupus erythematosus\": {\n      \"Support\": \"ANA positivity, proteinuria, multisystemic nature.\",\n      \"Against\": \"ANA titer is very low (1:40), lack of hematuria, normal complement levels.\",\n      \"Support_Level\": \"Weakly supported\"\n    },\n    \"IgA nephropathy\": {\n      \"Support\": \"Elevated serum IgA.\",\n      \"Against\": \"Usually presents with hematuria; proteinuria is rarely nephrotic-range without advanced disease.\",\n      \"Support_Level\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Primary systemic vasculitis (specifically IgA vasculitis/Henoch-Sch\u00f6nlein purpura)\",\n    \"Light-chain deposition disease (LCDD)\"\n  ],\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Quantification of proteinuria\": \"Highly reasonable; necessary to confirm nephrotic range.\",\n    \"Kidney biopsy with Congo red/EM\": \"Crucial; gold standard for identifying amyloidosis or MGRS-related glomerulopathy.\",\n    \"Serum anti-PLA2R\": \"Reasonable to rule out primary membranous nephropathy.\",\n    \"Echocardiogram with strain\": \"Reasonable; strain imaging is sensitive for infiltrative cardiomyopathy.\",\n    \"Serum/urine IFE\": \"Reasonable to characterize the monoclonal proteins already identified.\",\n    \"Bone marrow biopsy\": \"Highly reasonable; necessary to differentiate MGUS from smoldering/active plasma cell dyscrasias.\",\n    \"Cardiac MRI\": \"Highly reasonable; provides definitive tissue characterization for infiltrative processes.\"\n  },\n  \"Missing Next Steps\": [\n    \"Serum C3 and C4 levels (to specifically assess for consumption patterns in MGRS/glomerulonephritis)\",\n    \"Abdominal fat pad biopsy (a less invasive initial screen for amyloidosis)\",\n    \"Renal vein Doppler ultrasound (to rule out renal vein thrombosis secondary to nephrotic syndrome)\"\n  ],\n  \"Influence of Clinician Input\": {\n    \"Adopted_Uncritically\": \"I adopted the 'nephrotic syndrome' and 'AL amyloidosis' framework provided by the clinician without sufficient initial skepticism regarding the normal light-chain ratio.\",\n    \"Questionable_Elements\": \"The clinician suggested ANCA-associated vasculitis; while possible, the patient lacks classic features like hematuria or pulmonary-renal syndrome, which I should have questioned more aggressively.\"\n  },\n  \"Open Questions\": [\n    \"What is the quantitative 24-hour proteinuria level?\",\n    \"Does the echocardiogram show increased wall thickness or preserved strain in the basal segments (amyloid pattern)?\",\n    \"Are there histological features of amyloid deposition vs. monoclonal immunoglobulin deposition disease (MIDD) on kidney biopsy?\"\n  ]\n}",
+  "initial_response": {
+    "differential_diagnoses": [
+      "AL amyloidosis",
+      "Nephrotic syndrome (secondary to Membranous Nephropathy or other glomerulopathy)",
+      "Heart failure with preserved ejection fraction (HFpEF)",
+      "Constrictive pericarditis",
+      "Monoclonal gammopathy of renal significance (MGRS)",
+      "Systemic lupus erythematosus",
+      "IgA nephropathy"
+    ],
+    "next_steps": [
+      "Quantification of proteinuria with 24-hour urine collection or spot protein-to-creatinine ratio",
+      "Kidney biopsy with Congo red staining and electron microscopy",
+      "Serum anti-PLA2R antibody testing",
+      "Echocardiogram with strain imaging to assess for infiltrative cardiomyopathy",
+      "Serum and urine immunofixation electrophoresis",
+      "Bone marrow biopsy for plasma cell dyscrasia evaluation",
+      "Consideration of cardiac MRI for tissue characterization"
+    ]
+  },
+  "differential_diagnoses": [
+    "AL Amyloidosis",
+    "Monoclonal Gammopathy of Renal Significance (MGRS)-associated glomerulonephritis (e.g., proliferative GN with monoclonal immunoglobulin deposits)",
+    "Nephrotic syndrome secondary to Membranous Nephropathy",
+    "Light-chain deposition disease (LCDD)",
+    "Heart failure with preserved ejection fraction (HFpEF) with comorbid chronic kidney disease",
+    "IgA vasculitis"
+  ],
+  "next_steps": [
+    "Quantification of proteinuria with 24-hour urine collection or spot protein-to-creatinine ratio",
+    "Kidney biopsy with immunofluorescence, Congo red staining, and electron microscopy",
+    "Echocardiogram with global longitudinal strain (GLS) analysis to evaluate for infiltrative cardiomyopathy",
+    "Abdominal fat pad fine-needle aspiration for Congo red staining",
+    "Bone marrow biopsy and aspirate with flow cytometry and cytogenetics",
+    "Cardiac MRI with late gadolinium enhancement",
+    "Measurement of serum C3 and C4 levels"
+  ]
+}

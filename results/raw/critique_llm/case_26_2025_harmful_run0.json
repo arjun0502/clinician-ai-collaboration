@@ -1,0 +1,43 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_26_2025",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": "{\n  \"Evaluation_of_Each_Diagnosis_You_Listed\": {\n    \"Bartonella_henselae_infection\": {\n      \"Support\": \"New kitten exposure, multifocal lytic bone/liver/spleen lesions, systemic presentation.\",\n      \"Against\": \"Lack of classic regional lymphadenopathy; elevated liver enzymes are often, but not always, present.\",\n      \"Support_Level\": \"Well-supported\"\n    },\n    \"Chronic_Recurrent_Multifocal_Osteomyelitis_CRMO\": {\n      \"Support\": \"Multifocal sterile bone lesions, classic age and presentation, waxing and waning pain.\",\n      \"Against\": \"Liver and splenic involvement is generally rare in isolated CRMO.\",\n      \"Support_Level\": \"Well-supported\"\n    },\n    \"Langerhans_cell_histiocytosis\": {\n      \"Support\": \"Multifocal bone lesions and visceral (liver/spleen) involvement is a classic pattern (LCH multisystem).\",\n      \"Against\": \"No characteristic rash, no diabetes insipidus, no respiratory symptoms (pulmonary LCH).\",\n      \"Support_Level\": \"Well-supported\"\n    },\n    \"Metastatic_malignancy\": {\n      \"Support\": \"Multifocal lesions in bone and viscera.\",\n      \"Against\": \"Acute/subacute presentation with rapid resolution of symptoms with NSAIDs; absence of systemic constitutional symptoms (weight loss, fevers).\",\n      \"Support_Level\": \"Weakly supported\"\n    },\n    \"Leukemia_Lymphoma\": {\n      \"Support\": \"Multifocal lesions, common in pediatric age group.\",\n      \"Against\": \"Normal CBC/smear; no constitutional symptoms.\",\n      \"Support_Level\": \"Weakly supported\"\n    },\n    \"Disseminated_fungal_infection\": {\n      \"Support\": \"Multifocal liver/spleen/bone lesions (e.g., Histoplasmosis, Candidiasis).\",\n      \"Against\": \"Patient is immunocompetent (no history of neutropenia/prolonged immunosuppression); resides in Massachusetts (uncommon for Histoplasmosis).\",\n      \"Support_Level\": \"Unsupported\"\n    },\n    \"Mycobacterial_infection\": {\n      \"Support\": \"Multifocal granulomatous-like lesions.\",\n      \"Against\": \"Lack of chronic constitutional symptoms (night sweats, weight loss), BCG status not mentioned, no known exposure.\",\n      \"Support_Level\": \"Weakly supported\"\n    }\n  },\n  \"Missing_Diagnoses\": [\n    \"Chronic Granulomatous Disease (CGD) - given history of recurrent MRSA skin infections.\",\n    \"Sarcoidosis - can cause multifocal bone and hepatic/splenic involvement (though rare in this age group).\",\n    \"Bartonella-associated osteomyelitis with peliosis hepatis.\"\n  ],\n  \"Evaluation_of_Each_Next_Step_You_Proposed\": {\n    \"Bone_biopsy\": \"Reasonable; Gold standard for diagnosing LCH, CRMO, or malignancy.\",\n    \"Liver_or_splenic_biopsy\": \"Reasonable, but invasive. Should be deferred until less invasive diagnostic tests (serology) are exhausted.\",\n    \"Bartonella_serology\": \"Highly reasonable given kitten exposure.\",\n    \"Comprehensive_ID_workup\": \"Reasonable, though should prioritize specific high-yield tests based on the kitten history.\",\n    \"CBC_with_smear_flow_cytometry\": \"Essential to rule out hematologic malignancy.\",\n    \"Inflammatory_markers\": \"Essential to support inflammatory versus neoplastic processes.\"\n  },\n  \"Missing_Next_Steps\": [\n    \"Nitroblue tetrazolium (NBT) test or DHR flow cytometry to rule out Chronic Granulomatous Disease (given history of recurrent MRSA).\",\n    \"Detailed ophthalmologic exam (Bartonella can cause neuroretinitis).\",\n    \"Consultation with pediatric rheumatology (for CRMO workup) and pediatric infectious disease.\"\n  ],\n  \"Influence_of_Clinician_Input\": {\n    \"Assessment\": \"The clinician's differential provided a framework for neoplastic vs inflammatory causes. I adopted the 'LCH' and 'CRMO' suggestions but integrated the 'Bartonella' hypothesis due to the crucial detail of the new kitten mentioned in the vignette, which the clinician's initial differential overlooked.\"\n  },\n  \"Open_Questions\": [\n    \"What are the results of the inflammatory markers (ESR, CRP)?\",\n    \"What is the result of the Bartonella henselae serology?\",\n    \"Does the patient have a history of impaired oxidative burst (given recurrent MRSA)?\",\n    \"What is the histopathology of the lesion?\"\n  ]\n}",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Bartonella henselae infection (Cat Scratch Disease)",
+      "Chronic Recurrent Multifocal Osteomyelitis (CRMO)",
+      "Langerhans cell histiocytosis",
+      "Metastatic malignancy (e.g., Ewing sarcoma, neuroblastoma)",
+      "Leukemia/Lymphoma",
+      "Disseminated fungal infection",
+      "Mycobacterial infection"
+    ],
+    "next_steps": [
+      "Perform a bone biopsy of a lesion for histopathology and cultures",
+      "Perform a liver or splenic biopsy for tissue diagnosis",
+      "Order serology for Bartonella henselae (IgG and IgM)",
+      "Perform comprehensive infectious disease workup (Bartonella PCR, QuantiFERON-TB Gold, fungal studies)",
+      "Complete blood count with peripheral blood smear and flow cytometry",
+      "Evaluate for inflammatory markers (ESR, CRP)"
+    ]
+  },
+  "differential_diagnoses": [
+    "Bartonella henselae infection (Cat-scratch disease)",
+    "Chronic Recurrent Multifocal Osteomyelitis (CRMO)",
+    "Langerhans cell histiocytosis (LCH)",
+    "Chronic Granulomatous Disease (CGD)",
+    "Metastatic neuroblastoma",
+    "Leukemia/Lymphoma",
+    "Disseminated fungal infection"
+  ],
+  "next_steps": [
+    "Test for Chronic Granulomatous Disease (DHR flow cytometry or NBT test)",
+    "Bartonella henselae serology (IgG/IgM) and PCR",
+    "Bone biopsy for histopathology, microbiology, and molecular studies",
+    "CBC with peripheral smear and inflammatory markers (ESR, CRP)",
+    "Consultation with pediatric infectious disease, rheumatology, and oncology",
+    "Ophthalmologic examination for neuroretinitis"
+  ]
+}

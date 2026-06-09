@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_19_2025",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Powassan virus encephalitis",
+    "JC virus granule-cell neuronopathy",
+    "Recurrent leptomeningeal lymphoma",
+    "Varicella-zoster virus (VZV) encephalitis",
+    "Listeria monocytogenes rhombencephalitis",
+    "Paraneoplastic cerebellar degeneration",
+    "West Nile virus encephalitis"
+  ],
+  "next_steps": [
+    "Perform CSF testing for arboviruses (specifically Powassan virus IgM and PCR)",
+    "Perform CSF testing for JC virus DNA PCR",
+    "Perform CSF testing for VZV DNA PCR",
+    "Perform CSF testing for paraneoplastic and autoimmune encephalitis panels",
+    "Repeat CSF cytology and flow cytometry, potentially adding immunohistochemistry for lymphoma markers",
+    "Consider brain biopsy if non-invasive infectious/malignancy workup remains inconclusive",
+    "Maintain supportive care and continue broad-spectrum antimicrobial coverage pending specific results"
+  ]
+}

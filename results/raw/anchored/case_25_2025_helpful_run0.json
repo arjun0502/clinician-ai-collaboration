@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_25_2025",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Symptomatic severe aortic stenosis",
+    "Iron-deficiency anemia (likely gastrointestinal blood loss)",
+    "Heart failure with preserved ejection fraction",
+    "Coronary artery disease",
+    "Chronotropic incompetence",
+    "Pulmonary pathology related to chronic granulomatosis with polyangiitis"
+  ],
+  "next_steps": [
+    "Obtain complete blood count and iron studies",
+    "Perform transthoracic echocardiography to reassess aortic valve severity and hemodynamic status",
+    "Perform electrocardiogram and consider cardiac telemetry for arrhythmia surveillance",
+    "Obtain NT-proBNP and high-sensitivity troponin levels",
+    "Evaluate for occult gastrointestinal blood loss given age and anticoagulant use",
+    "Pulmonary function testing or high-resolution CT chest to assess for progression of ILD or sequelae of GPA"
+  ]
+}

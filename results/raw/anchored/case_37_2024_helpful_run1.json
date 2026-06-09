@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_37_2024",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Postictal psychosis",
+    "Ictal psychosis",
+    "Interictal psychosis",
+    "Nonconvulsive status epilepticus",
+    "Psychogenic nonepileptic seizures (PNES)",
+    "Delirium (metabolic, toxic, or secondary to medication)",
+    "Autoimmune encephalitis"
+  ],
+  "next_steps": [
+    "Extended video-EEG monitoring to capture and characterize the episodes of agitation and cognitive alteration",
+    "Comprehensive metabolic panel and toxicology screen to rule out acute causes of delirium",
+    "Lumbar puncture to evaluate for autoimmune or paraneoplastic limbic encephalitis",
+    "MRI repeat with epilepsy protocol to exclude new structural lesions or infiltrative processes",
+    "Formal psychiatric consultation for management of persistent psychosis and agitation",
+    "Review of medication side effects and potential drug-drug interactions, particularly regarding carbamazepine and clobazam",
+    "Multidisciplinary team conference to evaluate suitability for surgical resection given the mesial temporal lobe focus"
+  ]
+}

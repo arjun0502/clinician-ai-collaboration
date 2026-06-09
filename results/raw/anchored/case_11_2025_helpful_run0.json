@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_11_2025",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Lymphoma (e.g., MALT lymphoma or Diffuse Large B-cell lymphoma)",
+    "Tuberculous pleurisy",
+    "Metastatic carcinoma (e.g., adenocarcinoma of the lung)",
+    "Plasma cell neoplasm (e.g., extramedullary plasmacytoma)",
+    "Chronic empyema/parapneumonic effusion",
+    "Systemic sarcoidosis",
+    "IgG4-related disease"
+  ],
+  "next_steps": [
+    "Pleural fluid flow cytometry and immunophenotyping",
+    "Pleural fluid cytology and cell block analysis",
+    "CT of the chest, abdomen, and pelvis with contrast",
+    "Pleural biopsy (if fluid analysis is nondiagnostic)",
+    "Serum and urine protein electrophoresis with immunofixation",
+    "Serum free light chain assay",
+    "PET-CT scan to identify potential biopsy sites"
+  ]
+}

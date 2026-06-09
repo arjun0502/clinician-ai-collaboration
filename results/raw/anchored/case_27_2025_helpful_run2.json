@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_27_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Chagas disease (Trypanosoma cruzi cardiomyopathy)",
+    "Alcohol-associated cardiomyopathy",
+    "Genetic/Familial dilated cardiomyopathy",
+    "Cardiac sarcoidosis",
+    "Remote viral myocarditis",
+    "Takotsubo cardiomyopathy",
+    "Coronary artery embolism from left ventricular thrombus"
+  ],
+  "next_steps": [
+    "Serologic testing for Trypanosoma cruzi antibodies",
+    "Implantable cardioverter-defibrillator (ICD) implantation for primary prevention of sudden cardiac death",
+    "Genetic counseling and comprehensive cardiomyopathy panel testing",
+    "Continued guideline-directed medical therapy with close monitoring of ventricular function",
+    "Long-term anticoagulation management",
+    "Holter monitoring to assess for persistent high-grade arrhythmias"
+  ]
+}

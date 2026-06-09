@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_1_2024",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Echis ocellatus envenomation with systemic envenomation (hemotoxic)",
+    "Acute placental abruption",
+    "Disseminated intravascular coagulation (DIC)",
+    "Acute kidney injury (likely secondary to acute tubular necrosis or cortical necrosis)",
+    "HELLP syndrome",
+    "Hypovolemic shock"
+  ],
+  "next_steps": [
+    "Immediate removal of the tourniquet",
+    "Administration of polyvalent snake antivenom",
+    "Fluid resuscitation and hematologic support with blood products (fresh frozen plasma, platelets, packed red blood cells)",
+    "Continuous fetal and maternal monitoring",
+    "Emergency obstetric consultation for evaluation of placental abruption and potential delivery",
+    "Urgent transfer to a facility capable of dialysis and comprehensive obstetric care",
+    "Laboratory monitoring of hemoglobin, platelet count, fibrinogen, and renal function"
+  ]
+}

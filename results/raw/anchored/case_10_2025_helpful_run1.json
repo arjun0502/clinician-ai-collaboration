@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_10_2025",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Systemic Lupus Erythematosus (SLE) with lupus nephritis and secondary antiphospholipid syndrome",
+    "Primary Antiphospholipid Syndrome (APS) presenting with catastrophic APS",
+    "Nephrotic syndrome with secondary hypercoagulability leading to bilateral renal vein thrombosis and pulmonary thromboembolism",
+    "Membranous nephropathy with secondary renal vein thrombosis",
+    "ANCA-associated vasculitis with pulmonary-renal syndrome",
+    "Infectious pneumonia with reactive thrombotic complications"
+  ],
+  "next_steps": [
+    "Initiate full therapeutic anticoagulation (e.g., heparin infusion)",
+    "Perform serum immunologic workup: ANA, dsDNA, complement levels (C3/C4), anti-phospholipid antibody panel (lupus anticoagulant, anticardiolipin, anti-beta-2 glycoprotein I)",
+    "Consult Nephrology for potential kidney biopsy to determine etiology of nephrotic syndrome",
+    "Consult Rheumatology for evaluation of systemic inflammatory disease",
+    "Obtain renal vein Doppler ultrasound or follow-up CT angiography if hemodynamically stable",
+    "Continue broad-spectrum antibiotics pending blood/sputum culture results",
+    "Monitor for signs of Catastrophic Antiphospholipid Syndrome (CAPS) and organ failure"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_13_2025",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Cryptococcal meningitis",
+    "Cushing's syndrome (ectopic or adrenal)",
+    "Bacterial meningitis (Listeria monocytogenes)",
+    "Coccidioidal meningitis",
+    "Tuberculous meningitis",
+    "Carcinomatous meningitis",
+    "Primary central nervous system lymphoma"
+  ],
+  "next_steps": [
+    "Start empirical treatment with amphotericin B and flucytosine",
+    "Perform cryptococcal antigen testing on both serum and CSF",
+    "Send CSF for fungal culture, India ink stain, and PCR for infectious pathogens including Listeria and Mycobacterium tuberculosis",
+    "Perform 24-hour urine collection for free cortisol and fractionated catecholamines/metanephrines",
+    "Obtain plasma ACTH and serum cortisol levels",
+    "Consult neurosurgery for evaluation of elevated intracranial pressure and potential external ventricular drain"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_6_2025",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Chronic portal vein thrombosis secondary to prior abdominal trauma",
+    "Hepatic schistosomiasis",
+    "Non-cirrhotic portal hypertension (idiopathic portal hypertension)",
+    "Budd-Chiari syndrome",
+    "Constrictive pericarditis",
+    "Alcoholic cirrhosis",
+    "Wilson's disease"
+  ],
+  "next_steps": [
+    "Perform a liver biopsy with specialized stains for parasitic ova and fibrosis patterns",
+    "Obtain a transthoracic echocardiogram to rule out right-sided heart failure or constrictive pericarditis",
+    "Check serum ceruloplasmin and 24-hour urinary copper to rule out Wilson's disease",
+    "Perform serologic testing for Schistosoma species",
+    "Consult interventional radiology to evaluate potential for transjugular intrahepatic portosystemic shunt or mesenteric angiography",
+    "Maintain hemodynamic monitoring and initiate nutritional support"
+  ]
+}

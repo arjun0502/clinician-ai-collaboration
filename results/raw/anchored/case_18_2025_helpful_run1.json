@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_18_2025",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "IgG4-related disease",
+    "Erdheim-Chester disease",
+    "Lymphoma",
+    "Sarcoidosis",
+    "Rheumatoid arthritis-associated vasculitis",
+    "Retroperitoneal fibrosis (idiopathic)",
+    "Metastatic carcinoma"
+  ],
+  "next_steps": [
+    "Biopsy of retroperitoneal or pericardial soft-tissue lesion for histopathology and immunohistochemistry",
+    "18F-FDG PET/CT to evaluate for systemic involvement",
+    "Water-deprivation test and serum osmolality to investigate diabetes insipidus",
+    "Serum IgG4 level measurement",
+    "Echocardiogram follow-up for pericardial constriction",
+    "Serum and urine protein electrophoresis for monoclonal gammopathy"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_31_2024",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Clinician Diagnosis\": {\n    \"Antineutrophil cytoplasmic antibody-associated vasculitis\": {\n      \"Support\": \"Multisystem involvement (renal, pulmonary/alveolar hemorrhage, systemic inflammatory response).\",\n      \"Against\": \"Acute onset of high fever and jaundice is more classic for an infectious etiology; lack of autoimmune history.\",\n      \"Verdict\": \"Weakly supported\"\n    },\n    \"Dengue virus infection\": {\n      \"Support\": \"Fever, myalgia, thrombocytopenia, potential for shock/capillary leak syndrome.\",\n      \"Against\": \"No travel to an endemic area reported; clinical course (hepatic failure, pulmonary findings) is highly severe and atypical for standard dengue.\",\n      \"Verdict\": \"Unsupported\"\n    },\n    \"Human granulocytic anaplasmosis\": {\n      \"Support\": \"Exposure history (walking in woods, insect bites), fever, thrombocytopenia.\",\n      \"Against\": \"Usually causes mild-to-moderate thrombocytopenia and leukopenia; profound jaundice, renal failure, and severe pulmonary consolidations are not typical features.\",\n      \"Verdict\": \"Weakly supported\"\n    },\n    \"Leptospirosis\": {\n      \"Support\": \"Classic 'Weil's disease' presentation (fever, severe jaundice, acute kidney injury, pulmonary hemorrhage/infiltrates, thrombocytopenia), exposure to river water/environment.\",\n      \"Against\": \"None; patient fits the classic clinical phenotype.\",\n      \"Verdict\": \"Well-supported\"\n    },\n    \"Rocky Mountain spotted fever\": {\n      \"Support\": \"Exposure to tick-endemic area, fever, thrombocytopenia, multisystem involvement.\",\n      \"Against\": \"Absence of characteristic rash; pulmonary failure and severe jaundice are less common than in Leptospirosis.\",\n      \"Verdict\": \"Weakly supported\"\n    },\n    \"The Dubin-Johnson syndrome\": {\n      \"Support\": \"Hyperbilirubinemia.\",\n      \"Against\": \"This is a chronic, benign genetic condition; it does not cause acute fever, systemic inflammatory response, renal failure, or respiratory compromise.\",\n      \"Verdict\": \"Unsupported\"\n    }\n  },\n  \"Missing Diagnoses\": {\n    \"Hantavirus Pulmonary Syndrome (HPS)\": \"Fits the severe pulmonary edema, thrombocytopenia, and rapid progression; however, the jaundice/liver failure is more suggestive of Leptospirosis.\",\n    \"Babesiosis\": \"Considering the exposure history in New England, though it typically presents with hemolysis and jaundice rather than severe pulmonary consolidation.\",\n    \"Severe Acute Hepatitis (Viral or Toxic)\": \"Needs to be ruled out given the extreme bilirubin levels (20.9 mg/dL), though the 'starry sky' liver appearance on ultrasound is suggestive of periportal inflammation seen in leptospirosis.\"\n  },\n  \"Evaluation of Each Proposed Next Step\": {\n    \"Microscopic agglutination test (MAT)\": \"Reasonable; gold standard for Leptospirosis.\",\n    \"Repeat NAAT on urine\": \"Reasonable; leptospires shed in urine during the second week of illness.\",\n    \"Serial organ-function monitoring\": \"Necessary; the patient is in multi-organ failure and requires ICU-level support.\"\n  },\n  \"Missing Next Steps\": {\n    \"Serologic testing for Leptospirosis (IgM ELISA)\": \"Earlier result than MAT.\",\n    \"Blood and urine PCR for Leptospira\": \"High sensitivity in the acute phase.\",\n    \"Bronchoalveolar lavage (BAL)\": \"Crucial to evaluate for diffuse alveolar hemorrhage given the pulmonary opacities and respiratory failure.\",\n    \"Testing for Babesia and Borrelia\": \"Given the geographic exposure in New England.\",\n    \"Viral hepatitis panel\": \"To rule out common causes of acute liver failure.\"\n  },\n  \"Open Questions\": {\n    \"IgM/IgG titers for Leptospirosis\": \"Status unknown.\",\n    \"Peripheral blood smear\": \"To evaluate for intra-erythrocytic organisms (Babesia) or schistocytes (microangiopathic hemolysis).\",\n    \"Ferritin/Iron studies\": \"To assess for hemophagocytic lymphohistiocytosis (HLH) secondary to infection.\"\n  }\n}\n```",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Leptospirosis (Weil's disease)",
+    "Hantavirus Pulmonary Syndrome",
+    "Babesiosis with systemic complications",
+    "Severe viral hepatitis (e.g., Hepatitis A or E)",
+    "Human granulocytic anaplasmosis with multi-organ involvement",
+    "Rocky Mountain spotted fever",
+    "Hemophagocytic lymphohistiocytosis (HLH) secondary to infection"
+  ],
+  "next_steps": [
+    "Send serum and urine for Leptospira PCR and Leptospirosis serology (MAT or IgM ELISA)",
+    "Perform peripheral blood smear to evaluate for Babesia and schistocytes",
+    "Perform bronchoscopy with bronchoalveolar lavage (BAL) to assess for diffuse alveolar hemorrhage",
+    "Order viral hepatitis panel (HAV, HBV, HCV, HEV) and acetaminophen level",
+    "Obtain peripheral blood smear and PCR for Babesia microti",
+    "Continue intensive supportive care including lung-protective ventilation and renal replacement therapy as needed",
+    "Monitor serial lactate, inflammatory markers (ferritin), and coagulation profile"
+  ]
+}

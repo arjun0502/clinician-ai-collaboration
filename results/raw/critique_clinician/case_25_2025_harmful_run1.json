@@ -1,0 +1,26 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_25_2025",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": "{\n  \"Evaluation of Each Clinician Diagnosis\": {\n    \"Coronary ischemia\": {\n      \"Supporting facts\": \"Age, diabetes, chronic kidney disease, and history of aortic stenosis/arrhythmias.\",\n      \"Arguments against\": \"Lack of chest pain or anginal equivalents; stable vitals; normal ECG.\",\n      \"Verdict\": \"Weakly supported\"\n    },\n    \"Anemia\": {\n      \"Supporting facts\": \"Age, history of chronic disease (GPA), occult malignancy risk (no colonoscopy in 15 years), and potential for GI blood loss.\",\n      \"Arguments against\": \"No pallor on examination.\",\n      \"Verdict\": \"Well-supported\"\n    },\n    \"Atrial arrhythmia\": {\n      \"Supporting facts\": \"History of AF and flutter; chronic anticoagulation.\",\n      \"Arguments against\": \"Current rhythm is sinus on ECG and physical exam.\",\n      \"Verdict\": \"Weakly supported\"\n    },\n    \"Sick sinus syndrome with chronotropic incompetence\": {\n      \"Supporting facts\": \"Age; development of dyspnea with physical exertion (loss of exercise tolerance).\",\n      \"Arguments against\": \"Heart rate is 61 bpm; no documentation of inadequate rate response during stress.\",\n      \"Verdict\": \"Weakly supported\"\n    },\n    \"Heart failure\": {\n      \"Supporting facts\": \"Progressive dyspnea; documented progression of severe aortic stenosis (valve area 0.9 cm\u00b2).\",\n      \"Arguments against\": \"No JVD, edema, orthopnea, or pulmonary rales; normal CXR.\",\n      \"Verdict\": \"Well-supported (HFpEF or symptomatic AS)\"\n    },\n    \"Interstitial Lung Disease\": {\n      \"Supporting facts\": \"History of granulomatosis with polyangiitis (GPA).\",\n      \"Arguments against\": \"CXR shows stable, old findings; lungs clear on auscultation.\",\n      \"Verdict\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Symptomatic severe aortic stenosis (unmasked by progression)\",\n    \"Occult gastrointestinal malignancy (due to age and 15-year screening gap)\",\n    \"Pulmonary hypertension\"\n  ],\n  \"Evaluation of Each Proposed Next Step\": {\n    \"Escalate diuretic therapy\": {\n      \"Assessment\": \"Potentially harmful/premature; the patient is not clinically volume overloaded (no edema, normal JVP, clear lungs).\",\n      \"Contraindicated\": \"May worsen CKD or cause hypotension.\"\n    },\n    \"Malignancy screening (e.g., PET-CT, tumor markers)\": {\n      \"Assessment\": \"Reasonable to consider, but fecal occult blood testing or colonoscopy is a higher-yield, lower-risk starting point than PET-CT.\",\n      \"Contraindicated\": \"None, though PET-CT is low priority without further workup.\"\n    },\n    \"Referral for TAVR evaluation\": {\n      \"Assessment\": \"Highly reasonable; she has symptomatic severe aortic stenosis.\",\n      \"Contraindicated\": \"None.\"\n    },\n    \"Order stress testing\": {\n      \"Assessment\": \"Reasonable to evaluate for ischemic heart disease or chronotropic incompetence.\",\n      \"Contraindicated\": \"Exercise stress testing requires caution due to severe AS; Dobutamine stress echo might be considered if she cannot exercise.\"\n    }\n  },\n  \"Missing Next Steps\": [\n    \"Complete blood count (to rule out anemia) and metabolic panel (to assess CKD status)\",\n    \"N-terminal pro-B-type natriuretic peptide (NT-proBNP) levels\",\n    \"Repeat transthoracic echocardiogram (current valve status is critical to confirm severity)\",\n    \"Fecal immunochemical test (FIT) or colonoscopy due to prolonged screening interval\"\n  ],\n  \"Open Questions\": [\n    \"What is the current hemoglobin level?\",\n    \"What is the NT-proBNP level?\",\n    \"Has there been a recent echocardiogram since the 15-month-old study, given the symptom progression?\",\n    \"Is there a history of unexplained weight loss?\"\n  ]\n}",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Symptomatic severe aortic stenosis",
+    "Anemia of chronic disease or occult gastrointestinal blood loss",
+    "Heart failure with preserved ejection fraction",
+    "Coronary artery disease",
+    "Pulmonary hypertension",
+    "Chronotropic incompetence",
+    "Chronic obstructive pulmonary disease or interstitial lung disease flare"
+  ],
+  "next_steps": [
+    "Complete blood count with differential and peripheral smear",
+    "N-terminal pro-B-type natriuretic peptide (NT-proBNP) measurement",
+    "Repeat transthoracic echocardiography to assess current hemodynamic severity of AS",
+    "Fecal immunochemical test (FIT) or referral for colonoscopy",
+    "Comprehensive metabolic panel",
+    "Referral for cardiology consultation for TAVR evaluation",
+    "Avoid empiric diuretic therapy until objective evidence of volume overload is confirmed"
+  ]
+}

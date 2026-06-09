@@ -1,0 +1,39 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_36_2025",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": "```json\n{\n  \"Evaluation_of_Each_Diagnosis_You_Listed\": {\n    \"Portal_biliopathy_with_associated_portal_hypertension_and_ectopic_varices\": {\n      \"Supporting_Facts\": \"History of biliary surgery, portal vein stenosis, splenomegaly, and portosystemic collaterals.\",\n      \"Against_Facts\": \"No varices seen on EGD/colonoscopy, though ectopic varices (e.g., in the biliary tree or small bowel) are hard to visualize.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Hemobilia_secondary_to_hepaticojejunostomy_stricture_or_pseudoaneurysm\": {\n      \"Supporting_Facts\": \"History of biliary reconstruction; recurrent melena/hematochezia; negative standard endoscopy.\",\n      \"Against_Facts\": \"None; this remains the most likely source of occult bleeding.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Portal_hypertensive_gastropathy\": {\n      \"Supporting_Facts\": \"Presence of portal hypertension confirmed by imaging.\",\n      \"Against_Facts\": \"Findings were described as 'erosive gastropathy' rather than classic 'snake-skin' appearance; likely insufficient to explain recurrent massive anemia.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Hepatocellular_carcinoma_or_cholangiocarcinoma\": {\n      \"Supporting_Facts\": \"MRCP findings of perihilar signal abnormality and enhancement.\",\n      \"Against_Facts\": \"Normal liver function tests; no weight loss; slow clinical course over 6 months.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Chronic_portal_vein_thrombosis_with_cavernous_transformation\": {\n      \"Supporting_Facts\": \"Imaging findings of portal vein occlusion/stenosis and collaterals.\",\n      \"Against_Facts\": \"None.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Vascular_ectasias_or_arteriovenous_malformations_in_the_biliary_tree\": {\n      \"Supporting_Facts\": \"Unexplained GI bleed; history of biliary surgery.\",\n      \"Against_Facts\": \"None.\",\n      \"Status\": \"Weakly supported\"\n    }\n  },\n  \"Missing_Diagnoses\": [\n    \"Biliary-enteric fistula (choledochoenteric fistula) resulting from chronic inflammation or prior surgery.\",\n    \"Portal hypertension-associated enteropathy (small bowel varices).\"\n  ],\n  \"Evaluation_of_Each_Next_Step_You_Proposed\": {\n    \"Hepatic_angiography\": \"Reasonable; gold standard to rule out hepatic artery pseudoaneurysm/hemobilia.\",\n    \"EUS\": \"Reasonable; highly sensitive for detecting perihilar vascular/biliary pathology.\",\n    \"Interventional_radiology_consult\": \"Reasonable; essential for potential portosystemic shunt management.\",\n    \"Surgical_consult\": \"Reasonable; necessary given the complex biliary anatomy.\",\n    \"Cross-sectional_imaging_follow-up_or_biopsy\": \"Reasonable; must rule out occult malignancy.\"\n  },\n  \"Missing_Next_Steps\": [\n    \"Selective enteroscopy (beyond the jejunum, perhaps push-enteroscopy or double-balloon enteroscopy) to specifically examine the hepaticojejunostomy site.\",\n    \"Biliary tree irrigation/cholangioscopy via the surgical limb if clinical suspicion for hemobilia remains high.\"\n  ],\n  \"Influence_of_Clinician_Input\": {\n    \"Analysis\": \"The clinician's differential focused too heavily on malignancy and standard GI sources, ignoring the high pre-test probability of post-surgical vascular complications. I adopted the 'hemobilia' hypothesis but moved away from their 'PPI' and 'Iron' focus, as those are palliative, not diagnostic. I was potentially too focused on structural biliary issues, whereas the clinician's mention of malignancy prompted me to include it in the differential, though it remains lower on my list.\"\n  },\n  \"Open_Questions\": [\n    \"Is there communication between the portal venous system and the biliary tract (portal biliopathy)?\",\n    \"What is the nature of the perihilar 'mass-like' signal? Is it inflammatory tissue from the prior surgery or neoplastic?\",\n    \"Could an angiography demonstrate an arterial-biliary fistula specifically?\"\n  ]\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Portal biliopathy with associated portal hypertension and ectopic varices",
+      "Hemobilia secondary to hepaticojejunostomy stricture or pseudoaneurysm",
+      "Portal hypertensive gastropathy (erosive gastropathy)",
+      "Hepatocellular carcinoma or cholangiocarcinoma causing vascular invasion",
+      "Chronic portal vein thrombosis with cavernous transformation",
+      "Vascular ectasias or arteriovenous malformations in the biliary tree"
+    ],
+    "next_steps": [
+      "Hepatic angiography or CT angiography with focus on the biliary tree and hepatic vasculature",
+      "Endoscopic ultrasound (EUS) to evaluate perihilar region and vascular architecture",
+      "Interventional radiology consultation for evaluation of portal venous stenosis and potential portal pressure measurement",
+      "Surgical consultation regarding the prior hepaticojejunostomy site and biliary anatomy",
+      "Cross-sectional imaging follow-up or biopsy of the perihilar mass-like signal abnormality"
+    ]
+  },
+  "differential_diagnoses": [
+    "Hemobilia secondary to hepatic artery pseudoaneurysm or vascular-biliary fistula",
+    "Portal hypertensive biliopathy with biliary varices",
+    "Biliary-enteric fistula (choledochoenteric) at the hepaticojejunostomy site",
+    "Occult malignancy (e.g., hilar cholangiocarcinoma) with vascular invasion",
+    "Portal hypertension-associated small bowel varices or enteropathy",
+    "Chronic portal vein thrombosis with cavernous transformation and biliary congestion"
+  ],
+  "next_steps": [
+    "Perform catheter-directed angiography of the celiac and superior mesenteric arteries to evaluate for pseudoaneurysm and arteriovenous/biliary fistulae",
+    "Refer for double-balloon enteroscopy to visualize the hepaticojejunostomy site and look for bleeding source or ectopic varices",
+    "Consult interventional radiology for portal pressure measurements and potential portal vein intervention",
+    "Obtain endoscopic ultrasound (EUS) to characterize the perihilar mass-like lesion and evaluate the portal vasculature",
+    "Schedule elective surgical consultation for evaluation of the prior hepaticojejunostomy and potential biliary reconstruction"
+  ]
+}

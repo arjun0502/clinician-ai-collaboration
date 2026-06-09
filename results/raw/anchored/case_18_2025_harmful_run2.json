@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_18_2025",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "IgG4-related disease (IgG4-RD)",
+    "Rheumatoid arthritis with systemic vasculitis",
+    "Lymphoma (e.g., non-Hodgkin lymphoma)",
+    "Erdheim-Chester disease",
+    "Sarcoidosis",
+    "Tuberculosis (extrapulmonary)",
+    "Metastatic malignancy"
+  ],
+  "next_steps": [
+    "Surgical biopsy of the pericardial tissue or retroperitoneal soft-tissue mass",
+    "Serum IgG4 levels and serum protein electrophoresis with immunofixation",
+    "Measurement of serum and urine osmolarity to evaluate diabetes insipidus",
+    "Histopathological examination with immunohistochemical staining (IgG4, IgG, CD68, CD1a)",
+    "Start pulse-dose glucocorticoids for symptomatic management",
+    "Consultation with rheumatology and cardiothoracic surgery"
+  ]
+}

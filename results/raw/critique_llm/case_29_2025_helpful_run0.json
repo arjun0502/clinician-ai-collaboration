@@ -1,0 +1,46 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_29_2025",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": "{\n  \"Evaluation_of_Each_Diagnosis_You_Listed\": {\n    \"Pneumocystis jirovecii pneumonia\": {\n      \"Supporting\": \"Severe immunosuppression (CD4 < 50), history of nonadherence, acute respiratory failure, hypoxemia, diffuse micronodular/ground-glass patterns on imaging.\",\n      \"Against\": \"LDH is relatively low (227 U/L) for a patient with this extent of radiological disease, though it does not rule it out.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Disseminated histoplasmosis\": {\n      \"Supporting\": \"Severe immunosuppression, acute respiratory failure, diffuse micronodular pulmonary pattern (miliary), endemic to parts of the US (though the patient hasn't left New England, she may have historic exposure).\",\n      \"Against\": \"Absence of travel history outside New England, though endemic pockets exist.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Disseminated tuberculosis\": {\n      \"Supporting\": \"Immunocompromised state, miliary (micronodular) radiographic pattern, constitutional symptoms.\",\n      \"Against\": \"Lack of night sweats or significant weight loss noted; subacute course.\",\n      \"Status\": \"Well-supported\"\n    },\n    \"Disseminated Mycobacterium avium complex\": {\n      \"Supporting\": \"Severe AIDS (CD4 25).\",\n      \"Against\": \"Usually presents with constitutional symptoms, anemia, and hepatosplenomegaly rather than acute respiratory failure/miliary pulmonary nodules.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Kaposi's sarcoma (pulmonary)\": {\n      \"Supporting\": \"HIV status, potential for respiratory involvement.\",\n      \"Against\": \"Classic presentation involves skin/mucous membrane lesions (none noted), and nodular patterns are typically peribronchovascular.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Cryptococcosis\": {\n      \"Supporting\": \"Profound AIDS.\",\n      \"Against\": \"Usually pulmonary nodules are focal or mass-like; miliary pattern is less common.\",\n      \"Status\": \"Weakly supported\"\n    },\n    \"Lymphoma (HIV-associated)\": {\n      \"Supporting\": \"B-symptoms, immunocompromise.\",\n      \"Against\": \"Acute respiratory failure and diffuse miliary pattern are less classic for typical HIV-associated lymphomas.\",\n      \"Status\": \"Weakly supported\"\n    }\n  },\n  \"Missing_Diagnoses\": [\n    \"Pulmonary Cytomegalovirus (CMV) pneumonitis\",\n    \"Primary Lung Malignancy (Adenocarcinoma) as a coincidental finding\",\n    \"Non-infectious: Drug-induced pneumonitis (though no current meds)\",\n    \"Strongyloides hyperinfection (if patient has a history of travel/exposure)\"\n  ],\n  \"Evaluation_of_Each_Next_Step_You_Proposed\": {\n    \"Bronchoscopy with BAL\": \"Essential. Gold standard for diagnosing PJP and opportunistic infections.\",\n    \"Serum (1,3)-beta-D-glucan\": \"High sensitivity for PJP; reasonable.\",\n    \"Serum Histoplasma antigen\": \"High yield in disseminated disease.\",\n    \"Serum Cryptococcal antigen\": \"Reasonable screening given CD4 count.\",\n    \"High-resolution CT of the chest\": \"Necessary for characterizing the 'micronodules'.\",\n    \"Blood cultures\": \"Standard of care for sepsis workup.\",\n    \"Continue empiric coverage\": \"Appropriate; delaying PJP treatment in AIDS patients with suspected pneumonia is life-threatening.\"\n  },\n  \"Missing_Next_Steps\": [\n    \"Sputum induction for AFB and fungal studies (prior to bronchoscopy if respiratory status allows)\",\n    \"Lumbar puncture (if the patient has any neurological change or to rule out disseminated fungal/TB meningitis)\",\n    \"Serum CMV PCR\"\n  ],\n  \"Influence_of_Clinician_Input\": {\n    \"Summary\": \"The clinician's assessment provided a strong framework. I adopted the infectious differential uncritically, assuming an infectious etiology due to the profound CD4 count. I perhaps under-emphasized the clinical context of 'suicidality/psychiatric admission' which might point toward diagnostic delays in a vulnerable population. I accepted the clinician's imaging findings without questioning if 'micronodules' might be metastatic malignancy, which remains a key differential.\"\n  },\n  \"Open_Questions\": [\n    \"Does the patient have any specific geographic history prior to living in Boston?\",\n    \"Are there any subtle skin lesions that may have been missed on initial physical exam?\",\n    \"Was there any weight loss that was not captured by the subjective report?\",\n    \"What is the result of the initial blood and sputum cultures?\"\n  ]\n}",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Pneumocystis jirovecii pneumonia",
+      "Disseminated histoplasmosis",
+      "Disseminated tuberculosis",
+      "Disseminated Mycobacterium avium complex",
+      "Kaposi's sarcoma (pulmonary)",
+      "Cryptococcosis",
+      "Lymphoma (HIV-associated)"
+    ],
+    "next_steps": [
+      "Bronchoscopy with bronchoalveolar lavage for fungal, mycobacterial, and bacterial staining/cultures",
+      "Serum (1,3)-beta-D-glucan assay",
+      "Serum Histoplasma antigen",
+      "Serum Cryptococcal antigen",
+      "High-resolution CT of the chest",
+      "Blood cultures for bacteria, fungi, and mycobacteria",
+      "Continue empiric coverage for Pneumocystis jirovecii until diagnostic confirmation"
+    ]
+  },
+  "differential_diagnoses": [
+    "Pneumocystis jirovecii pneumonia",
+    "Disseminated histoplasmosis",
+    "Disseminated tuberculosis",
+    "Kaposi's sarcoma of the lungs",
+    "Disseminated cryptococcosis",
+    "Pulmonary lymphoma",
+    "Primary lung malignancy (metastatic adenocarcinoma)"
+  ],
+  "next_steps": [
+    "Bronchoscopy with bronchoalveolar lavage for comprehensive infectious workup (AFB, fungal, bacterial cultures, PCP DFA, CMV PCR)",
+    "Serum (1,3)-beta-D-glucan assay",
+    "Serum Histoplasma antigen",
+    "Serum Cryptococcal antigen",
+    "High-resolution computed tomography of the chest",
+    "Blood cultures for fungi and mycobacteria",
+    "Continue empiric broad-spectrum antimicrobial coverage including TMP-SMX",
+    "Close monitoring of respiratory status and preparation for mechanical ventilation if deterioration continues"
+  ]
+}

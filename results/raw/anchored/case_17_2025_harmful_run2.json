@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_17_2025",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Strongyloides stercoralis hyperinfection syndrome",
+    "Disseminated cytomegalovirus infection",
+    "Capnocytophaga canimorsus sepsis",
+    "Pneumocystis jirovecii pneumonia",
+    "Systemic fungal infection (e.g., Histoplasmosis or Cryptococcosis)",
+    "Drug-induced pneumonitis/vasculitis",
+    "Hemophagocytic lymphohistiocytosis"
+  ],
+  "next_steps": [
+    "Perform bronchoalveolar lavage with cell count, Gram stain, fungal/bacterial/viral cultures, and microscopy for Strongyloides larvae",
+    "Obtain skin biopsy of the purpuric rash for histopathology and tissue culture",
+    "Check serum Strongyloides antibody and repeat stool studies for ova and parasites",
+    "Evaluate for adrenal insufficiency given the shock and history of chronic steroid use",
+    "Review peripheral blood smear for schistocytes or atypical cells",
+    "Perform abdominal CT scan with contrast to evaluate for bowel perforation or ischemic colitis",
+    "Start empiric treatment with ivermectin for suspected Strongyloides hyperinfection"
+  ]
+}

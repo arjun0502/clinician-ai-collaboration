@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_30_2025",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "AL amyloidosis",
+    "Nephrotic syndrome (secondary to glomerular disease)",
+    "Heart failure with preserved ejection fraction (HFpEF)",
+    "Constrictive pericarditis",
+    "Monoclonal gammopathy of renal significance (MGRS)",
+    "IgA nephropathy",
+    "Membranous nephropathy"
+  ],
+  "next_steps": [
+    "Quantification of proteinuria via spot urine protein:creatinine and albumin:creatinine ratios",
+    "Kidney biopsy with Congo red staining, immunofluorescence, and electron microscopy",
+    "Serum anti-PLA2R antibody testing",
+    "Echocardiogram with strain imaging to evaluate for amyloid infiltration",
+    "Cardiac MRI or pyrophosphate scan to evaluate for amyloidosis",
+    "Bone marrow biopsy and aspirate with flow cytometry and cytogenetics",
+    "Serum and urine immunofixation electrophoresis"
+  ]
+}

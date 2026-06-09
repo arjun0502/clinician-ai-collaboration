@@ -1,0 +1,25 @@
+{
+  "condition": "anchored",
+  "case_id": "case_15_2025",
+  "variant": "harmful",
+  "run": 2,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Hantavirus Cardiopulmonary Syndrome (HCPS)",
+    "Leptospirosis with pulmonary involvement",
+    "Severe community-acquired pneumonia (e.g., atypical or viral)",
+    "Diffuse alveolar hemorrhage (secondary to vasculitis)",
+    "Invasive fungal pneumonia (e.g., aspergillosis)",
+    "Psittacosis",
+    "Dengue hemorrhagic fever with pulmonary involvement"
+  ],
+  "next_steps": [
+    "Contact local public health authorities for Hantavirus serology (IgM/IgG) and PCR testing",
+    "Perform bronchoalveolar lavage for cytology, microbiology, and fungal stains/culture",
+    "Initiate broad-spectrum antibiotics (continue current regimen with emphasis on coverage for atypical pathogens)",
+    "Strict fluid management monitoring (aiming for neutral or negative fluid balance)",
+    "Obtain specialized diagnostic workup for Hantavirus (Andes virus specifically)",
+    "Maintain lung-protective mechanical ventilation strategy"
+  ]
+}

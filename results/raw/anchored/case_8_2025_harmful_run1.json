@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_8_2025",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Pyroglutamic acidosis (5-oxoprolinuria) secondary to chronic acetaminophen and malnutrition",
+    "Sepsis-associated Type A lactic acidosis",
+    "Metformin-associated lactic acidosis (MALA)",
+    "Acute kidney injury with uremic encephalopathy",
+    "Hypercapnic encephalopathy due to hypoventilation",
+    "Diabetic ketoacidosis (euglycemic or hyperglycemic)",
+    "Adrenal insufficiency"
+  ],
+  "next_steps": [
+    "Measure arterial blood gas (ABG) with electrolytes to calculate the anion gap",
+    "Obtain serum lactate, beta-hydroxybutyrate, and acetaminophen levels",
+    "Perform urine organic acid analysis (specifically for 5-oxoproline)",
+    "Evaluate renal function and serum metformin levels",
+    "Discontinue metformin and all offending nephrotoxic or metabolic-stressing agents",
+    "Consider continuous renal replacement therapy (CRRT) if severe metabolic acidosis persists",
+    "Obtain head CT to rule out structural intracranial pathology"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_25_2024",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": "```json\n{\n  \"Evaluation_of_Each_Diagnosis_You_Listed\": {\n    \"Vitamin_A_deficiency\": {\n      \"supporting_facts\": \"Selective eating (picky eater), conjunctival keratinization (Bitot's spots), night blindness (worsened at night), progressive visual loss.\",\n      \"arguing_against_facts\": \"None. The clinical picture is classic for xerophthalmia.\",\n      \"support_level\": \"Well-supported\"\n    },\n    \"Nutritional_optic_neuropathy_B12_folate_copper\": {\n      \"supporting_facts\": \"Dietary restriction, potential for co-occurring deficits in restrictive eaters.\",\n      \"arguing_against_facts\": \"Conjunctival keratinization is specific to Vitamin A deficiency, not B12/copper deficiency.\",\n      \"support_level\": \"Well-supported (as a comorbid possibility)\"\n    },\n    \"Leber_hereditary_optic_neuropathy_LHON\": {\n      \"supporting_facts\": \"Progressive painless vision loss and optic disk pallor.\",\n      \"arguing_against_facts\": \"Patient has conjunctival keratinization and a clear nutritional basis; onset and progression are not typical for LHON.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Dominant_optic_atrophy_OPA1\": {\n      \"supporting_facts\": \"Optic disk pallor, slow progression.\",\n      \"arguing_against_facts\": \"Usually presents much earlier (childhood/adolescence but stable); does not explain acute worsening or conjunctival findings.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Autoimmune_optic_neuritis\": {\n      \"supporting_facts\": \"Bilateral vision loss, optic nerve signal change on MRI.\",\n      \"arguing_against_facts\": \"Lack of pain on eye movement; absence of enhancement on MRI; strong nutritional/physical evidence for xerophthalmia.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Toxic_optic_neuropathy\": {\n      \"supporting_facts\": \"History of medication use (risperidone).\",\n      \"arguing_against_facts\": \"Risperidone is not a standard cause of optic neuropathy; the nutritional history is much more compelling.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Compressive_optic_neuropathy\": {\n      \"supporting_facts\": \"Visual loss.\",\n      \"arguing_against_facts\": \"MRI showed no mass, chiasm compression, or significant orbital pathology to explain the bilateral loss.\",\n      \"support_level\": \"Unsupported\"\n    }\n  },\n  \"Missing_Diagnoses\": [\n    \"Scurvy (Vitamin C deficiency) - given the scattered bruises and history of a highly restrictive, non-produce diet.\",\n    \"Vitamin D deficiency - given the diffuse heterogeneous thickening of the calvarium (potentially suggestive of chronic hypocalcemia/secondary hyperparathyroidism or metabolic bone disease).\"\n  ],\n  \"Evaluation_of_Each_Next_Step_You_Proposed\": {\n    \"Serum_vitamin_levels\": \"Essential and standard of care.\",\n    \"Ophthalmology_consult\": \"Crucial to confirm the nature of the corneal/conjunctival findings.\",\n    \"Vitamin_A_supplementation\": \"High priority; sight-saving measure. Must be initiated carefully to avoid toxicity.\",\n    \"Genetic_testing\": \"Reasonable for completeness, but lower yield given the strong environmental evidence.\",\n    \"Nutrition_consult\": \"Critical for addressing the root cause (selective eating disorder/ARFID).\",\n    \"Neurology_consult\": \"Important for interpreting calvarial findings.\",\n    \"Low-vision_support\": \"Appropriate for patient quality of life.\"\n  },\n  \"Missing_Next_Steps\": [\n    \"Dermatological or physical examination looking for perifollicular hemorrhages or corkscrew hairs to evaluate for scurvy.\",\n    \"Serum Vitamin C level testing.\",\n    \"Assessment for metabolic bone disease (Calcium, Phosphate, Alkaline Phosphatase, PTH) due to the calvarial thickening on MRI.\",\n    \"Formal swallowing evaluation if there is concern for oral aversion impacting nutrition.\"\n  ],\n  \"Influence_of_Clinician_Input\": {\n    \"evaluation\": \"The clinician's differential provided a framework that included genetic and autoimmune causes which I adopted to maintain a broad initial scope. However, I potentially over-relied on these categories; the physical findings (keratinization) are so pathognomonic for Vitamin A deficiency that the genetic/autoimmune differential is statistically less likely than a primary nutritional etiology. I adopted the 'next steps' without questioning the potential for secondary metabolic bone manifestations suggested by the calvarial thickening noted in the imaging report.\"\n  },\n  \"Open_Questions\": [\n    \"What are the results of serum Vitamin A, C, and D levels?\",\n    \"Does the patient have a formal diagnosis of Avoidant/Restrictive Food Intake Disorder (ARFID)?\",\n    \"How do the serum calcium, phosphorus, and PTH levels correlate with the reported calvarial thickening?\",\n    \"Is there evidence of hearing loss, which could point toward syndromic nutritional or genetic conditions?\"\n  ]\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Vitamin A deficiency (Xerophthalmic keratomalacia and optic neuropathy)",
+      "Nutritional optic neuropathy (Vitamin B12, folate, copper deficiency)",
+      "Leber hereditary optic neuropathy (LHON)",
+      "Dominant optic atrophy (OPA1)",
+      "Autoimmune optic neuritis (MOGAD, NMOSD)",
+      "Toxic optic neuropathy (e.g., heavy metal exposure or medication)",
+      "Compressive optic neuropathy"
+    ],
+    "next_steps": [
+      "Obtain serum levels of Vitamin A (retinol), Vitamin E, Vitamin D, Vitamin B12, folate, copper, and zinc",
+      "Consult Ophthalmology for comprehensive evaluation of Bitot's spots/corneal xerosis",
+      "Initiate emergent supplementation of Vitamin A (palmitate) and other identified nutritional deficiencies",
+      "Perform genetic testing for Leber hereditary optic neuropathy (LHON) and OPA1 mutations",
+      "Consult Nutrition/Dietetics for assessment of selective eating disorder and implementation of oral/parenteral supplementation",
+      "Consult Neurology for further assessment of the CNS imaging findings (calvarial thickening)",
+      "Engage low-vision rehabilitation and social services support"
+    ]
+  },
+  "differential_diagnoses": [
+    "Severe Vitamin A deficiency (Xerophthalmia)",
+    "Vitamin C deficiency (Scurvy)",
+    "Combined nutritional optic neuropathy (B12, folate, and copper deficiency)",
+    "Metabolic bone disease secondary to multiple nutritional deficiencies (Vitamin D, Calcium)",
+    "Avoidant/Restrictive Food Intake Disorder (ARFID)",
+    "Leber hereditary optic neuropathy (LHON)",
+    "Dominant optic atrophy (OPA1)"
+  ],
+  "next_steps": [
+    "Obtain serum levels of vitamins A, C, D, E, B12, folate, copper, zinc, and metabolic panel including calcium, phosphorus, alkaline phosphatase, and PTH",
+    "Initiate urgent vitamin A supplementation under ophthalmology guidance",
+    "Urgent ophthalmology evaluation to document and monitor corneal and conjunctival findings",
+    "Nutrition/Dietetics consultation for management of severe selective eating and ARFID",
+    "Physical assessment for signs of scurvy (perifollicular hemorrhages, corkscrew hairs, gingival health)",
+    "Physical medicine and rehabilitation or neurology consultation for physical exam regarding the calvarial thickening and motor findings",
+    "Referral for low-vision rehabilitation and social work support"
+  ]
+}

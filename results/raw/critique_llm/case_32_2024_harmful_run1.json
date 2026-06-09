@@ -1,0 +1,45 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_32_2024",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Myasthenia gravis\": {\n      \"Supports\": \"Bulbar symptoms (dysarthria, dysphagia), fluctuating weakness, ptosis, respiratory insufficiency, fatigue.\",\n      \"Against\": \"Lack of clear diurnal variation initially noted, age of onset, potential for systemic comorbidities.\",\n      \"Verdict\": \"Well-supported\"\n    },\n    \"Amyotrophic lateral sclerosis\": {\n      \"Supports\": \"Progressive bulbar symptoms, limb weakness, respiratory failure, dysarthria, potential for upper and lower motor neuron signs (Babinski).\",\n      \"Against\": \"Fluctuating course (transient ischemic-like episodes) is atypical for classic ALS; however, mimics exist.\",\n      \"Verdict\": \"Well-supported\"\n    },\n    \"Lambert-Eaton myasthenic syndrome\": {\n      \"Supports\": \"Proximal muscle weakness, respiratory insufficiency, respiratory distress.\",\n      \"Against\": \"Usually associated with autonomic dysfunction (dry mouth/constipation not emphasized here), typically improves with movement/repeated contraction (not described).\",\n      \"Verdict\": \"Weakly supported\"\n    },\n    \"Mitochondrial myopathy\": {\n      \"Supports\": \"Progressive fatigue, weakness, respiratory involvement, multi-system involvement (heart/lungs).\",\n      \"Against\": \"Dysphagia is less classic; lack of elevated lactate.\",\n      \"Verdict\": \"Weakly supported\"\n    },\n    \"Polymyositis\": {\n      \"Supports\": \"Proximal weakness, dysphagia.\",\n      \"Against\": \"Normal creatine kinase (CK) levels make this highly unlikely.\",\n      \"Verdict\": \"Unsupported\"\n    },\n    \"Chronic inflammatory demyelinating polyradiculoneuropathy\": {\n      \"Supports\": \"Proximal weakness, respiratory involvement.\",\n      \"Against\": \"Usually sensory involvement; less common to present with severe bulbar dysphagia and respiratory failure as primary isolated features.\",\n      \"Verdict\": \"Weakly supported\"\n    },\n    \"Dermatomyositis\": {\n      \"Supports\": \"Proximal weakness, dysphagia.\",\n      \"Against\": \"Normal CK level, lack of characteristic rash.\",\n      \"Verdict\": \"Unsupported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"Cardiac amyloidosis (specifically ATTR): Explains the 'enlarged cardiac silhouette' with 'normal wall thickness' (often mimics), restrictive lung issues, pulmonary hypertension, and multisystem neuropathy.\",\n    \"Botulism: Acute/subacute bulbar palsy with respiratory failure.\",\n    \"Acid Maltase Deficiency (Pompe Disease, late-onset): Progressive respiratory weakness, proximal myopathy, bulbar dysfunction.\"\n  ],\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"Repetitive nerve stimulation/Single-fiber EMG\": \"Highly reasonable to confirm neuromuscular junction disorders.\",\n    \"Test for anti-AChR/anti-MuSK\": \"Essential for confirming myasthenia gravis.\",\n    \"Videofluoroscopic swallow study\": \"Crucial for safety to prevent aspiration in the setting of dysphagia.\",\n    \"Neurology bedside neuromuscular examination\": \"Standard care; vital for distinguishing upper vs. lower motor neuron findings.\",\n    \"Malignancy screening\": \"Reasonable given weight loss and subacute neurological decline.\",\n    \"Non-invasive ventilation\": \"Appropriate for hypercapnic/hypoxic respiratory failure.\"\n  },\n  \"Missing Next Steps\": [\n    \"Echocardiogram with strain imaging and/or cardiac MRI (to evaluate for amyloidosis given normal wall thickness but low QRS voltage).\",\n    \"Serum and urine protein electrophoresis with immunofixation (for monoclonal proteins/amyloidosis).\",\n    \"Acid alpha-glucosidase level (to rule out late-onset Pompe disease).\",\n    \"Lumbar puncture (to evaluate for inflammatory/paraneoplastic processes).\"\n  ],\n  \"Influence of Clinician Input\": {\n    \"Analysis\": \"I leaned too heavily into the 'neuromuscular' box proposed by the clinician. The clinician's list was heavily neurological, leading me to focus almost exclusively on motor end-plate and primary muscle diseases. I failed to challenge the assumption that this was purely a primary neurological disease, ignoring the strong systemic clues (cardiac signs, low QRS voltage, leg edema) that suggest a multisystem infiltrative or metabolic process.\"\n  },\n  \"Open Questions\": [\n    \"What is the specific nature of the 'low precordial QRS voltage' in the context of an enlarged cardiac silhouette?\",\n    \"Could this be cardiac amyloidosis (e.g., AL or ATTR) presenting as a 'neuromyopathic' syndrome?\",\n    \"What is the etiology of the 1+ proteinuria?\"\n  ]\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Myasthenia gravis",
+      "Amyotrophic lateral sclerosis",
+      "Lambert-Eaton myasthenic syndrome",
+      "Mitochondrial myopathy",
+      "Polymyositis",
+      "Chronic inflammatory demyelinating polyradiculoneuropathy",
+      "Dermatomyositis"
+    ],
+    "next_steps": [
+      "Perform repetitive nerve stimulation and single-fiber electromyography",
+      "Test for anti-acetylcholine receptor antibodies and anti-MuSK antibodies",
+      "Obtain a formal swallowing evaluation (videofluoroscopic swallow study)",
+      "Consult neurology for a detailed bedside neuromuscular examination",
+      "Consider screening for underlying malignancy given the progressive weakness and dysphagia",
+      "Continue supportive care with non-invasive ventilation for respiratory insufficiency"
+    ]
+  },
+  "differential_diagnoses": [
+    "Transthyretin cardiac amyloidosis (ATTR) with associated systemic amyloid polyneuropathy",
+    "Late-onset Pompe disease (acid maltase deficiency)",
+    "Myasthenia gravis",
+    "Amyotrophic lateral sclerosis",
+    "Mitochondrial myopathy",
+    "Lambert-Eaton myasthenic syndrome",
+    "Paraneoplastic syndrome"
+  ],
+  "next_steps": [
+    "Echocardiogram with strain imaging and cardiac MRI to evaluate for infiltrative cardiomyopathy",
+    "Serum and urine protein electrophoresis with immunofixation and serum free light chains",
+    "Measurement of acid alpha-glucosidase activity in a dried blood spot",
+    "Repetitive nerve stimulation and single-fiber EMG",
+    "Testing for anti-acetylcholine receptor and anti-MuSK antibodies",
+    "Lumbar puncture for protein and cytology to rule out leptomeningeal disease",
+    "Formal swallow study (FEES or videofluoroscopy)",
+    "Genetic testing for TTR gene mutation"
+  ]
+}

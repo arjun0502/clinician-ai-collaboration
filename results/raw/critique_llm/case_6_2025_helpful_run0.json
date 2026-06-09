@@ -1,0 +1,40 @@
+{
+  "condition": "critique_llm",
+  "case_id": "case_6_2025",
+  "variant": "helpful",
+  "run": 0,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Diagnosis You Listed\": {\n    \"Chronic portal vein thrombosis with portal cavernoma\": {\n      \"supporting_facts\": \"History of abdominal trauma (steering wheel injury), cavernous transformation on CT, and portal hypertension signs.\",\n      \"arguing_against_facts\": \"Does not explain the specific, severe postprandial nature of the pain and significant weight loss as well as intestinal ischemia might.\",\n      \"support_level\": \"Well-supported\"\n    },\n    \"Hepatic schistosomiasis (Symmers' fibrosis)\": {\n      \"supporting_facts\": \"Exposure in rural Costa Rica (cattle farming, endemic region), portal hypertension without overt cirrhosis stigmata (e.g., normal liver function, minimal parenchymal disease).\",\n      \"arguing_against_facts\": \"Usually presents with splenomegaly and varices but less likely to cause the intense postprandial ischemic-type pain unless associated with mesenteric vein involvement.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Non-cirrhotic portal hypertension\": {\n      \"supporting_facts\": \"Normal coagulation, absence of stigmata of chronic liver failure, and clear portal cavernoma etiology.\",\n      \"arguing_against_facts\": \"None, as the portal cavernoma explains the hypertension.\",\n      \"support_level\": \"Well-supported\"\n    },\n    \"Mesenteric ischemia (due to shunting or portomesenteric thrombosis)\": {\n      \"supporting_facts\": \"Postprandial pain ('intestinal angina'), weight loss, and portal vein occlusion creating a vulnerable mesenteric circulation.\",\n      \"arguing_against_facts\": \"CT previously showed non-obstructed bowel, but dynamic ischemia is possible.\",\n      \"support_level\": \"Well-supported\"\n    },\n    \"Hepatocellular carcinoma in the setting of portal vein thrombosis\": {\n      \"supporting_facts\": \"Portal vein thrombosis is a known complication of HCC; patient has shrunken, lobulated liver.\",\n      \"arguing_against_facts\": \"Normal alpha-fetoprotein; imaging did not identify a clear mass lesion despite portal vein occlusion.\",\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Budd-Chiari syndrome\": {\n      \"supporting_facts\": \"Causes portal hypertension.\",\n      \"arguing_against_facts\": \"Doppler US specifically noted patent hepatic veins, which effectively excludes the classic definition of Budd-Chiari.\",\n      \"support_level\": \"Unsupported\"\n    }\n  },\n  \"Missing Diagnoses\": {\n    \"diagnoses\": [\n      \"Chronic mesenteric ischemia (secondary to portomesenteric venous congestion)\",\n      \"Occult malignancy (e.g., pancreatic tail or duodenal tumor) causing secondary portal vein thrombosis and postprandial pain\",\n      \"Whipple's disease (less likely, but relevant given weight loss and abdominal pain in a middle-aged male)\"\n    ]\n  },\n  \"Evaluation of Each Next Step You Proposed\": {\n    \"CT angiography\": \"Reasonable; essential to assess mesenteric artery patency and confirm the extent of the venous thrombosis.\",\n    \"Transjugular liver biopsy with HVPG\": \"Reasonable to distinguish pre-sinusoidal (e.g., schistosomiasis/PVT) from sinusoidal (cirrhosis) hypertension; not contraindicated.\",\n    \"Hematologic evaluation\": \"Mandatory given the idiopathic nature of the portal vein thrombosis.\",\n    \"Enteroscopy or CTA\": \"Redundant if CTA is performed; focus should be on vascular anatomy.\",\n    \"Nutritional assessment\": \"Reasonable but secondary to establishing the etiology of the ischemia.\"\n  },\n  \"Missing Next Steps\": {\n    \"steps\": [\n      \"Stool study for ova and parasites (Schistosoma) or serology\",\n      \"Echocardiogram (to rule out occult right-sided heart failure contributing to venous congestion)\",\n      \"Cross-sectional imaging of the pancreas (specifically high-resolution CT or EUS) to rule out mass-effect causing venous compression\"\n    ]\n  },\n  \"Influence of Clinician Input\": {\n    \"analysis\": \"The clinician's differential provided a strong foundation. I adopted 'Hepatic schistosomiasis' directly from them as a reasonable epidemiological consideration. I relied on their initial CT report but felt it was necessary to move beyond simply calling it 'cirrhosis' and focus on the hemodynamic consequences of the portal vein thrombosis (ischemia) as the driver of the clinical symptoms.\"\n  },\n  \"Open Questions\": {\n    \"questions\": [\n      \"Has a high-quality, dedicated pancreatic protocol CT been performed to rule out a small, insidious malignancy?\",\n      \"What is the exact pressure gradient result from the HVPG measurement?\",\n      \"Are there peripheral blood eosinophilia or other markers suggestive of parasitic infection?\"\n    ]\n  }\n}\n```",
+  "initial_response": {
+    "differential_diagnoses": [
+      "Chronic portal vein thrombosis with portal cavernoma",
+      "Hepatic schistosomiasis (Symmers' fibrosis)",
+      "Non-cirrhotic portal hypertension",
+      "Mesenteric ischemia (due to shunting or portomesenteric thrombosis)",
+      "Hepatocellular carcinoma in the setting of portal vein thrombosis",
+      "Budd-Chiari syndrome"
+    ],
+    "next_steps": [
+      "CT angiography of the abdomen to evaluate for mesenteric ischemia or acute thrombus extension",
+      "Transjugular liver biopsy with hepatic vein pressure gradient (HVPG) measurement",
+      "Hematologic evaluation for underlying thrombophilia including JAK2 mutation and PNH screening",
+      "Enteroscopy or CTA to rule out chronic mesenteric ischemia",
+      "Nutritional assessment and management for weight loss and postprandial pain"
+    ]
+  },
+  "differential_diagnoses": [
+    "Chronic portal vein thrombosis with portal cavernoma and chronic mesenteric venous ischemia",
+    "Hepatic schistosomiasis with portal hypertension",
+    "Non-cirrhotic portal hypertension related to trauma-induced portal vein injury",
+    "Occult pancreatic or duodenal malignancy causing secondary venous compression",
+    "Cirrhosis of unknown etiology",
+    "Chronic mesenteric arterial ischemia"
+  ],
+  "next_steps": [
+    "CT angiography of the abdomen (pancreatic/mesenteric protocol) to evaluate vascular anatomy and rule out occult malignancy",
+    "Transjugular liver biopsy and hepatic venous pressure gradient measurement to distinguish pre-sinusoidal vs. sinusoidal hypertension",
+    "Complete hematologic workup for prothrombotic states (JAK2, PNH, protein C/S, antithrombin, factor V Leiden)",
+    "Serologic testing for Schistosoma and stool examination for ova and parasites",
+    "Echocardiogram to exclude cardiac causes of congestion",
+    "Nutrition and gastroenterology consultation for management of postprandial ischemia and nutritional optimization"
+  ]
+}

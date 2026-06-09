@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_15_2024",
+  "variant": "helpful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "S\u00e9zary syndrome",
+    "Adult T-cell leukemia/lymphoma",
+    "Angioimmunoblastic T-cell lymphoma",
+    "Psoriatic erythroderma with secondary cutaneous herpes simplex infection",
+    "DRESS syndrome (Drug Reaction with Eosinophilia and Systemic Symptoms)",
+    "Paraneoplastic erythroderma"
+  ],
+  "next_steps": [
+    "Excisional biopsy of an enlarged inguinal or axillary lymph node for histopathology, immunohistochemistry, and T-cell receptor gene rearrangement studies",
+    "Peripheral blood flow cytometry for T-cell markers and identification of S\u00e9zary cells",
+    "Peripheral blood T-cell receptor (TCR) gene rearrangement studies",
+    "Computed tomography-guided biopsy of the pulmonary mass",
+    "Human T-cell lymphotropic virus type 1 (HTLV-1) serology",
+    "Bone marrow biopsy and aspiration"
+  ]
+}

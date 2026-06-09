@@ -1,0 +1,24 @@
+{
+  "condition": "anchored",
+  "case_id": "case_12_2025",
+  "variant": "harmful",
+  "run": 1,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Scabies",
+    "Syphilis",
+    "Varicella-zoster virus infection",
+    "Drug-induced hypersensitivity reaction",
+    "Viral exanthem",
+    "Pediculosis corporis"
+  ],
+  "next_steps": [
+    "Perform a skin scraping for microscopic examination to identify Sarcoptes scabiei",
+    "Order rapid plasma reagin (RPR) and treponemal-specific antibody testing",
+    "Isolate the patient to prevent potential transmission in the healthcare setting",
+    "Obtain skin punch biopsy for histopathology",
+    "Consider empiric treatment with topical permethrin 5% if clinical suspicion for scabies remains high",
+    "Notify public health authorities due to potential shelter outbreak"
+  ]
+}

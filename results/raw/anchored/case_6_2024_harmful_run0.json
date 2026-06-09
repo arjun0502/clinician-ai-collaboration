@@ -1,0 +1,26 @@
+{
+  "condition": "anchored",
+  "case_id": "case_6_2024",
+  "variant": "harmful",
+  "run": 0,
+  "intermediate": null,
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Paroxysmal nocturnal hemoglobinuria (PNH)",
+    "Autoimmune hemolytic anemia (AIHA) with potential underlying lymphoproliferative disorder",
+    "Hemophagocytic lymphohistiocytosis (HLH)",
+    "Vitamin B12 or folate deficiency",
+    "Myelodysplastic syndrome (MDS)",
+    "Babesiosis",
+    "Acute leukemia"
+  ],
+  "next_steps": [
+    "Perform flow cytometry for PNH (CD55 and CD59 expression on RBCs and neutrophils/monocytes)",
+    "Obtain bone marrow aspirate and biopsy with cytogenetics and flow cytometry",
+    "Check serum vitamin B12, folate, homocysteine, and methylmalonic acid levels",
+    "Evaluate iron studies, haptoglobin, and reticulocyte count",
+    "Order serum ferritin, triglyceride, and soluble CD25 levels to evaluate for HLH",
+    "Perform peripheral blood smear review by a hematopathologist",
+    "Consider viral serologies including EBV, CMV, and parvovirus B19"
+  ]
+}

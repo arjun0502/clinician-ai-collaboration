@@ -1,0 +1,27 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_25_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Clinician Diagnosis\": {\n    \"Coronary ischemia\": {\n      \"supporting_facts\": [\"Advanced age\", \"Aortic stenosis\", \"History of DM\", \"New onset dyspnea\"],\n      \"arguing_against_facts\": [\"Absence of anginal symptoms or chest pain\", \"Stable resting ECG\", \"Normal physical exam\"],\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Anemia\": {\n      \"supporting_facts\": [\"New onset dyspnea\", \"Fatigue\", \"Age\", \"Possible occult source (GI/medication-related)\"],\n      \"arguing_against_facts\": [\"No signs of overt bleeding\", \"Physical exam notes 'skin was not pale'\"],\n      \"support_level\": \"Well-supported\"\n    },\n    \"Aortic stenosis\": {\n      \"supporting_facts\": [\"History of valvular disease\", \"Documented progression to AVA 0.9 cm2\", \"Grade 4/6 systolic murmur\"],\n      \"arguing_against_facts\": [\"Symptoms are relatively recent despite long-standing known disease\"],\n      \"support_level\": \"Well-supported\"\n    },\n    \"Atrial arrhythmia\": {\n      \"supporting_facts\": [\"History of AF and A-flutter\"],\n      \"arguing_against_facts\": [\"ECG shows sinus rhythm\", \"Physical exam notes regular rhythm\"],\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Sick sinus syndrome with chronotropic incompetence\": {\n      \"supporting_facts\": [\"Age\", \"History of arrhythmia\", \"New dyspnea on exertion\"],\n      \"arguing_against_facts\": [\"Pulse is 61 bpm at rest\", \"No documented evidence of chronotropic failure during exercise\"],\n      \"support_level\": \"Weakly supported\"\n    },\n    \"Heart failure\": {\n      \"supporting_facts\": [\"Dyspnea\", \"Severe AS (likely HFpEF or valvular HF)\"],\n      \"arguing_against_facts\": [\"No orthopnea, no leg edema, clear lungs, normal JVP\"],\n      \"support_level\": \"Well-supported\"\n    },\n    \"Interstitial Lung Disease\": {\n      \"supporting_facts\": [\"History of GPA\", \"Upper lung volume loss on imaging\"],\n      \"arguing_against_facts\": [\"Stable imaging compared to remote past\", \"No crackles on exam\"],\n      \"support_level\": \"Weakly supported\"\n    }\n  },\n  \"Missing Diagnoses\": [\n    \"High-output heart failure (secondary to anemia)\",\n    \"Severe symptomatic aortic stenosis requiring surgical or transcatheter intervention\",\n    \"Gastrointestinal malignancy (screening not updated in 15 years)\",\n    \"Pulmonary hypertension\"\n  ],\n  \"Evaluation of Each Proposed Next Step\": {\n    \"Transfused 1 unit of packed red blood cells\": {\n      \"reasoning\": \"Premature. Transfusion should not be performed without laboratory evidence of significant anemia and assessing clinical stability.\",\n      \"harmful_or_contraindicated\": \"Potentially harmful if cause of anemia is not identified; risks fluid overload in the setting of severe AS.\"\n    },\n    \"Repeat transthoracic echocardiography\": {\n      \"reasoning\": \"Reasonable to assess for hemodynamic progression of AS or change in ventricular function.\",\n      \"harmful_or_contraindicated\": \"No.\"\n    },\n    \"Obtain a complete blood count\": {\n      \"reasoning\": \"Essential to evaluate for anemia.\",\n      \"harmful_or_contraindicated\": \"No.\"\n    },\n    \"Checked iron and ferritin, and reticulocyte indices\": {\n      \"reasoning\": \"Appropriate workup for microcytic or normocytic anemia.\",\n      \"harmful_or_contraindicated\": \"No.\"\n    }\n  },\n  \"Missing Next Steps\": [\n    \"BNP or NT-proBNP levels to assess heart failure status\",\n    \"Stool guaiac or FIT test given 15-year gap since last colonoscopy\",\n    \"Exercise stress testing (if safe) or cardiopulmonary exercise testing to evaluate exertional dyspnea vs. valve severity\",\n    \"Evaluation for occult GI bleeding (e.g., EGD/colonoscopy) if CBC confirms anemia\"\n  ],\n  \"Open Questions\": [\n    \"What is the current hemoglobin level?\",\n    \"What is the patient's current heart rate response to exertion (e.g., in-office walking test)?\",\n    \"What is the current BNP or NT-proBNP level?\",\n    \"Is there any evidence of occult GI bleeding?\"\n  ]\n}\n```",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Symptomatic severe aortic stenosis",
+    "Anemia (likely secondary to chronic gastrointestinal blood loss)",
+    "Heart failure with preserved ejection fraction (HFpEF)",
+    "Coronary artery disease",
+    "Sick sinus syndrome with chronotropic incompetence",
+    "Pulmonary hypertension",
+    "Gastrointestinal malignancy"
+  ],
+  "next_steps": [
+    "Obtain complete blood count with reticulocyte count and peripheral smear",
+    "Obtain iron studies, ferritin, and B12/folate levels",
+    "Obtain NT-proBNP or BNP level",
+    "Perform 12-lead ECG",
+    "Perform repeat transthoracic echocardiogram to assess for valve gradient progression and diastolic function",
+    "Perform fecal immunochemical test (FIT) or occult blood testing",
+    "Perform 6-minute walk test to assess for exercise-induced hypoxemia or chronotropic incompetence",
+    "Schedule gastroenterology consultation for colonoscopy given age and 15-year lapse in screening"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "condition": "critique_clinician",
+  "case_id": "case_35_2025",
+  "variant": "helpful",
+  "run": 2,
+  "intermediate": "```json\n{\n  \"Evaluation of Each Clinician Diagnosis\": {\n    \"Meningococcemia\": {\n      \"Supporting\": \"Fever, nonblanching rash, lethargy/uncomfortability.\",\n      \"Against\": \"Subacute progression over 3 days, lack of signs of septic shock, patient remained well-appearing for multiple days.\",\n      \"Status\": \"Weakly supported (but must be ruled out immediately due to acuity).\"\n    },\n    \"Kawasaki disease\": {\n      \"Supporting\": \"Fever >5 days, conjunctival injection, oral mucosal changes, cervical lymphadenopathy, swelling of hands and feet.\",\n      \"Against\": \"Rash morphology (nonblanching purpuric papules) is atypical for classic Kawasaki.\",\n      \"Status\": \"Well-supported.\"\n    },\n    \"Rocky Mountain spotted fever\": {\n      \"Supporting\": \"Fever, rash on extremities, summer camp history (tick exposure risk).\",\n      \"Against\": \"Rash typically begins on wrists/ankles and is macular/petechial, not primarily palpable purpura.\",\n      \"Status\": \"Weakly supported.\"\n    },\n    \"IgA vasculitis (HSP)\": {\n      \"Supporting\": \"Palpable purpura on lower extremities/buttocks, refusal to walk (arthralgia).\",\n      \"Against\": \"High fever, conjunctivitis, and significant systemic involvement are less common.\",\n      \"Status\": \"Well-supported.\"\n    },\n    \"MIS-C\": {\n      \"Supporting\": \"Fever, conjunctivitis, rash, extremity edema.\",\n      \"Against\": \"Usually occurs weeks after COVID-19 infection; lacks clear history of recent SARS-CoV-2.\",\n      \"Status\": \"Weakly supported.\"\n    },\n    \"Hand, foot, and mouth disease\": {\n      \"Supporting\": \"Fever, rash, oral lesions.\",\n      \"Against\": \"Nonblanching papules/purpura and systemic toxicity are inconsistent with typical enteroviral presentations.\",\n      \"Status\": \"Unsupported.\"\n    },\n    \"Measles\": {\n      \"Supporting\": \"Fever, conjunctivitis, rash.\",\n      \"Against\": \"Vaccination history, lack of cough/coryza, rash morphology (purpuric).\",\n      \"Status\": \"Unsupported.\"\n    }\n  },\n  \"Missing Diagnoses\": {\n    \"diagnoses\": [\n      \"Leukocytoclastic vasculitis (secondary to infection or drug)\",\n      \"Septic emboli (e.g., S. aureus)\",\n      \"Disseminated gonococcemia\",\n      \"Acute hemorrhagic edema of infancy (though slightly old for this diagnosis)\"\n    ]\n  },\n  \"Evaluation of Each Proposed Next Step\": {\n    \"Skin biopsy (H&E + DIF)\": \"Reasonable for characterizing vasculitis vs. vasculopathy; not contraindicated.\",\n    \"Echocardiography\": \"Essential if Kawasaki disease is high on the list, regardless of atypical features.\",\n    \"Dermatology consultation\": \"Reasonable; clinical morphology in pediatric rashes is often improved with expert assessment.\"\n  },\n  \"Missing Next Steps\": {\n    \"steps\": [\n      \"Blood cultures and empiric antibiotics (ceftriaxone) until meningitis/meningococcemia is ruled out.\",\n      \"Complete blood count with differential (evaluating for leukocytosis/neutrophilia or thrombocytopenia).\",\n      \"Inflammatory markers (CRP and ESR).\",\n      \"Urinalysis (to screen for hematuria/proteinuria suggestive of systemic vasculitis).\",\n      \"SARS-CoV-2 PCR and serology.\"\n    ]\n  },\n  \"Open Questions\": {\n    \"questions\": [\n      \"What is the current white blood cell count and platelet count?\",\n      \"Are there elevated inflammatory markers (CRP/ESR)?\",\n      \"Is there hematuria or proteinuria on urinalysis?\",\n      \"Has a travel or contact history for COVID-19 been thoroughly investigated?\",\n      \"Are there signs of involvement of other organ systems, such as cardiac enzymes or BNP?\"\n    ]\n  }\n}\n```",
+  "initial_response": null,
+  "differential_diagnoses": [
+    "Kawasaki disease (including atypical or incomplete forms)",
+    "IgA vasculitis (Henoch-Sch\u00f6nlein purpura)",
+    "Meningococcemia",
+    "Systemic infection with septic emboli (e.g., Staphylococcus aureus)",
+    "Multisystem inflammatory syndrome in children (MIS-C)",
+    "Rocky Mountain spotted fever"
+  ],
+  "next_steps": [
+    "Initiate empiric intravenous antibiotics (ceftriaxone) pending blood and CSF culture results",
+    "Obtain complete blood count, erythrocyte sedimentation rate, C-reactive protein, and procalcitonin",
+    "Obtain echocardiogram to evaluate for coronary artery abnormalities",
+    "Urinalysis to assess for glomerulonephritis or vasculitis-related renal involvement",
+    "Dermatology consultation for skin biopsy (histopathology and direct immunofluorescence)",
+    "Inflammatory cytokine panel and SARS-CoV-2 serology/PCR",
+    "Liver function tests and albumin levels"
+  ]
+}
