@@ -86,6 +86,7 @@ Results below are from K=3 runs using **Gemini gemini-3.1-flash-lite** for gener
 - **No condition fully breaks anchoring**: the harmful variant consistently underperforms helpful across all conditions, meaning the clinician's framing still influences the model even after self-critique.
 - **Critique-Clinician slightly improves accuracy on helpful inputs** (89.1% → 92.3%), suggesting that critically engaging with the clinician input can also surface useful reasoning — not just guard against bad inputs.
 - **Critique-Combined not yet run** — expected to combine the harm reduction of Critique-Clinician with the consistency of Critique-LLM.
+- **Accuracy vs. harm is a fundamental tradeoff**: No condition tested was able to simultaneously increase or maintain diagnostic accuracy *and* reduce harm reproduction. Conditions that reduced harm (e.g., Critique-LLM) tended to also reduce diagnostic accuracy, and vice versa. Designing an approach that improves both remains an open problem.
 
 ---
 
@@ -129,6 +130,10 @@ OPENAI_API_KEY=...
 ANTHROPIC_API_KEY=...
 ```
 
+### Provider and model flexibility
+
+Every component is independently configurable. You can run any single condition or all of them, swap the generation/critique model for any supported provider, and swap the evaluation judge for any supported provider — all via CLI flags. Supported providers: `openai`, `gemini`, `anthropic`. Models are specified as `"provider:model-name"` strings.
+
 ### Basic usage
 
 ```bash
@@ -157,7 +162,6 @@ python run.py --skip-eval
 python run.py --eval-only
 ```
 
-Models are specified as `"provider:model"` strings. Supported providers: `openai`, `gemini`, `anthropic`.
 
 ### Analyzing results
 
@@ -169,18 +173,16 @@ python analyze.py --csv       # save results/aggregate.csv
 
 ---
 
-## Contact
-
-Arjun Joshi — arjun0502@gmail.com
-
----
-
 ## Future Directions
 
-- **Harder case subset**: Many NEJM cases have high baseline accuracy, making anchoring effects harder to measure. Focus on cases with the largest accuracy gap between helpful and harmful variants — these are where anchoring matters most.
+- **Better case selection / move beyond NEJM**: Many NEJM cases have high baseline accuracy, making anchoring effects harder to measure. A near-term improvement is filtering to the hardest subset — cases with the largest accuracy gap between helpful and harmful variants, where anchoring matters most. Longer term, NEJM cases skew toward rare, diagnosis-first presentations and are likely in training data; more realistic evaluation requires cases drawn from routine clinical workflows where anchoring on a prior clinician's assessment is a common and practically important failure mode.
 
-- **Sequential diagnosis (Craft MD / NeurIPS approach)**: Instead of presenting all case information at once, reveal it sequentially as a clinician would encounter it. This prevents the model from using later findings to anchor early differential reasoning and better reflects real clinical workflow.
+- **Sequential / interactive diagnosis (Craft MD / NeurIPS approach)**: Instead of presenting all information at once, structure the interaction as an iterative back-and-forth between the clinician and the LLM — the clinician shares findings incrementally, the LLM responds and requests more information, and the differential evolves over multiple turns. This better reflects real clinical workflow and tests whether anchoring behaves differently when the model cannot see the full case upfront.
 
 - **Uncertainty-aware generation**: Explore whether prompting the model to express its uncertainty at each step changes anchoring behavior. When does the model know it has enough information to commit to a diagnosis?
 
-- **Move beyond NEJM cases**: NEJM cases skew toward rare, diagnosis-first presentations and are likely in training data. More realistic evaluation requires cases drawn from routine clinical workflows where anchoring on a prior clinician's assessment is a common and practically important failure mode.
+---
+
+## Contact
+
+Arjun Jain — arjun0502@gmail.com
