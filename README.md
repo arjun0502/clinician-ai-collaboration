@@ -57,36 +57,42 @@ Each condition × variant combination is run **K=3 times** independently. We rep
 
 Results below are from K=3 runs using **Gemini gemini-3.1-flash-lite** for generation and **GPT-4o-mini** as judge (N=61 cases per run).
 
-### Diagnostic Accuracy
+---
 
-| Condition | Variant | Avg Dx% | Best Dx% | Worst Dx% |
-|-----------|---------|---------|---------|---------|
-| Anchored | Helpful | 89.1% | 93.4% | 83.6% |
-| Anchored | Harmful | 80.3% | 83.6% | 77.0% |
-| Critique-Clinician | Helpful | 92.3% | 95.1% | 88.5% |
-| Critique-Clinician | Harmful | 79.2% | 82.0% | 75.4% |
-| Critique-LLM | Helpful | 88.5% | 91.8% | 86.9% |
-| Critique-LLM | Harmful | 74.3% | 75.4% | 73.8% |
+### Helpful Variant
 
-### Harm Reproduction
+Clinician input is correct: accurate differential + safe next steps.
 
-| Condition | Variant | Avg Harm% | Best(min) | Worst(max) | Avg %Severe/Death |
-|-----------|---------|----------|----------|----------|-----------------|
-| Anchored | Helpful | 9.5% | 8.1% | 11.4% | 3.8% |
-| Anchored | Harmful | 16.3% | 15.0% | 17.1% | 10.9% |
-| Critique-Clinician | Helpful | 10.6% | 9.8% | 11.0% | 7.6% |
-| Critique-Clinician | Harmful | 13.5% | 12.6% | 14.6% | 5.5% |
-| Critique-LLM | Helpful | 9.1% | 8.1% | 10.2% | 2.7% |
-| Critique-LLM | Harmful | 12.1% | 11.8% | 12.2% | 7.7% |
+| Condition | Avg Dx% | Best Dx% | Worst Dx% | Avg Harm% | Avg %Severe/Death |
+|-----------|---------|---------|---------|----------|-----------------|
+| Anchored | 89.1% | 93.4% | 83.6% | 9.5% | 3.8% |
+| Critique-Clinician | 92.3% | 95.1% | 88.5% | 10.6% | 7.6% |
+| Critique-LLM | 88.5% | 91.8% | 86.9% | 9.1% | 2.7% |
 
-### Key Takeaways
+### Harmful Variant
 
-- **Critique-Clinician reduces severe harm on harmful inputs**: the % of cases with a Severe/Death recommendation drops from 10.9% → 5.5% when the model critiques the clinician input first. Harm reproduction rate also falls from 16.3% → 13.5%.
-- **Critique-LLM most consistently reduces harm reproduction**: harm rate drops to 12.1% on harmful inputs (lowest of all conditions), but this comes at a cost to diagnostic accuracy (80.3% → 74.3%).
-- **No condition fully breaks anchoring**: the harmful variant consistently underperforms helpful across all conditions, meaning the clinician's framing still influences the model even after self-critique.
-- **Critique-Clinician slightly improves accuracy on helpful inputs** (89.1% → 92.3%), suggesting that critically engaging with the clinician input can also surface useful reasoning — not just guard against bad inputs.
+Clinician input is adversarial: wrong differential + dangerous next steps.
+
+| Condition | Avg Dx% | Best Dx% | Worst Dx% | Avg Harm% | Avg %Severe/Death |
+|-----------|---------|---------|---------|----------|-----------------|
+| Anchored | 80.3% | 83.6% | 77.0% | 16.3% | 10.9% |
+| Critique-Clinician | 79.2% | 82.0% | 75.4% | 13.5% | 5.5% |
+| Critique-LLM | 74.3% | 75.4% | 73.8% | 12.1% | 7.7% |
+
+---
+
+### Analysis
+
+**Helpful variant — NEJM cases are easy, but critique strategies trade off differently:**
+Across all conditions, baseline diagnostic accuracy is very high (89.1%), suggesting these NEJM cases are not particularly challenging for frontier LLMs even without any debiasing strategy. The two critique approaches diverge here in an interesting way: Critique-Clinician *improves* accuracy (89.1% → 92.3%) — likely because engaging critically with the clinician's reasoning also surfaces useful clinical logic — but harm simultaneously *increases* (9.5% → 10.6%, and severe/death cases nearly double from 3.8% → 7.6%). Critique-LLM shows the opposite pattern: accuracy is essentially flat (89.1% → 88.5%) while harm falls modestly (9.5% → 9.1%, severe/death 3.8% → 2.7%).
+
+**Harmful variant — harm is reduced, but at the cost of diagnostic accuracy:**
+Both critique strategies meaningfully reduce harm on adversarial inputs. Critique-Clinician cuts the overall harm rate from 16.3% → 13.5% and halves the severe/death case rate (10.9% → 5.5%). Critique-LLM achieves the lowest harm rate overall (12.1%) with severe/death at 7.7%. However, both conditions come with a real accuracy penalty: Critique-Clinician holds roughly steady (80.3% → 79.2%), but Critique-LLM drops noticeably (80.3% → 74.3%).
+
+**Overall — a fundamental accuracy–harm tradeoff:**
+No condition tested was able to simultaneously increase or maintain diagnostic accuracy *and* reduce harm reproduction. This tension holds across both variants: the approaches that most aggressively push back on harmful inputs also suppress useful clinical signal, degrading accuracy. Resolving this tradeoff is the central open problem.
+
 - **Critique-Combined not yet run** — expected to combine the harm reduction of Critique-Clinician with the consistency of Critique-LLM.
-- **Accuracy vs. harm is a fundamental tradeoff**: No condition tested was able to simultaneously increase or maintain diagnostic accuracy *and* reduce harm reproduction. Conditions that reduced harm (e.g., Critique-LLM) tended to also reduce diagnostic accuracy, and vice versa. Designing an approach that improves both remains an open problem.
 
 ---
 
