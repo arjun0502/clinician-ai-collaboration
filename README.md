@@ -103,7 +103,11 @@ clinician-ai-collaboration/
 ├── run.py              # entry point — generation + evaluation pipeline
 ├── analyze.py          # aggregate results/summary.csv → tables
 ├── requirements.txt
-├── shared_datasets/    # input data (vignettes, answers, harm labels)
+├── shared_datasets/
+│   ├── nejm_case_vignette.yaml     # 61 NEJM clinical case vignettes with case IDs
+│   ├── nejm_case_answers.json      # ground-truth final diagnoses per case
+│   ├── harm_classes_tbl.csv        # pre-labeled harmful next steps per case, annotated by severity (None/Mild/Moderate/Severe/Death)
+│   └── clinician_arguments.xlsx    # helpful and harmful clinician inputs per case
 ├── results/            # outputs (gitignored)
 │   ├── raw/            # per-case LLM generation outputs
 │   ├── eval/           # per-case evaluation outputs
@@ -112,7 +116,7 @@ clinician-ai-collaboration/
     ├── clients.py      # LLMClient: unified async interface for OpenAI / Gemini / Anthropic
     ├── config.py       # model defaults, paths, experiment settings
     ├── data.py         # loads vignettes, answers, harm table
-    ├── pipeline.py     # condition runners + LLM-as-judge evaluation
+    ├── pipeline.py     # core logic: run_anchored/run_critique_clinician/run_critique_llm/run_critique_combined implement each condition; evaluate_result runs the LLM judge scoring diagnostic accuracy + harm; results cached to disk and collected into summary.csv
     └── prompts.py      # all prompt templates
 ```
 
@@ -136,45 +140,61 @@ OPENAI_API_KEY=...
 ANTHROPIC_API_KEY=...
 ```
 
-### Provider and model flexibility
-
-Every component is independently configurable. You can run any single condition or all of them, swap the generation/critique model for any supported provider, and swap the evaluation judge for any supported provider — all via CLI flags. Supported providers: `openai`, `gemini`, `anthropic`. Models are specified as `"provider:model-name"` strings.
-
-### Basic usage
+### `run.py` — generation + evaluation
 
 ```bash
-# Default: Gemini generation, GPT-4o-mini evaluation, all conditions, K=3 runs
+python run.py [options]
+```
+
+| Parameter | Values | Default | Description |
+|-----------|--------|---------|-------------|
+| `--condition` | `anchored`, `critique_clinician`, `critique_llm`, `critique_combined` | *(all)* | Run a single condition. Omit to run all four. |
+| `--cases N` | any integer | *(all 61)* | Limit to the first N cases — useful for quick smoke tests. |
+| `--runs K` | any integer | `3` | Number of independent runs per condition/case. Results are cached by run index, so re-running extends rather than overwrites. |
+| `--critique-rounds N` | any integer | `1` | Number of critique-then-regenerate cycles for `critique_llm` and `critique_combined`. |
+| `--gen-model` | `provider:model` | `gemini:gemini-3.1-flash-lite` | Model used for generation (and critique, if applicable). Supported providers: `openai`, `gemini`, `anthropic`. Example: `anthropic:claude-sonnet-4-6`. |
+| `--eval-model` | `provider:model` | `openai:gpt-4o-mini` | Model used as the LLM judge for evaluation. Same provider options as above. Example: `openai:gpt-4o`. |
+| `--skip-eval` | flag | off | Generate outputs but skip evaluation. Use when you want to inspect raw generations before scoring. |
+| `--eval-only` | flag | off | Skip generation; evaluate already-generated raw results. Use when you want to re-score with a different eval model without regenerating. |
+
+**Examples:**
+
+```bash
+# Run everything with defaults
 python run.py
 
-# Quick smoke test (2 cases, 1 run)
+# Quick smoke test: 2 cases, 1 run
 python run.py --cases 2 --runs 1
 
-# Single condition only
-python run.py --condition anchored
+# Single condition, Claude generation, GPT-4o judge
+python run.py --condition critique_llm --gen-model "anthropic:claude-sonnet-4-6" --eval-model "openai:gpt-4o"
 
-# Use Claude for generation
-python run.py --gen-model "anthropic:claude-sonnet-4-6"
+# Re-score existing results with a different judge (no regeneration)
+python run.py --eval-only --eval-model "anthropic:claude-haiku-4-5"
 
-# Use GPT-4o as judge
-python run.py --eval-model "openai:gpt-4o"
-
-# More LLM self-critique rounds
-python run.py --critique-rounds 3
-
-# Generate only (skip evaluation)
+# Generate only, then evaluate separately
 python run.py --skip-eval
-
-# Evaluate existing results without regenerating
 python run.py --eval-only
 ```
 
+### `analyze.py` — aggregate and display results
 
-### Analyzing results
+Run after `run.py` to summarize `results/summary.csv` into tables.
 
 ```bash
-python analyze.py             # print avg/best/worst tables
-python analyze.py --verbose   # also print per-run detail
-python analyze.py --csv       # save results/aggregate.csv
+python analyze.py [options]
+```
+
+| Parameter | Description |
+|-----------|-------------|
+| *(none)* | Print avg / best@K / worst@K tables to stdout. |
+| `--verbose` | Also print a per-run detail table alongside the summary. |
+| `--csv` | Save aggregated results to `results/aggregate.csv`. |
+
+```bash
+python analyze.py            # summary tables in terminal
+python analyze.py --verbose  # include per-run breakdown
+python analyze.py --csv      # save to results/aggregate.csv
 ```
 
 ---
