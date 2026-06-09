@@ -169,6 +169,12 @@ python analyze.py --csv       # save results/aggregate.csv
 
 ---
 
+## Contact
+
+Arjun Joshi — arjun0502@gmail.com
+
+---
+
 ## Future Directions
 
 - **Harder case subset**: Many NEJM cases have high baseline accuracy, making anchoring effects harder to measure. Focus on cases with the largest accuracy gap between helpful and harmful variants — these are where anchoring matters most.
